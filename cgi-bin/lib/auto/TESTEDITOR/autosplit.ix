@@ -1,0 +1,14 @@
+# Index created by AutoSplit for lib/TESTEDITOR.pm (file acts as timestamp)
+package TESTEDITOR;
+sub open ;
+sub command ;
+sub print_edit_header ;
+sub print_help ;
+sub listing ;
+sub writing ;
+sub edit_assignment ;
+sub edit_block ;
+sub edit_question ;
+sub store_list ;
+sub print_listing ;
+1;

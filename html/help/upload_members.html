@@ -1,0 +1,104 @@
+<HTML>
+<HEAD>
+    <TITLE>Upload Help</TITLE>
+</HEAD>
+<BODY BGCOLOR="#e3d1ae" background="../gifs/ypaper.gif">
+<P><CENTER>
+    <img src="../gifs/classnet3.gif" alt="ClassNet banner"> 
+  </CENTER>
+<CENTER>
+  <h2> <font face="Arial, Helvetica, sans-serif">Uploading Student Data</font></h2>
+  <div align="left"> 
+    <p><font face="Arial, Helvetica, sans-serif">ClassNet allows you to prepare 
+      a file of students you want to add or delete, and upload this information 
+      to the ClassNet server. This is useful when you have several student records 
+      to add or delete.</font></p>
+    <h3><font face="Arial, Helvetica, sans-serif"> <BR>
+      Preparing the file: </font></h3>
+  </div>
+</CENTER>
+<UL>
+  <LI> 
+    <CENTER>
+      <div align="left"> <font face="Arial, Helvetica, sans-serif">Open a <b>text</b> 
+        file.<br>
+        <br>
+        </font> </div>
+    </CENTER>
+  <li><font face="Arial, Helvetica, sans-serif">The first line must read: #ClassNet1.0:Upload 
+    <br>
+    <br>
+    </font> </li>
+  <LI><font face="Arial, Helvetica, sans-serif">List student information one student 
+    per line </font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">To <b>add</b> a student, use 
+        the format:<BR>
+        +lastname,firstname,password,email@address </font></li>
+      <li><font face="Arial, Helvetica, sans-serif">Do not include any spaces.<br>
+        <br>
+        </font> </li>
+      <li><font face="Arial, Helvetica, sans-serif">To <b>delete</b> a student, 
+        use the format: <BR>
+        -lastname,firstname</font></li>
+      <li><font face="Arial, Helvetica, sans-serif">Do not include any spaces.<br>
+        <br>
+        </font> </li>
+    </ul>
+  <li><font face="Arial, Helvetica, sans-serif">Comments need to be preceded by 
+    a pound sign (#).</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">#This is a comment.</font><br>
+        <br>
+      </li>
+    </ul>
+  </li>
+  <li><font face="Arial, Helvetica, sans-serif">You may wish to store the file 
+    in a WWW directory.</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">If possible, the file should 
+        be available only through a password.</font></li>
+      <li><font face="Arial, Helvetica, sans-serif">It does <b>not</b> need to 
+        be an HTML file, viewable through a browser</font>.</li>
+    </ul>
+  </li>
+</UL>
+<h3><font face="Arial, Helvetica, sans-serif">Example:<BR>
+  </font></h3>
+<h4>#ClassNet1.0:Upload<br>
+  +Miller,George,apwd,gmiller@school.edu<br>
+  #this is a comment<br>
+  -Clooney,Mary <br>
+</h4>
+<p><font face="Arial, Helvetica, sans-serif"> This file would add George Miller 
+  and delete Mary Clooney. </font></p>
+<h3><font face="Arial, Helvetica, sans-serif">Uploading the File:</font></h3>
+<ul>
+  <li><font face="Arial, Helvetica, sans-serif">If the file is stored in a WWW 
+    directory, enter the URL for the file in the <b>Remote URL</b> field.</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">For example, http://www.school.edu/my_file</font></li>
+    </ul>
+  </li>
+  <li><font face="Arial, Helvetica, sans-serif">If the file is stored on your 
+    computer, click on <b>Browse</b> and locate the file.<br>
+    <br>
+    </font></li>
+  <li><font face="Arial, Helvetica, sans-serif">Click on the <b>Upload</b> button.</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">If you do not click on <b>Upload</b>, 
+        your file will not be uploaded, and student records will not be modified.</font> 
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+  </li>
+</ul>
+<P>
+<CENTER>
+  <HR SIZE="4">
+</CENTER>
+<P><font face="Arial, Helvetica, sans-serif">Press <STRONG>Back</STRONG> in your 
+  browser to return to the Upload page.<BR>
+  </font> 
+</BODY>
+</HTML>

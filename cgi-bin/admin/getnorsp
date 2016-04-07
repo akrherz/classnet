@@ -1,0 +1,43 @@
+#!/usr/bin/perl
+
+$/ = "\n";
+opendir(CLS,"/local1/classnet/Furlough%20Study/students");
+my @students = grep(!/^\.\.?/,readdir(CLS));
+close CLS;
+$nc = 0;
+$tot = 0;
+$nrsp = 0;
+$cl_stu = 0;
+open (LIST,"<list.dat") || die "Bad list.dat";
+my %email = {};
+while (<LIST>) {
+  chop;
+  my @names = split(",");
+  my $s = $names[0];
+  $email{substr($s,1)}= $names[3];
+}
+close LIST;
+open (NORSP,">norsp.dat") || die "Bad norsp.dat";
+foreach $sname (@students) {
+    $tot++;
+    my $fname = "/local1/classnet/Furlough%20Study/students/$sname/ungraded/Furlough%20Survey";
+    if (-e $fname) {
+      open(F,"<$fname") || die "Can't open "+$fname;
+      my $first = <F>;
+      close F;
+      if ($first =~ /SUBMIT=1/) {
+        $nrsp++;
+        my @sn = split('%',$sname);
+        print NORSP "$email{$sn[0]}\n";
+      }
+    }
+}
+print NORSP "$nrsp surveys ungraded.\n";
+close NORSP; 
+
+
+
+
+
+
+

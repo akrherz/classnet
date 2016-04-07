@@ -1,0 +1,641 @@
+#!/usr/bin/perl
+package main;
+
+#
+# Admin handles approving and deleting of classes
+#
+
+BEGIN {
+   unshift(@INC,'/home/classnet/cgi-bin/lib');
+}
+    
+# Modules to include
+require "optimize.pl";
+require FORUM;
+require CLASS;
+require MultipartBuffer;
+require TempFile;
+
+# Turn off file mask
+umask 000;
+
+# Parse incoming query into query object
+$query = new CGI;
+
+if (!(defined $query->param('admin'))) {
+    print_admin_menu();
+}
+
+# Perform the option
+$_ = $query->param('admin');
+SWITCH: {
+   /^Approve/	   &&  
+       do  {   # Approve any outstanding classes
+               $req_file = "$GLOBALS::CLASSNET_ROOT_DIR/class_req";
+               open(CLASS_REQ, "<$req_file") or
+                  ERROR::user_error($ERROR::NOREQUEST);
+               # lock file to keep new classes from being added
+               flock(CLASS_REQ,$LOCK_EX);
+               CN_UTILS::print_cn_header("Approve Classes");
+print <<"START_FORM";
+<FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/admin/admin">
+<INPUT TYPE=hidden NAME=admin VALUE="Perform Approval">
+<CENTER><H3>Classes</H3></CENTER>
+Click on classes to approve them. 
+<BLOCKQUOTE><B>Be sure to submit this form
+otherwise requested classes will be lost.</B>
+</BLOCKQUOTE>
+<P>
+START_FORM
+               while(<CLASS_REQ>) {
+                   chop;
+                   my ($name,$value) = split(/=/);
+                   if ($name eq 'END') {
+                     print <<"MID_FORM";
+<INPUT TYPE=\"checkbox\" NAME=approval VALUE=\"$list{'Class Name'}\"><b>$list{'Class Name'}</b> -- 
+$list{'First Name'} $list{'Last Name'} ( $list{'Email Address'} )<BR>
+
+MID_FORM
+                   } else {
+                       $list{$name} = $value;
+                   }
+               }
+               flock(CLASS_REQ,$LOCK_UN);
+               close CLASS_REQ;
+               # rename file so that new classes can be added in req file
+               rename($req_file,"$GLOBALS::CLASSNET_ROOT_DIR/class_req.old");    
+print <<"END_FORM";
+<p>
+<H4>
+<CENTER><INPUT TYPE="submit" NAME=Approve VALUE=Approve></CENTER>
+</H4>
+<H2><HR SIZE="4"></H2>
+</FORM>
+</BODY>
+</HTML>
+
+END_FORM
+           last SWITCH;
+
+       	   };
+   /^Delete/	   &&  
+       do  {  #
+              @cls_list = CLASS::list();
+              CN_UTILS::print_cn_header("Delete Classes");
+              print <<"START_FORM";
+<FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/admin/admin">
+<INPUT TYPE=hidden NAME=admin VALUE="Perform Deletion">
+<H3><CENTER>Classes</H3>
+<SELECT MULTIPLE SIZE=8  NAME="Class Name">
+START_FORM
+   
+              foreach $cls_name (@cls_list) {
+                  print qq|<OPTION> $cls_name\n|;
+              }
+
+print <<"END_FORM";
+</SELECT><p>
+<H4>
+<INPUT NAME=Delete TYPE=submit VALUE=Delete>
+</H4>
+</CENTER>
+<H2><HR SIZE="4"></H2>
+</FORM>
+</BODY>
+</HTML>
+
+END_FORM
+       	       last SWITCH;
+       	   };
+   /^Expire/	   &&  
+       do  {   # look for classes which have expired and list them
+
+          @cls_list = CLASS::list();
+          CN_UTILS::print_cn_header("Expire Classes");
+          print <<"START_FORM";
+<FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/admin/admin">
+<INPUT TYPE=hidden NAME=admin VALUE="Perform Expiration">
+START_FORM
+          $exp_cnt = 0;
+          foreach $cls_name (@cls_list) {
+             $cls = CLASS->new($cls_name);
+             if ($cls->expired()) {
+                 print qq|<INPUT TYPE=checkbox NAME=expire VALUE="$cls_name"><B>$cls_name</B><BR>|; 
+                 $exp_cnt++;
+             }
+          }
+
+          if ($exp_cnt == 0) {
+              print "No classes have expired.<BR>";
+          }
+
+          print <<"END_FORM";
+<p>
+<CENTER>
+<H4><INPUT TYPE=submit NAME=expireit VALUE=Expire>
+</H4>
+<a href=\"$GLOBALS::SCRIPT_ROOT/admin/admin\">Admin Menu</A>
+</CENTER>
+<H2><HR SIZE="4"></H2>
+</FORM>
+</BODY>
+</HTML>
+END_FORM
+       	       last SWITCH;       	   
+       	   };
+
+   /^Perform Approval/	   &&  
+       do  {   # create classes
+
+               $req_file = "$GLOBALS::CLASSNET_ROOT_DIR/class_req.old";
+               @approve_list = $query->param('approval');
+               open(CLASS_REQ, "<$req_file") or
+                  &ERROR::user_error($ERROR::NOREQUEST);
+               # store class values into %list. Verify that
+               # class name is on approve list then create
+               CN_UTILS::print_cn_header("Approval Status");
+               $i = 0;
+               while(<CLASS_REQ>) {
+                   chop;
+                   my ($name,$value) = split(/=/);
+                   if ($name eq 'END') {
+                       $cls_name = $list{'Class Name'};
+                       if (@approve_list[$i] eq $cls_name) {
+                           print "<B>$cls_name</B> approved.<BR>";
+                           create_class(%list);
+                           CN_UTILS::mail($list{'Email Address'},
+"$cls_name approved",
+"Class $cls_name is now available. If you have any suggestions or
+problems, click on Discuss or Question? on the Main Menu.");
+                           $i++;
+                       } else {
+                           print "<B>$cls_name</B> disapproved.<BR>";
+                           CN_UTILS::mail($list{'Email Address'},
+"Request to create $cls_name disapproved",
+"I'm sorry but we can't create ClassNet class $cls_name at this time.
+Please contact us for further details.");
+                       }
+                   } else {
+                     $list{$name} = $value;
+                   }
+               }
+               close CLASS_REQ;               
+               unlink $req_file;
+               print "<CENTER><a href=\"$GLOBALS::SCRIPT_ROOT/admin/admin\">Admin Menu</A></CENTER>";
+               CN_UTILS::print_cn_footer();
+       	       last SWITCH;       	   
+       	   };
+
+   /^Perform Deletion/	   &&  
+       do  {   # delete class names
+               my @list = $query->param('Class Name');
+	       my $msg = "";
+               foreach $name (@list) {
+                   CLASS::archive($name);
+                   FORUM::archive($name);
+                   my $dname = CN_UTILS::get_disk_name($name);
+                   my $file = "'$GLOBALS::ARCHIVE_ROOT_DIR/classes/$dname";
+                   system("tar cf '$file.tar' '$file'") and
+                     $msg .= "tar failed for $file. $!<BR>";
+                   system("$GZIP '$file.tar'") and
+                     $msg .= "gzip failed for $file.tar. $!<BR>";
+                   system("rm -r '$file'");
+                   $dname =~ s/\-/\%2D/g;
+                   $dname =~ s/\%20/-/g;
+                   $file = "$GLOBALS::ARCHIVE_ROOT_DIR/forums/$dname";
+                   system("tar cf '$file.tar' '$file'") and
+                     $msg .= "tar failed for $file. $!<BR>";
+                   system("$GZIP '$file.tar'") and
+                     $msg .= "gzip failed for $file.tar. $!<BR>";
+                   system("rm -r '$file'");   
+               }
+               CN_UTILS::print_cn_header("Classes deleted");
+               foreach $name (@list) {
+                   print "<B>$name<\B> archived<BR>";
+               }
+	     if ($msg != "") {
+		print "Errors:<BR>$msg";
+				  }
+               print "<CENTER><a href=\"$GLOBALS::SCRIPT_ROOT/admin/admin\">Admin Menu</A></CENTER>";
+               CN_UTILS::print_cn_footer();
+       	       last SWITCH;       	   
+       	   };
+
+   /^Perform Expiration/	   &&  
+       do  {   # expire selected classes
+               @expire_list = $query->param('expire');
+               foreach $name (@expire_list) {
+                   CLASS::archive($name);
+                   FORUM::archive($name);
+               }
+               CN_UTILS::print_cn_header("Classes Expired");
+               foreach $name (@expire_list) {
+                   print "<B>$name</B> archived<BR>\n";
+               }
+               print "<CENTER><a href=\"$GLOBALS::SCRIPT_ROOT/admin/admin\">Admin Menu</A></CENTER>";
+             CN_UTILS::print_cn_footer();
+       	       last SWITCH;       	   
+       	   };
+
+   /^E-Mail/	   &&  
+       do  {   # show classes to send mail to
+              @cls_list = CLASS::list();
+              CN_UTILS::print_cn_header("E-Mail Instructors");
+              print <<"START_FORM";
+<FORM METHOD="POST" ACTION="$GLOBALS::SCRIPT_ROOT/admin/admin">
+<INPUT TYPE=hidden NAME=admin VALUE="Send E-Mail">
+<H3><CENTER>Classes</H3>
+<SELECT MULTIPLE SIZE=8  NAME="Class Name">
+START_FORM
+   
+              foreach $cls_name (@cls_list) {
+                  print qq|<OPTION> $cls_name\n|;
+              }
+
+print <<"END_FORM";
+</SELECT><p>
+<INPUT TYPE=checkbox NAME='All Classes'> All
+</CENTER>
+<P>
+<b>Subject:</b> <INPUT NAME=Subject SIZE=40></H4>
+<CENTER>
+<TEXTAREA NAME=Message ROWS=15 COLS=70></TEXTAREA>
+<H4>
+<INPUT NAME=E-Mail TYPE=submit VALUE=E-Mail> <INPUT TYPE=reset>
+</H4>
+</CENTER>
+END_FORM
+   CN_UTILS::print_cn_footer("email.html");
+              last SWITCH;
+           };
+
+   /^Send E-Mail/	   &&  
+       do  {   # send mail to selected classes
+             send_email($query);
+             print_admin_menu();
+             last SWITCH;
+           };
+   /^Score/	   &&  
+       do  {   # send mail to selected classes
+              @cls_list = CLASS::list();
+              CN_UTILS::print_cn_header("Enter Test Scores");
+              print <<"START_FORM";
+<FORM ENCTYPE="multipart/form-data" METHOD="POST" ACTION="$GLOBALS::SCRIPT_ROOT/admin/admin">
+<INPUT TYPE=hidden NAME=admin VALUE="Perform Score">
+<H3><CENTER>Classes</H3>
+<SELECT SIZE=8 NAME="Class Name">
+START_FORM
+   
+              foreach $cls_name (@cls_list) {
+                  print qq|<OPTION> $cls_name\n|;
+              }
+
+print <<"END_FORM";
+</SELECT><p>
+</CENTER>
+<P>
+<BLOCKQUOTE>
+<H4><b>Assignment Name:</b> <INPUT NAME="Assignment Name" SIZE=20></H4>
+<H4><b>File Name:</b> <INPUT TYPE=file NAME=FileName SIZE=30></H4>
+<CENTER>
+<H4><INPUT TYPE=checkbox NAME='publish' VALUE=P> Publish</H4>
+</CENTER>
+<CENTER>
+<H4><INPUT NAME="Perform Score" TYPE=submit VALUE="Upload"> <INPUT TYPE=reset></H4> 
+</CENTER>
+</BLOCKQUOTE>
+</FORM>
+END_FORM
+   CN_UTILS::print_cn_footer("score.html");
+             last SWITCH;
+           };
+
+   /^Perform Score/	   &&  
+       do  {   # send mail to selected classes
+             my $cls_name = $query->param('Class Name');
+             my $asn_name = $query->param('Assignment Name');
+             my $file = $query->param('FileName');
+             if (!$cls_name) {
+                ERROR::user_error($ERROR::FIELDNF,"class name"); 
+             }
+             if (!$asn_name) {
+                ERROR::user_error($ERROR::FIELDNF,"assignment name"); 
+             }
+             if (!$file) {
+                ERROR::user_error($ERROR::FIELDNF,"file name"); 
+             }
+             my $hfile = '';
+	     while(<$file>) {
+		$hfile = "$hfile$_";
+             }
+             if ($hfile eq '') { 
+                 ERROR::user_error($ERROR::NOTDONE,"find file <B>$file</B>");
+                 exit(0);
+             }
+             #for MAC systems remove extra \rs
+             $hfile =~ s/\015\015/\015\012/g;
+             my $cls = CLASS->new($cls_name);
+             my $mem = $cls->owner();
+             $query->{'Username'}->[0] = $mem->{'Username'};
+             $query->{'Password'}->[0] = $mem->{'Password'};
+             my $asn = INCLASS->new($query,$cls,$mem);
+             my $miss = $asn->upload($hfile);
+             my $pub = $query->param('publish');
+             if ($pub eq 'P') {
+                 $asn->publish();
+             }
+             my $txt = "The testing service has created assignment $asn_name for ClassNet class $cls_name\n";
+             if ($pub eq 'P') {
+                 $txt .= "It is viewable by students.\n";
+             } else {
+                 $txt .= "It is not yet viewable by students.";
+             }
+             $txt .= "\n$miss\n";
+             $txt .= "\n***Assignment data***\n$hfile";
+             CN_UTILS::mail($GLOBALS::TEST_EMAIL,"$asn_name created for $cls_name",$txt);
+             # also send to class owner
+             last SWITCH;
+           };
+   ERROR::user_error($ERROR::NOOPTION);
+
+}
+
+sub print_admin_menu {
+    CN_UTILS::print_cn_header("Admin Menu");
+    print <<"ADMIN_FORM";
+<FORM ACTION="admin/admin" ENCTYPE="x-www-form-encoded" METHOD=POST>
+<CENTER>
+Choose an option:
+<H4>
+<INPUT TYPE=submit NAME=admin VALUE=Score>
+<INPUT TYPE=submit NAME=admin VALUE=Approve>
+<INPUT TYPE=submit NAME=admin VALUE=Delete>
+<INPUT TYPE=submit NAME=admin VALUE=Expire>
+<INPUT TYPE=submit NAME=admin VALUE=E-Mail>
+</H4>
+</CENTER>
+<H3>Legend</H3>
+<UL>
+<LI>Score - Enter scores for a class assignment
+<LI>Approve - Approve class creation
+<LI>Delete - Delete Classes
+<LI>Expire - Expire or archive classes.  Expiration notices will be sent
+if done before the 15th. Classes will be archived after the 15th.
+<LI>E-Mail - Send email to one or more instructors.
+</UL>
+<P>
+<CENTER>
+Statistics: <A 
+href="http://classnet3.cc.iastate.edu/stats/analog.html">ClassNet</A> 
+<BR> </CENTER> </FORM>
+ADMIN_FORM
+    CN_UTILS::print_cn_footer();
+    exit(0);
+}
+
+sub send_email {
+   my ($query) = @_;
+   my @cls_names;
+   my $email_recips = "";    	       
+   my $SENDMAIL = '/usr/sbin/sendmail';
+   my @cls_names = (defined $query->param('All Classes')) ?
+       CLASS::list():$query->param('Class Name');
+
+   $n = @cls_names;
+   if ($n == 0) {
+       ERROR::user_error($ERROR::NOTDONE,"mail message because you didn't select any recipients. Click <B>Back</b> and try again");
+   }
+   # Get in the email addresses of all members into one string
+   foreach $cls_name (@cls_names) {
+       $cls = CLASS->new($cls_name);
+       @mem_names = $cls->get_mem_names('instructor');
+       foreach $mem_name (@mem_names) {
+           print "name=$mem_name<BR>\n";
+           %mem_info = $cls->get_mem_info($mem_name);
+           my $recip_info = ", $mem_info{'Email Address'} ($mem_info{'First Name'} $mem_info{'Last Name'})";
+           $email_recips =~ s/$/$recip_info/;
+       }
+   }
+   open (MAIL, "| $SENDMAIL -t -n -oi $mem_info{'Email Address'}") ||
+       	   ERROR::system_error("admin", "send_email", "Open Mail", 
+       	       	       	       "From: ClassNet", "To: $mem_info{'Email Address'}");
+   print MAIL "Reply-to: $GLOBALS::ADMIN_EMAIL\n";
+   print MAIL "From: $GLOBALS::ADMIN_EMAIL (ClassNet Administrators)\n";
+   print MAIL "Bcc: $email_recips\n";
+   print MAIL "Subject: $query->{'Subject'}->[0]\n";
+   print MAIL "$query->{'Message'}->[0]\n\n";
+   close MAIL;   
+}
+
+sub create_class {
+    my (%list) = @_;
+
+    $cls = CLASS->new($list{'Class Name'});
+    $cls->create();
+
+    my $qinst = new CGI;
+    delete $qinst->{'Password'};
+    # build query object
+    foreach $name (keys %list) {
+        $qinst->add_parameter($name);
+        push (@{$qinst->{$name}},$list{$name});
+    }
+    # Add Instructor to Class
+    $inst = INSTRUCTOR->new($qinst, $cls);
+    $inst->add($cls,'owner');
+
+    # Set class options
+    $cls->set_reg_options($qinst->param('Verify Enrollment'),
+                          $qinst->param('Expiration Month'));
+
+    # add to class_list
+    CLASS::add_to_classlist($list{'Class Name'});
+
+    # Create forum for class
+    FORUM::new($list{'Class Name'},
+               "$list{'First Name'} $list{'Last Name'}",
+               $list{'Email Address'});
+}
+
+package CLASS;
+
+sub add_to_classlist {
+   my ($name) = @_;
+   my @class_names = list();
+   push (@class_names, $name);
+   open(CLASS_LIST, ">$GLOBALS::CLASSNET_ROOT_DIR/class_list") or 
+       &ERROR::system_error("CLASS","create","open","class list");
+   $, = "\n";
+   print CLASS_LIST sort { uc($a) cmp uc($b)} @class_names;
+   print CLASS_LIST "\n";
+   close(CLASS_LIST);
+   chmod 0700, "$GLOBALS::CLASSNET_ROOT_DIR/class_list";
+}
+
+sub add_to_mem_list {
+   my ($self, $mem_type, @name_list) = @_;
+
+   my $fname = "$self->{'Root Dir'}/admin/member_lists/${mem_type}s";
+   # Add class to classlist file
+   open(MEM_LIST, "<$fname");
+   my @mem_names = <MEM_LIST>;
+   push (@mem_names, @name_list);
+   open(MEM_LIST, ">$fname") or 
+       	   &ERROR::system_error("CLASS","add_to_mem_list","Open list",$mem_type);
+   chomp (@mem_names = sort @mem_names);
+   $, = "\n";
+   print MEM_LIST @mem_names;
+   close(MEM_LIST);
+   chmod 0700, $fname;
+
+}
+
+sub create {
+   my ($self) = @_;
+
+   # Does this class already exist?
+   if ($self->exists()) {
+       ERROR::user_error($ERROR::CLASSEX,$self->{'Name'});
+   }
+
+   # Create the directories
+   $self->create_dir_structure();
+
+}
+
+sub create_dir_structure {
+   my $self = shift;
+
+   # Create the directories
+   mkdir($self->{'Root Dir'},0700) or
+       &ERROR::system_error("CLASS","create_dir_structure","mkdir1",$self->{'Root Dir'});
+   chdir($self->{'Root Dir'});
+   (mkdir('admin',0700) and mkdir('admin/members',0700) and mkdir('admin/member_lists',0700) and
+    mkdir('admin/members/requests',0700) and mkdir('admin/members/instructors',0700) and
+    mkdir('admin/members/students',0700) and mkdir('assignments',0700) and mkdir('students',0700)) 
+       or
+   &ERROR::system_error("CLASS","create_dir_structure","mkdir2",$self->{'Name'});
+}
+
+sub remove_from_classlist {
+   my ($name) = @_;
+   my @class_list = list();
+
+   for ($i = 0; ( ($i < @class_list) and ($name ne $class_list[$i]) ); $i++) {}
+   if ($i < @class_list) {
+       splice(@class_list,$i,1);   
+       open(CLASS_LIST, ">$GLOBALS::CLASSNET_ROOT_DIR/class_list") or 
+       	   &ERROR::system_error("CLASS","remove_from_class_list","Open",$mem_type);
+       $, = "\n";
+       print CLASS_LIST @class_list;
+       print CLASS_LIST "\n";
+       close(CLASS_LIST);
+       chmod 0700, "$GLOBALS::CLASSNET_ROOT_DIR/class_list";
+   }
+}
+
+sub archive {
+  my ($name) = @_;
+  my $self = CLASS->new($name);
+  my $dname = "$GLOBALS::ARCHIVE_ROOT_DIR/classes";
+  system("cp -r $self->{'Root Dir'} $dname") and
+    ERROR::system_error("CLASS","archive","copy","$name:$!");
+  system("rm -r $self->{'Root Dir'}") and
+    ERROR::system_error("CLASS","archive","rm -r","$name:$!");
+  remove_from_classlist($name);
+}
+
+sub expired {
+    my ($self) = @_;
+    ($mon,$year) = split(/ /,$self->{'Expiration Month'});
+    @monname = ('Jan','Feb','Mar','Apr','May','Jun',
+            'Jul','Aug','Sep','Oct','Nov','Dec');
+    for ($i=0; $i < 12 && $monname[$i] ne $mon; $i++){};
+    $cls_tot = $i + 12 * $year;
+    $year = (localtime)[5] + 1900;
+    $cur_tot = (localtime)[4] + 12 * $year;
+    return $cur_tot >= $cls_tot;  
+}
+
+sub get_mem_names {
+   my ($self, $mem_type) = @_;
+   my @mem_names;
+
+   $/ = "\n";
+   open(MEM_LIST, "<$self->{'Root Dir'}/admin/member_lists/${mem_type}s");
+   chomp (@mem_names = <MEM_LIST>);
+   close(MEM_LIST);
+   @mem_names;
+   
+}
+
+sub get_mem_info {
+   my ($self,$uname) = @_;
+   my %pairs;
+
+   my $disk_uname = CN_UTILS::get_disk_name($uname);
+   my $mem_type = $self->mem_exists($disk_uname);
+   my $fname = "$self->{'Root Dir'}/admin/members/${mem_type}s/$disk_uname";
+   open(MEM_FILE, "<$fname") or
+       ERROR::user_error($ERROR::MEMBERNF,$uname);
+
+#   flock($fname, LOCK_EX);
+   chop($pair{'Member Type'} = $mem_type);
+   while (<MEM_FILE>) {
+       chop;
+       my ($name,$value) = split(/=/);
+       $pairs{$name} = $value;
+   }
+   ($pairs{'Last Name'}, $pairs{'First Name'}) = split(/, /,$uname);
+   return %pairs;
+}
+
+sub set_reg_options {
+   my ($self, $enroll,$month) = @_;
+   # Set options in admin/reg_options;
+   my $fname = "$self->{'Root Dir'}/admin/reg_options";
+   open(REG_OPT, ">$fname") or 
+       ERROR::system_error("INSTRUCTOR","set_reg_options","Open",$fname);
+   flock(REG_OPT, $LOCK_EX);
+   print REG_OPT "Verify Enrollment=$enroll\n";
+   print REG_OPT "Expiration Month=$month\n";
+   flock(REG_OPT, $LOCK_EX);
+   close(REG_OPT) or
+       ERROR::system_error("CLASS","set_reg_options","Close",$fname);
+   chmod(0600, $fname);
+}
+
+package INSTRUCTOR;
+
+sub add {
+
+   my($self, $cls, $priv) = @_;
+
+   # Username must be unique
+   $mem_type = $cls->mem_exists($self->{'Disk Username'});
+   if ($mem_type) {
+       ERROR::user_error($ERROR::MEMBEREX,$self->{'Username'});
+   }
+
+   $cls->add_to_mem_list('instructor',$self->{'Username'});
+   chdir("$self->{'Root Dir'}/admin/members/instructors");
+   open(INST_FILE, ">$self->{'Disk Username'}") or 
+     &ERROR::system_error("INSTRUCTOR","add","Open",self->{'Disk Username'});
+   print INST_FILE "Password=$self->{'Password'}\n";
+   print INST_FILE "Email Address=$self->{'Email Address'}\n";
+   print INST_FILE "Priv=$priv\n";
+   close(INST_FILE) or
+       ERROR::system_error("INSTRUCTOR","add","Close",self->{'Disk Username'}); 
+   chmod(0600, $self->{'Disk Username'});
+
+}
+
+
+
+
+
+
+
+
+
+

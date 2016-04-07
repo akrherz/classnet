@@ -1,0 +1,37 @@
+<?php $title = "ISU ClassNet Homepage"; include("../include/header.phtml"); ?>
+
+<h2>Managing the Virtual Classroom</h2>
+
+<p>ClassNet is designed to help manage and deliver instruction on the World-Wide
+Web and Internet.
+<br />Through ClassNet, classes can be created, assignments can be designed,
+administered and graded and communication between students and instructors
+can be facilitated.</p>
+
+<h3><A HREF="/cgi-bin/main-menu">ClassNet Main Menu</a></h3>
+<h3><A HREF="help/what_is_classnet.html">What is ClassNet?</a></h3>
+
+<h4>Note for Agronomy 206 Students:</h4>
+Please fill out this form with the ID number of your PRS transmitter. You only need to do this once.
+<form method="GET" action="save.phtml">
+<table>
+<tr><td><b>Enter your Name (First and Last)</b></td><td><input type="text" name="fname" size="10"> &nbsp; <input type="text" name="lname" size="20"></td></tr>
+<tr><td><b>Enter the ID number of the PRS transmitter</b></td><td><input type="text" name="id" size="20"></td></tr>
+<tr><td><b>Enter the middle 9 digits of your ISU number</b></td><td><input type="text" name="isu" size="20"></td></tr>
+</table>
+<br /><input type="submit" value="Submit Form">
+</form>
+
+<hr>
+
+<h4>Classnet News:</h4>
+
+<ul>
+ <li><b>10 Jan 2005:</b>
+  <br />All systems are go! Please let me know if you find any bugs.</li>
+ <li><b>1 Jan 2004:</b>
+  <br />Classnet is no longer supported by AIT.  However, it
+will be maintained by <a href="mailto:akrherz@iastate.edu">Daryl Herzmann (akrherz@iastate.edu)</a> and all questions should be sent to him.</li>
+</ul>
+
+<?php include("../include/footer.phtml"); ?>

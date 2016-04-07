@@ -1,0 +1,506 @@
+#!/usr/bin/perl
+package main;
+
+#
+# Student works with requests arriving from ClassNet studentss
+#
+
+BEGIN {
+   unshift(@INC,'/local/classnet/cgi-bin/lib');
+}
+    
+require CLASS;
+
+require "optimize.pl";
+
+# Turn off file mask
+umask 000;
+
+# Parse incoming query into query object
+$query = new CGI;
+
+# Instructor and class setup
+CN_UTILS::verify_pairs($query,'Class Name','Ticket');
+$cls = CLASS->new($query->param('Class Name'));
+($cls->exists()) or
+   &ERROR::user_error($ERROR::CLASSNF,$cls->{'Name'});
+$stud = $cls->get_member($query);
+
+if ($query->param('back')) {
+    CLASS::print_main_menu();
+    exit(0);
+}
+
+if ($query->param('memback')) {
+    $stud->print_menu($cls);
+    exit(0);
+}
+
+# Perform the option
+$_ = $query->param('cn_option');
+SWITCH: {
+   /^Complete/	   &&  
+       do  {   # Get the assignment form
+       	       CN_UTILS::verify_pairs($query,'Assignment Name');
+       	       $asn = $cls->get_assignment($query, $stud);
+               my %params = $asn->read();
+               if (defined $params{'PASSWORD'}) {
+      	           if (!$params{'MULT'} and $asn->get_status()) {
+                       ERROR::user_error($ERROR::COMPLETED);
+                   }
+                   $asn->verify();
+               } else {
+      	           $asn->send_ungraded_form();
+               }
+       	       last SWITCH;       	   
+       	   };
+   /^Mail Table/        &&                                                      
+       do {                                                                     
+               my $table = $query->param('table');                              
+               CN_UTILS::mail($stud->{'Email Address'},"Summary scores for $cls->{'Name'}",$table);
+	       $stud->print_menu($cls);                                         
+               last SWITCH;                                                     
+          };                                                                       
+/^Verify/	   &&  
+       do  {   # Get the assignment form
+       	       CN_UTILS::verify_pairs($query,'Assignment Name');
+       	       $asn = $cls->get_assignment($query, $stud);
+               my %params = $asn->read();
+               if ($params{'PASSWORD'} eq $query->param('proctor')) {
+      	           $asn->send_ungraded_form();
+               } else {
+                   CN_UTILS::print_cn_header("Incorrect Password");
+                   print "Incorrect password.<BR>Click on <B>BACK</B>
+once to reenter the password or twice to return to the <B>Student Menu</B>.";
+                   CN_UTILS::print_cn_footer();
+                   exit(0);
+               }
+       	       last SWITCH;       	   
+       	   };
+   /^Answers/	   &&  
+       do  {   #
+       	       CN_UTILS::verify_pairs($query,'Assignment Name');
+       	       $asn = $cls->get_assignment($query, $stud);
+      	       my $form = $asn->get_graded_form();
+       	       TEST::print_test_header("$asn->{'Name'}");
+       	       print "$GLOBALS::HR$form";
+               CN_UTILS::print_cn_footer();
+       	       last SWITCH;
+       	   };
+   /^Scores/	   &&  
+       do  {   #
+       	       # View all scores
+               my @asn_files = getAllAssignments($cls);
+               @stu = ("$stud->{'Username'}");
+       	       $cls->view_scores(\@stu, \@asn_files,$stud);
+       	       last SWITCH;       	   
+       	   };
+
+   /^Histogram/      &&
+       do  {   # Print the total score histogram
+               if (-e "$cls->{'Root Dir'}/scores.gif") {
+                   my $update = CN_UTILS::getTime("$cls->{'Root Dir'}/scores.gif");
+                   my $tot = 0;
+                   my @asn_files = getAllAssignments($cls);
+                   # Get an associative array of assignment types
+                   foreach $asn_name (@asn_files) {
+                       my $disk_name = CGI::escape($asn_name);
+                       my %asn_info = ASSIGNMENT::get_info($cls,$asn_name);
+                       my $asn_type = $asn_info{'Assignment Type'};
+                       my @scores = ($asn_type)->get_score($cls,$asn_name,$stud->{'Username'});
+                       my $sc = $scores[2];
+                       if ($sc =~ /(\?|\*|\-)/) {
+                         if ($sc =~ /(\d+)\?/) {
+                             $tot += $1;
+                         }
+                       } else {
+                             $tot += $scores[2];
+                       }
+                   }
+                   my $cname = $cls->{'Disk Name'};
+                   $cname =~ s/%/%25/g;
+                   my $gname = "$GLOBALS::SERVER_ROOT/cn_root/$cname/scores.gif";
+
+
+                   TEST::print_test_header('Histogram');
+                   print "<CENTER><H4>$self->{'Name'}</H4></CENTER>$GLOBALS::HR\n";
+                   print "<CENTER><H3>Histogram of Class
+Scores</H3><IMG BORDER=2 SRC=\"$gname\"><P><H3>Your Score: $tot</H3></CENTER><P>\n";
+                   print <<"HTML";
+Each bar in the histogram represents the number of students who got
+the total score indicated. <P>Last update: $update<P>
+</BODY></HTML>
+HTML
+                   exit(0);
+               } else {
+                   CN_UTILS::print_cn_header("Histogram?");
+                   print "The histogram plot is not currently available.";
+                   CN_UTILS::print_cn_footer();
+                   exit(0);
+               }
+               last SWITCH;
+           };
+
+   /^Personal Data/  &&  
+       do  {   # Get Member Information
+       	       $stud->print_edit_info_form($cls,$stud);
+       	       last SWITCH;
+
+       	   };
+
+   /^Perform Edit/	   &&  
+       do  {
+               ERROR::check_sample($query,'Edit Personal Data');
+               my $oldpwd = $stud->{'Password'};
+       	       $stud->change_info_file($query);
+               if ($oldpwd eq $stud->{'Password'}) {
+                   $stud->print_menu($cls);
+               } else {
+                   $cls->print_login();
+               }
+       	       last SWITCH;       	   
+       	   };
+
+   /^Email/	   &&  
+       do  {   #
+       	       $stud->print_email_form($cls);
+       	       last SWITCH;       	   
+       	   };
+
+   /^Chat/	   &&  
+       do  {   #
+       	       $stud->chat($cls);
+       	       last SWITCH;       	   
+       	   };
+
+   /^Discuss/	   &&  
+       do  {   #
+               $stud->discuss($cls);
+       	       last SWITCH;       	   
+       	   };
+
+   /^DiscHead/	   &&  
+       do  {   #
+	     my $cname = CGI::escape($cls->{'Name'});
+             my $ticket = CGI::escape($stud->{'Ticket'});
+             # call the assignments script to process command
+             my $url .= "&Class+Name=$cname";
+             $url .= "&Ticket=$ticket";
+    print <<"HTML";
+Content-type: text/html
+
+<HTML>
+
+<BODY $GLOBALS::BACKGROUND $GLOBALS::BGCOLOR>
+<table>
+<tr><td width="10%">
+<a href="student?memback=1$url" target="_top">Return to ClassNet</a>
+<td width="80%" align="center">
+<IMG SRC="$GLOBALS::SERVER_IMAGES/classnet.gif" ALT="Classnet Banner"></CENTER>
+<td width="10%">
+</tr>
+</table>
+</BODY>
+</HTML>
+HTML
+               last SWITCH;
+           };
+   /^DiscBody/	   &&  
+       do  {   #
+               my $forum = $cls->{'Disk Name'};
+               $ENV{'REQUEST_METHOD'} = 'GET';
+               $ENV{'PATH_INFO'} = '';
+               #convert - to %2D and %20 to - for netforum2
+               $forum =~ s/\-/\%2D/g;
+               $forum =~ s/\%20/-/g;
+               do "$GLOBALS::FORUM_DIR/$forum/a";
+       	       last SWITCH;       	   
+       	   };
+
+   /^Send Email/	   &&  
+       do  {   #
+               ERROR::check_sample($query,'Send Email');
+       	       $stud->send_email($query, $cls);
+               $stud->print_menu($cls);
+       	       last SWITCH;       	   
+       	   };
+
+   ERROR::user_error($ERROR::NOOPTION);
+
+}
+
+sub getAllAssignments {
+    my ($cls) = @_;
+    my @asn_files;
+    opendir(ASNDIR,"$cls->{'Root Dir'}/assignments");
+    @asn_files = grep(!/^\.\.?/,readdir(ASNDIR));
+    closedir(ASNDIR);
+    $n = @asn_files;
+    if ($n == 0) {
+        CN_UTILS::print_cn_header("Assignments?");
+        print "You don't have any assignments.";
+        CN_UTILS::print_cn_footer();
+        exit(0);
+    }
+    foreach $i (0..$#asn_files) {
+        $asn_files[$i] = CGI::unescape($asn_files[$i]);
+    }
+    return (sort { uc($a) cmp uc($b)} @asn_files);
+}
+
+package MEMBER;
+
+sub discuss {
+    my ($self,$cls) = @_;
+    my $cname = CGI::escape($cls->{'Name'});
+    my $ticket = CGI::escape($self->{'Ticket'});
+    # call the assignments script to process command
+    my $url .= "&Class+Name=$cname";
+    $url .= "&Ticket=$ticket";
+
+    print <<"HTML";
+Content-type: text/html
+
+<HTML>
+<HEAD>
+  <TITLE>$class Discussion</TITLE>
+</HEAD>
+<frameset rows="50,*" border="0">
+  <frame name=Header marginwidth="0" 
+marginheight="0" src="student?cn_option=DiscHead$url">
+  <frame name=NetForum src="student?cn_option=DiscBody$url">
+<noframes>
+<BODY>
+  Sorry! This document cannot be viewed without a frames-capable
+  browser.
+</BODY>
+</noframes>
+</frameset>
+</HTML>
+HTML
+}
+
+sub print_email_form {
+   my ($self, $cls) = @_;
+   my (@students, @instructors);
+
+   my $hasTable = CN_UTILS::hasTables();
+   # Get list of students (Student list may not actually exist)
+   if (open(STUDENTS,"<$GLOBALS::CLASSNET_ROOT_DIR/$cls->{'Disk Name'}/admin/member_lists/students")) {
+       @students = <STUDENTS>;
+       close(STUDENTS);
+   }
+
+   # Get list of instructors
+   my $inst_fname = "$GLOBALS::CLASSNET_ROOT_DIR/$cls->{'Disk Name'}/admin/member_lists/instructors";
+   open(INSTRUCTORS,"<$inst_fname") or
+       &ERROR::system_error("Instructor","membership","open",$inst_fname);
+   @instructors = <INSTRUCTORS>;
+   close(INSTRUCTORS);
+
+   $back_title = ($ENV{'SCRIPT_NAME'} =~ /instructor/)?
+       'Instructor Menu':'Student Menu';
+
+   # Print the form
+   
+   CN_UTILS::print_cn_header("Send Mail");
+   print <<"FORM";   
+<FORM METHOD=POST ACTION="$GLOBALS::SERVER_ROOT$ENV{'SCRIPT_NAME'}">
+<INPUT TYPE=hidden NAME="Class Name" VALUE="$cls->{'Name'}">
+<INPUT TYPE=hidden NAME="Ticket" VALUE="$self->{'Ticket'}">
+<INPUT TYPE=hidden NAME=cn_option VALUE="Send Email">
+<CENTER><H3>$cls->{'Name'}</H3></CENTER>
+<b>From:</b> $self->{'First Name'} $self->{'Last Name'}($self->{'Email Address'})<BR>
+<b>To:</B> (Select Names or click on All)<B>
+<CENTER>
+FORM
+   if ($hasTable) {
+       print "<TABLE border=0 width=50%>";
+       print "<TH ALIGN=CENTER><B>Students</B>\n";
+       print "<TH ALIGN=CENTER><B>Instructors</B>\n";
+       print "<TR><TD ALIGN=CENTER>\n";
+       print qq|<SELECT MULTIPLE NAME="Students" SIZE=5>|;
+       foreach $member (sort @students) {
+           print qq|<OPTION> $member\n|;
+       }
+       print "</SELECT>\n";
+       print "<TD ALIGN=CENTER>\n";
+       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";       	       
+       foreach $member (sort @instructors) {
+           print qq|<OPTION> $member\n|;
+       }
+       print "</SELECT><TR>\n";
+       print "<TD ALIGN=CENTER><INPUT TYPE=checkbox NAME=\"All Students\"> All\n";
+       print "<TD ALIGN=CENTER><INPUT TYPE=checkbox NAME=\"All Instructors\"> All\n";
+       print "</TABLE>\n";
+   } else {
+       print "Students<BR>";
+       print qq|<SELECT MULTIPLE NAME="Students" SIZE=5>|;
+       foreach $member (sort @students) {
+           print qq|<OPTION> $member\n|;
+       }
+       print "</SELECT><BR>";
+       print "<INPUT TYPE=checkbox VALUE=All NAME=\"All Students\"> All<P>";
+       print "Instructors<BR>";
+       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";       	       
+       foreach $member (sort @instructors) {
+           print qq|<OPTION> $member\n|;
+       }
+       print "</SELECT><BR>\n";
+       print "<INPUT TYPE=checkbox VALUE=All NAME=\"All Instructors\"> All\n";
+   }
+   print <<"FORM";
+</CENTER>
+<P>
+<b>Subject:</b> <INPUT NAME=Subject SIZE=40></H4>
+<CENTER>
+<TEXTAREA NAME=Message ROWS=15 COLS=70 WRAP=PHYSICAL></TEXTAREA>
+<H4><INPUT TYPE=submit NAME=submit VALUE=Send> <INPUT TYPE=reset>
+<BR><INPUT TYPE=submit NAME=memback VALUE="$back_title"></H4>
+</CENTER>
+FORM
+   CN_UTILS::print_cn_footer("email.html");
+}
+
+sub send_email {
+   my ($self, $query, $cls) = @_;
+   my @mem_names;
+   my $email_recips = "";    	       
+   my $SENDMAIL = '/usr/sbin/sendmail';
+   my @mem_names = $query->param('All Students') ?
+       $cls->get_mem_names('student'):$query->param('Students');
+   push (@mem_names, $query->param('All Instructors')?
+       $cls->get_mem_names('instructor'):$query->param('Instructors'));
+
+   $n = @mem_names;
+   if ($n == 0) {
+       ERROR::user_error($ERROR::NOTDONE,"mail message because you didn't select any recipients. Click <B>Back</b> and try again");
+   }
+   # Get in the email addresses of all members into one string
+  my $i = 0;
+  my $email_recips = '';    	       
+  foreach $mem_name (@mem_names) {
+       %mem_info = $cls->get_mem_info($mem_name);
+       my $recip_info = "$mem_info{'Email Address'} ($mem_info{'First Name'} $mem_info{'Last Name'})";
+       $i++;
+       if (($i % 50) == 0 || $i == $n) {
+           open (MAIL, "| $SENDMAIL -t -n -oi -f akrherz\@iastate.edu") ||
+       	       ERROR::system_error("MEMBER.pm", "send_email", "Open Mail", 
+       	           	       	       "From: $self->{'Username'}", "To: $mem_info{'Email Address'}");
+           print MAIL "To: $recip_info\n";
+           print MAIL "Reply-To: $self->{'Email Address'} ($self->{'First Name'} $self->{'Last Name'})\n";
+           print MAIL "From: $self->{'Email Address'} ($self->{'First Name'} $self->{'Last Name'})\n";
+           print MAIL "Bcc: $email_recips\n";
+           print MAIL "Errors-To: $self->{'Email Address'}\n";
+           print MAIL "Subject: $query->{'Subject'}->[0]\n";
+           print MAIL "$query->{'Message'}->[0]\n\n";
+           close (MAIL);
+           $email_recips = '';
+        } else {
+           $email_recips =~ s/$/, $recip_info/;
+        }
+   }
+   $self->print_menu($cls);
+   exit(0);
+}
+
+package CLASS;
+#patch
+sub get_mem_info {
+   my ($self,$uname) = @_;
+   my %pairs;
+
+   my $disk_uname = CN_UTILS::get_disk_name($uname);
+   my $mem_type = $self->mem_exists($disk_uname);
+   my $fname = "$self->{'Root Dir'}/admin/members/${mem_type}s/$disk_uname";
+   if (!(open(MEM_FILE, "<$fname"))) {
+       &ERROR::user_error($ERROR::MEMBERNF,$uname);
+   }
+
+#   flock($fname, LOCK_EX);
+   chop($pair{'Member Type'} = $mem_type);
+   while (<MEM_FILE>) {
+       chop;
+       my ($name,$value) = split(/=/);
+       $pairs{$name} = $value;
+   }
+   ($pairs{'Last Name'}, $pairs{'First Name'}) = split(/, /,$uname);
+   return %pairs;
+}
+#end patch
+sub get_assignment {
+    my ($self,$query,$mem,$asn_name) = @_;
+    $asn_name or $asn_name = $query->param('Assignment Name');
+    if (defined $asn_name) {
+        # find the assignment type
+        my %asn_info = ASSIGNMENT::get_info($self,$asn_name);
+        my $asn_type = $asn_info{'Assignment Type'};
+        if ($asn_type) {
+            return ($asn_type)->new($query,$self,$mem,$asn_name);
+        } else {
+            ERROR::user_error($ERROR::NOASNTYPE, $asn_name);
+        }
+    }
+}
+
+package ASSIGNMENT;
+
+sub new {
+   my($class, $query, $cls, $member, $asn_name) = @_;
+   my $self = {};
+   bless $self, $class;
+
+   $self->{'Name'} = (defined $asn_name)? $asn_name:$query->param('Assignment Name');
+   $self->{'Disk Name'} = CN_UTILS::get_disk_name($self->{'Name'});
+   $self->{'Form Root'} = "$cls->{'Root Dir'}/assignments/$self->{'Disk Name'}";
+   # if the assignment is published, it will be in the main assignment dir
+   # if it is not published, it will be in the assignments/.develop dir
+   if (-e $self->{'Form Root'}) {
+       $self->{'Dev Root'} = $self->{'Form Root'};
+   } else {
+       $self->{'Dev Root'} = "$cls->{'Root Dir'}/assignments/.develop/$self->{'Disk Name'}";
+   }
+   
+   # If student, set up assignment dirs
+   if ($member and ($member->{'Member Type'} eq 'student')) {
+       $self->{'Ungraded Dir'} = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/ungraded";
+       $self->{'Graded Dir'} = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/graded";
+       $self->{'Java Dir'} = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/java";
+       $self->{'Dialog Dir'} = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/dialog";
+   }
+
+   # Note type of editor
+   $self->{'Editor Type'} = 'TESTEDITOR';
+
+   # Store object ptrs
+   $self->{'Query'} = $query;
+   $self->{'Class'} = $cls;
+   $self->{'Member'} = $member;
+
+   return $self;
+}
+
+sub get_info {
+    my ($cls,$asn_name) = @_;
+
+   $disk_name = CN_UTILS::get_disk_name($asn_name);
+   $root = "$cls->{'Root Dir'}/assignments/$disk_name/options";
+   # if the assignment is published, it will be in the main assignment dir
+   # if it is not published, it will be in the assignments/.develop dir
+   if (!(-e $root)) {
+       $root = "$cls->{'Root Dir'}/assignments/.develop/$disk_name/options";
+   }
+   if (-e $root) {
+       $/ = "\n";
+       open(ASN,"<$root") or
+            ERROR::system_error('ASSIGNMENT','get_info','open',$root);
+       $header = <ASN>;
+       close ASN;
+       # default to type TEST
+       return ASSIGNMENT->unpack_assign_header($header);
+   } else {
+       return '';
+   }
+}
+
+1;

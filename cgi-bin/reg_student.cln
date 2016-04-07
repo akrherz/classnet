@@ -1,0 +1,180 @@
+#!/usr/bin/perl
+package main;
+
+#
+# Reg_student registers students for classes
+#
+
+BEGIN {
+   unshift(@INC,'/home/classnet/cgi-bin/lib');
+}
+    
+# Modules to include
+require "optimize.pl";
+
+# Turn off file mask
+umask 000;
+
+# Parse incoming query into query object
+$query = new CGI;
+
+if ($query->param('back')) {
+    CLASS::print_main_menu();
+    exit(0);
+}
+
+ERROR::check_sample($query,'Enroll Student');
+
+CN_UTILS::verify_pairs($query,'Class Name','First Name','Last Name',
+       	       	       'Password','Verify Password','Email Address');
+
+# Find the Class
+$cls = CLASS->new($query->{'Class Name'}->[0]);
+($cls->exists()) or
+   ERROR::user_error($ERROR::CLASSNF,$cls->{'Name'});
+
+# Create student
+$stud = STUDENT->new($query, $cls);
+
+# Verify passwords in the form
+($query->{'Verify Password'}->[0] eq $stud->{'Password'}) or
+   ERROR::user_error($ERROR::PWDVERIFY);
+
+# Either automatically add the student to the class or
+# to the list of those requesting enrollment
+$stud->add($cls);
+$fname = "$cls->{'Root Dir'}/admin/elist";
+unlink $fname;
+
+CLASS::print_main_menu();
+exit(0);
+
+package STUDENT;
+
+sub add {
+   my ($self, $cls) = @_;
+
+   # Must have unique usernames
+   if ($cls->mem_exists($self->{'Disk Username'})) {
+     ERROR::user_error($ERROR::MEMBEREX,$self->{'Username'});
+   }
+
+   if ($cls->get_uname($self->{'Email Address'})) {
+       ERROR::user_error($ERROR::EMAILEX,$self->{'Email Address'});
+   }
+
+   if ($cls->{'Verify Enrollment'} == 2) {
+     ERROR::user_error($ERROR::CLOSED);
+   }
+   # Either automatically enroll in class or place on request list
+   if ($cls->{'Verify Enrollment'} == 1) {
+       chdir("$self->{'Root Dir'}/admin/members/requests");
+   }
+   else {
+       chdir("$self->{'Root Dir'}/admin/members/students");
+   }
+
+   open(STUD_FILE, ">$self->{'Disk Username'}") or 
+     ERROR::system_error("STUDENT","add","Open",$self->{'Disk Username'});
+   print STUD_FILE "Password=$self->{'Password'}\n";
+   print STUD_FILE "Email Address=$self->{'Email Address'}\n";
+   close(STUD_FILE) or
+     ERROR::system_error("STUDENT","add","Close",$self->{'Disk Username'});    
+   chmod(0600, $self->{'Username'});
+
+   # Create student assignment directories if necessary
+   if ($cls->{'Verify Enrollment'} == 1) {
+       my @mem_list = $cls->get_mem_names('requests');
+       my $n = @mem_list;
+       if ($n == 1) {
+           @mem_list = $cls->get_mem_names('instructor');
+           foreach $inst (@mem_list) {
+               my %info = $cls->get_mem_info($inst);
+               if (($info{'Priv'} =~ /students/) or ($info{'Priv'} =~ /owner/)) {
+                   CN_UTILS::mail($info{'Email Address'},
+                      'Username approvals requested',
+                      "One or more students have requested to enroll in class $cls->{'Name'}.
+To approve, login to ClassNet and click the Approve button on the 
+Instructor/Members menu.");
+               }
+           }
+       }
+   } else {
+       $cls->create_stud_dirs($self->{'Disk Username'}); 
+       $cls->add_to_mem_list('student',$self->{'Username'});
+   }
+}
+
+package CLASS;
+
+sub create_stud_dirs {
+
+   my ($self, $disk_uname) = @_;
+
+   my $stud_root_dir = $self->{'Root Dir'} . "/students/" . $disk_uname;
+   my $uname = CGI::unescape($disk_uname);
+   mkdir($stud_root_dir,0700) or
+       ERROR::system_error("CLASS","create_stud_dirs","mkdir root",$stud_root_dir);
+   chdir($stud_root_dir);
+   (mkdir('graded',0700) and 
+    mkdir('ungraded',0700) and
+    mkdir('dialog',0700) and
+    mkdir('java',0700)) or
+      ERROR::system_error(CLASS,"create_stud_dirs","mkdir graded",$stud_root_dir);
+}
+
+sub add_to_mem_list {
+   my ($self, $mem_type, @name_list) = @_;
+
+   my $fname = "$self->{'Root Dir'}/admin/member_lists/${mem_type}s";
+   #$dir = "my $self->{'Root Dir'}/admin/members/${mem_type}s/";
+   #opendir(DIR,$dir);
+   #@files = readdir(DIR);
+   #close(DIR);
+   #open(LIST,">$fname");
+   #flock(LIST,$LOCK_EX);
+   #foreach $name (sort @files) {
+   #   if ($name ne '.' && $name ne '..') {
+   #	   print LIST CGI::unescape($name),"\n";
+   #   }
+   #}
+   #flock(LIST,$LOCK_UN);
+   #close(LIST);
+   # Add class to classlist file
+   open(MEM_LIST, "<$fname");
+   my @mem_names = <MEM_LIST>;
+   push (@mem_names, @name_list);
+   close(MEM_LIST);
+   open(MEM_LIST, ">$fname") or 
+       ERROR::system_error("CLASS","add_to_mem_list","Open list",$mem_type);
+   flock(MEM_LIST,$LOCK_EX);
+   chomp (@mem_names = sort @mem_names);
+   $, = "\n";
+   print MEM_LIST @mem_names;
+   flock(MEM_LIST,$LOCK_UN);
+   close(MEM_LIST);
+   chmod 0700, $fname;
+   $fname = "$self->{'Root Dir'}/admin/elist";
+   unlink $fname;
+}
+
+sub get_mem_info {
+   my ($self,$uname) = @_;
+   my %pairs;
+
+   my $disk_uname = CN_UTILS::get_disk_name($uname);
+   my $mem_type = $self->mem_exists($disk_uname);
+   my $fname = "$self->{'Root Dir'}/admin/members/${mem_type}s/$disk_uname";
+   open(MEM_FILE, "<$fname") or
+       ERROR::user_error($ERROR::MEMBERNF,$uname);
+
+#   flock($fname, LOCK_EX);
+   chop($pair{'Member Type'} = $mem_type);
+   while (<MEM_FILE>) {
+       chop;
+       my ($name,$value) = split(/=/);
+       $pairs{$name} = $value;
+   }
+   ($pairs{'Last Name'}, $pairs{'First Name'}) = split(/, /,$uname);
+   return %pairs;
+}

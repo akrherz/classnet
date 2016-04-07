@@ -1,0 +1,33 @@
+<html>
+<HEAD>
+<TITLE>General Form of Linear Equations Ex1</TITLE>
+<!-- Mark J. Van Gorp, 1/20/1997, java-server/record/replay version -->
+<!-- Randall W. Bower, 6/20/1996 -->
+</HEAD>
+
+<BODY bgcolor="white">
+
+<CENTER>
+
+  <H2>Linear Equations<br>
+    General form: <font color="green">a</font><font color="red">X</font> + 
+    <font color="green">b</font><font color="red">Y</font> = <font color="green">c</font>
+  </H2>
+  <HR>
+
+  <APPLET ARCHIVE="LessonGraph.zip" CODE="LinearLesson.class" width=450 height=425>
+  </APPLET>
+
+  <HR>
+  <a href="http://classnet.cc.iastate.edu/cgi-bin/main-menu">ClassNet Main Menu</a>
+  <br> 
+  <a href="http://classnet.cc.iastate.edu/graph/help.html">Help</a>
+  <HR>
+  <i>Copyright 1996, Iowa State University</i>
+
+  <HR>
+</CENTER>
+Send comments about ClassNet or LessonGraph to <A HREF="http://classnet.cc.iastate.edu/cgi-bin/mail">Mark J. Van Gorp</A><BR>
+</BODY>
+</html>
+

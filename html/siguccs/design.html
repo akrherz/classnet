@@ -1,0 +1,75 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Author" CONTENT="Pete Boysen">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.03 [en] (WinNT; I) [Netscape]">
+   <TITLE>ClassNet Java Design</TITLE>
+</HEAD>
+<BODY>
+
+<CENTER>
+<H3>
+ClassNet Java&nbsp;<IMG SRC="cup.gif" HEIGHT=25 WIDTH=32>Design</H3></CENTER>
+
+<UL>
+<LI>
+<FONT SIZE=+1>Three tiered system with database backend and applet frontend</FONT></LI>
+
+<LI>
+<FONT SIZE=+1>Integrated messaging system</FONT></LI>
+
+<LI>
+<FONT SIZE=+1>Extensible assignment framework for growing functionality</FONT></LI>
+
+<LI>
+<FONT SIZE=+1>Instructor Application to allow for local development of
+assignments</FONT></LI>
+
+<LI>
+<FONT SIZE=+1>Calendar functions to report due dates and other class events</FONT></LI>
+
+<LI>
+<FONT SIZE=+1>"guide on the side" design</FONT></LI>
+
+<LI>
+<FONT SIZE=+1>multi-lingual</FONT></LI>
+
+<LI>
+<FONT SIZE=+1>it will be freely available</FONT></LI>
+</UL>
+
+<CENTER>
+<H3>
+<FONT SIZE=+1>Assignment Framework</FONT></H3></CENTER>
+<FONT SIZE=+1>An assignment has attributes and the ability to read and
+write to a file (that's it!). Subclasses of assignment can add functionality
+like scores, due date etc.&nbsp; For example,</FONT>
+<UL>
+<LI>
+<FONT SIZE=+1>A test is an assignment consisting of a sequence of questions.
+The questions include multiple-choice, fill-in-the-blank, essay or listbox
+items (item is a framework as well).</FONT></LI>
+
+<LI>
+<FONT SIZE=+1>A weather forecast is a test in which the answers to the
+items change on a daily basis.</FONT></LI>
+
+<LI>
+<FONT SIZE=+1>A survey is a test in which the answers are not graded but
+tabulated.</FONT></LI>
+
+<LI>
+<FONT SIZE=+1>A student evaluation is a survey which does not permit the
+instructor to identify answers by student.</FONT></LI>
+</UL>
+<FONT SIZE=+1>When students complete an assignment, they see an HTML version,
+permitting any media or applets to be included.</FONT><FONT SIZE=+1></FONT>
+
+<P><FONT SIZE=+1>You are free to extend this framework with new types of
+assignments to meet the needs of your faculty and, hopefully to share with
+others.</FONT><FONT SIZE=+1></FONT>
+
+<P><FONT SIZE=+1><A HREF="construct.html">How are assignments constructed
+by the instructor?</A></FONT>
+</BODY>
+</HTML>

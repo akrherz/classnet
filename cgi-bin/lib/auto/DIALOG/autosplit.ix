@@ -1,0 +1,17 @@
+# Index created by AutoSplit for lib/DIALOG.pm (file acts as timestamp)
+package DIALOG;
+sub create ;
+sub delete ;
+sub upload ;
+sub get_graded_form ;
+sub get_score ;
+sub send_ungraded_form ;
+sub submit ;
+sub submit_edit_changes ;
+sub send_edit_form ;
+sub print_dialog_header ;
+sub get_new_form ;
+sub get_stats ;
+sub format_stats ;
+sub format_raw_data ;
+1;

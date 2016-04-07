@@ -1,0 +1,94 @@
+#!/usr/bin/perl
+package main;
+
+#
+# created by Pete Boysen, Sep 1996
+# This script will copy the archive the classnet and forum files and
+# put them in /local/archive
+#
+
+BEGIN {
+   unshift(@INC,'/home/classnet/cgi-bin/lib');
+}
+
+require CLASS;
+require FORUM;
+
+$SENDMAIL = '/usr/sbin/sendmail';
+$GZIP     = '/usr/bin/gzip';
+$GUNZIP   = '/usr/bin/gunzip';
+
+($sec,$min,$hour,$mday,$mon,$year,$wday,$yday) = localtime(time);
+# get expired classes
+@cls_list = CLASS::list();
+@elist = ();
+foreach $cls_name (@cls_list) {
+    my $cls = CLASS->new($cls_name);
+    if ($cls->expired()) {
+        push(@elist,$cls_name);
+    }
+}
+# expire if later than 14th, mail notice otherwise
+if ($mday < 15) {
+    $msg = "
+
+Your ClassNet class will expire on the 15th of this month if you do nothing. 
+
+To keep it available, select the Class Options on the Instructor Menu
+and change the expiration date. You may also want to use the Renew
+option on the Members menu to clear out student and discussion records
+for a new class of students.";
+    foreach $name (@elist) {
+        my $cls = CLASS->new($name);
+        my $inst = $cls->owner();
+        my $i_email = $inst->{'Email Address'};
+        mail($i_email,"Class $name is about to expire",$msg);
+    }
+    $subj = "Expiration Notices sent";
+} else {
+    my $msg = '';
+    foreach $name (@elist) {
+        # move to archive directory and remove from list of classes
+        CLASS::archive($name);
+        FORUM::archive($name);
+        # prepare for copying
+        my $dname = CN_UTILS::get_disk_name($name);
+        my $file = "$GLOBALS::ARCHIVE_ROOT_DIR/classes/$dname";
+        if (-e '$file.tar') {
+           system("rm '$file.tar'");
+        }
+        system("tar cf '$file.tar' '$file'") and
+            $msg .= "tar failed for $file. $!\n";
+        if (-e '$file.tar.gz') {
+            system("rm '$file.tar.gz'");
+        }
+        system("$GZIP '$file.tar'") and
+            $msg .= "gzip failed for $file.tar. $!\n";
+        system("rm -r '$file'");
+        $dname =~ s/\-/\%2D/g;
+        $dname =~ s/\%20/-/g;
+        $file = "$GLOBALS::ARCHIVE_ROOT_DIR/forums/$dname";
+        system("tar cf '$file.tar' '$file'") and
+            $msg .= "tar failed for $file. $!\n";
+        system("$GZIP '$file.tar'") and
+            $msg .= "gzip failed for $file.tar. $!\n";
+        system("rm -r '$file'");   
+    }
+    $subj = "Classes Expired";
+    unless($msg eq '') {
+        mail("akrherz\@iastate.edu","Expire failed",$msg);
+    }
+}
+mail("akrherz\@iastate.edu",$subj,join("\n",@elist));
+
+sub mail {
+  my($destination,$subject,$body) = @_;
+open (MAIL,"| $SENDMAIL -t -n -oi $destination") || die ("$SCRIPT: Can't open $mailprog: $!\n");
+print MAIL "From: akrherz\@iastate.edu\n";
+print MAIL "To: $destination\n";
+print MAIL "Subject: $subject\n";
+print MAIL "$body\n";
+close MAIL;
+}  
+
+1;

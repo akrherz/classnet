@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+BEGIN {
+   unshift(@INC,'/local/classnet/cgi-bin/lib');
+}
+
+use ERROR;
+use JAVA;
+use GLOBALS;
+use CGI;
+use CLASS;
+use CN_UTILS;
+use MEMBER;
+use STUDENT;
+use INSTRUCTOR;
+use ASSIGNMENT;
+use TEST;
+use EDITOR;
+use TESTEDITOR;
+use FORECAST;
+use EVAL;
+use FORUM;
+1;
+

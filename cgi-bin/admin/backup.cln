@@ -1,0 +1,48 @@
+#!/usr/bin/perl
+package main;
+
+#
+# created by Pete Boysen, Jan 1999
+# This script will backup /local1 directory and rotate backup files
+#
+
+$SENDMAIL = '/usr/sbin/sendmail';
+$GZIP     = '/usr/bin/gzip';
+$GUNZIP   = '/usr/bin/gunzip';
+
+$backdir = "/home/classnet/backup";
+
+# delete all gzip files older than 2 weeks
+@files = `find $backdir -name 'cn*.tar.gz' -mtime +4 -print`; 
+foreach $original (@files) {
+    system "rm $original";
+}
+
+my @tm = localtime(time);
+@monname = ('Jan','Feb','Mar','Apr','May','Jun',
+            'Jul','Aug','Sep','Oct','Nov','Dec');
+my $year = 1900 + $tm[5];
+my $fname = "cn$tm[3]$monname[$tm[4]]$year.tar";
+
+system("cd /;tar cf - /local1 | gzip > '$backdir/$fname'.gz") and
+  mail("akrherz\@iastate.edu","Classnet backup error","$fname.tar failed for /local1"); 
+
+#system("cd /;tar cf '$backdir/$fname' '/local1'") and
+#  mail("akrherz\@iastate.edu","Classnet backup error","$fname.tar failed for /local1"); 
+
+#system("$GZIP '$backdir/$fname'") and
+#  mail("akrherz\@iastate.edu","Classnet backup error","$fname.tar.gz failed for /local1"); 
+
+exit(0);
+
+sub mail {
+  my($destination,$subject,$body) = @_;
+open (MAIL,"| $SENDMAIL -t -n -oi $destination") || die ("$SCRIPT: Can't open $mailprog: $!\n");
+print MAIL "From: akrherz\@iastate.edu\n";
+print MAIL "To: $destination\n";
+print MAIL "Subject: $subject\n";
+print MAIL "$body\n";
+close MAIL;
+}  
+
+1;

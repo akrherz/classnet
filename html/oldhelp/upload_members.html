@@ -1,0 +1,43 @@
+<HTML>
+<HEAD>
+    <TITLE>Upload Help</TITLE>
+</HEAD>
+<BODY BGCOLOR="#e3d1ae">
+<P><CENTER><IMG SRC="../gifs/classnet.gif" WIDTH="405" HEIGHT="50" ALIGN=
+"BOTTOM" NATURALSIZEFLAG="0"></CENTER>
+<H1><CENTER>Upload Help</CENTER>
+</H1>
+<H3><HR SIZE="4"></H3>
+You can prepare a file from administrative records or an editor describing
+students you want to add or delete and upload this information to ClassNet.
+This process is useful when you have multiple student records or have local
+procedures which can generate lists of students to be added to the class.<BR>
+<BR>
+Follow these guidelines in preparing the file:
+<UL>
+  <LI>Edit a text file
+  <LI>The first line should be: #ClassNet1.0:Upload
+  <LI>List student information one student per line 
+  <LI>To add a student, use the format<BR>
+<BR>
++last_name,first_name,password,email_address
+  <LI>To delete a student, use the format<BR>
+<BR>
+-last_name,first_name
+  <LI>To include a comment, put a #  in column 1
+  <LI>Put the file in a WWW directory, preferably password-protected.
+</UL>
+<H4>Example<BR>
+</H4>
+<PRE>#ClassNet1.0:Upload
++Miller,George,apwd,gmiller@school.edu
+#this is a comment
+-Clooney,Mary</PRE>
+<BR>
+This file would add George Miller and delete Mary Clooney. The filename
+you choose for this file should be entered in the Upload editor. (e.g. http://www.school.edu/my_file
+if the filename was my_file.)
+<P><CENTER><HR SIZE="4"></CENTER>
+<P>Press <STRONG>Back</STRONG> in your browser to return to the Upload page.<BR>
+</BODY>
+</HTML>

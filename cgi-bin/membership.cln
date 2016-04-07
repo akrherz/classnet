@@ -1,0 +1,735 @@
+#!/usr/bin/perl
+package main;
+
+#
+# Membership
+#
+
+BEGIN {
+   unshift(@INC,'/home/classnet/cgi-bin/lib');
+}
+    
+require "optimize.pl";
+require CLASS;
+require MultipartBuffer;
+require TempFile;
+
+# Turn off file mask
+umask 000;
+
+# Parse incoming query into query object
+$query = new CGI;
+
+
+# Instructor and course setup
+CN_UTILS::verify_pairs($query,'Class Name','Ticket');
+$cls = CLASS->new($query->param('Class Name'));
+($cls->exists()) or
+   ERROR::user_error($ERROR::CLASSNF,$cls->{'Name'});
+
+
+$inst = $cls->get_member($query);
+
+if ($query->param('cn_option') ne 'Perform Edit') {
+   ($inst->{'Member Type'} =~ /instructor/) or
+       ERROR::user_error($ERROR::NOPERM);
+}
+
+if ($query->param('memback')) {
+    $cls->member_menu($inst);
+    exit(0);
+}
+
+# Perform the option
+$_ = $query->param('cn_option');
+SWITCH: {
+   /^Delete/	   &&  
+       do  {   #
+               ERROR::check_sample($query,'Delete Member');
+       	       $mem_name = get_mem_name();
+       	       ($inst->delete_member($cls, $mem_name)) or
+       	       	   ERROR::user_error($ERROR::NOTDONE,"remove $mem_name");
+               $cls->member_menu($inst);
+       	       last SWITCH;
+       	   };
+   /^List/	   &&  
+       do  {   #
+               $cls->print_member_list();
+       	       last SWITCH;
+       	   };
+
+   /^Approve/	   &&  
+       do  {   # Get students requesting enrollment
+               $cls->print_approval_list($inst);
+       	       last SWITCH;
+
+       	   };
+
+   /^Enroll Request Members/  &&  
+       do  {   # Add the students
+               ERROR::check_sample($query,'Enroll Members');
+       	       $inst->enroll_req_members($query, $cls);
+       	       last SWITCH;
+
+       	   };
+
+   /^Edit/  &&  
+       do  {   # Get Member Information
+       	       $mem_name = get_mem_name();
+       	       $mem = $cls->get_member(0,$mem_name);
+       	       $inst->print_edit_info_form($cls, $mem);
+       	       last SWITCH;
+
+       	   };
+
+   /^Perform Edit/	   &&  
+       do  {   # change query to look like member to be changed
+               ERROR::check_sample($query,'Change Member Data');
+               # $query->{'Username'}->[0] = $query->param('Mem_Username');
+               # $query->{'Password'}->[0] = $query->param('Mem_Password');
+               $mem = $cls->get_member($query,$query->param('Mem_Username'));
+               my $oldpwd = $mem->{'Password'};
+       	       $mem->change_info_file($query);
+               if (($oldpwd ne $mem->{'Password'}) and 
+                   ($inst->{'Username'} eq $mem->{'Username'})) {
+                   $cls->print_login();
+               } else {
+                   $cls->member_menu($inst);
+               }
+               $fname = "$cls->{'Root Dir'}/admin/elist";
+               unlink $fname;
+       	       last SWITCH;       	   
+       	   };
+
+   /^Upload/                  &&
+       do  { # display add by file option
+       	       $inst->print_upload_form($cls);
+       	       last SWITCH;
+       	   };
+
+   /^Perform Upload/	   &&  
+       do  {   #$inst becomes the $mem whom he or she is changing
+               if (defined $query->param('back')) {
+                   $cls->member_menu($inst);
+                   exit(0);
+               }
+               ERROR::check_sample($query,'Upload');
+               my $hfile = "";
+               my $file = $query->param('filename');
+               if ($file eq '') {
+	           my $url = $query->param('urlname');
+                   if ($url ne '') {
+                       $file = CN_UTILS::remove_spaces($url);
+                       require "url.pl";
+    		       $hfile =  url'get($file,1.0);
+                       # for MAC systems remove extra \rs
+                       $hfile =~ s/\015\015/\015\012/g;
+                       $hfile =~ s/\015/\012/g;
+                   }
+               } else {
+	          # get local file
+		  while(<$file>) {
+			$hfile = "$hfile$_";
+        	  }
+    	       }
+               if ($hfile eq '') { 
+                   ERROR::user_error($ERROR::NOTDONE,"find URL <B>$file</B>");
+                   exit(0);
+               }
+               my @lines = split(/\n/,$hfile);
+               my $header = shift @lines;
+               while ($#lines > 0 && !($header =~ m/^#/)) {
+                   $header = shift @lines;
+               }
+               if (!($header =~ m/^#\s*ClassNet(\d)\.(\d)\s*:?\s*Upload/i)) {
+                   ERROR::user_error($ERROR::NOTDONE,"interpret first line
+of file <B>$file</B>.<BR>It should be: <B>#ClassNet1.0:Upload</B>
+instead of <B>$header</B>");
+                   exit(0);
+               }
+               # Ensure automatic enrollment
+       	       $cls->{'Verify Enrollment'} = 0;
+               my $rslt = '';
+               foreach (@lines) {
+                  if (/^#/) { next;};
+                  if (s/^\+//) {
+                      my @info = split(/[,|\t]/);
+                      if ($#info == 3) {
+                          # Modify query object
+       	                  $query->{'First Name'}->[0] = $info[1];
+                          $query->{'Last Name'}->[0] = $info[0];
+       	                  $query->{'Email Address'}->[0] = CN_UTILS::remove_spaces($info[3]);
+       	                  $query->{'Password'}->[0] = $info[2];
+       	                  $query->{'Verify Password'}->[0] = $info[2];
+                          my $stud = STUDENT->new($query,$cls);
+                          if (!$cls->mem_exists($stud->{'Disk Username'})) {
+                              $stud->add($cls);
+                              $rslt .= "<B>$info[1] $info[0]</B> added.<BR>\n";
+                          } else {
+                              $rslt .= "<B>$info[1] $info[0]</B> is already enrolled.<BR>\n";
+                          }
+                      } else {
+                          $rslt .= "<B>$_</B> wrong format for add.<BR>";
+                      }
+                      next;
+                  }
+                  if (s/^-//) {
+                      my @info = split(/[,|\t]/);
+                      if ($#info == 1) {
+                          # Modify query object
+       	                  $query->{'First Name'}->[0] = $info[1];
+                          $query->{'Last Name'}->[0] = $info[0];
+                          my $stud = STUDENT->new($query,$cls);
+                          if ($cls->mem_exists($stud->{'Disk Username'})) {
+       	                      $inst->delete_member($cls, $stud->{'Username'});
+                              $rslt .= "<B>$info[1] $info[0]</B> deleted.<BR>\n";
+                          } else {
+                              $rslt .= "<B>$info[1] $info[0]</B> doesn't exists.<BR>\n";
+                          }
+                      } else {
+                          $rslt .= "<B>$_</B>: wrong format for delete.<BR>";
+                      }
+                      next;
+                  }
+                  $rslt .= "<B>$_</B>: First character not a #,+ or -.<BR>\n";
+              }
+              CN_UTILS::print_cn_header('Enrollment Results');
+              print $rslt;
+              print <<"ADDFILE";
+<FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/membership>
+<INPUT TYPE=hidden NAME="Class Name" VALUE="$cls->{'Name'}">
+<INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
+<CENTER>
+<H4><INPUT TYPE=submit NAME=memback VALUE="Members Menu"></H4>
+</CENTER>
+</FORM>
+ADDFILE
+              CN_UTILS::print_cn_footer();
+              exit(0);
+          };
+
+   /^Add/                  &&
+       do  { # display add member form
+       	       $inst->print_add_member_form($cls);
+       	       last SWITCH;
+       	   };
+
+   /^Perform Add/	   &&  
+       do  {   #$inst becomes the $mem whom he or she is changing
+               if (defined $query->param('back')) {
+                   $cls->member_menu($inst);
+                   exit(0);
+               }
+               ERROR::check_sample($query,'Add Member');
+       	       CN_UTILS::verify_pairs($query,
+                       'Member First Name', 'Member Last Name', 
+       	       	       'Member Password', 'Verify Member Password', 
+       	       	       'Member Email Address');
+ 
+       	       # Modify query object
+       	       $query->{'First Name'}->[0] = $query->param("Member First Name");
+       	       $query->{'Last Name'}->[0] = $query->param("Member Last Name");
+       	       $query->{'Email Address'}->[0] = $query->param("Member Email Address");
+       	       $query->{'Password'}->[0] = $query->param('Member Password');
+       	       $query->{'Verify Password'}->[0] = $query->param('Verify Member Password');
+       	       ($query->param('Password') eq $query->param('Verify Password')) or
+       	       	   ERROR::user_error($ERROR::PWDVERIFY);
+               if ($query->param('Type') eq 'Instructor') {
+       	           $new_inst = INSTRUCTOR->new($query, $cls);
+                   if (defined $query->param('Privileges')) {
+       	               $privs = join(',',$query->param('Privileges'));
+                   } else {
+                       $privs = "";
+                   }
+       	           $new_inst->add($cls, $privs);
+               } else {
+                   # Ensure automatic enrollment
+       	           $cls->{'Verify Enrollment'} = 0;
+
+                   $stud = STUDENT->new($query,$cls);
+                   $stud->add($cls);
+               }
+               $cls->member_menu($inst);
+       	       last SWITCH;       	   
+       	   };
+
+   /^Renew/                  &&
+       do  { # display renewal page
+       	       $cls->print_renewal($inst);
+       	       last SWITCH;
+       	   };
+
+   /^Perform Renew/	   &&  
+       do  {   #
+               $cls->renew($inst);
+               $cls->member_menu($inst);
+       	       last SWITCH;
+           };
+   /^Instructor Menu/	   &&  
+       do  {   #
+               $inst->print_menu($cls);
+               last SWITCH;
+           };
+
+   ERROR::user_error($ERROR::NOOPTION);
+
+}
+
+sub get_mem_name {
+    if (defined $query->param('Members')) {
+        return $query->param('Members');
+    } else {
+        CN_UTILS::print_cn_header('Member?');
+        print "Select a member name by clicking on a name in the Member Listbox.";
+        CN_UTILS::print_cn_footer();
+        exit(0);
+    }
+}
+
+package CLASS;
+
+sub get_mem_info {
+   my ($self,$uname) = @_;
+   my %pairs;
+
+   my $disk_uname = CN_UTILS::get_disk_name($uname);
+   my $mem_type = $self->mem_exists($disk_uname);
+   my $fname = "$self->{'Root Dir'}/admin/members/${mem_type}s/$disk_uname";
+   if (!(open(MEM_FILE, "<$fname"))) {
+      ERROR::user_error($ERROR::MEMBERNF,$uname);
+   }
+
+#   flock($fname, LOCK_EX);
+   chop($pair{'Member Type'} = $mem_type);
+   while (<MEM_FILE>) {
+       chop;
+       my ($name,$value) = split(/=/);
+       $pairs{$name} = $value;
+   }
+   ($pairs{'Last Name'}, $pairs{'First Name'}) = split(/, /,$uname);
+   return %pairs;
+}
+
+sub add_to_mem_list {
+   my ($self, $mem_type, @name_list) = @_;
+
+   my $fname = "$self->{'Root Dir'}/admin/member_lists/${mem_type}s";
+   #my $dir = "$self->{'Root Dir'}/admin/members/${mem_type}s/";
+   #opendir(DIR,$dir);
+   #@files = readdir(DIR);
+   #close(DIR);
+   #open(LIST,">$fname");
+   #flock(LIST,$LOCK_EX);
+   #foreach $name (sort @files) {
+   #   if ($name ne '.' && $name ne '..') {
+   #	   print LIST CGI::unescape($name),"\n";
+   #   }
+   #}
+   #flock(LIST,$LOCK_UN);
+   #close(LIST);
+   # Add class to classlist file
+   open(MEM_LIST, "<$fname");
+   my @mem_names = <MEM_LIST>;
+   push (@mem_names, @name_list);
+   open(MEM_LIST, ">$fname") or 
+       ERROR::system_error("CLASS","add_to_mem_list","Open list",$mem_type);
+   flock(MEM_LIST,$LOCK_EX);
+   chomp (@mem_names = sort @mem_names);
+   $, = "\n";
+   print MEM_LIST @mem_names;
+   flock(MEM_LIST,$LOCK_UN);
+   close(MEM_LIST);
+   chmod 0700, $fname;
+   $fname = "$self->{'Root Dir'}/admin/elist";
+   unlink $fname;
+}
+
+sub remove_from_mem_list {
+   my ($self, $mem_type, $mem_name) = @_;
+   my $i;
+
+   my $fname = "$self->{'Root Dir'}/admin/member_lists/${mem_type}s";
+   # Get list of members
+   open(MEM_LIST, "<$fname");
+   my @mem_list = <MEM_LIST>;
+   chomp @mem_list;
+
+   for ($i = 0; ( ($i < @mem_list) and ($mem_name ne $mem_list[$i]) ); $i++) {}
+   splice(@mem_list,$i,1);   
+       	   
+   open(MEM_LIST, ">$fname") or 
+       ERROR::system_error("CLASS","remove_from_mem_list","Open",$mem_type);
+   $, = "\n";
+   flock(MEM_LIST,$LOCK_EX);
+   print MEM_LIST @mem_list;
+   flock(MEM_LIST,$LOCK_UN);
+   close(MEM_LIST);
+   chmod 0700, $fname;
+   $fname = "$self->{'Root Dir'}/admin/elist";
+   unlink $fname;
+}
+
+sub get_cls_mem_info {
+   my ($self, $mem_type) = @_;
+   my (@members, %mem_info_list);
+
+   @members = $self->get_mem_names($mem_type);
+
+   return "" unless @members;
+
+   # Create a hash of lists
+   #  $mem_info_list{last_name, first_name} => [email address, password]
+   foreach $member (@members) {
+       my %pair = $self->get_mem_info($member);
+       $mem_info_list{$member} = [$pair{'Email Address'}, $pair{'Password'}, $pair{'Priv'}];
+   }
+   return %mem_info_list;
+
+}
+
+sub member_menu {
+    my ($self,$inst) = @_;
+    # Get list of students (Student list may not actually exist)
+    if (open(STUDENTS,"<$GLOBALS::CLASSNET_ROOT_DIR/$self->{'Disk Name'}/admin/member_lists/students")) {
+        @members = <STUDENTS>;
+       	close(STUDENTS);
+    }
+
+    # Get list of instructors
+    $inst_fname = "$GLOBALS::CLASSNET_ROOT_DIR/$self->{'Disk Name'}/admin/member_lists/instructors";
+    open(INSTRUCTORS,"<$inst_fname") or
+       	ERROR::system_error("Instructor","membership","open",$inst_fname);
+    @instructors = <INSTRUCTORS>;
+    close(INSTRUCTORS);
+    push(@members,@instructors);
+
+    CN_UTILS::print_cn_header("Members");
+
+    print <<"FORM";   
+<FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/membership>
+<INPUT TYPE=hidden NAME="Class Name" VALUE="$self->{'Name'}">
+<INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
+<CENTER><H3>$self->{'Name'}</H3>
+<SELECT NAME="Members" SIZE=10>
+FORM
+    foreach $member (sort @members) {
+        print qq|<OPTION>$member|;
+    }
+       	       
+    print <<"FORM";
+</SELECT>
+<P>
+<H4>
+<INPUT TYPE=submit NAME=cn_option VALUE=Edit>
+ <INPUT TYPE=submit NAME=cn_option VALUE=Delete>
+ <INPUT TYPE=submit NAME=cn_option VALUE=Add>
+ <INPUT TYPE=submit NAME=cn_option VALUE=Upload>
+<BR>
+ <INPUT TYPE=submit NAME=cn_option VALUE=List>
+ <INPUT TYPE=submit NAME=cn_option VALUE=Renew>
+FORM
+    my @req_list = $self->get_mem_names('requests');
+    my $req_len = @req_list;
+    if ($req_len > 0) {
+       	print "<BR><INPUT TYPE=submit NAME=cn_option VALUE=Approve>";
+    }
+    print <<"FORM";
+<BR>
+<INPUT TYPE=submit NAME=cn_option VALUE="Instructor Menu">
+</CENTER>
+FORM
+    CN_UTILS::print_cn_footer("membership.html");
+}
+
+sub print_member_list {
+    my ($self) = @_;
+
+    %inst_info_list = $self->get_cls_mem_info('instructor');
+    %stud_info_list = $self->get_cls_mem_info('student');
+
+    # Send the list
+    CN_UTILS::print_cn_header("Membership List");
+    print qq|<CENTER><H3>$self->{'Name'}</H3></CENTER>|;
+    print qq|<CENTER><H2>Instructors</H2></CENTER><DL>|;
+    foreach $key (sort (keys %inst_info_list)) {
+       	# Change to verbose format
+       	$privs = $inst_info_list{$key}[2];
+       	$privs =~ s/assignments/Manage assignments/;
+       	$privs =~ s/students/Manage students/;
+       	print qq|<DT><b>$key</b>\n|;
+       	print qq|<DD>$inst_info_list{$key}[0]<DD>$privs\n|;
+    }
+
+    print qq|</DL><CENTER><H2>$GLOBALS::HR<BR>Students</H2></CENTER><DL>|;
+    foreach $key (sort (keys %stud_info_list)) {
+       	print qq|<DT><b>$key</b>\n|;
+       	print qq|<DD>$stud_info_list{$key}[0]\n|;
+    }
+    print qq|</DL><CENTER>$GLOBALS::HR</CENTER><br>|;
+}
+
+sub print_approval_list {
+    my ($self,$inst) = @_;
+
+    my @mem_list = $self->get_mem_names('requests');
+    my $req_dir_root = $self->{'Root Dir'} . "/admin/members/requests";
+
+    # Send the list
+    CN_UTILS::print_cn_header("Approve Students");
+    print qq|<CENTER><H3>$self->{'Name'}</H3></CENTER>\n|;
+    print <<"START";
+<FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/membership>
+<INPUT TYPE=hidden NAME=cn_option VALUE="Enroll Request Members">
+<INPUT TYPE=hidden NAME="Class Name" VALUE="$self->{'Name'}">
+<INPUT TYPE=hidden NAME=Ticket VALUE="$inst->{'Ticket'}">
+<CENTER>
+<TABLE WIDTH="50%" BORDER>
+<TR><TH>Name<TH>Email Address<TH>Approve<TH>Reject<TH>Retain</TR>
+START
+    foreach $name (sort @mem_list) {
+        my $disk_uname = CGI::unescape($name);
+        $disk_uname = $req_dir_root . "/" . CN_UTILS::get_disk_name($disk_uname);
+        my $email = "test";
+        open(REQ_FILE, "<$disk_uname") or 
+            &ERROR::system_error("INSTRUCTOR","approval","Open",$disk_uname);
+        while (<REQ_FILE>) {
+           chop;
+       	   my ($option, $value) = split(/=/);
+       	   if ($option eq 'Email Address') {
+              $email = $value;
+           }
+        }
+        close(REQ_FILE);
+       	print qq|<TR ALIGN=CENTER><TD>$name|;
+       	print qq|<TD><a href="mailto:$email">$email</a>|;
+	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="app" CHECKED>|;
+       	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="rej">|;
+       	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="ret">|;
+        print qq|</TR>|;
+    }
+    print <<"END";
+</TABLE>
+</CENTER>
+<P>
+Approve will add the student to the class.<BR>
+Reject will delete the request and not add the student.<BR>
+Retain will keep the request for future consideration.
+<H4><CENTER><INPUT TYPE=submit Value=Submit></CENTER></H4><p>
+</FORM>
+END
+    CN_UTILS::print_cn_footer("approve_students.html");
+}
+
+sub create_stud_dirs {
+
+   my ($self, $disk_uname) = @_;
+
+   my $stud_root_dir = "$self->{'Root Dir'}/students/$disk_uname";
+   my $uname = CGI::unescape($disk_uname);
+   mkdir($stud_root_dir,0700) or
+      ERROR::system_error("CLASS","create_stud_dirs","mkdir root",$stud_root_dir);
+   chdir($stud_root_dir);
+
+   (mkdir('graded',0700) and 
+    mkdir('ungraded',0700) and
+    mkdir('dialog',0700) and
+    mkdir('java',0700)) or
+      ERROR::system_error(CLASS,"create_stud_dirs","mkdir graded",$stud_root_dir);
+}
+
+sub print_renewal {
+    my ($self,$inst) = @_;
+    
+   # Must be owner
+   if ($inst->{'Priv'} ne 'owner') {
+      ERROR::user_error($ERROR::NOPERM);
+   }
+
+   # Get the form;
+   CN_UTILS::print_cn_header("Renew Class");
+   print <<"HTML";
+<FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/membership>
+<INPUT TYPE=hidden NAME=cn_option VALUE="Perform Renew">
+<INPUT TYPE=hidden NAME="Class Name" VALUE="$self->{'Name'}">
+<INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
+<CENTER><H3>$cls->{'Name'}</H3></CENTER>
+The renew option will <B>delete</B> the following items:
+<UL>
+<LI>All <B>student</B> records
+<LI><B>Chat</B> comments
+<LI><B>Discussions</B>
+</UL>
+<P>
+However, all <B>instructor</B> records and <B>assignments</B> will
+remain unchanged.
+<P>
+<CENTER>
+<H4>
+<INPUT TYPE=submit Value=Renew>
+<BR> 
+<INPUT TYPE=submit name=memback VALUE="Members Menu">
+</H4>
+</CENTER>
+
+HTML
+   CN_UTILS::print_cn_footer("renew.html");
+}
+
+sub renew {
+    my ($self) = @_;
+    system("rm -f $self->{'Root Dir'}/admin/members/students/*");
+    system("rm -f $self->{'Root Dir'}/admin/members/requests/*");
+    system("rm -f $self->{'Root Dir'}/admin/member_lists/students");
+    system("rm -rf $self->{'Root Dir'}/students/*");
+    system("rm -f $self->{'Root Dir'}/chat");
+    system("rm -f $GLOBALS::FORUM_DIR/$self->{'Disk Name'}/topics/*");
+    system("rm -f $GLOBALS::FORUM_DIR/$self->{'Disk Name'}/responses/*");
+}
+
+package MEMBER;
+
+sub print_add_member_form {
+   my ($self, $cls) = @_;
+
+   ($self->{'Priv'} =~ /owner/) or
+   ($self->{'Priv'} =~ /students/) or     
+      ERROR::user_error($ERROR::NOPERM); 
+
+   # Get the form;
+   CN_UTILS::print_cn_header("Add Member");
+   print <<"HTML";
+<FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/membership>
+<INPUT TYPE=hidden NAME=cn_option VALUE="Perform Add">
+<INPUT TYPE=hidden NAME="Class Name" VALUE="$cls->{'Name'}">
+<INPUT TYPE=hidden NAME="Ticket" VALUE="$self->{'Ticket'}">
+<CENTER><H3>$cls->{'Name'}</H3>
+Type: 
+<INPUT TYPE=radio NAME=Type VALUE=Student CHECKED> Student 
+<INPUT TYPE=radio NAME=Type VALUE=Instructor> Instructor
+<HR> 
+<H3>Personal Data</H3>
+</CENTER>
+<PRE>
+First Name <INPUT NAME="Member First Name" TYPE="text" SIZE="20">        Last Name  <INPUT
+NAME="Member Last Name" TYPE="text" SIZE="20">
+Password   <INPUT TYPE="password" NAME="Member Password" SIZE="20">  Verify Password  <INPUT TYPE="password" NAME="Verify Member Password" SIZE="20">
+Email      <INPUT NAME="Member Email Address" TYPE="text" SIZE="37">  
+</PRE>
+<HR>
+<CENTER>
+<H3>Instructor Privileges</H3>
+<INPUT TYPE=checkbox NAME=Privileges VALUE=students> Manage students
+<INPUT TYPE=checkbox NAME=Privileges VALUE=assignments> Manage assignments
+<HR>
+<H4>
+<INPUT TYPE=submit Value=Add> <INPUT TYPE=reset> 
+<INPUT TYPE=submit name=back VALUE="Members Menu">
+</H4>
+</CENTER>
+HTML
+   CN_UTILS::print_cn_footer("add_member.html");
+}
+
+package INSTRUCTOR;
+
+sub add {
+
+   my($self, $cls, $priv) = @_;
+
+   # Username must be unique
+   $mem_type = $cls->mem_exists($self->{'Disk Username'});
+   if ($mem_type) {
+       ERROR::user_error($ERROR::MEMBEREX,$self->{'Username'});
+   }
+
+   chdir("$self->{'Root Dir'}/admin/members/instructors");
+   open(INST_FILE, ">$self->{'Disk Username'}") or 
+       ERROR::system_error("INSTRUCTOR","add","Open",self->{'Disk Username'});
+   print INST_FILE "Password=$self->{'Password'}\n";
+   print INST_FILE "Email Address=$self->{'Email Address'}\n";
+   print INST_FILE "Priv=$priv\n";
+   close(INST_FILE) or
+       ERROR::system_error("INSTRUCTOR","add","Close",self->{'Disk Username'}); 
+   chmod(0600, $self->{'Disk Username'});
+   $cls->add_to_mem_list('instructor',$self->{'Username'});
+
+}
+
+sub delete_member {
+   my ($self, $cls, $mem_name) = @_;
+
+   #Cannot delete owner
+   my $member = $cls->get_member(0,$mem_name);
+   return "" if $member->{'Priv'} eq 'owner';
+
+   if ($member->{'Member Type'} =~ m/student/) {
+       unlink "$cls->{'Root Dir'}/admin/members/students/$member->{'Disk Username'}";
+       my $assign_dir = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}";
+       system("rm -f -r $assign_dir");
+   }
+   else { 
+       unlink "$cls->{'Root Dir'}/admin/members/instructors/$member->{'Disk Username'}";
+   } 
+
+   $cls->remove_from_mem_list($member->{'Member Type'}, $mem_name);
+   return $mem_name;
+      
+}
+
+sub enroll_req_members {
+   my ($self, $query, $cls) = @_;
+   my ($mem, $num_deletes, $num_adds, @add_list, @del_list);
+
+   # Set up the directories
+   my $stud_dir_root = "$self->{'Root Dir'}/admin/members/students";
+   my $req_dir_root = "$self->{'Root Dir'}/admin/members/requests";
+
+   # Loop through the list of additions and enroll those students
+   # The student usernames are already escaped
+   my @enroll_list = $query->param();
+   my $txt = "";
+   $num_adds = 0; $num_dels = 0;
+   foreach $mem (@enroll_list) {
+       if ($mem =~ /^STU_/) {
+           my $op = $query->param($mem);
+           $mem = substr($mem,4);
+           my $disk_uname = CGI::unescape($mem);
+           $disk_uname = CN_UTILS::get_disk_name($disk_uname);
+           if ($op eq 'app') {
+               my $req_file = "$req_dir_root/$disk_uname";
+               my $stud_file = "$stud_dir_root/$disk_uname";
+               if (!(-e $stud_file) and (-e $req_file)) {
+       	           rename ($req_file, $stud_file);
+       	           $cls->create_stud_dirs($disk_uname);
+       	           push (@add_list, $mem);
+                   push (@del_list, $disk_uname);
+                   $num_adds++;
+       	           $txt .= "Username $mem was added.\n";
+                   my %info = $cls->get_mem_info($mem);
+                   CN_UTILS::mail($info{'Email Address'},"Username $mem approved",
+                       "Username '$mem' is ready for use in ClassNet class $cls->{'Name'}.");
+               }
+               elsif (-e $stud_file) {
+       	           $txt .= "Username $mem is already enrolled.\n";
+               }
+               else {
+       	           $txt .= "Username $mem is not on the request list.\n";
+               }
+            } elsif ($op eq "rej") {
+                push(@del_list,$disk_uname);
+                $num_dels++;
+            }
+        }
+    }
+
+   $cls->add_to_mem_list('student', @add_list);
+    # Remove the rejected requests
+   chdir($req_dir_root);
+   unlink @del_list;
+   $txt .= "\nStudents added: $num_adds\nRequests rejected: $num_dels\n";
+   CN_UTILS::mail($self->{'Email Address'},"Enrollment Update for $cls->{'Name'}",$txt);
+    $cls->member_menu($self);
+    exit(0);
+}
+
+1;

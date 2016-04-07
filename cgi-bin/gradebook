@@ -1,0 +1,196 @@
+#!/usr/bin/perl
+package main;
+
+#
+# Gradebook
+#
+
+BEGIN {
+   unshift(@INC,'/local/classnet/cgi-bin/lib');
+}
+
+# Modules to include
+require "optimize.pl";
+
+# Turn off file mask
+umask 000;
+
+# Parse incoming query into query object
+$query = new CGI;
+
+# Instructor and course setup
+CN_UTILS::verify_pairs($query,'Class Name','Ticket');
+$cls = CLASS->new($query->param('Class Name'));
+($cls->exists()) or
+   ERROR::user_error($ERROR::CLASSNF, 1,$cls->{'Name'});
+$inst = $cls->get_member($query);
+
+if ($query->param('back')) {
+    $inst->print_menu($cls);
+    exit(0);
+}
+if ($query->param('gradeback')) {
+    $cls->print_gradebook($inst);
+    exit(0);
+}
+
+require CLASS;
+
+# Perform the option
+$_ = $query->param('cn_option');
+SWITCH: {
+   /^Scores/	   &&  
+       do  {   #
+               get_lists();
+               $cls->view_scores(\@stu,\@asn,$inst);
+       	       last SWITCH;
+       	   };
+   /^Mail Table/        &&                                                      
+       do {                                                                     
+               my $table = $query->param('table');                              
+               CN_UTILS::mail($inst->{'Email Address'},"Summary scores for $cls->{'Name'}",$table);
+               $cls->print_gradebook($inst);                                    
+               last SWITCH;                                                     
+          };                                                                       
+/^Statistics/                   &&
+       do  {   #
+               get_lists();
+               my $na = @asn;
+       	       if ($na != 1) { 
+                   ERROR::print_error_header('Statistics?');
+                   print "Please select only one assignment.";
+                   CN_UTILS::print_cn_footer();
+                   exit(0);
+               }
+               my $ns = @stu;
+               my $asn = $cls->get_assignment($query,$inst,$asn[0]);
+               if ($ns < 1) { 
+                   ERROR::user_error($ERROR::NOSTUDNAMES);
+       	       }
+       	       elsif (ref($asn) =~ /EVAL/i) { 
+       	       	   @stu_list = $cls->get_mem_names('student');
+       	       	   if ($ns < @stu_list) {
+                       ERROR::print_error_header('Statistics?');
+                       print "Only statistics for the <b>entire</b> class may be viewed with EVAL assignments<br>";
+                       CN_UTILS::print_cn_footer();
+                       exit(0);
+       	       	   }
+       	       } 
+               $asn->prompt_stats($cls,$inst,\@stu);
+               last SWITCH;
+           };
+   /^Perform Statistics/                   &&
+       do  {   #
+               my $asn = $cls->get_assignment($query,$inst,$query->param('Assignment Name'));          
+               my @stu = split(/\;/,$query->param('Students'));
+               $asn->{'Categories'} = $query->param('Categories');
+               $asn->print_stats(\@stu);
+               last SWITCH;
+           };
+
+   /^Grade/	   &&  
+       do  {   #
+               get_lists();
+               $cls->grade(\@stu,\@asn);
+               $cls->print_gradebook($inst);
+       	       last SWITCH;
+       	   };
+   /^Ungrade/	   &&  
+       do  {   #
+               get_lists();
+               $cls->ungrade(\@stu,\@asn);
+               $cls->print_gradebook($inst);
+       	       last SWITCH;
+       	   };
+   /^Histogram/	   &&  
+       do  {   #
+               get_lists();
+               $cls->histogram(\@stu,\@asn,$inst);
+       	       last SWITCH;
+       	   };
+   /^Publish Histogram/	&&
+       do {    # make available to students
+               my $gname = $query->param('Filename');
+               rename($gname,"$cls->{'Root Dir'}/scores.gif");
+               $cls->print_gradebook($inst);
+               last SWITCH;
+           };
+   /^Data/                   &&
+       do  {   #
+               get_lists();
+               foreach $a (@asn) {
+                   my $ns = @stu;
+                   ($ns < 1) and 
+                       ERROR::user_error($ERROR::NOSTUDNAMES);   
+                   my $asn = $cls->get_assignment($query,$inst,$a);
+                   $asn->mail_raw_data(\@stu);
+               }
+               $cls->print_gradebook($inst);
+               last SWITCH;
+           };
+   /^Edit/	   &&  
+       do  {   #
+               get_lists();
+               my $na = @asn;
+       	       if ($na != 1) { 
+                   ERROR::print_error_header('Edit?');
+                   print "Please select only one assignment.";
+                   CN_UTILS::print_cn_footer();
+                   exit(0);
+               }
+               $cls->send_edit_form($query,$asn[0],\@stu);
+       	       last SWITCH;       	   
+       	   };
+   /^Delete/	   &&  
+       do  {   #
+               get_lists();
+               $cls->view_assignments(\@stu,\@asn,$inst,'delete');
+       	       last SWITCH;
+       	   };
+   /^Add/	   &&  
+       do  {   #
+               get_lists();
+               $cls->view_assignments(\@stu,\@asn,$inst,'add');
+       	       last SWITCH;
+       	   };
+   /^Submit Delete Changes/	   &&  
+       do  {   #
+               ERROR::check_sample($query,'Delete Assignments');
+       	       $cls->submit_delete_changes($query);
+               $cls->print_gradebook($inst);
+       	       last SWITCH;       	   
+       	   };
+   /^Submit Edit Changes/	   &&  
+       do  {   #
+               ERROR::check_sample($query,'Edit Assignment');
+       	       $cls->submit_edit_changes($query);
+               $cls->print_gradebook($inst);
+       	       last SWITCH;       	   
+       	   };
+   /^Submit Add Changes/	   &&  
+       do  {   #
+               ERROR::check_sample($query,'Add Assignments');
+       	       $cls->submit_add_changes($query);
+               $cls->print_gradebook($inst);
+       	       last SWITCH;       	   
+       	   };
+   ERROR::user_error($ERROR::NOOPTION);
+}
+
+sub get_lists {
+    @stu = $query->param('student');
+    @asn = $query->param('Assignment Name');
+    (defined $query->{'All Students'}) and
+        @stu = $cls->get_mem_names('student');
+    if (defined $query->{'All Assignments'}) {
+       	opendir(ASNDIR,"$cls->{'Root Dir'}/assignments");
+       	my @asnfiles = grep(!/^\.\.?/,readdir(ASNDIR));
+       	closedir(ASNDIR);
+       	foreach $i (0..$#asnfiles) {
+       	    $asnfiles[$i] = CGI::unescape("$asnfiles[$i]");
+       	}
+        @asn = sort { uc($a) cmp uc($b)} @asnfiles;
+    }
+}
+
+1;

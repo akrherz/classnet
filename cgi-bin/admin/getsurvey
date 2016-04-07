@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+
+$/ = "\n";
+opendir(CLS,"/local1/classnet/Furlough%20Study/students");
+my @students = grep(!/^\.\.?/,readdir(CLS));
+close CLS;
+$nc = 0;
+$tot = 0;
+$cl_stu = 0;
+foreach $sname (@students) {
+    $tot++;
+    if (-e "/local1/classnet/Furlough%20Study/students/$sname/ungraded/Furlough%20Survey") {
+      $nc++;
+    }
+}
+my $SENDMAIL = '/usr/sbin/sendmail';
+open (MAIL, "| $SENDMAIL -t -n -oi akrherz");
+print MAIL "Reply-to: akrherz\n";
+print MAIL "From: akrherz (Daryl Herzmann)\n";
+print MAIL "Subject: Furlough Survey\n";
+print MAIL "$nc/$tot Surveys received\n\n";
+close MAIL;   
+
+
+
+
+
+
+
+

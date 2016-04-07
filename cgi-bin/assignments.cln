@@ -1,0 +1,203 @@
+#!/usr/bin/perl
+package main;
+
+#
+# Assignments
+#
+
+BEGIN {
+   unshift(@INC,'/home/classnet/cgi-bin/lib');
+}
+require CLASS;
+    
+# Modules to include
+require "optimize.pl";
+
+require TempFile;
+require MultipartBuffer;
+
+# Turn off file mask
+umask 000;
+
+# Parse incoming query into query object
+$query = new CGI;
+
+# Instructor and course setup
+CN_UTILS::verify_pairs($query,'Class Name','Ticket');
+$cls = CLASS->new($query->param('Class Name'));
+
+($cls->exists()) or
+   ERROR::user_error($ERROR::CLASSNF,$query->param('Class Name'));
+
+$mem = $cls->get_member($query);
+
+if (!(($mem->{'Priv'} =~ /assignments/) or ($mem->{'Priv'} =~/owner/) or
+   $query->param('cn_option') =~ m/^Submit/ )) {
+    ERROR::user_error($ERROR::NOPERM);
+}
+
+if ($query->param('back')) {
+    ASSIGNMENT::print_menu($cls,$mem);
+    exit(0);
+}
+
+require TESTEDITOR;
+require INCLASSEDITOR;
+require JAVAEDITOR;
+require DIALOGEDITOR;
+
+# Perform the option
+$_ = $query->param('cn_option');
+SWITCH: {
+   /^Edit/	   &&  
+       do  {   # edit assignment
+               (get_assign())->edit();
+       	       last SWITCH;       	   
+       	   };
+
+   /^Delete/	   &&  
+       do  {   # delete assignment
+               ERROR::check_sample($query,'Delete Assignment');
+               (get_assign())->delete();
+               ASSIGNMENT::print_menu($cls,$mem);
+       	       last SWITCH;
+       	   };
+
+   /^Submit Edit Changes/	   &&  
+       do  {   #
+               # added for loading an INCLASS assignment from a URL
+               ERROR::check_sample($query,'Edit Assignment');
+       	       $cls->submit_edit_changes($query);
+               ASSIGNMENT::print_menu($cls,$mem);
+       	       last SWITCH;       	   
+       	   };
+
+   /^Submit/	   &&  
+       do  {   #
+               ERROR::check_sample($query,'Submit Assignment');
+               (get_assign())->submit();
+               $mem->print_menu($cls);
+       	       last SWITCH;       	   
+       	   };
+
+   /^Add/	   &&  
+       do  {   #
+       	       ASSIGNMENT::print_add_form($cls,$mem);
+       	       last SWITCH;
+       	   };
+
+   /^Perform Add Assign/	   &&  
+       do  { #
+             my $hfile = "";
+             ERROR::check_sample($query,'Add Assignment');
+             my $asn = ($query->param('Assignment Type'))->new($query,$cls,$mem);
+             my $file = $query->param('Initial File');
+             if ($file eq '') {
+		my $url = $query->param('Initial URL');
+                if ($url eq '') {
+                    $asn->create();
+                } else {
+        	    $url = CN_UTILS::remove_spaces($url);
+                    require "url.pl";
+    		    $hfile =  url'get($url,1.0);
+                    # for MAC systems remove extra \rs
+                    $hfile =~ s/\015\015/\015\012/g;
+                    $hfile =~ s/\015/\012/g;
+	            $asn->upload($hfile);
+    		} 
+             } else { 
+	        # get local file
+		while(<$file>) {
+			$hfile = "$hfile$_";
+        	}
+                # for MAC systems remove extra \rs
+                $hfile =~ s/\015\015/\015\012/g;
+                $hfile =~ s/\015/\012/g;
+                $asn->upload($hfile);
+    	     }
+             my $pub = $query->param('publish');
+             if ($pub eq 'P') {
+                 $asn->publish();
+             }
+             ASSIGNMENT::print_menu($cls,$mem);
+       	     last SWITCH;
+       	   };
+
+   /^Upload/                      &&
+       do  {
+             my $asn = get_assign();
+             $asn->print_upload($cls,$mem);
+             last SWITCH;
+           };
+
+   /^Perform Upload/	   &&  
+       do  { #
+             my $asn = get_assign();
+             ERROR::check_sample($query,'Upload');
+             my $file = $query->param('FileName');
+             my $fname = $file;
+             if ($fname =~ /\\/) {
+               my (@list) = split(/\\/,$fname);
+               $fname = $list[$#list];
+             }
+             if ($fname =~ /\//) {
+               my (@list) = split(/\//,$fname);
+               $fname = $list[$#list];
+             }
+             if ($fname =~ /:/) {
+               my (@list) = split(/:/,$fname);
+               $fname = $list[$#list];
+             }
+             open(FOUT,">$asn->{'Dev Root'}/$fname") or
+                  ERROR::system_error("assignments","perform upload","$asn->{'Dev Root'}/$fname");
+             my $buff = '';
+             my $bytes_read = 0;
+             while ($bytes_read=read($file,$buff,2096)) {
+                 binmode FOUT;
+                 print FOUT $buff;
+             }
+             close FOUT;
+             ASSIGNMENT::print_menu($cls,$mem);
+             last SWITCH;
+           };
+
+   /^Mail/                        &&
+       do  {
+             my $asn = get_assign();
+             CN_UTILS::mail($mem->{'Email Address'},
+                            "$asn->{'Name'} Text",$asn->source());
+             ASSIGNMENT::print_menu($cls,$mem);
+             last SWITCH;
+           };
+
+   /^Instructor Menu/             &&
+       do  {
+               $mem->print_menu($cls);
+               last SWITCH;
+           };
+
+   ERROR::user_error($ERROR::NOOPTION);
+
+}
+
+sub get_assign {
+    my $asn = $cls->get_assignment($query,$mem);
+    if ($asn) {
+        return $asn;
+    } else {
+        CN_UTILS::print_cn_header("Assignment?");
+        print "Select an assignment name by clicking on a name in the Assignment Listbox.";
+        CN_UTILS::print_cn_footer();
+        exit(0);          
+    }
+}
+
+1;
+
+
+
+
+
+
+
+

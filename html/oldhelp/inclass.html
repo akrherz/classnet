@@ -1,0 +1,100 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (WinNT; U) [Netscape]">
+   <TITLE>Inclass Help</TITLE>
+</HEAD>
+<BODY BGCOLOR="#E3D1AE">
+
+<CENTER><IMG SRC="../gifs/classnet.gif" NATURALSIZEFLAG="0" HEIGHT=25 WIDTH=200></CENTER>
+
+<CENTER>
+<H3>
+Inclass Help</H3></CENTER>
+
+<H3>
+
+<HR SIZE="4"></H3>
+An inclass assignment allows you to enter scores for student from inclass
+tests or other assignments. These scores will be reported along with other
+scores managed by ClassNet.
+
+<P><B>To create an inclass assignment</B>, add an assignment, name it and
+make it an <B>INCLASS</B> assignment.
+<CENTER>
+<H3>
+Initial URL</H3></CENTER>
+You can read scores from a file. Here's how:
+<OL>
+<LI>
+The file should consist of lines in the following format:</LI>
+</OL>
+
+<PRE>Last First&nbsp; ....other information...&nbsp; Score</PRE>
+
+<OL>Example:</OL>
+
+<PRE>Jones Mary J.&nbsp;&nbsp; 111111111 35
+Miller George&nbsp;&nbsp; 030200202 22</PRE>
+ClassNet only uses the first name, last name and the score, ignoring other
+information.
+<OL>
+<LI>
+Put the file in a Web directory.</LI>
+
+<LI>
+When you add the assignment, specify this file name in the Initial URL
+field. Example: http://www.public.iastate.edu/~cs403/exam1.dat</LI>
+
+<LI>
+ClassNet will read this file and respond with a form consisting of the
+score each student received on the test, a list of students who didn't
+receive a score and a list of lines in your file which could not be matched
+with a student name. In the latter two cases, you can manually enter the
+scores. You can also set the maximum number of points for the test.</LI>
+
+<LI>
+Submit this form to store the scores.</LI>
+
+<LI>
+Move the file out of the Web directory to keep others from reading it.</LI>
+</OL>
+
+<CENTER><B>Note</B></CENTER>
+
+<BLOCKQUOTE>It is possible to create a Web directory which is password-protected.
+This would be a good place to store your files. See your local Webmaster
+for details.</BLOCKQUOTE>
+
+
+<P>To make the scores visible to students, edit the assignment and click
+on the <B>Publish</B> checkbox and <B>Save</B>. You may also change the
+maximum score for the assignment.
+<CENTER>
+<H3>
+Changing Scores</H3></CENTER>
+To change student scores for the inclass assignment:
+<UL>
+<LI>
+Click on <B>Gradebook</B> in the Instructor menu.</LI>
+
+<LI>
+Select the inclass assignment in the Assignment listbox</LI>
+
+<LI>
+Select the students you want to give scores to or click on All below the
+student listbox for all students.</LI>
+
+<LI>
+Click on <B>Edit Assignment</B>.</LI>
+</UL>
+You will be shown a list of scores and student names. Enter the score for
+each student and click on <B>Submit</B> to make the changes. The score
+you enter must be between 0 and the total number of points possible for
+the assignment.
+<H3>
+
+<HR SIZE="4"></H3>
+
+</BODY>
+</HTML>

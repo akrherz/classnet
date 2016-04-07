@@ -1,0 +1,21 @@
+<?php
+
+$fname = isset($_GET["fname"]) ? $_GET["fname"] : die("Did not specify First Name");
+$lname = isset($_GET["lname"]) ? $_GET["lname"] : die("Did not specify Last Name");
+$idnum = isset($_GET["id"]) ? $_GET["id"] : die("Did not specify ID#");
+$isu = isset($_GET["isu"]) ? $_GET["isu"] : die("Did not specify ISU#");
+
+$f = fopen("/local/classnet/206.log", 'a');
+fwrite($f, "$fname , $lname , $idnum , $isu \n");
+?>
+<html>
+<head>
+</head>
+<body>
+
+<h3>Thank You</h3>
+
+<a href="index.phtml">Return to ClassNet</a>
+
+</body>
+</html>

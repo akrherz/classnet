@@ -1,0 +1,7 @@
+# Index created by AutoSplit for lib/EVAL.pm (file acts as timestamp)
+package EVAL;
+sub send_edit_form ;
+sub get_score ;
+sub mail_raw_data ;
+sub format_raw_data ;
+1;

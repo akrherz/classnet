@@ -1,0 +1,36 @@
+#!/usr/local/bin/perl -si
+
+require "ctime.pl";
+require "/local1/www/apache-isu/cgi-bin/netforum2/lib/sys_config";
+require "/local1/www/apache-isu/cgi-bin/netforum2/lib/forum_config";
+if($allow_forum_config){
+require "/local1/www/apache-isu/cgi-bin/netforum2/ALE-EDI-IDOC-BAPI/forum_config";
+}
+require "/local1/www/apache-isu/cgi-bin/netforum2/lib/main";
+require "/local1/www/apache-isu/cgi-bin/netforum2/lib/variables";
+require "/local1/www/apache-isu/cgi-bin/netforum2/lib/utilities";
+
+
+$which_forum = "ALE-EDI-IDOC-BAPI";
+$script_name = 'a';
+$netforum_url = "$base_url/ALE-EDI-IDOC-BAPI/$script_name";
+
+$forum_name = "ALE EDI IDOC BAPI";
+$forum_owner = "ClassNet Instructor";
+$forum_owner_code_name = "cnet";
+$forum_monitor = "Gopala Krishna";
+$forum_monitor_email = "softprofessionals\@yahoo.com";
+
+
+
+if ($ENV{'REQUEST_METHOD'} eq 'GET') {
+	&get_url_vars;
+	&get_command;
+}
+
+if ($ENV{'REQUEST_METHOD'} eq 'POST') {
+	&ReadParse();
+	&get_url_vars;
+	&post_command;
+}
+

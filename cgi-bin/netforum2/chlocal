@@ -1,0 +1,42 @@
+#!/usr/local/bin/perl -w
+
+# WARNING:
+#   USE ONLY ON COPIES OF YOUR FILES UNTIL YOU ARE CERTAIN
+#   YOU THE SUBSTITUTIONS RIGHT!
+
+#
+# Form list of files to operate on.
+# This could be replaced with a static hardcoded list if
+# it suits your purposes better.
+#
+@files = `find */header -print`;
+
+foreach $original (@files) {
+    chop($original);                        # get rid of newline
+    next if -d $original;                   # skip directories
+    if (-l $original) {
+        warn("skipping symbolic link: $original\n");
+        next;
+    }
+
+    print STDERR "processing $original\n";
+    $backup = "$original.bak";
+    rename($original, $backup) || die("couldn't rename $original => 
+$backup\n");
+    open(BAK, "<$backup") || die("couldn't open $backup for read\n");
+    open(ORIG, ">$original") || die("couldn't open $original for write\n");
+
+    while (<BAK>) {
+        #
+        # List all of the subs you want here
+        #
+        #s|/local/www/httpd_1.5.1|/local1/www/apache-isu|;
+	s|classnet2/|classnet3/|;
+        print ORIG;
+    }
+
+    close(BAK);
+    close(ORIG);
+}
+__END__
+

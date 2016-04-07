@@ -1,0 +1,49 @@
+#!/local/bin/perl
+require "ctime.pl";
+
+$/ = "\n";
+opendir(CLS,"/local/classnet/mt206s97/students");
+my @students = grep(!/^\.\.?/,readdir(CLS));
+close CLS;
+$s = 0;
+$e1 = 0;
+$e2 = 0;
+open(DAT,">mt206.dat");
+print DAT "Data for mt206 on ",&ctime(time),"\n";
+foreach $sname (sort @students) {
+    print $sname,"\n";
+    print DAT "$sname\n";
+    $s++;
+    my $fname = "/local/classnet/mt206s97/students/$sname/java/Exercise1";
+    if (-d $fname) {
+        print DAT "----Exercise 1----\n";
+        opendir(DIR,"$fname");
+        my @exer = grep(!/^\.\.?/,readdir(DIR));
+        close DIR;
+        chomp @exer;
+        foreach $ex (@exer) {
+          print DAT "------$ex------\n";
+          open(F,"<$fname/$ex");
+          @data = <F>;
+          close F;
+          print DAT @data;
+        }
+    }
+    $fname = "/local/classnet/mt206s97/students/$sname/java/Exercise2";
+    if (-d $fname) {
+        print DAT "----Exercise 2----\n";
+        opendir(DIR,"$fname");
+        my @exer = grep(!/^\.\.?/,readdir(DIR));
+        close DIR;
+        chomp @exer;
+        foreach $ex (@exer) {
+          print DAT "------$ex------\n";
+          open(F,"<$fname/$ex");
+          @data = <F>;
+          close F;
+          print DAT @data;
+        }
+    }
+}
+close(DAT);
+

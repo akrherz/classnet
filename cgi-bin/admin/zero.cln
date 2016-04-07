@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+
+$dir = "/home/classnet/data/students";
+$asn = "Prob_Set%204";
+
+print "$dir\n";
+test($dir);
+
+sub test {
+my ($dir) = @_;
+   my $status = system("chown -R nobody $dir/Ades%2C%20Jeff");
+   print "status=$status\n";
+}

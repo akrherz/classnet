@@ -1,0 +1,22 @@
+#!/usr/bin/perl
+# main-menu prints the main menu
+#
+package main;
+
+BEGIN {
+    unshift(@INC,'/local/classnet/cgi-bin/lib');
+}
+
+require CGI;
+require CN_UTILS;
+
+my $query = new CGI;
+#my $ck = 
+#$query->cookie(-name=>'secureID',-path=>'/',-domain=>'.iastate.edu',-secure=>'1');
+
+CN_UTILS::print_cn_header("test2");
+my $v = $ENV{'HTTP_COOKIE'};
+print "value=$v\n";
+
+
+

@@ -1,0 +1,103 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (WinNT; U) [Netscape]">
+   <TITLE>Forecast Help</TITLE>
+</HEAD>
+<BODY BGCOLOR="#E3D1AE">
+
+<CENTER><IMG SRC="../gifs/classnet.gif" NATURALSIZEFLAG="0" HEIGHT=25 WIDTH=200></CENTER>
+
+<CENTER>
+<H3>
+Forecast Help</H3></CENTER>
+
+<H3>
+
+<HR SIZE="4"></H3>
+A forecast acts just like a test. It consists of CHOICE, BLANK, OPTION
+and MULTIPLE questions. Students complete a forecast assignment and submit
+it for grading. However, each day, the students can submit a new forecast.
+In addition, the data for the forecast answers are based on the previous
+day's weather.
+
+<P><B>To create a forecast</B>, add an assignment, name it and make it
+a <B>FORECAST</B>. This process will create a set of test items asking
+about the pertinent information associated with a forecast. You may delete
+any questions which are not pertinent to your class. You may also limit
+the number of reporting sites by editing item 1. <I>Do not delete or move
+item 1 or the forecast will fail. </I>You may also add other questions
+if you so desire.
+
+<P>When your editing is complete, be sure to edit the forecast assignment
+(the name at the top), click on the <B>Publish</B> checkbox and <B>Save</B>.
+This will make the forecast available to students.
+<CENTER>
+<H3>
+Dynamic Answers</H3></CENTER>
+You will note that some of the answers use the notation {WIND_DIR_12}.
+This means that ClassNet will replace this symbol and the brackets with
+the correct value for the date and site of the forecast when the forecast
+is graded. These names currently include:
+<UL>
+<LI>
+WIND_DIR_0 - wind direction (N,NE,E,SE,S,SW,W,NW) at midnight. Acceptable
+answers may be within 45 degrees of true wind direction. For example, if
+the wind is</LI>
+
+<BR>from the north, NW,N and NE would all be acceptable.
+<LI>
+WIND_SPEED_0 - wind speed in knots at midnight (+- 3 knots)</LI>
+
+<LI>
+TEMP_0 - temperature in Fahrenheit at midnight (+- 5 degrees)</LI>
+
+<LI>
+DEWP_0 - dew point temperature in Fahrenheit at midnight (+- 5 degrees)</LI>
+</UL>
+Similar values are available for 6AM, 12PM and 6PM (i.e. 6,12 or 18 after
+name). In addition,
+<UL>
+<LI>
+PRECIP - precipitation in inches for the last 24 hours from 12Z.</LI>
+
+<LI>
+WAS_PRECIP - 1 if there was precipitation and 2 if not.</LI>
+</UL>
+Reason symbols include:
+<UL>
+<LI>
+ADVECTION_6 - 1 if 6AM temperature change will be affected by warm air
+advection, 2 if affected by cold air advection and 3 if none.</LI>
+
+<LI>
+ADVECTION_12 - same as ADVECTION_6 but related to noon temperature</LI>
+
+<LI>
+FRONT_6 - 1 if passage of warm front, 2 for cold front, 3 for occluded
+front and 4 no front</LI>
+
+<LI>
+FRONT_12 - same as FRONT_6 but related to noon temperature</LI>
+
+<LI>
+CLOUDINESS_12 - 1 if cloudiness will hold down temperature at noon and
+2 if not.</LI>
+
+<LI>
+RAD_COOLING - 1 if cloud cover to inhibit radiational cooling will be significant,
+2 if not</LI>
+
+<LI>
+FAVOR_PRECIP - factors favoring precipitation may include:</LI>
+
+<BR>1- moisture supply, 2-frontal position, 3-unstable atmosphere. Any
+or all answers may
+<BR>be selected (e.g. 1 or 1,2 or 1,3 etc.)</UL>
+
+<H3>
+
+<HR SIZE="4"></H3>
+
+</BODY>
+</HTML>

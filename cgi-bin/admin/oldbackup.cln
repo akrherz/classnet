@@ -1,0 +1,59 @@
+#!/usr/bin/perl
+package main;
+
+#
+# created by Pete Boysen, Sep 1996
+# This script will copy the backup tar files from /local/archive
+# to the abc locker, move any deleted classes or forums and delete them
+# from the local system.
+#
+
+BEGIN {
+   unshift(@INC,'/home/classnet/cgi-bin/lib');
+}
+
+require GLOBALS;
+
+($sec,$min,$hour,$mday,$mon,$year,$wday,$yday) = localtime(time);
+$srcdir = "$GLOBALS::ARCHIVE_ROOT_DIR";
+$dstdir = '/local/abc/classnet';
+
+print "Compressing files...\n";
+system ("gzip $srcdir/*.tar") and
+  die("Failed to gzip tar files.");
+print "Copying incrementals...\n";
+system ("cp $srcdir/cn_*.tar.gz $dstdir/classes") and
+  die("Failed to copy classnet files.");
+system ("rm $srcdir/cn_*.tar.gz") and
+  die("Failed to remove classnet files.");
+system ("cp $srcdir/fm_*.tar.gz $dstdir/forums") and
+  die("Failed to copy forum files.");
+system ("rm $srcdir/fm_*.tar.gz") and
+  die("Failed to rmove forum files.");
+
+backup_files("$srcdir/classes","$dstdir/classes");
+backup_files("$srcdir/forums","$dstdir/forums");
+
+sub full_backup {
+$file = "$GLOBALS::ARCHIVE_ROOT_DIR/cn_$yday.tar";
+system("tar -cf $file $GLOBALS::CLASSNET_ROOT_DIR") and
+    die "Full backup failed for $file. $!";
+$file = "$GLOBALS::ARCHIVE_ROOT_DIR/fm_$yday.tar";
+system("tar -cf $file $GLOBALS::FORUM_DIR") and
+    die "Full backup failed for $file. $!";
+}
+
+sub backup_files {
+    my ($srcdir,$dstdir) = @_;
+    opendir(DIR,$srcdir);
+    @files = grep(!/^\.\.?/,readdir(DIR));
+    closedir(DIR);
+    foreach (@files) {
+        print "Copying $_ from $srcdir to $dstdir\n";
+        system("cd $srcdir; tar cf $_.tar $_; gzip $_.tar; cp $_.tar.gz $dstdir\n");
+        print "Deleting $_ from $srcdir\n";
+        system("rm -rf $srcdir/$_");
+    }
+}
+
+1;

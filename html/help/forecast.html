@@ -1,0 +1,190 @@
+<HTML>
+
+<HEAD>
+
+   <TITLE>Forecast Help</TITLE>
+
+</HEAD>
+
+<BODY BGCOLOR="#E3D1AE" background="../gifs/ypaper.gif">
+<CENTER>
+  <IMG SRC="../gifs/classnet3.gif" alt="ClassNet banner"> 
+</CENTER>
+
+
+
+<CENTER>
+
+  <H3>&nbsp; </H3>
+  <h2><font face="Arial, Helvetica, sans-serif">Forecast Assignment</font></h2>
+</CENTER>
+<font face="Arial, Helvetica, sans-serif"> A forecast assignment is similar to 
+a test. It consists of CHOICE, BLANK, OPTION and MULTIPLE questions. Students 
+complete forecast assignments and submit them for grading. However, each day, 
+the students can submit a new forecast. In addition, the forecast answers are 
+based on the previous day's weather. </font> 
+<h3><font face="Arial, Helvetica, sans-serif"><B>Creating a Forecast</B></font></h3>
+  
+<ul>
+  <li><font face="Arial, Helvetica, sans-serif">Create and name new assignment 
+    of the type <B>FORECAST</B>.</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif"> This creates a set items 
+        asking about information associated with a forecast. <br>
+        <br>
+        </font></li>
+    </ul>
+  </li>
+  <li><font face="Arial, Helvetica, sans-serif">You may delete any questions which 
+    are not pertinent to your class. You may limit the number of reporting sites 
+    by editing item 1. </font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif"><b>Do not delete or move item 
+        1 or the forecast will fail.</b><I> <br>
+        <br>
+        </I></font></li>
+    </ul>
+  </li>
+  <li><font face="Arial, Helvetica, sans-serif">You may add additional questions, 
+    or edit existing questions.<br>
+    <br>
+    </font></li>
+  <li><font face="Arial, Helvetica, sans-serif">After editing the assignment, 
+    click on the <B>Publish</B> checkbox and <B>Save</B>.</font></li>
+  <li><font face="Arial, Helvetica, sans-serif">The assignment will <b>not</b> 
+    be available to students until it has been <b>Published.</b> </font></li>
+  <li><font face="Arial, Helvetica, sans-serif">If you forget to click on <b>Save</b>, 
+    your changes will be lost.</font></li>
+</ul>
+<CENTER>
+  <H3 align="left"><font face="Arial, Helvetica, sans-serif"> Dynamic Answers</font></H3>
+</CENTER>
+<font face="Arial, Helvetica, sans-serif">You will note that some of the answers 
+use the notation {WIND_DIR_12}. This means that ClassNet will replace this symbol 
+and the brackets with the correct value for the date and site of the forecast 
+when the forecast is graded. These names currently include: </font> 
+<UL>
+  <LI><font face="Arial, Helvetica, sans-serif"> WIND_DIR_0:</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">Wind direction (N,NE,E,SE,S,SW,W,NW) 
+        at midnight. </font></li>
+      <li><font face="Arial, Helvetica, sans-serif">Acceptable answers may be 
+        within 45 degrees of true wind direction. </font> 
+        <ul>
+          <li><font face="Arial, Helvetica, sans-serif">For example, if the wind 
+            is from the north, NW,N and NE would all be acceptable.<br>
+            <br>
+            </font></li>
+        </ul>
+      </li>
+    </ul>
+  </LI>
+  <LI><font face="Arial, Helvetica, sans-serif">WIND_SPEED_0:</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">Wind speed in knots at midnight 
+        (+- 3 knots).<br>
+        <br>
+        </font></li>
+    </ul>
+  </LI>
+  <LI><font face="Arial, Helvetica, sans-serif"> TEMP_0:</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">Temperature in Fahrenheit 
+        at midnight (+- 5 degrees).<br>
+        <br>
+        </font></li>
+    </ul>
+  </LI>
+  <LI><font face="Arial, Helvetica, sans-serif"> DEWP_0:</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">Dew point temperature in Fahrenheit 
+        at midnight (+- 5 degrees)</font></li>
+    </ul>
+  </LI>
+</UL>
+<UL>
+  <LI><font face="Arial, Helvetica, sans-serif"> PRECIP:</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">Precipitation in inches for 
+        the last 24 hours from 12Z.<br>
+        <br>
+        </font></li>
+    </ul>
+  </LI>
+  <LI><font face="Arial, Helvetica, sans-serif"> WAS_PRECIP:</font>
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif"> 1 if there was precipitation 
+        and 2 if not.</font></li>
+    </ul>
+  </LI>
+</UL>
+<p><font face="Arial, Helvetica, sans-serif">Similar values are available for 
+  6 a.m., 12 p.m. and 6 p.m. (i.e. 6,12 or 18 after name). </font></p>
+<h3><font face="Arial, Helvetica, sans-serif"> Reason Symbols: </font> </h3>
+<UL>
+  <LI><font face="Arial, Helvetica, sans-serif"> ADVECTION_6:</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif"> 1 if 6 a.m. temperature change 
+        will be affected by warm air advection, 2 if affected by cold air advection 
+        and 3 if none.<br>
+        <br>
+        </font></li>
+    </ul>
+  </LI>
+  <LI><font face="Arial, Helvetica, sans-serif"> ADVECTION_12:</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">Same as ADVECTION_6 but related 
+        to noon temperature.<br>
+        <br>
+        </font></li>
+    </ul>
+  </LI>
+  <LI><font face="Arial, Helvetica, sans-serif"> FRONT_6:</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif"> 1 if passage of warm front, 
+        2 for cold front, 3 for occluded front and 4 no front.<br>
+        <br>
+        </font></li>
+    </ul>
+  </LI>
+  <LI><font face="Arial, Helvetica, sans-serif"> FRONT_12:</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif">Same as FRONT_6 but related 
+        to noon temperature.<br>
+        <br>
+        </font></li>
+    </ul>
+  </LI>
+  <LI><font face="Arial, Helvetica, sans-serif"> CLOUDINESS_12:</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif"> 1 if cloudiness will hold 
+        down temperature at noon and 2 if not.<br>
+        <br>
+        </font></li>
+    </ul>
+  </LI>
+  <LI><font face="Arial, Helvetica, sans-serif"> RAD_COOLING:</font> 
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif"> 1 if cloud cover to inhibit 
+        radiational cooling will be significant, 2 if not.<br>
+        <br>
+        </font></li>
+    </ul>
+  </LI>
+  <LI><font face="Arial, Helvetica, sans-serif"> FAVOR_PRECIP:</font>
+    <ul>
+      <li><font face="Arial, Helvetica, sans-serif"> 1- moisture supply, 2-frontal 
+        position, 3-unstable atmosphere. Any or all answers may <BR>
+        be selected (e.g. 1 or 1,2 or 1,3 etc.)</font> </li>
+    </ul>
+  </LI>
+</UL>
+<H3> 
+  <HR SIZE="4">
+</H3>
+<font face="Arial, Helvetica, sans-serif">Click on <b>Back</b> in your browser 
+to return to the Adding Assignments page</font>. 
+</BODY>
+
+</HTML>
+

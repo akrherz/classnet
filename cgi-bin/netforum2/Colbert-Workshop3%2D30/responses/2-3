@@ -1,0 +1,13 @@
+===subject:response
+===from:Jim Colbert
+===date:Mon Apr 10 13:57:23 2000
+===message:by using a little bit of HTML.  To post a link use this format (replace all [ or ] with < or >):  <br>
+<br>
+
+[a href="URL Here"[Link Title Here[/a] <br>
+<br>
+
+For example:
+
+<a href="http://www.biology.iastate.edu/SRN/SRN.html">The Navy</a>
+=========yorg=========

@@ -1,0 +1,5 @@
+===from:Christina Elliott
+===date:Thu Sep 25 16:58:11 2003
+===subject:Who do you think will be the next president?
+===message:Who's gonna win the presidential race next year? With American soldiers dying every day in Irag, increasing oil prices and a bum economy, Bush's prospects aren't looking too good. There are 10 candidates for the race so far: Carol Mosely Braun, John Kerry, Howard Dean, Kucinich, Edwards, Lieberman, Sharpton, Clark, Gephardt, and Graham. They're all anti-Bush, but many critics say that the one thing they really lack is diversity in their policies. As the race continues, these candidates will have to differentiate in order to survive. So, who do you think? Are you pro-Bush? Do you feel strongly about Kucinich's universal health-care plan or do you approve more of Kerry's environment protection policies? Or do you prefer to sit back and wait for the contenders to fight it out and choose one of the victors? Post a reply and let your opinion be heard!!
+=========yorg=========

@@ -1,0 +1,38 @@
+body {
+  background: #E3D1AE;
+  border: 1px;
+  border-style:  solid;
+  border-color: #f00000;
+  padding: 10px;
+  margin: 15px;
+}
+#banner {
+ background: #EEEEEE;
+ border-width: 3px 3px 1px 3px;
+ border-color: #f00000;
+ border-style: solid;
+ margin: 0px -20px 0px -20px;
+}
+#banner a {
+  text-decoration: none;
+  color: #f00000;
+}
+#banner h3 {
+  font-size: x-large;
+  margin: 0px;
+  text-align: CENTER;
+  color: #f00000;
+  text-indent: 20px;
+}
+#footer {
+ background: #EEEEEE;
+ border-width: 1px 3px 3px 3px;
+ margin: 0px -20px 0px -20px;
+ border-color: #f00000;
+ border-style: solid;
+ text-align: CENTER;
+}
+#footer a {
+  text-decoration: none;
+  color: #f00000;
+}

@@ -1,0 +1,23 @@
+# Index created by AutoSplit for lib/FORECAST.pm (file acts as timestamp)
+package FORECAST;
+sub create ;
+sub get_wx_filename ;
+sub grade ;
+sub ungrade ;
+sub get_forecasts ;
+sub grade_forecasts ;
+sub regrade ;
+sub grade_ungraded ;
+sub get_site ;
+sub get_runtime_values ;
+sub clear_cache ;
+sub write_assign_query ;
+sub get_graded_form ;
+sub get_score ;
+sub send_edit_form ;
+sub get_names ;
+sub get_stats ;
+sub format_raw_data ;
+sub get_extra_fields ;
+sub put_extra_fields ;
+1;

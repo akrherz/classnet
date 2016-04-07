@@ -1,0 +1,50 @@
+#!/usr/bin/perl
+package main;
+
+#
+# Reg_student registers students for courses
+#
+
+BEGIN {
+   unshift(@INC,'/local/classnet/cgi-bin/lib');
+}
+
+require "optimize.pl";
+
+@cls_names = CLASS::list(); 
+CN_UTILS::print_cn_header("Join a Class");
+print <<"START_FORM";
+<HTML>
+<BODY>	
+<FORM METHOD="POST" ACTION="$GLOBALS::SCRIPT_ROOT/reg_student">
+<CENTER>
+<H3>Pick a Class</H3>
+<SELECT NAME="Class Name" SIZE=5>
+START_FORM
+   
+foreach $cls_name (@cls_names) {
+   print qq|<OPTION> $cls_name\n|;
+}
+print qq|</SELECT></H3><p>\n|;
+
+print <<"REG_FORM";
+<HR>Enter your personal information below: 
+<PRE>First Name <INPUT NAME="First Name" TYPE=text SIZE=20>        Last Name  <INPUT
+NAME="Last Name" TYPE=text SIZE=20>
+  Password <INPUT TYPE=password NAME="Password" SIZE=20>  Verify Password  <INPUT TYPE=password NAME="Verify Password" SIZE=20>
+Email <INPUT NAME="Email Address" TYPE=text SIZE=37>
+</PRE>
+<CENTER>
+<H4>
+<INPUT TYPE=submit name=submit Value=Enroll>
+<INPUT TYPE=submit name=back Value="Main Menu">
+</H4>
+</CENTER>
+
+REG_FORM
+
+CN_UTILS::print_cn_footer("get_stud_reg_form.html");
+
+
+
+

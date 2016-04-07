@@ -1,0 +1,107 @@
+<HTML>
+<HEAD><TITLE>AdvectionSim</TITLE></HEAD>
+<BODY BGCOLOR=#ffffff>
+<CENTER><H3>AdvectionSim</H3></CENTER>
+<P>
+This page shows a few of the options now available for AdvectionSim.  <BR>
+<P>Some features are:
+<UL>
+<LI> Guessing of the final temperature is allowed with a running total of 
+the number of correct guesses in a row.
+<LI> Values for the spacing, direction, speed, etc. can be randomly selected 
+by the computer. 
+<LI> Some of the settings for speed, direction, duration, etc. can be 
+specified as constant while others are randomly selected.
+</UL>
+
+<CENTER>
+
+<P>
+The first applet lets you vary all the parameters.
+<P>
+<APPLET
+    CODE=AdvectionSim.class
+    WIDTH=600
+    HEIGHT=400>
+    <PARAM NAME="mode" VALUE="demo">
+</APPLET>
+<P>
+The second applet has the gradient set to medium, duration set to 4 hours, 
+wind speed set to 25, and randomly selects the direction for you.  It also
+allows the user to guess the final Ames temperature.
+<P>
+
+<APPLET
+    CODE=AdvectionSim.class
+    WIDTH=600
+    HEIGHT=400>
+    <param NAME="gradient" VALUE="medium">
+    <param NAME="speed" VALUE="25">
+    <param NAME="time" VALUE="4">
+    <PARAM NAME="mode" VALUE="demo">
+    <PARAM NAME="filepath" VALUE="/afs/iastate.edu/users/16/20/hollerla/WWW/server/testingAdv">
+    <PARAM NAME="guess" VALUE="on">
+    <PARAM NAME="random" VALUE="on">
+</APPLET>
+
+
+<P>
+The third applet randomly selects all the variables and allows the user 
+to guess the final Ames temperature.
+<P>
+
+<APPLET
+    CODE=AdvectionSim.class
+    WIDTH=600
+    HEIGHT=400>
+    <PARAM NAME="mode" VALUE="demo">
+    <PARAM NAME="guess" VALUE="on">
+    <PARAM NAME="random" VALUE="on">
+</APPLET>
+
+
+<P>
+The fourth applet randomly selects all the variables and doesn't have the 
+guessing. <P>
+
+<APPLET
+    CODE=AdvectionSim.class
+    WIDTH=600
+    HEIGHT=400>
+    <PARAM NAME="mode" VALUE="demo">
+    <PARAM NAME="random" VALUE="on">
+</APPLET>
+
+<P>
+The fifth applet randomly selects all the variables, doesn't have the 
+guessing, and shows the formula. <P>
+
+<APPLET
+    CODE=AdvectionSim.class
+    WIDTH=600
+    HEIGHT=525>
+    <PARAM NAME="mode" VALUE="demo">
+    <PARAM NAME="random" VALUE="on">
+    <PARAM NAME="formula" VALUE="on">
+</APPLET>
+
+
+<P>
+The sixth applet lets you select all the variables, allows the user 
+to guess the final temperature, and shows the formula.
+<P>
+
+<APPLET
+    CODE=AdvectionSim.class
+    WIDTH=600
+    HEIGHT=525>
+    <PARAM NAME="mode" VALUE="demo">
+    <PARAM NAME="guess" VALUE="on">
+    <PARAM NAME="formula" VALUE="on">
+</APPLET>
+
+
+</CENTER>
+<P>
+</BODY>
+</HTML>

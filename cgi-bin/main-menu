@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+package main;
+
+#
+# main-menu prints the main menu
+#
+
+BEGIN {
+    unshift(@INC,'/local/classnet/cgi-bin/lib');
+}
+    
+require "optimize.pl";
+
+CLASS::print_main_menu();
+
+
+
+
+
+
+

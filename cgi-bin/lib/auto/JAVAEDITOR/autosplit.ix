@@ -1,0 +1,6 @@
+# Index created by AutoSplit for lib/JAVAEDITOR.pm (file acts as timestamp)
+package JAVAEDITOR;
+sub open ;
+sub command ;
+sub edit_assignment ;
+1;

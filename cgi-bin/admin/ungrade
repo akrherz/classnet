@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+
+$cls = "/local/classnet/data/mt206s97";
+$asn = "Prob_Set%204";
+
+$dir = "$cls/students";
+rename("$cls/assignments/$oldname","$cls/assignments/$newname");
+opendir(SDIR,$dir);
+my @students = grep(!/^\.\.?/,readdir(SDIR));
+close SDIR;
+foreach $sname (sort @students) {
+    $gdir = "$dir/$sname/graded";
+    if (-e "$gdir/$asn") {
+        print "$sname\n";
+        rename("$gdir/$asn","$dir/$sname/ungraded/$asn");
+    }
+}
+

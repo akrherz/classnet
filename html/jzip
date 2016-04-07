@@ -1,0 +1,10 @@
+#! /usr/bin/perl
+
+$fname = $ARGV[0];
+if ($fname eq '') {
+    print "Specify a lesson directory to zip.\n";
+} else {
+  $nozip = "\".class;.gif;.au;.jpg;.wav;.mpeg\"";
+  $xclude = "-x $fname/gjt $fname/*.html $fname/*.zip $fname/media";
+  print `zip -rn $nozip $fname $fname/* $xclude`;
+}

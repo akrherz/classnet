@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+# Modified by: Sly Upah
+# supah@iastate.edu
+# Mon Jul 10 10:54:38 CDT 1995
+
+print "Content-type: text/html\n\n";
+while (($key,$value) = each %ENV)
+{
+ print "$key=$value<br>\n";
+}

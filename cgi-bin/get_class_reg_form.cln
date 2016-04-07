@@ -1,0 +1,64 @@
+#!/usr/bin/perl
+package main;
+
+#
+# Display form to create classes
+#
+
+BEGIN {
+   unshift(@INC,'/home/classnet/cgi-bin/lib');
+}
+
+
+require "optimize.pl";
+
+CN_UTILS::print_cn_header("Create Class");
+print <<"START_FORM";
+<FORM METHOD="POST" ACTION="$GLOBALS::SCRIPT_ROOT/reg_new_class" ENCTYPE="x-www-form-encoded">
+<INPUT TYPE="hidden" NAME="cn_option" VALUE="inst_reg_new_class">
+Complete this form only if you intend to be the instructor for this class. 
+Students should <a 
+HREF="http://classnet.geol.iastate.edu/cgi-bin/get_stud_reg_form">join an 
+existing ClassNet class.</a><p>
+Enter <STRONG>new</STRONG> ClassNet class name: <INPUT NAME="Class Name"
+TYPE="text" SIZE="20" MAXLENGTH=20><HR>Enter your personal information 
+below: 
+<PRE>First Name <INPUT NAME="First Name" TYPE="text" SIZE="20">        Last Name  <INPUT
+NAME="Last Name" TYPE="text" SIZE="20">
+Password   <INPUT TYPE="password" NAME="Password" SIZE="20">  Verify Password  <INPUT
+TYPE="password" NAME="Verify Password" SIZE="20">
+Email      <INPUT NAME="Email Address" TYPE="text" SIZE="37">
+Expiration Date <SELECT NAME="Expiration Month">
+
+START_FORM
+
+@monname = ('Jan','Feb','Mar','Apr','May','Jun',
+            'Jul','Aug','Sep','Oct','Nov','Dec');
+$mon = (localtime)[4] + 1;
+$year = (localtime)[5] + 1900;
+# doesn't appear to be needed (12/1/98)
+#if ($year < 1996) {
+#    $year += 100;
+#}
+for ($i= 0; $i < 12; $i++, $mon++) {
+  if ($mon == 12) {
+    $mon = 0; $year++;
+  }
+  print "<OPTION>$monname[$mon] $year\n";
+}
+print <<"END_FORM";
+</SELECT> 
+Enrollment: <INPUT TYPE=radio NAME='Verify Enrollment' VALUE=0 CHECKED> Open <INPUT TYPE=radio NAME='Verify Enrollment' VALUE=1> Approval <INPUT TYPE=radio NAME='Verify Enrollment' VALUE=2> Closed 
+</PRE>
+<P><CENTER>
+<H4>
+<INPUT TYPE=submit NAME=name VALUE="Create Class">
+<INPUT TYPE=submit NAME=back VALUE="Main Menu">
+</CENTER>
+END_FORM
+
+CN_UTILS::print_cn_footer("create_class.html");
+
+
+
+

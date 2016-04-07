@@ -1,0 +1,14 @@
+cnet_admin.pl is a subset of functions take from admin which
+are needed to start a forum. For some reason I could not
+get 'require' to work with the entire module -- even after
+commenting out the code ahead of the subroutines.
+
+A change was also made in admin to fix one of their bugs. It
+is noted by ISU CHANGE. Other changes are also noted similary
+in files in admin or lib directories
+
+For some reason, they change all %20 to '-', which screws up
+our code. Code was added in instructor and student
+to account for this. Now,the classnames in netforum2 will
+not be the same as in /local/classnet. classnet %20's are 
+converted to -'s and all classnet -'s are converted to %2D.

@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+
+BEGIN {
+   unshift(@INC,'/home/classnet/cgi-bin/lib');
+}
+
+# Modules to include
+require "optimize.pl";
+require "CLASS.pm";
+
+# Turn off file mask
+umask 000;
+
+# Parse incoming query into query object
+$query = new CGI;
+
+# Instructor and course setup
+$cls = CLASS->new('Furlough Study');
+($cls->exists()) or
+   ERROR::user_error($ERROR::CLASSNF, 1,$cls->{'Name'});
+$inst = $cls->get_member($query,'Hanisch, Kathy');
+$inst->{'Email Address'}->[0] = 'akrherz\@iastate.edu';
+
+@stu = $cls->get_mem_names('student');
+
+$asn = $cls->get_assignment($query,$inst,'Furlough Survey');
+
+print "Processing data\n";
+$asn->mail_raw_data(\@stu);

@@ -1,0 +1,252 @@
+#!/usr/bin/perl
+#
+# This script should be run AFTER NetForum 2.0 is configured
+# some of the new configuration variables may be necessary 
+# Before running this script, I recommend that you configure NetForum 2.0
+# correctly and that it is tested.
+# Also, the forums corresponding to NetForum 1.2.6 should be COPIED NOT MOVED
+# to the directory where NetForum 2.0 is located. I recommend that 
+# the forums (and its corresponding files/sub dirs) are copied and not
+# moved in case something goes wrong.
+# The old responses and messages will be deleted once this program is run
+# so, run it at YOUR OWN RISK. This script will not be supported by the
+# author and the author is not responsible in anyway for any damages this
+# script could produce.
+
+# After the script is done, you will need to copy the forum_config into the
+# the new forums.
+
+# forum1.2.6_to_2.0 v1.6
+# Copyright Jose F. Siman (author)
+# siman@biostat.wisc.edu
+
+# Changes for 1.6
+# Removed newlines and invisible characters from subject
+# also, removed HTML tags (I think)
+
+# Changes for 1.5
+# May have fixed a bug that would not allow to do multiple forums at once?
+
+# Changes for 1.4
+# Fixed a bug that did not clear the number of messages and responses
+
+# Changes for 1.3
+# Fixed a bug that would not update the list file
+
+# Changes for 1.2:
+# Chmod to 0755 all files created
+
+# Changes for 1.1:
+# Subjects now contain the first 35 characters of the message 
+
+require "./lib/variables";
+
+$subject_key = "===subject:";
+$topic_name_key = "===topic_name:";
+$separator = "=========yorg=========";
+$poster_name_key = "===from:";
+$message_key = "===message:";
+
+# Since a new "subject" field was added to the messages in 2.0, this script adds 
+# a subject field to the message files. The subject field contains the first 35 
+# characters of the message field.
+
+$subject_content = "SUBJECT\n";
+
+# This routine should  convert forums from 1.2.6 to 2.0
+
+print "Please enter the names of your forums separated by commas:\n";
+$forums = <STDIN>;
+chop($forums);
+
+@forum_list = split(/,/, $forums);
+$forumlist = "../admin/forumlist";
+
+	foreach $f (@forum_list){
+
+		chdir("./$f") || die("Unable to change dir: $f");
+		if(-e "a"){
+			$a_file = "a";
+			$new_a = "a.new";
+		}
+		elsif(-e "a.cgi"){
+			$a_file = "a.cgi";
+			$new_a = "a.cgi.new";
+		}
+		else{
+			die("Unable to find \"a\" script");
+		}
+		open(A, $a_file) || die("Unable to open file: $a_file");
+		$perl_path = <A>;
+		while(<A>){
+			last if ( /^\&/ );
+			if ( /^\$/ ) {
+	    		eval;	
+			}
+		}
+		close(A);
+	
+	#update forumlist file:
+		print "\nIncluding forum $f in forumlist file...\n";
+		open(FORUM_LIST, ">>$forumlist") ||
+		die("Unable to open file: $forumlist");
+		print FORUM_LIST ("$f:$forum_name:$forum_owner:admin\n");
+		close(FORUM_LIST);
+	
+	#update a file:
+		print "Updating \"a\" file in forum $f...\n";
+		open(NEW_A, ">$new_a") || die("Unable to open file: $new_a");
+		print NEW_A "$perl_path 
+
+require \"ctime.pl\";
+require \"../lib/sys_config\";
+require \"../lib/forum_config\";
+if(\$allow_forum_config){
+require \"../$which_forum/forum_config\";
+}
+require \"../lib/main\";
+require \"../lib/variables\";
+require \"../lib/utilities\";
+
+
+\$which_forum = \"$which_forum\";\n";
+
+
+print NEW_A "\$script_name = \'$a_file\';\n";
+
+print NEW_A "\$netforum_url = \"\$base_url/\$which_forum/\$script_name\";\n\n"; 
+
+    if ($anyone_add eq 'no')
+    {
+	print NEW_A ("\$anyone_add = \'$anyone_add\';\n");
+	print NEW_A ("\$anyone_add_username = \'$anyone_add_username\';\n");
+	print NEW_A ("\$anyone_add_password = \'$anyone_add_password\';\n");
+    }
+
+    print NEW_A "\$forum_name = \"$forum_name\";\n";
+    print NEW_A "\$forum_owner = \"$forum_owner\";\n";
+    print NEW_A "\$forum_owner_code_name = \"admin\";\n";
+    print NEW_A "\$forum_monitor = \"$forum_monitor\";\n";
+    print NEW_A "\$forum_monitor_email = \"$forum_monitor_email\";\n";
+
+
+    if ( $forum_owner_site ) {
+	print NEW_A "\$forum_owner_site = \"$forum_owner_site\";\n";
+    }   
+
+    if ( $forum_monitor_site ) {
+	print NEW_A "\$forum_monitor_site = \"$forum_monitor_site\";\n";
+    }
+
+    print NEW_A "
+
+
+if (\$ENV{\'REQUEST_METHOD\'} eq \'GET\') {
+	\&get_url_vars;
+	\&get_command;
+}
+
+if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
+	\&ReadParse();
+	\&get_url_vars;
+	\&post_command;
+}\n\n";
+
+		close(NEW_A);
+		chmod 0777, $new_a;
+		unlink($a_file);
+		rename($new_a, $a_file);
+		
+		#change topics and messages
+		opendir(DIR, "./topics") || die("Unable to open dir: topics");
+		@topic_list = grep ( /\d+/, readdir( DIR ) );
+		closedir(DIR);
+		foreach $topic_file (@topic_list) {
+			$new_topic_file = "$topic_file.new";
+			$new_mesg_file = "$topic_file.m";
+			print "Updating topic: \" $topic_file \"  in forum $f...\n";
+
+			opendir(DIR, "./responses") || die("Unable to open dir: responses");
+			@reply_list = grep ( /$topic_file\-\d+/, readdir( DIR ) );
+			closedir(DIR);
+			print "Updating responses for: \" $topic_file \"  in forum $f...\n";
+			foreach $reply_file (@reply_list) {
+				$num_responses = 0;
+				$new_response_file = "$reply_file.new";
+				open (RESPONSE, "./responses/$reply_file") || die("Unable to open file: $reply_file");
+				open (NEW_RESPONSE, ">./responses/$new_response_file")
+				|| die("Unable to open file: $new_response_file");
+				$sep_line = <RESPONSE>;
+				while($line = <RESPONSE>){
+					if($line =~ /$separator/){
+						$num_responses++;
+					}
+					elsif($line =~ /$date_key/){
+						$date_posted = $';
+						chop($date_posted);
+					}
+					print NEW_RESPONSE ($line);
+				}
+				close(RESPONSE);
+				close(NEW_RESPONSE);
+				unlink("./responses/$reply_file");
+				rename("./responses/$new_response_file", "./responses/$reply_file");
+				chmod 0755, "./responses/$reply_file";
+			 }
+			
+			 open(TOPIC, "./topics/$topic_file") || die("Unable to open file: $topic_file");
+			 open(NEW_TOPIC, ">./topics/$new_topic_file") 
+			 || die("Unable to open file: $new_topic_file");
+			 open(MESG, ">./topics/$new_mesg_file") || die("Unable to open file: $new_mesg_file");
+			 print "Updating messages for: \" $topic_file \"  in forum $f...\n";
+			 while($line = <TOPIC>){
+				print NEW_TOPIC ($line);
+				if($line =~ /$separator/){
+					close(NEW_TOPIC);
+					last;
+				}
+				elsif($line =~ /$topic_name_key/){
+					$topic_name = $';
+					chop($topic_name);
+				}
+			 }
+			 while($line = <TOPIC>){
+				if($line =~ /$message_key/){
+					$mess = $';
+					$mess =~ tr/[\n\r\t\f]//d;
+					$subject_content = substr($mess, 0, 35);
+					$subject_contect =~ tr/[\<].*[\>]//d;
+					$subject_content .= "...\n";
+					print MESG ($subject_key, $subject_content);	
+				}
+				print MESG ($line);
+				if($line =~/$separator/){
+					$num_messages++;
+				}
+				
+			 }
+			 close(TOPIC);
+			 close(MSG);
+			 unlink("./topics/$topic_file");
+			 rename("./topics/$new_topic_file", "./topics/$topic_file");
+			 chmod 0755, "./topics/$new_topic_file";
+			 chmod 0755, "./topics/$new_mesg_file";
+			
+			
+			#update topic list:
+			 $new_list_file = "list.new";
+			 open(LIST_FILE, ">>./topics/$new_list_file")||
+			 die("Unable to open file: $new_list_file");
+			 print "Updating list file for: \" $topic_file \"  in forum $f...\n";
+			 print LIST_FILE "$topic_file:$num_messages:$num_responses:$topic_name:$date_posted\n";
+			 close(LIST_FILE);
+			 $num_messages = 0;
+			 $num_responses = 0;
+			 
+		}		
+		unlink("./topics/list");
+		rename("./topics/$new_list_file", "./topics/list");
+		chmod 0755, "./topics/list";
+		chdir("./..");	
+	}		
+

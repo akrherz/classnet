@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Author" CONTENT="Pete Boysen">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.03 [en] (WinNT; I) [Netscape]">
+   <TITLE>Constructing Assignments</TITLE>
+</HEAD>
+<BODY>
+
+<CENTER>
+<H3>
+<FONT SIZE=+1>Assignment Development</FONT></H3></CENTER>
+<FONT SIZE=+1>A Test meta language is useful in uploading and downloading
+assignments since the assignment can be built with a text editor. Example:</FONT>
+<BR><FONT SIZE=+1></FONT>&nbsp;
+<CENTER><TABLE BORDER COLS=1 WIDTH="60%" >
+<TR>
+<TD><TT>&lt;TEST></TT>
+<BR><TT>…HTML…</TT>
+<BR><TT>&lt;Q></TT>
+<BR><TT>The acronym HTML stand for&lt;BR></TT>
+<BR><TT>&lt;MC PTS=1> HyperText Markup Language</TT>
+<BR><TT>&lt;MC> HypoText Markup Language</TT>
+<BR><TT>&lt;MC> HyperText Makeup Language</TT>
+<BR><TT>&lt;/Q></TT>
+<BR><TT>&lt;/TEST></TT>
+<BR><TT></TT>&nbsp;</TD>
+</TR>
+</TABLE></CENTER>
+<FONT SIZE=+1></FONT>
+
+<P><FONT SIZE=+1>This meta language can be described using the <A HREF="http://www13.w3.org/XML/Overview.html">Extended
+Meta Language</A> (XML) being developed by the W3C.&nbsp; Here is a portion
+of the document type definition (DTD) for the Test meta language:</FONT>
+<BR><FONT SIZE=+1></FONT>&nbsp;
+<CENTER><TABLE BORDER COLS=1 WIDTH="60%" >
+<TR>
+<TD>
+
+<P>&lt;!ELEMENT Q&nbsp; (MC |CHECK| BLANK| ESSAY| OPTION| LIST| %body.content;)+>
+<BR>&lt;!ELEMENT MC EMPTY>
+<BR>&lt;!ATTLIST MC
+<BR>&nbsp;&nbsp;&nbsp; PTS CDATA "0"
+<BR>&nbsp;&nbsp;&nbsp; BR (yes|no) "yes">
+<BR>&lt;!ELEMENT CHECK EMPTY>
+<BR>&lt;!ELEMENT BLANK (#PCDATA)>
+<BR>&lt;!ELEMENT ESSAY (#PCDATA)>
+<BR>&lt;!ELEMENT ITEM (#PCDATA)>
+<BR>&lt;!ELEMENT OPTION (ITEM)+>
+<BR>&lt;!ELEMENT LIST (ITEM)+>
+<BR>&lt;!ELEMENT MQ (Q)+></TD>
+</TR>
+</TABLE></CENTER>
+<FONT SIZE=+1></FONT>
+
+<P><FONT SIZE=+1>Using this definition and a freely available XML parser,
+a test can be read, processed and written by the server. By defining a
+Calendar DTD, the same technique can be used to process institutional or
+class events. In fact,</FONT><FONT SIZE=+1></FONT>
+
+<P><FONT SIZE=+1>this technique provides a </FONT><FONT SIZE=+2>general</FONT><FONT SIZE=+1>
+mechanism for processing instructor supplied data.</FONT><FONT SIZE=+1></FONT>
+<CENTER><FONT SIZE=+1><A HREF="conclude.html">In conclusion...</A></FONT></CENTER>
+
+</BODY>
+</HTML>

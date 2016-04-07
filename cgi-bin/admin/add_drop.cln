@@ -1,0 +1,393 @@
+#!/usr/bin/perl
+package main;
+
+#
+# Process Add/Drop requests from ADP
+#
+
+BEGIN {
+   unshift(@INC,'/home/classnet/cgi-bin/lib');
+}
+    
+require "optimize.pl";
+require CLASS;
+
+# Turn off file mask
+umask 000;
+
+# Parse incoming query into query object
+my $query = {};
+
+use strict;
+
+my (@courses,$line,$course,$semester,$dept,$cn,$section,$ssn,@isuc);
+my ($rc,$s,$i,$c,$f,$cnt,$rep,$del,$t,$j,@rslt);
+my (%courselist,$filename,$dirlistfile,@filelist,%authlist);
+my (@adddrop,@adcourses,@ssn,@email,@name,@isuc);
+
+
+# need to set this each semester
+#for flock
+my $LOCK_EX = 2;
+my $LOCK_UN = 8;
+
+opendir(CLASSLISTS,"/home/classnet/data/classlists");
+@filelist = readdir(CLASSLISTS);
+close CLASSLISTS;
+
+# produce a list with the earliest names first
+@filelist = sort(@filelist);
+
+# put done.STND and STND at front of list
+my @f;
+foreach $filename (@filelist) {
+    if (substr($filename,0,7) eq "STDNTCL" ||
+        substr($filename,0,12) eq "done.STDNTCL") {
+      my @tmp;
+      push(@tmp,$filename,@f);
+      @f = @tmp;    
+    } else {
+      push(@f,$filename);
+    }
+}
+@filelist = @f;
+ 
+# add/delete courses and instructor isucard numbers in course-mapping.dat
+do_mapping(@filelist);
+
+#debug
+#exit(0);
+
+#create a list of classes that require initialization or updates
+opendir(CLASSNET,"/home/classnet/data/classnet");
+@courses = readdir(CLASSNET);
+close CLASSNET;
+
+my (@inits,@adddrops);
+foreach $course (@courses) {
+  my $name = "/home/classnet/data/classnet/$course/admin/list_options";
+  if (-e $name) {
+    flock(LISTFILE,$LOCK_EX);
+    open (LISTFILE, "<$name") || die "Cannot open $name";
+    my $opt = <LISTFILE>;
+    close LISTFILE;
+    chop($opt);
+    my ($isucls,$card,$update,$type) = split(/;/,$opt);
+    if ($card ne '') {
+      my @icls = split(/,/,$isucls);
+      my $valid = 0;
+      my $clsname;
+      foreach $clsname (@icls) {
+        my $line = $authlist{$clsname};
+        if ($line) {
+          my @cards = split(/,/,$line);
+          my $c;
+          foreach $c (@cards) {
+             if ($card eq $c) {
+               $valid = 1;
+             }
+          }
+        }
+      }
+      if ($valid == 1) {
+        if ($update eq "init") {
+          push(@inits,"$course;$isucls;$type");
+          $update = "update";
+          open (LISTFILE, ">$name") || die "Cannot open $name";
+          print LISTFILE join(";",$isucls,$card,$update,$type),"\n";
+          close LISTFILE;
+        }
+        if ($update eq "update") {
+          push(@adddrops,"$course;$isucls;$type");
+        }
+      } else {
+        print "$course cardID not valid\n";
+        system "mv $name $name.old";
+      }
+    } else {
+      print "CardID for $course is blank.\n";
+      system "mv $name $name.old";
+    }
+  }
+}
+
+# process any classes that are being initialized
+print "Processing initializations\n";
+my @flist = ();
+foreach $filename (@filelist) {
+    if (substr($filename,0,12) eq "done.ADDDROP" ||
+        substr($filename,0,12) eq "done.STDNTCL") {
+      push(@flist,$filename);
+    }
+}
+
+do_add_drop(@inits);
+
+print "Processing add/drops\n";
+# process classes that need updates
+@flist = ();
+foreach $filename (@filelist) {
+    if (substr($filename,0,7) eq "ADDDROP" ||
+        substr($filename,0,7) eq "STDNTCL") {
+      push(@flist,$filename);
+    }
+}
+
+do_add_drop(@adddrops);
+
+foreach $filename (@flist) {
+  $rep = rename ("/home/classnet/data/classlists/$filename","/home/classnet/data/classlists/done.$filename");
+  print "Rename of $filename to done.$filename, status = $rep\n";
+}
+
+#############################################################3
+
+sub do_mapping {
+    my (@filelist) = @_;
+    %courselist = {};
+    my (@instr,$ilist);
+    if (-e "/home/classnet/data/course-mapper.dat") {
+      flock(MAPFILE,$LOCK_EX);
+      open (MAPFILE, "</home/classnet/data/course-mapper.dat") || die "Cannot open course-mapper.dat file.\n";
+      while ($line = <MAPFILE>) {
+        if (substr($line,0,1) ne "#") {
+          $line =~ s/,$//;
+          $line =~ s/\n//g;
+          ($rc,@instr) = split(/,/,$line);
+          if (substr($rc,-1,1) eq "-") {
+             chop($rc);
+          }
+          if (@instr && $#instr >= 0) {
+            $courselist{$rc} = join(",",@instr);
+          } else {
+            $courselist{$rc} = "";
+          }
+        }
+      }
+      close(MAPFILE);
+    }
+    $cnt = 0;
+    $rep = 0;
+    $del = 0;
+    foreach $filename (@filelist) {
+      if (substr($filename,0,8) eq "INSTRCLS" ||
+          substr($filename,0,8) eq "NMINSTCH" ) {
+          do_map_file($filename);
+      }
+    }
+    print "Rewrite course-mapper.dat file.\n";
+    # create table of shortened course names
+    %authlist = {};
+    open (MAPFILE, ">/home/classnet/data/course-mapper.dat") || die "Cannot open course-mapper.dat file.\n";
+    print MAPFILE "#Each line has two entries: Registrar course,Instr ISUcard\n"; 
+    foreach $course (keys %courselist) {
+      $ilist = $courselist{$course};
+      if ($ilist) {
+        $line = join(",",$course,$ilist);
+        print MAPFILE $line,"\n";
+        $authlist{substr($course,6)} = $ilist;
+      } else {
+        print MAPFILE $course,"\n";
+      }
+    }
+    flock(MAPFILE,$LOCK_UN);
+    close(MAPFILE);
+    print "New course additions = $cnt\n";
+    print "Courses adding an instructor = $rep\n";
+    print "Courses deleting an instructor = $del\n";
+}
+
+sub do_map_file {
+my ($filename) = @_;
+print "Updating using file $filename\n";
+open (ADDDROP, "</home/classnet/data/classlists/$filename") || die "Cannot open the 
+course/instructor file named $filename\n"; @courses = <ADDDROP>;
+close(ADDDROP);
+$rep = rename ("/home/classnet/data/classlists/$filename","/home/classnet/data/classlists/done.$filename");
+print "Rename of $filename to done.$filename, status = $rep\n";
+my $ilist;
+foreach $line (@courses) {
+  if (substr($line,0,1) eq "I") {
+    if (substr($line,1,1) eq "A") {
+      $semester = substr($line,2,5);
+      $dept = substr($line,7,5);
+      while (substr($dept,-1,1) eq " ") {  # if last character is a blank, chop it off
+        chop($dept);
+      }
+      $dept =~ s/ /_/g;                  #change interior blanks to underscore
+      $cn = substr($line,12,4);
+      $cn =~ s/ //g;                  #remove blanks from course number
+      $section = substr($line,16,2);
+      $section =~ s/ //g;                  # eliminate all blanks from section id
+      my $isuc = substr($line,28,9);
+      if ($section ne "") {
+        $section = "-".$section;
+      }
+      $course = $semester."-".$dept.$cn.$section;
+      $t = 1;                              # assume the course is new
+      $ilist = $courselist{$course};
+      if ($ilist) {
+         $ilist .= ",".$isuc;
+      } else {
+         $ilist = $isuc;
+      }
+      $courselist{$course} = $ilist;
+      ++$cnt;
+    } elsif (substr($line,1,1) eq "D") {
+        $semester = substr($line,2,5);
+        $dept = substr($line,7,5);
+        while (substr($dept,-1,1) eq " ") {  # if last character is a blank, chop it off
+          chop($dept);
+        }
+        $dept =~ s/ /_/g;                  #change interior blanks to underscore
+        $cn = substr($line,12,4);
+        $cn =~ s/ //g;                  #remove blanks from course number
+        $section = substr($line,16,2);
+        $section =~ s/ //g;                  # eliminate all blanks from section id
+        if ($section ne "") {
+          $section = "-".$section;
+        }
+        my $isuc = substr($line,28,9);
+        $course = $semester."-".$dept.$cn.$section;
+        $ilist = $courselist{$course};
+        if ($ilist) {
+          my @instr = split(/,/,$ilist);
+          my @rslt = ();
+          for $line (@instr) {
+             if ($line ne $isuc) {
+               push(@rslt,$line);
+             }
+          }
+          $ilist = join(",",@rslt);
+          ++$del;
+        } 
+        $courselist{$course} = $ilist;
+    }  
+  }
+}
+}  # end of subroutine
+
+sub do_add_drop {
+    my (@classes) = @_;
+    my ($filename,$class,$name);
+    foreach $filename (@flist) {
+      my $adcnt = split_adddrop($filename);
+      foreach $class (@classes) {
+	my($cnet,$isucls,$type) = split(/;/,$class);
+        my(@instcls) = split(/,/,$isucls);
+ 	my $cls = CLASS->new(CGI::unescape($cnet));
+        # allow adds even if approve or closed options specified
+        $cls->{'Verify Enrollment'} = 0;
+        my $inst = $cls->owner();
+        open (ADLOG, ">>/home/classnet/data/classnet/$cnet/admin/add_drop.log");
+        my $tm = CN_UTILS::currentTime();
+        print ADLOG "File $filename at $tm\n";
+        # check if add/delete allowed
+        for ($i = 0; $i <= $adcnt; $i++) {
+           foreach $name (@instcls) {
+           if ($name eq $adcourses[$i]) {
+              my $t = $adddrop[$i];
+              my ($last,$first,$middle) = split(/ /,$name[$i]);
+              if ($first eq '') {
+                $first = 'A';
+              }
+              $email[$i] =~ s/ //g;
+              if ($t eq "A" && ($type eq "add" || $type eq "add_drop")) {
+                 print "Add $first $last to $name\n";
+       	         $query->{'First Name'}->[0] = $first;
+                 $query->{'Last Name'}->[0] = $last;
+       	         $query->{'Email Address'}->[0] = $email[$i];
+                 my $pwd = $isuc[$i];
+       	         $query->{'Password'}->[0] = $pwd;
+       	         $query->{'Verify Password'}->[0] = $pwd;
+                 my $stud = STUDENT->new($query,$cls);
+                 $last = $stud->{'Last Name'};
+                 $first = $stud->{'First Name'};
+                 my $mem_type = $cls->mem_exists($stud->{'Disk Username'}); 
+                 if ($mem_type eq "") {
+                   $stud->add($cls);
+                   system("chown -R nobody $cls->{'Root Dir'}/students/$stud->{'Disk Username'}");
+                   print ADLOG "add $last,$first,$isuc[$i],$email[$i]\n";
+                 } else {
+                   print ADLOG "dup or request: $last,$first,$isuc[$i],$email[$i]\n";
+                 }
+              } elsif ($t eq "D" && ($type eq "drop" || $type eq "add_drop")) {
+       	        $query->{'First Name'}->[0] = $first;
+                $query->{'Last Name'}->[0] = $last;
+                my $stud = STUDENT->new($query,$cls);
+                if ($cls->mem_exists($stud->{'Disk Username'})) {
+       	          $inst->delete_member($cls, $stud->{'Username'});
+                  print ADLOG "del $last,$first\n";
+                } else {
+                  print ADLOG "nodel $last,$first\n";
+                }
+              }
+           }
+           }
+        }
+        close(ADLOG);
+        system("chown -R nobody $cls->{'Root Dir'}/admin");
+      }
+    }
+}
+
+sub split_adddrop {
+    # get full course name, SSN and email address
+    # 1st parameter is input add/drop file [input]
+    # 2nd parameter is add/drop array (A for add, D for drop) [output]
+    # 3rd parameter is registrar course name array [output]
+    # 4th parameter is SSN of enrolled student arrary [output]
+    # 5th parameter is email address of enrolled student array [output]
+    # 6th parameter is name for name of student [output]
+    # th parapmeter is isuc for UID of student [output]
+    #  returns 0 for failure and n for success, where n is number of elements in each array
+
+    #ADDDROP file definition:
+    # 1 (1) - ?
+    # 2 (1) - add/drop  A=add  D=drop
+    # 3 (5) - semester id
+    # 8 (5) - department
+    #13 (4) - course number
+    #17 (2) - section
+    #19 (1) - special section ?
+    #20 (9) - SSN
+    #29 (9) - ISUCard number (some are blank)
+    #38 (4) - special classification
+    #42 (2) - ???
+    #44 (26) - name (last first middle)
+    #70 (50) - email address
+    # rest is unused
+    my ($filename) = @_;
+
+    my ($i,$x,$r,$smstr);
+
+
+    local(*FILE);
+    open (FILE, "</home/classnet/data/classlists/$filename") or return 0;
+    $i = 0;
+    while (defined (my $line = <FILE>)) {
+      my $smstr = substr($line,2,5);
+      my $c = substr($line,7,5);     #get the department name
+      while (substr($c,-1,1) eq " ") {  # if last character is a blank, chop it off
+        chop($c);
+      }
+      $c =~ s/ /_/g;                  #change interior blanks to underscore
+      my $n = substr($line,12,4);    #get course number
+      $n =~ s/ //g;                  #remove blanks from course number
+      my $s = substr($line,16,2);    #get section id
+      $s =~ s/ //g;                  # eliminate all blanks from section id
+      $adddrop[$i] = substr($line,1,1);
+      if ($s) {
+      	$adcourses[$i] = $c.$n."-".$s;
+      } else {
+      	$adcourses[$i] = $c.$n;
+      }
+      $ssn[$i] = substr($line,19,9);
+      $name[$i] = substr($line,43,26);
+      $isuc[$i] = substr($line,28,9);
+      $email[$i++] = substr($line,69,49);
+    }
+    close(FILE);
+    return $i;
+}
+

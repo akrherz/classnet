@@ -1,0 +1,62 @@
+#!/usr/bin/perl
+package main;
+
+#
+# Forecast handles special forecast commands
+#
+
+BEGIN {
+   unshift(@INC,'/local/classnet/cgi-bin/lib');
+}
+    
+require GLOBALS;
+require CLASS;
+require TEST;
+require TESTEDITOR;
+require FORECAST;
+
+# Parse incoming query into query object
+$query = new CGI;
+
+# Instructor and course setup
+CN_UTILS::verify_pairs($query,'Class Name','Ticket');
+$cls = CLASS->new($query->param('Class Name'));
+($cls->exists()) or
+   &ERROR::user_error($ERROR::CLASSNF,$query->param('Class Name'));
+$mem = $cls->get_member($query);
+
+$_ = $query->param('fc_option');
+
+SWITCH: {
+    /^Show Answers/    &&
+        do  {  #
+               # create a new forecast and then
+               CN_UTILS::verify_pairs($query,'Forecasts');
+               my $fname = $query->param('Forecasts');
+               my $asn = FORECAST->new($query,$cls,$mem);
+               $asn->{'Student File'} = CGI::escape($fname);
+               $form = $asn->TEST::get_graded_form();
+               TEST::print_test_header($fname);
+               print "$GLOBALS::HR$form";
+               print $GLOBALS::HR;
+               last SWITCH;
+            };
+    /^Edit Answer/    &&
+        do  {  #
+               # create a new forecast and then
+               CN_UTILS::verify_pairs($query,'Forecasts','Student Username');
+               my $fname = $query->param('Forecasts');
+               my $sname = $query->param('Student Username');
+               my $stu = STUDENT->new($query,$cls,$sname);
+               my $asn = FORECAST->new($query,$cls,$stu);
+               $asn->{'Student File'} = CGI::escape($fname);
+               my @snames = ($sname);
+               $asn->TEST::send_edit_form($query,\@snames);
+               last SWITCH;
+            };
+
+   ERROR::user_error($ERROR::NOOPTION);
+}
+
+1;
+

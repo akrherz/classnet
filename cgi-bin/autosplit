@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+use AutoSplit;
+$name = $ARGV[0];
+if (defined $name) {
+    autosplit_lib_modules($name);
+} else {
+    print "Supply a module name!\n";
+}

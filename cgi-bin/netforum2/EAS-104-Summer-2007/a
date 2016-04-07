@@ -1,0 +1,36 @@
+#!/usr/bin/perl -si
+
+require "ctime.pl";
+require "/local/classnet/cgi-bin/netforum2/lib/sys_config";
+require "/local/classnet/cgi-bin/netforum2/lib/forum_config";
+if($allow_forum_config){
+require "/local/classnet/cgi-bin/netforum2/EAS-104-Summer-2007/forum_config";
+}
+require "/local/classnet/cgi-bin/netforum2/lib/main";
+require "/local/classnet/cgi-bin/netforum2/lib/variables";
+require "/local/classnet/cgi-bin/netforum2/lib/utilities";
+
+
+$which_forum = "EAS-104-Summer-2007";
+$script_name = 'a';
+$netforum_url = "$base_url/EAS-104-Summer-2007/$script_name";
+
+$forum_name = "EAS 104 Summer 2007";
+$forum_owner = "ClassNet Instructor";
+$forum_owner_code_name = "cnet";
+$forum_monitor = "Robert Weisman";
+$forum_monitor_email = "raweisman\@stcloudstate.edu";
+
+
+
+if ($ENV{'REQUEST_METHOD'} eq 'GET') {
+	&get_url_vars;
+	&get_command;
+}
+
+if ($ENV{'REQUEST_METHOD'} eq 'POST') {
+	&ReadParse();
+	&get_url_vars;
+	&post_command;
+}
+

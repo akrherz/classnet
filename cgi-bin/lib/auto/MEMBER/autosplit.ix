@@ -1,0 +1,12 @@
+# Index created by AutoSplit for lib/MEMBER.pm (file acts as timestamp)
+package MEMBER;
+sub check_password ;
+sub set_info ;
+sub print_edit_info_form ;
+sub print_add_member_form ;
+sub print_upload_form ;
+sub change_info_file ;
+sub print_email_form ;
+sub send_email ;
+sub chat ;
+1;

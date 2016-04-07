@@ -1,0 +1,142 @@
+#!/usr/bin/perl
+package main;
+
+BEGIN {
+   unshift(@INC,'/local/classnet/cgi-bin/lib');
+}
+
+require 'optimize.pl';
+    
+umask 000;
+
+nice;
+
+# Parse incoming query into query object
+$query = new CGI;
+
+$max_lines = 50;	# maximum lines to display in file
+$refresh = 10;		# seconds between refresh of display
+
+CN_UTILS::verify_pairs($query,'Class Name','Ticket');
+$cls = CLASS->new($query->param('Class Name'));
+($cls->exists()) or
+    ERROR::user_error($ERROR::CLASSNF,$cls->{'Name'});
+$mem = $cls->get_member($query);
+
+if ($query->param('chatback')) {
+    $mem->print_menu($cls);
+    exit(0);
+}
+
+$_ = $query->param('chat_option');
+SWITCH: {
+    /^Comment/ &&
+        do   {
+               comment_page();
+               last SWITCH;
+             };
+    /^Entry/ &&
+        do   {
+               entry_page();
+               last SWITCH;
+             };
+    /^Send/   &&
+        do   {
+               send_comment();
+               entry_page();
+               last SWITCH;
+             };
+   ERROR::user_error($ERROR::NOOPTION);
+}
+
+sub entry_page {
+    my $cname = $cls->{'Name'};
+    my $ticket = $mem->{'Ticket'};
+    print <<"HTML";
+Content-type: text/html
+Window-target: entry
+
+<HTML>
+<HEAD><TITLE>$cname Chat</TITLE></HEAD>
+<BODY $GLOBALS::BACKGROUND>
+<B>Instructions</B>: Type text then click on Send.
+Screen updates every $refresh seconds. 
+<FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/chat>
+<INPUT TYPE=hidden name="Class Name" VALUE="$cname">
+<INPUT TYPE=hidden name=Ticket VALUE="$ticket">
+<INPUT TYPE=hidden name=chat_option VALUE=Send>
+<CENTER><TEXTAREA name=COMMENTS COLS=60 ROWS=2 MAXLENGTH=250></TEXTAREA>
+ <B><INPUT TYPE=submit NAME=send VALUE=Send> <INPUT TYPE=reset></B><BR>
+</FORM>
+<FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/chat target="_top">
+<INPUT TYPE=hidden name="Class Name" VALUE="$cname">
+<INPUT TYPE=hidden name=Ticket VALUE="$ticket">
+<INPUT TYPE=hidden name=chat_option VALUE=Send>
+<B><INPUT TYPE=submit NAME=chatback VALUE=Menu></B>
+</CENTER>
+</FORM>
+</BODY>
+</HTML>
+HTML
+}
+
+sub comment_page {
+    my $fname = "$cls->{'Root Dir'}/chat";
+    my $cname = $cls->{'Name'};
+    print <<"HTML";
+Content-type: text/html
+Window-target: comment
+
+<HTML><HEAD><TITLE>$cname Chat</TITLE></HEAD>
+<BODY $GLOBALS::BGCOLOR>
+<META HTTP-EQUIV=Refresh CONTENT=$refresh>
+<CENTER><H3>$cname Chat</H3>$GLOBALS::HR</CENTER>
+HTML
+    # delete chat if older than a week
+    if (-e $fname) {
+        if (-M $fname > 7 ) {
+            unlink $fname;
+        } else {
+            print `cat $fname`; 
+        }
+    }
+    print "</BODY></HTML>\n";
+}
+
+sub send_comment {
+    my $comments = $query->param('COMMENTS');
+    if ($comments eq '') {
+        comment_page();
+        exit(0);
+    }
+    my $username = $mem->{'Username'};
+    my $Date = CN_UTILS::currentTime();
+    @names = split(/, /,$username);
+    $first = $names[1]; $last = $names[0];
+    # base name on class name
+    my $fname = "$cls->{'Root Dir'}/chat";
+    $/ = "\n";
+    open(STOR,"<$fname");
+    my @lines = <STOR>;
+    open(STOR,">$fname");
+    flock(STOR,$LOCK_EX);
+    # print out new lines and chop off old
+    unshift(@lines,
+            "<B><font color=#a40000>$first $last</B></font><small>($Date)</small>:<BR>$comments <BR>\n</font></a></blink></B></I>");
+    my $n = @lines;
+    $n = $n > $max_lines? $max_lines: $n;
+    splice(@lines,$n);
+    print STOR @lines;
+    flock(STOR,$LOCK_UN);
+    close(STOR);
+}
+
+
+
+
+
+
+
+
+
+
