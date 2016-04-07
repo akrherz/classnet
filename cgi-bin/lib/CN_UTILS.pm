@@ -205,7 +205,7 @@ none
 
 sub mail {
   my($destination,$subject,$body) = @_;
-open (MAIL,"| $SENDMAIL -t -n -oi -f akrherz\@iastate.edu") || die ("$SCRIPT: Can't open $mailprog: $!\n"); print MAIL "To: $destination\n";
+open (MAIL,"| $SENDMAIL -t -oi -f akrherz\@iastate.edu") || die ("$SCRIPT: Can't open $mailprog: $!\n"); print MAIL "To: $destination\n";
 print MAIL "Reply-to: $GLOBALS::ADMIN_EMAIL\n";
 print MAIL "From: $GLOBALS::ADMIN_EMAIL\n";
 print MAIL "Subject: $subject\n";
