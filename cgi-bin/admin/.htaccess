@@ -1,4 +1,4 @@
-AuthUserFile /home/httpd/.security/admin.users
+AuthUserFile /var/www/.security/admin.users
 AuthGroupFile /dev/null
 AuthName ClassNet_Administrator
 AuthType Basic
