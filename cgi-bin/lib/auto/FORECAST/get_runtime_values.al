@@ -32,7 +32,6 @@ sub get_runtime_values {
     } else {
         # if not in cache then look for raw data file and just return
         # if not present. otherwise, create cache file.
-        # system("mount /big3/fcst\@pv1427.vincent.iastate.edu /local1/fcst");
         if (!(-e $rawfile)) { return; };
         open(RAW,"<$rawfile") or return;
         open(WEATHER,">$cachename");

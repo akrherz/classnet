@@ -15,7 +15,7 @@ use AutoLoader;
 require TEST;
 
 $CACHE = '/local/classnet/weather/cache';
-$RAWDIR = '/mnt/fcst';
+$RAWDIR = '/fcst';
 $SITE= '/local/classnet/weather/sites.dat';
 
 @months = (Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec);
@@ -354,7 +354,6 @@ sub get_runtime_values {
     } else {
         # if not in cache then look for raw data file and just return
         # if not present. otherwise, create cache file.
-        # system("mount /big3/fcst\@pv1427.vincent.iastate.edu /local1/fcst");
         if (!(-e $rawfile)) { return; };
         open(RAW,"<$rawfile") or return;
         open(WEATHER,">$cachename");
