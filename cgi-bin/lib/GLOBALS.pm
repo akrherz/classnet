@@ -4,7 +4,7 @@ package GLOBALS;
 =head1 GLOBALS
 
 =head1 Global Variables:
-$GLOBALS::SERVER_ROOT = 'http://classnet.geol.iastate.edu'
+$GLOBALS::SERVER_ROOT = 'https://classnet.geol.iastate.edu'
 $GLOBALS::SERVER_LOG_DIR = '/local1/www/apache-isu/log'
 $GLOBALS::CLASSNET_ROOT_DIR = '/local1/classnet'
 $GLOBALS::ARCHIVE_ROOT_DIR = '/local2/archive'
@@ -33,8 +33,8 @@ ALT=\"Red Bullet\">"
 ##########
 
 $SRM_ALIAS = '';
-$SERVER_ROOT = 'http://classnet.geol.iastate.edu';
-$SECURE_ROOT = 'http://classnet.geol.iastate.edu';
+$SERVER_ROOT = 'https://classnet.geol.iastate.edu';
+$SECURE_ROOT = 'https://classnet.geol.iastate.edu';
 $SERVER_LOG_DIR = '/local/classnet/data/logs';
 $CLASSNET_ROOT_DIR = "/local/classnet/data";
 $ARCHIVE_ROOT_DIR = "/local/classnet/archive";

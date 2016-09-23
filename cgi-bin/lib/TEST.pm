@@ -2162,7 +2162,7 @@ Window-target: $window
 <HTML>
 <HEAD>
 <TITLE>$title</TITLE>
-<base href="http://classnet.geol.iastate.edu/">
+<base href="https://classnet.geol.iastate.edu/">
 </HEAD>
 <BODY $GLOBALS::BGCOLOR>
 <CENTER><H3>$title</H3></CENTER>

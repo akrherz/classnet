@@ -1,2 +1,2 @@
-Redirect /index.html http://classnet.geol.iastate.edu/index.phtml
-Redirect /homepage.html http://classnet.geol.iastate.edu/index.phtml
+Redirect /index.html https://classnet.geol.iastate.edu/index.phtml
+Redirect /homepage.html https://classnet.geol.iastate.edu/index.phtml

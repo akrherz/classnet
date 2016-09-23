@@ -18,7 +18,7 @@ print <<"START_FORM";
 <INPUT TYPE="hidden" NAME="cn_option" VALUE="inst_reg_new_class">
 Complete this form only if you intend to be the instructor for this class. 
 Students should <a 
-HREF="http://classnet.geol.iastate.edu/cgi-bin/get_stud_reg_form">join an 
+HREF="https://classnet.geol.iastate.edu/cgi-bin/get_stud_reg_form">join an 
 existing ClassNet class.</a><p>
 Enter <STRONG>new</STRONG> ClassNet class name: <INPUT NAME="Class Name"
 TYPE="text" SIZE="20" MAXLENGTH=20><HR>Enter your personal information 
