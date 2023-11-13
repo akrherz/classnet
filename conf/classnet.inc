@@ -2,12 +2,13 @@ DocumentRoot /local/classnet/html
 ScriptAlias /cgi-bin/ "/local/classnet/cgi-bin/"
 
 <Directory "/local/classnet/cgi-bin">
-AllowOverride All
-Options None
-Require all granted
+  SetHandler cgi-script
+  AllowOverride All
+  Options +FollowSymLinks +ExecCGI
+  Require all granted
 </Directory>
+
 <Directory "/local/classnet/html">
-AllowOverride All
-Options None
-Require all granted
+  AllowOverride All
+  Require all granted
 </Directory>

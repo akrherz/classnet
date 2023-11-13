@@ -119,8 +119,8 @@ else {
 
 #### Set up addresses ####
 
-$ADDRESS{'Pete Boysen'} = 'akrherz@iastate.edu';
-$ADDRESS{'Polly Mumma'} = 'akrherz@iastate.edu';
+$ADDRESS{'Pete Boysen'} = 'root@localhost';
+$ADDRESS{'Polly Mumma'} = 'root@localhost';
 $nick = $ADDRESS{$FORM{'nickname'}};
 &error_blank_field('the nickname of the recipient') unless ($ADDRESS{$FORM{'nickname'}});
 
@@ -129,7 +129,7 @@ $nick = $ADDRESS{$FORM{'nickname'}};
 ($FORM{'from-email'}) || ($FORM{'from-email'} = $nick);
 ($FORM{'from-name'}) || ($FORM{'from-name'} = "WebMonitor mail");
 
-open (MAIL, "| $SENDMAIL -t -n -oi -f akrherz\@iastate.edu") || die ("$SCRIPT: Can't open $mailprog: $!\n"); 
+open (MAIL, "| $SENDMAIL -t -n -oi -f akrherz\@localhost") || die ("$SCRIPT: Can't open $mailprog: $!\n"); 
 print MAIL "To: $nick\n";
 print MAIL "Reply-To: $FORM{'from-email'} ($FORM{'from-name'})\n";
 print MAIL "From: $FORM{'from-email'} ($FORM{'from-name'})\n";
@@ -271,8 +271,8 @@ sub print_form {
 
    #### Set up addresses ####
 
-   $ADDRESS{'Pete Boysen'} = 'akrherz@iastate.edu';
-   $ADDRESS{'Polly Mumma'} = 'akrherz@iastate.edu';
+   $ADDRESS{'Pete Boysen'} = 'root@localhost';
+   $ADDRESS{'Polly Mumma'} = 'root@localhost';
 
    print <<"HEADER";
 
