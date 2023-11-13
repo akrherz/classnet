@@ -1,0 +1,30 @@
+name: Test Website
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup VM
+        run: |
+          set -e
+          sudo apt-get install apache2 apache2-dev
+          sudo mkdir /local
+          sudo ln -s /local/classnet .
+          sudo a2dissite 000-default.conf
+          echo '<VirtualHost *:80>' | sudo tee /etc/apache2/sites-enabled/classnet.conf > /dev/null
+          cat conf/classnet.inc | sudo tee -a /etc/apache2/sites-enabled/classnet.conf > /dev/null
+          echo '</VirtualHost>' | sudo tee -a /etc/apache2/sites-enabled/classnet.conf > /dev/null
+          sudo service apache2 stop
+          sudo service apache2 start
+          sudo systemctl status apache2.service -l
+
+      - name: Run test request against VM
+        run: |
+          set -e
+          curl -s -o /dev/null http://localhost/cgi-bin/main-menu
