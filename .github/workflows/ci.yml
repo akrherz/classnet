@@ -1,0 +1,45 @@
+name: Test Website
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup VM
+        run: |
+          set -e
+          sudo apt-get install apache2 apache2-dev
+          sudo a2enmod headers rewrite proxy proxy_http proxy_balancer ssl lbmethod_byrequests cgi expires authz_groupfile
+          sudo mkdir /local
+          sudo ln -s `pwd` /local/classnet
+          chmod 755 $HOME
+          sudo a2dissite 000-default.conf
+          echo '<VirtualHost *:80>' | sudo tee /etc/apache2/sites-enabled/classnet.conf > /dev/null
+          cat conf/classnet.inc | sudo tee -a /etc/apache2/sites-enabled/classnet.conf > /dev/null
+          echo '</VirtualHost>' | sudo tee -a /etc/apache2/sites-enabled/classnet.conf > /dev/null
+          sudo service apache2 stop
+          sudo service apache2 start
+          sudo systemctl status apache2.service -l
+
+      - name: Create testing data
+        run: |
+          set -e
+          mkdir -p data/logs
+          echo "PLACEHOLDER" > data/class_list
+          sudo chown -R www-data:www-data data
+
+      - name: Run test request against VM
+        run: |
+          set -e
+          curl -s http://localhost/cgi-bin/main-menu | grep 'First-time'
+
+      - name: Cat Apache error log
+        if: failure()
+        run: |
+          systemctl status apache2.service
+          sudo cat /var/log/apache2/error.log
