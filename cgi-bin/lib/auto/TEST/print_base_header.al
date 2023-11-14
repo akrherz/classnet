@@ -14,7 +14,7 @@ Window-target: $window
 <HTML>
 <HEAD>
 <TITLE>$self->{'Name'}</TITLE>
-<base href="https://classnet.geol.iastate.edu/">
+<base href="/">
 </HEAD>
 <BODY $GLOBALS::BGCOLOR>
 <CENTER><H3>$self->{'Name'}</H3></CENTER>

@@ -10,7 +10,7 @@
 # Set this variable to the full URL of your site 
 # (i.e., http://www.biostat.wisc.edu). Do NOT place a trailing slash (/) 
 
-$url = "https://classnet.geol.iastate.edu";
+$url = "";
 
 
 # Set this variable to the partial URL to the "netforum" directory
