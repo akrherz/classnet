@@ -13,6 +13,8 @@ jobs:
       - name: Check Perl syntax
         run: |
           set -e
+          sudo mkdir /local
+          sudo ln -s `pwd` /local/classnet
           # Find all Perl files and check syntax
           # Include .pm files and CGI scripts (files with perl shebang)
           echo "Checking .pm files..."
