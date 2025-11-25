@@ -1,8 +1,6 @@
 package DIALOG;
 use Exporter;
-use AutoLoader;
-@ISA = (Exporter, AutoLoader, ASSIGNMENT);
-#@ISA = qw( ASSIGNMENT );
+@ISA = (Exporter, ASSIGNMENT);
 
 #########
 =head1 DIALOG
@@ -44,11 +42,6 @@ sub new {
    }
    return $self;
 }
-
-# Prevent AutoLoader from looking for DESTROY.al
-sub DESTROY { }
-
-__END__
 
 #########################################
 =head2 create()

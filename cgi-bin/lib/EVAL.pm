@@ -1,8 +1,6 @@
 package EVAL;
 use Exporter;
-use AutoLoader;
-@ISA = (Exporter, AutoLoader, TEST);
-#@ISA = qw( TEST );
+@ISA = (Exporter, TEST);
 
 #########
 =head1 EVAL
@@ -38,11 +36,6 @@ sub new {
    bless $self, $class;
    return $self;
 }
-
-# Prevent AutoLoader from looking for DESTROY.al
-sub DESTROY { }
-
-__END__
 
 sub send_edit_form {
    my ($self,$query,$stu) = @_;

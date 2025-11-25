@@ -1,8 +1,6 @@
 package DIALOGEDITOR;
 use Exporter;
-use AutoLoader;
-@ISA = (Exporter, AutoLoader, EDITOR);
-#@ISA = qw( EDITOR );
+@ISA = (Exporter, EDITOR);
 #
 # handles editing of tests
 #
@@ -18,11 +16,6 @@ use AutoLoader;
 
 require DIALOG;
 require EDITOR;
-
-# Prevent AutoLoader from looking for DESTROY.al
-sub DESTROY { }
-
-__END__
 
 #########################################
 =head2 open()

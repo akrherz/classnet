@@ -1,8 +1,6 @@
 package INCLASS;
 use Exporter;
-use AutoLoader;
-@ISA = (Exporter, AutoLoader, ASSIGNMENT);
-#@ISA = qw( ASSIGNMENT );
+@ISA = (Exporter, ASSIGNMENT);
 
 #########
 =head1 INCLASS
@@ -39,11 +37,6 @@ sub new {
    $self->{'Editor Type'} = 'INCLASSEDITOR';
    return $self;
 }
-
-# Prevent AutoLoader from looking for DESTROY.al
-sub DESTROY { }
-
-__END__
 
 #########################################
 =head2 create()

@@ -1,8 +1,6 @@
 package INSTRUCTOR;
 use Exporter;
-use AutoLoader;
-@ISA = (Exporter, AutoLoader, MEMBER);
-#@ISA = qw( MEMBER );
+@ISA = (Exporter, MEMBER);
 
 #########################################
 =head1 INSTRUCTOR
@@ -48,12 +46,6 @@ sub new {
    $self->{'Member Type'} = 'instructor';
    bless $self;
 }
-
-# Prevent AutoLoader from looking for DESTROY.al
-sub DESTROY { }
-
-__END__
-#__DATA__
 
 #########################################
 =head2 add($cls, $priv)

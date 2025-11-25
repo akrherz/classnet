@@ -1,7 +1,6 @@
 package ASSIGNMENT;
 use Exporter;
-use AutoLoader;
-@ISA = (Exporter, AutoLoader);
+@ISA = (Exporter);
 
 #########
 =head1 ASSIGNMENT
@@ -72,11 +71,6 @@ sub new {
 
    return $self;
 }
-
-# Prevent AutoLoader from looking for DESTROY.al
-sub DESTROY { }
-
-__END__
 
 #########################################
 =head2 get_info($cls,$asn_name)

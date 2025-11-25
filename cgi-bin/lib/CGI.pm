@@ -1,12 +1,7 @@
 package CGI;
 require 5.001;
 use Exporter;
-use AutoLoader;
-@ISA = (Exporter, AutoLoader);
-
-# COMMENT OUT THIS LINE IF YOU ARE NOT USING THE SELF LOADER.
-# ALSO COMMENT OUT THE LINE BEGINNING WITH __DATA__ A BIT FURTHER DOWN
-# use SelfLoader;
+@ISA = (Exporter);
 
 # See the bottom of this file for the POD documentation.  Search for the
 # string '=head'.
@@ -24,9 +19,6 @@ use AutoLoader;
 # The most recent version and complete docs are available at:
 #   http://www-genome.wi.mit.edu/ftp/pub/software/WWW/cgi_docs.html
 #   ftp://ftp-genome.wi.mit.edu/pub/software/WWW/
-
-# Set this to 1 to enable copious SelfLoader debugging messages
-$SelfLoader::DEBUG=1;
 
 $CGI::revision = '$Id: CGI.pm,v 2.19 1996/04/22 18:30:19 lstein Exp $';
 $CGI::VERSION='2.19';
@@ -417,9 +409,6 @@ sub as_string {
     &dump(@_);
 }
 
-__END__
-
-
 # Globals and stubs for other packages that we use
 package MultipartBuffer;
 
@@ -438,7 +427,7 @@ foreach (@TEMP) {
     do {$TMPDIRECTORY = $_; last} if -w $_;
 }
 $TMPDIRECTORY  = "." unless $TMPDIRECTORY;
-$SEQUENCE="CGItemp$$0000";
+$SEQUENCE="CGItemp${$}0000";
 
 %OVERLOAD = ('""'=>'as_string');
 
