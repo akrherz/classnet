@@ -19,7 +19,7 @@ umask 000;
 $query = new CGI;
 
 if ($query->param('back')) {
-    CLASS::print_main_menu();
+    CLASS->print_main_menu();
     exit(0);
 }
 
@@ -46,7 +46,7 @@ $stud->add($cls);
 $fname = "$cls->{'Root Dir'}/admin/elist";
 unlink $fname;
 
-CLASS::print_main_menu();
+CLASS->print_main_menu();
 exit(0);
 
 package STUDENT;

@@ -80,7 +80,7 @@ END_FORM
        	   };
    /^Delete/	   &&  
        do  {  #
-              @cls_list = CLASS::list();
+              @cls_list = CLASS->list();
               CN_UTILS::print_cn_header("Delete Classes");
               print <<"START_FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/admin/admin">
@@ -110,7 +110,7 @@ END_FORM
    /^Expire/	   &&  
        do  {   # look for classes which have expired and list them
 
-          @cls_list = CLASS::list();
+          @cls_list = CLASS->list();
           CN_UTILS::print_cn_header("Expire Classes");
           print <<"START_FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/admin/admin">
@@ -191,7 +191,7 @@ Please contact us for further details.");
                my @list = $query->param('Class Name');
 	       my $msg = "";
                foreach $name (@list) {
-                   CLASS::archive($name);
+                   CLASS->archive($name);
                    FORUM::archive($name);
                    my $dname = CN_UTILS::get_disk_name($name);
                    my $file = "'$GLOBALS::ARCHIVE_ROOT_DIR/classes/$dname";
@@ -225,7 +225,7 @@ Please contact us for further details.");
        do  {   # expire selected classes
                @expire_list = $query->param('expire');
                foreach $name (@expire_list) {
-                   CLASS::archive($name);
+                   CLASS->archive($name);
                    FORUM::archive($name);
                }
                CN_UTILS::print_cn_header("Classes Expired");
@@ -239,7 +239,7 @@ Please contact us for further details.");
 
    /^E-Mail/	   &&  
        do  {   # show classes to send mail to
-              @cls_list = CLASS::list();
+              @cls_list = CLASS->list();
               CN_UTILS::print_cn_header("E-Mail Instructors");
               print <<"START_FORM";
 <FORM METHOD="POST" ACTION="$GLOBALS::SCRIPT_ROOT/admin/admin">
@@ -277,7 +277,7 @@ END_FORM
            };
    /^Score/	   &&  
        do  {   # send mail to selected classes
-              @cls_list = CLASS::list();
+              @cls_list = CLASS->list();
               CN_UTILS::print_cn_header("Enter Test Scores");
               print <<"START_FORM";
 <FORM ENCTYPE="multipart/form-data" METHOD="POST" ACTION="$GLOBALS::SCRIPT_ROOT/admin/admin">
@@ -399,7 +399,7 @@ sub send_email {
    my $email_recips = "";    	       
    my $SENDMAIL = '/usr/sbin/sendmail';
    my @cls_names = (defined $query->param('All Classes')) ?
-       CLASS::list():$query->param('Class Name');
+       CLASS->list():$query->param('Class Name');
 
    $n = @cls_names;
    if ($n == 0) {

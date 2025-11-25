@@ -20,7 +20,7 @@ $GUNZIP   = '/usr/bin/gunzip';
 
 ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday) = localtime(time);
 # get expired classes
-@cls_list = CLASS::list();
+@cls_list = CLASS->list();
 @elist = ();
 foreach $cls_name (@cls_list) {
     my $cls = CLASS->new($cls_name);
@@ -49,7 +49,7 @@ for a new class of students.";
     my $msg = '';
     foreach $name (@elist) {
         # move to archive directory and remove from list of classes
-        CLASS::archive($name);
+        CLASS->archive($name);
         FORUM::archive($name);
         # prepare for copying
         my $dname = CN_UTILS::get_disk_name($name);

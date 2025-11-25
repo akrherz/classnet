@@ -11,7 +11,7 @@ BEGIN {
 
 require "optimize.pl";
 
-@cls_names = CLASS::list(); 
+@cls_names = CLASS->list(); 
 CN_UTILS::print_cn_header("Join a Class");
 print <<"START_FORM";
 <HTML>

@@ -27,7 +27,7 @@ $cls = CLASS->new($query->param('Class Name'));
 $stud = $cls->get_member($query);
 
 if ($query->param('back')) {
-    CLASS::print_main_menu();
+    CLASS->print_main_menu();
     exit(0);
 }
 
@@ -82,7 +82,7 @@ once to reenter the password or twice to return to the <B>Student Menu</B>.";
        	       CN_UTILS::verify_pairs($query,'Assignment Name');
        	       $asn = $cls->get_assignment($query, $stud);
       	       my $form = $asn->get_graded_form();
-       	       TEST::print_test_header("$asn->{'Name'}");
+       	       TEST->print_test_header("$asn->{'Name'}");
        	       print "$GLOBALS::HR$form";
                CN_UTILS::print_cn_footer();
        	       last SWITCH;
@@ -122,7 +122,7 @@ once to reenter the password or twice to return to the <B>Student Menu</B>.";
                    my $gname = "$GLOBALS::SERVER_ROOT/cn_root/$cname/scores.gif";
 
 
-                   TEST::print_test_header('Histogram');
+                   TEST->print_test_header('Histogram');
                    print "<CENTER><H4>$self->{'Name'}</H4></CENTER>$GLOBALS::HR\n";
                    print "<CENTER><H3>Histogram of Class
 Scores</H3><IMG BORDER=2 SRC=\"$gname\"><P><H3>Your Score: $tot</H3></CENTER><P>\n";
@@ -435,6 +435,10 @@ sub get_assignment {
         # find the assignment type
         my %asn_info = ASSIGNMENT->get_info($self,$asn_name);
         my $asn_type = $asn_info{'Assignment Type'};
+        # Fallback for legacy FORECAST assignments without TYPE in options
+        if (!$asn_type && $asn_name =~ /^forecast$/i) {
+            $asn_type = 'FORECAST';
+        }
         if ($asn_type) {
             return ($asn_type)->new($query,$self,$mem,$asn_name);
         } else {

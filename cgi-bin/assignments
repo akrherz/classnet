@@ -37,7 +37,7 @@ if (!(($mem->{'Priv'} =~ /assignments/) or ($mem->{'Priv'} =~/owner/) or
 }
 
 if ($query->param('back')) {
-    ASSIGNMENT::print_menu($cls,$mem);
+    ASSIGNMENT->print_menu($cls,$mem);
     exit(0);
 }
 
@@ -59,7 +59,7 @@ SWITCH: {
        do  {   # delete assignment
                ERROR::check_sample($query,'Delete Assignment');
                (get_assign())->delete();
-               ASSIGNMENT::print_menu($cls,$mem);
+               ASSIGNMENT->print_menu($cls,$mem);
        	       last SWITCH;
        	   };
 
@@ -68,7 +68,7 @@ SWITCH: {
                # added for loading an INCLASS assignment from a URL
                ERROR::check_sample($query,'Edit Assignment');
        	       $cls->submit_edit_changes($query);
-               ASSIGNMENT::print_menu($cls,$mem);
+               ASSIGNMENT->print_menu($cls,$mem);
        	       last SWITCH;       	   
        	   };
 
@@ -82,7 +82,7 @@ SWITCH: {
 
    /^Add/	   &&  
        do  {   #
-       	       ASSIGNMENT::print_add_form($cls,$mem);
+       	       ASSIGNMENT->print_add_form($cls,$mem);
        	       last SWITCH;
        	   };
 
@@ -119,7 +119,7 @@ SWITCH: {
              if ($pub eq 'P') {
                  $asn->publish();
              }
-             ASSIGNMENT::print_menu($cls,$mem);
+             ASSIGNMENT->print_menu($cls,$mem);
        	     last SWITCH;
        	   };
 
@@ -157,7 +157,7 @@ SWITCH: {
                  print FOUT $buff;
              }
              close FOUT;
-             ASSIGNMENT::print_menu($cls,$mem);
+             ASSIGNMENT->print_menu($cls,$mem);
              last SWITCH;
            };
 
@@ -166,7 +166,7 @@ SWITCH: {
              my $asn = get_assign();
              CN_UTILS::mail($mem->{'Email Address'},
                             "$asn->{'Name'} Text",$asn->source());
-             ASSIGNMENT::print_menu($cls,$mem);
+             ASSIGNMENT->print_menu($cls,$mem);
              last SWITCH;
            };
 
