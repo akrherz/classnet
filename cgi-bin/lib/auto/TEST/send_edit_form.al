@@ -50,7 +50,7 @@ FORM
        my $ans = $stud_ans->{$q_name}{'ANS'};
        my $pts = "<B>Points:</B> <INPUT NAME=\"$b_num.$q_num PR\" SIZE=3 VALUE=\"$stud_ans->{$q_name}{'PR'}\"> of $stud_ans->{$q_name}{'TP'}";
        my $key_ans = $bl_q->{$root}{'ANS'};
-       (defined %values) and $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
+       (%values) and $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
        $key_ans =~ s/{\s*(\w+)\s*}/Not Available/g;
        my $q_type = $bl_q->{$root}{'Question Type'};
        if ($q_type eq 'LIKERT') {

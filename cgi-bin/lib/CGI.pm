@@ -200,7 +200,7 @@ sub initialize {
     # if we get called more than once, we want to initialize
     # ourselves from the original query (which may be gone
     # if it was read from STDIN originally.)
-    if (defined(@QUERY_PARAM) && !$filehandle) {
+    if (@QUERY_PARAM && !$filehandle) {
 
         $self->{'.init'}++;     # flag we've been inited
         foreach (@QUERY_PARAM) {

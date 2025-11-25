@@ -10,7 +10,7 @@ sub read_key {
    # Get the test header
 
    %assign_params = $self->read();
-   (defined %assign_params) or
+   (%assign_params) or
         ERROR::system_error('TEST','read_key','read header',
                             "$self->{'Dev Root'}/options");
    $self->{'Key Header'} = \%assign_params;
@@ -43,7 +43,7 @@ sub read_key {
 
        # Get Pts out of the block
        %b_info = TEST::unpack_block_header($cn_block);
-       (defined %b_info) or
+       (%b_info) or
            ERROR::system_error('TEST','read_key','unpack_block_header',
                                "$fname:$cn_block");
        # Parse the cn_q's
@@ -53,7 +53,7 @@ sub read_key {
 
        	   # Get question parameters
        	   %q_info = TEST::unpack_question_header($cn_q);
-           (defined %q_info) or
+           (%q_info) or
                ERROR::system_error('TEST','read_key','unpack_question_header',
                                    "$fname:$cn_q");
        	   $q_info{'TP'} = $b_info{'TP'};

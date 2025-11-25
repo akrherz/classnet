@@ -5,6 +5,34 @@ on:
   pull_request:
     branches: [ main ]
 jobs:
+  perl-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Check Perl syntax
+        run: |
+          set -e
+          # Find all Perl files and check syntax
+          # Include .pm files and CGI scripts (files with perl shebang)
+          echo "Checking .pm files..."
+          find cgi-bin -name "*.pm" -exec perl -c {} \;
+          
+          echo "Checking .pl files..."
+          find cgi-bin -name "*.pl" -exec perl -c {} \;
+          
+          echo "Checking .al files..."
+          find cgi-bin -name "*.al" -exec perl -c {} \;
+          
+          echo "Checking CGI scripts..."
+          # Check scripts with perl shebang, excluding netforum2 data dirs and .pm/.pl/.al files
+          for f in $(grep -rl '^#!/usr/bin/perl$' cgi-bin --include='*' 2>/dev/null | grep -v '\.pm$' | grep -v '\.pl$' | grep -v '\.al$' | grep -v 'netforum2/.*/a$'); do
+            echo "Checking $f"
+            perl -c "$f"
+          done
+          
+          echo "All Perl syntax checks passed!"
+
   build:
     runs-on: ubuntu-latest
     steps:

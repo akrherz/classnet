@@ -171,7 +171,7 @@ sub abs {
 	@hrefs = split(/<[Aa]/,$page);
 #        &printa(@hrefs);
 #	exit(0);
-	$n = $[;
+	$n = 0;
 	while (++$n <= $#hrefs) {
 	 #   print "$hrefs[$n]\n";
 
@@ -202,7 +202,7 @@ sub abs {
 	$page = join("<A",@hrefs);
 	# duplicate code could be merged into a subroutine ...
 	@hrefs = split(/<IMG/i,$page);
-	$n = $[;
+	$n = 0;
 	while (++$n <= $#hrefs) {
 		# absolute URLs ok:
 		($hrefs[$n] =~ m|src\s*=\s*"?http://|i) && next;
@@ -316,14 +316,13 @@ sub canonize {
     # type recognition of html files on disk, which is usefull, 
     # janl 95/09/19
     
-    local($*)=1;
     local($add)='';
 
     $add.='<!SGML "ISO 8879:1986">'."\n" 
-	unless ($_[$[] =~ m~<!SGML~i);
+	unless ($_[0] =~ m~<!SGML~i);
 	
     $add.='<!DOCTYPE HTML SYSTEM "html.dtd">'."\n"
-	unless $_[$[] =~ m~<!DOCTYPE HTML~i;
+	unless $_[0] =~ m~<!DOCTYPE HTML~i;
 
     # If there are SGML headers but no <html>..</html> then we'll have
     # a problem (<html> will be outside the other SGML tags).
@@ -332,11 +331,11 @@ sub canonize {
     # too much messy memory copies on a potentialy Very Large string.
     # But, it's very unlikely that someone will include the SGML tags
     # and then not include <html>...</html>
-    $add.='<html>'."\n"	unless $_[$[] =~ m~<HTML>~i;
+    $add.='<html>'."\n"	unless $_[0] =~ m~<HTML>~i;
 
-    $_[$[].="</html>\n" unless $_[$[] =~ m~</HTML>~i;
+    $_[0].="</html>\n" unless $_[0] =~ m~</HTML>~i;
 
-    substr($_[$[],$[,0)=$add;
+    substr($_[0],0,0)=$add;
 }
 
 1;

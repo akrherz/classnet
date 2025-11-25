@@ -8,7 +8,7 @@ sub unpack_assign_header {
    my %assign_info;
 
    %assign_info = ASSIGNMENT->unpack_assign_header($header);
-   (defined %assign_info) or return undef;
+   (%assign_info) or return undef;
 
    # Add any defaults
    $assign_info{'VERS'} = ($assign_info{'OPT'} =~ /VERS=(\d+)/) ? $1 : 0;

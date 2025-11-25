@@ -29,7 +29,7 @@ sub read_test {
    # Get the header
    my $test_header = shift @questions;
    my %test_params = TEST::unpack_stud_test_header($test_header);
-   (defined %test_params) or
+   (%test_params) or
         ERROR::system_error('TEST','read_test','unpack stheader',
                             "$fname:$test_header");
    $self->{'Test Header'} = \%test_params;
@@ -39,7 +39,7 @@ sub read_test {
    for ($q_num=1; $q_num<=$num_questions; $q_num++) {
        $cn_q = shift @questions;
        %q_info = TEST::unpack_stud_question_header($cn_q);
-       (defined %q_info) or
+       (%q_info) or
             ERROR::system_error('TEST','read_test','unpack qheader',
                                 "$fname:$cn_q");
        $q_info{'ANS'} = shift @questions;

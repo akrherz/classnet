@@ -36,7 +36,7 @@ START
         }
         close(REQ_FILE);
        	print qq|<TR ALIGN=CENTER><TD>$name|;
-       	print qq|<TD><a href="email:$email|">$email</a>;
+       	print qq|<TD><a href="mailto:$email">$email</a>|;
 	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="app" CHECKED>|;
        	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="rej">|;
        	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="ret">|;

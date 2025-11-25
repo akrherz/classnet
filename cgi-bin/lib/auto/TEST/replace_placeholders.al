@@ -8,9 +8,6 @@ sub replace_placeholders {
    my $name = "$block_num.$question_num";
    my $q_str = $q_params{'qtext'};
 
-   # Perform multiline pattern matching
-   $* = 1;
-
    $_ = $q_params{'Question Type'};
    SWITCH: {
        /CHOICE|LIKERT/  &&

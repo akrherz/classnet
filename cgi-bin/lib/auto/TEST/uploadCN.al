@@ -10,7 +10,7 @@ sub uploadCN {
         $block =~ s/(<\s*CN_BLOCK[^>]*>)/eval { $header = $1; ''}/e;
         my %params = unpack_block_header($header);
         $b++;
-        if (!defined %params) {
+        if (!%params) {
             $self->delete();
             $header =~ s/</&lt/;
             ERROR::user_error($ERROR::NOTDONE,"upload. Check block $b:<BR><B>$header</B>");
@@ -26,7 +26,7 @@ sub uploadCN {
             $quest =~ s/([^>]*>)/eval { $header = $1; ''}/e;
             my %params = unpack_question_header("<CN_Q$header");
             $q++;
-            if (!defined %params) {
+            if (!%params) {
                 $self->delete();
                 ERROR::user_error($ERROR::NOTDONE,"upload. Check block $b, question $q:<BR><B>&ltCN_Q $header</B>");
                 exit(0);

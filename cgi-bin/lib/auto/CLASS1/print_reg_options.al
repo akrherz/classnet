@@ -61,7 +61,7 @@ Your ISU Card Number (9 digits):<INPUT TYPE=text VALUE="000000000" col=9><br>
 <INPUT TYPE=submit NAME=memback VALUE="Instructor Menu">
 </H4>
 </CENTER>
- END_FORM
+END_FORM
     CN_UTILS::print_cn_footer("class_options.html");
 }
 
