@@ -27,7 +27,7 @@ sub view_scores {
    # Get an associative array of assignment types
    foreach $asn_name (@{$asn_names}) {
        my $disk_name = CGI::escape($asn_name);
-       my %info = ASSIGNMENT::get_info($self,$asn_name);
+       my %info = ASSIGNMENT->get_info($self,$asn_name);
        $asn_info{$asn_name} = \%info;
    }
 

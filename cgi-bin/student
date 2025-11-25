@@ -105,7 +105,7 @@ once to reenter the password or twice to return to the <B>Student Menu</B>.";
                    # Get an associative array of assignment types
                    foreach $asn_name (@asn_files) {
                        my $disk_name = CGI::escape($asn_name);
-                       my %asn_info = ASSIGNMENT::get_info($cls,$asn_name);
+                       my %asn_info = ASSIGNMENT->get_info($cls,$asn_name);
                        my $asn_type = $asn_info{'Assignment Type'};
                        my @scores = ($asn_type)->get_score($cls,$asn_name,$stud->{'Username'});
                        my $sc = $scores[2];
@@ -433,7 +433,7 @@ sub get_assignment {
     $asn_name or $asn_name = $query->param('Assignment Name');
     if (defined $asn_name) {
         # find the assignment type
-        my %asn_info = ASSIGNMENT::get_info($self,$asn_name);
+        my %asn_info = ASSIGNMENT->get_info($self,$asn_name);
         my $asn_type = $asn_info{'Assignment Type'};
         if ($asn_type) {
             return ($asn_type)->new($query,$self,$mem,$asn_name);

@@ -19,6 +19,9 @@ use AutoLoader;
 require DIALOG;
 require EDITOR;
 
+# Prevent AutoLoader from looking for DESTROY.al
+sub DESTROY { }
+
 __END__
 
 #########################################

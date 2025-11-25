@@ -306,7 +306,7 @@ sub send_email {
        my $recip_info = "$mem_info{'Email Address'} ($mem_info{'First Name'} $mem_info{'Last Name'})";
        $i++;
        if (($i % 50) == 0 || $i == $n) {
-           open (MAIL, "| $SENDMAIL -t -n -oi -f akrherz\@iastate.edu") ||
+           open (MAIL, "| $SENDMAIL -t -n -oi -f root\@schoolnet8.com") ||
        	       ERROR::system_error("MEMBER.pm", "send_email", "Open Mail", 
        	           	       	       "From: $self->{'Username'}", "To: $mem_info{'Email Address'}");
            print MAIL "To: $recip_info\n";

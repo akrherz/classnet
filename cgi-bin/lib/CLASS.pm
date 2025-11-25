@@ -73,6 +73,9 @@ sub new {
    return $self;
 }
 
+# Prevent AutoLoader from looking for DESTROY.al
+sub DESTROY { }
+
 __END__
 
 #########################################
@@ -1259,7 +1262,7 @@ sub get_assignment {
     $asn_name or $asn_name = $query->param('Assignment Name');
     if (defined $asn_name) {
         # find the assignment type
-        my %asn_info = ASSIGNMENT::get_info($self,$asn_name);
+        my %asn_info = ASSIGNMENT->get_info($self,$asn_name);
         my $asn_type = $asn_info{'Assignment Type'};
         if ($asn_type) {
             return ($asn_type)->new($query,$self,$mem,$asn_name);
@@ -1397,7 +1400,7 @@ sub view_scores {
    # Get an associative array of assignment types
    foreach $asn_name (@{$asn_names}) {
        my $disk_name = CGI::escape($asn_name);
-       my %info = ASSIGNMENT::get_info($self,$asn_name);
+       my %info = ASSIGNMENT->get_info($self,$asn_name);
        $asn_info{$asn_name} = \%info;
    }
 
@@ -1787,7 +1790,7 @@ sub histogram {
    # Get an associative array of assignment types
    foreach $asn_name (@{$asn_names}) {
        my $disk_name = CGI::escape($asn_name);
-       my %info = ASSIGNMENT::get_info($self,$asn_name);
+       my %info = ASSIGNMENT->get_info($self,$asn_name);
        $asn_info{$asn_name} = \%info;
    }
    my %tot = {};

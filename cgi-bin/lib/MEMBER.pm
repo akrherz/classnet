@@ -118,6 +118,9 @@ sub new {
    $self;
 }
 
+# Prevent AutoLoader from looking for DESTROY.al
+sub DESTROY { }
+
 __END__
 
 #########################################

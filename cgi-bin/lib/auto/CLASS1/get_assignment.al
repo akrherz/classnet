@@ -8,7 +8,7 @@ sub get_assignment {
     $asn_name or $asn_name = $query->param('Assignment Name');
     if (defined $asn_name) {
         # find the assignment type
-        my %asn_info = ASSIGNMENT::get_info($self,$asn_name);
+        my %asn_info = ASSIGNMENT->get_info($self,$asn_name);
         my $asn_type = $asn_info{'Assignment Type'};
         if ($asn_type) {
             return ($asn_type)->new($query,$self,$mem,$asn_name);

@@ -49,6 +49,9 @@ sub new {
    bless $self;
 }
 
+# Prevent AutoLoader from looking for DESTROY.al
+sub DESTROY { }
+
 __END__
 #__DATA__
 
