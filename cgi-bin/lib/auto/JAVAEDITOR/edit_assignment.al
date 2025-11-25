@@ -7,7 +7,7 @@ sub edit_assignment {
     my %params = $asn->read();
     my $atype = $params{'Assignment Type'};
     $publish = $EDITOR::checked[!($asn->{'Dev Root'} =~ /.develop/)];
-    TEST::print_test_header("Assignment $asn->{'Name'}");
+    TEST->print_test_header("Assignment $asn->{'Name'}");
     $self->print_start_form();
     print <<"ASSIGN";
 <INPUT TYPE=hidden NAME="Assignment Type" VALUE="$atype">

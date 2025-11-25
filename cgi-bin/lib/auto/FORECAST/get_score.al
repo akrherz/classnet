@@ -22,7 +22,7 @@ sub get_score {
        my $test_header = <ASN>;
        flock(ASN,$LOCK_UN);
        close(ASN);
-       my %score = TEST::unpack_stud_test_header($test_header,$fname);
+       my %score = TEST->unpack_stud_test_header($test_header,$fname);
        (%score) or
             ERROR::system_error('FORECAST','get_score','unpack sheader',
                                 "$fname:$test_header");

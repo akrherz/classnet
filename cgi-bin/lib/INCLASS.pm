@@ -65,7 +65,7 @@ none
 
 sub create {
     my ($self) = @_;
-    ASSIGNMENT::create($self);
+    ASSIGNMENT->create($self);
     my $dir = $self->{'Dev Root'};
     open(OPTION,">$dir/options") or
         ERROR::system_error('TEST','create',"open","$dir/options");
@@ -103,7 +103,7 @@ sub send_edit_form {
     my ($self,$query,$stu) = @_;
     my @students = @{$stu};
     my $tkt = $query->param('Ticket');
-    TEST::print_test_header("In-class Scores<BR>$self->{'Name'}");
+    TEST->print_test_header("In-class Scores<BR>$self->{'Name'}");
     print <<"FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/gradebook">
 <INPUT TYPE=hidden NAME=cn_option VALUE="Submit Edit Changes">
@@ -248,7 +248,7 @@ sub format_stats {
     }
     close(DATA);
     my $tp = $self->{'TP'};
-    TEST::print_test_header("Statistics");
+    TEST->print_test_header("Statistics");
     my @parms = (
 'set terminal pbm color small',
 'set data style impulse',

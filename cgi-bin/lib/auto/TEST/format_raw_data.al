@@ -2,7 +2,9 @@
 package TEST;
 
 sub format_raw_data {
-    my ($self,$sname) = @_;
+    my ($class, $self, $sname) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $sname = $self; $self = $class; }
     my $body = "$sname";
     my $name = $self->{'Name'};
     if ($self->get_status() eq 'graded') {

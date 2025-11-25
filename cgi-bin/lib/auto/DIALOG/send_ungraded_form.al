@@ -55,7 +55,7 @@ sub send_ungraded_form {
    #my $date_time = sprintf("%02d$months[$mon]%04d_%02d_%02d",$mday,$year,$hour,$min);
 
    #Send the file
-   DIALOG::print_dialog_header("$self->{'Name'} dialog");
+   DIALOG->print_dialog_header("$self->{'Name'} dialog");
    print <<"FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/assignments">
 <INPUT TYPE=hidden NAME=cn_option VALUE="Submit DIALOG">

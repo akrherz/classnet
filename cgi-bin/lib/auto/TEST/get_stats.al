@@ -2,7 +2,9 @@
 package TEST;
 
 sub get_stats {
-    my ($self,$stats,$tot) = @_;
+    my ($class, $self, $stats, $tot) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $tot = $stats; $stats = $self; $self = $class; }
     my $name = $self->{'Name'};
     my $type;
 

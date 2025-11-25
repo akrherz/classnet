@@ -5,7 +5,7 @@ package DIALOG;
 
 sub create {
     my ($self) = @_;
-    ASSIGNMENT::create($self);
+    ASSIGNMENT->create($self);
     my $dir = $self->{'Dev Root'};
     open(OPTION,">$dir/options") or
         ERROR::system_error('DIALOG.pm','create',"open","$dir/options");

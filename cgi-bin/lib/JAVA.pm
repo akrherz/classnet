@@ -75,7 +75,7 @@ none
 
 sub create {
     my ($self) = @_;
-    ASSIGNMENT::create($self);
+    ASSIGNMENT->create($self);
     my $dir = $self->{'Dev Root'};
     open(OPTION,">$dir/options") or
         ERROR::system_error('JAVA.pm','create',"open","$dir/options");

@@ -99,7 +99,7 @@ sub format_stats {
     }
     close(DATA);
     my $tp = $self->{'Key Header'}{'TP'};
-    TEST::print_test_header("Statistics");
+    TEST->print_test_header("Statistics");
     my @parms = (
 'set terminal pbm color small',
 'set data style impulse',

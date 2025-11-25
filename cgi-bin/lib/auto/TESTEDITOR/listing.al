@@ -17,7 +17,7 @@ sub listing {
        if (!($asn->{'Dev Root'} =~ /.develop/)) {
            $asn->make_key();
        }
-       ASSIGNMENT::print_menu($cls,$asn->{'Member'});
+       ASSIGNMENT->print_menu($cls,$asn->{'Member'});
        unlink $flag;
        exit(0);
     }

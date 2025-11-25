@@ -15,7 +15,7 @@ sub view_assignments {
    (@{$asn_names} < 1) and 
        ERROR::user_error($ERROR::NOASNNAMES);   
 
-   TEST::print_test_header("\u$op Assignments");
+   TEST->print_test_header("\u$op Assignments");
    print <<"HEAD";
 <CENTER><H4>$self->{'Name'}</H4>$GLOBALS::HR
 </CENTER>

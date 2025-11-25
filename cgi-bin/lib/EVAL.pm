@@ -73,7 +73,7 @@ sub get_score {
        my $test_header = <ASN>;
        flock(ASN,$LOCK_UN);
        close(ASN);
-       my %scores = TEST::unpack_stud_test_header($test_header);
+       my %scores = TEST->unpack_stud_test_header($test_header);
        (%scores) or
             ERROR::system_error('EVAL','get_score','unpack stheader',
                                 "$path:$test_header");
@@ -131,7 +131,7 @@ sub mail_raw_data {
     my @rand_array;
     push(@rand_array,splice(@snames1,rand(@snames1),1))
         while @snames1;
-    ASSIGNMENT::mail_raw_data($self,\@rand_array);
+    ASSIGNMENT->mail_raw_data($self,\@rand_array);
 }
 
 sub format_raw_data {

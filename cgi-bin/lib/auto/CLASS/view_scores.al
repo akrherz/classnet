@@ -34,7 +34,7 @@ sub view_scores {
    my $hasTable = CN_UTILS::hasTables();
    # Loop on students and assignments
    my $detail = "<CENTER><H3>Details</H3></CENTER>\n";
-   TEST::print_test_header('Scores');
+   TEST->print_test_header('Scores');
    print "<CENTER><H4>$self->{'Name'}</H4></CENTER>$GLOBALS::HR\n";
    print "<CENTER><H3>Summary</H3></CENTER><P>\n";
    if ($hasTable) {

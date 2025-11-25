@@ -18,7 +18,7 @@ sub mail_raw_data {
     my @rand_array;
     push(@rand_array,splice(@snames1,rand(@snames1),1))
         while @snames1;
-    ASSIGNMENT::mail_raw_data($self,\@rand_array);
+    ASSIGNMENT->mail_raw_data($self,\@rand_array);
 }
 
 1;

@@ -2,7 +2,9 @@
 package ASSIGNMENT;
 
 sub mail_raw_data {
-    my ($self,$stud_names) = @_;
+    my ($class, $self, $stud_names) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $stud_names = $self; $self = $class; }
     my $inst = $self->{'Member'};
     my $cls = $self->{'Class'};
     my $body = '';

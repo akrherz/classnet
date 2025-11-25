@@ -2,7 +2,9 @@
 package TEST;
 
 sub write_assign_query {
-   my ($self) = @_;
+   my ($class, $self) = @_;
+   # Handle both method and legacy calls
+   if (ref($class)) { $self = $class; }
    my (%assign_params, $answer_all);
    my $query = $self->{'Query'};
 

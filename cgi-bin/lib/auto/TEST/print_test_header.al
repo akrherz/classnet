@@ -2,7 +2,9 @@
 package TEST;
 
 sub print_test_header {
-   my ($title,$window) = @_;
+   my $class = shift;
+   # Handle both method and legacy calls - class is "TEST" string
+   my ($title, $window) = (ref($class) || $class eq 'TEST') ? @_ : ($class, @_);
    (!defined $window) and $window = '_top';
 print <<"HEADER";
 Content-type: text/html

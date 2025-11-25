@@ -2,7 +2,9 @@
 package ASSIGNMENT;
 
 sub source {
-    my ($self) = @_;
+    my ($class, $self) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $self = $class; }
     return $self->get_assign_header();
 }
 

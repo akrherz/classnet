@@ -2,7 +2,9 @@
 package ASSIGNMENT;
 
 sub upload {
-    my ($self,$hfile) = @_;
+    my ($class, $self, $hfile) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $hfile = $self; $self = $class; }
     my ($header);
 
     if (!defined $hfile) { 

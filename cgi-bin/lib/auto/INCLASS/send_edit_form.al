@@ -5,7 +5,7 @@ sub send_edit_form {
     my ($self,$query,$stu) = @_;
     my @students = @{$stu};
     my $tkt = $query->param('Ticket');
-    TEST::print_test_header("In-class Scores<BR>$self->{'Name'}");
+    TEST->print_test_header("In-class Scores<BR>$self->{'Name'}");
     print <<"FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/gradebook">
 <INPUT TYPE=hidden NAME=cn_option VALUE="Submit Edit Changes">

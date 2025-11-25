@@ -6,7 +6,7 @@ sub get_stats {
     my @files = get_forecasts($self->{'Graded Dir'},$self->{'Name'});
     foreach $fname (@files) {
         $self->{'Student File'} = $fname;
-        TEST::get_stats($self,$stats,$tot);
+        TEST->get_stats($self,$stats,$tot);
     }
 }
 

@@ -5,7 +5,7 @@ package TEST;
 
 sub write_block {
     my ($self,$b,%params) = @_;
-    $hdr = TEST::pack_block_header(%params);
+    $hdr = TEST->pack_block_header(%params);
     $fname = "$self->{'Dev Root'}/$b/options";
     open(BLK,">$fname") or
         ERROR::system_error('TEST','write_block','open',$fname);

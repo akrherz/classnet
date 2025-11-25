@@ -4,7 +4,7 @@ package CLASS;
 #########################################
 
 sub print_main_menu {
-    @cls_files = CLASS::list();
+    @cls_files = CLASS->list();
 
     CN_UTILS::print_cn_header("Main Menu");
 

@@ -4,6 +4,9 @@ package TEST;
 #########################################
 
 sub pack_question_header {
+    my $class = shift;
+    # Handle both method and legacy calls
+    unshift(@_, $class) if ref($class) || $class =~ /=/;
     my (%params) = @_;
     my $hdr = '<CN_Q ';
     $hdr .= "TYPE=$params{'Question Type'} ";

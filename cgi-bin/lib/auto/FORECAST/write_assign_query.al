@@ -29,7 +29,7 @@ Back and enter a correct station code.\n";
        CN_UTILS::print_cn_footer();
        exit(0);
    }
-   TEST::write_assign_query($self);
+   TEST->write_assign_query($self);
 }
 
 1;

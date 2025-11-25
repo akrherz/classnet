@@ -20,7 +20,7 @@ sub read_block {
     }
     else {
        my $header = shift @bdata;
-       %params = TEST::unpack_block_header($header);
+       %params = TEST->unpack_block_header($header);
        (%params) or
            ERROR::system_error('TEST','read_block','unpack_block_header',
                                "$fname:$header");

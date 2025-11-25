@@ -5,7 +5,7 @@ package TEST;
 
 sub write_question {
     my ($self,$b,$q,%params) = @_;
-    my $hdr = TEST::pack_question_header(%params);
+    my $hdr = TEST->pack_question_header(%params);
     my $qtext = $params{'qtext'};
     my $feedback = $params{'feedback'};
     my $txt = $feedback? join("\n<CN_FEEDBACK>\n",$qtext,$feedback):$qtext;

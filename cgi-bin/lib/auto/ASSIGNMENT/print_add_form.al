@@ -20,7 +20,7 @@ input file. Click on <B>Add</B> when done.
 <PRE>
 HTML
 print "<B>       Type:</B> ";
-ASSIGNMENT::print_types('TEST');
+ASSIGNMENT->print_types('TEST');
     print <<"HTML";
 <B>       Name:</B> <INPUT TYPE=text NAME="Assignment Name" SIZE=15 MAXLENGTH=15>
 </PRE>

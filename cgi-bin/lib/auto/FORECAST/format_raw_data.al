@@ -8,7 +8,7 @@ sub format_raw_data {
     my @files = get_forecasts($self->{'Graded Dir'},$self->{'Name'});
     foreach $fname (@files) {
         $self->{'Student File'} = $fname;
-        $body .= TEST::format_raw_data($self,"$sname\t$fname");
+        $body .= TEST->format_raw_data($self,"$sname\t$fname");
     }
     $body;
 }
