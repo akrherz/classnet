@@ -257,7 +257,7 @@ sub plot {
     my ($fname,$parms) = @_;
     $|=1;  # to prevent buffering problems
 
-    my $gname = "/local1/www/apache-isu/htdocs/tmpgifs/$$.gif";
+    my $gname = "/local/classnet/html/tmpgifs/$$.gif";
     # | $GIFTRANS -t#ffffff
     open (GRAPH,"| $GNUPLOT | $PPMTOGIF | cat >$gname") 
       or return "can't open $gname: $!\n";

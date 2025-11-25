@@ -68,7 +68,7 @@ my $gname = CN_UTILS::plot($fname,\@parms);
 unlink $fname;
 my $filename = $gname;
 $filename =~ /(\d+.gif)/;
-$filename = "/local1/www/apache-isu/htdocs/tmpgifs/$1";
+$filename = "/local/classnet/html/tmpgifs/$1";
 
    TEST->print_test_header('Histogram');
    print <<"HISTOGRAM";
