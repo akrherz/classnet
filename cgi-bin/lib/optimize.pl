@@ -604,7 +604,7 @@ sub get_email_addr {
 
 
 sub print_main_menu {
-    @cls_files = CLASS::list();
+    @cls_files = CLASS->list();
 
     CN_UTILS::print_cn_header("Main Menu");
 
@@ -927,7 +927,7 @@ sub print_menu {
 <H3><CENTER>$cls->{'Name'}</H3>
 <H3>Assignments</H3>
 FORM
-    ASSIGNMENT::print_listbox($cls,'published');
+    ASSIGNMENT->print_listbox($cls,'published');
     print <<"FORM";
 <BR>
 <H4>

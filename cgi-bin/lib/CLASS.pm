@@ -1265,6 +1265,10 @@ sub get_assignment {
         # find the assignment type
         my %asn_info = ASSIGNMENT->get_info($self,$asn_name);
         my $asn_type = $asn_info{'Assignment Type'};
+        # Fallback for legacy FORECAST assignments without TYPE in options
+        if (!$asn_type && $asn_name =~ /^forecast$/i) {
+            $asn_type = 'FORECAST';
+        }
         if ($asn_type) {
             return ($asn_type)->new($query,$self,$mem,$asn_name);
         } else {

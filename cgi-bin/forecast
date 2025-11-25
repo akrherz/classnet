@@ -36,7 +36,7 @@ SWITCH: {
                my $asn = FORECAST->new($query,$cls,$mem);
                $asn->{'Student File'} = CGI::escape($fname);
                $form = $asn->TEST::get_graded_form();
-               TEST::print_test_header($fname);
+               TEST->print_test_header($fname);
                print "$GLOBALS::HR$form";
                print $GLOBALS::HR;
                last SWITCH;

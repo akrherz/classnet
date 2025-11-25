@@ -19,7 +19,7 @@ umask 000;
 $query = new CGI;
 
 if ($query->param('back')) {
-    CLASS::print_main_menu();
+    CLASS->print_main_menu();
     exit(0);
 }
 
@@ -27,7 +27,7 @@ if ($query->param('back')) {
 CN_UTILS::verify_pairs($query,'Class Name','First Name','Last Name',
        	 'Password','Verify Password','Email Address','Expiration Month');
 
-CLASS::check_limit();
+CLASS->check_limit();
 
 my $cname = $query->param('Class Name'); 
 if ($cname =~ /[\*\/%:\(\)\\]/) {

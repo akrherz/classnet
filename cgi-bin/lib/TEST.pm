@@ -302,7 +302,7 @@ sub question_count {
     opendir(QUEST,"$self->{'Dev Root'}/$b") or
        	ERROR::system_error('TEST','question_count','opendir',"$self->{'Dev Root'}/$b");
     my $q = grep(/^\d+$/,readdir(QUEST));
-    close QUEST;
+    closedir QUEST;
     return $q;
 }
 

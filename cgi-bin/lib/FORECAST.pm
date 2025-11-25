@@ -96,7 +96,12 @@ sub create {
     my ($self) = @_;
     ASSIGNMENT->create($self);
     my $dir = $self->{'Dev Root'};
-    system("cp -r /local1/weather/Forecast/* $dir");
+    open(OPTION,">$dir/options") or
+        ERROR::system_error('FORECAST','create',"open","$dir/options");
+    $type = ref($self);
+    print OPTION "<CN_ASSIGN TYPE=$type>";
+    close OPTION;
+    system("cp -r /local/classnet/weather/Forecast/* $dir");
 }
 
 #########################################
