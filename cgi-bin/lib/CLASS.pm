@@ -41,7 +41,7 @@ trailing blanks removed.
 $self->{'Disk Name'}: Modified class name
 
 $self->{'Root Dir'}: Class root directory
-(e.g. /local1/classnet/class_name).
+(e.g. /local/classnet/data/class_name).
 
 $self->{'Enroll Opt'}: Set to 'auto' for automatic 
 enrollment or to 'controlled' for controlled enrollment
@@ -1843,7 +1843,7 @@ my $gname = CN_UTILS::plot($fname,\@parms);
 unlink $fname;
 my $filename = $gname;
 $filename =~ /(\d+.gif)/;
-$filename = "/local1/www/apache-isu/htdocs/tmpgifs/$1";
+$filename = "/local/classnet/html/tmpgifs/$1";
 
    TEST->print_test_header('Histogram');
    print <<"HISTOGRAM";
