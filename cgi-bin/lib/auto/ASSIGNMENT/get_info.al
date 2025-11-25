@@ -4,7 +4,7 @@ package ASSIGNMENT;
 #########################################
 
 sub get_info {
-    my ($cls,$asn_name) = @_;
+    my ($class, $cls, $asn_name) = @_;
 
    $disk_name = CN_UTILS::get_disk_name($asn_name);
    $root = "$cls->{'Root Dir'}/assignments/$disk_name/options";
