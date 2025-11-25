@@ -1,8 +1,0 @@
-# Index created by AutoSplit for lib/INSTRUCTOR.pm (file acts as timestamp)
-package INSTRUCTOR;
-sub add ;
-sub exists ;
-sub enroll_req_members ;
-sub delete_member ;
-sub print_menu ;
-1;

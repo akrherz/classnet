@@ -1,8 +1,6 @@
 package FORECAST;
 use Exporter;
-use AutoLoader;
-@ISA = (Exporter, AutoLoader, TEST);
-#@ISA = qw( TEST );
+@ISA = (Exporter, TEST);
 
 #########
 =head1 FORECAST
@@ -68,11 +66,6 @@ sub new {
    # note that the key path points to assignment_name/key
    return $self;
 }
-
-# Prevent AutoLoader from looking for DESTROY.al
-sub DESTROY { }
-
-__END__
 
 #########################################
 =head2 create()

@@ -1,7 +1,6 @@
 package MEMBER;
 use Exporter;
-use AutoLoader;
-@ISA = (Exporter, AutoLoader);
+@ISA = (Exporter);
 
 #########
 =head1 MEMBER
@@ -117,11 +116,6 @@ sub new {
    }
    $self;
 }
-
-# Prevent AutoLoader from looking for DESTROY.al
-sub DESTROY { }
-
-__END__
 
 #########################################
 =head2 check_password($query)

@@ -1,6 +1,0 @@
-# Index created by AutoSplit for lib/DIALOGEDITOR.pm (file acts as timestamp)
-package DIALOGEDITOR;
-sub open ;
-sub command ;
-sub edit_assignment ;
-1;

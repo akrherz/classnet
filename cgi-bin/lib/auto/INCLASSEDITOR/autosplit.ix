@@ -1,6 +1,0 @@
-# Index created by AutoSplit for lib/INCLASSEDITOR.pm (file acts as timestamp)
-package INCLASSEDITOR;
-sub open ;
-sub command ;
-sub edit_assignment ;
-1;

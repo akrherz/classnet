@@ -1,8 +1,6 @@
 package TESTEDITOR;
 use Exporter;
-use AutoLoader;
-@ISA = (Exporter, AutoLoader, EDITOR);
-#@ISA = qw( EDITOR );
+@ISA = (Exporter, EDITOR);
 #
 # handles editing of tests
 #
@@ -20,11 +18,6 @@ require TEST;
 require FORECAST;
 require EDITOR;
 require EVAL;
-
-# Prevent AutoLoader from looking for DESTROY.al
-sub DESTROY { }
-
-__END__
 
 #########################################
 =head2 open()
