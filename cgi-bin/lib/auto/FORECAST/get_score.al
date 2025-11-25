@@ -23,7 +23,7 @@ sub get_score {
        flock(ASN,$LOCK_UN);
        close(ASN);
        my %score = TEST::unpack_stud_test_header($test_header,$fname);
-       (defined %score) or
+       (%score) or
             ERROR::system_error('FORECAST','get_score','unpack sheader',
                                 "$fname:$test_header");
        $text .= "<LI><B>$fname:</B> $score{'PR'}/$score{'TP'}";

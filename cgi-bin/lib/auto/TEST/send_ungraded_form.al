@@ -12,7 +12,7 @@ sub send_ungraded_form {
        ERROR::user_error($ERROR::GRADED);
    # Get assignment info and check due date
    %params = $self->read();
-   (defined %params) or
+   (%params) or
         ERROR::system_error('TEST','send_ungraded_form','read header',
                             "$self->{'Dev Root'}/options");
    $self->{'Key Header'} = \%params;

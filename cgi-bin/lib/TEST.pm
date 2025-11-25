@@ -104,9 +104,6 @@ sub replace_placeholders {
    my $name = "$block_num.$question_num";
    my $q_str = $q_params{'qtext'};
 
-   # Perform multiline pattern matching
-   $* = 1;
-
    $_ = $q_params{'Question Type'};
    SWITCH: {
        /CHOICE|LIKERT/  &&
@@ -484,7 +481,7 @@ sub grade {
    # Do we have the key header?
    if (!$self->{'Key Header'})  {
        my %assign_params = $self->read();
-       (defined %assign_params) or
+       (%assign_params) or
             ERROR::system_error('TEST','grade','read header',
                                 "$self->{'Dev Root'}/options");
        $self->{'Key Header'} = \%assign_params;
@@ -541,7 +538,7 @@ sub grade {
            } elsif ($key->{$q_name}{'Question Type'} =~ /MULTIPLE/i) {
                $correct = 1;
                my %values = $self->get_runtime_values();
-               (defined %values) and $ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
+               (%values) and $ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
                $ans =~ s/{\s*(\w+)\s*}//g;
                $ans = CN_UTILS::remove_spaces($ans);
                @answers = split(/,/,$ans);
@@ -579,7 +576,7 @@ sub grade {
        } elsif ($key->{$q_name}{'Question Type'} =~ /LIKERT/i) {
            $ans = $key->{$q_name}{'ANS'};
            my %values = $self->get_runtime_values();
-           (defined %values) and $ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
+           (%values) and $ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
            $ans =~ s/{\s*(\w+)\s*}//g;
            $sans = $stud_ans->{$q_name}{'ANS'};
            if ($ans eq '') {
@@ -626,7 +623,7 @@ sub match {
 ###########################################################  
     # substitute {name} in answer with run-time values
     my %values = $self->get_runtime_values();
-    (defined %values) and $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/g;
+    (%values) and $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/g;
     # replace any remaining dynamic values with blank.
     $key_ans =~ s/{\s*(\w+)\s*}//g;
     $key_ans = CN_UTILS::remove_spaces($key_ans);
@@ -784,7 +781,7 @@ sub read_block {
     else {
        my $header = shift @bdata;
        %params = TEST::unpack_block_header($header);
-       (defined %params) or
+       (%params) or
            ERROR::system_error('TEST','read_block','unpack_block_header',
                                "$fname:$header");
     }
@@ -834,7 +831,7 @@ sub read_question {
     else {
        my $header = shift @qdata;
        %params = TEST::unpack_question_header($header);
-       (defined %params) or
+       (%params) or
            ERROR::system_error('TEST','read_question','unpack_question_header',
                                "$fname:$header");
     }
@@ -913,7 +910,7 @@ sub make_key {
 
    # Add Total pts to options file
    my %params = $self->read();
-   (defined %params) or
+   (%params) or
         ERROR::system_error('TEST','make_key','read header',
                             "$self->{'Dev Root'}/options");
    $params{'TP'} = $tot_pts;
@@ -1185,7 +1182,7 @@ sub unpack_assign_header {
    my %assign_info;
 
    %assign_info = ASSIGNMENT->unpack_assign_header($header);
-   (defined %assign_info) or return undef;
+   (%assign_info) or return undef;
 
    # Add any defaults
    $assign_info{'VERS'} = ($assign_info{'OPT'} =~ /VERS=(\d+)/) ? $1 : 0;
@@ -1400,7 +1397,7 @@ FORM
        my $ans = $stud_ans->{$q_name}{'ANS'};
        my $pts = "<B>Points:</B> <INPUT NAME=\"$b_num.$q_num PR\" SIZE=3 VALUE=\"$stud_ans->{$q_name}{'PR'}\"> of $stud_ans->{$q_name}{'TP'}";
        my $key_ans = $bl_q->{$root}{'ANS'};
-       (defined %values) and $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
+       (%values) and $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
        $key_ans =~ s/{\s*(\w+)\s*}/Not Available/g;
        my $q_type = $bl_q->{$root}{'Question Type'};
        if ($q_type eq 'LIKERT') {
@@ -1459,7 +1456,7 @@ sub send_ungraded_form {
        ERROR::user_error($ERROR::GRADED);
    # Get assignment info and check due date
    %params = $self->read();
-   (defined %params) or
+   (%params) or
         ERROR::system_error('TEST','send_ungraded_form','read header',
                             "$self->{'Dev Root'}/options");
    $self->{'Key Header'} = \%params;
@@ -1500,7 +1497,7 @@ sub get_new_form {
    # Get assignment options(?) and block numbers
    if (!$self->{'Key Header'})  {
        %assign_params = $self->read();
-       (defined %assign_params) or
+       (%assign_params) or
             ERROR::system_error('TEST','get_new_form','read header',
                             "$self->{'Dev Root'}/options");
        $self->{'Key Header'} = \%assign_params;
@@ -1738,7 +1735,7 @@ sub get_graded_form {
        $pr = $stud_ans->{$root}{'PR'};
        $tp = $stud_ans->{$root}{'TP'};
        my $key_ans = $bl_q->{$root}{'ANS'};
-       if (defined %values) {
+       if (%values) {
            $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
        }
        # replace remaining dynamic values with N/A
@@ -1809,7 +1806,7 @@ sub write_assign_query {
 
    # Read the options file
    %assign_params =  $self->read();
-   (defined %assign_params) or
+   (%assign_params) or
         ERROR::system_error('TEST','write_assign_query','read header',
                             "$self->{'Dev Root'}/options");
 
@@ -1904,7 +1901,7 @@ sub read_key {
    # Get the test header
 
    %assign_params = $self->read();
-   (defined %assign_params) or
+   (%assign_params) or
         ERROR::system_error('TEST','read_key','read header',
                             "$self->{'Dev Root'}/options");
    $self->{'Key Header'} = \%assign_params;
@@ -1937,7 +1934,7 @@ sub read_key {
 
        # Get Pts out of the block
        %b_info = TEST::unpack_block_header($cn_block);
-       (defined %b_info) or
+       (%b_info) or
            ERROR::system_error('TEST','read_key','unpack_block_header',
                                "$fname:$cn_block");
        # Parse the cn_q's
@@ -1947,7 +1944,7 @@ sub read_key {
 
        	   # Get question parameters
        	   %q_info = TEST::unpack_question_header($cn_q);
-           (defined %q_info) or
+           (%q_info) or
                ERROR::system_error('TEST','read_key','unpack_question_header',
                                    "$fname:$cn_q");
        	   $q_info{'TP'} = $b_info{'TP'};
@@ -2017,7 +2014,7 @@ sub read_test {
    # Get the header
    my $test_header = shift @questions;
    my %test_params = TEST::unpack_stud_test_header($test_header);
-   (defined %test_params) or
+   (%test_params) or
         ERROR::system_error('TEST','read_test','unpack stheader',
                             "$fname:$test_header");
    $self->{'Test Header'} = \%test_params;
@@ -2027,7 +2024,7 @@ sub read_test {
    for ($q_num=1; $q_num<=$num_questions; $q_num++) {
        $cn_q = shift @questions;
        %q_info = TEST::unpack_stud_question_header($cn_q);
-       (defined %q_info) or
+       (%q_info) or
             ERROR::system_error('TEST','read_test','unpack qheader',
                                 "$fname:$cn_q");
        $q_info{'ANS'} = shift @questions;
@@ -2100,7 +2097,7 @@ sub get_score {
        flock(ASN,$LOCK_UN);
        close(ASN);
        my %scores = TEST::unpack_stud_test_header($test_header);
-       (defined %scores) or
+       (%scores) or
             ERROR::system_error('TEST','get_score','unpack stheader',
                                 "$path:$test_header");
        $tp = $scores{'TP'};
@@ -2241,7 +2238,7 @@ sub uploadCN {
         $block =~ s/(<\s*CN_BLOCK[^>]*>)/eval { $header = $1; ''}/e;
         my %params = unpack_block_header($header);
         $b++;
-        if (!defined %params) {
+        if (!%params) {
             $self->delete();
             $header =~ s/</&lt/;
             ERROR::user_error($ERROR::NOTDONE,"upload. Check block $b:<BR><B>$header</B>");
@@ -2257,7 +2254,7 @@ sub uploadCN {
             $quest =~ s/([^>]*>)/eval { $header = $1; ''}/e;
             my %params = unpack_question_header("<CN_Q$header");
             $q++;
-            if (!defined %params) {
+            if (!%params) {
                 $self->delete();
                 ERROR::user_error($ERROR::NOTDONE,"upload. Check block $b, question $q:<BR><B>&ltCN_Q $header</B>");
                 exit(0);
@@ -2434,7 +2431,7 @@ sub format_stats {
                my $root = "$b.$q";
                $ans = $key->{$root}{'ANS'};
                my $key_ans = $bl_q->{$root}{'ANS'};
-               if (defined %values) {
+               if (%values) {
                    $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
                }
 

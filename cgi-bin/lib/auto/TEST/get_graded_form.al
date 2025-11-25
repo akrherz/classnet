@@ -42,7 +42,7 @@ sub get_graded_form {
        $pr = $stud_ans->{$root}{'PR'};
        $tp = $stud_ans->{$root}{'TP'};
        my $key_ans = $bl_q->{$root}{'ANS'};
-       if (defined %values) {
+       if (%values) {
            $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
        }
        # replace remaining dynamic values with N/A

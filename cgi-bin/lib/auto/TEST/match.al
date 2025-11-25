@@ -20,7 +20,7 @@ sub match {
 ###########################################################  
     # substitute {name} in answer with run-time values
     my %values = $self->get_runtime_values();
-    (defined %values) and $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/g;
+    (%values) and $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/g;
     # replace any remaining dynamic values with blank.
     $key_ans =~ s/{\s*(\w+)\s*}//g;
     $key_ans = CN_UTILS::remove_spaces($key_ans);

@@ -6,7 +6,7 @@ foreach (@TEMP) {
     do {$TMPDIRECTORY = $_; last} if -w $_;
 }
 $TMPDIRECTORY  = "." unless $TMPDIRECTORY;
-$SEQUENCE="CGItemp$$0000";
+$SEQUENCE="CGItemp${$}0000";
 
 %OVERLOAD = ('""'=>'as_string');
 

@@ -14,7 +14,7 @@ sub grade {
    # Do we have the key header?
    if (!$self->{'Key Header'})  {
        my %assign_params = $self->read();
-       (defined %assign_params) or
+       (%assign_params) or
             ERROR::system_error('TEST','grade','read header',
                                 "$self->{'Dev Root'}/options");
        $self->{'Key Header'} = \%assign_params;
@@ -71,7 +71,7 @@ sub grade {
            } elsif ($key->{$q_name}{'Question Type'} =~ /MULTIPLE/i) {
                $correct = 1;
                my %values = $self->get_runtime_values();
-               (defined %values) and $ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
+               (%values) and $ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
                $ans =~ s/{\s*(\w+)\s*}//g;
                $ans = CN_UTILS::remove_spaces($ans);
                @answers = split(/,/,$ans);
@@ -109,7 +109,7 @@ sub grade {
        } elsif ($key->{$q_name}{'Question Type'} =~ /LIKERT/i) {
            $ans = $key->{$q_name}{'ANS'};
            my %values = $self->get_runtime_values();
-           (defined %values) and $ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
+           (%values) and $ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
            $ans =~ s/{\s*(\w+)\s*}//g;
            $sans = $stud_ans->{$q_name}{'ANS'};
            if ($ans eq '') {

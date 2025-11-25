@@ -94,8 +94,7 @@ sub PrintHeader {
 
 sub PrintVariables {
   local (%in) = @_;
-  local ($old, $out, $output);
-  $old = $*;  $* =1;
+  local ($out, $output);
   $output .=  "<DL COMPACT>";
   foreach $key (sort keys(%in)) {
     foreach (split("\0", $in{$key})) {
@@ -104,7 +103,6 @@ sub PrintVariables {
     }
   }
   $output .=  "</DL>";
-  $* = $old;
 
   return $output;
 }
@@ -117,15 +115,13 @@ sub PrintVariables {
 
 sub PrintVariablesShort {
   local (%in) = @_;
-  local ($old, $out, $output);
-  $old = $*;  $* =1;
+  local ($out, $output);
   foreach $key (sort keys(%in)) {
     foreach (split("\0", $in{$key})) {
       ($out = $_) =~ s/\n/<BR>/g;
       $output .= "<B>$key</B> is <I>$out</I><BR>";
     }
   }
-  $* = $old;
 
   return $output;
 }

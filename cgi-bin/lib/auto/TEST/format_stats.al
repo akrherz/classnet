@@ -31,7 +31,7 @@ sub format_stats {
                my $root = "$b.$q";
                $ans = $key->{$root}{'ANS'};
                my $key_ans = $bl_q->{$root}{'ANS'};
-               if (defined %values) {
+               if (%values) {
                    $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/eg;
                }
 

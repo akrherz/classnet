@@ -11,7 +11,7 @@ sub write_assign_query {
 
    # Read the options file
    %assign_params =  $self->read();
-   (defined %assign_params) or
+   (%assign_params) or
         ERROR::system_error('TEST','write_assign_query','read header',
                             "$self->{'Dev Root'}/options");
 

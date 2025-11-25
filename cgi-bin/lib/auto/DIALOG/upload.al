@@ -10,8 +10,6 @@ sub upload {
    # There should probably be MORE error checking here on the incoming form!!
 
    # Get rid of any form stuff
-   # Perform multiline pattern matching
-   $* = 1;
    $hfile =~ s/<\s*\/?FORM[^>]*>//ig;
    my @ta_array = split(/(<\/textarea>)/i, $hfile);
 

@@ -3548,7 +3548,7 @@ sub delete_topic {
     	print "$t <BR>";
     }
     print "<P>";
-    if(defined(@responses)) {
+    if(@responses) {
     	print "Deleted responses: @responses\n<HR>\n";
     }
 	

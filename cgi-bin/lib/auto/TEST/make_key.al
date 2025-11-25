@@ -54,7 +54,7 @@ sub make_key {
 
    # Add Total pts to options file
    my %params = $self->read();
-   (defined %params) or
+   (%params) or
         ERROR::system_error('TEST','make_key','read header',
                             "$self->{'Dev Root'}/options");
    $params{'TP'} = $tot_pts;

@@ -15,7 +15,7 @@ sub get_new_form {
    # Get assignment options(?) and block numbers
    if (!$self->{'Key Header'})  {
        %assign_params = $self->read();
-       (defined %assign_params) or
+       (%assign_params) or
             ERROR::system_error('TEST','get_new_form','read header',
                             "$self->{'Dev Root'}/options");
        $self->{'Key Header'} = \%assign_params;

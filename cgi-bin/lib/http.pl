@@ -142,7 +142,6 @@ sub bit2rfc850 {
 	    'Jul','Aug','Sep','Oct','Nov','Dec'); 
 
     local($time) = @_;
-    local($[) = 0;
     local($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst);
     ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = 
 	gmtime($timebit);	# uses GMT time
