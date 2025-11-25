@@ -21,6 +21,9 @@ require FORECAST;
 require EDITOR;
 require EVAL;
 
+# Prevent AutoLoader from looking for DESTROY.al
+sub DESTROY { }
+
 __END__
 
 #########################################

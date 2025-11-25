@@ -73,6 +73,9 @@ sub new {
    return $self;
 }
 
+# Prevent AutoLoader from looking for DESTROY.al
+sub DESTROY { }
+
 __END__
 
 #########################################
@@ -96,7 +99,7 @@ An assignment object
 =cut
 
 sub get_info {
-    my ($cls,$asn_name) = @_;
+    my ($class, $cls, $asn_name) = @_;
 
    $disk_name = CN_UTILS::get_disk_name($asn_name);
    $root = "$cls->{'Root Dir'}/assignments/$disk_name/options";

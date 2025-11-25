@@ -39,6 +39,9 @@ sub new {
    return $self;
 }
 
+# Prevent AutoLoader from looking for DESTROY.al
+sub DESTROY { }
+
 __END__
 
 sub send_edit_form {
