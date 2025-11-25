@@ -67,7 +67,7 @@ sub send_edit_form {
    #my $date_time = sprintf("%02d$months[$mon]%04d_%02d_%02d",$mday,$year,$hour,$min);
 
    #Send the file
-   DIALOG::print_dialog_header("Dialog with $self->{'Member'}->{'Username'} ");
+   DIALOG->print_dialog_header("Dialog with $self->{'Member'}->{'Username'} ");
    print <<"FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/gradebook">
 <INPUT TYPE=hidden NAME=cn_option VALUE="Submit Edit Changes">

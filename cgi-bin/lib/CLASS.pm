@@ -806,6 +806,7 @@ none
 =cut
 
 sub list {
+    my $class = shift; # Handle method call - ignore class arg
           
 open(CLASS_LIST, "<$GLOBALS::CLASSNET_ROOT_DIR/class_list") or
     &ERROR::system_error("CLASS","list","open",
@@ -1039,7 +1040,7 @@ GRADEBOOK
         print "<TH ALIGN=CENTER><B>Assignments</B>\n";
         print "<TH ALIGN=CENTER><B>Students</B>\n";
         print "<TR><TD ALIGN=CENTER>\n";
-        ASSIGNMENT::print_listbox($self,'published','MULTIPLE');
+        ASSIGNMENT->print_listbox($self,'published','MULTIPLE');
         print "<TD ALIGN=CENTER>\n";
         print "<SELECT MULTIPLE SIZE=5 NAME=student>\n";
         foreach $mem_name (sort @students) {
@@ -1051,7 +1052,7 @@ GRADEBOOK
         print "</TABLE>\n";
     } else {
         print "<B> Assignments </B><BR>";
-        ASSIGNMENT::print_listbox($self,'published','MULTIPLE');
+        ASSIGNMENT->print_listbox($self,'published','MULTIPLE');
         print "<BR><INPUT TYPE=checkbox NAME=\"All Assignments\"> All\n";
         print "<P><B> Students </B><BR><SELECT MULTIPLE SIZE=5 NAME=student>\n";
         foreach $mem_name (sort @students) {
@@ -1157,7 +1158,7 @@ none
 =cut
 
 sub print_main_menu {
-    @cls_files = CLASS::list();
+    @cls_files = CLASS->list();
 
     CN_UTILS::print_cn_header("Main Menu");
 
@@ -1407,7 +1408,7 @@ sub view_scores {
    my $hasTable = CN_UTILS::hasTables();
    # Loop on students and assignments
    my $detail = "<CENTER><H3>Details</H3></CENTER>\n";
-   TEST::print_test_header('Scores');
+   TEST->print_test_header('Scores');
    print "<CENTER><H4>$self->{'Name'}</H4></CENTER>$GLOBALS::HR\n";
    print "<CENTER><H3>Summary</H3></CENTER><P>\n";
    if ($hasTable) {
@@ -1566,7 +1567,7 @@ sub view_assignments {
    (@{$asn_names} < 1) and 
        ERROR::user_error($ERROR::NOASNNAMES);   
 
-   TEST::print_test_header("\u$op Assignments");
+   TEST->print_test_header("\u$op Assignments");
    print <<"HEAD";
 <CENTER><H4>$self->{'Name'}</H4>$GLOBALS::HR
 </CENTER>
@@ -1844,7 +1845,7 @@ my $filename = $gname;
 $filename =~ /(\d+.gif)/;
 $filename = "/local1/www/apache-isu/htdocs/tmpgifs/$1";
 
-   TEST::print_test_header('Histogram');
+   TEST->print_test_header('Histogram');
    print <<"HISTOGRAM";
 <CENTER><H4>$self->{'Name'}</H4></CENTER>$GLOBALS::HR
 <CENTER><H3>Histogram of Scores</H3>

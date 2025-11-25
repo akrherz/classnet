@@ -4,6 +4,7 @@ package CLASS;
 #########################################
 
 sub list {
+    my $class = shift; # Handle method call - ignore class arg
           
 open(CLASS_LIST, "<$GLOBALS::CLASSNET_ROOT_DIR/class_list") or
     &ERROR::system_error("CLASS","list","open",

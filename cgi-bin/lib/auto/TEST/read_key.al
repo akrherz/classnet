@@ -42,7 +42,7 @@ sub read_key {
        $cn_block = shift @questions;
 
        # Get Pts out of the block
-       %b_info = TEST::unpack_block_header($cn_block);
+       %b_info = TEST->unpack_block_header($cn_block);
        (%b_info) or
            ERROR::system_error('TEST','read_key','unpack_block_header',
                                "$fname:$cn_block");
@@ -52,7 +52,7 @@ sub read_key {
        	   $cn_q = shift @questions;
 
        	   # Get question parameters
-       	   %q_info = TEST::unpack_question_header($cn_q);
+       	   %q_info = TEST->unpack_question_header($cn_q);
            (%q_info) or
                ERROR::system_error('TEST','read_key','unpack_question_header',
                                    "$fname:$cn_q");

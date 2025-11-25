@@ -72,7 +72,7 @@ sub command {
     if ($query->param('back')) {
         my $cls = $asn->{'Class'};
         my $mem = $asn->{'Member'};
-        ASSIGNMENT::print_menu($cls,$mem);
+        ASSIGNMENT->print_menu($cls,$mem);
         exit(0);
     }
     $_ = $query->param('suboption');
@@ -101,7 +101,7 @@ FRAME: {
             } else {
                 $asn->unpublish();
             }
-            ASSIGNMENT::print_menu($cls,$mem);
+            ASSIGNMENT->print_menu($cls,$mem);
             exit(0);
             last FRAME;
            };
@@ -133,7 +133,7 @@ sub edit_assignment {
     my $atype = $params{'Assignment Type'};
     my $tp = $params{'TP'};
     $publish = $EDITOR::checked[!($asn->{'Dev Root'} =~ /.develop/)];
-    TEST::print_test_header("Assignment $asn->{'Name'}");
+    TEST->print_test_header("Assignment $asn->{'Name'}");
     $self->print_start_form();
     print <<"ASSIGN";
 <INPUT TYPE=hidden NAME="Assignment Type" VALUE="$atype">

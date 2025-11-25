@@ -187,7 +187,9 @@ none
 =cut
 
 sub create {
-    my ($self) = @_;
+    my ($class, $self) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $self = $class; }
     # if the assignment already exists report error
     if (-e $self->{'Dev Root'}) {
         ERROR::user_error($ERROR::ASSIGNEX,$self->{'Name'}); 
@@ -227,7 +229,9 @@ none
 =cut
 
 sub print_listbox {
-    my ($cls,$which,$mult) = @_;
+    my ($class, $cls, $which, $mult) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $mult = $which; $which = $cls; $cls = $class; }
     opendir(ASNDIR,"$cls->{'Root Dir'}/assignments");
     @asnfiles = grep(!/^\.\.?/,readdir(ASNDIR));
     closedir(ASNDIR);
@@ -268,7 +272,9 @@ none
 =cut
 
 sub print_menu {
-    my ($cls,$inst) = @_;
+    my ($class, $cls, $inst) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $inst = $cls; $cls = $class; }
     CN_UTILS::print_cn_header("Assignments");
     print <<"FORM";   
 <FORM METHOD=POST ACTION=$GLOBALS::SERVER_ROOT/cgi-bin/assignments>
@@ -406,7 +412,7 @@ input file. Click on <B>Add</B> when done.
 <PRE>
 HTML
 print "<B>       Type:</B> ";
-ASSIGNMENT::print_types('TEST');
+ASSIGNMENT->print_types('TEST');
     print <<"HTML";
 <B>       Name:</B> <INPUT TYPE=text NAME="Assignment Name" SIZE=15 MAXLENGTH=15>
 </PRE>
@@ -515,7 +521,9 @@ none
 =cut
 
 sub print_types {
-    my ($name) = shift;
+    my $class = shift;
+    # Handle both method and legacy calls
+    my $name = ref($class) ? $class : shift;
     @types = split(/,/,$GLOBALS::ASSIGNMENT_TYPES);
     print "<SELECT NAME=\"Assignment Type\">\n";
     foreach (sort @types) {
@@ -894,12 +902,16 @@ sub get_status {
 }
 
 sub source {
-    my ($self) = @_;
+    my ($class, $self) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $self = $class; }
     return $self->get_assign_header();
 }
 
 sub upload {
-    my ($self,$hfile) = @_;
+    my ($class, $self, $hfile) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $hfile = $self; $self = $class; }
     my ($header);
 
     if (!defined $hfile) { 
@@ -998,7 +1010,9 @@ sub format_stats {
 }
 
 sub mail_raw_data {
-    my ($self,$stud_names) = @_;
+    my ($class, $self, $stud_names) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $stud_names = $self; $self = $class; }
     my $inst = $self->{'Member'};
     my $cls = $self->{'Class'};
     my $body = '';

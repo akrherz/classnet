@@ -4,7 +4,14 @@ package TEST;
 #########################################
 
 sub unpack_question_header {
-   my ($header) = @_;
+   my ($class, $header) = @_;
+   # Handle both class method and function calls
+   if (ref($class) || $class !~ /</) {
+       # Called as method, $header is second arg
+   } else {
+       # Called as function, $class is actually $header
+       $header = $class;
+   }
    my %q_info;
 
    # Passing the wrong header?

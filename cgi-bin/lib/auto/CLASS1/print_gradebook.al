@@ -21,7 +21,7 @@ GRADEBOOK
         print "<TH ALIGN=CENTER><B>Assignments</B>\n";
         print "<TH ALIGN=CENTER><B>Students</B>\n";
         print "<TR><TD ALIGN=CENTER>\n";
-        ASSIGNMENT::print_listbox($self,'published','MULTIPLE');
+        ASSIGNMENT->print_listbox($self,'published','MULTIPLE');
         print "<TD ALIGN=CENTER>\n";
         print "<SELECT MULTIPLE SIZE=5 NAME=student>\n";
         foreach $mem_name (sort @students) {
@@ -33,7 +33,7 @@ GRADEBOOK
         print "</TABLE>\n";
     } else {
         print "<B> Assignments </B><BR>";
-        ASSIGNMENT::print_listbox($self,'published','MULTIPLE');
+        ASSIGNMENT->print_listbox($self,'published','MULTIPLE');
         print "<BR><INPUT TYPE=checkbox NAME=\"All Assignments\"> All\n";
         print "<P><B> Students </B><BR><SELECT MULTIPLE SIZE=5 NAME=student>\n";
         foreach $mem_name (sort @students) {

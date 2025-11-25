@@ -19,7 +19,7 @@ sub get_score {
        my $test_header = <ASN>;
        flock(ASN,$LOCK_UN);
        close(ASN);
-       my %scores = TEST::unpack_stud_test_header($test_header);
+       my %scores = TEST->unpack_stud_test_header($test_header);
        (%scores) or
             ERROR::system_error('TEST','get_score','unpack stheader',
                                 "$path:$test_header");

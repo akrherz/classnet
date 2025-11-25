@@ -4,7 +4,9 @@ package ASSIGNMENT;
 #########################################
 
 sub print_types {
-    my ($name) = shift;
+    my $class = shift;
+    # Handle both method and legacy calls
+    my $name = ref($class) ? $class : shift;
     @types = split(/,/,$GLOBALS::ASSIGNMENT_TYPES);
     print "<SELECT NAME=\"Assignment Type\">\n";
     foreach (sort @types) {

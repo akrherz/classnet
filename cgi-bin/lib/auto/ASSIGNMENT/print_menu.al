@@ -4,7 +4,9 @@ package ASSIGNMENT;
 #########################################
 
 sub print_menu {
-    my ($cls,$inst) = @_;
+    my ($class, $cls, $inst) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $inst = $cls; $cls = $class; }
     CN_UTILS::print_cn_header("Assignments");
     print <<"FORM";   
 <FORM METHOD=POST ACTION=$GLOBALS::SERVER_ROOT/cgi-bin/assignments>

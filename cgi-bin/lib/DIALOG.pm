@@ -70,7 +70,7 @@ none
 
 sub create {
     my ($self) = @_;
-    ASSIGNMENT::create($self);
+    ASSIGNMENT->create($self);
     my $dir = $self->{'Dev Root'};
     open(OPTION,">$dir/options") or
         ERROR::system_error('DIALOG.pm','create',"open","$dir/options");
@@ -198,7 +198,7 @@ sub send_ungraded_form {
    #my $date_time = sprintf("%02d$months[$mon]%04d_%02d_%02d",$mday,$year,$hour,$min);
 
    #Send the file
-   DIALOG::print_dialog_header("$self->{'Name'} dialog");
+   DIALOG->print_dialog_header("$self->{'Name'} dialog");
    print <<"FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/assignments">
 <INPUT TYPE=hidden NAME=cn_option VALUE="Submit DIALOG">
@@ -340,7 +340,7 @@ sub send_edit_form {
    #my $date_time = sprintf("%02d$months[$mon]%04d_%02d_%02d",$mday,$year,$hour,$min);
 
    #Send the file
-   DIALOG::print_dialog_header("Dialog with $self->{'Member'}->{'Username'} ");
+   DIALOG->print_dialog_header("Dialog with $self->{'Member'}->{'Username'} ");
    print <<"FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/gradebook">
 <INPUT TYPE=hidden NAME=cn_option VALUE="Submit Edit Changes">
@@ -367,7 +367,9 @@ FORM
 }
 
 sub print_dialog_header {
-   my ($title,$window) = @_;
+   my $class = shift;
+   # Handle both method and legacy calls
+   my ($title, $window) = ($class eq 'DIALOG') ? @_ : ($class, @_);
    (!defined $window) and $window = '_top';
 print <<"HEADER";
 Content-type: text/html

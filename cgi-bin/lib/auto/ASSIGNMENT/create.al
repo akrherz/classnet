@@ -4,7 +4,9 @@ package ASSIGNMENT;
 #########################################
 
 sub create {
-    my ($self) = @_;
+    my ($class, $self) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $self = $class; }
     # if the assignment already exists report error
     if (-e $self->{'Dev Root'}) {
         ERROR::user_error($ERROR::ASSIGNEX,$self->{'Name'}); 

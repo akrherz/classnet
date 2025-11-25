@@ -94,7 +94,7 @@ none
 
 sub create {
     my ($self) = @_;
-    ASSIGNMENT::create($self);
+    ASSIGNMENT->create($self);
     my $dir = $self->{'Dev Root'};
     system("cp -r /local1/weather/Forecast/* $dir");
 }
@@ -424,7 +424,7 @@ Back and enter a correct station code.\n";
        CN_UTILS::print_cn_footer();
        exit(0);
    }
-   TEST::write_assign_query($self);
+   TEST->write_assign_query($self);
 }
 
 sub get_graded_form {
@@ -484,7 +484,7 @@ sub get_score {
        my $test_header = <ASN>;
        flock(ASN,$LOCK_UN);
        close(ASN);
-       my %score = TEST::unpack_stud_test_header($test_header,$fname);
+       my %score = TEST->unpack_stud_test_header($test_header,$fname);
        (%score) or
             ERROR::system_error('FORECAST','get_score','unpack sheader',
                                 "$fname:$test_header");
@@ -567,7 +567,7 @@ sub get_stats {
     my @files = get_forecasts($self->{'Graded Dir'},$self->{'Name'});
     foreach $fname (@files) {
         $self->{'Student File'} = $fname;
-        TEST::get_stats($self,$stats,$tot);
+        TEST->get_stats($self,$stats,$tot);
     }
 }
 
@@ -578,7 +578,7 @@ sub format_raw_data {
     my @files = get_forecasts($self->{'Graded Dir'},$self->{'Name'});
     foreach $fname (@files) {
         $self->{'Student File'} = $fname;
-        $body .= TEST::format_raw_data($self,"$sname\t$fname");
+        $body .= TEST->format_raw_data($self,"$sname\t$fname");
     }
     $body;
 }

@@ -3,7 +3,7 @@ package TEST;
 
 sub source {
     my ($self) = @_;
-    my $src = ASSIGNMENT::source($self);
+    my $src = ASSIGNMENT->source($self);
    my $b;
    my $nb = $self->block_count();
    for ($b = 1; $b <= $nb; $b++) {

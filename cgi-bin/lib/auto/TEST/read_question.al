@@ -19,7 +19,7 @@ sub read_question {
     }
     else {
        my $header = shift @qdata;
-       %params = TEST::unpack_question_header($header);
+       %params = TEST->unpack_question_header($header);
        (%params) or
            ERROR::system_error('TEST','read_question','unpack_question_header',
                                "$fname:$header");

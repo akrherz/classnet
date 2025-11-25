@@ -67,7 +67,7 @@ none
 
 sub create {
     my ($self) = @_;
-    ASSIGNMENT::create($self);
+    ASSIGNMENT->create($self);
     my $dir = $self->{'Dev Root'};
     open(OPTION,">$dir/options") or
         ERROR::system_error('TEST','create',"open","$dir/options");
@@ -700,7 +700,7 @@ none
 
 sub write_block {
     my ($self,$b,%params) = @_;
-    $hdr = TEST::pack_block_header(%params);
+    $hdr = TEST->pack_block_header(%params);
     $fname = "$self->{'Dev Root'}/$b/options";
     open(BLK,">$fname") or
         ERROR::system_error('TEST','write_block','open',$fname);
@@ -733,7 +733,7 @@ none
 
 sub write_question {
     my ($self,$b,$q,%params) = @_;
-    my $hdr = TEST::pack_question_header(%params);
+    my $hdr = TEST->pack_question_header(%params);
     my $qtext = $params{'qtext'};
     my $feedback = $params{'feedback'};
     my $txt = $feedback? join("\n<CN_FEEDBACK>\n",$qtext,$feedback):$qtext;
@@ -783,7 +783,7 @@ sub read_block {
     }
     else {
        my $header = shift @bdata;
-       %params = TEST::unpack_block_header($header);
+       %params = TEST->unpack_block_header($header);
        (%params) or
            ERROR::system_error('TEST','read_block','unpack_block_header',
                                "$fname:$header");
@@ -833,7 +833,7 @@ sub read_question {
     }
     else {
        my $header = shift @qdata;
-       %params = TEST::unpack_question_header($header);
+       %params = TEST->unpack_question_header($header);
        (%params) or
            ERROR::system_error('TEST','read_question','unpack_question_header',
                                "$fname:$header");
@@ -962,6 +962,9 @@ One line header string "<CN_BLOCK ...>"
 =cut
 
 sub pack_block_header {
+    my $class = shift;
+    # Handle both method and legacy calls
+    unshift(@_, $class) if ref($class) || $class =~ /=/;
     my (%params) = @_;
     my $hdr = '<CN_BLOCK PTS=';
     ($params{'PP'} > 0) and $hdr .= "$params{'PP'}/";
@@ -990,7 +993,14 @@ $grade_info{'PP'}
 =cut
 
 sub unpack_block_header {
-   my ($header) = @_;
+   my ($class, $header) = @_;
+   # Handle both class method and function calls
+   if (ref($class) || $class !~ /</) {
+       # Called as method, $header is second arg
+   } else {
+       # Called as function, $class is actually $header
+       $header = $class;
+   }
    my %grade_info;
 
    # Passing the wrong header?
@@ -1044,7 +1054,14 @@ Associative array of Question values
 =cut
 
 sub unpack_stud_question_header {
-   my ($header) = @_;
+   my ($class, $header) = @_;
+   # Handle both class method and function calls
+   if (ref($class) || $class !~ /</) {
+       # Called as method, $header is second arg
+   } else {
+       # Called as function, $class is actually $header
+       $header = $class;
+   }
    my %q_info;
 
    # Passing the wrong header?
@@ -1100,7 +1117,14 @@ Associative array of Question values
 =cut
 
 sub unpack_stud_test_header {
-   my ($header) = @_;
+   my ($class, $header) = @_;
+   # Handle both class method and function calls
+   if (ref($class) || $class !~ /</) {
+       # Called as method, $header is second arg
+   } else {
+       # Called as function, $class is actually $header
+       $header = $class;
+   }
    my %t_info;
 
    # Passing the wrong header?
@@ -1214,6 +1238,9 @@ One line header string "<CN_Q ...>"
 =cut
 
 sub pack_question_header {
+    my $class = shift;
+    # Handle both method and legacy calls
+    unshift(@_, $class) if ref($class) || $class =~ /=/;
     my (%params) = @_;
     my $hdr = '<CN_Q ';
     $hdr .= "TYPE=$params{'Question Type'} ";
@@ -1249,7 +1276,14 @@ Associative array of question values
 =cut
 
 sub unpack_question_header {
-   my ($header) = @_;
+   my ($class, $header) = @_;
+   # Handle both class method and function calls
+   if (ref($class) || $class !~ /</) {
+       # Called as method, $header is second arg
+   } else {
+       # Called as function, $class is actually $header
+       $header = $class;
+   }
    my %q_info;
 
    # Passing the wrong header?
@@ -1800,7 +1834,9 @@ instructor has changed the questions");
 }
 
 sub write_assign_query {
-   my ($self) = @_;
+   my ($class, $self) = @_;
+   # Handle both method and legacy calls
+   if (ref($class)) { $self = $class; }
    my (%assign_params, $answer_all);
    my $query = $self->{'Query'};
 
@@ -1936,7 +1972,7 @@ sub read_key {
        $cn_block = shift @questions;
 
        # Get Pts out of the block
-       %b_info = TEST::unpack_block_header($cn_block);
+       %b_info = TEST->unpack_block_header($cn_block);
        (%b_info) or
            ERROR::system_error('TEST','read_key','unpack_block_header',
                                "$fname:$cn_block");
@@ -1946,7 +1982,7 @@ sub read_key {
        	   $cn_q = shift @questions;
 
        	   # Get question parameters
-       	   %q_info = TEST::unpack_question_header($cn_q);
+       	   %q_info = TEST->unpack_question_header($cn_q);
            (%q_info) or
                ERROR::system_error('TEST','read_key','unpack_question_header',
                                    "$fname:$cn_q");
@@ -2016,7 +2052,7 @@ sub read_test {
 
    # Get the header
    my $test_header = shift @questions;
-   my %test_params = TEST::unpack_stud_test_header($test_header);
+   my %test_params = TEST->unpack_stud_test_header($test_header);
    (%test_params) or
         ERROR::system_error('TEST','read_test','unpack stheader',
                             "$fname:$test_header");
@@ -2026,7 +2062,7 @@ sub read_test {
    my $num_questions = grep(/<CN_Q/, @questions);
    for ($q_num=1; $q_num<=$num_questions; $q_num++) {
        $cn_q = shift @questions;
-       %q_info = TEST::unpack_stud_question_header($cn_q);
+       %q_info = TEST->unpack_stud_question_header($cn_q);
        (%q_info) or
             ERROR::system_error('TEST','read_test','unpack qheader',
                                 "$fname:$cn_q");
@@ -2099,7 +2135,7 @@ sub get_score {
        my $test_header = <ASN>;
        flock(ASN,$LOCK_UN);
        close(ASN);
-       my %scores = TEST::unpack_stud_test_header($test_header);
+       my %scores = TEST->unpack_stud_test_header($test_header);
        (%scores) or
             ERROR::system_error('TEST','get_score','unpack stheader',
                                 "$path:$test_header");
@@ -2153,7 +2189,9 @@ sub get_score {
 }
 
 sub print_test_header {
-   my ($title,$window) = @_;
+   my $class = shift;
+   # Handle both method and legacy calls - class is "TEST" string
+   my ($title, $window) = (ref($class) || $class eq 'TEST') ? @_ : ($class, @_);
    (!defined $window) and $window = '_top';
 print <<"HEADER";
 Content-type: text/html
@@ -2197,7 +2235,7 @@ sub get_runtime_values {
 
 sub source {
     my ($self) = @_;
-    my $src = ASSIGNMENT::source($self);
+    my $src = ASSIGNMENT->source($self);
    my $b;
    my $nb = $self->block_count();
    for ($b = 1; $b <= $nb; $b++) {
@@ -2224,7 +2262,7 @@ sub source {
 sub upload {
     my ($self,$url) = @_;
 
-    my $hfile = ASSIGNMENT::upload($self,$url);
+    my $hfile = ASSIGNMENT->upload($self,$url);
     if ($hfile =~ /\s*<CN_BLOCK/) {
         $self->uploadCN($hfile);
     } else {
@@ -2323,7 +2361,9 @@ sub uploadHTML {
 }
 
 sub get_stats {
-    my ($self,$stats,$tot) = @_;
+    my ($class, $self, $stats, $tot) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $tot = $stats; $stats = $self; $self = $class; }
     my $name = $self->{'Name'};
     my $type;
 
@@ -2502,7 +2542,7 @@ sub format_stats {
     }
     close(DATA);
     my $tp = $self->{'Key Header'}{'TP'};
-    TEST::print_test_header("Statistics");
+    TEST->print_test_header("Statistics");
     my @parms = (
 'set terminal pbm color small',
 'set data style impulse',
@@ -2531,7 +2571,9 @@ HEAD
 }
 
 sub format_raw_data {
-    my ($self,$sname) = @_;
+    my ($class, $self, $sname) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $sname = $self; $self = $class; }
     my $body = "$sname";
     my $name = $self->{'Name'};
     if ($self->get_status() eq 'graded') {

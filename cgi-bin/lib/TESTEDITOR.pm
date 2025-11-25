@@ -246,7 +246,7 @@ sub listing {
        if (!($asn->{'Dev Root'} =~ /.develop/)) {
            $asn->make_key();
        }
-       ASSIGNMENT::print_menu($cls,$asn->{'Member'});
+       ASSIGNMENT->print_menu($cls,$asn->{'Member'});
        unlink $flag;
        exit(0);
     }
@@ -575,7 +575,7 @@ and size of editor by one pair of $ldelim...$rdelim.");
                  }
                  $params{'JUDGE'} = $judge;
                  if (defined $query->param('view')) {
-                     TEST::print_test_header('Test Question','View');
+                     TEST->print_test_header('Test Question','View');
                      print "<FORM METHOD=POST>\n";
                      print $asn->replace_placeholders("",$b,$q,%params);
                      print "</FORM>\n";
