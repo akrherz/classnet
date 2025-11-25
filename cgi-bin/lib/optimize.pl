@@ -1014,7 +1014,9 @@ FORM
 package ASSIGNMENT;
 
 sub print_listbox {
-    my ($cls,$which,$mult) = @_;
+    my ($class, $cls, $which, $mult) = @_;
+    # Handle both method and legacy calls
+    if (ref($class)) { $mult = $which; $which = $cls; $cls = $class; }
     opendir(ASNDIR,"$cls->{'Root Dir'}/assignments");
     @asnfiles = grep(!/^\.\.?/,readdir(ASNDIR));
     closedir(ASNDIR);

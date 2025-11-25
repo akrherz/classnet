@@ -979,7 +979,7 @@ START
         }
         close(REQ_FILE);
        	print qq|<TR ALIGN=CENTER><TD>$name|;
-       	print qq|<TD><a href="email:$email|">$email</a>;
+       	print qq|<TD><a href="mailto:$email">$email</a>|;
 	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="app" CHECKED>|;
        	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="rej">|;
        	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="ret">|;
@@ -1182,7 +1182,7 @@ START_FORM
        print qq|<OPTION> $cls_name\n|;
     }
 
-    print <<"END_FORM"
+    print <<"END_FORM";
 </SELECT>
 <P>
 <B><INPUT NAME="name" TYPE="submit" VALUE="Login"></B>
@@ -1703,7 +1703,7 @@ Your ISU Card Number (9 digits):<INPUT TYPE=text VALUE="000000000" col=9><br>
 <INPUT TYPE=submit NAME=memback VALUE="Instructor Menu">
 </H4>
 </CENTER>
- END_FORM
+END_FORM
     CN_UTILS::print_cn_footer("class_options.html");
 }
 
