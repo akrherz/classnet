@@ -732,7 +732,7 @@ sub write_question {
     my $txt = $feedback? join("\n<CN_FEEDBACK>\n",$qtext,$feedback):$qtext;
     my $fname = "$self->{'Dev Root'}/$b/$q";
     open(QUEST,">$fname") or
-        &system_error('TEST','write_question','open',$fname);
+        ERROR::system_error('TEST','write_question','open',$fname);
     print QUEST "$hdr\n";
     print QUEST $txt;
     close(QUEST);
