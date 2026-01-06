@@ -754,7 +754,7 @@ sub print_menu {
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
 <CENTER><H3>$cls->{'Name'}</H3>
 FORM
-    &print_listbox($cls,'all');
+    ASSIGNMENT->print_listbox($cls,'all');
     print <<"FORM";
 <P>
 <H4>
