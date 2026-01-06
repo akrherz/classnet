@@ -12,6 +12,7 @@ BEGIN {
 # Modules to include
 require "optimize.pl";
 require FORUM;
+require ASSIGNMENT;
 
 # Parse incoming query into query object
 $query = new CGI;
