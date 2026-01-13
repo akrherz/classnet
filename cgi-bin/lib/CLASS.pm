@@ -674,14 +674,14 @@ sub get_mem_names {
    my @mem_names;
 
    if ($mem_type eq 'requests') {
-       opendir(MEM_LIST,"$self->{'Root Dir'}/admin/members/requests") or
-       	   ERROR::system_error("CLASS", "get_cls_mem_info",
-                               "opendir $mem_type",$self->{'Root Dir'});
-       @mem_names = grep (!/^\./,readdir(MEM_LIST));
-       closedir(MEM_LIST);
-       foreach $member (@mem_names) {
-       	   $member = CGI::unescape($member);
+       if (opendir(MEM_LIST,"$self->{'Root Dir'}/admin/members/requests")) {
+           @mem_names = grep (!/^\./,readdir(MEM_LIST));
+           closedir(MEM_LIST);
+           foreach $member (@mem_names) {
+               $member = CGI::unescape($member);
+           }
        }
+       # If opendir fails, just return empty list (no requests)
    } else {
        $/ = "\n";
        open(MEM_LIST, "<$self->{'Root Dir'}/admin/member_lists/${mem_type}s");
@@ -966,24 +966,26 @@ sub print_approval_list {
 START
     foreach $name (sort @mem_list) {
         my $disk_uname = CGI::unescape($name);
-        $disk_uname = CN_UTILS::get_disk_name($disk_uname);
-        my $email = "";
-        open(REQ_FILE, "<$disk_uname") or 
-            &ERROR::system_error("INSTRUCTOR","approval","Open",$disk_uname);
-        while (<REW_FILE>) {
-           chop;
-       	   my ($option, $value) = split(/=/);
-       	   if ($option eq 'Email Address') {
-              $email = $value;
-           }
+        $disk_uname = $req_dir_root . "/" . CN_UTILS::get_disk_name($disk_uname);
+        my $email = "(unknown)";
+        if (open(REQ_FILE, "<$disk_uname")) {
+            while (<REQ_FILE>) {
+               chop;
+               my ($option, $value) = split(/=/);
+               if ($option eq 'Email Address') {
+                  $email = $value;
+               }
+            }
+            close(REQ_FILE);
+            print qq|<TR ALIGN=CENTER><TD>$name|;
+            print qq|<TD><a href="mailto:$email">$email</a>|;
+            print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="app" CHECKED>|;
+            print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="rej">|;
+            print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="ret">|;
+            print qq|</TR>|;
+        } else {
+            print qq|<TR ALIGN=CENTER style="color:red"><TD colspan=5>Request file missing for <b>$name</b> - may have been processed already</TD></TR>|;
         }
-        close(REQ_FILE);
-       	print qq|<TR ALIGN=CENTER><TD>$name|;
-       	print qq|<TD><a href="mailto:$email">$email</a>|;
-	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="app" CHECKED>|;
-       	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="rej">|;
-       	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="ret">|;
-        print qq|</TR>|;
     }
     print <<"END";
 </TABLE>
