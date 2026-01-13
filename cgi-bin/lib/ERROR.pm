@@ -326,13 +326,14 @@ Just dies
 
 sub system_error {
     my ($file_name,$sub_name,$op_name,@other) = @_;
+    my $sys_err = $! ? " (system error: $!)" : "";
     print_error_header(${$CNERROR});
     print "$err_msg{$CNERROR}\n";
+    print "<BR><b>System error:</b> $!<BR>" if $!;
     print <<"FOOTER";
-    <CENTER>$GLOBALS::HR</CENTER>
-    </BODY>
-    </HTML>
-
+<CENTER>$GLOBALS::HR</CENTER>
+</BODY>
+</HTML>
 FOOTER
 
     $logname = "$GLOBALS::SERVER_LOG_DIR/classnet.log";
@@ -340,7 +341,7 @@ FOOTER
     print ERR_LOG "----------\n";
     #$tm = &ctime::ctime(time);
     print ERR_LOG "$tm";
-    print ERR_LOG "${file_name}::$sub_name($op_name)\n";
+    print ERR_LOG "${file_name}::$sub_name($op_name)$sys_err\n";
     print ERR_LOG "Other: @other\n";
     $i = 0;
     while (($pack,$file,$line,$subname) = caller($i++)) {
@@ -348,7 +349,7 @@ FOOTER
     }
     close(ERR_LOG);
     CN_UTILS::mail($GLOBALS::SYSTEM_EMAIL,'ClassNet System Error',
-    "--------\n${file_name}::$sub_name($op_name)\n@other\n");
+    "--------\n${file_name}::$sub_name($op_name)$sys_err\n@other\n");
     die;
 }
 
