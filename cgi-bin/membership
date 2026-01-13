@@ -489,23 +489,25 @@ START
     foreach $name (sort @mem_list) {
         my $disk_uname = CGI::unescape($name);
         $disk_uname = $req_dir_root . "/" . CN_UTILS::get_disk_name($disk_uname);
-        my $email = "test";
-        open(REQ_FILE, "<$disk_uname") or 
-            &ERROR::system_error("INSTRUCTOR","approval","Open",$disk_uname);
-        while (<REQ_FILE>) {
-           chop;
-       	   my ($option, $value) = split(/=/);
-       	   if ($option eq 'Email Address') {
-              $email = $value;
-           }
+        my $email = "(unknown)";
+        if (open(REQ_FILE, "<$disk_uname")) {
+            while (<REQ_FILE>) {
+               chop;
+               my ($option, $value) = split(/=/);
+               if ($option eq 'Email Address') {
+                  $email = $value;
+               }
+            }
+            close(REQ_FILE);
+            print qq|<TR ALIGN=CENTER><TD>$name|;
+            print qq|<TD><a href="mailto:$email">$email</a>|;
+            print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="app" CHECKED>|;
+            print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="rej">|;
+            print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="ret">|;
+            print qq|</TR>|;
+        } else {
+            print qq|<TR ALIGN=CENTER style="color:red"><TD colspan=5>Request file missing for <b>$name</b> - may have been processed already</TD></TR>|;
         }
-        close(REQ_FILE);
-       	print qq|<TR ALIGN=CENTER><TD>$name|;
-       	print qq|<TD><a href="mailto:$email">$email</a>|;
-	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="app" CHECKED>|;
-       	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="rej">|;
-       	print qq|<TD><INPUT TYPE=radio NAME="STU_$name" VALUE="ret">|;
-        print qq|</TR>|;
     }
     print <<"END";
 </TABLE>
