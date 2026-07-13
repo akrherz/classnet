@@ -8,7 +8,7 @@ package main;
 BEGIN {
    unshift(@INC,'/local/classnet/cgi-bin/lib');
 }
-    
+
 # Modules to include
 require CLASS;
 require EDITOR;
@@ -51,7 +51,7 @@ SWITCH: {
    /^Edit/	   &&  
        do  {   # edit assignment
                $editor->open();
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
    /^Command/	   &&  
@@ -63,5 +63,3 @@ SWITCH: {
    ERROR::user_error($ERROR::NOOPTION);
 
 }
-
-
