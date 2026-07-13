@@ -130,13 +130,3 @@ sub send_comment {
     flock(STOR,$LOCK_UN);
     close(STOR);
 }
-
-
-
-
-
-
-
-
-
-

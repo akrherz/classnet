@@ -8,7 +8,7 @@ package main;
 BEGIN {
    unshift(@INC,'/local/classnet/cgi-bin/lib');
 }
-    
+
 require "optimize.pl";
 
 # Parse incoming query into query object
