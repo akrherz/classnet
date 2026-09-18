@@ -1,19 +1,19 @@
 #!/usr/bin/perl
 # Forum Configuration Variables
 # Set this variable to the pixel width of the border around
-# toolbar images when viewed by Netscape users.  
+# toolbar images when viewed by Netscape users.
 # Netscape's default is 2.
 
 $image_border = 0;
 
 
-# Set $how_many_messages to how many expanded messages you want displayed 
+# Set $how_many_messages to how many expanded messages you want displayed
 # within a browser window (i.e., 5)
 
 $how_many_messages_expanded = 5;
 
 
-# Set $how_many_messages to how many compressed messages you want displayed 
+# Set $how_many_messages to how many compressed messages you want displayed
 # within a browser window (i.e., 5)
 
 $how_many_messages_compressed = 10;
@@ -36,13 +36,13 @@ $gateway = "InfoLink Netforum Mail Gateway";
 $default_formatting = 'html';
 
 
-# If this is set to 1 individuals will be required to enter their 
+# If this is set to 1 individuals will be required to enter their
 # institution when they post a message.
 
 $institution_required = 0;
 
 
-# Set this variable to the name of the title of institution/organization 
+# Set this variable to the name of the title of institution/organization
 # field that users will fill up when posting messages/replies
 
 $institution_field_name = "Organization";
@@ -93,7 +93,7 @@ $email_messages_to_monitor = 0;
 
 
 # Set this variable on if you want to display the admin
-# button in the forums' toolbar.  Be aware that having a link to the 
+# button in the forums' toolbar.  Be aware that having a link to the
 # administrative features from the forums could place some security
 # risks in your NetForum
 
@@ -103,4 +103,4 @@ $show_admin_button = 0;
 
 $button_path = "/nf2_docs/gifs/button1";
 
-1; # return true 
+1; # return true

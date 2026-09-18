@@ -2,18 +2,18 @@
 ===email:athlone@iastate.edu
 ===date:Wed Jan 14 20:50:14 1998
 ===subject:aging/immortality
-===message:Regarding the idea of allowing humans to "live forever," I thnk perhaps it's more important to first find cures/vaccines for the more worrisome problems of living, i.e. cancer, AIDS, heart disease, etc.  Until we can reasonably protect ourselves from these ailments, what good would living forever serve?  
- 
+===message:Regarding the idea of allowing humans to "live forever," I thnk perhaps it's more important to first find cures/vaccines for the more worrisome problems of living, i.e. cancer, AIDS, heart disease, etc.  Until we can reasonably protect ourselves from these ailments, what good would living forever serve?
+
 I wonder if the human body can withstand immortality in terms of wear and tear.  Just because my body may not age, it will certainly take a beating structurally over time.  Would it be better to be 150 and bed-ridden because of arthritis or Alzheimer's?  What function would I be serving in society?
- 
+
 As well, immortality would have dire ramifications on the population of the earth.  Certainly there is some limit to the number of humans whch can inhabitat this earth.  What strain on the resources would  immortality present?
- 
+
 For my money, the world needs human immortality like it needs a hole in the ozone layer.
 =========yorg=========
 ===from:Ross Laubscher
 ===date:Thu Jan 15 14:53:13 1998
 ===subject:Immortal
-===message:	When the thought of being immortal crosses my mind my first and natural reaction is that it would be great to live forever and never leave our relatives and loved ones behind.  This sounds good at first, but problems would accumulate.  Overpopulation which leads to famine and more pollution.  But then again were not talking about making everybody Superman.  I could not be aging and still get a disease or ran over by a bus.  It is actualy hard for me to discuss this topic because of my lack of knowledge on disease and accidental deaths.  It would be helpful to have statistics on deaths dealing with old age, because these deaths would be eliminated.  I don't think this chemical would do the world any good, but I would approach it with an open-mind and review the information provided. 
+===message:	When the thought of being immortal crosses my mind my first and natural reaction is that it would be great to live forever and never leave our relatives and loved ones behind.  This sounds good at first, but problems would accumulate.  Overpopulation which leads to famine and more pollution.  But then again were not talking about making everybody Superman.  I could not be aging and still get a disease or ran over by a bus.  It is actualy hard for me to discuss this topic because of my lack of knowledge on disease and accidental deaths.  It would be helpful to have statistics on deaths dealing with old age, because these deaths would be eliminated.  I don't think this chemical would do the world any good, but I would approach it with an open-mind and review the information provided.
 =========yorg=========
 ===from:Kim Cobb
 ===email:jeffcobb@netins.net
@@ -44,14 +44,14 @@ To me, the more important aspect of this chemical is not in providing society wi
 ===date:Tue Jan 20 15:34:57 1998
 ===subject:Aging
 ===message:I think this discovery could, I hope anyway, have positive affects.  After reading the article, I didn't really think of humans living real longer lives, like 50-100 more years.   I thought of the possible benefits of fighting cancer and other diseases to live a healthly older age. I don't think it's a good idea to make humans immortal. All creatures have their time on earth, humans should not have an exception.    If this natural chemical is to work (after much intense reaserch) maybe this discovery could be a cheaper way of fighting cancer, which might help our health care system.  The next older generation is the babyboomers, which is extremely large.  Any kind of research that will help illiminate high cost in health will benefit everyone--young and old.  I'm only assuming of cost, but having a chemical put inside a person seems a lot cheaper than radiation treatments.  (I could be wrong though)  However, very intense research has to be conducted, and may take years before this method can be used.  Or it may never be used if it has a reverse reaction as mentioned in the article.  I agree with Dallas that this can help us learn more about cancer cells and other diseases to find possible cures.
-  
+
 =========yorg=========
 ===from:Joy Ward
 ===email:joyous@iastate.edu
 ===institution:Iowa State
 ===date:Tue Jan 20 17:27:07 1998
 ===subject:Aging
-===message:I think that an anti-aging chemical is a bad idea. The world is overpopulated and millions die each year from starvation and other related illnesses. I think immortality is wrong, because it goes completely against nature. I think that with all of the damage we are doing to the world and to each other, it would be a huge mistake to make anyone live here forever. Imagine Adolf Hilter still alive, or imagine Charles Manson living forever. Amd that brings up the aspect of who can and can not use this chemical. If the general population has access to it, would prison inmates as well? Would the tax payers have to support felons with a life sentence for 200 years or more, instead of 50, since they wanted this drug? The world is overpopulated right now, what would happen if no one ever died? 
+===message:I think that an anti-aging chemical is a bad idea. The world is overpopulated and millions die each year from starvation and other related illnesses. I think immortality is wrong, because it goes completely against nature. I think that with all of the damage we are doing to the world and to each other, it would be a huge mistake to make anyone live here forever. Imagine Adolf Hilter still alive, or imagine Charles Manson living forever. Amd that brings up the aspect of who can and can not use this chemical. If the general population has access to it, would prison inmates as well? Would the tax payers have to support felons with a life sentence for 200 years or more, instead of 50, since they wanted this drug? The world is overpopulated right now, what would happen if no one ever died?
 =========yorg=========
 ===from:David Cohen
 ===email:cato@iastate.edu
@@ -62,8 +62,8 @@ To me, the more important aspect of this chemical is not in providing society wi
 ===from:Azure Eddy
 ===date:Thu Jan 22 17:48:26 1998
 ===subject:aging
-===message:The Des Moines Registers article pertaining to slowing the aging process, stumped me as far as a personal reaction is concerned. I thought about the idea for a few days, even asking my family and friends.  I have come to the conclusion the growing old is a stage in life, and without it the balance of human nature would be thrown off track.  I am by no means saying that I want people to grow old and die because I am mean, but rather that old age is a part of a persons life and for many it is the best part of their lives.  As I look at it, it would be like discovering a way for new borns to skip the first few years of their lives.  
-	To totally flip my opinion around their of course would be advantages to immortality.  One of the most important of these would be time.  It seems like we are pushed along and life and never allowed a break.  If I new that life was going to be longer, I would spread things out a little more.  Wait a while to go to college.  Go travel and see the things that we aften miss.  Find the simple pleasures in life.  Another advantage is simple that the longer we are able to live the greater chance we have to effect the world.  
+===message:The Des Moines Registers article pertaining to slowing the aging process, stumped me as far as a personal reaction is concerned. I thought about the idea for a few days, even asking my family and friends.  I have come to the conclusion the growing old is a stage in life, and without it the balance of human nature would be thrown off track.  I am by no means saying that I want people to grow old and die because I am mean, but rather that old age is a part of a persons life and for many it is the best part of their lives.  As I look at it, it would be like discovering a way for new borns to skip the first few years of their lives.
+	To totally flip my opinion around their of course would be advantages to immortality.  One of the most important of these would be time.  It seems like we are pushed along and life and never allowed a break.  If I new that life was going to be longer, I would spread things out a little more.  Wait a while to go to college.  Go travel and see the things that we aften miss.  Find the simple pleasures in life.  Another advantage is simple that the longer we are able to live the greater chance we have to effect the world.
 =========yorg=========
 ===from:Brian Hammes
 ===date:Sun Jan 25 10:41:25 1998
@@ -72,14 +72,14 @@ To me, the more important aspect of this chemical is not in providing society wi
 =========yorg=========
 ===from:Damon Johnson
 ===date:Tue Jan 27 10:19:42 1998
-===subject:I have an idea let's make immmortal clones 
+===subject:I have an idea let's make immmortal clones
 ===message:The advances of sciences can be good, but this anti-aging chemical is just wrong.  The use of this chemical would increase an already never ending population. If we live longer our children will live longer, and the world becomes overpopulated.  Food would grow scarce  You get the idea.  People should be on this earth for a certain number of years, so this way of cheating death seems wrong
 =========yorg=========
 ===from:Matt Sogard
 ===email:msogard@rocketmail.com
 ===date:Tue Jan 27 14:30:59 1998
 ===subject:aging
-===message:Cloning and extended life by the slowing of the aging fall in the same class as far as I'm concerned.  I think both have some tremendous benefits, but downfalls that far out-weigh them.  Cloning advantages and detractions are more obvious than are the advantages and detractions of the slowing of the aging process.  It is something that needs to be researched and thought through carefull before anyone proceeds too far.  An obvious detraction is the problem of over-population.  This is already becoming a problem in many areas, imagine what it would be like if anyone could live as long as they wanted.  This brings up another problem- who decides who can use this process to continue to live and who can't.  
+===message:Cloning and extended life by the slowing of the aging fall in the same class as far as I'm concerned.  I think both have some tremendous benefits, but downfalls that far out-weigh them.  Cloning advantages and detractions are more obvious than are the advantages and detractions of the slowing of the aging process.  It is something that needs to be researched and thought through carefull before anyone proceeds too far.  An obvious detraction is the problem of over-population.  This is already becoming a problem in many areas, imagine what it would be like if anyone could live as long as they wanted.  This brings up another problem- who decides who can use this process to continue to live and who can't.
 
 =========yorg=========
 ===from:Bill Rockey

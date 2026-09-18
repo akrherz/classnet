@@ -10,7 +10,7 @@ public interface PlayableApplet
     public abstract void playClose();
 }
 
-/* 
+/*
 
 Example code of how to make an applet playable
 ************************************************
@@ -18,7 +18,7 @@ Example code of how to make an applet playable
 public void playStart(Vector values)
     {
        // clear the screen
-       // initialize values (remember that this will be called also when the prof 
+       // initialize values (remember that this will be called also when the prof
        //                                               changes between sessions)
        // save values for later user
 	steps = values;
@@ -34,7 +34,7 @@ public void playStep(int stepIndex)
         String time = (String)ht.get("time");
         float temp = (Float.valueOf((String)ht.get("temperature"))).floatValue();
         float alt = (Float.valueOf((String)ht.get("altitude"))).floatValue();
-        
+
         double temp = (Double.valueOf((String)ht.get("temperature"))).doubleValue();
         double pressure = (Double.valueOf((String)ht.get("pressure"))).doubleValue();
         boolean clear = (Boolean.valueOf((String)ht.get("clear"))).booleanValue();
@@ -45,7 +45,7 @@ public void playStep(int stepIndex)
         }
         else
         {
-            // run the simulation for the values 
+            // run the simulation for the values
         }
     }
 

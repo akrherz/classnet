@@ -11,7 +11,7 @@
 ===from:Stewart Barr
 ===date:Tue Oct  7 19:50:18 2003
 ===subject:CA: Hack Q.1,2
-===message:Hacks "moral code is that it is not right that people should not be allowed to co-habitate.  Also he does not think that sex should be promoted by the university.  this is shown by the poster in the dorm and by the following: “That moral meaning is basically, “anything goes.” 
+===message:Hacks "moral code is that it is not right that people should not be allowed to co-habitate.  Also he does not think that sex should be promoted by the university.  this is shown by the poster in the dorm and by the following: “That moral meaning is basically, “anything goes.”
 He proposes that they allow him to live outside of the dorms and not force him to live there until he is 21 or older.  Yale defends itself by stating that it is proud of the fact that it has no "parietal rules"
 I do not think that Yale is justified with the way that they to justify their rules.  The students are on their own for the first time and should have some kind of parietal rules.
 =========yorg=========

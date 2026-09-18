@@ -1,7 +1,7 @@
 ===from:Byrd
 ===date:Thu Feb 13  6:48:43 2003
 ===subject:South American troubles
-===message:Argentina is struggling. What other South American countries are having social and economic trouble? What is the basis for the economic crisis in South America? Last semester my sytudents all said that Artgentina needed "strong leaders". That is a lame answer. Argentina has had strong leaders, dictators and demagogues. They were only part part of the problem. The crisis is deeper than the issue of political leadership. What is wrong and how can  irt be fixed? 
+===message:Argentina is struggling. What other South American countries are having social and economic trouble? What is the basis for the economic crisis in South America? Last semester my sytudents all said that Artgentina needed "strong leaders". That is a lame answer. Argentina has had strong leaders, dictators and demagogues. They were only part part of the problem. The crisis is deeper than the issue of political leadership. What is wrong and how can  irt be fixed?
 =========yorg=========
 ===from:bridget sheppard
 ===date:Sun Feb 16  8:46:49 2003
@@ -52,10 +52,10 @@
 ===from:Trashanda Person
 ===date:Wed Feb 19 22:27:00 2003
 ===subject:Trouble in Argentina
-===message:After looking at the pictures and reading the info about the struggles in Argentina it really make you want to stop to think how much we take for granted. The people that live in that country are people just like us. They have families that need to be cared for as well. The United States is very lucky to have leaders that not only care about economic issues but also social issues as well. I do believe that if the leaders in Argentina would take a good look at the citizens then there would be more though put into decisions that can affect so many individual lives. 
+===message:After looking at the pictures and reading the info about the struggles in Argentina it really make you want to stop to think how much we take for granted. The people that live in that country are people just like us. They have families that need to be cared for as well. The United States is very lucky to have leaders that not only care about economic issues but also social issues as well. I do believe that if the leaders in Argentina would take a good look at the citizens then there would be more though put into decisions that can affect so many individual lives.
 =========yorg=========
 ===from:Nicole Brooks
 ===date:Wed Feb 19 22:58:28 2003
 ===subject:Argentina Crises
-===message:I feel that yes argentina is in a crises but they are not the only ones Latin America, Uraguay and many others are in the same boat butI feel that we cannot put it all on the govt. Yes there are corrupt govts but there are also corrupt people within the govt also. some of these countries are not stong in wealth and power therefore their reliance on their govt is their only hope for survival and they are often left with no choice but to depend on them for their protection and their welfare. I feel that these problems are a combination of both the people and the govts faults. If they can come to an agreement on how one can help the other then that is a start to the problem then after they take the one step they can then take the second but it has to start somewhere first. 
+===message:I feel that yes argentina is in a crises but they are not the only ones Latin America, Uraguay and many others are in the same boat butI feel that we cannot put it all on the govt. Yes there are corrupt govts but there are also corrupt people within the govt also. some of these countries are not stong in wealth and power therefore their reliance on their govt is their only hope for survival and they are often left with no choice but to depend on them for their protection and their welfare. I feel that these problems are a combination of both the people and the govts faults. If they can come to an agreement on how one can help the other then that is a start to the problem then after they take the one step they can then take the second but it has to start somewhere first.
 =========yorg=========

@@ -1,7 +1,7 @@
 ===from:James Eucher
 ===date:Wed Mar 29 17:46:27 2000
 ===subject:Porcine Immunological Research
-===message:This is a link to a website from a lab conducting research here at ISU.  I am fortunate enough to have the experience of working in this lab as a research assistant.  Under the direction of Dr. Eileen Thacker, this lab, located at the College of Veterinary Medicine, conducts immunology research on a variety of disease organisms which affect pigs, such as Mycoplasma hyponeumoniae, which causes porcine pneumonia, and the PRRS (Porcine Respiratory and Reproductive Syndrome) virus, which also causes a disease seen in pigs.  
+===message:This is a link to a website from a lab conducting research here at ISU.  I am fortunate enough to have the experience of working in this lab as a research assistant.  Under the direction of Dr. Eileen Thacker, this lab, located at the College of Veterinary Medicine, conducts immunology research on a variety of disease organisms which affect pigs, such as Mycoplasma hyponeumoniae, which causes porcine pneumonia, and the PRRS (Porcine Respiratory and Reproductive Syndrome) virus, which also causes a disease seen in pigs.
 
 <a href="http://www.vetmed.iastate.edu/faculty&staff/thackerlab/page2.html">Porcine Immunology</a>
 =========yorg=========
@@ -18,7 +18,7 @@
 ===from:Dan Schnobrich
 ===date:Wed Mar 29 22:17:03 2000
 ===subject:Don't people who submit to classnet on the first day just make you  sick?
-===message:http://www.adarc.org/frame.asp?var=research                                          
+===message:http://www.adarc.org/frame.asp?var=research
 
 A lab team led by Leondios G. Kostrikis, Ph.D is studying the allelic variances in human that make a person more or less susceptible to HIV/AIDS and figure out the genetic factors that make some people respond better to AIDS drugs.
 As they do this, they are creating new techniquest to study such things.
@@ -36,7 +36,7 @@ http://link4life.com/immune.htm
 ===message:The Title of the Section was:
 Breaking Research on Space travel's effects on the immune system presented by the 56th annual meeting of the American Academy of Allergy, Asthma, and Immunology....
 Three leading scientists are doing research on the effects of space travel on the immune system. A scientist that did research on the effects of containment on T-cells of subjects during the long 10 month Antartic winter. This isolation was considered to be equivalent to that of space travel. When humans are isolated thier T-lymphocyte system is altered, which may predispose them to infection with common and latent viruses. Another one of the scientists, who did research on the effects of sleep deprivation on the immune system, found that the immune system is also altered by lack of sleep. An increased susceptability to infection, combined with small living spaces within the space stationcould quickly lead to the spread of infection in the crew. Evidence currently points to the fact that space travel may make astronauts more prone to infection by microorganisms, such as bacteria, viruses and fungi, and possibly reactivate viruses already present in the body.  The scientists feel that the solution to the immune problems during space travel could also lead to helping people on earth that have immune problems.The site address is...
-http://www.aaaai.org/media/pressreleases/200/03/000306a.html 
+http://www.aaaai.org/media/pressreleases/200/03/000306a.html
 =========yorg=========
 ===from:Megan Wiedmann
 ===date:Fri Mar 31 16:12:07 2000
@@ -46,13 +46,13 @@ http://www.aaaai.org/media/pressreleases/200/03/000306a.html
 ===from:Sarah Schwerzler
 ===date:Fri Mar 31 17:07:00 2000
 ===subject:Immunological Research
-===message:The Basal Institute for Immunology studies the structure and functions of immune systems of many animals of multiple species.  They do studys on whole animals and down to the molecular and cellular levels.  
+===message:The Basal Institute for Immunology studies the structure and functions of immune systems of many animals of multiple species.  They do studys on whole animals and down to the molecular and cellular levels.
 http://bii.ch/
 =========yorg=========
 ===from:Sarah Haindfield
 ===date:Fri Mar 31 19:10:48 2000
 ===subject:immunological research
-===message:In Lee laboratories, they are working on ways to treat arthritis.  It shows reagents and services for diagnostics and research on this web page.  They did experiments using Bordetella pertussis cell suspensions. 
+===message:In Lee laboratories, they are working on ways to treat arthritis.  It shows reagents and services for diagnostics and research on this web page.  They did experiments using Bordetella pertussis cell suspensions.
 www.leelabs.com/research.htm
 =========yorg=========
 ===from:Sara Balluff
@@ -92,7 +92,7 @@ http://www.inciid.org/immune.html
 ===from:Breanne Hucka
 ===date:Sun Apr  2 20:19:47 2000
 ===subject:Immunological research
-===message:http://flowcity.bsd.uchicago.edu/coi/about.htm.  
+===message:http://flowcity.bsd.uchicago.edu/coi/about.htm.
 "The study of immunology combines the most basic research efforts in cell biology and molecular biology with the clinically relevant immunobiology of cancer, autoimmunity, transplantation and infectious disease."
 The Committee of Immunology at the University of Chicago was founded almost 20 years ago.  This committee's objective is to train the future doctors of biological and medical discovery.  The faculty of the committee are experts about knowing the basic mechanism of antigen presentation, lymphocyte development and immunerecognition.  This research and other advaces have made immunotherapy a reality in the treatment of cancer, transplant rejection and autoimmune disease at the University of Chicago.
 =========yorg=========
@@ -110,7 +110,7 @@ This website was written by the Immunological Medical Unit of the Imperial Colle
 ===from:Lisa Hiebert
 ===email:lmhiebs@iastate.edu
 ===date:Mon Apr  3 11:45:57 2000
-===subject:Immunological Studies 
+===subject:Immunological Studies
 ===message:http://www.iacr.bbsrc.ac.uk/res/depts/entnem/research/bnangrp/slugproj/tslugproj.html
 
 Immunological studies on Phasmarhubditis hermaphrodita, the slug biocontrol agent, and its associate bacterium Moraxella osloensis. Slugs are economically important pests for many crops, and are particularly important in organic farming.  The nematode Phasmarhubditis hermaphrodita is a slug biocontrol agent.  The pathogenicity of it is dependent on its association with Mpraxella osloensis.  Immunofluorescence studies showed that the cuticle of Phasmarhubditis hermaphrodita shows interspecific antigenic variability.  Several species of bacteria can be found in association with Phasmarhubditis hermaphrodita-killed slugs under natural conditions.
@@ -125,7 +125,7 @@ Immunological studies on Phasmarhubditis hermaphrodita, the slug biocontrol agen
 ===subject:Immunological Research
 ===message:<A HREF="http://www.immunenetwork.com/newsnow/releases/jan31-00.html">Immune Network Research Ltd.</A> is a company whose sole purpose is to "identify outstanding commercial opportunities for new drug treatments." One of their new developments is a new drug which inhibits cytoxic T-cells that are found in the HIV virus.
 =========yorg=========
-===from:Megan 
+===from:Megan
 ===date:Mon Apr  3 17:45:39 2000
 ===subject:Cox
 ===message:Current AIDS research involving CD4 helper lymphocytes and CD8 CTL's lymphocytes are helping form some ideas regarding a socalled Walker hypothesis. It is the CD4 and CD8 lymphocytes that help people overcome infections, and AIDS. While it is not clear how they help the immune system, it is apparent that they are needed. Laboratory experiments with mice have found that in the shortage of CD4, the mice were not able to combat any illnesses or immune stresses. In people, soon after HIV is contracted, HIV specific CTS's are made to combat the virus. The odd part is that these CD8 lymphocytes seem to be effective with little or no help from CD4 T-Cells. It is the Walker Hypothesis that suggests that HIV specific T-cells are made that do not need the CD4 cells help. The CD4's are still there, but the T-cells just dont need to utilize them. The web page is at http://www/ama.assn.org/special/hiv/newsline/specical/jamadb/thelper.htm
@@ -180,21 +180,21 @@ This is a site for research being done at Oklahoma State University. One of the 
 ===subject:amyloidosis
 ===message:<pre>http://edcenter.med.cornell.edu/CUMC_PathNotes/Immunopathology/Immuno_04.html
 
-amyloidosis isn't just one particular disease.  it is 
-actually a large and various group of diseases all 
-characterized by "extacellular deposits" of protein 
+amyloidosis isn't just one particular disease.  it is
+actually a large and various group of diseases all
+characterized by "extacellular deposits" of protein
 materials around one or more organs.  these proteins are
-generally termed amyloids because of the starch-like 
-staining reaction they undergo when exposed to iodine.  
-the effects are usually fatal.  Hodgekin's disease, 
-tuberculosis, Alzheimer's, Rheumatoid arthritis, and 
+generally termed amyloids because of the starch-like
+staining reaction they undergo when exposed to iodine.
+the effects are usually fatal.  Hodgekin's disease,
+tuberculosis, Alzheimer's, Rheumatoid arthritis, and
 skin and lung abscesses are all examples of amyloidosis.
 </pre>
 =========yorg=========
 ===from:James Kraschel
 ===date:Mon Apr  3 23:59:40 2000
 ===subject:Web Assign.2
-===message:Site----www.inciid.org/immune.html-------  This web site discusses current research into the belief that miscarriges in pregnant women may in fact be related to certain aspects of their immune system.  To be more specific, the research is questioning whether or not a miscarriages are a result of the female immune system recognizing the newly formed fetus as a foreign protein, and therefore rejecting it.  
+===message:Site----www.inciid.org/immune.html-------  This web site discusses current research into the belief that miscarriges in pregnant women may in fact be related to certain aspects of their immune system.  To be more specific, the research is questioning whether or not a miscarriages are a result of the female immune system recognizing the newly formed fetus as a foreign protein, and therefore rejecting it.
 =========yorg=========
 ===from:Tiana Brown
 ===email:tcb8898@hotmail.com
@@ -212,7 +212,7 @@ http://hhmi.org/science/immuno/lyme.htm
 =========yorg=========
 ===from:Matthew Dietrich
 ===date:Wed Apr  5 11:56:30 2000
-===subject:Immunology and Autism 
+===subject:Immunology and Autism
 ===message:At the site http://www.gti.net/truegrit/ it discusses the idea that immunology plays a role in autism.  The site first gives information about what autism is and the cuases for it and information why need immunological research done with it.  Then it gives various studies about immunological factors and their effects on autism. One study discusses how high levels of serotonin and immune abnormalities are associated with autism.  It discusses how the major histocompatibility complex (MHC) regulates the immune system and autoimmune disorders.  The study concluded that high levels of serotonin and MHC types related to autism have a common relationship.
 =========yorg=========
 ===from:Lisa DeGeus
@@ -227,20 +227,20 @@ This is a website of a medical doctor who is doing research on insulin-dependent
 ===subject:NIAID
 ===message:www.sciencewise.com/fedix/nih/niaid
 
-This particular website gives you information about any kind of research you would like to read, from AIDS to the common cold, or get involved with. The National Institute  of Allergy and Infectious Disease (NIAID) is what it represents. You can find funding oppurtunities, annual research and education programs, and find out how you can get involved with the organisation. Very useful to find out about all of those scary and unsolved problems in immunology and read about the progress they are making. 
+This particular website gives you information about any kind of research you would like to read, from AIDS to the common cold, or get involved with. The National Institute  of Allergy and Infectious Disease (NIAID) is what it represents. You can find funding oppurtunities, annual research and education programs, and find out how you can get involved with the organisation. Very useful to find out about all of those scary and unsolved problems in immunology and read about the progress they are making.
 =========yorg=========
 ===from:Laura Helin
 ===email:helin@iastate.edu
 ===institution_site:http://www.gti.net/truegrit/
-===institution:The  Autism  Autoimmunity  Project 
+===institution:The  Autism  Autoimmunity  Project
 ===date:Wed Apr  5 21:29:00 2000
 ===subject:Autism
 ===message:Autism is adevelopmental disability that appears in childhood, usually in the first three years, which curtails the normal development and functioning of the brain in the areas of reasoning, social interaction and
 communication. There may be emotional, motor, and sensory disturbances. Frequently a developmental pattern is described depicting a period of normality, then a regression
 or loss of skills. Autism is typically defined by practitioners no further than a reference to its neurological basis, together with a list of its outward characteristics or symptoms. Causes of autism have been sought only in the area of genetics, from the time the
-condition was first described by Kanner in the 1940s. 
+condition was first described by Kanner in the 1940s.
 
-Recent scientific findings have shown, however, multiple immune system abnormalities in autistic individuals. Scientists have alsoembraced the idea of the complex integration of the immune, nervous, endocrine, and other systems of the body; in particular the notion that early and severe derailments of the immune system can lead to profound neurological damage. 
+Recent scientific findings have shown, however, multiple immune system abnormalities in autistic individuals. Scientists have alsoembraced the idea of the complex integration of the immune, nervous, endocrine, and other systems of the body; in particular the notion that early and severe derailments of the immune system can lead to profound neurological damage.
 
 This website is very informative about autism and offers help to those who may have symptoms.
 =========yorg=========
@@ -257,12 +257,12 @@ This page is about the research for a vaccine for lyme disease. It gives a few s
 ===institution:TAG-NIH-Funded AIDS Vaccine Research
 ===date:Wed Apr  5 21:55:33 2000
 ===subject:HIV research
-===message:This web site is about research that has been taking place 
-to find a vaccine for AIDS.  It includes many links to 
-places like the the cellular response to the vaccine or the 
-antibody response.  It explain the methods and material that 
-the reseachers used.  Another interesting link is to the 
-animal based reaserch.  This web site includes all you'd 
+===message:This web site is about research that has been taking place
+to find a vaccine for AIDS.  It includes many links to
+places like the the cellular response to the vaccine or the
+antibody response.  It explain the methods and material that
+the reseachers used.  Another interesting link is to the
+animal based reaserch.  This web site includes all you'd
 want to know about finding a vaccine to HIV.
 =========yorg=========
 ===from:Susan Wolfe
@@ -273,7 +273,7 @@ want to know about finding a vaccine to HIV.
 ===from:Marty Malloy
 ===date:Thu Apr  6  2:23:19 2000
 ===subject:Immunological Research- Lee Labs.
-===message:    Lee labrotories have been studying immune diseases and have come up with many models and different research.  PG-PS is purified peptidoglycan-polysaccharide polymers that are produced from Streptococcus pyogenes. They have been used in animal models for the study of inflammatory disease. Teh immflammation is similar to that of the diseases caused by natural causes. PG-PS 10S applications  are done to control a little of the acute arthritis that people suffer from.  There is another model called the intramural model, which has been used for gastrointestinal studies. PG-PS 100P applications are mainly used for the acute and chronic arthritis.  There has been a model made for it as well.  The website from which I gathered this information is www.leelabs.com/research.htm 
+===message:    Lee labrotories have been studying immune diseases and have come up with many models and different research.  PG-PS is purified peptidoglycan-polysaccharide polymers that are produced from Streptococcus pyogenes. They have been used in animal models for the study of inflammatory disease. Teh immflammation is similar to that of the diseases caused by natural causes. PG-PS 10S applications  are done to control a little of the acute arthritis that people suffer from.  There is another model called the intramural model, which has been used for gastrointestinal studies. PG-PS 100P applications are mainly used for the acute and chronic arthritis.  There has been a model made for it as well.  The website from which I gathered this information is www.leelabs.com/research.htm
 
 
 =========yorg=========
@@ -309,7 +309,7 @@ Research has found that the bacteria that causes tuberculosis, mycobacterium tub
 
 
 <a href="http://www.cancerquest.org/what.asp"> The Lautenberg Center</a>
- 
+
 =========yorg=========
 ===from:Cari Templeton
 ===email:ctemp@iastate.edu
@@ -324,9 +324,9 @@ Cari Templeton
 =========yorg=========
 ===from:John Mixdorf
 ===date:Thu Apr  6 14:54:08 2000
-===subject:immunity and aids 
+===subject:immunity and aids
 ===message:I looked at the site www.aidsinfonyc.org/tag/reports/vaccines.html
-The site gives information first about what HIV and AIDS is.  It has four main themes about about AIDS. The first two are about the money invested in immune research and the last two are about clinical trials of the research.  The site then goes on further to explain specific studies with the immune research.  Examples are on research with cellular immune response and antigen presence of T and B cells.  There is also various other studies that deal with the immune system and AIDS.  
+The site gives information first about what HIV and AIDS is.  It has four main themes about about AIDS. The first two are about the money invested in immune research and the last two are about clinical trials of the research.  The site then goes on further to explain specific studies with the immune research.  Examples are on research with cellular immune response and antigen presence of T and B cells.  There is also various other studies that deal with the immune system and AIDS.
 =========yorg=========
 ===from:Courtney-Amber Ferris
 ===date:Thu Apr  6 14:56:35 2000
@@ -361,7 +361,7 @@ This site is for the Official Journal of the British Society for Immunology.  It
 ===subject:Allergies
 ===message:The web site for the information found is http://www.users.globalnet.co.uk/~aair/allergy.htm#SEC4
 
-According to them, the allergies are immunity gone wrong.  Research has shown that the number of cases of allergies have gone up in rescent years.  The current theory is that air pollution is to blame.  According to research, mice that had diesel fumes put into their nose had produced more allergy-causing antibodies.  
+According to them, the allergies are immunity gone wrong.  Research has shown that the number of cases of allergies have gone up in rescent years.  The current theory is that air pollution is to blame.  According to research, mice that had diesel fumes put into their nose had produced more allergy-causing antibodies.
 =========yorg=========
 ===from:Jan Boge
 ===date:Thu Apr  6 18:12:15 2000
@@ -404,7 +404,7 @@ http://onhealth.com/ch1/resource/herbs/item,15988.asp
 ===subject:immunology
 ===message:http://www.cytotech.dk/subpage/mainFrame.htm?newsgroups.htm
 
-      AZT is one of the latest treatments for AIDS,  its purpose is to bring Aids patients immune systems up enough to fight off every day viruses like colds and such so they don't become deathly ill.  AZT also keeps up the production of white blood cells and T cells in the patient.  
+      AZT is one of the latest treatments for AIDS,  its purpose is to bring Aids patients immune systems up enough to fight off every day viruses like colds and such so they don't become deathly ill.  AZT also keeps up the production of white blood cells and T cells in the patient.
 =========yorg=========
 ===from:Kristen Ehler
 ===date:Thu Apr  6 21:34:29 2000
@@ -415,14 +415,14 @@ www.clinimmsoc.org
 ===from:Danette Allen
 ===date:Thu Apr  6 21:38:03 2000
 ===subject:HAART
-===message:I went to the website http://sg.dailynews.yahoo.com/headlines/world/afp/article.html?s=singapore/headl.  
+===message:I went to the website http://sg.dailynews.yahoo.com/headlines/world/afp/article.html?s=singapore/headl.
 
 A new "cocktail of medications" has helped increase the life expectantcy of people that are infected with HIV.  This drug is called highly-active antiretroviral therapy (HAART) which is a protease inhibitor and reverse transcriptase inhibitor.  It seems to be highly effective in fighting the spread of HIV but it doesn't cure it.  HAART seems to improve the survival expectations of every different age group that are infected with HIV.
 =========yorg=========
 ===from:Kathleen Lyons
 ===date:Thu Apr  6 21:53:23 2000
 ===subject:Breastfeeding
-===message:http://pages.ripco.net/~lnrplxus/bfpost.html  Breastfeeding babies has been a major issue in hospitals.  Some researchers would argue formula is just as good for the baby as breast milk.  In recent studies it has been proven that breast milk benefits the baby's immune system.  The first milk, colestrum, helps build up the baby's immune system by giving him antibodies from the mother.  All of this helps to give the baby a chance to fight infections and diseases within the first few days of life. 
+===message:http://pages.ripco.net/~lnrplxus/bfpost.html  Breastfeeding babies has been a major issue in hospitals.  Some researchers would argue formula is just as good for the baby as breast milk.  In recent studies it has been proven that breast milk benefits the baby's immune system.  The first milk, colestrum, helps build up the baby's immune system by giving him antibodies from the mother.  All of this helps to give the baby a chance to fight infections and diseases within the first few days of life.
 =========yorg=========
 ===from:Carly Krueger
 ===date:Thu Apr  6 21:58:53 2000
@@ -435,7 +435,7 @@ URL: http://www.uveitis.org/WebEyeMD_htmbank/privilege.htm
 ===date:Thu Apr  6 22:10:46 2000
 ===subject:Hep Research
 ===message:<a href="http://www.aarda.org/research6.html">Hep Research</a>
-This research website discusses the research being done on Hepititis A and similar diseases.  I found interest in this research because for my trip to Honduras I was told to take this shot, as I did, and it's interesting just learn something about the disease's "pros and cons" research-wise. 
+This research website discusses the research being done on Hepititis A and similar diseases.  I found interest in this research because for my trip to Honduras I was told to take this shot, as I did, and it's interesting just learn something about the disease's "pros and cons" research-wise.
 The site discusses how only limited research has been done in this area in the past because of "diagnotic uncertainty.  This makes sense, but now with new techniques and technology this area has become less of a mistery.  It has been determined that the diseases Hepititis A and C are actually not very similar at all, as the nomenclature suggests.  They are different diseases with different syptoms and necessities for treatment.  One of these such treatments has been (which this study's work is on) is with a drug called azathinoprine.  There is however a risk that is taken with this successful drug in treating this disease, it has a high risk of cancer forming reagents.  As you can see there is a lot of work going into this area and is still far away from complete success.  However with research like in this website taking place success may not be that far away.
 =========yorg=========
 ===from:Melissa Millman
@@ -453,9 +453,9 @@ This website explained a new researchable topic on how children with asthma are 
 ===from:Scott Gilroy
 ===date:Thu Apr  6 22:59:38 2000
 ===subject:Immune research
-===message:This site is about a group that is trying to find a 
-treatment for a certain type of autism that can be treated 
-through immune techneques.  The address is 
+===message:This site is about a group that is trying to find a
+treatment for a certain type of autism that can be treated
+through immune techneques.  The address is
 http://lib.tcu.edu/www/staff/lruede/singhfeat
 =========yorg=========
 ===from:Lacey Bilden
@@ -506,7 +506,7 @@ This is a research laboratory that researches 2 important deseases that need to 
 ===from:Tami Stearns
 ===date:Fri Apr  7 13:23:03 2000
 ===subject:Immunology research
-===message:This website discusses the possibility of previous infections in the development of heart disease.  Evidence has suggested that an immunological reaction to specific heat shock proteins could be involved in atherogenesis.  The study also suggests that therapy with antibiotics could reduce the markers of inflamed blood vessels in patients with  coronary heart disease.  Researchers at the University of Utah Medical Center in Salt Lake City collected data from patients that had evidence of a previous infection caused by a pneumonia-bacterium Chlamydia pneumoniae.  They obtained the results from part of the patients who received antibiotics (azithromycin) and the other part who weren't treated.  http://pharminfo.com/pubs/ccr/ccr2_26.html  
+===message:This website discusses the possibility of previous infections in the development of heart disease.  Evidence has suggested that an immunological reaction to specific heat shock proteins could be involved in atherogenesis.  The study also suggests that therapy with antibiotics could reduce the markers of inflamed blood vessels in patients with  coronary heart disease.  Researchers at the University of Utah Medical Center in Salt Lake City collected data from patients that had evidence of a previous infection caused by a pneumonia-bacterium Chlamydia pneumoniae.  They obtained the results from part of the patients who received antibiotics (azithromycin) and the other part who weren't treated.  http://pharminfo.com/pubs/ccr/ccr2_26.html
 =========yorg=========
 ===from:Grant Schultz
 ===date:Fri Apr  7 13:48:43 2000
@@ -518,28 +518,28 @@ This vaccine kills the spirochete in the tick before it is able to be transporte
 ===from:Miki Katayama
 ===date:Fri Apr  7 13:51:26 2000
 ===subject:Immunological research
-===message:The major research interest in Dr. Ron Jemmerson's 
-laboratory is molecular recognition of protein antigens by B 
-lymphocytes and their antibodies.  Three major goals in this 
-area are being elucidated. One goal is to understand the 
-basis for the targeting of antibodies to discrete sites on a 
-protein antigen. Another goal is to understand the strategy 
-for usage of particular immunoglobulin genes in antigen 
-recognition. 
+===message:The major research interest in Dr. Ron Jemmerson's
+laboratory is molecular recognition of protein antigens by B
+lymphocytes and their antibodies.  Three major goals in this
+area are being elucidated. One goal is to understand the
+basis for the targeting of antibodies to discrete sites on a
+protein antigen. Another goal is to understand the strategy
+for usage of particular immunoglobulin genes in antigen
+recognition.
 The web site is www.microbiology.med.umn.edu/immunology/
 
 =========yorg=========
 ===from:LeAnn Bouska
 ===date:Fri Apr  7 14:03:11 2000
 ===subject:ITP Research
-===message:ITP, or Immune Thrombocytopenic Purpura, is a disorder where the immune system thinks that the platelets are diseases and destroys them.  The patient has a low white blood cell count and is not able to fight diseases off as well.  This web site showed research on different medications that are being tried to help fight off this disease.  It was tried on people who were recently diagonosed with ITP and those who did not respond to having their spleen removed.  For those who were recently diagonosed with ITP, high-dose dexamethasone and Anti-D Antibodies were tried.  These drugs are used so that they would not have to have their spleen removed.  For the people that didn't respond to a splenectomy, several treatment options are being tested.  The first medication, thrombopoietin, is used to stimulate major platelet growth.  Monoclonal Antibody to produce CD40 Ligand, a protein formed by white blood cells, The antibody promoted white blood cells to work together to create proteins that the immune system would not destroy. Other treatment options are taking antigens and bone marrow transplant.  
+===message:ITP, or Immune Thrombocytopenic Purpura, is a disorder where the immune system thinks that the platelets are diseases and destroys them.  The patient has a low white blood cell count and is not able to fight diseases off as well.  This web site showed research on different medications that are being tried to help fight off this disease.  It was tried on people who were recently diagonosed with ITP and those who did not respond to having their spleen removed.  For those who were recently diagonosed with ITP, high-dose dexamethasone and Anti-D Antibodies were tried.  These drugs are used so that they would not have to have their spleen removed.  For the people that didn't respond to a splenectomy, several treatment options are being tested.  The first medication, thrombopoietin, is used to stimulate major platelet growth.  Monoclonal Antibody to produce CD40 Ligand, a protein formed by white blood cells, The antibody promoted white blood cells to work together to create proteins that the immune system would not destroy. Other treatment options are taking antigens and bone marrow transplant.
 
 http://seconde.scripps.edu/itp/exprx.html
 =========yorg=========
 ===from:Sheri Patrick
 ===date:Fri Apr  7 14:12:21 2000
 ===subject:AIDS research
-===message:http://immunenetwork.com/science/projects/aids.html------This website explains the research that is being done to fight the HIV virus that becomes AIDS.  The drugs that are currently being used in controlling HIV are becoming less affective due to mutations occuring in the virus.  New research is being done to come up with drugs to fight off these new strains, too.  
+===message:http://immunenetwork.com/science/projects/aids.html------This website explains the research that is being done to fight the HIV virus that becomes AIDS.  The drugs that are currently being used in controlling HIV are becoming less affective due to mutations occuring in the virus.  New research is being done to come up with drugs to fight off these new strains, too.
 =========yorg=========
 ===from:Jennifer Jennings
 ===date:Fri Apr  7 14:23:01 2000
@@ -557,7 +557,7 @@ http://www.aaaai.org/media/pressreleases/2000/03/000306a.html
 ===subject:Immunology
 ===message:<a href="HTTP://OMRF.OUHSC.EDU/lupus/Frames.htm">Lupus Immunology</a>
 
-This page discusses the research done on finding the lupus gene sequence so it can be completely isolated.  They have found 5-10% of the possible locations for the gene sequence but many more years work are needed.  
+This page discusses the research done on finding the lupus gene sequence so it can be completely isolated.  They have found 5-10% of the possible locations for the gene sequence but many more years work are needed.
 =========yorg=========
 ===from:Sarah Lacijan
 ===date:Fri Apr  7 14:35:04 2000
@@ -574,7 +574,7 @@ This page discusses the research done on finding the lupus gene sequence so it c
 =========yorg=========
 ===from:Christina Mahama
 ===date:Fri Apr  7 14:40:17 2000
-===subject:immunological reseach on renal transplant    
+===subject:immunological reseach on renal transplant
 ===message:Web site; http://www2mc.duke.edu/depts/som/ro3isp.
 This web site is reporting a clinical reseach directed at analyzing the effects of new experimental drugs in renal transplant recipients. Also basic reseach on small bowel, liver,and heart transplant and the mechanism of rejection.
 =========yorg=========
@@ -592,7 +592,7 @@ This web site is reporting a clinical reseach directed at analyzing the effects 
 ===date:Fri Apr  7 14:50:22 2000
 ===subject:Immunilogical Research
 ===message:http://www.compleatmother.com/cosleeping.htm
-A Notre Dame professor is doing a study on if babies sleep with their mom instead of by themselves, the babies experience immunilogical benefits. The study shows that  babies who sleep with parents spend less time in "Level III sleep",  Which is a state of deep sleep when the risk of apneas are increased.  Also, babies who share sleep with their parents perform better in school, have a higher self-esteem and fewer health problems. The study also shows that when babies are left alone to cry themselves to sleep, a hormone is stimulated causing mental illness, stress, and more prone to illness.  
+A Notre Dame professor is doing a study on if babies sleep with their mom instead of by themselves, the babies experience immunilogical benefits. The study shows that  babies who sleep with parents spend less time in "Level III sleep",  Which is a state of deep sleep when the risk of apneas are increased.  Also, babies who share sleep with their parents perform better in school, have a higher self-esteem and fewer health problems. The study also shows that when babies are left alone to cry themselves to sleep, a hormone is stimulated causing mental illness, stress, and more prone to illness.
 =========yorg=========
 ===from:Julie Blacksmith
 ===email:julieb@iastate.edu
@@ -631,14 +631,14 @@ http://12.4.5.33/hivaids.html
 ===from:Andrew Slattery
 ===date:Fri Apr  7 18:19:58 2000
 ===subject:immunological research
-===message:The web site I found was “the TB/Aids research laboratory” at URL http://www.brown.edu/Research/TB-HIV_Lab/.  This laboratory is at Brown University in Rhode Island and deals with researching methods of treatment and prevention of tuberculosis and aids.  In the tuberculosis section it explains what the diseases is, how it’s effecting the world, what vaccines are out there now, and what research they are doing to find a better vaccine.  The Aids section is similar except for the fact there is no vaccine currently available. 
+===message:The web site I found was “the TB/Aids research laboratory” at URL http://www.brown.edu/Research/TB-HIV_Lab/.  This laboratory is at Brown University in Rhode Island and deals with researching methods of treatment and prevention of tuberculosis and aids.  In the tuberculosis section it explains what the diseases is, how it’s effecting the world, what vaccines are out there now, and what research they are doing to find a better vaccine.  The Aids section is similar except for the fact there is no vaccine currently available.
 =========yorg=========
 ===from:Jennie Kingery
 ===date:Fri Apr  7 18:29:39 2000
 ===subject:viral immunology
 ===message:http://rri.on.ca/groups/viap/
 
-This website concentrates on how viruses steal genes from cells, and some have stolen genes that allow them to be unrecognized by the immune system's defenses.  The viruses pretend to be the part of the cell that combines with foreign objects.  These viruses interrupt the immune system response at the very beginning of their cycle.  Proteins from these viruses could be used as gene therapy to cure or treat various immune-based diseases.  
+This website concentrates on how viruses steal genes from cells, and some have stolen genes that allow them to be unrecognized by the immune system's defenses.  The viruses pretend to be the part of the cell that combines with foreign objects.  These viruses interrupt the immune system response at the very beginning of their cycle.  Proteins from these viruses could be used as gene therapy to cure or treat various immune-based diseases.
 =========yorg=========
 ===from:Matt Allen
 ===date:Fri Apr  7 18:36:18 2000
@@ -655,8 +655,8 @@ This website concentrates on how viruses steal genes from cells, and some have s
 ===date:Fri Apr  7 18:47:28 2000
 ===subject:Immunoglobulins
 ===message:http://www.microbiology.med.umn.edu/immunology/ (then click on research)
-When the body responds to a foreign antigen, one of the most important things that happens is the B cells mature when somatic mutation of immunoglobulin genes occurs. The researchers that made this website are studying the response of B cells in mice because there are many things that are not known about this response.  The mice's B cells recognize the amino acid residue of mouse cytochrome-c or CYT.  This is a protein containing 104 amino acids that has been used to analyze immunoglobulin specificity. It is  
-a very important respiratory molecule in the electron transport chain and is normally found between the inner and outer membrane of mitochondria.   
+When the body responds to a foreign antigen, one of the most important things that happens is the B cells mature when somatic mutation of immunoglobulin genes occurs. The researchers that made this website are studying the response of B cells in mice because there are many things that are not known about this response.  The mice's B cells recognize the amino acid residue of mouse cytochrome-c or CYT.  This is a protein containing 104 amino acids that has been used to analyze immunoglobulin specificity. It is
+a very important respiratory molecule in the electron transport chain and is normally found between the inner and outer membrane of mitochondria.
 =========yorg=========
 ===from:Erin Feld
 ===date:Fri Apr  7 19:19:05 2000
@@ -668,22 +668,22 @@ a very important respiratory molecule in the electron transport chain and is nor
 ===date:Fri Apr  7 19:35:35 2000
 ===subject:Research- HIV
 ===message:www.rex.nci.nih.gov/RESEARCH/basic/eib/shearer.htm
-This site discusses the Th1-like and Th2-like cytokine dysregulation in people with HIV.  THe research done by the institute studies several aspects of AIDS and the immunology concerned.  Other aspects can be linked from this study's site.  
+This site discusses the Th1-like and Th2-like cytokine dysregulation in people with HIV.  THe research done by the institute studies several aspects of AIDS and the immunology concerned.  Other aspects can be linked from this study's site.
 =========yorg=========
 ===from:Julia Haas-Slattery
 ===date:Fri Apr  7 20:49:13 2000
 ===subject:Research
-===message:The CCFA is continuing research on immunology.  At www.ccfa.org/medcentral/research you can specifically link to a wealth of information on not just immunological diseases but a "bulk" of on going research.  On this site you have to kind of link around to find the information you would like.  They stress the importance of T cells in their research.  
+===message:The CCFA is continuing research on immunology.  At www.ccfa.org/medcentral/research you can specifically link to a wealth of information on not just immunological diseases but a "bulk" of on going research.  On this site you have to kind of link around to find the information you would like.  They stress the importance of T cells in their research.
 =========yorg=========
 ===from:Josh  Beck
 ===date:Fri Apr  7 21:11:02 2000
-===subject:T-cell activation and inhibition 
-===message:The site "http://mcb.berkeley.edu/faculty/IMM/allisonj.html" reports the research interests and findings of Dr. James Allison.  Dr. Allison is currently examining the molecules and processes involved in the differentiation and activation of T-cells.  It was previously thought that the activation of such T-cells was caused by interaction and stimulation of the TCR by only a specific antigen, however, research now shows that another interaction with a non-specific antigen, the "co-stimulatory" receptor CD28, is also necessary in activation of the T-cells by antigen receptor B-cells.  Working with mice, Dr. Allison has observed that a lack of CD28 can lead to detrimental effects in the immune response.  In addition, Dr. Allison is looking at another receptor molecule related to CD28, CTLA-4.  This molecule appears to be involved in inhibition of T-cell development.  This molecule may have potential in fighting primary tumor development. 
+===subject:T-cell activation and inhibition
+===message:The site "http://mcb.berkeley.edu/faculty/IMM/allisonj.html" reports the research interests and findings of Dr. James Allison.  Dr. Allison is currently examining the molecules and processes involved in the differentiation and activation of T-cells.  It was previously thought that the activation of such T-cells was caused by interaction and stimulation of the TCR by only a specific antigen, however, research now shows that another interaction with a non-specific antigen, the "co-stimulatory" receptor CD28, is also necessary in activation of the T-cells by antigen receptor B-cells.  Working with mice, Dr. Allison has observed that a lack of CD28 can lead to detrimental effects in the immune response.  In addition, Dr. Allison is looking at another receptor molecule related to CD28, CTLA-4.  This molecule appears to be involved in inhibition of T-cell development.  This molecule may have potential in fighting primary tumor development.
 =========yorg=========
 ===from:Allison Hall
 ===date:Fri Apr  7 21:22:00 2000
 ===subject:immunology research
-===message:site: mcb.berkeley.edu/faculty/IMM/allisonj.html-- This site introduces the current research performed by James Allison (Co-Chair and Howard Hughes Professor of Immunology)involving the molecular immunology of the T cell antigen receptor complex, costimulatory receptors, and other molecules involved in T cell activation.  He is interested in specifying the signaling events that lead to differentiation of immature T cells. He is studying the intracellular mechanisms of costimulatory signal transduction, with a goal of understanding self tolerance and development of a means for regulation of immune responses. He is currently using animal models to determine the applicablity of gene therapy to the immunotherapy of primary tumors. 
+===message:site: mcb.berkeley.edu/faculty/IMM/allisonj.html-- This site introduces the current research performed by James Allison (Co-Chair and Howard Hughes Professor of Immunology)involving the molecular immunology of the T cell antigen receptor complex, costimulatory receptors, and other molecules involved in T cell activation.  He is interested in specifying the signaling events that lead to differentiation of immature T cells. He is studying the intracellular mechanisms of costimulatory signal transduction, with a goal of understanding self tolerance and development of a means for regulation of immune responses. He is currently using animal models to determine the applicablity of gene therapy to the immunotherapy of primary tumors.
 =========yorg=========
 ===from:Eric Vobr
 ===date:Fri Apr  7 21:50:09 2000
@@ -694,8 +694,8 @@ This site discusses the Th1-like and Th2-like cytokine dysregulation in people w
 ===email:jmbaker@iastate.edu
 ===date:Fri Apr  7 21:52:55 2000
 ===subject:Immunology
-===message:I am submitting the following web site: 
-www.molbiol.ox.ac.uk/pathology/tig/welcome.html 
+===message:I am submitting the following web site:
+www.molbiol.ox.ac.uk/pathology/tig/welcome.html
 this web site houses the Therapeutic Immunology Group which is undertaking research in the mechanisnms of immune tolerance and how it can be harnessed. This research is being done by using monoclonal antibodies and their effect on transplant rejection.
 =========yorg=========
 ===from:Jose Davila
@@ -740,7 +740,7 @@ http://www.cancerresearch.org/.
 ===date:Fri Apr  7 23:33:33 2000
 ===subject:Research
 ===message:www.atcp.org
-      This is a website that focuses on the disease Ataxia Telangiectasia.  It is an inherited, progressive, degenerative disease that affects a variety of body systems.  A clinical hallmark of "A-T" is immunodeficiency that usually brings about a recurrence of respiratory infections.  Many times the disease leads to cancer, especially lymphoma and leukemia.  There is no cure, but much research is being done.  One possible solution includes immune system boosters with increased vitamin intake 
+      This is a website that focuses on the disease Ataxia Telangiectasia.  It is an inherited, progressive, degenerative disease that affects a variety of body systems.  A clinical hallmark of "A-T" is immunodeficiency that usually brings about a recurrence of respiratory infections.  Many times the disease leads to cancer, especially lymphoma and leukemia.  There is no cure, but much research is being done.  One possible solution includes immune system boosters with increased vitamin intake
 =========yorg=========
 ===from:Matt Grennan
 ===email:mgrennan@iastate.edu
@@ -789,11 +789,11 @@ This was about an Australian research project to investigate the stability of He
 ===from:Kristen Shrader
 ===date:Mon Apr 10 16:31:16 2000
 ===subject:Immunology
-===message:I located a web site which describes research of the viral 
-enzyme in Herpes Simplex I - thymidine kinase.  Finding the 
-differences in substrate specifity between the viral enzyme 
-and the human enzyme is key when designing a drug for this 
-virus.  ACV is a drug that currently exists for Herpes I.  
+===message:I located a web site which describes research of the viral
+enzyme in Herpes Simplex I - thymidine kinase.  Finding the
+differences in substrate specifity between the viral enzyme
+and the human enzyme is key when designing a drug for this
+virus.  ACV is a drug that currently exists for Herpes I.
 More can be found at www.pharma.ethz.ch/.
 =========yorg=========
 ===from:Sarah Goodwin

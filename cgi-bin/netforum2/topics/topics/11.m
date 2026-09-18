@@ -11,20 +11,20 @@ http://ekolserv.vo.slu.se/Docs/www/Subject/Crops/150-199/166Bt_pest_resistant_cr
 ===date:Wed Mar 18  9:45:10 1998
 ===subject:BT Corn Part 1
 ===message:This sight gives an overview of some of the benifits of BT-corn.<p>
-http://www.novartis.com/current/bt-corn_e.html 
+http://www.novartis.com/current/bt-corn_e.html
 
 =========yorg=========
 ===from:Lori Applegate
 ===email:lorapp@iastate.edu
 ===institution:ISU
 ===date:Fri Mar 20 11:39:15 1998
-===subject:Lots of links on Bt 
-===message:I found a webpage that has lots of links full of info about the Bt-toxin in research, corn, and other crops.<P>  
+===subject:Lots of links on Bt
+===message:I found a webpage that has lots of links full of info about the Bt-toxin in research, corn, and other crops.<P>
 "Bt (Bacillus thuringiensis) Toxin Resources"<P>
 http://www.nalusda.gov/bic/BTTOX/bttoxin.htm<P>
 
 The subheading, "Bt corn kind to friendly bugs" specifically talks about ISU research on this subject.<P>
-http://www.ag.iastate.edu/centers/leopold/Btcorn.html<P> 
+http://www.ag.iastate.edu/centers/leopold/Btcorn.html<P>
 =========yorg=========
 ===from:Lori Applegate
 ===email:lorapp@iastate.edu
@@ -32,8 +32,8 @@ http://www.ag.iastate.edu/centers/leopold/Btcorn.html<P>
 ===date:Fri Mar 20 14:02:09 1998
 ===subject:Bt corn part 2
 ===message:Bt-toxin is a protien produced by a soil bacterium, Bacillus thuringiensis (Bt).  The genes from Bt are inserted into corn hybrids (and other crops) which produce the Bt-toxin.  When the larvae of (specifically) the European Corn Borer (ECB) eats on a Bt-toxin corn plant, the Bt destroys their intestinal walls and causes them to die of hunger.<P>
-There are many benefits to this technology and only about one disadvantage.  Comparing Bt to insecticides, coverage and timing of insecticides is not a problem since the toxin is already in the plant.  Bt is not a threat to the environment, animals, humans, and most other insects.  Many tests have proven there are no allergic reactions in humans and is environmentally safe.  Since the Bt corn plant is protecting itself from the European Corn Borer, yields are higher at harvest time.  Price of the Bt-toxin corn seed is expensive now, but is expected to go down as time goes on. The biggest problem with Bt is the resistance that is likely to happen with the European Corn Borer.  Plant geneticists are designing Bt corn to produce very high levels of Bt protiens to hopefully kill all ECB--ECB larvae with no genes for resistance plus those with one copy of a resistance gene.<P> 
-I recommend this technology should be adopted and applied ONLY when scientist are sure they can kill the ECB.  I think now that it's already been used, ECB will be resistant in parts of the country, then eventually everywhere.  That is not for sure and we'll have to wait and see the results.  I think this technology is valuable for future advances. 
+There are many benefits to this technology and only about one disadvantage.  Comparing Bt to insecticides, coverage and timing of insecticides is not a problem since the toxin is already in the plant.  Bt is not a threat to the environment, animals, humans, and most other insects.  Many tests have proven there are no allergic reactions in humans and is environmentally safe.  Since the Bt corn plant is protecting itself from the European Corn Borer, yields are higher at harvest time.  Price of the Bt-toxin corn seed is expensive now, but is expected to go down as time goes on. The biggest problem with Bt is the resistance that is likely to happen with the European Corn Borer.  Plant geneticists are designing Bt corn to produce very high levels of Bt protiens to hopefully kill all ECB--ECB larvae with no genes for resistance plus those with one copy of a resistance gene.<P>
+I recommend this technology should be adopted and applied ONLY when scientist are sure they can kill the ECB.  I think now that it's already been used, ECB will be resistant in parts of the country, then eventually everywhere.  That is not for sure and we'll have to wait and see the results.  I think this technology is valuable for future advances.
 =========yorg=========
 ===from:Damon Johnson
 ===date:Tue Mar 24 13:21:04 1998
@@ -60,7 +60,7 @@ This is a good web-site with lots of data and graphs.
 ===subject:Bt toxin
 ===message:The website I found was at:<p>
 http://aginfo.psu.edu/news/may97/borer.html<p>
-The benefits of employing BT-toxin in agriculture are tremendous.  For one, since BT-toxin is a natural pesticide it can be used at no cost to the environment like other pesticides.  The cost of using Bt-toxin is that pest may become immune to the toxin.  If we used the transgenic plants widely we could have a situation like the great potato blight that wiped out nearly a whole countries crop.  Because of this I don't think that we should use the BT-toxin widely.  
+The benefits of employing BT-toxin in agriculture are tremendous.  For one, since BT-toxin is a natural pesticide it can be used at no cost to the environment like other pesticides.  The cost of using Bt-toxin is that pest may become immune to the toxin.  If we used the transgenic plants widely we could have a situation like the great potato blight that wiped out nearly a whole countries crop.  Because of this I don't think that we should use the BT-toxin widely.
 =========yorg=========
 ===from:Sheri Staudt
 ===email:sstaudt@iastate.edu
@@ -91,7 +91,7 @@ http://www.netlink.de/gen/BTCorn.htm<P>
 <P>
 http://spectre.ag.uiuc.edu/news/articles/886434912.html
 <P>
-This is a news bulletin from the University of Illinois at Urbana describing computer models developed by Prof. David Onstad, Professor of Agricultural Entomology, UIUC that predict how quickly the ECB will develop resistance to the Bt Toxin corn. 
+This is a news bulletin from the University of Illinois at Urbana describing computer models developed by Prof. David Onstad, Professor of Agricultural Entomology, UIUC that predict how quickly the ECB will develop resistance to the Bt Toxin corn.
 <P>
 More on this topic in the second part of this assignment, posted seperately.
 <P>
@@ -104,24 +104,24 @@ More on this topic in the second part of this assignment, posted seperately.
 	current.htm#Report
 
 I must say that I am a bit hesistant about running out and planting millions of corn plants that have been genetically enginneered to produce a lethal protein.  In the above article, the author made an important point.  "Constant long-term exposure to pest populations to Bt encourages survival of individual pests that are genetically resistant to the toxin.  Over many generations, the proportion of resistant individuals in pest populations can increase..." (Report Calls..., 1998).  This natural adaptation to a new threat is why mankind will NEVER beat nature.  Our technology and ingenious is nothing compared to the simplest and most delicate ecosystem on this earth.  Therefore, any of the technological advances that we may make will simply be adapted to in short time.  The long term benefits of such work will probably be null.  However, I do think that man has had a profound effect in some areas of research and life.  It's just that, for every sucess, we have a thousand failures.  To conclude, I think that the introduction of Bt-producing crops is an interesting and important idea, but I'm not sure as to how wise it may be in the long run.<P><P>
-In reply to Lori Applegate's message, I have to agree with her.  She identified numerous advantages without overlooking the one glaring disadvantage.  In her suggestion as to the application of Bt-crops, I also agree.  If there is a 100% chance (which is an oxymoron in nature) that pests will be wiped out or at least weakened by Bt, then I would say that Bt crops are suitable FOR THAT AREA.  However, since insects can travel wherever they wish, one month after planting, genetically resistant individuals could be the exception, not the norm.  Therefore, I still would be quite hesistant about introducing the new crops in my field.  
+In reply to Lori Applegate's message, I have to agree with her.  She identified numerous advantages without overlooking the one glaring disadvantage.  In her suggestion as to the application of Bt-crops, I also agree.  If there is a 100% chance (which is an oxymoron in nature) that pests will be wiped out or at least weakened by Bt, then I would say that Bt crops are suitable FOR THAT AREA.  However, since insects can travel wherever they wish, one month after planting, genetically resistant individuals could be the exception, not the norm.  Therefore, I still would be quite hesistant about introducing the new crops in my field.
 =========yorg=========
 ===from:Andria Bolton
 ===email:abolton@iastate.edu
 ===date:Sat Mar 28 12:50:33 1998
 ===subject:BT-toxin Part 2
-===message:	Plants that contain BT-toxin protect themselves by 
-producing the BT-protiens.  Since the plant does this 
-itself, plant agents formerly used to kill some insects are 
-not necessary.  This saves money previously used for these 
-agents.  Also farmers can achieve bigger yields than before 
+===message:	Plants that contain BT-toxin protect themselves by
+producing the BT-protiens.  Since the plant does this
+itself, plant agents formerly used to kill some insects are
+not necessary.  This saves money previously used for these
+agents.  Also farmers can achieve bigger yields than before
 because the strain on the soil is tremendously decreased.<P>
-	As for safety issues, the Bt-proetiens that the plants 
-produce are the same as those that people ingest from eating 
-raw vegetables.  Extensive, rigorous saftey tesing has been 
+	As for safety issues, the Bt-proetiens that the plants
+produce are the same as those that people ingest from eating
+raw vegetables.  Extensive, rigorous saftey tesing has been
 conducted on BT-corn.<P>
-	I believe that BT-corn should be widely used because it 
-is cost effiecient for farmers and shows no noticeable 
+	I believe that BT-corn should be widely used because it
+is cost effiecient for farmers and shows no noticeable
 effects on humans.<P>
 
 =========yorg=========
@@ -171,7 +171,7 @@ http://www.earthsave.bc.ca/articles/health/hazards.html
 ===message:Well here is yet another Bt-toxin web site.  It seems to do a decent job of explaning things.<P>
 http://www.inhs.uiuc.edu/cee/wwwtest/movement/research.html
 =========yorg=========
-===from:Jonathan Mullin 
+===from:Jonathan Mullin
 ===email:amullin@nishna.net
 ===date:Sun Mar 29 14:47:17 1998
 ===subject:Bt-corn. Part deux.
@@ -197,7 +197,7 @@ All these new advantages are great and ecologically sound, but (as usual) there 
 <P>
 The general consensus appears to be that the Bt technology is very effective at controlling corn borer larvae, and no major side effects are reported or anticipated. There are therefore clear benefits to using Bt corn. However, we need to consider the cost side as well.
 <P>
-The first question is whether the use of Bt corn is appropriate as a pest management device in a given year. A computer model developed by David Onsted at the University of Illinois at Urbana (see the website referenced in Part 1 of this exercise) shows that in the years where ECB populations are not at economic levels, traditional hybrids outperform Bt corn. The "economic injury level" is the population density of the pest (e.g. ECB larvae per plant) at which the potential loss of crop yield economically justifies the cost of treatment (see Larry Pedigo’s paper at www.ent.agri.umn.edu/academics/classes/ipm/chapters/pedigo.htm for more information on this topic). Clearly, therefore, the judgment about the use of Bt corn in a given year depends on whether the projection population density of ECB larvae is high enough to justify the extra cost of Bt corn. 
+The first question is whether the use of Bt corn is appropriate as a pest management device in a given year. A computer model developed by David Onsted at the University of Illinois at Urbana (see the website referenced in Part 1 of this exercise) shows that in the years where ECB populations are not at economic levels, traditional hybrids outperform Bt corn. The "economic injury level" is the population density of the pest (e.g. ECB larvae per plant) at which the potential loss of crop yield economically justifies the cost of treatment (see Larry Pedigo’s paper at www.ent.agri.umn.edu/academics/classes/ipm/chapters/pedigo.htm for more information on this topic). Clearly, therefore, the judgment about the use of Bt corn in a given year depends on whether the projection population density of ECB larvae is high enough to justify the extra cost of Bt corn.
 <P>
 Given that the decision to use Bt corn has been made in a given year, the next question is to ascertain the amount of corn to be used. Onsted’s computer model also shows that if 100% of the corn acreage was planted with Bt corn, the ECB larvae would develop resistance to the Bt toxin in one year ! Onsted’s recommendation is that no more than 80% of the acreage be planted with Bt corn, and that that 20% non Bt corn should always be planted in strips next to the Bt corn so that susceptible corn borers can survive and mate with resistant corn borers. The model indicates that this will increase the resistance to 20 years. So this appears to be a natural limit on the usage of Bt corn.
 <P>
@@ -205,8 +205,8 @@ In summary, therefore, it seems that rather than using Bt corn as the only means
 <P>
 A hybrid strategy  does not imply that we should use pesticides; an integrated pest management approach focusing on biological solutions is more desirable, since pesticides will invariably prove to be an expensive option if the cost of externalities (bad environmental effects) resulting from pesticide use is included in the cost calculation. A website at www.nysaes.cornell.edu describes the breeding of small stingless moths that act as parasites in ECB eggs - maybe this approach can be combined with Bt corn.
 <P>
- 
- 
+
+
 
 =========yorg=========
 ===from:Bill Rockey
@@ -220,7 +220,7 @@ A hybrid strategy  does not imply that we should use pesticides; an integrated p
 Fagan, John.  Importation of Ciba-Geigy's Bt Maize Is Scientifically Indefensible.
 http://www.netlink.de/gen/BTCorn.htm. April 1997.  <P>
 
-Tobin, Bernard.  Farm & Country. http://www.agpub.on.ca/text/jan97/cover.htm. Jan. 1997.   
+Tobin, Bernard.  Farm & Country. http://www.agpub.on.ca/text/jan97/cover.htm. Jan. 1997.
 
 =========yorg=========
 ===from:Ellie Nunez
@@ -236,7 +236,7 @@ http://userwww.sfsu.edu/~rone/GE%20Essays/RECIPE%20FOR%20DISASTER.htm
 ===email:ellie@iastate.edu
 ===date:Mon Mar 30  9:26:33 1998
 ===subject:Assignment IV- part 2
-===message: LIike most genetically engineered products, BT-toxin containing corn is no exception. It is accompanied by the concern of many and by the complications of altering mother nature. The toxin is alters three genes in corn, which makes it resistant to the bacillus thuringiensis. It is also used in cotton and soybeans.The reason it works is due to the fact that while it is harmless to humans, in high enough doses it kills pests. However, it is highly possible that through enough use we could see incidents similar to  introduction of DDT a few years ago. The insects became resistant to it and the concentration of this chemical climbed up the food chain. Because of this, other countires are wary to import this product and while some countries, like Canada, also produce it, the European Union refuses to accept this import. They fear that the BT-resistant corn borers will create a similar immunity in neighboring weeds. 
+===message: LIike most genetically engineered products, BT-toxin containing corn is no exception. It is accompanied by the concern of many and by the complications of altering mother nature. The toxin is alters three genes in corn, which makes it resistant to the bacillus thuringiensis. It is also used in cotton and soybeans.The reason it works is due to the fact that while it is harmless to humans, in high enough doses it kills pests. However, it is highly possible that through enough use we could see incidents similar to  introduction of DDT a few years ago. The insects became resistant to it and the concentration of this chemical climbed up the food chain. Because of this, other countires are wary to import this product and while some countries, like Canada, also produce it, the European Union refuses to accept this import. They fear that the BT-resistant corn borers will create a similar immunity in neighboring weeds.
 =========yorg=========
 ===from:Matt Sogard
 ===date:Mon Mar 30  9:35:14 1998
@@ -244,8 +244,8 @@ http://userwww.sfsu.edu/~rone/GE%20Essays/RECIPE%20FOR%20DISASTER.htm
 ===message:The use of corn seed hybrids containing the BT-toxin has many obvious short term advantages including less stress on the environment, lower costs to the farmer, (because of less pesticide use) and, most importantly, protection from many caterpillars (e.g. ECB), beetles (e.g. corn rootworm), and aquatic flies (e.g. black flies and mosquitos) that destroy millions of bushels of yield every year.  These advantages make hybrids with the BT-toxin very appealing to the farmer.<P>
 With all of the benefits of BT-toxin hybrids, it seems almost too good to be true, and it partially is.  The biggest problem with widespread use of BT-toxin hybrids is the resistence that will soon be encountered.  It is widely believed that the ECB would very quickly develop a genetical resistence to the BT-toxin in the same way the Indian meal moth and the ECB in a lab have already done.  The ECB as a species has many advantages that would probably lead to its development of some type of resistence.  Every phase of the ECB life cycle involves corn, so the ECB has no escape.  Another advantage the ECB has is that as a moth it rarely flys over 2 miles away from its birth place.  This will encourage local development of resistence. Resistence will be sped up because the ECB produces multiple generations every summer.<P>
 The resistence will be slowed some because the different seed companies will develop different BT-toxin hybrids and different toxins could be used together.<P>
-The long term effectiveness of this type of pest treatment is certainly in question, but it does not make sense to have  this technology and not use it.  With the genetic engineering minds at the seed companies always running, some type of solution will be found.  Hopefully this solution will be found before widespread resistence to the BT-toxin is formed, which could take years.  BT-toxin hybrids should be used to the fullest. 
-  
+The long term effectiveness of this type of pest treatment is certainly in question, but it does not make sense to have  this technology and not use it.  With the genetic engineering minds at the seed companies always running, some type of solution will be found.  Hopefully this solution will be found before widespread resistence to the BT-toxin is formed, which could take years.  BT-toxin hybrids should be used to the fullest.
+
 =========yorg=========
 ===from:James Nisly
 ===email:jnisly@kctc.net
@@ -255,7 +255,7 @@ The long term effectiveness of this type of pest treatment is certainly in quest
 
 Part 1: <P>
 
-The following paragraph is a part of a feature article titled "The Insect Pathogen Bacillus thuringiensis", 
+The following paragraph is a part of a feature article titled "The Insect Pathogen Bacillus thuringiensis",
 located on the website: http://www.wisc.edu/entomology/mbcn/fea207.html. <P>
 
 Recent Research. Advances in biotechnology have produced improved prospects for developing new Bt
@@ -282,28 +282,28 @@ Adapted from <P>
 
 
 Part 2: <P>
-Obviously, we do not know all of the costs of using Bt-toxin containing corn.  It is likely that the european 
-corn borer will soon become resistant to the Bt-toxin, thus creating another problem that farmers and tax 
-payers will have to pay dearly for.  It is possible that the Bt-toxin containing gene could be cross-bred into 
-other plant species, creating problems that one can only imagine.  Another cost to the farmer is the premium 
+Obviously, we do not know all of the costs of using Bt-toxin containing corn.  It is likely that the european
+corn borer will soon become resistant to the Bt-toxin, thus creating another problem that farmers and tax
+payers will have to pay dearly for.  It is possible that the Bt-toxin containing gene could be cross-bred into
+other plant species, creating problems that one can only imagine.  Another cost to the farmer is the premium
 price which he will have to pay for this new technology. <P>
 
-Benefits of using the Bt-toxin containing corn could include: monetary profit for the seed and bio-technology 
-companies; reduced quantities of other more harmful insecticides being introduced into the environment and 
+Benefits of using the Bt-toxin containing corn could include: monetary profit for the seed and bio-technology
+companies; reduced quantities of other more harmful insecticides being introduced into the environment and
 possible short term monetary gains for farmers. <P>
 
-It appears to me that if you look only at the equation of planting Bt-toxin containing corn vs. planting regular 
-corn and applying the necessary quantities of insecticides that there may be a short term benefit to using the 
-Bt-toxin containing corn.  Wouldn't it be nice if it were so simple.  Please, it is not that simple.  As the article 
-above states: "current plans to develop and use "Bt-corn", "Bt-potatoes", and other crops that produce Bt 
-toxins are progressing much more rapidly than plans and actions designed to manage resistance in target 
-pests" or, how to address other unforeseen side effects.  I highly recommend that this technology should not 
+It appears to me that if you look only at the equation of planting Bt-toxin containing corn vs. planting regular
+corn and applying the necessary quantities of insecticides that there may be a short term benefit to using the
+Bt-toxin containing corn.  Wouldn't it be nice if it were so simple.  Please, it is not that simple.  As the article
+above states: "current plans to develop and use "Bt-corn", "Bt-potatoes", and other crops that produce Bt
+toxins are progressing much more rapidly than plans and actions designed to manage resistance in target
+pests" or, how to address other unforeseen side effects.  I highly recommend that this technology should not
 be widely adopted.
 =========yorg=========
 ===from:REBECCA LONGMIRE
 ===email:rlongmir@iastate.edu
 ===date:Mon Mar 30 18:48:09 1998
-===subject:part 1 
+===subject:part 1
 ===message:website....Disease Management: Genetically Engineered Resistance to Plant Pathogens - Characteristics and diversity of plant viruses
      --http://ag.arizona.edu/~zxiong/plp305/management2.html
 =========yorg=========
@@ -366,11 +366,11 @@ I agree totally with Dallas Crowley.  Though we have the tendency to think on a 
 ===subject:Part II
 ===message:The natural BT pesticide produced by bacteria  sounds like a dream come true for farmers producing herbs and vegetables universally.  It has been widely used on an abundance of organic herbs and vegetables, and particularly corn, targeting a small amount of insects at a time, breaking down easliy and swiftly, and is harmless to people and animals.
 
-However, the down side to this apparently "ideal" pesticide is that when overused, like many treatments, insects can develop a resistance, making the Bt toxin obsolete in many cases.  Within the last 10 years, more and more of these resistant insects are developing, and today there are over 500 insects having evolved a built-in protection against the toxin. It appears that the current debate is whether farmers should be required to follow techniques that would lower the resistance risk. Farmers would need to make a commitment to use the new techniques wisely and meticulously to achieve results, a task that  some farmers may not be willing to untake.  
+However, the down side to this apparently "ideal" pesticide is that when overused, like many treatments, insects can develop a resistance, making the Bt toxin obsolete in many cases.  Within the last 10 years, more and more of these resistant insects are developing, and today there are over 500 insects having evolved a built-in protection against the toxin. It appears that the current debate is whether farmers should be required to follow techniques that would lower the resistance risk. Farmers would need to make a commitment to use the new techniques wisely and meticulously to achieve results, a task that  some farmers may not be willing to untake.
 
-The answer seems logical;that using the transgenic plants as a solution to the farmers growing toxin resistant problem will almost assuredly capture the best of both worlds because the new transgenic plants will work for themselves.  The fact remains, however, that insect resistance to the transgenic corn plants is inevitable.  Therefore, the farmers are once again at square one, being boxed into a corner of using newer techiniques for anti-resistance.  I think that farmers have no choice but to be prudent, continuing to employ the transgenic plants they are ready to implement the newer resistance lowering techniques, and then rotate cropland keep areas where nonresistant insects will mate with resistant ones to keep resistance from spreading too quickly. 
-    
-   
+The answer seems logical;that using the transgenic plants as a solution to the farmers growing toxin resistant problem will almost assuredly capture the best of both worlds because the new transgenic plants will work for themselves.  The fact remains, however, that insect resistance to the transgenic corn plants is inevitable.  Therefore, the farmers are once again at square one, being boxed into a corner of using newer techiniques for anti-resistance.  I think that farmers have no choice but to be prudent, continuing to employ the transgenic plants they are ready to implement the newer resistance lowering techniques, and then rotate cropland keep areas where nonresistant insects will mate with resistant ones to keep resistance from spreading too quickly.
+
+
 =========yorg=========
 ===from:Beckie Bollin
 ===date:Mon Mar 30 22:32:21 1998
@@ -380,7 +380,7 @@ The answer seems logical;that using the transgenic plants as a solution to the f
 ===from:Damon Johnson
 ===date:Mon Mar 30 23:03:57 1998
 ===subject:You gotta love those toxins
-===message:Have we learned anything from the pesticides of the past?  The BT-toxin provides us with a great oppurtunity to learn from our past mistakes.  We once used DDT as a pestcide, but this toxin has little or no effect on the instects of today.   By abusing the use of a toxin, the insects with a tolerance to the pesticide will survive.  These insects will survive, reproduce, and pass the gene onto the offspring.  We did that to DDT and we are doing it to the BT-toxin.  Now how can we prevent this from happening? It is quite mix sections of BT-toxin treated seeds into non-treated.  By alternating every few rows, The population of the corn bores  will diminshes, but still leaving the weak gene in th gene pool.  This will not allow the bores to build a tolerance and we are all happy.  
+===message:Have we learned anything from the pesticides of the past?  The BT-toxin provides us with a great oppurtunity to learn from our past mistakes.  We once used DDT as a pestcide, but this toxin has little or no effect on the instects of today.   By abusing the use of a toxin, the insects with a tolerance to the pesticide will survive.  These insects will survive, reproduce, and pass the gene onto the offspring.  We did that to DDT and we are doing it to the BT-toxin.  Now how can we prevent this from happening? It is quite mix sections of BT-toxin treated seeds into non-treated.  By alternating every few rows, The population of the corn bores  will diminshes, but still leaving the weak gene in th gene pool.  This will not allow the bores to build a tolerance and we are all happy.
 =========yorg=========
 ===from:Nikkoli Dollinger
 ===date:Tue Mar 31 10:59:01 1998
@@ -392,9 +392,9 @@ The answer seems logical;that using the transgenic plants as a solution to the f
 ===subject:Assignment IV part 1 and 2
 ===message:Part 1:  I dared to be different and found a printed reference that addressed the topic of BT-toxin containing corn. I also wanted to find out more about exactly what BT-toxin was. <P>
 Bolin, PC. Hutchinson, WD. Davis, DW.  Resistanct hybrids and Bacillus thuringiensis for Management of European Corn Borer (Lepidoptera: Pyralidae) in Sweet Corn.  Journal of Economic Entomology.  Feb. 1996. v 89 (1) p 82-91. <P>
-<P> 
+<P>
 Part 2:  Incecticides are very controversial these days because of concerns about food safety, groundwater contamincation and thier effect on other forms of life living in the same environment as the organism they are designed to kill.  BT-toxin containing corn has several benefits when a comparison is made to traditional insecticides.  Because is naturally found in the soil and produces endotoxins specific to lepidopteran larvae it causes few detrimental effects on non-target organism.  With the use of BT-toxin there would be a decrease in the use of the pesticides that contaminate food and water as well as the animals that eat them.  Some of the          diadvantages of using BT-toxin is that the larvae may become resistant to it if it put into widespread use.  Insects that have become resistant will grow out of control and produce major crop damage in the future.  A further problem of resistance developing is it may be difficult to find another solution to killing the insect.  The actual cost of the BT-toxin may also cause a problem.  This is an expensive technique to put into widespread use although the crop that results may more that pay for the BT-toxin.  <P>
-It is very difficult to determine what the future holds.  My recommendation is to use BT_toxin sparingly in places where the larvae are a major problem.  Otherwise I think that it would be wise to conduct further testing to see how fast these insects do become resistant to BT-toxin in a contolled laboratory environment to help prevent an infestation in the future. 
+It is very difficult to determine what the future holds.  My recommendation is to use BT_toxin sparingly in places where the larvae are a major problem.  Otherwise I think that it would be wise to conduct further testing to see how fast these insects do become resistant to BT-toxin in a contolled laboratory environment to help prevent an infestation in the future.
 =========yorg=========
 ===from:Ross Laubscher
 ===date:Tue Mar 31 23:48:07 1998

@@ -39,24 +39,24 @@ require CLASS;
 # Perform the option
 $_ = $query->param('cn_option');
 SWITCH: {
-   /^Scores/	   &&  
+   /^Scores/	   &&
        do  {   #
                get_lists();
                $cls->view_scores(\@stu,\@asn,$inst);
        	       last SWITCH;
        	   };
-   /^Mail Table/        &&                                                      
-       do {                                                                     
-               my $table = $query->param('table');                              
+   /^Mail Table/        &&
+       do {
+               my $table = $query->param('table');
                CN_UTILS::mail($inst->{'Email Address'},"Summary scores for $cls->{'Name'}",$table);
-               $cls->print_gradebook($inst);                                    
-               last SWITCH;                                                     
-          };                                                                       
+               $cls->print_gradebook($inst);
+               last SWITCH;
+          };
 /^Statistics/                   &&
        do  {   #
                get_lists();
                my $na = @asn;
-       	       if ($na != 1) { 
+       	       if ($na != 1) {
                    ERROR::print_error_header('Statistics?');
                    print "Please select only one assignment.";
                    CN_UTILS::print_cn_footer();
@@ -64,10 +64,10 @@ SWITCH: {
                }
                my $ns = @stu;
                my $asn = $cls->get_assignment($query,$inst,$asn[0]);
-               if ($ns < 1) { 
+               if ($ns < 1) {
                    ERROR::user_error($ERROR::NOSTUDNAMES);
        	       }
-       	       elsif (ref($asn) =~ /EVAL/i) { 
+       	       elsif (ref($asn) =~ /EVAL/i) {
        	       	   @stu_list = $cls->get_mem_names('student');
        	       	   if ($ns < @stu_list) {
                        ERROR::print_error_header('Statistics?');
@@ -75,34 +75,34 @@ SWITCH: {
                        CN_UTILS::print_cn_footer();
                        exit(0);
        	       	   }
-       	       } 
+       	       }
                $asn->prompt_stats($cls,$inst,\@stu);
                last SWITCH;
            };
    /^Perform Statistics/                   &&
        do  {   #
-               my $asn = $cls->get_assignment($query,$inst,$query->param('Assignment Name'));          
+               my $asn = $cls->get_assignment($query,$inst,$query->param('Assignment Name'));
                my @stu = split(/\;/,$query->param('Students'));
                $asn->{'Categories'} = $query->param('Categories');
                $asn->print_stats(\@stu);
                last SWITCH;
            };
 
-   /^Grade/	   &&  
+   /^Grade/	   &&
        do  {   #
                get_lists();
                $cls->grade(\@stu,\@asn);
                $cls->print_gradebook($inst);
        	       last SWITCH;
        	   };
-   /^Ungrade/	   &&  
+   /^Ungrade/	   &&
        do  {   #
                get_lists();
                $cls->ungrade(\@stu,\@asn);
                $cls->print_gradebook($inst);
        	       last SWITCH;
        	   };
-   /^Histogram/	   &&  
+   /^Histogram/	   &&
        do  {   #
                get_lists();
                $cls->histogram(\@stu,\@asn,$inst);
@@ -120,59 +120,59 @@ SWITCH: {
                get_lists();
                foreach $a (@asn) {
                    my $ns = @stu;
-                   ($ns < 1) and 
-                       ERROR::user_error($ERROR::NOSTUDNAMES);   
+                   ($ns < 1) and
+                       ERROR::user_error($ERROR::NOSTUDNAMES);
                    my $asn = $cls->get_assignment($query,$inst,$a);
                    $asn->mail_raw_data(\@stu);
                }
                $cls->print_gradebook($inst);
                last SWITCH;
            };
-   /^Edit/	   &&  
+   /^Edit/	   &&
        do  {   #
                get_lists();
                my $na = @asn;
-       	       if ($na != 1) { 
+       	       if ($na != 1) {
                    ERROR::print_error_header('Edit?');
                    print "Please select only one assignment.";
                    CN_UTILS::print_cn_footer();
                    exit(0);
                }
                $cls->send_edit_form($query,$asn[0],\@stu);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
-   /^Delete/	   &&  
+   /^Delete/	   &&
        do  {   #
                get_lists();
                $cls->view_assignments(\@stu,\@asn,$inst,'delete');
        	       last SWITCH;
        	   };
-   /^Add/	   &&  
+   /^Add/	   &&
        do  {   #
                get_lists();
                $cls->view_assignments(\@stu,\@asn,$inst,'add');
        	       last SWITCH;
        	   };
-   /^Submit Delete Changes/	   &&  
+   /^Submit Delete Changes/	   &&
        do  {   #
                ERROR::check_sample($query,'Delete Assignments');
        	       $cls->submit_delete_changes($query);
                $cls->print_gradebook($inst);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
-   /^Submit Edit Changes/	   &&  
+   /^Submit Edit Changes/	   &&
        do  {   #
                ERROR::check_sample($query,'Edit Assignment');
        	       $cls->submit_edit_changes($query);
                $cls->print_gradebook($inst);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
-   /^Submit Add Changes/	   &&  
+   /^Submit Add Changes/	   &&
        do  {   #
                ERROR::check_sample($query,'Add Assignments');
        	       $cls->submit_add_changes($query);
                $cls->print_gradebook($inst);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
    ERROR::user_error($ERROR::NOOPTION);
 }

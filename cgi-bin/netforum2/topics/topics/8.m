@@ -40,21 +40,21 @@ http://sciencenow.sciencemag.org/cgi/content/full/1998/210/1  (11 February 1998)
 ===message:<P>For a while now geneticists have been trying to link Schizophrenia to a genetic disorder (SN: 11/4/95), but first attempts focused on people exhibiting a broad range of symptoms. People with schizophrenia are diagnosed as having disorganized thinking, bizarre delusions,  and negative social attitudes. This time the geneticists targeted a certain section on chromosome 6. The study consisted of 183 people from 10 Canadian families. About one quarter of the participants were diagnosed as schizophrenic. Their seemed to be correlation with the more psychotic ones behavior the stronger an indication of the presence of gene in question on the sixth chromosome.
 
 <P>
-<P><U>Source</U>	
+<P><U>Source</U>
 <P>B.B. . 1998. <U>Genetics hint of psychosis.</U><I>Science News.</I> 253(6):91
 =========yorg=========
 ===from:Matt Sogard
 ===date:Mon Feb 16 15:44:22 1998
 ===subject:Lab animal health concerns
-===message:	The National Research Council (NRC) said in its report, Biomedical Models and Resources, that animal overcrowding in research facilities is threating animal disease models.  In the report the NRC stressed that animal overcrowding is creating the perfect circumstances for possible infectous disease outbreaks.  These outbreaks could eliminate irreplaceable study animal populations.<P>  
-	The National Center for Research Resources (NCRR) responded by agreeing that the problem was urgent and something must be done to solve it.  The NCRR plans to develop more reseach facilities.  The facilities would not only provide more space, but would be specialized to ensure that populations do not cross and spread disease.  By implementing its plans, the NCRR would "significantly increase the current capacity" for animals in research facilities.<P> 
-	Despite its good intentions, the NCRR remains limited in its ability to deal with these nation wide problems.  The 1999 NCRR budget proposed by President Clinton has just $7.8 million out of its total $108 million included for the improvement of animal facilities.   
+===message:	The National Research Council (NRC) said in its report, Biomedical Models and Resources, that animal overcrowding in research facilities is threating animal disease models.  In the report the NRC stressed that animal overcrowding is creating the perfect circumstances for possible infectous disease outbreaks.  These outbreaks could eliminate irreplaceable study animal populations.<P>
+	The National Center for Research Resources (NCRR) responded by agreeing that the problem was urgent and something must be done to solve it.  The NCRR plans to develop more reseach facilities.  The facilities would not only provide more space, but would be specialized to ensure that populations do not cross and spread disease.  By implementing its plans, the NCRR would "significantly increase the current capacity" for animals in research facilities.<P>
+	Despite its good intentions, the NCRR remains limited in its ability to deal with these nation wide problems.  The 1999 NCRR budget proposed by President Clinton has just $7.8 million out of its total $108 million included for the improvement of animal facilities.
 =========yorg=========
 ===from:Martina Rusch
 ===email:marti@iastate.edu
 ===date:Mon Feb 16 20:10:13 1998
 ===subject:Cortisol
 ===message:Alfred Sapse after years of promoting his theory that a stress hormone plays a role in the development of Aids, cancer, multiple sclerosis, and other devastating diseases is finally being joined by other researchers.  If they're right, drugs that block the stress hormone cortisol could transform the treatment of millions of people. Critics say that although high concentrations of cortisol do occur in Aids patients, they are the result not the cause of the disease. Sapse and others back their findings by pointing to several European studies which have shown that concentration of cortisol in the blood of Aids patients can reach immune punishing values.  Sapse predicts the drug he founded procaine HCI, or anticortisol will reverse immune decline caused by cortisol.  In an unpublished study, Sapse and his colleagues explored the drugs benefits in 20 patients with either Aids or HIV, after being treated with the anticortisol drug the concentration of CD4 T lymphocytes, the infection fighting white cells that decline dramatically during the course of Aids improved from 140 cells per cubic millimeter to 360 cells per cubic millimeter.  Sapse says the patients became asymptomatic after the treatment.  Similiar results were also founded in a pilot study taken in Sao Paul, Brazil this time on 40 people showing symptoms of HIV. <P>
-Fackel, Kathleen.  "The Cortisol Connection."  Science News Online.  1997.  
+Fackel, Kathleen.  "The Cortisol Connection."  Science News Online.  1997.
 http://www.sciencenews.org/sn-arc97/11_29_97/bob1.htm<P>
 =========yorg=========

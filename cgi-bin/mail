@@ -29,13 +29,13 @@
 # This code is in the public domain. Specifically, we give to the public
 # domain all rights for future licensing of the source code, all resale
 # rights, and all publishing rights.
-# 
+#
 # We ask, but do not require, that the following message be included in
 # all derived works:
-# 
+#
 # Portions developed at the National Center for Supercomputing
 # Applications at the University of Illinois at Urbana-Champaign.
-# 
+#
 #
 # THE UNIVERSITY OF ILLINOIS GIVES NO WARRANTY, EXPRESSED OR IMPLIED,
 # FOR THE SOFTWARE AND/OR DOCUMENTATION PROVIDED, INCLUDING, WITHOUT
@@ -48,7 +48,7 @@
 # This will generate an email form for the person named in 'nickname',
 # and if they exist in the 'mail.list' file.
 # If no 'nickname' is specified in the QUERY_STRING when the script is
-# first invoked, or the nickname cannot be found in the 'mail.list', 
+# first invoked, or the nickname cannot be found in the 'mail.list',
 # an email form with a SELECT box of all valid nicknames is generated.
 # When the email form is submitted, it will call itself via method of POST,
 # and send the email to the recipient, outputting a confirmation message.
@@ -129,7 +129,7 @@ $nick = $ADDRESS{$FORM{'nickname'}};
 ($FORM{'from-email'}) || ($FORM{'from-email'} = $nick);
 ($FORM{'from-name'}) || ($FORM{'from-name'} = "WebMonitor mail");
 
-open (MAIL, "| $SENDMAIL -t -n -oi -f akrherz\@localhost") || die ("$SCRIPT: Can't open $mailprog: $!\n"); 
+open (MAIL, "| $SENDMAIL -t -n -oi -f akrherz\@localhost") || die ("$SCRIPT: Can't open $mailprog: $!\n");
 print MAIL "To: $nick\n";
 print MAIL "Reply-To: $FORM{'from-email'} ($FORM{'from-name'})\n";
 print MAIL "From: $FORM{'from-email'} ($FORM{'from-name'})\n";
@@ -198,7 +198,7 @@ sub error_blank_field {
 sub cgi_header {
     print "Content-type: text/html\n";
     print "\n" unless ($FORM{'next-url'});
-}        
+}
 
 sub cgi_receive {
     if ($ENV{'REQUEST_METHOD'} eq "POST") {
@@ -283,11 +283,11 @@ sub print_form {
    <H1>Questions</H1>
    $GLOBALS::HR<p></CENTER>
    If you are a student and have questions regarding a specific
-   class, please send mail to your instructor using the student menu. If you have 
-    questions of a more general nature, use the form below to send mail to the 
-   ClassNet developers.   
+   class, please send mail to your instructor using the student menu. If you have
+    questions of a more general nature, use the form below to send mail to the
+   ClassNet developers.
    <FORM METHOD="POST" ACTION="$SCRIPT$path_info$query_string">
-   <H4>Developers: 
+   <H4>Developers:
    <SELECT NAME="nickname">
 HEADER
 

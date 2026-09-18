@@ -45,7 +45,7 @@
 ===date:Sat Apr  1 22:07:55 2000
 ===subject:pictures, pictures, pictures
 ===message:http://synapses.bu.edu/atlas/1_5_1.stm
-This took forever.  But it's done.  
+This took forever.  But it's done.
 =========yorg=========
 ===from:LeAnn Bouska
 ===date:Sun Apr  2 13:52:34 2000
@@ -98,7 +98,7 @@ www.vh.org/Providers/Textbooks/MicroscopicAnatomy/Section06/Plate0691.html
 =========yorg=========
 ===from:Megan Wiedmann
 ===date:Tue Apr  4 14:21:21 2000
-===subject:Synapse 
+===subject:Synapse
 ===message:http://www.cornwallis.kent.sch.uk/intranet/subjects/science/neurosci/em.htm
 =========yorg=========
 ===from:Tiana Brown
@@ -130,7 +130,7 @@ This picture is from the Neuroscience Coloring Book
 ===email:amylekwa@iastate.edu
 ===date:Thu Apr  6 17:11:32 2000
 ===subject:Synapse
-===message:Here's a good picture of a chemical synapse:  
+===message:Here's a good picture of a chemical synapse:
 http://synapses.bu.edu/anatomy/chemical/synapse.stm
 =========yorg=========
 ===from:Chirag Kothari
@@ -178,7 +178,7 @@ http://synapses.bu.edu/anatomy/chemical/synapse.stm
 ===from:Roni Mukerjea
 ===date:Sun Apr  9 11:43:14 2000
 ===subject:synapse
-===message:The web site URL is- 
+===message:The web site URL is-
 http://www.almc.com/~jkimball/BiologyPages/S/Synapses.htm
 =========yorg=========
 ===from:Matt Grennan
@@ -212,7 +212,7 @@ http://longman.awl.com/zimbardo2e/visuals_4.asp
 ===from:Allison Hall
 ===date:Sun Apr  9 22:51:18 2000
 ===subject:synapse
-===message:This site contains pictures of synapses:    
+===message:This site contains pictures of synapses:
 www.cornwallis.kent.sch.uk/intranet/subjects/science/
 neurosci/em.htm
 =========yorg=========
@@ -259,7 +259,7 @@ http://www.bcm.tmc.edu/neurol/research/nmus/nmus3b.html#mg
 ===date:Mon Apr 10 17:57:38 2000
 ===subject:Synapse Picture
 ===message:The picture can be found at http://www.3dotstudio.com/synapse.html
-Its a beauty. Check it out. 
+Its a beauty. Check it out.
 =========yorg=========
 ===from:Chris Kubina-Koziol
 ===date:Mon Apr 10 20:14:47 2000
@@ -294,7 +294,7 @@ Its a beauty. Check it out.
 ===from:Jennifer Jennings
 ===date:Tue Apr 11 22:53:21 2000
 ===subject:Nerve Synapses
-===message:This is my website to a nerve synapses:  http://synapses.bu.edu/anatomy/chemical/type1h.htm. 
+===message:This is my website to a nerve synapses:  http://synapses.bu.edu/anatomy/chemical/type1h.htm.
 =========yorg=========
 ===from:Brook Hunter
 ===date:Wed Apr 12 12:10:13 2000
@@ -335,8 +335,8 @@ Its a beauty. Check it out.
 ===from:Demian Willette
 ===date:Wed Apr 12 21:54:29 2000
 ===subject:I like biology
-===message:<a href="http://synapses.bu.edu/anatomy/chemical/symh.htm">synapsis</a> 
- website link to a picture of a synapsis.  
+===message:<a href="http://synapses.bu.edu/anatomy/chemical/symh.htm">synapsis</a>
+ website link to a picture of a synapsis.
 =========yorg=========
 ===from:Heather Vohs
 ===date:Wed Apr 12 22:50:18 2000
@@ -409,11 +409,11 @@ A good photo for the class to view! And this was rather difficult just to let yo
 ===from:Jenny VanderSchoor
 ===date:Thu Apr 13 14:09:17 2000
 ===subject:Synapse photos
-===message:For a photo gallery of synapses go to:  
+===message:For a photo gallery of synapses go to:
 http://www.heuserlab.wustl.edu/SynapseLink.html
-If you wish to see more cell pictures, start at the lab's 
-homepage at: http://heuserlab.wustl.edu/images.html  You can 
-get to the synapse photo gallery by navigating from the 
+If you wish to see more cell pictures, start at the lab's
+homepage at: http://heuserlab.wustl.edu/images.html  You can
+get to the synapse photo gallery by navigating from the
 homepage.
 =========yorg=========
 ===from:Lyndsay Dougherty
@@ -465,14 +465,14 @@ check it out!!!!
 =========yorg=========
 ===from:Lacey Bilden
 ===date:Thu Apr 13 19:49:57 2000
-===subject:Synapses 
+===subject:Synapses
 ===message:Here is a picture of a nerve cell and a synapse.  Found at:
 http://www.3dotstudio.com/synapse.html
 =========yorg=========
 ===from:Jonah Ferrin
 ===date:Thu Apr 13 19:56:58 2000
 ===subject:Synapses
-===message:Structure of Chemical Synapses at  http://synapses.bu.edu/lab/howto/filo3D/howto.htm 
+===message:Structure of Chemical Synapses at  http://synapses.bu.edu/lab/howto/filo3D/howto.htm
 =========yorg=========
 ===from:Bryon Bootman
 ===date:Thu Apr 13 20:20:11 2000
@@ -502,7 +502,7 @@ synapse.stm
 ===subject:synapse picture
 ===message:Here is a couple good pictures to look at and see a synapse.<P>
 <a href="http://faculty.washington.edu/chudler/java/em.html">Synapse Pictures</a><P>
-Have fun with the pictures but don't forget to also view the rest of the site. 
+Have fun with the pictures but don't forget to also view the rest of the site.
 =========yorg=========
 ===from:Noah Mundahl
 ===date:Thu Apr 13 22:28:45 2000
@@ -535,7 +535,7 @@ http:/synapses.bu.edu/anatomy/chemical/synapse.stm
 ===from:Carrie Fu
 ===date:Fri Apr 14  8:21:05 2000
 ===subject:Neurojunction Assignment
-===message:The web sit is at:http://pandora.med.yale.edu/neurol/CNeurophysiol/MG.html 
+===message:The web sit is at:http://pandora.med.yale.edu/neurol/CNeurophysiol/MG.html
 
 =========yorg=========
 ===from:Elizabeth Schmerr
@@ -587,7 +587,7 @@ ser=338
 ===from:Matt Allen
 ===date:Fri Apr 14 12:47:17 2000
 ===subject:synapses
-===message:At http://www.yorku.ca/eye/synapse.htm there is a picture and a  great report about synapses.  
+===message:At http://www.yorku.ca/eye/synapse.htm there is a picture and a  great report about synapses.
 =========yorg=========
 ===from:Kathryn Epstein
 ===date:Fri Apr 14 12:56:39 2000
@@ -610,13 +610,13 @@ Here on this site are two pictures of Neurons.  They show the synapses, along wi
 ===from:Scott Gilroy
 ===date:Fri Apr 14 13:44:33 2000
 ===subject:Myoneural Junction
-===message:http://www.bcm.tmc.edu/neurol/research/nmus/nmus3b.html 
+===message:http://www.bcm.tmc.edu/neurol/research/nmus/nmus3b.html
 
 =========yorg=========
 ===from:Charles (Tony) Peterson
 ===date:Fri Apr 14 13:46:33 2000
 ===subject:Myoneural Junction
-===message:On the Harvard Medical School web page one can find a slide of a myoneural juction.  In the slide you can see the braching of the neuron until it reaches the terminal bud. Below each terminal bud on the muscle fiber it is associated with you can see the motor end plate (circled in the slide).  Various neural chemicals pass from terminal bud to end motor plate, creating communication between the neron and the muscle, and ultimately the brain.  The web address is http://hmsmedweb.harvard.edu/qry/img_q/body_histdetail.cfm?ser=3386 
+===message:On the Harvard Medical School web page one can find a slide of a myoneural juction.  In the slide you can see the braching of the neuron until it reaches the terminal bud. Below each terminal bud on the muscle fiber it is associated with you can see the motor end plate (circled in the slide).  Various neural chemicals pass from terminal bud to end motor plate, creating communication between the neron and the muscle, and ultimately the brain.  The web address is http://hmsmedweb.harvard.edu/qry/img_q/body_histdetail.cfm?ser=3386
 =========yorg=========
 ===from:Sarah Jeanette Proctor
 ===date:Fri Apr 14 13:52:53 2000
@@ -633,7 +633,7 @@ THis University of Indiana site has both an illistration of a neural synapse and
 ===from:Tami Stearns
 ===date:Fri Apr 14 13:55:57 2000
 ===subject:synapse picture
-===message:Here is a picture of a computer-generated model of a synapse.  http://www.hhmi.org/news/brunger.htm#top   
+===message:Here is a picture of a computer-generated model of a synapse.  http://www.hhmi.org/news/brunger.htm#top
 =========yorg=========
 ===from:Matt Price
 ===date:Fri Apr 14 14:05:12 2000
@@ -645,7 +645,7 @@ THis University of Indiana site has both an illistration of a neural synapse and
 ===subject:myoneural junction
 ===message:<a href="http://hms.medweb.harvard.edu/qry/img_q/body_histdetail.cfm?ser=3386">Myoneural junction</a>
 
-This page shows a myoneural junction in a muscle.  In synapse the neuron "speaks" to the muscle fiber via chemical mediators which cross the synaptic cleft between the two cells.   
+This page shows a myoneural junction in a muscle.  In synapse the neuron "speaks" to the muscle fiber via chemical mediators which cross the synaptic cleft between the two cells.
 =========yorg=========
 ===from:Mike Cummings
 ===date:Fri Apr 14 14:14:11 2000
@@ -691,7 +691,7 @@ http://www.ultranet.com/~jkimball/BiologyPages/M/Muscles.html#NeuromuscularJunct
 ===from:Jessica Goeken
 ===date:Fri Apr 14 16:49:18 2000
 ===subject:Synapse
-===message:This site shows a picture diagram of a synapse.  
+===message:This site shows a picture diagram of a synapse.
 http://www.mhhe.com/socscience/intro/ibank/ibank/0003.jpg
 =========yorg=========
 ===from:Rachel Anderson
@@ -705,7 +705,7 @@ http://www.mhhe.com/socscience/intro/ibank/ibank/0003.jpg
 ===subject:Synapse pictures
 ===message:Where you can find pictures and information on a synapse.
 
-www.concentric.net/~Bragg1/synapse/synapse.html 
+www.concentric.net/~Bragg1/synapse/synapse.html
 =========yorg=========
 ===from:Keyana Ambrose
 ===date:Fri Apr 14 19:29:49 2000

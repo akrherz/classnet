@@ -2,12 +2,12 @@
 ===email:lindsaybowie@yahoo.com
 ===date:Thu Jan 23 10:24:00 2003
 ===subject:Chapter 3 Discussion
-===message:I absolutely think that there was no way the North and South could live together peacefully and be separated on the issue of slavery.  A dramatic resolution of the issue for the entire country was inevitable.  It would be impossible for moderation to exist because although it would seem that if the Northern states and Southern states minded their own business about slavery and lived however they wanted that everything would be okay; but, there is no way that this could happen.  A united country cannot live together under one government when each state has the right to decide for themselves (popular sovereignty) an issue so dramatic as slavery.  Even if some states were completely pro-slavery and some were completely free-soil, the two different views would eventually clash and raids, battles, and protests would certainly continue to take place.  I think it does make a difference if the country was lead by moderates or fanatics; obviously, whichever type of leaders control the country, the more likely the entire country would have live by those same values as their leaders.  
+===message:I absolutely think that there was no way the North and South could live together peacefully and be separated on the issue of slavery.  A dramatic resolution of the issue for the entire country was inevitable.  It would be impossible for moderation to exist because although it would seem that if the Northern states and Southern states minded their own business about slavery and lived however they wanted that everything would be okay; but, there is no way that this could happen.  A united country cannot live together under one government when each state has the right to decide for themselves (popular sovereignty) an issue so dramatic as slavery.  Even if some states were completely pro-slavery and some were completely free-soil, the two different views would eventually clash and raids, battles, and protests would certainly continue to take place.  I think it does make a difference if the country was lead by moderates or fanatics; obviously, whichever type of leaders control the country, the more likely the entire country would have live by those same values as their leaders.
 =========yorg=========
 ===from:Kevin Tyler
 ===date:Fri Jan 24 12:56:47 2003
 ===subject:Open discussion
-===message:I feel that there was absolutely no way that the United States would be able to thrive seperated on this issue of slavery.  A peaceful non-partisan solution was not possible simply because neither side was willing to give up what the were passionate about.  I think this issue could only be resolved by the national government declaring America either free-soil or a slave nation, and then being willing to accept the consequences of such a declaration.  there is no middle ground on this issue.    
+===message:I feel that there was absolutely no way that the United States would be able to thrive seperated on this issue of slavery.  A peaceful non-partisan solution was not possible simply because neither side was willing to give up what the were passionate about.  I think this issue could only be resolved by the national government declaring America either free-soil or a slave nation, and then being willing to accept the consequences of such a declaration.  there is no middle ground on this issue.
 =========yorg=========
 ===from:Antonio Mahone
 ===date:Fri Jan 24 14:01:12 2003
@@ -28,7 +28,7 @@
 ===from:Lorena Lockhart
 ===date:Sun Feb  2 19:42:44 2003
 ===subject:Chap 3
-===message:The issues of slavery are a big part of our history and still today these issues remain. The northern slaves and the southern slave were different in the way they were treated. In my opinion the north considered it a hinderance to the white labors that had to charge next to the free slave labor as hindermance to the economy. And on the other hand the south felt slavery was at that time detrimental to the economy of the south. The issue of Seward and Lincoln were inevitable because of the north and south own personanl views and opinion of their own purpose for slavery. This is not a peaceful matter in my opinion to deal with between the sides because of the different views on slavery. Also you can say that to each of them they were correct to feel the way that they did even though in my opinion slavery was and is wrong. But the war was inevitable do to the passionate issues that surrounded slavery for both sides neither side was going to compromise to the other because the need for slaves for both sides were different.  
+===message:The issues of slavery are a big part of our history and still today these issues remain. The northern slaves and the southern slave were different in the way they were treated. In my opinion the north considered it a hinderance to the white labors that had to charge next to the free slave labor as hindermance to the economy. And on the other hand the south felt slavery was at that time detrimental to the economy of the south. The issue of Seward and Lincoln were inevitable because of the north and south own personanl views and opinion of their own purpose for slavery. This is not a peaceful matter in my opinion to deal with between the sides because of the different views on slavery. Also you can say that to each of them they were correct to feel the way that they did even though in my opinion slavery was and is wrong. But the war was inevitable do to the passionate issues that surrounded slavery for both sides neither side was going to compromise to the other because the need for slaves for both sides were different.
 =========yorg=========
 ===from:Kathryn Hatch
 ===date:Thu Feb  6 14:41:28 2003
@@ -48,17 +48,17 @@
 ===from:Kristi Smith
 ===date:Sat Feb  8 17:44:17 2003
 ===subject:Chpt. 3 Disscussion
-===message:Looking back on this issue, it is very easy to see how wrong both sides were.  The North wanted to abolish slavery; yet did not like the fact that blacks were allowed to work for lower wages, and there were so many that were just prejudice in general.  The South felt they could not deal with the every day duties in life and could not “live” without slaves.  The only thing the two sides agreed on was that blacks were in no way equal to whites; with such passionate feelings on each side, this was not enough. I feel that Lincoln and Seward were right; there was no way to compromise and solve the conflict reasonably. The North and South were entirely too aggressive to compromise.  I don’t think there would have been much difference if the nation had been run by fanatics or moderates, there would have been fighting no matter what. 
+===message:Looking back on this issue, it is very easy to see how wrong both sides were.  The North wanted to abolish slavery; yet did not like the fact that blacks were allowed to work for lower wages, and there were so many that were just prejudice in general.  The South felt they could not deal with the every day duties in life and could not “live” without slaves.  The only thing the two sides agreed on was that blacks were in no way equal to whites; with such passionate feelings on each side, this was not enough. I feel that Lincoln and Seward were right; there was no way to compromise and solve the conflict reasonably. The North and South were entirely too aggressive to compromise.  I don’t think there would have been much difference if the nation had been run by fanatics or moderates, there would have been fighting no matter what.
 =========yorg=========
 ===from:kevin
 ===date:Sat Feb  8 19:45:52 2003
-===subject:ruhsponce 
-===message:the conflict between slavery and freedom was bound to happen.  even without the question of race, freedom has always been the basis of war in this nation.  peace and moderation, while it sounds like a good idea, is useless in practice.  while im all in favor of reasonable inspiration the zealot fanatic is neither the answer.  we look for the middle ground and find that sometimes there is a peace, only to be found at the other end of war.  
+===subject:ruhsponce
+===message:the conflict between slavery and freedom was bound to happen.  even without the question of race, freedom has always been the basis of war in this nation.  peace and moderation, while it sounds like a good idea, is useless in practice.  while im all in favor of reasonable inspiration the zealot fanatic is neither the answer.  we look for the middle ground and find that sometimes there is a peace, only to be found at the other end of war.
 =========yorg=========
 ===from:kevin
 ===date:Sat Feb  8 19:46:52 2003
 ===subject:conflict makes the world go 'round
-===message:the conflict between slavery and freedom was bound to happen.  even without the question of race, freedom has always been the basis of war in this nation.  peace and moderation, while it sounds like a good idea, is useless in practice.  while im all in favor of reasonable inspiration the zealot fanatic is neither the answer.  we look for the middle ground and find that sometimes there is a peace, only to be found at the other end of war.  
+===message:the conflict between slavery and freedom was bound to happen.  even without the question of race, freedom has always been the basis of war in this nation.  peace and moderation, while it sounds like a good idea, is useless in practice.  while im all in favor of reasonable inspiration the zealot fanatic is neither the answer.  we look for the middle ground and find that sometimes there is a peace, only to be found at the other end of war.
 =========yorg=========
 ===from:Chris Schmidt
 ===date:Sun Feb  9  9:41:55 2003
@@ -74,8 +74,8 @@
 ===from:Connie Plowden
 ===date:Tue Feb 11 13:30:29 2003
 ===subject:Chap 3
-===message:Both William Seward and Abraham Lincoln’s suggestions about conflict and disunion over the slavery issue were right? The North and the South knew that their future of their own social system was at state. The Northern states having laborers and being the largest industrial power, wanted nothing more than to remain as free states. On the other hand, the South which depending solely on slaves, wanted to continue to be slaves states. A peculiar institution, putting it politely, blacks being force to work without pay, for wealthy southern plantation owners, whom bought and sold slaves like cattle. “This was an unqualified Evil to the Negro, the white man, and the state”, said Abraham Lincoln. It was the outside criticisms that caused the South to have doubts and reservations, which led them to strike back with anger and hostility. The south felt that they were being pressed in a corner, and felt that succeeding from the union, was the only solution. 
-A non-partisans solution was impossible, because the southern states felt that the dispute was not about slavery but about state rights.  Having a nation led by moderates or fanatics wouldn’t have made any difference, because it was the difference of opinion and interest that the states shared that no one person could resolved.   
+===message:Both William Seward and Abraham Lincoln’s suggestions about conflict and disunion over the slavery issue were right? The North and the South knew that their future of their own social system was at state. The Northern states having laborers and being the largest industrial power, wanted nothing more than to remain as free states. On the other hand, the South which depending solely on slaves, wanted to continue to be slaves states. A peculiar institution, putting it politely, blacks being force to work without pay, for wealthy southern plantation owners, whom bought and sold slaves like cattle. “This was an unqualified Evil to the Negro, the white man, and the state”, said Abraham Lincoln. It was the outside criticisms that caused the South to have doubts and reservations, which led them to strike back with anger and hostility. The south felt that they were being pressed in a corner, and felt that succeeding from the union, was the only solution.
+A non-partisans solution was impossible, because the southern states felt that the dispute was not about slavery but about state rights.  Having a nation led by moderates or fanatics wouldn’t have made any difference, because it was the difference of opinion and interest that the states shared that no one person could resolved.
 
 =========yorg=========
 ===from:Ashley Hughley
@@ -101,7 +101,7 @@ A non-partisans solution was impossible, because the southern states felt that t
 ===from:Al Desmond
 ===date:Sun Feb 16 20:48:50 2003
 ===subject:discussion 3
-===message:I feel both were right!  And thier was no peaceful resolution to the problem unless slavery was abolished.  Slavery profits were enormous to the Slave holders!  Just like the stock market crash it would have sent shock waves through the South to just end peacefuly.  
+===message:I feel both were right!  And thier was no peaceful resolution to the problem unless slavery was abolished.  Slavery profits were enormous to the Slave holders!  Just like the stock market crash it would have sent shock waves through the South to just end peacefuly.
 =========yorg=========
 ===from:Andrew Bell
 ===date:Sun Feb 16 22:08:40 2003
@@ -133,11 +133,11 @@ A non-partisans solution was impossible, because the southern states felt that t
 ===institution:CCSU
 ===date:Mon Feb 17 22:50:37 2003
 ===subject:Discussion - Chapter 3
-===message:The question of slavery being continued in the United States of America had been an issue at the forefront for some time.  The time had come to settle this issue, or atleast, take a giant step in the direction of remedying the problem.  New territories could not be settled without a constant fight to make it a slavery or nonslavery state. 
+===message:The question of slavery being continued in the United States of America had been an issue at the forefront for some time.  The time had come to settle this issue, or atleast, take a giant step in the direction of remedying the problem.  New territories could not be settled without a constant fight to make it a slavery or nonslavery state.
 
 For the North, slavery was wrong.  For the South, slavery was right and their way of life.  This was too big of an issue to leave alone.  The Constitution stated that all men were created equal and clearly showed the injustice that was being impounded upon the slaves.  They were not property such as pigs, horses, and cattle.  The North saw them as humans, not their equal, but humans.  This situation of using humans as slaves would have to be dealt with sooner or later.
 
-For the North, I believe freeing slaves was a way to keep Southerners from becoming too wealthy and creating their own Confederacy. The Emancipation would devastate their inductrial society.  Freeing the slaves would stagnate their way of living. 
+For the North, I believe freeing slaves was a way to keep Southerners from becoming too wealthy and creating their own Confederacy. The Emancipation would devastate their inductrial society.  Freeing the slaves would stagnate their way of living.
 =========yorg=========
 ===from:Bethany Ballard
 ===date:Mon Feb 17 22:51:17 2003

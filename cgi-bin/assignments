@@ -9,7 +9,7 @@ BEGIN {
    unshift(@INC,'/local/classnet/cgi-bin/lib');
 }
 require CLASS;
-    
+
 # Modules to include
 require "optimize.pl";
 
@@ -49,13 +49,13 @@ require DIALOGEDITOR;
 # Perform the option
 $_ = $query->param('cn_option');
 SWITCH: {
-   /^Edit/	   &&  
+   /^Edit/	   &&
        do  {   # edit assignment
                (get_assign())->edit();
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^Delete/	   &&  
+   /^Delete/	   &&
        do  {   # delete assignment
                ERROR::check_sample($query,'Delete Assignment');
                (get_assign())->delete();
@@ -63,30 +63,30 @@ SWITCH: {
        	       last SWITCH;
        	   };
 
-   /^Submit Edit Changes/	   &&  
+   /^Submit Edit Changes/	   &&
        do  {   #
                # added for loading an INCLASS assignment from a URL
                ERROR::check_sample($query,'Edit Assignment');
        	       $cls->submit_edit_changes($query);
                ASSIGNMENT->print_menu($cls,$mem);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^Submit/	   &&  
+   /^Submit/	   &&
        do  {   #
                ERROR::check_sample($query,'Submit Assignment');
                (get_assign())->submit();
                $mem->print_menu($cls);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^Add/	   &&  
+   /^Add/	   &&
        do  {   #
        	       ASSIGNMENT->print_add_form($cls,$mem);
        	       last SWITCH;
        	   };
 
-   /^Perform Add Assign/	   &&  
+   /^Perform Add Assign/	   &&
        do  { #
              my $hfile = "";
              ERROR::check_sample($query,'Add Assignment');
@@ -104,8 +104,8 @@ SWITCH: {
                     $hfile =~ s/\015\015/\015\012/g;
                     $hfile =~ s/\015/\012/g;
 	            $asn->upload($hfile);
-    		} 
-             } else { 
+    		}
+             } else {
 	        # get local file
 		while(<$file>) {
 			$hfile = "$hfile$_";
@@ -130,7 +130,7 @@ SWITCH: {
              last SWITCH;
            };
 
-   /^Perform Upload/	   &&  
+   /^Perform Upload/	   &&
        do  { #
              my $asn = get_assign();
              ERROR::check_sample($query,'Upload');
@@ -188,7 +188,7 @@ sub get_assign {
         CN_UTILS::print_cn_header("Assignment?");
         print "Select an assignment name by clicking on a name in the Assignment Listbox.";
         CN_UTILS::print_cn_footer();
-        exit(0);          
+        exit(0);
     }
 }
 

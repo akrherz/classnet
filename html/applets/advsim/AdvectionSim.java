@@ -12,25 +12,25 @@ public class AdvectionSim extends Applet implements PlayableApplet
         <PARAM NAME="speed" VALUE="25">         makes the speed constant (user cannot change it)
         <PARAM NAME="time" VALUE="4">           makes the duration constant (user cannot change it)
         <PARAM NAME="direction" VALUE="N">      makes the direction constant (user cannot change it)
-        
+
         <PARAM NAME-"mode" VALUE="demo">  demo mode lets the applet work without any communication
                                           with a server  ("play" and "record" modes will communicate
                                           with AppletRecorderServer to store and retreive session data)
         <PARAM NAME="guess" VALUE="on">   lets the user guess what the final temp will be
         <PARAM NAME="random" VALUE="on">  has the computer randomly select values for the
                                           settings that have not been specified as constant
-                                          (see above)    
+                                          (see above)
         <PARAM NAME="formula" VALUE="on"> the formula for calculating the advection is shown
                                           Note that the height of the applet must be increased
                                           by about 85 to see the formula.
         the "mode" parameter is the only required parameter!!!
     */
-    
+
     Image usMap,buffer;
     int spacer;
     int y,         // how many pixels the bars have moved from original position
-        sx,sy;     // pixel location of Ames    
-    
+        sx,sy;     // pixel location of Ames
+
     // An additional option for the contour spacing can be added by
     // adding an element to each of space[], spactext[], and startT[]
     // and modifying numGradients
@@ -92,7 +92,7 @@ public class AdvectionSim extends Applet implements PlayableApplet
         initialTemp = Integer.parseInt(getTemp());
         tempval.setText(getTemp()+" F");
 
-        setParameters();        
+        setParameters();
 
         ar = new AppletRecorder();
         filepath = getParameter("filepath");
@@ -105,7 +105,7 @@ public class AdvectionSim extends Applet implements PlayableApplet
 
     setLayout(null);
     addNotify();
-    
+
     // wasn't working on pc  (if change this then change resize in set parameters too.
     //resize(insets().left + insets().right + 588, insets().top + insets().bottom + 395);
 
@@ -186,17 +186,17 @@ public class AdvectionSim extends Applet implements PlayableApplet
     add(durationval);
     durationval.reshape(insets().left + 350,insets().top + 345,60,13);
 
-    fTempGuessLab = new Label("Enter your guess of the final Ames temperature:");                           
+    fTempGuessLab = new Label("Enter your guess of the final Ames temperature:");
     fTempGuess = new TextField(3);
     fTempGuess.setEditable(true);
     result = new Label();
-    
+
     formulaLab = new Label("Advection Formula:");
     formula = new Label("final temp = initial temp +/- [ wind speed * cosine(direction) * duration * contour temp/spacing ]");
     formula2 = new Label("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM");
     formula3 = new Label("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM");
     formula4 = new Label("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM");
-    
+
     SpeedLab.setBackground(Color.lightGray);
     SpacingLab.setBackground(Color.lightGray);
     widthVal.setBackground(Color.lightGray);
@@ -234,12 +234,12 @@ public class AdvectionSim extends Applet implements PlayableApplet
     Label tempval;
 
     Button runNew;
-    
+
     Label fTempGuessLab;
     TextField fTempGuess;
     Label result;
     int streak=0;
-    
+
     Label formulaLab;
     Label formula;
     Label formula2;
@@ -260,28 +260,28 @@ public class AdvectionSim extends Applet implements PlayableApplet
                 streak = 0;
                 result.setText("The final temp was " + getTemp() + " F");
             }
-       
+
         }
-        
+
         if (parmEnabled[formulaIND])
         {
             showAnswer();
         }
 
     }
-    
+
     private void hideAnswer()
     {
         formula3.setText(" ");
-        formula4.setText(" ");        
+        formula4.setText(" ");
     }
 
-    public void clickedRun() 
-    {        
+    public void clickedRun()
+    {
         int d = direction.getSelectedIndex();
         int spd = 5 * speed.getValue(); //(double)5*(new Integer(speed.getValue())).intValue();
         double dir = factor[d];
-        
+
         play(getCodeBase(),"wind.au");
         adthread = new Advector(this,dir,(int)spd, getFinalTemp());
         adthread.start();
@@ -369,7 +369,7 @@ public class AdvectionSim extends Applet implements PlayableApplet
     private void fillFormula()
     {
         if (factor[direction.getSelectedIndex()] > 0 )
-            formula2.setText( "= " + 
+            formula2.setText( "= " +
                             tempval.getText() + " - [ " +
                             speed.getValue()*5 + " miles/hr * " +
                             (int)(factor[direction.getSelectedIndex()]*10)/10.0 + " * " + // casting was necessary to cast so that it wouldn't have 0.70000...0001 in NS 4.? on pc
@@ -377,48 +377,48 @@ public class AdvectionSim extends Applet implements PlayableApplet
                             5 + " F / " +
                             5 * space[gradient.getSelectedIndex()] + " miles ]");
         else
-            formula2.setText( "= " + 
+            formula2.setText( "= " +
                             tempval.getText() + " + [ " +
                             speed.getValue()*5 + " miles/hr * " +
                             (int)(factor[direction.getSelectedIndex()]*-10)/10.0 + " * " + // casting was necessary to cast so that it wouldn't have 0.70000...0001 in NS 4.? on pc
                             time + " hours * " +
                             5 + " F / " +
                             5 * space[gradient.getSelectedIndex()] + " miles ]");
-        
+
     }
 
     private void showAnswer()
     {
         if (factor[direction.getSelectedIndex()] > 0 )
-            formula3.setText( "= " + 
+            formula3.setText( "= " +
                             tempval.getText() + " - " +
                             Math.round((float)(speed.getValue()*5 * factor[direction.getSelectedIndex()] * time * 5 / (5 * space[gradient.getSelectedIndex()])*100))/100.0 + " F ");  // guarantee only 2 decimal places
         else
-            formula3.setText( "= " + 
+            formula3.setText( "= " +
                             tempval.getText() + " + " +
                             Math.round((float)(speed.getValue()*5 * factor[direction.getSelectedIndex()] * time * 5 / (5 * space[gradient.getSelectedIndex()])*-100))/100.0 + " F ");  // guarantee only 2 decimal places
 
-        formula4.setText( "= " + 
+        formula4.setText( "= " +
                             Math.round( initialTemp -
                                         Math.round((float)(speed.getValue()*5 * factor[direction.getSelectedIndex()] * time * 5 / (5 * space[gradient.getSelectedIndex()])*100))/100.0)
                           + " F        (round up for .5 and higher, round down for less than .5)");
 
     }
-    
+
     public int getFinalTemp()
     {
         // assumes simulation has not yet started!!!
-        
+
         return( Math.round((float)
                 (   Integer.parseInt(getTemp())
-                    - ( speed.getValue()*5 
-                        * factor[direction.getSelectedIndex()] 
-                        * time  
+                    - ( speed.getValue()*5
+                        * factor[direction.getSelectedIndex()]
+                        * time
                         * 5 / (5 * space[gradient.getSelectedIndex()])))));
-        
+
     }
-        
-    public String getTemp() 
+
+    public String getTemp()
     {
         int temp = (int)(5.0*(double)(sy-y+spacer*startT[gradient.getSelectedIndex()])/spacer);
         return String.valueOf(temp);
@@ -489,14 +489,14 @@ public class AdvectionSim extends Applet implements PlayableApplet
         return super.handleEvent(event);
     }
 
-    public void paint(Graphics g) 
+    public void paint(Graphics g)
     {
         updatePanel();
         if (parmEnabled[guessIND])
-            g.drawLine(0, insets().top + 363, bounds().width, insets().top + 363); 
+            g.drawLine(0, insets().top + 363, bounds().width, insets().top + 363);
         if (parmEnabled[formulaIND])
             g.drawLine(0, insets().top + 400, bounds().width, insets().top + 400);
-            
+
         make_3D_border();
     }
 
@@ -513,7 +513,7 @@ public class AdvectionSim extends Applet implements PlayableApplet
         if (adthread != null)
             adthread.stop();
         adthread = null;
-        
+
 	    // get the hashtable of values
         Hashtable ht = (Hashtable)steps.elementAt(stepIndex);
 
@@ -529,7 +529,7 @@ public class AdvectionSim extends Applet implements PlayableApplet
             htguess = (String)ht.get("guess");
             fTempGuess.setText(htguess);
         }
-        
+
         // run the simulation for the values
         gradient.select(htgradient);
         selectedGradient();
@@ -635,21 +635,21 @@ public class AdvectionSim extends Applet implements PlayableApplet
        ht.put("speed", new Integer(speed.getValue()));
        ht.put("duration", new Integer(duration.getValue()));
        ht.put("direction", direction.getSelectedItem());
-       if (!fTempGuess.getText().equals(""))       
+       if (!fTempGuess.getText().equals(""))
             ht.put("guess", fTempGuess.getText());
        else
             ht.put("guess", "none");
-       
+
        ar.putValues(ht);
 
     }
 
-    private void setParameters() 
+    private void setParameters()
     {
     // makeGUI must be executed before this method so that gui components are initialized
-    
+
         String p = getParameter("gradient");
-        if (p != null) 
+        if (p != null)
         {
             parmEnabled[gradientIND] = false;
             parmVals[gradientIND] = p;
@@ -659,9 +659,9 @@ public class AdvectionSim extends Applet implements PlayableApplet
         }
 
         p = getParameter("speed");
-        if (p != null) 
+        if (p != null)
         {
-            try 
+            try
             {
                 parmEnabled[speedIND] = false;
                 parmVals[speedIND] = p;
@@ -674,7 +674,7 @@ public class AdvectionSim extends Applet implements PlayableApplet
         }
 
         p = getParameter("dir");
-        if (p != null) 
+        if (p != null)
         {
             parmEnabled[directionIND] = false;
             parmVals[directionIND] = p;
@@ -682,7 +682,7 @@ public class AdvectionSim extends Applet implements PlayableApplet
         }
 
         p = getParameter("temp");
-        if (p != null) 
+        if (p != null)
         {
             parmEnabled[tempIND] = false;
             parmVals[tempIND] = p;
@@ -690,7 +690,7 @@ public class AdvectionSim extends Applet implements PlayableApplet
         }
 
         p = getParameter("time");
-        if (p != null) 
+        if (p != null)
         {
             parmEnabled[durationIND] = false;
             parmVals[durationIND] = p;
@@ -700,36 +700,36 @@ public class AdvectionSim extends Applet implements PlayableApplet
         }
 
         p = getParameter("guess");
-        if (p != null) 
+        if (p != null)
         {
             if (p.equalsIgnoreCase("on"))
             {
                 parmEnabled[guessIND] = true;
                 parmVals[guessIND] = "on";
                 add(fTempGuessLab);
-                fTempGuessLab.reshape(insets().left + 23, 
+                fTempGuessLab.reshape(insets().left + 23,
                             insets().top + 368,
-                            fTempGuessLab.preferredSize().width, 
+                            fTempGuessLab.preferredSize().width,
                             fTempGuessLab.preferredSize().height);
-                            
+
                 add(fTempGuess);
-                fTempGuess.reshape(insets().left + 23 + fTempGuessLab.preferredSize().width, 
-                        insets().top + 368, 
+                fTempGuess.reshape(insets().left + 23 + fTempGuessLab.preferredSize().width,
+                        insets().top + 368,
                         fTempGuess.preferredSize().width,
                         fTempGuess.preferredSize().height);
 
                 add(result);
-                result.reshape(insets().left + 23 + fTempGuessLab.preferredSize().width + fTempGuess.preferredSize().width, 
-                    insets().top + 368, 
+                result.reshape(insets().left + 23 + fTempGuessLab.preferredSize().width + fTempGuess.preferredSize().width,
+                    insets().top + 368,
                     result.getFontMetrics(result.getFont()).stringWidth("Correct!   Winning Streak: 000 in a row"),
-                    result.preferredSize().height);                                    
+                    result.preferredSize().height);
             }
             // else leave as default off
         }
-        
+
         p = getParameter("random");         // this will randomly make selections for items
                                             // that were not given values in the applet tag
-        if (p != null) 
+        if (p != null)
         {
             if (p.equalsIgnoreCase("on"))
             {
@@ -739,43 +739,43 @@ public class AdvectionSim extends Applet implements PlayableApplet
         }
 
         p = getParameter("formula");         // this controls whether the formula is shown
-        if (p != null) 
+        if (p != null)
         {
             if (p.equalsIgnoreCase("on"))
             {
                 parmEnabled[formulaIND] = true;
                 // draw line at bottom of screen
-                
+
                 // add 100 pixels to height
                 // commented out cuz didn't work on pc
                 // resize(size().width, size().height + 100);
                 // add formula lines
                 add(formulaLab);
-                formulaLab.reshape(insets().left + 23, 
+                formulaLab.reshape(insets().left + 23,
                             insets().top + 405,
-                            formulaLab.preferredSize().width, 
+                            formulaLab.preferredSize().width,
                             formulaLab.preferredSize().height);
-                            
+
                 add(formula);
-                formula.reshape(insets().left + 23, 
-                        insets().top + 405 + formulaLab.preferredSize().height, 
+                formula.reshape(insets().left + 23,
+                        insets().top + 405 + formulaLab.preferredSize().height,
                         formula.preferredSize().width,
                         formula.preferredSize().height);
                 add(formula2);
-                formula2.reshape(insets().left + 23 + 60, 
-                    insets().top + 405 + formulaLab.preferredSize().height + formula.preferredSize().height, 
+                formula2.reshape(insets().left + 23 + 60,
+                    insets().top + 405 + formulaLab.preferredSize().height + formula.preferredSize().height,
                     formula2.preferredSize().width,
                     formula2.preferredSize().height);
                 formula2.setText(" ");
                 add(formula3);
-                formula3.reshape(insets().left + 23 + 60, 
-                    insets().top + 405 + formula2.preferredSize().height + formulaLab.preferredSize().height + formula.preferredSize().height, 
+                formula3.reshape(insets().left + 23 + 60,
+                    insets().top + 405 + formula2.preferredSize().height + formulaLab.preferredSize().height + formula.preferredSize().height,
                     formula3.preferredSize().width,
                     formula3.preferredSize().height);
                 formula3.setText(" ");
                 add(formula4);
-                formula4.reshape(insets().left + 23 + 60, 
-                    insets().top + 405 + formula3.preferredSize().height + formula2.preferredSize().height + formulaLab.preferredSize().height + formula.preferredSize().height, 
+                formula4.reshape(insets().left + 23 + 60,
+                    insets().top + 405 + formula3.preferredSize().height + formula2.preferredSize().height + formulaLab.preferredSize().height + formula.preferredSize().height,
                     formula4.preferredSize().width,
                     formula4.preferredSize().height);
                 formula4.setText(" ");
@@ -787,22 +787,22 @@ public class AdvectionSim extends Applet implements PlayableApplet
         enableInput();
 
     }
-        
+
     private void disableInput()
     {
         speed.disable();
         gradient.disable();
         direction.disable();
-        duration.disable();        
+        duration.disable();
     }
 
     private void enableInput()
     {
         if (!parmEnabled[gradientIND])
         {
-            gradient.disable(); 
+            gradient.disable();
         }
-        else 
+        else
         {
             if (parmEnabled[randomIND])     // when random is on then make a random selection
             {                               // and disable the parameter
@@ -814,12 +814,12 @@ public class AdvectionSim extends Applet implements PlayableApplet
             else gradient.enable();         // enable the parameter
         }
 
-        
+
         if (!parmEnabled[speedIND])
         {
-            speed.disable(); 
+            speed.disable();
         }
-        else 
+        else
         {
             if (parmEnabled[randomIND])     // when random is on then make a random selection
             {                               // and disable the parameter
@@ -831,14 +831,14 @@ public class AdvectionSim extends Applet implements PlayableApplet
             }
             else speed.enable();         // enable the parameter
         }
-        
-        
+
+
         if (!parmEnabled[directionIND])
         {
-            direction.disable(); 
-            
+            direction.disable();
+
         }
-        else 
+        else
         {
             if (parmEnabled[randomIND])     // when random is on then make a random selection
             {                               // and disable the parameter
@@ -849,8 +849,8 @@ public class AdvectionSim extends Applet implements PlayableApplet
             }
             else direction.enable();         // enable the parameter
         }
-        
-        
+
+
         if (!parmEnabled[durationIND])
         {
             duration.disable();
@@ -900,7 +900,7 @@ public class AdvectionSim extends Applet implements PlayableApplet
     }
 
     public void updatePanel() {
-        Dimension sz = map.size(); 
+        Dimension sz = map.size();
         if (buffer == null)
             buffer = map.createImage(sz.width,sz.height);
         Graphics g = buffer.getGraphics();
@@ -969,7 +969,7 @@ class Advector extends Thread {
                 } catch (InterruptedException e) {}
             }
             sim.y--;
-            
+
         } else if (dir < 0){
             for (sim.y = 0; finalTemp >= Integer.parseInt(sim.getTemp()) ; sim.y--) {
                 sim.updatePanel();

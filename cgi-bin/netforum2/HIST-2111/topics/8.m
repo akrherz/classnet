@@ -1,12 +1,12 @@
 ===from:Nathaniel M. Smith
 ===date:Fri Oct 10 17:30:27 2003
 ===subject:Some Words of Sarah Grimké
-===message:At http://www.pinn.net/~sunshine/book-sum/grimke3.html, one may find fifteen "Letters on the Equality of the Sexes 
+===message:At http://www.pinn.net/~sunshine/book-sum/grimke3.html, one may find fifteen "Letters on the Equality of the Sexes
 Addressed to Mary S. Parker, President of the Boston Female Anti-Slavery Society," by Sarah Grimké.  Her writing style is both elegant and intelligent, a balm to the twenty-first-century mind that is bombarded with the idiocy of MTV and similar rotten bogs where intellect goes to die.  Here is a quote from Grimké:
-<br><br> 
+<br><br>
 "The consequence of the fall was an immediate struggle for dominion, and Jehovah foretold which would gain the ascendancy; but as he created them in his image, as that image manifestly was not lost by the fall, because it is urged in Gen. 9:6, as an argument why the life of man should not be taken by his fellow man, there is no reason to suppose that sin produced any distinction between them as moral, intellectual and responsible beings. Man might just as well have endeavored by hard labor to fulfil [sic] the prophecy, thorns and thistles will the earth bring forth to thee, as to pretend to accomplish the other, "be will rule over thee," by asserting dominion over his wife....God created us equal; - he created us free agents; - he is our Lawgiver, our King, and our Judge, and to him alone is woman bound to be in subjection, and to him alone is she accountable for the use of those talents with which her Heavenly Father has entrusted her."
 <br><br>
-My words after those of Grimké are bound to seem coarse, but it is required that I add a little rhetoric of my own.  
+My words after those of Grimké are bound to seem coarse, but it is required that I add a little rhetoric of my own.
 <br><br>
 The equality of women with men, and of African-Americans with European-Americans, was the subject of much debate in the nineteenth century.  The struggles of both downtrodden groups were linked not only by a shared plight but also by the manner in which they were viewed by the European-American men of that time.  Caucasian, property-owning males were those who commanded power and law, and it was reasoned that they were not merely those with the intellectual capacity for this task, but in fact were the sub-species of human most able mentally to master such studies and wield the reins of government.
 <br><br>
@@ -23,7 +23,7 @@ Why did Americans on both side of the Mason-Dixon line, North and South, oppose 
 ===from:Jill Gazaway
 ===date:Mon Oct 20 12:59:44 2003
 ===subject:Hist 2111
-===message:The link between black civil rights and womens rights is that both blacks and women were both oppressed. They did not have the same rights as white males. White men of this time did not feel that women were very logical thinkers and should not be allowed to be heard. Americans on both sides of the Mason Dixon line feared blacks and they felt if blacks were not oppressed then they had no idea what blacks would do or how they would act. Also,they did not want blacks to live by the same laws they did. 
+===message:The link between black civil rights and womens rights is that both blacks and women were both oppressed. They did not have the same rights as white males. White men of this time did not feel that women were very logical thinkers and should not be allowed to be heard. Americans on both sides of the Mason Dixon line feared blacks and they felt if blacks were not oppressed then they had no idea what blacks would do or how they would act. Also,they did not want blacks to live by the same laws they did.
 =========yorg=========
 ===from:Ronda Cooper
 ===date:Mon Oct 20 21:44:14 2003
@@ -41,7 +41,7 @@ Americans on both sides of the Mason Dixon line, North and South oppose both bec
 ===email:csu12108@mail.claytonstate.net
 ===date:Wed Oct 22  0:14:28 2003
 ===subject:Grimke
-===message:Grimke, Stewart and other abolitionists that both the nothern and southern whites held deeply rooted prejudices against blacks both free and slave because the blacks and the women were oppressed due to the way they were mistreated. The blacks and the women were classified as low class citizens so people like Grimke, Stewart and other abolitionists decided to travel to places and speak out to the public in order to fight for the rights of blacks and women. Americans were afraid of giving the blacks the same equality because they felt the blacks would kill them and inherit their lands, or maybe become wealthier than them. Moreso, the whites also felt that the blacks would revenge them for mistreating them especially selling them into slavery. Finally, the whites felt that the duty of a woman is to bear children, look after the children, take care of the household chores, go to farm or cook. They did not believe that it is right for women to speak in public because they saw women as very emotional and weak people. 
+===message:Grimke, Stewart and other abolitionists that both the nothern and southern whites held deeply rooted prejudices against blacks both free and slave because the blacks and the women were oppressed due to the way they were mistreated. The blacks and the women were classified as low class citizens so people like Grimke, Stewart and other abolitionists decided to travel to places and speak out to the public in order to fight for the rights of blacks and women. Americans were afraid of giving the blacks the same equality because they felt the blacks would kill them and inherit their lands, or maybe become wealthier than them. Moreso, the whites also felt that the blacks would revenge them for mistreating them especially selling them into slavery. Finally, the whites felt that the duty of a woman is to bear children, look after the children, take care of the household chores, go to farm or cook. They did not believe that it is right for women to speak in public because they saw women as very emotional and weak people.
 =========yorg=========
 ===from:Lydia Muttai
 ===date:Thu Oct 23 16:46:15 2003
@@ -76,14 +76,14 @@ The link really was seen when women were making known the injustices they faced 
 ===from:Shakira Muhammad
 ===date:Sun Oct 26  9:32:02 2003
 ===subject:Grimke
-===message:White women in America had a certain place. Married women could not own property or make contracts. She was kept in a certain place in society and any deviation from that place would result in backlash.  Blacks were only allowed certain stations in society.  Any deviation from those would result in attack and sabatoge.  I find it hard to compare the two because white women were still allowed the status of their husbands wealth.  They did not face the same dehumanizing attacks.   
+===message:White women in America had a certain place. Married women could not own property or make contracts. She was kept in a certain place in society and any deviation from that place would result in backlash.  Blacks were only allowed certain stations in society.  Any deviation from those would result in attack and sabatoge.  I find it hard to compare the two because white women were still allowed the status of their husbands wealth.  They did not face the same dehumanizing attacks.
 =========yorg=========
 ===from:Erica May
 ===date:Sun Oct 26 12:52:28 2003
 ===subject:Grimke
-===message:The link between the black civil rights movement and the  women rights movement is that they both were denied the rights that white men were priviledged to have.  In an effort to obtain rights for one group would possibly pave the way for the other to occur rights that others had. They both were denied the right to vote, own property, and hold political office, therefore; not represented in congressional decision makings.  
+===message:The link between the black civil rights movement and the  women rights movement is that they both were denied the rights that white men were priviledged to have.  In an effort to obtain rights for one group would possibly pave the way for the other to occur rights that others had. They both were denied the right to vote, own property, and hold political office, therefore; not represented in congressional decision makings.
 
-The North and the South opposed women's rights because they viewed women as inferior thinkers compared to men.  If given the right to vote women would be inclined to vote as their husbands' point of view.  The North and South oppossed black's civil rights because they knew that blacks would gain in the areas of education, land ownership, and given liberties that white men enjoyed.  They viewed blacks as inferior people to them in every aspect, and not capable of associating in their societies as intellectual thinkers, and unfit to socialize within their environments. 
+The North and the South opposed women's rights because they viewed women as inferior thinkers compared to men.  If given the right to vote women would be inclined to vote as their husbands' point of view.  The North and South oppossed black's civil rights because they knew that blacks would gain in the areas of education, land ownership, and given liberties that white men enjoyed.  They viewed blacks as inferior people to them in every aspect, and not capable of associating in their societies as intellectual thinkers, and unfit to socialize within their environments.
 =========yorg=========
 ===from:Luanna Sutton
 ===institution:History 2111
@@ -95,17 +95,17 @@ The North and the South opposed women's rights because they viewed women as infe
 ===from:Adrienne Randall
 ===date:Sun Oct 26 18:12:03 2003
 ===subject:Grimke'
-===message:In some ways the black civil rights movement and women's rights movement were linked.  Both fought for their equality in society.  During this era, in a way women had to fight for their rights just as blacks had to fight for theirs.  This was  considered "a white man's world", and no one else was worthy of dominating it. White men were highly esteemed superior over all.  In a way women were inslaved to their husbands as blacks were inslaved to their masters.  They believed that blacks and women were inferior and had no voice or opinion that was important enough to be heard or considered.  
+===message:In some ways the black civil rights movement and women's rights movement were linked.  Both fought for their equality in society.  During this era, in a way women had to fight for their rights just as blacks had to fight for theirs.  This was  considered "a white man's world", and no one else was worthy of dominating it. White men were highly esteemed superior over all.  In a way women were inslaved to their husbands as blacks were inslaved to their masters.  They believed that blacks and women were inferior and had no voice or opinion that was important enough to be heard or considered.
 =========yorg=========
 ===from:Jaime Barnett
 ===date:Sun Oct 26 19:21:29 2003
 ===subject:Hist 2111
-===message:It's clear from reading this unit on Grimké, Stewart and other abolitionists that both Northern and Southern whites held deeply rooted prejudices against blacks, both free and slave. In addition, Grimké also caused controversy and encountered opposition owing to her role in the abolitionist movement. How were the pursuits for black civil rights and women's rights linked? Why did Americans on both side of the Mason-Dixon line, North and South, oppose both? 
+===message:It's clear from reading this unit on Grimké, Stewart and other abolitionists that both Northern and Southern whites held deeply rooted prejudices against blacks, both free and slave. In addition, Grimké also caused controversy and encountered opposition owing to her role in the abolitionist movement. How were the pursuits for black civil rights and women's rights linked? Why did Americans on both side of the Mason-Dixon line, North and South, oppose both?
 
 
 I'm sorry I had to repeat the question..........
 
- The black civil right and womens right are both linked by the fact they both had to struggle for their equailty.  They both had to fight for their rights.  Americans opposed womens right becuase they thought women needed to provide for the family in the home and the public eye was for the "white man" only.  Also, they opposed black civil rights because they were afraid of what they could accomplish if they we allowed to vote and have the rights that the white man had.  They were afraid that the blacks would be more intellegent than them.  
+ The black civil right and womens right are both linked by the fact they both had to struggle for their equailty.  They both had to fight for their rights.  Americans opposed womens right becuase they thought women needed to provide for the family in the home and the public eye was for the "white man" only.  Also, they opposed black civil rights because they were afraid of what they could accomplish if they we allowed to vote and have the rights that the white man had.  They were afraid that the blacks would be more intellegent than them.
 =========yorg=========
 ===from:Teresa Lester
 ===date:Sun Oct 26 19:34:56 2003
@@ -120,12 +120,12 @@ I'm sorry I had to repeat the question..........
 ===from:Tiffany Charles
 ===date:Sun Oct 26 20:11:13 2003
 ===subject:Grimke
-===message:The pursuit of black civil rights and women's rights are linked because their rights were never just given to them like the white male but had to be fought for and achieved. African Americans had no rights because the white property owners of the time didn't believe they were "civilized" enough to have such power. Women didn't have the rights of their males counterparts because they were required to maintain the household and bear the children. They weren't trusted with any political or business decisions. The Americans that opposed the equal rights of African Americans and women were afraid of what would change. They were afraid of losing control, their power. Their perfect little world would fall apart. They wouldn't have the labor of the slaves to cultivate and farm the plantations for them. Which in turn would decrease their wealth and their stature in the communities. They were opposed to women's rights because most felt women couldn't make sound decisions anyway. Many men and women alike felt that the woman's place was in the home and behind her husband. Not mingling with others fighting for a cause.  
+===message:The pursuit of black civil rights and women's rights are linked because their rights were never just given to them like the white male but had to be fought for and achieved. African Americans had no rights because the white property owners of the time didn't believe they were "civilized" enough to have such power. Women didn't have the rights of their males counterparts because they were required to maintain the household and bear the children. They weren't trusted with any political or business decisions. The Americans that opposed the equal rights of African Americans and women were afraid of what would change. They were afraid of losing control, their power. Their perfect little world would fall apart. They wouldn't have the labor of the slaves to cultivate and farm the plantations for them. Which in turn would decrease their wealth and their stature in the communities. They were opposed to women's rights because most felt women couldn't make sound decisions anyway. Many men and women alike felt that the woman's place was in the home and behind her husband. Not mingling with others fighting for a cause.
 =========yorg=========
 ===from:Ryan Hilton
 ===date:Sun Oct 26 20:13:44 2003
 ===subject:Slavery and Women's rights
-===message:How were the pursuits for black civil rights and women's rights linked? Why did Americans on both side of the Mason-Dixon line, North and South, oppose both? 
+===message:How were the pursuits for black civil rights and women's rights linked? Why did Americans on both side of the Mason-Dixon line, North and South, oppose both?
 ......................................  Both African Americans(free and slave) and women were viewed as sub standard citizens.  As we read in earlier chapters, men thought of women as not needing education because their place was in the home, performing tasks "suitable" for them.  African Americans were not to have an education either due to the fact that they were viewed as not citizens but barbarian like people with no need for an education(even those who had an education were viewed as sub standard citizens)  All in all, they fought together against white males who fealt threatened by equals that were not of the same sex or race, and by those who are frightened of change.
 =========yorg=========
 ===from:Sherry McRee
@@ -136,13 +136,13 @@ I'm sorry I had to repeat the question..........
 ===from:Delores Williams
 ===date:Sun Oct 26 21:55:19 2003
 ===subject:Civil Rights
-===message:Black civil rights and women's rights were similar in that neither group had voting rights. Neither group was allowed to be educated. Women were treated as second class citizens and Blacks were treated as less than human as was evidence by their being counted as three fifths for representation purposes. Women's rights were opposed because men wanted to feel superior. A woman was accused of wanting to be a man if she was assertive in any way. 
+===message:Black civil rights and women's rights were similar in that neither group had voting rights. Neither group was allowed to be educated. Women were treated as second class citizens and Blacks were treated as less than human as was evidence by their being counted as three fifths for representation purposes. Women's rights were opposed because men wanted to feel superior. A woman was accused of wanting to be a man if she was assertive in any way.
 Southerners were opposed to Black civil rights because they would loose their free labor. They deemed the work too hard without any help and didn't think they should have to pay for the labor. Some northerners feared the loss of their job to purhaps less expensive labor. The need to feel superior was a reason, as well.
 =========yorg=========
 ===from:Ayana Wisdom
 ===date:Sun Oct 26 22:31:56 2003
 ===subject:Slavery & Women's Rights
-===message:During that time a certain way of living was established and that included women having no real part in society unless it was at the side or behind their husbands, fathers or brothers. As far as slavery went it was the backbone of the southern economy. And to some extent slavery was important to the northern economy as well. Both women and slaves were unable to have real freedom. With the liberty that was written into the constitution not applying to either of them it must have been quite ironic. But with the women because they were white they had a little bit more of a chance to actually have the talked about liberty that supposedly is for all peoples. So the subordination of both women and slaves to white males is how they were linked. I think for slavery it was mainly the economic consequences that made those who had the real power to setback change do so. With women I think it was more of an attack on the established system that made people oppose, even women themselves. 
+===message:During that time a certain way of living was established and that included women having no real part in society unless it was at the side or behind their husbands, fathers or brothers. As far as slavery went it was the backbone of the southern economy. And to some extent slavery was important to the northern economy as well. Both women and slaves were unable to have real freedom. With the liberty that was written into the constitution not applying to either of them it must have been quite ironic. But with the women because they were white they had a little bit more of a chance to actually have the talked about liberty that supposedly is for all peoples. So the subordination of both women and slaves to white males is how they were linked. I think for slavery it was mainly the economic consequences that made those who had the real power to setback change do so. With women I think it was more of an attack on the established system that made people oppose, even women themselves.
 =========yorg=========
 ===from:Nicole White
 ===date:Sun Oct 26 22:45:57 2003

@@ -8,7 +8,7 @@ package main;
 BEGIN {
    unshift(@INC,'/local/classnet/cgi-bin/lib');
 }
-    
+
 require "optimize.pl";
 require CLASS;
 
@@ -45,13 +45,13 @@ foreach $filename (@filelist) {
         substr($filename,0,12) eq "done.STDNTCL") {
       my @tmp;
       push(@tmp,$filename,@f);
-      @f = @tmp;    
+      @f = @tmp;
     } else {
       push(@f,$filename);
     }
 }
 @filelist = @f;
- 
+
 # add/delete courses and instructor isucard numbers in course-mapping.dat
 do_mapping(@filelist);
 
@@ -179,7 +179,7 @@ sub do_mapping {
     # create table of shortened course names
     %authlist = {};
     open (MAPFILE, ">/local/classnet/data/course-mapper.dat") || die "Cannot open course-mapper.dat file.\n";
-    print MAPFILE "#Each line has two entries: Registrar course,Instr ISUcard\n"; 
+    print MAPFILE "#Each line has two entries: Registrar course,Instr ISUcard\n";
     foreach $course (keys %courselist) {
       $ilist = $courselist{$course};
       if ($ilist) {
@@ -200,7 +200,7 @@ sub do_mapping {
 sub do_map_file {
 my ($filename) = @_;
 print "Updating using file $filename\n";
-open (ADDDROP, "</local/classnet/data/classlists/$filename") || die "Cannot open the 
+open (ADDDROP, "</local/classnet/data/classlists/$filename") || die "Cannot open the
 course/instructor file named $filename\n"; @courses = <ADDDROP>;
 close(ADDDROP);
 $rep = rename ("/local/classnet/data/classlists/$filename","/local/classnet/data/classlists/done.$filename");
@@ -260,9 +260,9 @@ foreach $line (@courses) {
           }
           $ilist = join(",",@rslt);
           ++$del;
-        } 
+        }
         $courselist{$course} = $ilist;
-    }  
+    }
   }
 }
 }  # end of subroutine
@@ -303,7 +303,7 @@ sub do_add_drop {
                  my $stud = STUDENT->new($query,$cls);
                  $last = $stud->{'Last Name'};
                  $first = $stud->{'First Name'};
-                 my $mem_type = $cls->mem_exists($stud->{'Disk Username'}); 
+                 my $mem_type = $cls->mem_exists($stud->{'Disk Username'});
                  if ($mem_type eq "") {
                    $stud->add($cls);
                    system("chown -R nobody $cls->{'Root Dir'}/students/$stud->{'Disk Username'}");

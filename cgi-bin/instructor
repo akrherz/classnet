@@ -8,7 +8,7 @@ package main;
 BEGIN {
    unshift(@INC,'/local/classnet/cgi-bin/lib');
 }
-    
+
 # Modules to include
 require "optimize.pl";
 require FORUM;
@@ -26,7 +26,7 @@ $cls = CLASS->new($query->param('Class Name'));
 $inst = $cls->get_member($query);
 
 # Is this an instructor?
-!($inst->{'Member Type'} =~ /instructor/) and 
+!($inst->{'Member Type'} =~ /instructor/) and
     ERROR::user_error($ERROR::NOPERM);
 
 if ($query->param('memback')) {
@@ -38,7 +38,7 @@ if ($query->param('memback')) {
 $_ = $query->param('cn_option');
 
 SWITCH: {
-   /^Members/	   &&  
+   /^Members/	   &&
        do  {   # display a membership menu
        	       # Only instructors with manage students privileges have permission
        	       !(($inst->{'Priv'} =~ /students/) or ($inst->{'Priv'} =~ /owner/)) and
@@ -47,26 +47,26 @@ SWITCH: {
        	       last SWITCH;
        	   };
 
-   /^Assignments/	   &&  
-       do  {   # 
+   /^Assignments/	   &&
+       do  {   #
        	       !(($inst->{'Priv'} =~ /assignments/) or ($inst->{'Priv'} =~ /owner/)) and
        	       	   ERROR::user_error($ERROR::NOPERM);
                ASSIGNMENT->print_menu($cls,$inst);
        	       last SWITCH;
        	   };
 
-   /^Gradebook/	   &&  
-       do  {   # 
+   /^Gradebook/	   &&
+       do  {   #
                $cls->print_gradebook($inst);
        	       last SWITCH;
        	   };
 
-   /^Personal Data/	   &&  
-       do  {   # 
+   /^Personal Data/	   &&
+       do  {   #
        	       $inst->print_edit_info_form($cls,$inst);
        	       last SWITCH;
        	   };
-   /^Perform Edit/	   &&  
+   /^Perform Edit/	   &&
        do  {
                if (defined $query->param('back')) {
                    $cls->member_menu($inst);
@@ -80,35 +80,35 @@ SWITCH: {
                } else {
                    CLASS->print_main_menu();
                }
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^Send Email/	   &&  
+   /^Send Email/	   &&
        do  {   #
                ERROR::check_sample($query,'Send Email');
        	       $inst->send_email($query, $cls);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^Email/	   &&  
+   /^Email/	   &&
        do  {   #
        	     $inst->print_email_form($cls);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^Chat/	   &&  
+   /^Chat/	   &&
        do  {   #
        	     $inst->chat($cls);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^Discuss/	   &&  
+   /^Discuss/	   &&
        do  {   #
              $inst->discuss($cls);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^DiscHead/	   &&  
+   /^DiscHead/	   &&
        do  {   #
 	     my $cname = CGI::escape($cls->{'Name'});
              my $ticket = CGI::escape($inst->{'Ticket'});
@@ -134,7 +134,7 @@ Content-type: text/html
 HTML
                last SWITCH;
            };
-   /^DiscBody/	   &&  
+   /^DiscBody/	   &&
        do  {   #
                my $forum = $cls->{'Disk Name'};
                $ENV{'REQUEST_METHOD'} = 'GET';
@@ -143,7 +143,7 @@ HTML
                $forum =~ s/\-/\%2D/g;
                $forum =~ s/\%20/-/g;
                do "$GLOBALS::FORUM_DIR/$forum/a";
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
    /^Edit Discussion/	   &&
@@ -189,7 +189,7 @@ Content-type: text/html
   <TITLE>$class Discussion</TITLE>
 </HEAD>
 <frameset rows="50,*" border="0">
-  <frame name=Header marginwidth="0" 
+  <frame name=Header marginwidth="0"
 marginheight="0" src="instructor?cn_option=DiscHead$url">
   <frame name=NetForum src="instructor?cn_option=DiscBody$url">
 <noframes>
@@ -225,9 +225,9 @@ sub print_email_form {
        'Instructor Menu':'Student Menu';
 
    # Print the form
-   
+
    CN_UTILS::print_cn_header("Send Mail");
-   print <<"FORM";   
+   print <<"FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SERVER_ROOT$ENV{'SCRIPT_NAME'}">
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$cls->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$self->{'Ticket'}">
@@ -248,7 +248,7 @@ FORM
        }
        print "</SELECT>\n";
        print "<TD ALIGN=CENTER>\n";
-       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";       	       
+       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";
        foreach $member (sort @instructors) {
            print qq|<OPTION> $member\n|;
        }
@@ -265,7 +265,7 @@ FORM
        print "</SELECT><BR>";
        print "<INPUT TYPE=checkbox VALUE=All NAME=\"All Students\"> All<P>";
        print "Instructors<BR>";
-       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";       	       
+       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";
        foreach $member (sort @instructors) {
            print qq|<OPTION> $member\n|;
        }
@@ -300,7 +300,7 @@ sub send_email {
    }
    # Get in the email addresses of all members into one string
    my $i = 0;
-   my $email_recips = '';    	       
+   my $email_recips = '';
    my $email = $self->{'Email Address'};
    foreach $mem_name (@mem_names) {
        %mem_info = $cls->get_mem_info($mem_name);
@@ -308,7 +308,7 @@ sub send_email {
        $i++;
        if (($i % 50) == 0 || $i == $n) {
            open (MAIL, "| $SENDMAIL -t -n -oi -f root\@schoolnet8.com") ||
-       	       ERROR::system_error("MEMBER.pm", "send_email", "Open Mail", 
+       	       ERROR::system_error("MEMBER.pm", "send_email", "Open Mail",
        	           	       	       "From: $self->{'Username'}", "To: $mem_info{'Email Address'}");
            print MAIL "To: $recip_info\n";
            print MAIL "Reply-To: $self->{'Email Address'} ($self->{'First Name'} $self->{'Last Name'})\n";
@@ -322,7 +322,7 @@ sub send_email {
         } else {
            $email_recips =~ s/$/, $recip_info/;
         }
-   }   
+   }
    $self->print_menu($cls);
    exit(0);
 }
@@ -347,7 +347,7 @@ sub member_menu {
 
     CN_UTILS::print_cn_header("Members");
 
-    print <<"FORM";   
+    print <<"FORM";
 <FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/membership>
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$self->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
@@ -357,7 +357,7 @@ FORM
     foreach $member (sort @members) {
         print qq|<OPTION> $member\n|;
     }
-       	       
+
     print <<"FORM";
 </SELECT>
 <P>
@@ -437,7 +437,7 @@ sub get_cls_mem_info {
 
 sub print_gradebook {
     my ($self,$inst) = @_;
-    
+
     my @students = $self->get_mem_names('student');
     my $hasTable = CN_UTILS::hasTables();
     CN_UTILS::print_cn_header("Gradebook");
@@ -477,15 +477,15 @@ GRADEBOOK
     print <<"GRADEBOOK";
 <P>
 <H4>
-<INPUT TYPE=submit NAME=cn_option VALUE=Scores> 
-<INPUT TYPE=submit NAME=cn_option VALUE=Statistics> 
-<INPUT TYPE=submit NAME=cn_option VALUE=Grade> 
+<INPUT TYPE=submit NAME=cn_option VALUE=Scores>
+<INPUT TYPE=submit NAME=cn_option VALUE=Statistics>
+<INPUT TYPE=submit NAME=cn_option VALUE=Grade>
 <INPUT TYPE=submit NAME=cn_option VALUE=Ungrade>
 <INPUT TYPE=submit NAME=cn_option VALUE=Histogram>
 <INPUT TYPE=submit NAME=cn_option VALUE=Data>
 <BR>
-<INPUT TYPE=submit NAME=cn_option VALUE=Edit> 
-<INPUT TYPE=submit NAME=cn_option VALUE=Delete> 
+<INPUT TYPE=submit NAME=cn_option VALUE=Edit>
+<INPUT TYPE=submit NAME=cn_option VALUE=Delete>
 <INPUT TYPE=submit NAME=cn_option VALUE=Add>
 <BR>
 <INPUT TYPE=submit NAME=back VALUE="Instructor Menu">
@@ -503,10 +503,10 @@ sub set_reg_options {
       $showcomm = "yes";
    } else {
       $showcomm = "no";
-   } 
+   }
   # Set options in admin/reg_options;
    my $fname = "$self->{'Root Dir'}/admin/reg_options";
-   open(REG_OPT, ">$fname") or 
+   open(REG_OPT, ">$fname") or
        ERROR::system_error("INSTRUCTOR","set_reg_options","Open",$fname);
    print REG_OPT "Verify Enrollment=$enroll\n";
    print REG_OPT "Expiration Month=$month\n";
@@ -575,7 +575,7 @@ sub set_reg_options {
            if ($fnd == 0) {
              print "The class $addclass was not list in the official list."
            } else {
-             print "Check your ISUCard number. You are not listed as the 
+             print "Check your ISUCard number. You are not listed as the
 class instructor.";
            }
            CN_UTILS::print_cn_footer();
@@ -596,8 +596,8 @@ class instructor.";
      } else {
       $add = "add";
      }
-   }  
-   open(LIST_OPT, ">$fname") or 
+   }
+   open(LIST_OPT, ">$fname") or
        ERROR::system_error("INSTRUCTOR","set_list_options","Open",$fname);
    print LIST_OPT "$addclass;$isucard;$update;$add\n";
    close(LIST_OPT) or
@@ -606,7 +606,7 @@ class instructor.";
 
 sub print_reg_options {
     my ($self,$inst) = @_;
-    
+
     my @ck = (undef,undef,undef);
     $ck[$self->{'Verify Enrollment'}] = 'CHECKED';
     my $expire = $self->{'Expiration Month'};
@@ -624,7 +624,7 @@ sub print_reg_options {
     my $drop = "";
     my $fname = "$self->{'Root Dir'}/admin/list_options";
     if (-e $fname) {
-      open(LIST_OPT, "<$fname") or 
+      open(LIST_OPT, "<$fname") or
            ERROR::system_error("INSTRUCTOR","set_reg_options","Open",$fname);
       my $line = <LIST_OPT>;
       close LIST_OPT;
@@ -641,7 +641,7 @@ sub print_reg_options {
       }
     }
     CN_UTILS::print_cn_header("Class Options");
-    print <<"FORM";   
+    print <<"FORM";
 <FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/instructor>
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$self->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
@@ -661,18 +661,18 @@ for ($i= 0; $i < 12; $i++, $mon++) {
   my $date = "$monname[$mon] $year";
   if ($expire eq $date) {
     print "<OPTION SELECTED>$date\n";
-  } else {  
+  } else {
     print "<OPTION>$date\n";
   }
 }
 print <<"END_FORM";
 </SELECT>
 <P>
-Join options: <INPUT TYPE=radio NAME='Verify Enrollment' VALUE=0 $ck[0]> 
+Join options: <INPUT TYPE=radio NAME='Verify Enrollment' VALUE=0 $ck[0]>
 Open <INPUT TYPE=radio NAME='Verify Enrollment' VALUE=1 $ck[1]> Approval
-<INPUT TYPE=radio NAME='Verify Enrollment' VALUE=2 $ck[2]> Closed 
+<INPUT TYPE=radio NAME='Verify Enrollment' VALUE=2 $ck[2]> Closed
 <p>
-<INPUT TYPE=checkbox NAME='ShowComm' $showcomm> Show Student Communication 
+<INPUT TYPE=checkbox NAME='ShowComm' $showcomm> Show Student Communication
 Options
  <hr>
 <h3><font color=red>For Registered Iowa State University Classes only</font></h3> </CENTER>
@@ -683,7 +683,7 @@ Options
 <tr>
 <td>
 <ol>
-<li>Enter the ISU class name that corresponds to your ClassNet 
+<li>Enter the ISU class name that corresponds to your ClassNet
 class. <br>
 Examples:
 <ul>
@@ -692,7 +692,7 @@ Examples:
 <li>I_TEC645-B (Industrial Technology, 645, section B)<br>
 </ul>
 <br>
-<li>Enter your ISU card number (middle group of 9 digits) to verify that you 
+<li>Enter your ISU card number (middle group of 9 digits) to verify that you
 are the instructor of the class. <br>
 <li>Class lists are updated daily at 10AM.
 </ol>
@@ -706,15 +706,15 @@ are the instructor of the class. <br>
 <INPUT TYPE=checkbox NAME='Enable update' $enable>Enable automated classlist updates<p>
 ISU Class Name <INPUT NAME="addclass" VALUE="$addclass" size=20><p>
 ISU Card Number <INPUT NAME="isucard" VALUE="$isucard" size=9 maxlength=9><p>
-Process Options: 
+Process Options:
 <INPUT TYPE=checkbox NAME='Add' $add>Adds <INPUT TYPE=checkbox NAME='Drop' $drop>Drops
 </td>
 </tr>
 </table>
 <P>
 <H4>
-<INPUT TYPE=submit NAME=save VALUE=Save> 
-<INPUT TYPE=reset> 
+<INPUT TYPE=submit NAME=save VALUE=Save>
+<INPUT TYPE=reset>
 <BR>
 <INPUT TYPE=submit NAME=memback VALUE="Instructor Menu">
 </H4>
@@ -749,7 +749,7 @@ sub print_listbox {
 sub print_menu {
     my ($cls,$inst) = @_;
     CN_UTILS::print_cn_header("Assignments");
-    print <<"FORM";   
+    print <<"FORM";
 <FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/assignments>
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$cls->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">

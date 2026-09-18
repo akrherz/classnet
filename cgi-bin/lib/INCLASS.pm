@@ -72,7 +72,7 @@ sub get_graded_form {
     $self->read_test();
     my $pr = $self->{'PR'};
     my $tp = $self->{'TP'};
-    return "<B>Score:</B> $pr of $tp (No answers available for In-class assignments)"; 
+    return "<B>Score:</B> $pr of $tp (No answers available for In-class assignments)";
 }
 
 sub get_score {
@@ -119,7 +119,7 @@ FORM
         }
         print "<INPUT NAME=\"stu_$sname\" SIZE=3 VALUE=$pr> $sname<BR>\n";
     }
-    print "<CENTER><H4><INPUT TYPE=submit Value=Submit> <INPUT TYPE=reset> 
+    print "<CENTER><H4><INPUT TYPE=submit Value=Submit> <INPUT TYPE=reset>
 <INPUT TYPE=submit NAME=cancel VALUE=Cancel></H4></CENTER>";
     CN_UTILS::print_cn_footer();
     exit(0);
@@ -131,7 +131,7 @@ sub read_test {
    if ($self->get_status() eq 'graded') {
        $/ = "\n";
        open(ASSIGN, "<$fname") or
-           ERROR::system_error("INCLASS","read_test","open",$fname); 
+           ERROR::system_error("INCLASS","read_test","open",$fname);
        flock(ASSIGN, $LOCK_EX);
        $header = <ASSIGN>;
        flock(ASSIGN, $LOCK_UN);
@@ -163,7 +163,7 @@ sub submit_edit_changes {
             my $pr = $query->param($tname);
             if ($tp > 0) {
                 if  ($pr < 0 or $pr > $tp) {
-                     ERROR::user_error($ERROR::NOTDONE,"save points 
+                     ERROR::user_error($ERROR::NOTDONE,"save points
 because the points received for $1 is not between 0 and $tp");
                 }
             } else {
@@ -188,16 +188,16 @@ the points received for $1 is not between $tp and 0");
 
 sub write_test {
    my ($self, $status) = @_;
-   if ($status eq 'graded') { 
+   if ($status eq 'graded') {
        $fname = "$self->{'Graded Dir'}/$self->{'Student File'}";
-   } 
+   }
    else {
        $fname = "$self->{'Ungraded Dir'}/$self->{'Student File'}";
    }
 
    # Open file
    open(ASSIGN, ">$fname") or
-       ERROR::system_error("INCLASS","write_test","open",$fname); 
+       ERROR::system_error("INCLASS","write_test","open",$fname);
    flock(ASSIGN, $LOCK_EX);
    $type = ref($self);
    print ASSIGN "<CN_ASSIGN TYPE=$type SUBMIT=1 PTS=$self->{'TP'} PR=$self->{'PR'} >\n";
@@ -235,7 +235,7 @@ sub format_stats {
     open(DATA,">$fname");
     my $max = 0;
     foreach $v (keys %{$tot}) {
-        my $n = $tot->{$v}; 
+        my $n = $tot->{$v};
         print DATA "$v $n\n";
         ($n > $max) and $max = $n;
     }
@@ -378,7 +378,7 @@ manually:<P>";
         $miss .= $line;
     }
     print "$miss</TEXTAREA><P>";
-    print "<CENTER><H4><INPUT TYPE=submit Value=Submit> <INPUT TYPE=reset> 
+    print "<CENTER><H4><INPUT TYPE=submit Value=Submit> <INPUT TYPE=reset>
 <INPUT TYPE=submit NAME=cancel VALUE=Cancel></H4></CENTER>";
     CN_UTILS::print_cn_footer();
     return "***Missing records***\n$zname\n***Unresolved records***\n$miss"; }
@@ -387,7 +387,7 @@ sub grade {
 
    my $self = shift;
 
-   my $fname = "$self->{'Ungraded Dir'}/$self->{'Student File'}"; 
+   my $fname = "$self->{'Ungraded Dir'}/$self->{'Student File'}";
    if (-e $fname) {
        rename($fname,"$self->{'Graded Dir'}/$self->{'Student File'}");
    }

@@ -123,7 +123,7 @@
 <br>Pity- feeling sorry for someone because they have it worse than you or something bad has happened to them
 
 <p>4. Good parent- an individual who establishes good moral and ethical bounds to help their child grow and develop into a good person.
-<br>So if a child does not turn into a good person in society, does that mean their parents were not "good"? Is it solely the parent responsibility to make sure their child turns out okay?  What makes up good moral and ethical ideas, and are they the same for everyone?  Can you say that a person's morals are not "good"? 
+<br>So if a child does not turn into a good person in society, does that mean their parents were not "good"? Is it solely the parent responsibility to make sure their child turns out okay?  What makes up good moral and ethical ideas, and are they the same for everyone?  Can you say that a person's morals are not "good"?
 =========yorg=========
 ===from:Katy Sommerlot
 ===date:Mon Oct 13 15:46:50 2003

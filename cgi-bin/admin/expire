@@ -32,7 +32,7 @@ foreach $cls_name (@cls_list) {
 if ($mday < 15) {
     $msg = "
 
-Your ClassNet class will expire on the 15th of this month if you do nothing. 
+Your ClassNet class will expire on the 15th of this month if you do nothing.
 
 To keep it available, select the Class Options on the Instructor Menu
 and change the expiration date. You may also want to use the Renew
@@ -72,7 +72,7 @@ for a new class of students.";
             $msg .= "tar failed for $file. $!\n";
         system("$GZIP '$file.tar'") and
             $msg .= "gzip failed for $file.tar. $!\n";
-        system("rm -r '$file'");   
+        system("rm -r '$file'");
     }
     $subj = "Classes Expired";
     unless($msg eq '') {
@@ -89,6 +89,6 @@ print MAIL "To: $destination\n";
 print MAIL "Subject: $subject\n";
 print MAIL "$body\n";
 close MAIL;
-}  
+}
 
 1;

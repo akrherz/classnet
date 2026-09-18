@@ -44,7 +44,7 @@ Question: Do plants use different frequencies of visible light for different fun
 ===date:Mon Mar 30 22:47:25 1998
 ===subject:Transgenic Plants
 ===message:Is it possible, with the newer technology of transgenic plants, that we can induce plants to produce various disease resistant genes that may aid in becoming antedotes for humankind. Many plants have been utilized for their naturally existing healing properties, why not modify a plant for a specific medical disease?
- 
+
 =========yorg=========
 ===from:Damon Johnson
 ===date:Mon Mar 30 23:17:52 1998

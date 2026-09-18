@@ -3,22 +3,22 @@
 # http.pl	--- retrieve http URLs
 #
 # Copyright (c) 1995 Oscar Nierstrasz
-# 
+#
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation; either version 2 of the License, or (at
 # your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful, but
 # WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 # General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program (as the file COPYING in the main directory of
 # the distribution); if not, write to the Free Software Foundation,
 # Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-# 
+#
 # NB: If this package interests you, you should probably
 # have a look at Roy Fielding's libwww-perl packages:
 # http://www.ics.uci.edu/WebSoft/libwww-perl/
@@ -42,17 +42,17 @@
 # oscar 28/3/94 -- added stripping of MIME headers (code by Martijn Koster)
 #
 # FIX to strip off MIME headers!
-# oscar 9/1/95  -- added Accept-Header field; accepts every mime type; 
+# oscar 9/1/95  -- added Accept-Header field; accepts every mime type;
 #
 # gorm 20/5/95 -- added some procedures for Modified-Since get, and
-#                 for handeling. this procedure will be used in w3mir.pl 
+#                 for handeling. this procedure will be used in w3mir.pl
 # gorm 21/5/95 -- added redirection in http'mod_get
 # TEMPORARY HACK!
 
 package http;
 
 unshift(@INC,'/usr/local/lib/perl');
-    
+
 
 # This should be installed in /local/lib/perl
 # If it's not there, complain to your system admin!
@@ -89,7 +89,7 @@ sub get {
         select(FS); $| = 1; select(STDOUT);
 	# MIME header treatment from Martijn Koster
         if ($version) {
-            print FS "GET $request HTTP/1.0\r\n$useragent$from$mimeaccept\r\n"; 
+            print FS "GET $request HTTP/1.0\r\n$useragent$from$mimeaccept\r\n";
             undef($page);
             $/ = "\n";
             $_ = <FS>;
@@ -103,7 +103,7 @@ sub get {
             else {    # old style server reply
                 undef($/);
                 $page = $_;
-                $_ = <FS>;            
+                $_ = <FS>;
                 $page .= $_;
             }
         }
@@ -129,7 +129,7 @@ sub get_last_modified {
     # time to convert it and return
     return &bit2rfc850($tmp[9]);
 }
-    
+
 sub bit2rfc850 {
 # this procedure will convert a 32bit timefield to regular
 # rfc850 GMT format. this is implemented in this package because
@@ -139,11 +139,11 @@ sub bit2rfc850 {
     local($timebit) = @_;
     local(@DoW) = ('Sunday','Monday','Tuesday','Wedensday','Thursday','Friday','Saturday');
     local(@MoY) = ('Jan','Feb','Mar','Apr','May','Jun',
-	    'Jul','Aug','Sep','Oct','Nov','Dec'); 
+	    'Jul','Aug','Sep','Oct','Nov','Dec');
 
     local($time) = @_;
     local($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst);
-    ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = 
+    ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) =
 	gmtime($timebit);	# uses GMT time
 # hack to fix the real time #########################################
     @tmplist = ($mday,$hour,$min,$sec);                             #
@@ -152,13 +152,13 @@ sub bit2rfc850 {
     }				                                    #
     ($mday,$hour,$min,$sec) = @tmplist;                             #
 #####################################################################
-# returning the right http format	
-    sprintf("%s, %s-%s-%s %s:%s:%s GMT", 
+# returning the right http format
+    sprintf("%s, %s-%s-%s %s:%s:%s GMT",
 	    $DoW[$wday], $mday, $MoY[$mon], $year, $hour, $min, $sec)
 }
 
 sub mod_get {
-# this is a patched version of the above get, that will use 
+# this is a patched version of the above get, that will use
 # a timestamp to check if it will get he page or not.
 # if it doesn't get the page, it will thought still recive
 # the header of the file. this was added by gorm haug eriksen
@@ -166,9 +166,9 @@ sub mod_get {
     local($host,$port,$request,@modtime) = @_;
     !@modtime && die "get_mod: didnt' get a lastmodified argument";
     # modtime is a list on the rfc850 format, that is :
-    # Weekday, DD-Mon-YY HH:MM:SS TIMEZONE, but the httpd 
-    # protocoll state that the TIMEZONE to be used always 
-    # should be GMT. 
+    # Weekday, DD-Mon-YY HH:MM:SS TIMEZONE, but the httpd
+    # protocoll state that the TIMEZONE to be used always
+    # should be GMT.
     ($fqdn, $aliases, $type, $len, $thataddr) = gethostbyname($host);
     $that = pack($sockaddr, &AF_INET, $port, $thataddr);
     socket(FS, &AF_INET, &SOCK_STREAM, $proto) || return undef;
@@ -180,9 +180,9 @@ sub mod_get {
 	    connect(FS, $that) || return undef;
 	    select(FS); $| = 1; select(STDOUT);
 	    # MIME header treatment from Martijn Koster
-	    print FS "GET $request HTTP/1.0\r\n${useragent}${from}${mimeaccept}If-Modified-Since: @modtime\r\n\r\n"; 
+	    print FS "GET $request HTTP/1.0\r\n${useragent}${from}${mimeaccept}If-Modified-Since: @modtime\r\n\r\n";
 # debug
-#	    print "GET $request HTTP/1.0\r\n${useragent}${from}${mimeaccept}If-Modified-Since: @modtime\r\n\r\n"; 
+#	    print "GET $request HTTP/1.0\r\n${useragent}${from}${mimeaccept}If-Modified-Since: @modtime\r\n\r\n";
 
 	    undef($page);
 	    $/ = "\n";
@@ -191,7 +191,7 @@ sub mod_get {
 # DEBUG :      	print "Return $1\n";
 		if ($1 eq "302") {
 		    # this is a routine that will enable redirection
-		    # in the program. It will fetch the new url, and 
+		    # in the program. It will fetch the new url, and
 		    # the user will see nothing to the redirection
 		    close(FS);
 		    print "$that\n";
@@ -207,7 +207,7 @@ sub mod_get {
 		    # MIME header treatment from Martijn Koster
 		    $request = "$request/index.html";
 		    print "REQ : $request\n";
-		    print FS "GET $request HTTP/1.0\r\n${useragent}${from}${mimeaccept}If-Modified-Since: @modtime\r\n\r\n"; 
+		    print FS "GET $request HTTP/1.0\r\n${useragent}${from}${mimeaccept}If-Modified-Since: @modtime\r\n\r\n";
 		    undef $page;
 		}
 		    return undef if $1 == 403; # not modified
@@ -220,7 +220,7 @@ sub mod_get {
 	    else {			# old style server reply
 		warn "Old Style Server Reply from $host. Ask admin to upgrade server or forget to mirror it" && return undef;
 	    }
-	    
+
 	    $SIG{'ALRM'} = "IGNORE";
         !) {
             return undef; # a error has occoured

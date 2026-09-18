@@ -9,7 +9,7 @@
 
 <UL><LI>Cell Structure and
    Organelles lecture
-   
+
    <LI>Molecules of Life Topic
    <UL><LI>Polymer lecture
       <LI>Protein lecture
@@ -19,7 +19,7 @@
 <P><B>Assignments</B>
 
 <UL><LI>Assignment 1
-   
+
    <LI>Proteins
 </UL>
 
@@ -149,7 +149,7 @@ Enjoy!
 ===institution:Iowa State University
 ===date:Tue Mar 10 10:48:33 1998
 ===subject:Unit IV Assignments
-===message:The Unit IV assignment and extra credit opportunities are posted. 
+===message:The Unit IV assignment and extra credit opportunities are posted.
 =========yorg=========
 ===from:Jim Colbert
 ===email:jtcolber@iastate.edu

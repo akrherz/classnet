@@ -3,31 +3,31 @@
 ===subject:Psych 533 - Assignment
 ===message:4. Psych 533 - Assignment 3
 <br>
-5a. Time and knowledge.  
+5a. Time and knowledge.
 <br>
 Source: Pressley - Chapter 4.
 <br>
-Explanation: Time and knowledge improve performance for people of all ages. Over the passage of time, if a task or activity is repeated over and over, the learner builds on his/her knowledge base about the task or activity. With such a knowledge base, people are more apt to manifest strategies than people without such a base. Such strategies include: automatic associations, classifications and analogies. 
+Explanation: Time and knowledge improve performance for people of all ages. Over the passage of time, if a task or activity is repeated over and over, the learner builds on his/her knowledge base about the task or activity. With such a knowledge base, people are more apt to manifest strategies than people without such a base. Such strategies include: automatic associations, classifications and analogies.
 <p>
-5b. Clustering and organization.  
+5b. Clustering and organization.
 <br>
 Source : Pressley - Chapter 4
 <br>
 Explanation: With increasing age, learners are more likely to remember bits of information if they chunk it. This involves categorizing information into groups that share commonalities. An example follows: memorizing a list of groceries by food groups (milk products, breads, fruits and vegetables, meats).
 <p>
-5c. Think alouds.  
+5c. Think alouds.
 <br>
 Source: Pressley - Chapter 4
 <br>
 Explanation: Researchers have shown that think-alouds often help them compare how learners process problems depending on whether they have a previous knowledge base or not. This may apply to classroom teachers as well. If a teacher wants to introduce a new topic and assumes some students have more experience related to the topic than others, he or she can break the class into small discussion groups before even introducing the topic. By circulating to hear a piece of the discussion for the groups, the teacher may grasp a better sense for ranges of previous knowlegde of the group.
 <p>
-5d. Knowledge-base activation strategies.  
+5d. Knowledge-base activation strategies.
 <br>
 Source: Pressley - Chapter 4
 <br>
 Explanation: Knowledge-base activation strategies can interfere with new learning. Some previous knowledge can sometimes inhibit new learning. If students have known a given fact for a long time, even if the fact is a misconception, they may have troubles deleting that fact from their memory and replacing it with a new, more accurate one. In this case, it may be helpful for teachers to help students articulate their misconceptions and discuss why the newly learned fact should replace them.
 <p>
-5e. Self-regulated learning.  
+5e. Self-regulated learning.
 <br>
 Source: Pressley - Chapter 4
 <br>

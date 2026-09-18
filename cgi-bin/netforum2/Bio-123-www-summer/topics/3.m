@@ -17,14 +17,14 @@ preposal 2: This would be a good idea if their was a food shortage world wide. T
 ===date:Wed Jun 21  8:33:35 2000
 ===subject:Biol 123 summer
 ===message:Proposal 1: I think it is a good idea to give away grain to countries who can't afford to buy it, but only if this is done while helping them to attain a sustainable lifestyle through education and help with resources so they can begin to produce their own food.  If we simply give them food they will continue in thier usual ways, and if we become unable to support them they will experience population crash.  Also, if we feed them and allow them to become dependant on us for food, we will be obligating ourselves in a moral, ethical sence to take care of them, which could cause future problems.  So help is only good if it ultimately helps them to be able to take care of themselves.<BR>
-Proposal 2:  We do not need to become total vegetarians to feed more people and reduce the environmental effects of livestock production.  In fact doing so would reduce the food supply because range cattle convert grasses and plants not digestable by us into meat.  However, reducing or eliminating grain feed meats would reduce the amount of grain needed to feed the world and enable farmers to use more eviromentally safe and sustainable means of farming.  As a country we should seriously consider making farm subsidy payments only to farmers who are practicing responsible and sustainable methods of agriculture.  This would be the quickest way of changing these methods.  Reducing meat consumpion to aproximatly what can be susainable grown on range land would benefit the United States by forcing people to eat a healthier diet and reducing the amount of heart disease and other health problems associated with a high fat diet.  That 70 % of cropland in the U.S. goes to feed livestock shows a serious unbalance and greed on the part of our population.  What ever happened to soybeans and legumes for protein in our diets?  
+Proposal 2:  We do not need to become total vegetarians to feed more people and reduce the environmental effects of livestock production.  In fact doing so would reduce the food supply because range cattle convert grasses and plants not digestable by us into meat.  However, reducing or eliminating grain feed meats would reduce the amount of grain needed to feed the world and enable farmers to use more eviromentally safe and sustainable means of farming.  As a country we should seriously consider making farm subsidy payments only to farmers who are practicing responsible and sustainable methods of agriculture.  This would be the quickest way of changing these methods.  Reducing meat consumpion to aproximatly what can be susainable grown on range land would benefit the United States by forcing people to eat a healthier diet and reducing the amount of heart disease and other health problems associated with a high fat diet.  That 70 % of cropland in the U.S. goes to feed livestock shows a serious unbalance and greed on the part of our population.  What ever happened to soybeans and legumes for protein in our diets?
 =========yorg=========
 ===from:Harold Herr
 ===email:deserttraveler@msn.com
 ===date:Wed Jun 21  8:34:48 2000
 ===subject:Homework 4
 ===message:Proposal 1: I think it is a good idea to give away grain to countries who can't afford to buy it, but only if this is done while helping them to attain a sustainable lifestyle through education and help with resources so they can begin to produce their own food.  If we simply give them food they will continue in thier usual ways, and if we become unable to support them they will experience population crash.  Also, if we feed them and allow them to become dependant on us for food, we will be obligating ourselves in a moral, ethical sence to take care of them, which could cause future problems.  So help is only good if it ultimately helps them to be able to take care of themselves.<BR>
-Proposal 2:  We do not need to become total vegetarians to feed more people and reduce the environmental effects of livestock production.  In fact doing so would reduce the food supply because range cattle convert grasses and plants not digestable by us into meat.  However, reducing or eliminating grain feed meats would reduce the amount of grain needed to feed the world and enable farmers to use more eviromentally safe and sustainable means of farming.  As a country we should seriously consider making farm subsidy payments only to farmers who are practicing responsible and sustainable methods of agriculture.  This would be the quickest way of changing these methods.  Reducing meat consumpion to aproximatly what can be susainable grown on range land would benefit the United States by forcing people to eat a healthier diet and reducing the amount of heart disease and other health problems associated with a high fat diet.  That 70 % of cropland in the U.S. goes to feed livestock shows a serious unbalance and greed on the part of our population.  What ever happened to soybeans and legumes for protein in our diets?  
+Proposal 2:  We do not need to become total vegetarians to feed more people and reduce the environmental effects of livestock production.  In fact doing so would reduce the food supply because range cattle convert grasses and plants not digestable by us into meat.  However, reducing or eliminating grain feed meats would reduce the amount of grain needed to feed the world and enable farmers to use more eviromentally safe and sustainable means of farming.  As a country we should seriously consider making farm subsidy payments only to farmers who are practicing responsible and sustainable methods of agriculture.  This would be the quickest way of changing these methods.  Reducing meat consumpion to aproximatly what can be susainable grown on range land would benefit the United States by forcing people to eat a healthier diet and reducing the amount of heart disease and other health problems associated with a high fat diet.  That 70 % of cropland in the U.S. goes to feed livestock shows a serious unbalance and greed on the part of our population.  What ever happened to soybeans and legumes for protein in our diets?
 =========yorg=========
 ===psite:http://www.lacey@iastate.edu
 ===from:Lacey Carter
@@ -74,14 +74,14 @@ cows. I think bovids, especially cows are the most unefficient animals who have 
 just the amount of calories eat doesn't turn into lean meat. This is probably the reason most people resort to
 a vegetarian lifestyle becuase the way they think of meat is gross and not pleasing in a slaughter house, for
 example. We should resort to eating bison, zebras, or gazelle meat. These animals are more efficient in
-foraging and feeding grasses. 
+foraging and feeding grasses.
 =========yorg=========
 ===from:Jerold Fitzgerald
 ===email:jerold@netins.net
 ===date:Mon Jul  3 21:02:53 2000
 ===subject:Homework # 4 discussion
-===message:1.  I would agree to give people in need of food the grain, as long as the grain was received by those people.  The problem with some countries is the leaders of the governments.  The leaders will either not let the grain get to the needy, or will do whatever they can to disrupt the flow of this food; including taking the grain and selling it for profit.  Some leaders believe it is easier to control the people if they have very little money, food, education, and medical supplies.  So somehow we need to make sure the people that need the supplies can actually receive them.  
-2.  The United States already has a 10 year reserve program.  This was established to set aside ground from grain production, reducing the huge amount of surplus grain that we have produced over the years.  The problem with the United States setting aside these acres from production is that every time we do this, South America increases the destruction of the rain forest.  So the destruction of the rain forest in my eyes is due to greedy people more than the fact that our livestock consumes so much grain.  I do believe the American people over indulge in the food they eat, and could lessen the amount of meat they eat by blending the meat in with Noodles, pasta, rice, and other dishes.  Instead of two people setting down to eat a three pound roast, they instead could use some of the beef for beef and rice, beef and noodles, stew, and others.  This would be three meals from the same three pound roast.  We also would be using more grain products by eating more noodles, spaghetti, and rice.  This could be a way of tweeking our eating styles a little bit, but allow more meat and grain products to be used elsewhere. 
+===message:1.  I would agree to give people in need of food the grain, as long as the grain was received by those people.  The problem with some countries is the leaders of the governments.  The leaders will either not let the grain get to the needy, or will do whatever they can to disrupt the flow of this food; including taking the grain and selling it for profit.  Some leaders believe it is easier to control the people if they have very little money, food, education, and medical supplies.  So somehow we need to make sure the people that need the supplies can actually receive them.
+2.  The United States already has a 10 year reserve program.  This was established to set aside ground from grain production, reducing the huge amount of surplus grain that we have produced over the years.  The problem with the United States setting aside these acres from production is that every time we do this, South America increases the destruction of the rain forest.  So the destruction of the rain forest in my eyes is due to greedy people more than the fact that our livestock consumes so much grain.  I do believe the American people over indulge in the food they eat, and could lessen the amount of meat they eat by blending the meat in with Noodles, pasta, rice, and other dishes.  Instead of two people setting down to eat a three pound roast, they instead could use some of the beef for beef and rice, beef and noodles, stew, and others.  This would be three meals from the same three pound roast.  We also would be using more grain products by eating more noodles, spaghetti, and rice.  This could be a way of tweeking our eating styles a little bit, but allow more meat and grain products to be used elsewhere.
 =========yorg=========
 ===from:Jerrod Tanke
 ===email:jtanke@iastate.edu
@@ -92,7 +92,7 @@ foraging and feeding grasses.
 ===from:Jerrod Tanke
 ===date:Thu Jul  6 11:30:02 2000
 ===subject:Food Disc. Prop. 2
-===message:Although it is a well known fact that a vegatarian diet is healthier and more efficient in almost every aspect I do not feel that there is any way that the majority of the population is willing to make the leap from a New York strip steak on saturday night to a bowl of greens. 
+===message:Although it is a well known fact that a vegatarian diet is healthier and more efficient in almost every aspect I do not feel that there is any way that the majority of the population is willing to make the leap from a New York strip steak on saturday night to a bowl of greens.
 =========yorg=========
 ===from:Robert Nichols
 ===date:Sun Jul  9  0:14:30 2000
@@ -108,9 +108,9 @@ Proposal 2 - The only ways to get this proposal to work is to either get a drama
 
 We should give away surplus grain to those countries that can't afford to buy it from us. Umm...no.  It's a nice idea in THEORY, but would never work.  First, we would have to pay to get it there b/c they can obviously not afford to buy it from us.  This leads to problems in itself that have already been discussed by many people.  For instance, raising taxes would be the most likely way to pay to transport the grain.  This would never happen.  it would never pass legislation, and if by some miracle it did, people would be upset and make enough noise that it simply wouldn't work.  My second point comes from a little life lesson that has been taught to me throughout the years.  "Give a man a fish and he'll eat for a day.  TEACH a man how to fish and he'll eat for a lifetime."  Now, if we substitute the word "grain" for "fish" we can see where I'm going.  understandably there are problems with things such as cropland and climate, etc. but it has been proven time and time again by organizations such as the Red Cross (or whoever does the overseas work these days) that it is much more effective to take the grassroots approach to helping people rather than just handing stuff to them and taking the bureaucrats solution. <BR>
 
-We should all beome vegetarians.  Once again, I don't think so.  I'll be one of the first people to smack the person that says I can't eat my Whopper.  People like meat.  people eat meat.  people NEED meat...afterall it is protein. and eating my Whopper is a much tastier way to get my daily protein requirements than eating a big bowl of beans.<BR>  
+We should all beome vegetarians.  Once again, I don't think so.  I'll be one of the first people to smack the person that says I can't eat my Whopper.  People like meat.  people eat meat.  people NEED meat...afterall it is protein. and eating my Whopper is a much tastier way to get my daily protein requirements than eating a big bowl of beans.<BR>
 
-In addition, if we all become vegetairians , then the entire animal raising industry would go under.  There are the obvious effects of lost wages and jobs on those in the industry, but if you look further, becoming vegetarians creates larger problems.  For instance, if we aren't raising animals, we don't even get any mean byproducts.  That sounds icky, but for instance, there wouldn't be any more milk b/c cows are raised on grain (even if only 50% of their diet comes from it).  Milk is an imprtant thing in a persons diet!  There would be no more eggs.  How are you going to make a cake or a bathc of muffins without eggs?  I'm sorry, but EggBeaters just ain't the same thing.  Even Jello has animal products in it!  
+In addition, if we all become vegetairians , then the entire animal raising industry would go under.  There are the obvious effects of lost wages and jobs on those in the industry, but if you look further, becoming vegetarians creates larger problems.  For instance, if we aren't raising animals, we don't even get any mean byproducts.  That sounds icky, but for instance, there wouldn't be any more milk b/c cows are raised on grain (even if only 50% of their diet comes from it).  Milk is an imprtant thing in a persons diet!  There would be no more eggs.  How are you going to make a cake or a bathc of muffins without eggs?  I'm sorry, but EggBeaters just ain't the same thing.  Even Jello has animal products in it!
 Thus, the moral of this story is, is that no matter how much good it may do for everyone to become vegetairan, it is just to hard to implement and enforce.  In addition, all sorts of products, from Jello to jackets, are made from animals.  becomming vegetarians would dramatically shift our lives as we know them and the remedy to such a situation could end up causing even more problems than the current one of hunger.
 =========yorg=========
 ===from:James Harrison
@@ -125,27 +125,27 @@ people, but would keep the farmers happy.
 Proposal 2 is a difficult one especially if you like a nice T-Bone as much as I do... but I think that for starters people should start
 to vary their diets, not cut out meat completely. People, especially Americans, waste an incredible amount of everything, from
 food to paper products. I think that small reductions in everything would help the world far more than simply cutting meat
-completely out of the diet. 
+completely out of the diet.
 =========yorg=========
 ===from:Mandy Falk
 ===email:falksw@aol.com
 ===date:Tue Jul 18 11:36:16 2000
 ===subject:Homework 4  Food Discussion
-===message:Proposal 1:  I believe that we should give away surplus 
-grain to countries that cannot aford it.  This will help the 
-big hunger problem that many poor countries have.  The 
-people of poor countries still need to have food even though 
-they cannot afford it.  It would be a generous offering to 
-many countries.  We have many farmers who would probably be 
-willing to give grains to other countries if the government 
+===message:Proposal 1:  I believe that we should give away surplus
+grain to countries that cannot aford it.  This will help the
+big hunger problem that many poor countries have.  The
+people of poor countries still need to have food even though
+they cannot afford it.  It would be a generous offering to
+many countries.  We have many farmers who would probably be
+willing to give grains to other countries if the government
 paid them so that they can continue to earn a living.
 
-Proposal 2:  I do not believe that we should all become 
-vegetarians to feed the hungry people in the world.  This is 
-because we can help the hungry by giving them grains and 
-other foods.  The environmental effects of livestock 
-production is not a big problem in the world.  We need our 
-protein and the hungry people in the world do too.  We 
+Proposal 2:  I do not believe that we should all become
+vegetarians to feed the hungry people in the world.  This is
+because we can help the hungry by giving them grains and
+other foods.  The environmental effects of livestock
+production is not a big problem in the world.  We need our
+protein and the hungry people in the world do too.  We
 should help them by giving them grains and meat so that the
 =========yorg=========
 ===from:Tammy Schroeder
@@ -157,7 +157,7 @@ Proposal 2:  I believe that this isn't a bad proposal to free up grain that migh
 ===from:Jennifer Ducey
 ===date:Mon Jul 24 19:34:39 2000
 ===subject:homework 4
-===message:Proposal 1.I think the United States should give away a good portion of its excess grain to countries that can't afford to buy it from us.  The consumption food facts are quite distressing and the U.S. could help alleviate these conditions of undernutrition, malnutrition, and death.  In lecture we have learned that not all soils and climates are suitable for growing crops.  Many of these under developed nations are in areas like this. So, helping to bring agricultural technology to these areas to improve farming will have little effect.  Many people would be upset with the idea of giving food away for free.  Perhaps, there could be nonmonetary payment for grain.  Something like the "debt for nature swap."  Some of these countries could agree to put aside forests as protected areas for grain, or establish habitat for the indigenous, endangered wildlife.  Politics also come into play in many of these countries.  Often time the food doesn't make it to the people for various political reasons.  Perhaps grain would only be given to countries that demonstrate that the grain is getting to those who need it.  I think it is irresponsible to allow peop[le in other countries to die of starvation and malnutrition because their government is unable to pay for grain.  
+===message:Proposal 1.I think the United States should give away a good portion of its excess grain to countries that can't afford to buy it from us.  The consumption food facts are quite distressing and the U.S. could help alleviate these conditions of undernutrition, malnutrition, and death.  In lecture we have learned that not all soils and climates are suitable for growing crops.  Many of these under developed nations are in areas like this. So, helping to bring agricultural technology to these areas to improve farming will have little effect.  Many people would be upset with the idea of giving food away for free.  Perhaps, there could be nonmonetary payment for grain.  Something like the "debt for nature swap."  Some of these countries could agree to put aside forests as protected areas for grain, or establish habitat for the indigenous, endangered wildlife.  Politics also come into play in many of these countries.  Often time the food doesn't make it to the people for various political reasons.  Perhaps grain would only be given to countries that demonstrate that the grain is getting to those who need it.  I think it is irresponsible to allow peop[le in other countries to die of starvation and malnutrition because their government is unable to pay for grain.
 Proposal 2.  I think it would be difficult to enforce a vegetarian lifestyle upon all the people of the world.  However, I think there are some very valid arguments for the idea. In my opinion, we should consider only eating meat from free range animals.  Then the grain used for fedd lot animals would be available for people.  This would feed an extra "250million" in the US so, worldwide this could have a huge impact.  Because rangeland is not suitable for agriculture, this is not land that would be utilized better for growing crops.  Those who work in the meat industry could still have jobs there.  I think people nned to become more informed about where there food comes form and the impact of their food choices.
 =========yorg=========
 ===from:Rachel Pleasants
@@ -179,7 +179,7 @@ The problem with this proposal is that most people tend to get caught up in the 
 ===from:Michael Bourne
 ===date:Wed Jul 26 11:00:08 2000
 ===subject:Vegetarianism a good Idea, not a viable one
-===message:I agree that it is a very good idea.  However, the people of this country, not even counting the entire world, have a poor track record of doing what is good if it doesn't fit in their agenda.  Take the car issue.  People do use the subways and other forms of mass transit more than in the past, but most people still like their cars and still drive them alone to and from work, etc.  This is just a small example for the point that, yes, people will agree that we should stop eating meat to save food, but very few will actually do it.  
+===message:I agree that it is a very good idea.  However, the people of this country, not even counting the entire world, have a poor track record of doing what is good if it doesn't fit in their agenda.  Take the car issue.  People do use the subways and other forms of mass transit more than in the past, but most people still like their cars and still drive them alone to and from work, etc.  This is just a small example for the point that, yes, people will agree that we should stop eating meat to save food, but very few will actually do it.
 
 
 =========yorg=========
@@ -187,29 +187,29 @@ The problem with this proposal is that most people tend to get caught up in the 
 ===date:Wed Jul 26 18:57:45 2000
 ===subject:proposal 1 and 2
 ===message:discussion 1-
-i do not think that we should give our surplus grain away to 
-other countries. we have millions of hungry people in our 
-own country, give it to them before we give it to others. we 
-need to take care of ourselves before we take care of the 
+i do not think that we should give our surplus grain away to
+other countries. we have millions of hungry people in our
+own country, give it to them before we give it to others. we
+need to take care of ourselves before we take care of the
 other countries.
 
 discussion 2-
-i don't agree with everyone becoming vegetarians either. i 
-think that it would be great to feed all the extra people 
-but it isn't fair to have to give up meat. this would also 
-hurt farmers who rely on that as an income. i think this 
-would create many problems. 
+i don't agree with everyone becoming vegetarians either. i
+think that it would be great to feed all the extra people
+but it isn't fair to have to give up meat. this would also
+hurt farmers who rely on that as an income. i think this
+would create many problems.
 =========yorg=========
 ===from:Chris Slania
 ===date:Wed Jul 26 19:05:15 2000
 ===subject:Giving away grain
-===message:I personally don't like the idea of giving away grain to counties who cannot afford to buy it.  I understand that this would a good gesture and surely safe many lives, but this could also have a dramatic affect on the U.S.  Who would reinburse the farmers for all thier costs of growing the grain?  The Government, aren't we in enough debt as it is.  If we collected all the money other countries owe us the U.S. debt would greatly decrease or even not exist.  I think that is pretty giving, not asking for the money other countries owe us.  
+===message:I personally don't like the idea of giving away grain to counties who cannot afford to buy it.  I understand that this would a good gesture and surely safe many lives, but this could also have a dramatic affect on the U.S.  Who would reinburse the farmers for all thier costs of growing the grain?  The Government, aren't we in enough debt as it is.  If we collected all the money other countries owe us the U.S. debt would greatly decrease or even not exist.  I think that is pretty giving, not asking for the money other countries owe us.
 Would the farmers just give away their grain without any compensation?  I don't think so.
 =========yorg=========
 ===from:Chris Slania
 ===date:Wed Jul 26 19:13:00 2000
 ===subject:Become a vegetarian?
-===message:This too is a good idea and would hopefully safe lives and a lot of negative affects on the environment.  But, realistically it would be nearly impossible to convince such a large amount of the public to become vegetarian.  You would cause more resistance and headaches than it would be really worth.  Going along with the other discussion, even if we did have surplus grain for other countries, can they affort it.  Would we give it away?  What good would extra grain be it we couldn't get it to the people who need it.  
+===message:This too is a good idea and would hopefully safe lives and a lot of negative affects on the environment.  But, realistically it would be nearly impossible to convince such a large amount of the public to become vegetarian.  You would cause more resistance and headaches than it would be really worth.  Going along with the other discussion, even if we did have surplus grain for other countries, can they affort it.  Would we give it away?  What good would extra grain be it we couldn't get it to the people who need it.
 =========yorg=========
 ===from:Eppert, Michelle
 ===date:Wed Aug  2 17:23:35 2000

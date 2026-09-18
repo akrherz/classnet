@@ -11,7 +11,7 @@
 Select the type of the assignment and enter its name (limit 15 characters).
 For certain types of assignments, an initial file can be used to create
 the assignment (not yet implemented).<BR>
-Click on <STRONG>Add</STRONG> when done. 
+Click on <STRONG>Add</STRONG> when done.
 <H4><CENTER>Assignment Types</CENTER>
 </H4>
 <UL>
@@ -41,11 +41,11 @@ responses may be viewed by using the Data option to view the raw
 data.<BR><BR>
 
   <LI><STRONG><A HREF="dialog.html">DIALOG</A></STRONG> - A dialog
-assignment allows for private, ongoing, asynchronous conversations 
-between instructors  and students. These conversations are stored by 
+assignment allows for private, ongoing, asynchronous conversations
+between instructors  and students. These conversations are stored by
 ClassNet and thus can be
-analyzed and synthesized for research purposes at a later date. This 
-assignment is ideal for students in areas such as teacher education and 
+analyzed and synthesized for research purposes at a later date. This
+assignment is ideal for students in areas such as teacher education and
 counselor education who wish to hold practice conversations with
 secondary/elementary students/clients.<BR>
 <BR>

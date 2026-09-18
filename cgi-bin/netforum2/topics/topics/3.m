@@ -3,7 +3,7 @@
 ===institution:Albert City-Truesdale HS
 ===date:Tue Jan  6 20:24:16 1998
 ===subject:Assignment #1
-===message:Hi.  My name is Dallas Crowley.  (I know.  Most people with the name Dallas are guys, but I'm an exception.)  I'm a sophomore in high school and would very much like to be a biologist.  Right now, my main interest is is marine biology with an emphasis on the cognitive intelligence of cetaceans.  However, after my first biology course, I find that I'm also interested in genetics.  I am on the school's varsity Drill Team (we placed third at state!), was manager of the volleyball team, and I' currently inolved in large group speech (reader's theater).  I'm the oldest of two kids (my little brother is only two).  As to what I hope to gain from this course, I mostly hope to gain a strong foundation for future courses in biology.  
+===message:Hi.  My name is Dallas Crowley.  (I know.  Most people with the name Dallas are guys, but I'm an exception.)  I'm a sophomore in high school and would very much like to be a biologist.  Right now, my main interest is is marine biology with an emphasis on the cognitive intelligence of cetaceans.  However, after my first biology course, I find that I'm also interested in genetics.  I am on the school's varsity Drill Team (we placed third at state!), was manager of the volleyball team, and I' currently inolved in large group speech (reader's theater).  I'm the oldest of two kids (my little brother is only two).  As to what I hope to gain from this course, I mostly hope to gain a strong foundation for future courses in biology.
 =========yorg=========
 ===from:Eric Underbakke
 ===email:eundrbak@iastate.edu
@@ -14,15 +14,15 @@
 ===from:Jay Berkey
 ===email:athlone@iastate.edu
 ===date:Sat Jan 10 21:16:35 1998
-===subject: 
+===subject:
 ===message:Howdy!
 Let me tell you all a bit about myself.
- 
-I'm a senior in Environmental Science in the college of Agriculture.  I'm set to graduate in December of '98, and from there I'd like to work for any government agency, state or federal, who'll have me.  My interests are mainly in the soil sciences/conservation.  
- 
+
+I'm a senior in Environmental Science in the college of Agriculture.  I'm set to graduate in December of '98, and from there I'd like to work for any government agency, state or federal, who'll have me.  My interests are mainly in the soil sciences/conservation.
+
 I look forward to working with you all.  I'm open and eager for discussions about 202.  Take care,
 
-Jay 
+Jay
 =========yorg=========
 ===from:Jay Berkey
 ===email:athlone@iastate.edu
@@ -30,12 +30,12 @@ Jay
 ===subject: Submit Assignment 1
 ===message:Howdy!
 Let me tell you all a bit about myself.
- 
-I'm a senior in Environmental Science in the college of Agriculture.  I'm set to graduate in December of '98, and from there I'd like to work for any government agency, state or federal, who'll have me.  My interests are mainly in the soil sciences/conservation.  
- 
+
+I'm a senior in Environmental Science in the college of Agriculture.  I'm set to graduate in December of '98, and from there I'd like to work for any government agency, state or federal, who'll have me.  My interests are mainly in the soil sciences/conservation.
+
 I look forward to working with you all.  I'm open and eager for discussions about 202.  Take care,
 
-Jay 
+Jay
 =========yorg=========
 ===from:Tom Ingebritsen
 ===email:tsingebr@iastate.edu
@@ -97,7 +97,7 @@ I'll see ya when i see ya....
 ===institution:ISU
 ===date:Mon Jan 12 20:38:53 1998
 ===subject:Submit Assignment 1
-===message:Hi!  My name’s Bill Rockey, and I’m a junior in chemical engineering from Davenport, IA.  After I graduate from ISU, I’m planning to go to medical school at the University of Iowa.  My hobbies include reading (literature, mysteries, and a little science fiction), computers, and macramé (just kidding).  I’m taking the web section because this format has the possibility of becoming The Next Big Thing in education, and I’m eager to get a sampling.  (Besides, pilgrimages to Mole-Bio in -20° weather do have their downside.)  
+===message:Hi!  My name’s Bill Rockey, and I’m a junior in chemical engineering from Davenport, IA.  After I graduate from ISU, I’m planning to go to medical school at the University of Iowa.  My hobbies include reading (literature, mysteries, and a little science fiction), computers, and macramé (just kidding).  I’m taking the web section because this format has the possibility of becoming The Next Big Thing in education, and I’m eager to get a sampling.  (Besides, pilgrimages to Mole-Bio in -20° weather do have their downside.)
 =========yorg=========
 ===from:Lindsey Waddell
 ===email:lwaddell@iastate.edu
@@ -115,17 +115,17 @@ I'll see ya when i see ya....
 ===email:cato@iastate.edu
 ===date:Tue Jan 13 17:17:17 1998
 ===subject:Submit Assignment 1
-===message:Hello, my name is Dave Cohen.  I'm from Eden Prairie, MN.  I'm a freshman majoring in Biophysics.  I like most music except country, it hurts my ears.  I've got two brothers (20&14) and one sister (12).  I took this class 'cause I thought it'd be interesting to do something like this.  
+===message:Hello, my name is Dave Cohen.  I'm from Eden Prairie, MN.  I'm a freshman majoring in Biophysics.  I like most music except country, it hurts my ears.  I've got two brothers (20&14) and one sister (12).  I took this class 'cause I thought it'd be interesting to do something like this.
 =========yorg=========
 ===from:Martina Rusch
 ===email:marti@iastate.edu
 ===date:Wed Jan 14 17:21:12 1998
 ===subject:Assignment #1
-===message:Hi my name is Martina Rusch, but I go by Marti.  I'm a junior 
-in dietetics and I'm looking forward to trying a different 
+===message:Hi my name is Martina Rusch, but I go by Marti.  I'm a junior
+in dietetics and I'm looking forward to trying a different
 way of taking a class.  And I'm thinking wow  even though
-I thought this class would be a lot less personal than 
-taking the usual lecture --it's actual more personal because 
+I thought this class would be a lot less personal than
+taking the usual lecture --it's actual more personal because
 we're all posting info about ourselves.  Good luck to everyone
 in this class!
 =========yorg=========
@@ -138,13 +138,13 @@ in this class!
 ===email:csmith@mount-ayr.k12.ia.us
 ===date:Thu Jan 15 12:35:52 1998
 ===subject:Assignment #1
-===message:My name is Casey Smith and I am a senior here at Mount Ayr Community and I am taking this course because I like the web teaching enviroment.  I love all sports and especially track. I am planning on majoring in athletic training or respiratory therapy.  I am undecided on where I want to go to college at but hopefully I will decide in the near future. 
+===message:My name is Casey Smith and I am a senior here at Mount Ayr Community and I am taking this course because I like the web teaching enviroment.  I love all sports and especially track. I am planning on majoring in athletic training or respiratory therapy.  I am undecided on where I want to go to college at but hopefully I will decide in the near future.
 =========yorg=========
 ===from:Nikkoli Dollinger
 ===email:NKoli8922@aol.com
 ===date:Thu Jan 15 13:13:41 1998
-===subject:Assignment 1 
-===message:Hi!  My name is Nikkoli Dollinger, I live in Des Moines.  I was previously at ISU as an Art major.  I am currently working on my BSN at Grand View.  This class is not required for my BSN, but I find biology interesting and liked the idea of trying an internet class.  I work at Iowa Methodist in the emergency room as a tech.  I love animals and the outdoors.  
+===subject:Assignment 1
+===message:Hi!  My name is Nikkoli Dollinger, I live in Des Moines.  I was previously at ISU as an Art major.  I am currently working on my BSN at Grand View.  This class is not required for my BSN, but I find biology interesting and liked the idea of trying an internet class.  I work at Iowa Methodist in the emergency room as a tech.  I love animals and the outdoors.
 =========yorg=========
 ===from:Ross Laubscher
 ===date:Thu Jan 15 14:11:24 1998
@@ -172,12 +172,12 @@ in this class!
 ===email:msogard@rocketmail.com
 ===date:Fri Jan 16 12:09:27 1998
 ===subject:Assignment 1
-===message:	My name is Matt Sogard.  I am an 18 year old senior at Eldora-New Providence High School.  I am very active in athletics.  I play football, basketball, baseball, and golf.   I was 1st Team All-State Class 1A quarterback in football, and my team went 7-2.  My junior year we were 9-2 and advanced to the state play-off quarter-finals.  
-Sports are a passion for me.  When I'm not participating, I can  usually be found watching or reading about sports.  I love most all outdoor activities, especially golf.  
-After high school I am undecided on where I am going to college.  I have it narrowed down to a few choices, but I'm clueless after that.  I may play football, but that would be second to acedemics.  I am planning on entering the medical field.  I have spent many hours at my local hospital and even a few in the ER at Iowa Methodist.  Medicine is definately in my future.  
+===message:	My name is Matt Sogard.  I am an 18 year old senior at Eldora-New Providence High School.  I am very active in athletics.  I play football, basketball, baseball, and golf.   I was 1st Team All-State Class 1A quarterback in football, and my team went 7-2.  My junior year we were 9-2 and advanced to the state play-off quarter-finals.
+Sports are a passion for me.  When I'm not participating, I can  usually be found watching or reading about sports.  I love most all outdoor activities, especially golf.
+After high school I am undecided on where I am going to college.  I have it narrowed down to a few choices, but I'm clueless after that.  I may play football, but that would be second to acedemics.  I am planning on entering the medical field.  I have spent many hours at my local hospital and even a few in the ER at Iowa Methodist.  Medicine is definately in my future.
 E-mail me any time at msogard@rocketmail.com.
 
-Matt 
+Matt
 =========yorg=========
 ===from:Jonathan Mullin
 ===email:amullin@nishna.net
@@ -249,8 +249,8 @@ Anyway, looking forward to communicating with you over the next few months.
 ===subject:For fun?
 ===message:Hello
    My name is Roxanne Sweney. I am a senior at ISU majoring in Nutrition Science. My original major was Biochemistry, but I changed majors because I wanted to emphasize metabolic systems, rather than molecular systems. My interest lies in medical research. I would like to do some exploring in the realm of neurobiology, and perhaps research the mind/body connection more closely. I know that this is a vast topic of interest, but I am still learning, so I am starting general.
-    My other interests include reading literature of all kinds, writing poetry, and running. I am currently on the ISU Women's Rugby team, a sprot which aids me graetly in reducing and relieving stress! 
-   
+    My other interests include reading literature of all kinds, writing poetry, and running. I am currently on the ISU Women's Rugby team, a sprot which aids me graetly in reducing and relieving stress!
+
 =========yorg=========
 ===from:Damon Johnson
 ===date:Wed Jan 28 11:09:37 1998
@@ -276,7 +276,7 @@ I guess that is me in a nutshell.
 ===from:Cinda Dixon
 ===date:Wed Jan 28 23:52:03 1998
 ===subject:Submit Assignment 1
-===message:I guess I seem to be in pretty much the same boat as everyone else taking this class on the web.  I hate sitting in boring lectures and this seemed like a good idea. And that nasty F on my record is not good.  But anyways.I am a junior in Pre-BPMI and Fine Arts.  Biology is basically my major right now.  I am from northeast Iowa, New Hampton if you are familiar with the area.  I love to play volleyball and draw and paint.  I enjoy spending time with friends.  
+===message:I guess I seem to be in pretty much the same boat as everyone else taking this class on the web.  I hate sitting in boring lectures and this seemed like a good idea. And that nasty F on my record is not good.  But anyways.I am a junior in Pre-BPMI and Fine Arts.  Biology is basically my major right now.  I am from northeast Iowa, New Hampton if you are familiar with the area.  I love to play volleyball and draw and paint.  I enjoy spending time with friends.
 =========yorg=========
 ===from:Kathleen Block
 ===email:kblock@iastate.edu
@@ -299,7 +299,7 @@ Kat
 ===email:jnisly@kctc.net
 ===date:Thu Jan 29 20:31:10 1998
 ===subject:Submit Assignment 1
-===message:I am taking this class to complete my principles of biology course requirements.  I took Biology 201 last semester.  I am returning to school to pursue a Bachelor of Liberal Studies degree focusing on natural sciences.  I'm still considering whether or not I'll go on to get a masters degree.  
+===message:I am taking this class to complete my principles of biology course requirements.  I took Biology 201 last semester.  I am returning to school to pursue a Bachelor of Liberal Studies degree focusing on natural sciences.  I'm still considering whether or not I'll go on to get a masters degree.
 
 I'm 35 years old, married and have a 16 month old daughter, which I take care of for four days a week, I'm a landlord, I'm dabbling in real estate development and I'm in the middle of starting a greenhouse business.  I hope this class will help me in my business venture.  All of this keeps me quite busy, to say the least.  I'm from Kalona, Iowa and my wife is from Brazil.  One of my favorite hobbies is traveling.  I've traveled quite a bit in Brazil; been to the Amazon and traveled by car between Recife and Rio de Janeiro several times.
 =========yorg=========

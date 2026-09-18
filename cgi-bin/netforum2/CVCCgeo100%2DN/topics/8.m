@@ -5,7 +5,7 @@
 =========yorg=========
 ===from:Chris Hall
 ===date:Sun Mar  9 15:14:53 2003
-===subject:Is Russia Important? 
+===subject:Is Russia Important?
 ===message:Russia is still important in that recently it has gained international interest in regard to its potential oil and gas wealth. Russia is also slowly moving into a capitalist economy, which would benefit the entire region that has been recently declining in growth and social status.
 =========yorg=========
 ===from:Chazie Brown
@@ -32,7 +32,7 @@
 ===from:Amanda Blackwell
 ===date:Wed Mar 12 21:38:15 2003
 ===subject:Is Russia Important?
-===message:I do belive that Russia is important. They have not always made the right decisions. Also there leaders have not faced them in the right direction, many were to selfish. They have beautiful landforms and sites. As long as they keep their weapons under control I am ok. 
+===message:I do belive that Russia is important. They have not always made the right decisions. Also there leaders have not faced them in the right direction, many were to selfish. They have beautiful landforms and sites. As long as they keep their weapons under control I am ok.
 =========yorg=========
 ===from:mona shorter
 ===date:Thu Mar 13 10:28:29 2003

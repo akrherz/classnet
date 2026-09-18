@@ -1,12 +1,12 @@
 ===from:byrd
 ===date:Thu Feb 20  6:40:09 2003
 ===subject:Europe and immigration
-===message:Why does Europe need immigrants? Why do they oppose immigration? Is it racism? Is it Nationalism? Ignorance? Fear? What does it mean to be "French" or German" or "English"? Are those identities as flexible as "American"? 
+===message:Why does Europe need immigrants? Why do they oppose immigration? Is it racism? Is it Nationalism? Ignorance? Fear? What does it mean to be "French" or German" or "English"? Are those identities as flexible as "American"?
 =========yorg=========
 ===from:Donna Grimes
 ===date:Sun Feb 23 12:43:49 2003
 ===subject:Europe and immigration
-===message:America sounds a lot like Europe when it comes to immigration. There are pros as well as cons. Europe was in a crisis needing more workers. At the time the guest workers helped out. The bad part of it was when they wanted to stay, Europe didnt want them to be apart of their country.I guess European people felt as though they would take over, they were already doing the jobs that no one else wanted.In today society, we as America have a very similiar problem, But want is so crazy, we as American send our factories over seas just to get a cheaper product(paying cheaper wages) this in return cost America a lot of jobs. 
+===message:America sounds a lot like Europe when it comes to immigration. There are pros as well as cons. Europe was in a crisis needing more workers. At the time the guest workers helped out. The bad part of it was when they wanted to stay, Europe didnt want them to be apart of their country.I guess European people felt as though they would take over, they were already doing the jobs that no one else wanted.In today society, we as America have a very similiar problem, But want is so crazy, we as American send our factories over seas just to get a cheaper product(paying cheaper wages) this in return cost America a lot of jobs.
 =========yorg=========
 ===from:Morgan Calloway
 ===date:Sun Feb 23 16:26:54 2003
@@ -47,11 +47,11 @@
 ===from:Stephanie Brown
 ===date:Wed Feb 26 18:19:37 2003
 ===subject:Europe Immigration
-===message:I don’t believe that immigration is extremely vital in Europe’s future for economic growth (or any type of growth).  It seems as though Europe is reluctant to do the jobs that they now need immigrants to do.  What’s wrong with training the unemployed and underemployed?  Yes, Europe has a problem with the aging population, but I think they see immigration only as a delay in the problem.  It’s hardly a solution.  I think they might also rebuke the idea, not because of hatred or prejudices, but because they link immigration to rising crime rates. 
+===message:I don’t believe that immigration is extremely vital in Europe’s future for economic growth (or any type of growth).  It seems as though Europe is reluctant to do the jobs that they now need immigrants to do.  What’s wrong with training the unemployed and underemployed?  Yes, Europe has a problem with the aging population, but I think they see immigration only as a delay in the problem.  It’s hardly a solution.  I think they might also rebuke the idea, not because of hatred or prejudices, but because they link immigration to rising crime rates.
 =========yorg=========
 ===from:Tiffany Wimmer
 ===date:Wed Feb 26 19:54:49 2003
-===subject:European Immigration 
+===subject:European Immigration
 ===message:Europe needs immigration to meet economic needs in the work force because of lower birth rates.    They fear immigration though because they feel like immigrants are taking over their country and their jobs.
 =========yorg=========
 ===from:Leah Kessler
@@ -73,12 +73,12 @@
 ===email:ssgsoja@hotmail.com
 ===date:Wed Feb 26 22:24:50 2003
 ===subject:Europe/Immigrants
-===message:Europe needs immigrants because they played a vital role as fill-ins during the 1960's to help rebuild. They were invited to Europe to earn a nest egg and go home, however life was better for immigrants in Europe, so they were able to live somewhat comfortably and send money back to their parents. This is where the opposition comes in. Now you have invited guess that are not willing to leave. There could be a hint of racism but some of the main issues facing Europeans are loss of jobs for less expensive labor, mixing of races according to right-wing parties. The bottom line is Europe has to look at the situation as something they brought on themselves. If you invite immigrants into your country and they find out the grass is greaner on the other side of the fence, they deserve to stay. It is ignorant to attempt to push immigrants out of the country after they help rebuild the country. The fear part of it is Europe never will know which one or two of those immigrants might rise up and become a strong political figure. I do think it is a good idea to regulate closely who becomes a citizen and who does not. Hind sight being 20/20, Germany makes it extremely difficult to become a citizen, which will give them time to reevaluate the services of immigrants already there. 
+===message:Europe needs immigrants because they played a vital role as fill-ins during the 1960's to help rebuild. They were invited to Europe to earn a nest egg and go home, however life was better for immigrants in Europe, so they were able to live somewhat comfortably and send money back to their parents. This is where the opposition comes in. Now you have invited guess that are not willing to leave. There could be a hint of racism but some of the main issues facing Europeans are loss of jobs for less expensive labor, mixing of races according to right-wing parties. The bottom line is Europe has to look at the situation as something they brought on themselves. If you invite immigrants into your country and they find out the grass is greaner on the other side of the fence, they deserve to stay. It is ignorant to attempt to push immigrants out of the country after they help rebuild the country. The fear part of it is Europe never will know which one or two of those immigrants might rise up and become a strong political figure. I do think it is a good idea to regulate closely who becomes a citizen and who does not. Hind sight being 20/20, Germany makes it extremely difficult to become a citizen, which will give them time to reevaluate the services of immigrants already there.
 
 
 =========yorg=========
 ===from:Chazie Brown
 ===date:Wed Feb 26 22:34:15 2003
 ===subject:Immigration
-===message:I don't think Europe needs immigrants;(because it's people can do the work) they are just taking advantage of the fact that immigrants are desperate and will work for a lot less than the people of Europe would. I assume that immigration is being opposed because the fear of immigrants becoming wiser. For example, Immigrants start opening their own businesses, working for themselves, distributing their products, and making a profit for themselves. It probably would start total caos. Personally, I feel if someone wants to work( no matter the situation) that person should be considered and treated as anyone in any country. 
+===message:I don't think Europe needs immigrants;(because it's people can do the work) they are just taking advantage of the fact that immigrants are desperate and will work for a lot less than the people of Europe would. I assume that immigration is being opposed because the fear of immigrants becoming wiser. For example, Immigrants start opening their own businesses, working for themselves, distributing their products, and making a profit for themselves. It probably would start total caos. Personally, I feel if someone wants to work( no matter the situation) that person should be considered and treated as anyone in any country.
 =========yorg=========

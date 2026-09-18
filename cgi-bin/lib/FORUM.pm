@@ -4,7 +4,7 @@ require ERROR;
 
 sub new {
    my ($fname,$fowner,$femail) = @_;
-   require "$GLOBALS::FORUM_DIR/lib/cgi-lib.pl"; 
+   require "$GLOBALS::FORUM_DIR/lib/cgi-lib.pl";
    require "$GLOBALS::FORUM_DIR/lib/sys_config";
    require "$GLOBALS::FORUM_DIR/lib/main";
    require "$GLOBALS::FORUM_DIR/lib/forum_config";
@@ -44,7 +44,7 @@ comments when you create a new topic.
 
 sub edit_discussion {
    my($query) = @_;
-   require "$GLOBALS::FORUM_DIR/lib/cgi-lib.pl"; 
+   require "$GLOBALS::FORUM_DIR/lib/cgi-lib.pl";
    require "$GLOBALS::FORUM_DIR/lib/sys_config";
    require "$GLOBALS::FORUM_DIR/lib/main";
    require "$GLOBALS::FORUM_DIR/lib/forum_config";
@@ -64,10 +64,10 @@ sub edit_discussion {
    $in{'owner_code'} = 'cnet';
    $netforum_url = "$base_url/admin/admin";
 
-   # Save instructor info in file to allow immediate navigation 
+   # Save instructor info in file to allow immediate navigation
    # back to initial netforum page. Alleviates necessity to go back
    # in the browser or to hit "Edit Discussion" again.
-   open(NAV_INFO, ">$GLOBALS::FORUM_DIR/$in{'forum_code'}/cnet_navigation_info") or 
+   open(NAV_INFO, ">$GLOBALS::FORUM_DIR/$in{'forum_code'}/cnet_navigation_info") or
        &ERROR::system_error("FORUM","edit_discussion","open","saving instructor info");
    print NAV_INFO "Class Name=$query->{'Class Name'}->[0]\nUsername=$query->{'Username'}->[0]\n";
    print NAV_INFO "Password=$query->{'Password'}->[0]\ncn_option=$query->{'cn_option'}->[0]\n";
@@ -95,13 +95,13 @@ sub archive {
    my $dname = "$GLOBALS::ARCHIVE_ROOT_DIR/forums";
    system("cp -r $GLOBALS::FORUM_DIR/$fname $dname") and
        ERROR::system_error(FORUM,"archive","cp -r","$GLOBALS::FORUM_DIR/$fname:$!");
-   system("rm -r $GLOBALS::FORUM_DIR/$fname") and	
+   system("rm -r $GLOBALS::FORUM_DIR/$fname") and
        ERROR::system_error(FORUM,"archive","rm -r","$GLOBALS::FORUM_DIR/$fname:$!");
 
    # Must remove line from netforum2/admin/forumlist
    my $forum_file = "$GLOBALS::FORUM_DIR/admin/forumlist";
    # Get list of forum lines
-   open(FORUM_LIST, "<$forum_file") or 
+   open(FORUM_LIST, "<$forum_file") or
        &ERROR::system_error("FORUM","archive","first Open",$forum_file);
    my @forum_list = <FORUM_LIST>;
    close(FORUM_LIST);
@@ -109,7 +109,7 @@ sub archive {
 
    my $i;
    for ($i = 0; $i < @forum_list; $i++) {
-       ($cur_class_name) = split(/:/,$forum_list[$i]);   
+       ($cur_class_name) = split(/:/,$forum_list[$i]);
        ($fname eq $cur_class_name) and
        	   last;
    }
@@ -117,10 +117,10 @@ sub archive {
        ERROR::system_error("FORUM","archive","for loop","$fname not found in $forum_file");
    }
    else {
-       splice(@forum_list,$i,1);   
+       splice(@forum_list,$i,1);
    }
-   
-   open(FORUM_LIST, ">$forum_file") or 
+
+   open(FORUM_LIST, ">$forum_file") or
        	   ERROR::system_error("FORUM","archive","Second Open",$forum_file);
    $, = "\n";
    print FORUM_LIST @forum_list;

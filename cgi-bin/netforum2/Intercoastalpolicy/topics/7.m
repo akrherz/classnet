@@ -14,7 +14,7 @@ Of course there is the official United Nation's website regarding the Johannesbu
 <p>
 Stakeholder Forum posts www.earthsummit2002.org.  They are the facilitators working with the United Nations during the preparations for the Rio+10 conference.  So, keeping in mind who their bosses are, this website's information compliments the official UN site.  My impression of the site is somewhat of a progress report (i.e.  Look what we're doing for you).  Afterall, if the conference prep is running smoothly on its own, who needs a facilitator? If nothing is running well, then this facilitator isn't doing its job.  So, look at the 50-100 people we're bringing together to agree on the top 5 key (workable) issues and develop action plans just in time to demonstrate progress.
 <p>
-NGO organizations such as WorldWatch and the International Institute for Environment and Development act as the government watchdogs.  Their purpose is to view progress, highlighting the positive changes and the ongoing obstacles.  They provide "Green" interpretations of the official Rio+10 information. 
+NGO organizations such as WorldWatch and the International Institute for Environment and Development act as the government watchdogs.  Their purpose is to view progress, highlighting the positive changes and the ongoing obstacles.  They provide "Green" interpretations of the official Rio+10 information.
 <p>
 The International Institute of Sustainable Development is a group of lawyers, PhDs and PhD candidates that specialize in international environmental and development relations.  They publish the Earth Negotiations Bulletin which summarizes proceedings such as Rio+10.  These legal briefs can then be used by others to stay informed regarding upcoming legislation and compliance.  Or they can be used to sue governements that are not in compliance with their own environmental laws.
 <p>
@@ -26,7 +26,7 @@ Let's not forget the Business Sustainable Development Global.com site.  This is 
 ===email:fjohn@nova.edu
 ===date:Tue Mar 19 13:08:58 2002
 ===subject:What's My Motivation?
-===message:Any international initiative with such a wide-sweeping scope as the Johannesburg Summit is bound to attract the attention of a number of entities with wide-ranging motivations.  There are many subtleties and nuances, but most boil down to two basic elements; money being the most prevalent and personal conviction a distant second.   
+===message:Any international initiative with such a wide-sweeping scope as the Johannesburg Summit is bound to attract the attention of a number of entities with wide-ranging motivations.  There are many subtleties and nuances, but most boil down to two basic elements; money being the most prevalent and personal conviction a distant second.
 <p>
 1.  National Agendas
 <p>
@@ -38,11 +38,11 @@ Let's not forget the Business Sustainable Development Global.com site.  This is 
 <p>
 ·  From a personnel perspective, the Johannesburg Summit has importance beyond its intended objectives, namely job security.  For as long as these discussions remain in the international spotlight, its participants are reasonably assured of continued employment.
 <p>
-·  From an interdepartmental perspective, individual government organizations are competing against each other for funding. 
+·  From an interdepartmental perspective, individual government organizations are competing against each other for funding.
 <p>
 3.  NGO Agendas
 <p>
-·  The motivation of NGO participants tends to be more personal, and typically more idealistic.  Their involvement stems from a need to positively steer proceedings towards what they consider an environmentally-friendly direction.  
+·  The motivation of NGO participants tends to be more personal, and typically more idealistic.  Their involvement stems from a need to positively steer proceedings towards what they consider an environmentally-friendly direction.
 <p>
 4.  Academic Agendas
 <p>
@@ -52,7 +52,7 @@ Let's not forget the Business Sustainable Development Global.com site.  This is 
 <p>
 5.  Private Sector Agendas
 <p>
-·  These conferences have created a new industry for ICZM consultants, who are busily positioning themselves for the expected windfall. 
+·  These conferences have created a new industry for ICZM consultants, who are busily positioning themselves for the expected windfall.
 
 =========yorg=========
 ===from:Rebekah Walker
@@ -75,13 +75,13 @@ Now, I am not saying that any of these sites were done poorly or that their agen
 ===from:Kelly Adams
 ===date:Wed Mar 20 18:14:13 2002
 ===subject:websites galore
-===message:  After looking over some of the web sites on the upcoming Johannesburg  world summit, I have concluded that there is a lot of information out there about it.  The different web sites are formed by a number of different organizations like the Worldwatch institute, the United Nations, the Heinrich Böell Foundation, the International Institute for Sustainable Development, and many more. From the information that I read it seems like one of the main agendas aside from sustainable development is the eradication of poverty. A lot of the information I read seemed like the main concern would be to assess progess made in the implementation of Agenda 21 from the World Summit of 1992. The concern is not with implementing new polices, but looking at what has worked and what things need work. And of course there are politics involved- politics are involved in almost every matter of business.   
+===message:  After looking over some of the web sites on the upcoming Johannesburg  world summit, I have concluded that there is a lot of information out there about it.  The different web sites are formed by a number of different organizations like the Worldwatch institute, the United Nations, the Heinrich Böell Foundation, the International Institute for Sustainable Development, and many more. From the information that I read it seems like one of the main agendas aside from sustainable development is the eradication of poverty. A lot of the information I read seemed like the main concern would be to assess progess made in the implementation of Agenda 21 from the World Summit of 1992. The concern is not with implementing new polices, but looking at what has worked and what things need work. And of course there are politics involved- politics are involved in almost every matter of business.
 =========yorg=========
 ===from:Matt Mitchell
 ===email:mitchelm@nova.edu
 ===institution:NSUOC
 ===date:Thu Mar 21 12:50:33 2002
-===subject:Environmental 
+===subject:Environmental
 ===message:    Essentially, each of the web sites showcase the same basic information, with their own twist...so to speak.  The official conference site displays the published information. This should be expected. It focuses more on the political side of the conference.  The other sites use the conference as a forum to showcase their products, ideas etc...For instance, the Business and Sustainable Development site focuses on it's views of the economics of the conference and programs that have/will result for the conference.
    The Worldwatch site is more about the environmental aspects of the conference.  But, the "twist" is that worldwatch is also selling its collection of papers to you...the concerned environmentalist.  So yeah, it's good information, if you want to pay for it.
    The Oceans and Coasts site seems typical of an NGO.  the site explains how/what and why the organization is involved.  It even offers up accomidations for those of us interested or able to attend the conference. yippee.
@@ -93,12 +93,12 @@ Now, I am not saying that any of these sites were done poorly or that their agen
 ===subject:The Web Road to Rio+10
 ===message:Overall I was pleased with the Official Joburg website.  Like most governmental sites it was sanitized and generally made for public information without fanning much emotion on the underlying issses.  Having noted that and expressing a bit of cynicism ( a part of the discussion), I decided to find the originators of some of the web pages.  It is no surprise as a businessman I enjoyed the business pontential and surrounding new technologies and latest seminares found on the bsd.global.com page. It was  cear , user friendly and highly informative, up to dat (six days old) and listed future conferences and their web registration sites all economically efficient.  It also had a thorough listing of conference sponsers and even web page sponsers.  From the business world if a NGO or business partner will help sponsor your event, they will do so again! Good news for future employment?  Not all that companies monies is going towards developement/advertising. The worldwatch.org and the iied.org were very interesting and loaded with information.  So much information you wished for a screen that dealt only with marine issues.  The fact some of our acedemic kin are selling their "research" is no surprise and as a capitalist highly encouraging.  I just remember my MBA instructors saying to review your source documentation and its aurthor.   I was surprised that I could not access the IIed home page, but again plenty of ready information in a legal and potential business opportunities (if your up on the latest laws you can tailor existing technologies and markets) were here.  One negative note found through the links was  the Bonn.www-2001 page.  I accessed the home page but the actual conference papers did not download without saving them in the hard drive and then when I accessed it (after 11 min) it did not transfer into a word-98 document, a little techno reality check.  ( needless to say I will not be doing quest 1 or 2. Finally I wonder if the University of Delaware has a more than academic/environmental interest in Johannesburg 2002.  There are plenty of references to the school, even outside its website.  Could that Du-Pont money be trickling down from plastics research/factories?.  I wonder where all the other US and international education institutions are?
 =========yorg=========
-===from:Ian 
+===from:Ian
 ===date:Sat Mar 23 16:53:12 2002
 ===subject:Questioning Motivation
-===message:I would just like to preface this discussion by saying that i am a environmentalist first, a politocrat second (or maybe a distant third)  That said, i strongly feel that several of the websites we out there not for general educational purposes, but rather to satisfy various agendas (and i am not talking about #21).  I have read several pieces of literature that have hinted at the strong anti-american sentiment at the Rio 1992 convention....one specific incident describes an exchange between a liberal Democratic senator from the Midwest and a representative from a central African country.  the African was berating the American for not channeling enough money towards the third world (cause we don't give them ANY money, right?) to which the senator replied we would, if the third world would make the slightest effort at cleaning up their corrupt governments. 
-Nice.  I saw similar sentiments in some of the websites.  Here are a couple of observations. I am going to withhold any strong opinions...i don't they will be nessecary.  The IIED page pushes the poor-rich interface....and all of their staff is British, with the chair writing an article called "poverty and plenty" (another staff member, from Quebec,  worked on the I.C. of Social Welfare....) 
-The BSD page was obviously a $$$$$$ site perhaps masked with sustainable development...see some of there goals? 1) Access to markets, 2) Access to finance & foreign investments (access for who?....rich corporations using sustainable development as a lever?)  
+===message:I would just like to preface this discussion by saying that i am a environmentalist first, a politocrat second (or maybe a distant third)  That said, i strongly feel that several of the websites we out there not for general educational purposes, but rather to satisfy various agendas (and i am not talking about #21).  I have read several pieces of literature that have hinted at the strong anti-american sentiment at the Rio 1992 convention....one specific incident describes an exchange between a liberal Democratic senator from the Midwest and a representative from a central African country.  the African was berating the American for not channeling enough money towards the third world (cause we don't give them ANY money, right?) to which the senator replied we would, if the third world would make the slightest effort at cleaning up their corrupt governments.
+Nice.  I saw similar sentiments in some of the websites.  Here are a couple of observations. I am going to withhold any strong opinions...i don't they will be nessecary.  The IIED page pushes the poor-rich interface....and all of their staff is British, with the chair writing an article called "poverty and plenty" (another staff member, from Quebec,  worked on the I.C. of Social Welfare....)
+The BSD page was obviously a $$$$$$ site perhaps masked with sustainable development...see some of there goals? 1) Access to markets, 2) Access to finance & foreign investments (access for who?....rich corporations using sustainable development as a lever?)
 The last site that i took a little umbridge with was the UN page.....In an address from one of the ministers, he states that the events of 9/11 suggest that " we are in one world  and no part of the world can afford to ignore any other"  Maybe the UN hierarchy should practice what they preach....as i recall, they we one of the last groups to release statements of condemnation and one of the last to visit the ground zero.....AND THEY ARE BASED IN THE SAME GODDAMN CITY!!!  Makes no sense to me.
 Not all the pages were suspicious.  The Worldwatch page was solid, as was the sustainable development page and the Oceans and Coasts Confrence.  Regardless, i was left a bit bitter.....i still think that the US is wearing a bullseye not only with militant muslims, but with many leaders of world governmen..... perhaps understandably so - that doesn't mean i have to like it.
 =========yorg=========
@@ -115,7 +115,7 @@ Not all the pages were suspicious.  The Worldwatch page was solid, as was the su
 ===institution:Nova
 ===date:Tue Mar 18 13:25:59 2003
 ===subject:Rio +10 websites
-===message:Wow - there is so much information about the Joburg conference on the internet that I got a headache trying to sort through it all. The information related to Rio +10 is presented by the UN, IISD, IIED, BSD global, University of Delaware, Stakeholder Forum, Heirich Boell Foundation...the list goes on. For the most part these websites did a good job of detailing the conference and its issues. The UN site was, of course, the most straight forward and unbiased. The other sites outline the same information at varying magnitudes of detail, but most do have underlying agendas. Lets face it there is always an agenda and whether they are environmental, politcal, economic or even personal depends on who or what the sites are dealing with. The different sort of agendas involved in this particular topic demonstrate that politics are very important in all of this. Unfortunately, because there is so much politics involved I wonder what this conference and others like are truly accomplishing. And will all of this lead to any effective IICZM measures or do we need a new approach? 
+===message:Wow - there is so much information about the Joburg conference on the internet that I got a headache trying to sort through it all. The information related to Rio +10 is presented by the UN, IISD, IIED, BSD global, University of Delaware, Stakeholder Forum, Heirich Boell Foundation...the list goes on. For the most part these websites did a good job of detailing the conference and its issues. The UN site was, of course, the most straight forward and unbiased. The other sites outline the same information at varying magnitudes of detail, but most do have underlying agendas. Lets face it there is always an agenda and whether they are environmental, politcal, economic or even personal depends on who or what the sites are dealing with. The different sort of agendas involved in this particular topic demonstrate that politics are very important in all of this. Unfortunately, because there is so much politics involved I wonder what this conference and others like are truly accomplishing. And will all of this lead to any effective IICZM measures or do we need a new approach?
 =========yorg=========
 ===from:Michelle Cho
 ===date:Thu Mar 20 12:17:59 2003
@@ -133,7 +133,7 @@ Not all the pages were suspicious.  The Worldwatch page was solid, as was the su
 ===from:Laura Kukich
 ===date:Tue Mar 25 19:58:11 2003
 ===subject:Rio +10
-===message:There are a ton of websites on Rio +10. And searching through all of them takes a lot of time a patience to get through the "WOW!" and "look at this" parts and actually understand what each website was about. They all had a theme running through them with their own twist on how thier organization or area or department etc was a great asset and what they believe so it was difficult to navigate through all the jargon on some sites. Most sites had links to other sites and even more sites. It was difficult to figure out where I started from at some points. 
+===message:There are a ton of websites on Rio +10. And searching through all of them takes a lot of time a patience to get through the "WOW!" and "look at this" parts and actually understand what each website was about. They all had a theme running through them with their own twist on how thier organization or area or department etc was a great asset and what they believe so it was difficult to navigate through all the jargon on some sites. Most sites had links to other sites and even more sites. It was difficult to figure out where I started from at some points.
 I do believe there to be some political issues underlying all of them, which is unforatunate but, true for anything these days. So whoever can swing the legislative leaders in thier direction gets what they need. But all were very informative and interesting to me, just to see how each type of area is affected and what they are looking to accomplish.
 =========yorg=========
 ===from:Amy  Diamond

@@ -51,13 +51,13 @@ sub new {
    } else {
        $self->{'Dev Root'} = "$cls->{'Root Dir'}/assignments/.develop/$self->{'Disk Name'}";
    }
-   
+
    # If student, set up assignment dirs
    if ($member and ($member->{'Member Type'} eq 'student')) {
        $self->{'Ungraded Dir'} = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/ungraded";
        $self->{'Graded Dir'} = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/graded";
-       $self->{'Java Dir'} = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/java/$self->{'Disk Name'}"; 
-       $self->{'Dialog Dir'} = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/dialog"; 
+       $self->{'Java Dir'} = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/java/$self->{'Disk Name'}";
+       $self->{'Dialog Dir'} = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/dialog";
    }
 
    $self->{'Student File'} = $self->{'Disk Name'};
@@ -186,7 +186,7 @@ sub create {
     if (ref($class)) { $self = $class; }
     # if the assignment already exists report error
     if (-e $self->{'Dev Root'}) {
-        ERROR::user_error($ERROR::ASSIGNEX,$self->{'Name'}); 
+        ERROR::user_error($ERROR::ASSIGNEX,$self->{'Name'});
     }
     # create .develop directory if not already there
     $cls = $self->{'Class'};
@@ -270,7 +270,7 @@ sub print_menu {
     # Handle both method and legacy calls
     if (ref($class)) { $inst = $cls; $cls = $class; }
     CN_UTILS::print_cn_header("Assignments");
-    print <<"FORM";   
+    print <<"FORM";
 <FORM METHOD=POST ACTION=$GLOBALS::SERVER_ROOT/cgi-bin/assignments>
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$cls->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
@@ -316,9 +316,9 @@ none
 sub print_upload {
     my ($self,$cls,$inst) = @_;
     CN_UTILS::print_cn_header("Upload File");
-    print <<"FORM";   
-<FORM METHOD=POST ACTION=$GLOBALS::SERVER_ROOT/cgi-bin/assignments 
-ENCTYPE="multipart/form-data"> <INPUT TYPE=hidden NAME="Class Name" 
+    print <<"FORM";
+<FORM METHOD=POST ACTION=$GLOBALS::SERVER_ROOT/cgi-bin/assignments
+ENCTYPE="multipart/form-data"> <INPUT TYPE=hidden NAME="Class Name"
 VALUE="$cls->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
 <INPUT TYPE=hidden NAME="Assignment Name" VALUE="$self->{'Name'}">
@@ -327,7 +327,7 @@ VALUE="$cls->{'Name'}">
 <table align="center" width="50%">
 <tr>
 <td>
-Enter a filename to upload. When you refer to it in your assignment, use 
+Enter a filename to upload. When you refer to it in your assignment, use
 only the filename, not the local path information.
 <p>
 Example:<br>
@@ -342,7 +342,7 @@ Example:<br>
 <BR>
 <INPUT TYPE=submit Value="Upload"> <INPUT TYPE=reset>
 <BR>
-<INPUT TYPE=submit NAME=back Value="Assignments Menu"> 
+<INPUT TYPE=submit NAME=back Value="Assignments Menu">
 </H4>
 </CENTER>
 FORM
@@ -440,7 +440,7 @@ its name below and load it into ClassNet.
 <H4>
 <INPUT TYPE=submit Value=Add> <INPUT TYPE=reset>
 <BR>
-<INPUT TYPE=submit NAME=back Value="Assignments Menu"> 
+<INPUT TYPE=submit NAME=back Value="Assignments Menu">
 </CENTER>
 </H4>
 </FORM>
@@ -561,7 +561,7 @@ sub get_assign_header {
         ERROR::system_error('ASSIGNMENT','read','open',$fname);
     $adata = <ASN>;
     close(ASN);
-    return $adata;    
+    return $adata;
 }
 
 #########################################
@@ -649,7 +649,7 @@ sub unpack_assign_header {
    $/="";
    chomp $header;
    chop $header;
-   
+
    # TYPE default
    $assign_info{'Assignment Type'} = 'TEST';
 
@@ -660,7 +660,7 @@ sub unpack_assign_header {
        $assign_info{'OPT'} = $1;
    (($header =~ m/\sDUE="([^"]*)/i) or ($header =~m/\sDUE=(\S*)/i)) and
        $assign_info{'DUE'} = $1;
-   $assign_info{'TP'} = (($header =~ m/\sTP="([^"]*)/i) or 
+   $assign_info{'TP'} = (($header =~ m/\sTP="([^"]*)/i) or
                          ($header =~ m/\sTP=(\S*)/i))? $1:0;
    (($header =~ m/\sPASSWORD="([^"]*)/i) or ($header =~m/\sPASSWORD=(\S*)/i)) and
        $assign_info{'PASSWORD'} = $1;
@@ -821,7 +821,7 @@ sub ungrade {
     my $fname = "$self->{'Graded Dir'}/$self->{'Student File'}";
     if (-e $fname) {
         rename($fname,"$self->{'Ungraded Dir'}/$self->{'Student File'}");
-    } 
+    }
 }
 
 #########################################
@@ -845,7 +845,7 @@ none
 sub regrade {
     my ($self) = @_;
     # make sure an assignment exists, then grade
-    ($self->get_status()) and $self->grade(); 
+    ($self->get_status()) and $self->grade();
 }
 
 #########################################
@@ -870,12 +870,12 @@ sub get_status {
 
    my $self = shift;
 
-   my $fname = "$self->{'Graded Dir'}/$self->{'Student File'}"; 
+   my $fname = "$self->{'Graded Dir'}/$self->{'Student File'}";
    if (-e $fname) {
        return 'graded';
    }
-   
-   $fname = "$self->{'Ungraded Dir'}/$self->{'Student File'}"; 
+
+   $fname = "$self->{'Ungraded Dir'}/$self->{'Student File'}";
    if (-e $fname) {
        # check to see if it is an old unsubmitted assignment
        #$/ = "\n";
@@ -908,11 +908,11 @@ sub upload {
     if (ref($class)) { $hfile = $self; $self = $class; }
     my ($header);
 
-    if (!defined $hfile) { 
+    if (!defined $hfile) {
         ERROR::user_error($ERROR::NOTDONE,"find file <B>$url</B>");
         exit(0);
     }
-    
+
     $hfile =~ s/[^<]*(<CN_ASSIGN TYPE=\w+[^>]*>)/eval { $header = $1; ''}/e;
     my %params = (ref($self))->unpack_assign_header($header);
     if (!%params) {
@@ -954,7 +954,7 @@ sub prompt_stats {
 <INPUT TYPE=hidden NAME=Students VALUE="$snames">
 <BLOCKQUOTE>
 <CENTER><img src="$GLOBALS::SERVER_IMAGES/new_tiny.gif"></CENTER>
-You may categorize statistics by one or more questions.  For example, 
+You may categorize statistics by one or more questions.  For example,
 if question 3 asks a student to specify year of college
 (i.e. freshman, sophomore, junior or senior), categorizing on question
 3 would generate four tables, one for each year.
@@ -1032,7 +1032,7 @@ sub verify {
     my $cls = $self->{'Class'};
     CN_UTILS::print_cn_header("Password Required");
 
-    print <<"FORM";   
+    print <<"FORM";
 <FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/student>
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$cls->{'Name'}">
 <INPUT TYPE=hidden NAME="Assignment Name" VALUE="$self->{'Name'}">

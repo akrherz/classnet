@@ -32,7 +32,7 @@ Willey, RA & Martin, MA. “Association of human immunodeficiency virus type 1 env
 ===subject:Hemoglobin / Protein Assignment
 ===message:	Hemoglobin is a vital protein whose function is to transport oxygen from the alveoli (or other breathering apparatuses) throughout the body.  Hemoglobin also serves to transfer the carbon dioxide produced by cellular processes from the tissues back to the lungs.  The protein is found in the red blood cells of all vertebrates and some invertebrates.  (The Concise Columbia Encyclopedia, 1995)  Each red blood cell may hold up to 250 million molecules of hemoglobin.  (Campbell, 1996) <P>
 	Hemoglobin is composed of a protein structure and heme groups.  The heme groups are responsible for the actual binding of oxygen.  The quaternary structure of the protein consists of two alpha helixes and two beta chains arranged so as to form a globular structure.  Each polypeptide chain is attached to a heme group.  The heme group itself contains pyrrole rings bound around an Fe 2+ ion.  The ferrous ion binds the oxygen.  The protein methemoglobin, which is produced as a result of genetic mutation, differs from hemoglobin in that the pyrrole rings of the heme group are arranged around a Fe 3+ ion rather than an Fe 2+ ion; the ferric ion is unable to bind oxygen.  Carbon dioxide is transported from body tissues by means of a covalent bond formed with the terminal amino groups of the protein complexes.  (BB 311 Laboratory Manual, 1998) <P>
-	The alpha helix of human hemoglobin contains 141 amino acids, and the beta chain contains 146 amino acids.  In humans, the alpha helix begins with the sequence val, leu, ser, pro, and ends with ser, lys, tyr, arg.  The beta chain begins with the sequence val, his, leu, thr, and ends with his, lys, tyr, his.  For a complete listing of the sequence, see ftp://ftp.pdb.bnl.gov/user_group/biological_units/bio3hhb.pdb.  
+	The alpha helix of human hemoglobin contains 141 amino acids, and the beta chain contains 146 amino acids.  In humans, the alpha helix begins with the sequence val, leu, ser, pro, and ends with ser, lys, tyr, arg.  The beta chain begins with the sequence val, his, leu, thr, and ends with his, lys, tyr, his.  For a complete listing of the sequence, see ftp://ftp.pdb.bnl.gov/user_group/biological_units/bio3hhb.pdb.
 (G. Fermi, 1998) <P>
 	The primary structure of human hemoglobin contains few differences in amino acid sequence compared to the higher primates as opposed to lower animals.  A gorilla’s hemoglobin, for example, contains only one different amino acid in the beta chain while a frog’s has sixty-seven variations.  (Campbell, 1996) <P>
 
@@ -57,7 +57,7 @@ Instructor
 ===date:Tue Jan 27 15:30:28 1998
 ===subject:Protein Assignment
 ===message:Hemoglobin
-			
+
 
 	Hemoglobin is a protein that is essential to humans as well as animals.  Hemoglobin is unique to other proteins in a combination of the following:  it's function, structure, expression in organisms, and the location of it in certain organisms.  <P>
 	First of all, hemoglobin is unique in its function.  It is a transporter of oxygen in the blood.  The red color in blood is due to this iron-containing protein (Smolin and Grosvenor 325).  Hemoglobin carries carbon dioxide away from cells for elimination by the lungs (Smolin and Grosvenor 326).  When there isn't enough iron in the blood, the oxygen capacity of the blood is lowered, resulting in lower to nonexistent levels of hemoglobin in the blood.  The name of this disease is iron-deficiency anemia.  Symptoms of this are fatigue, weakness, headaches, and the inability to stay warm in cold temperatures.  In the United States, about eight per cent of women have anemia (Smolin and Grosvenor 328).  Another disorder associated with hemoglobin is sickle-cell anemia.  A red blood cell containing hemoglobin is normally disc-shaped.  A sickle-cell hemoglobin is crescent-shaped.  This disorder can have very negative and lasting consequences.  It can cause inflammation, anemia, and pain (Smolin and Grosvenor 153).  <P>
@@ -75,7 +75,7 @@ Smolin and Grosvenor.  Nutrition Science & Applications.  Saunders
 	College Publishing.  1997.
 
 Campbell, Neil A.  Biology, Fourth Edition.  The Benjamin/Cummings
-	Publishing Company, Inc.  1996.  
+	Publishing Company, Inc.  1996.
 =========yorg=========
 ===from:Wes
 ===date:Tue Jan 27 21:46:02 1998
@@ -170,7 +170,7 @@ Myosin Sequence<P>
      1081 tlsqtkqkln ieisdeflvq frqdkvcvkf iqgnqkngsv ptckrknnrl levavp<P>
 
 	Light chain<P>
-	      
+
        1 msskkaktkt tkkrpqrats nvfamfdqsq iqefkeafnm idqnrdgfid kedlhdmlas<P>
        61 lgknptdayl dammneapgp inftmfltmf geklngtdpe dvirnafacf deeatgtiqe<P>
 
@@ -198,22 +198,22 @@ The pap pili consist of various proteins that perform different functions. For e
 
 The chaperone protein PapD is located in the space between the cytoplasmic and outer membranes of the E.coli bacterium. The protein has a mass of 24.5kD. Its primary structure consists of 218 molecules in the following sequence (Holmgren and Brändén, 1989). <P>
 
-   ALA VAL SER LEU ASP ARG THR ARG ALA VAL PHE ASP GLY  
-   SER GLU LYS SER MET THR LEU ASP ILE SER ASN ASP ASN   
-   LYS GLN LEU PRO TYR LEU ALA GLN ALA TRP ILE GLU ASN   
-   GLU ASN GLN GLU LYS ILE ILE THR GLY PRO VAL ILE ALA   
-   THR PRO PRO VAL GLN ARG LEU ASP PRO GLY ALA LYS SER   
-   MET VAL ARG LEU SER THR THR PRO ASP ILE SER LYS LEU   
-   PRO GLN ASP ARG GLU SER LEU PHE TYR PHE ASN LEU ARG   
-   GLU ILE PRO PRO ARG SER GLU LYS ALA ASN VAL LEU GLN   
-   ILE ALA LEU GLN THR LYS ILE LYS LEU PHE TYR ARG PRO   
-   ALA ALA ILE LYS THR ARG PRO ASN GLU VAL TRP GLN ASP   
-   GLN LEU ILE LEU ASN LYS VAL SER GLY GLY TYR ARG ILE   
-   GLU ASN PRO THR PRO TYR TYR VAL THR VAL ILE GLY LEU   
-   GLY GLY SER GLU LYS GLN ALA GLU GLU GLY GLU PHE GLU   
-   THR VAL MET LEU SER PRO ARG SER GLU GLN THR VAL LYS   
-   SER ALA ASN TYR ASN THR PRO TYR LEU SER TYR ILE ASN   
-   ASP TYR GLY GLY ARG PRO VAL LEU SER PHE ILE CYS ASN   
+   ALA VAL SER LEU ASP ARG THR ARG ALA VAL PHE ASP GLY
+   SER GLU LYS SER MET THR LEU ASP ILE SER ASN ASP ASN
+   LYS GLN LEU PRO TYR LEU ALA GLN ALA TRP ILE GLU ASN
+   GLU ASN GLN GLU LYS ILE ILE THR GLY PRO VAL ILE ALA
+   THR PRO PRO VAL GLN ARG LEU ASP PRO GLY ALA LYS SER
+   MET VAL ARG LEU SER THR THR PRO ASP ILE SER LYS LEU
+   PRO GLN ASP ARG GLU SER LEU PHE TYR PHE ASN LEU ARG
+   GLU ILE PRO PRO ARG SER GLU LYS ALA ASN VAL LEU GLN
+   ILE ALA LEU GLN THR LYS ILE LYS LEU PHE TYR ARG PRO
+   ALA ALA ILE LYS THR ARG PRO ASN GLU VAL TRP GLN ASP
+   GLN LEU ILE LEU ASN LYS VAL SER GLY GLY TYR ARG ILE
+   GLU ASN PRO THR PRO TYR TYR VAL THR VAL ILE GLY LEU
+   GLY GLY SER GLU LYS GLN ALA GLU GLU GLY GLU PHE GLU
+   THR VAL MET LEU SER PRO ARG SER GLU GLN THR VAL LYS
+   SER ALA ASN TYR ASN THR PRO TYR LEU SER TYR ILE ASN
+   ASP TYR GLY GLY ARG PRO VAL LEU SER PHE ILE CYS ASN
    GLY SER ARG CYS SER VAL LYS LYS GLU LYS <P>
 
 The three dimensional structure of papD has also been established by crystallographic techniques (Holmgren and Brändén, 1989). PapD consists of two "domains" (sheets consisting of several polypeptide strands) oriented towards each other at an angle which gives the molecule the overall shape of a boomerang. Each domain consists of two sets of anti-parallel pleated sheets (anti-parallel sheets are those in which the strands run in opposite directions), The first sheet consists of 3 strands and the lower consists of 4 strands. <P>
@@ -242,63 +242,63 @@ Holmgren, A., Kuehn, M.J., Brändén, C-I and S.J. Hultgren, "Conserved Immunoglob
 ===email:abolton@iastate.edu
 ===date:Wed Jan 28 14:43:56 1998
 ===subject:Protiens assignment - Renin
-===message:	
-	Proteins are essential to our lives.  They regulate 
-body functions, make up tissues and cells, and they provide 
-immunity to disease.  Proteins are composed of different 
-combinations of amino acids.  There are twenty different 
-amino acids made up of carbon, hydrogen, oxygen, and 
-nitrogen.  Each amino acid contains an amine group, an acid 
-group and an R group.  The R group distinguishes between the 
-different proteins.(Gunstream 37)  The amino acid sequence 
-of renin is as follows:  "MDRRRMPLWALLLLWSPCTFSLPTGTTFERIPL 
-KKMPSVREILEERGVDMTRLSAEWDVFTKRSSLTDLISPVVLTNYLNSQYYGEIGIGTP 
-PQTFKVMFDTGSANLWVPSTKCSRLYLACGIHSLYESSDSSSYMENGDDFTIHYGSGRV 
-KGFLSQDSVTVGGITVTQTFGEVTELPLIPFMLAQFDGVLGMGLSRSAVGGVTPVFDHI 
-LSQGVLKEKVFSVYYNRGPHLLGGEVVLGGSDPEHYQGDFHYVSLSKTDSWQITMKGVS 
-VGSSTLLCEEGCEVVVDTGSSFISAPTSSLKLIMQALGAKEKRLHEYVVSCSQVPTLPD 
-ISFNLGGRAYTLSSTDYVLQYPNRRDKLCTVALHAMDIPPPTGPVWVLGATFIRKFYTE 
-FDRHNNRVGFALAR" and was found at http:www,ncbi.nlm.nih.gov/ 
+===message:
+	Proteins are essential to our lives.  They regulate
+body functions, make up tissues and cells, and they provide
+immunity to disease.  Proteins are composed of different
+combinations of amino acids.  There are twenty different
+amino acids made up of carbon, hydrogen, oxygen, and
+nitrogen.  Each amino acid contains an amine group, an acid
+group and an R group.  The R group distinguishes between the
+different proteins.(Gunstream 37)  The amino acid sequence
+of renin is as follows:  "MDRRRMPLWALLLLWSPCTFSLPTGTTFERIPL
+KKMPSVREILEERGVDMTRLSAEWDVFTKRSSLTDLISPVVLTNYLNSQYYGEIGIGTP
+PQTFKVMFDTGSANLWVPSTKCSRLYLACGIHSLYESSDSSSYMENGDDFTIHYGSGRV
+KGFLSQDSVTVGGITVTQTFGEVTELPLIPFMLAQFDGVLGMGLSRSAVGGVTPVFDHI
+LSQGVLKEKVFSVYYNRGPHLLGGEVVLGGSDPEHYQGDFHYVSLSKTDSWQITMKGVS
+VGSSTLLCEEGCEVVVDTGSSFISAPTSSLKLIMQALGAKEKRLHEYVVSCSQVPTLPD
+ISFNLGGRAYTLSSTDYVLQYPNRRDKLCTVALHAMDIPPPTGPVWVLGATFIRKFYTE
+FDRHNNRVGFALAR" and was found at http:www,ncbi.nlm.nih.gov/
 irx/cgi-bin/birx_doc?genbank+106398.<P>
-	Renin is a proteolytic enzyme or may also be known as 
-the angiotensin-forming enzyme.  Some expect that it can 
-provide therapy for hypertension and congestive heart 
-failure.  Angiotensin II (formed by renin) has been shown to 
-control vascular tone, fluid volume, and sodium 
-excretion.(Takahashi 159)  Renin occurs in the kidneys of 
-several species (including mammalian) and in the 
-submaxillary gland of mice.  Physically, the molecular 
-weight of renin is 42,000.  It's isoelectric points in the 
-range of 4.5-5.5 (multiple forms).  With the usual test 
-substrate, renin is active when the pH is neutral or above.  
-In 1972, renin was added to the Enzyme Nomenclature List 
+	Renin is a proteolytic enzyme or may also be known as
+the angiotensin-forming enzyme.  Some expect that it can
+provide therapy for hypertension and congestive heart
+failure.  Angiotensin II (formed by renin) has been shown to
+control vascular tone, fluid volume, and sodium
+excretion.(Takahashi 159)  Renin occurs in the kidneys of
+several species (including mammalian) and in the
+submaxillary gland of mice.  Physically, the molecular
+weight of renin is 42,000.  It's isoelectric points in the
+range of 4.5-5.5 (multiple forms).  With the usual test
+substrate, renin is active when the pH is neutral or above.
+In 1972, renin was added to the Enzyme Nomenclature List
 having been assigned to class 3.4.99.(Barrett)<P>
-	Renin occurs in membrane-bound organelles.  Cathepsin D 
-(an intracellular enzyme that is active in weakly acidic 
-solutions) and renin are very much alike.(Takahashi 181)  
-They resemble each other in so many ways that there is 
-speculation that they may be homologous structures; however, 
-renin has a much narrower specificity.  This specificity 
-must also be very high so that renin can convert 
+	Renin occurs in membrane-bound organelles.  Cathepsin D
+(an intracellular enzyme that is active in weakly acidic
+solutions) and renin are very much alike.(Takahashi 181)
+They resemble each other in so many ways that there is
+speculation that they may be homologous structures; however,
+renin has a much narrower specificity.  This specificity
+must also be very high so that renin can convert
 angiotensinogen to angiotensin.(Barrett 233)<P>
-	Many tests have been run to see how human renin 
-compares to renin in mice.  A main difference on that front 
-is that mice do not have N-glycosylated, while humans do.  
-This is due to the fact that it is not essential to the 
-activities of a mouse.(Takahashi 159)  Tests are still being 
-run with renin and maybe scientists will be able to use it 
-to help patients with hypertension and congestive heart 
+	Many tests have been run to see how human renin
+compares to renin in mice.  A main difference on that front
+is that mice do not have N-glycosylated, while humans do.
+This is due to the fact that it is not essential to the
+activities of a mouse.(Takahashi 159)  Tests are still being
+run with renin and maybe scientists will be able to use it
+to help patients with hypertension and congestive heart
 failure.<P>
 
 
 References<P>
 
-Gunstream, Stanley E. Anatomy & Physiology. Pasadena City: 
+Gunstream, Stanley E. Anatomy & Physiology. Pasadena City:
 	Wm. C Brown, 1992.<P>
-Takahashi, Kenji, ed. Aspartic Proteinases:Structure, 
-	Function,Biology, and Biomedical Implications. New 
+Takahashi, Kenji, ed. Aspartic Proteinases:Structure,
+	Function,Biology, and Biomedical Implications. New
 	York:  Plenum, 1995.<P>
-Barrett, A.J. Proteinases in Mammalian Cells and Tissues. 
+Barrett, A.J. Proteinases in Mammalian Cells and Tissues.
 	Amsterdam:  North-Holland. 1977.<P>
 
 
@@ -341,7 +341,7 @@ References <P>
 ===email:amullin@nishna.net
 ===date:Wed Jan 28 22:00:11 1998
 ===subject:A new WNT inhibitor, Dickkopf-1
-===message: 	A little more than a year ago the Sunday Times of London published a story about headless tadpoles. The media latched onto one man’s claim that human versions of these creatures could be used in the future. A former director of of the National Institutes of Health was quoted on the CBS Evening News  as saying  that headless ‘organ sacks’ “have zero potential to say no.”(Zorpette,1998)  All of this hyped attention drew away from the true meaning of the work, gene expression in embryonic development. <P> 
+===message: 	A little more than a year ago the Sunday Times of London published a story about headless tadpoles. The media latched onto one man’s claim that human versions of these creatures could be used in the future. A former director of of the National Institutes of Health was quoted on the CBS Evening News  as saying  that headless ‘organ sacks’ “have zero potential to say no.”(Zorpette,1998)  All of this hyped attention drew away from the true meaning of the work, gene expression in embryonic development. <P>
 
 	According to Jan. 24 Science News and Jan. 22 Nature,  a team of researchers headed by Christof Niehrs of the Duetsches Krebforschungszentrum in Hiendberg discovered the protein Dickkoph-1 while studying  Xenopus Laevis  frogs. Dickkopf-1 is part of the developmental system in embryos that controls the size of their heads, or sometimes the lack of.  While many researches have identified WNT and BMP inhibitors this team found another WNT inhibiter. Dicktopf-1 acts to keep the size of the head proportional to the body. When an excess of Dicktopf-1 is present an embryo can develop  two heads, but when  Dickkopf-1 is inhibited by antibodies, the heads of affected embryos fail to grow  or they are extremely small if a head even does exist. Dickkopf-1 remains active all through the frogs life. This implies mitotic ties in later development.  Dickkopf-1 could also be used as a cancer suppressor once it’s function in a adult organisms is further understood.  While this is a frog protein, it is probable lower organisms and humans possess a similar protein  only waiting to be found.<P>
 
@@ -360,7 +360,7 @@ FEATURES             Location/Qualifiers<P>
                      /gene="Xdkk-1"<P>
                      /note="secreted protein"<P>
                      /coded_by="AF030434:102..881"<P>
-ORIGIN<P>     
+ORIGIN<P>
         1 mgsnmfpvpl ivfwgfildg algfvmmtns nsiknvpaap agqpigyypv svspdslydi<P>
        61 ankyqplday plyscteddd caldefchss rngnslvcla crkrrkrclr damcctgnyc<P>
       121 sngicvpveq dqerfqhqgy leetilenyn nadhatmdth sklttspsgm qpfkgrdgdv<P>
@@ -368,7 +368,7 @@ ORIGIN<P>
       241 kgefttvpkt srlhtcqrh<P>
 
 
-	
+
 Bibliography<P>
 
 Zorpette,Glenn,1998. OFF WITH ITS HEAD!. Scientific American :41<P>
@@ -423,14 +423,14 @@ Tizard, Ian R., 1996. Veterinary Physiology, An Introduction, 5th Edition: W.B. 
 ===message:Hemoglobin is an oxygen-carrying protein in erythrocytes made of one globin, a polypeptide chain, and four heme.  The function of hemoglobin is not limited to the carrying of oxygen to the tissues of the body, but also includes carbon dioxide transport through the blood, buffering of the blood, and prevention of harmful pH changes within the blood (Rhoades).  Hemoglobin is found in all vertabrates, and most other organisms which possess a circulatory system, such as the phylum Nemertea (Rhoades).  This piece will focus on hemoglobin found in mammalian species.<P>
 	Hemoglobin is composed of four heme units, each containing iron in the center.  The iron center is the location of the oxygen binding.  Each heme is able to carry a single oxygen molecule, allowing every hemoglobin to carry a total of four oxygen molecules (1.34 mL)(Ingram, 1963).  The four heme units have a cooperative relationship, when one heme binds to an oxygen molecule the other three change shape slightly, increasing their affinity for oxygen.  In the same way when one heme releases its oxygen molecule the affinity for oxygen of the other molecules is decreased, causing them to release their oxygen as well (Ingram, 1961).<P>
 	Hemoglobin also conatins a single protein molecule called globin.  This is a globular protien with a quaternary structure, which contains two types of polypeptide chains (Rhoades).  Different variations of globinare present at different stages in life.  Embryonic and fetal forms have a higher affinity for oxygen than those found in adult blood.  This insures that a fetus is receiving a sufficient amount of axygen from its mother.  Blood within a fetus also contains about 20% more hemoglobin than an adults blood (Ingram, 1963).<P>
-	Hemoglobin may take on two general forms, oxyhemoglobin (HbO2) or deoxyhemoglobin (Hb) (Rhoades).  Oxyhemoglobin is oxygen saturated, bright red in color and found in the arteries of the body.  Deoxyhemoglobin lacks oxygen, is reddish-blue in color, and is found in veins of the body.  Together these hemoglobin work with in the circulatory system to supply the bodies tissues with sufficient oxygen from the lungs.<P> 
+	Hemoglobin may take on two general forms, oxyhemoglobin (HbO2) or deoxyhemoglobin (Hb) (Rhoades).  Oxyhemoglobin is oxygen saturated, bright red in color and found in the arteries of the body.  Deoxyhemoglobin lacks oxygen, is reddish-blue in color, and is found in veins of the body.  Together these hemoglobin work with in the circulatory system to supply the bodies tissues with sufficient oxygen from the lungs.<P>
 
 Works Cited<P>
-Ingram, Vernon M. Ph.D. Hemoglobin and Its Abnormalities. 				Springfield, Illinois: Charles C. Thomas Publisher, 			
+Ingram, Vernon M. Ph.D. Hemoglobin and Its Abnormalities. 				Springfield, Illinois: Charles C. Thomas Publisher,
 	1961.<P>
-Ingram, Vernon M. Ph.D.  The Hemoglobin in Genetics and 		
+Ingram, Vernon M. Ph.D.  The Hemoglobin in Genetics and
 	Evolution.  New York: Columbia Press, 1963.<P>
-Rhoades, Rodney A. Ph.D. and George A. Tanner Ph.D. Medical 
+Rhoades, Rodney A. Ph.D. and George A. Tanner Ph.D. Medical
 	Physiology.  Boston: Little, Brown and Company, 1995.<P>
 
 =========yorg=========
@@ -464,31 +464,31 @@ http://www.ncbi.nlm.nih.govl.
 ===from:Matt Sogard
 ===date:Thu Jan 29 13:19:01 1998
 ===subject:Protein assignment
-===message:	Aging is a hot topic these days.  Much research is being done on aging- what causes it, how it happens, how we can slow or stop it.  Researchers at Brown University may have made a major discovery in this area.(Nature Science Update, November 5, 1997)<P>  
-	According to Nature  magazine, a protein called hsp70 been has shown to have a direct affect on aging in flies and round worms in a laboratory environment.  Hsp70, a heat-shock protein, is located in the mitochondria of eukaryotic cells.  Hsp70 is a chaperone protein.  A chaperone protein’s main function is to promote the proper folding and shaping of other proteins during various processes.  Exposure to heat or cold can damage the proteins' structures, thereby affecting its function.  Heat-shock proteins like hsp70 are believed to combat this stress related damage.  Nearly all living organisms have some form of a chaperone protein for this reason.<P>  
-	Researchers at the University of Minnesota led by assistant professor of evolutionary biology and ecology Marc Tatar have exposed flies and types of roundworms to short doses of extra heat.  This exposure caused the organisms to produce larger quantities of hsp70.  The off-spring of these organisms that contained extra copies of the hsp70 gene responded to heat by producing large amounts of hsp70.  These flies and round worms had life spans increased by almost two weeks.<P>  
+===message:	Aging is a hot topic these days.  Much research is being done on aging- what causes it, how it happens, how we can slow or stop it.  Researchers at Brown University may have made a major discovery in this area.(Nature Science Update, November 5, 1997)<P>
+	According to Nature  magazine, a protein called hsp70 been has shown to have a direct affect on aging in flies and round worms in a laboratory environment.  Hsp70, a heat-shock protein, is located in the mitochondria of eukaryotic cells.  Hsp70 is a chaperone protein.  A chaperone protein’s main function is to promote the proper folding and shaping of other proteins during various processes.  Exposure to heat or cold can damage the proteins' structures, thereby affecting its function.  Heat-shock proteins like hsp70 are believed to combat this stress related damage.  Nearly all living organisms have some form of a chaperone protein for this reason.<P>
+	Researchers at the University of Minnesota led by assistant professor of evolutionary biology and ecology Marc Tatar have exposed flies and types of roundworms to short doses of extra heat.  This exposure caused the organisms to produce larger quantities of hsp70.  The off-spring of these organisms that contained extra copies of the hsp70 gene responded to heat by producing large amounts of hsp70.  These flies and round worms had life spans increased by almost two weeks.<P>
 	Hsp70 levels are very closely monitored by the cells that produce them, making extended life in humans by exposure to heat very unlikely.  More research is being done on the affects of proteins like hsp70.<P>
 	Hsp70 is made of 70 amino acid building blocks.  The following is the amino acid sequence of hsp70:<P>
 1- TATEELSDTLQEIGKQAYQQQQDMPRPARPAALAA
-36-WVAWAAWPTARRGGRRRRDDEEYVDADFEDVDEE    
+36-WVAWAAWPTARRGGRRRRDDEEYVDADFEDVDEE
 (National Center for Biotechnology Information)<P><P>
- 
+
 References<P>
 
 National Center for Biotechnology Information. Entrez
     Protein Query:hsp70.
-	http:/www. ncbi.nlm.nih.gov/cgi-binEntrezframit?2351848&		        db=Protein  
+	http:/www. ncbi.nlm.nih.gov/cgi-binEntrezframit?2351848&		        db=Protein
 	January 27, 1998<P>
 
 News From Brown: The Brown University News Bureau.
 	http:/www.brown.edu/Administration/News_Bureau/1997-98/
-		97-043.html  
+		97-043.html
 	January 26,1998<P>
 
 Gee, Henry. (1997). Nature  Science Update, Medicine...a
  	time to die.
 	http:/www.nature.com/Nature2/serve?SID=58725603&CAT=
-		Corner&PG=Update/update402.html  
+		Corner&PG=Update/update402.html
 	January 26, 1998
 =========yorg=========
 ===from:Rebecca Longmire
@@ -509,7 +509,7 @@ Bunn, H.F. and B.G. Forget. "Hemoglobin." Grolier's           Multimedia Encyclo
 
 Campbell, N.A., Biology, 4th. Edition. Benjamin-Cummins,           1996.  <P>
 
-Gilliland, G.L., Tung, M., Blakeslee, D.M. and Ladner, J.            1994. The Biological Macromolecule                          Crystallization Database, Version 3.0:NewFeatures,           Data, and the NASA Archive for Protein     
+Gilliland, G.L., Tung, M., Blakeslee, D.M. and Ladner, J.            1994. The Biological Macromolecule                          Crystallization Database, Version 3.0:NewFeatures,           Data, and the NASA Archive for Protein
           Crystal Growth Data. Acta Crystallogr. D50 408-413.
 
 =========yorg=========
@@ -549,19 +549,19 @@ References:<P>
 ===email:NKoli8922@aol.com
 ===date:Thu Jan 29 14:19:09 1998
 ===subject:Protein assignment-Bacteriorhodopsin (#2!)
-===message:Bacteriorhodopsin is a relatively small, trans-membrane protein, found in the cellularmembrane of Halobacterium salinarium.  This Organism, also known as Halobacteriumhalobium, is a member of the archaea. <p> 	Halobacterium salinarium is considered to be a species of extremely halophilicarchaea(Brock et al., 1994).  Halobacterium salinarium is naturally found in areas withhigh salt concentrations, like salt pans and natural salt lakes.  Bacteriorhodopsin is locatedwithin the bilayer boundary of Halobacterium salinarium, in what are termed purplepatches, these purple patches are tightly packed two-dimensional crystals (Pebay-Peyroulaet al., 1997). <p>  	Bacteriorhodopsin transfers protons from the interior of the bacterial cell, to theoutside in a cyclic process.  This proton current is then used to to generate ATPmolecules.  The proton pumping mechanism of bR is powered by light, and this lightenergy is used to generate chemical energy for the bacterium; thus bR acts as aphotosynthetic protein (Brock et al., 1994). <p>   	Bacteriorhodopsin gathers its light energy by a special molecule called retinal. Retinal binds to a specific amino acid in bR after the protein has been initially created andincorporated into the cell membrane(Brock et al., 1994).  Retinal is used in several otherproteins to harvest light, it is part of the rhodopsin family of proteins.  This includesrhodopsin, rhodopsin is found in the visual pigments of our eyes, and acts to help regulateour sensitivity to light (Brock et al., 1994). <p>   	 Bacteriorhodopsin consists of seven membrane spanning alpha helixes, these areconnected by three external, and three cytoplasmic loops(Pebay-Peyroula et al., 1997). The retinal is bound via the terminal NH2 group of lysine216 in a Schiff’s base linkage.  Itmakes contact with six of the seven amino acid side chains (Alan.Ward@ncl.ac.uk).  Theretinal chromophore of bacteriorhodopsin normally exists in an all-trans configuration. When it absorbs light it is excited and temporarily converted to the 13-cisformation(Brock et al., 1994).  A series of intermediate events follow(Pebay-Peyroula etal.,  1997). <p>  	The sequence for bacteriorhopsin was found athttp://www.pdb.bnl.gov/pbd-bin/send?1bad_ .<p>  1bad_  mol: protein-het length:248  Bacteriorhodopsin (7-Helix Bundle) With 13_XAQITGRPEWIWLALGTALMGLGTLYFLVKGMGVSDPDAKKFYAITTLVPAIAFTMYLSMLLGYGLTMVPFGGEQNPIYWARYADWLFTTPLLLLDLALIVDADQGTILAIVGADGIMIGTGLVGALTKVYSYRFVWWAISTAAMLYILYVLFFGFTSKAESMRPEVASTFKVLRNVTVVLWSAYPVVWLIGSEGAGIVPLNIETLLFMVLDVSAKVGFGLILLRSRAIFGEAEAPEPSAGDGAAATS. <p>  REFERENCES<p>  Alan.Ward@ncl.ac.uk. (Oct. 95, revised 10 Jun 96). Bacteriorhodopsin.http://monera.ncl.ac.uk/energy/brd.html  (25 Jan.98). <p>   Brock, T.D., M.T. Madigan, J.M. Martinko, J. Parker (1994).  Biology ofMicroorganisms.  New Jersey: Prentice Hall.<p>  Chou, K.C., L. Carlacci, G.M. Maggiora, L.A. Parodi, M.W. Schultz (30 Jul 92).Photoreceptor Theoretical Model.http://www.pdb.bnl.gov/pbd-bin/send?1bad_  (25 Jan.98). <p>   Moffat A.S., 12 September 1997. Opening the Door to More Membrane ProteinStructures.Science (277): 1607-08.<p>  Molecular Dynamics Studies of Bacteriorhodopsin.http://www.ks.uiuc.edu/~billh/project/br/index.html (25 Jan.98).<p>  Pebay-Peyroula, E., G. Rummel, J.P. Rosenbusch, E.M. Landauu,  12 September 1997.X-ray Structure of Bacteriorhodopsin at 2.5 Angstroms from Microcrystals Growm inLipidic Cubic Phases.  Science (277): 1676-81.<p>  
+===message:Bacteriorhodopsin is a relatively small, trans-membrane protein, found in the cellularmembrane of Halobacterium salinarium.  This Organism, also known as Halobacteriumhalobium, is a member of the archaea. <p> 	Halobacterium salinarium is considered to be a species of extremely halophilicarchaea(Brock et al., 1994).  Halobacterium salinarium is naturally found in areas withhigh salt concentrations, like salt pans and natural salt lakes.  Bacteriorhodopsin is locatedwithin the bilayer boundary of Halobacterium salinarium, in what are termed purplepatches, these purple patches are tightly packed two-dimensional crystals (Pebay-Peyroulaet al., 1997). <p>  	Bacteriorhodopsin transfers protons from the interior of the bacterial cell, to theoutside in a cyclic process.  This proton current is then used to to generate ATPmolecules.  The proton pumping mechanism of bR is powered by light, and this lightenergy is used to generate chemical energy for the bacterium; thus bR acts as aphotosynthetic protein (Brock et al., 1994). <p>   	Bacteriorhodopsin gathers its light energy by a special molecule called retinal. Retinal binds to a specific amino acid in bR after the protein has been initially created andincorporated into the cell membrane(Brock et al., 1994).  Retinal is used in several otherproteins to harvest light, it is part of the rhodopsin family of proteins.  This includesrhodopsin, rhodopsin is found in the visual pigments of our eyes, and acts to help regulateour sensitivity to light (Brock et al., 1994). <p>   	 Bacteriorhodopsin consists of seven membrane spanning alpha helixes, these areconnected by three external, and three cytoplasmic loops(Pebay-Peyroula et al., 1997). The retinal is bound via the terminal NH2 group of lysine216 in a Schiff’s base linkage.  Itmakes contact with six of the seven amino acid side chains (Alan.Ward@ncl.ac.uk).  Theretinal chromophore of bacteriorhodopsin normally exists in an all-trans configuration. When it absorbs light it is excited and temporarily converted to the 13-cisformation(Brock et al., 1994).  A series of intermediate events follow(Pebay-Peyroula etal.,  1997). <p>  	The sequence for bacteriorhopsin was found athttp://www.pdb.bnl.gov/pbd-bin/send?1bad_ .<p>  1bad_  mol: protein-het length:248  Bacteriorhodopsin (7-Helix Bundle) With 13_XAQITGRPEWIWLALGTALMGLGTLYFLVKGMGVSDPDAKKFYAITTLVPAIAFTMYLSMLLGYGLTMVPFGGEQNPIYWARYADWLFTTPLLLLDLALIVDADQGTILAIVGADGIMIGTGLVGALTKVYSYRFVWWAISTAAMLYILYVLFFGFTSKAESMRPEVASTFKVLRNVTVVLWSAYPVVWLIGSEGAGIVPLNIETLLFMVLDVSAKVGFGLILLRSRAIFGEAEAPEPSAGDGAAATS. <p>  REFERENCES<p>  Alan.Ward@ncl.ac.uk. (Oct. 95, revised 10 Jun 96). Bacteriorhodopsin.http://monera.ncl.ac.uk/energy/brd.html  (25 Jan.98). <p>   Brock, T.D., M.T. Madigan, J.M. Martinko, J. Parker (1994).  Biology ofMicroorganisms.  New Jersey: Prentice Hall.<p>  Chou, K.C., L. Carlacci, G.M. Maggiora, L.A. Parodi, M.W. Schultz (30 Jul 92).Photoreceptor Theoretical Model.http://www.pdb.bnl.gov/pbd-bin/send?1bad_  (25 Jan.98). <p>   Moffat A.S., 12 September 1997. Opening the Door to More Membrane ProteinStructures.Science (277): 1607-08.<p>  Molecular Dynamics Studies of Bacteriorhodopsin.http://www.ks.uiuc.edu/~billh/project/br/index.html (25 Jan.98).<p>  Pebay-Peyroula, E., G. Rummel, J.P. Rosenbusch, E.M. Landauu,  12 September 1997.X-ray Structure of Bacteriorhodopsin at 2.5 Angstroms from Microcrystals Growm inLipidic Cubic Phases.  Science (277): 1676-81.<p>
 =========yorg=========
 ===from:David Cohen
 ===email:cato@iastate.edu
 ===date:Thu Jan 29 14:34:13 1998
 ===subject:Protein Assignment-Cyclin
-===message:Cyclin is a protein that regulates the way that proteins function as molecular clocks that pace sequential events of the cell cycle.  Cyclins help to regulate this when they are attached to protein kinases, enzymes that control the activities of other proteins.  
+===message:Cyclin is a protein that regulates the way that proteins function as molecular clocks that pace sequential events of the cell cycle.  Cyclins help to regulate this when they are attached to protein kinases, enzymes that control the activities of other proteins.
 
 
-A protein kinase is only active when it is attached to a cyclin.  Therefore, they are called cyclin-dependent kinases, or Cdks.  Throughout the cycle, a Cdk is around equally, but it's activity in targeting proteins rises and falls when changes occur in the concentration of its cyclin component.  
+A protein kinase is only active when it is attached to a cyclin.  Therefore, they are called cyclin-dependent kinases, or Cdks.  Throughout the cycle, a Cdk is around equally, but it's activity in targeting proteins rises and falls when changes occur in the concentration of its cyclin component.
 
 
-During the cells cycle, cyclin is synthesized and finally accumulates during interphase.  It then attaches itself to the Cdk, so then the protein complex is activated at the end of interphase.  Then, the active complex, MPF, coordinates mitosis by phosphorylating various proteins, including other protein kinases.  Finally, the Cdk component of the MPF is recycled, its kinase activity restored by association with new cyclin that accumulates during interphase.  
+During the cells cycle, cyclin is synthesized and finally accumulates during interphase.  It then attaches itself to the Cdk, so then the protein complex is activated at the end of interphase.  Then, the active complex, MPF, coordinates mitosis by phosphorylating various proteins, including other protein kinases.  Finally, the Cdk component of the MPF is recycled, its kinase activity restored by association with new cyclin that accumulates during interphase.
 
 
 The structure Of Cyclin Mcs2 Cyclin, Cell Cycle, Cell Division, Nuclear Protein Mol_id: 1; Molecule: Cyclin H; Chain is as follows:
@@ -580,7 +580,7 @@ by Dawn Spiller<P>
 	Polymerase is an enzyme.  An enzyme can be made up of two or more proteins interlocked.  Enzymes catalyze reactions, in this case polymerase catalyzes the reaction of the hydrolysis of the bonds between the phosphate groups.   The reaction takes place at the active site of the polymerase.  The primary structure of DNA polymerase for bacteriophage is:
 A A M D K E H P D H S K Y K D D K F I A V C K D L D N V K R I L G A.  DNA polymerase is found in both eukaryotic and prokaryotic cells.   Polymerase is synthesized in the cell.<p>
 
-Campbell.  Neil A., Biology: Fourth Edition, New York: 
+Campbell.  Neil A., Biology: Fourth Edition, New York:
 	Benjamin/Cummings 1996.  97-100,290-292<p>
 	"DNA Polymerase" National Center for Biotechnolgy Information. <http://www.ncbi.nlm.nih.gov/> (28 Jan. 1998)<p>
 
@@ -653,7 +653,7 @@ Strack, Randy.  “University of Technology Western Australia.” Antibodies. 8 July
 ===date:Thu Jan 29 21:22:59 1998
 ===subject:Protein C
 ===message:Regulatory protein C4b-binding protein (C4BP)
-	
+
 	<p>The C4BP protein system is a key component in the organism's blood plasma as a part of the body's defense system. The Protein C system which includes Protein C, Protein S, Factor V, and  Pentraxin serum amyloid P component (SAP) play a key role in the regulation of coagulation, the changing of a fluid into a thickened mass, of blood in the human body.(Dahlback) C4BP interacts with SAP, a protein which inhibits C4BP function as an anticoagulant. Recently in University Hospital in Malmo, Sweden a disease was uncovered which has been named activated protein C (APC) resistance. This has been deemed the most common genetic defect associated with Thrombosis.(Dahlback) Thrombosis is the intravascular coagulation of the blood in any part of the circulatory system. When the Protein C system is inactivated Thrombosis takes affect and can often lead to the death of a patient. In a study done on the Hickman Catheter and it's complications
 =========yorg=========
 ===from:Joy Ward
@@ -667,7 +667,7 @@ Vlspadktnvkaawgkvgahageygaealermflsppttktyfphfdlshgsaqvkchckkvadaltnavahvddmpnal
 
 	Hemoglobin is an oxygen-carrying protein that contains iron. The hemoglobin molecules are present in the red blood cells, and bind with oxygen or carbon dioxide to transport them through the organism.   As red blood cells pass through the capillaries of the lungs, or gills, or other respiratory organs, oxygen diffuses into the erythrocytes and hemoglobin binds the oxygen. There are two polypeptide subunits of hemoglobin, alpha and beta. One family, located on the 16th chromosome in humans, encodes different versions of the alpha globin. The beta globin is encoded on the 11th chromosme. The different versions of each globin subunit are expressed at different times of development, allowing the hemoglobin a variety of functions throughout the changing body of a developing organism. (Campbell, 1996)<P>
 	Hemoglobin is composed of four different proteins, two alpha and two beta chains. In the center of each folded chain, there is a heme group that functions to bind the oxygen or carbon dioxide. The heme unit is a nonpolypeptide component with an iron atom. ( Campbell, 1996)<P>
-	Hemoglobin is present in a wide variety of organisms, from the South American lungfish to chimpanzees to humans. (Web Source)<P>  
+	Hemoglobin is present in a wide variety of organisms, from the South American lungfish to chimpanzees to humans. (Web Source)<P>
 	Hemoglobin is responsible for the coloring of blood. When the blood is fully oxygenated, it is bright red. As the oxygen is depleted from the red blood cells, it turns to a more purplish color. At this point, the hemoglobin is bound to carbon dioxide, which it returns to the respiratory organ to exchange for more oxygen. (Marieb, 1998)<P>
 	The main reason why carbon monoxide is so deadly is due to the fact that it binds irreversibly with the hemoglobin protein, disabling it from binding with either oxygen or carbon dioxide. This results in a slow suffocation, as carbon dioxide accumulates in the body, and can't be removed. A blood transfusion is the quickest way to add more hemoglobin to the organism to replace the damaged ones. (Marieb, 1998)<P>
 
@@ -681,27 +681,27 @@ http:www// psc.edu/general/software/cray/c90/nwgap/algnmnts.nwg.
 ===email:rox@iastate.edu
 ===date:Thu Jan 29 22:12:09 1998
 ===subject:Collagen: An invaluable tool
-===message:<P>	
+===message:<P>
       The extracellular matrix, once called the "ground system" (Horn 1990) is considered the largest functioning system in the body.  This organized meshwork called collagen is the protein and polysaccharide matrix which "acts as a universal and biological glue...forming specialized structures including tendons, bone, cartilage, and basal laminae." (Walshaw 1995).  The matrix, consisting of fibrous proteins in a hydrated gel, contains the major class of collagens which constitute a quarter of a mammals entire protein content.
 <P>
 	The collagen molecule is comprised of 3 polypeptide chains arranged in a parallel triple helix.  There are at least 9 alpha-chains, approximately 1000 amino acids in length, resulting in a diameter of 14 Angstroms and a length of 300nm singularly for each molecule (Walshaw 1995).
-All alpha chains consist of a Gly-Pro-Hyp sequence of amino acids. 
+All alpha chains consist of a Gly-Pro-Hyp sequence of amino acids.
 <P>
 	The primary sequence of this complex and vital protein containing 3 alpha chains: A, B, and C is as follows (Chen 1991):
 <P>
 	Chain A:
->1clg_A mol:protein-het length:38 Collagen (Smith Microfibril) 3 Chains Of (__ 
+>1clg_A mol:protein-het length:38 Collagen (Smith Microfibril) 3 Chains Of (__
 XGPPGPPGPPGPPGPPGPPGPPGPPGPPGPPGPPGPPX
 <P>
 	Chain B:
->1clg_B mol:protein-het length:38 Collagen (Smith Microfibril) 3 Chains Of (__ 
+>1clg_B mol:protein-het length:38 Collagen (Smith Microfibril) 3 Chains Of (__
 XGPPGPPGPPGPPGPPGPPGPPGPPGPPGPPGPPGPPX
 <P>
 	Chain C:
->1clg_C mol:protein-het length:38 Collagen (Smith Microfibril) 3 Chains Of (__ 
+>1clg_C mol:protein-het length:38 Collagen (Smith Microfibril) 3 Chains Of (__
 XGPPGPPGPPGPPGPPGPPGPPGPPGPPGPPGPPGPPX
-                                                            <P>                
-	Alfred Pischinger, a Viennese histologist in the 1930s, studied the collagen mesh system. This extracellular matrix was found to be the center of a multitude of processes such as a location for "mast cells" to release histamines in inflammatory process, or fibroblasts that continually rebuild fibers in the mesh whenever the body suffers an injury of some kind.  Toxins are constantly being dumped in the matrix temporarily, and therefore needs regular flushing with fresh water.  Pischinger found that synthetic drugs "invariably cause a damaging shock reaction" to the body's extracellular matrix of collagens. Some research theories were developed (Horn 1990) about tendencies for some of the public to be "overweight and fatigued". It is thought that perhaps L- hydroxyproline (a major component of collagen) is deficient in the body. Since it is derived from Arginine, it is known that the body synthesizes arginine, but never quite enough for our needs ( Horn 1990).  As yet, little is known about the effect of L-hydroxyproline treatments. However, the results that exist are positive, i.e., improvement with obesity, joint pain, carpal tunnel syndrome, diabetics, congestive heart failure, and fatigue.      
+                                                            <P>
+	Alfred Pischinger, a Viennese histologist in the 1930s, studied the collagen mesh system. This extracellular matrix was found to be the center of a multitude of processes such as a location for "mast cells" to release histamines in inflammatory process, or fibroblasts that continually rebuild fibers in the mesh whenever the body suffers an injury of some kind.  Toxins are constantly being dumped in the matrix temporarily, and therefore needs regular flushing with fresh water.  Pischinger found that synthetic drugs "invariably cause a damaging shock reaction" to the body's extracellular matrix of collagens. Some research theories were developed (Horn 1990) about tendencies for some of the public to be "overweight and fatigued". It is thought that perhaps L- hydroxyproline (a major component of collagen) is deficient in the body. Since it is derived from Arginine, it is known that the body synthesizes arginine, but never quite enough for our needs ( Horn 1990).  As yet, little is known about the effect of L-hydroxyproline treatments. However, the results that exist are positive, i.e., improvement with obesity, joint pain, carpal tunnel syndrome, diabetics, congestive heart failure, and fatigue.
 
 <P>
 References:
@@ -711,7 +711,7 @@ Chen, J.M. (August1991). PDBcode:Collagen.       http://www.biochem.ucl.ac.uk/bs
 Horn, Polly, MA. (1990). Why is Collagen So Important to Our       Health?       http://www.caloradnet.com/drbrad/collagen1.htm.
       (29 Jan 98).
 <P>
-Walshaw, J. (April 1995). Tertiary Structure - Fibrous and      Structural Proteins. 
+Walshaw, J. (April 1995). Tertiary Structure - Fibrous and      Structural Proteins.
      http://www.pdb.bnl.gov/PPS/course7_tertiary/struc.html.      (29 Jan 98).
 <P>
 
@@ -720,26 +720,26 @@ Walshaw, J. (April 1995). Tertiary Structure - Fibrous and      Structural Prote
 ===date:Thu Jan 29 23:21:04 1998
 ===subject:Blood is thicker than Sugar
 ===message:     Protiens serve several important roles in the human body.  These long chains of amino acids transport oxygen, store iron, and conrtol reactioms.  The human body creates hormone to control the body, and these hormones are proteins.<p>
-    
+
  Insulin is one of the most well known hormones.  51 different amino acids divided into two chains form insulin (Armstrong 89). Insulin helps lower the blood  sugar level in the body.  Since the body has a way to lower the blood glucose level, it must also have a way to lower it.  Glucagon is used to increase the blood sugar level.  These two hormones together are used to maintain homeostatsis the blood sugar concentration, but how do these proteins achieve that?<p>
-    
+
  Homeostasis is how the body maintains the proper condition for it to work. An example is the heart beating faster when a person exercises so more oxygen can be passed throughout the body.  Inuslin forms a cycle in an attempt to  maintain an equilibrium.  After eating a meal, a person will have a high blood glucose level.  The excessive amount of sugar in the bloodstream will cause the beta cells in the pancreas to release insulin (Campbel 96).  The insulin stimulates the liver to store glucose by turning it to glycogen.  Insulin also convinces body cells to take in mor glucose.  The blood sugar level decreases, and insulin release diminshes.<p>
-   
+
  If a person doesn't eat for a while, The blood glucose level will decrease.  When it reaches the activaton point, Alpha cells in the pancreas will release glucagon.  Once the glucagon reaches the liver, the liver will transfer glycogen back into glucose. The blood sugar rises, and homeostasis is maintained.<p>
-     
+
  When something goes wrong with this mechanism, a disorder known as diabetes occurs.  Diabetes is when the body fails to lower the amount of glucose in the blood.  It is so bad that some diabetics urinate sugar.   Diabetes comes in two forms, Type I and II diabetes mellitus (Campbell 96).  Type I is an auto immune diorder where the imune system attcks the pancreas (Campbell 96).  Type II is caused by a lack of reponsiveness by the cells in the pancreas.  There is no real cure foe either, but by taking the victims of these disorders can live normal lives.<p>
-     
+
  This maybe one of the lesser known processes for homeostatsis, but is still important.  Without insulin and glucagon, most humans would live their lives in great discomfort.<p>
 
 
 Works Citied<p>
 Armstrong, Frank A. "Biochemistry" 3rd ed. Oxford: Oxford UP, 1989.<p>
-Campbell, Neil A. "Biology" 4th ed. New York: Benjamin/Cumming Publisher Company Inc. 1996.<p> 
+Campbell, Neil A. "Biology" 4th ed. New York: Benjamin/Cumming Publisher Company Inc. 1996.<p>
 =========yorg=========
 ===from:Kate McGhee
 ===date:Thu Jan 29 23:29:48 1998
 ===subject:Hemoglobin
-===message:The hemoglobin molecule is located in the bloodstream of all oxygen breathing creatures.  It consists of the protein “globin”, and a brownish-red pigment called “heme”.  The hemoglobin molecule is located on the red blood cells (RBC’s).   Hemoglobin makes up approximately 33% of the total RBC weight. (Torta, 1986.)  There are around 280 million molecules of hemoglobin per eurethrocyte. (Torta, 1986.) 
+===message:The hemoglobin molecule is located in the bloodstream of all oxygen breathing creatures.  It consists of the protein “globin”, and a brownish-red pigment called “heme”.  The hemoglobin molecule is located on the red blood cells (RBC’s).   Hemoglobin makes up approximately 33% of the total RBC weight. (Torta, 1986.)  There are around 280 million molecules of hemoglobin per eurethrocyte. (Torta, 1986.)
 <p>
 Hemoglobin is a globular structure that transports oxygen to the cells, and waste gases, such as carbon dioxide, away from the cells. The bright red color that we associate with blood, is actually caused by the oxyhemoglobin, and the bluish-red  color we sometimes see with blood is caused by deoxyhemoglobin.  The normal amounts of hemoglobin in the body are as follows:  14-20gm/100mL of blood in infants; 12-15gm/100mL in adult females; and 14-16.5gm/100mL of blood in adult males. (Torta, 1986.)
 <p>
@@ -768,18 +768,18 @@ submitted by: James Nisly 1/29/98 <P>
 
 Protein: Pepsin <P>
 
-Pepsin is an enzyme protein found in the gastric juices of the stomach of humans .  It's function is to hydrolyze proteins as a part of the digestion process, however, hydrolysis is incomplete because pepsin can only break peptide bonds adjacent to specific amino acids.  Pepsin's action cleaves proteins into smaller polypeptides.  It is one of the few enzymes that works best in a strongly acidic environment.  The low pH of gastric juice denatures the proteins in the food which enters the stomach, thereby 
+Pepsin is an enzyme protein found in the gastric juices of the stomach of humans .  It's function is to hydrolyze proteins as a part of the digestion process, however, hydrolysis is incomplete because pepsin can only break peptide bonds adjacent to specific amino acids.  Pepsin's action cleaves proteins into smaller polypeptides.  It is one of the few enzymes that works best in a strongly acidic environment.  The low pH of gastric juice denatures the proteins in the food which enters the stomach, thereby
 increasing the exposure of their peptide bonds to the pepsin.  (Campbell, 1996) <P>
 
-Pepsin is secreted by the chief cells of the stomach wall in an inactive precursor form known as pepsinogen. (Vander, et al; 1994).  Hydrochloric acid in the gastric juice of the stomach converts pepsinogen to the active pepsin by removing a short segment of the protein's polypeptide chain, an alteration that exposes the active site of pepsin. Because the acid and the pepsinogen ore secreted by different kinds of cells, the two ingredients do not mix until they are released into the lumen of the stomach.  This process is what prevents pepsin from destroying the very cells which synthesize it. Once some of the pepsinogen is activated by acid, a chain reaction occurs because pepsin itself can activate additional molecules of pepsinogen.   This domino 
+Pepsin is secreted by the chief cells of the stomach wall in an inactive precursor form known as pepsinogen. (Vander, et al; 1994).  Hydrochloric acid in the gastric juice of the stomach converts pepsinogen to the active pepsin by removing a short segment of the protein's polypeptide chain, an alteration that exposes the active site of pepsin. Because the acid and the pepsinogen ore secreted by different kinds of cells, the two ingredients do not mix until they are released into the lumen of the stomach.  This process is what prevents pepsin from destroying the very cells which synthesize it. Once some of the pepsinogen is activated by acid, a chain reaction occurs because pepsin itself can activate additional molecules of pepsinogen.   This domino
 effect is known as positive feedback and pepsin represents just one example of a protein digesting enzyme which is secreted in an inactive form.  These types of enzymes are generally called zymogens (Campbell, 1996). <P>
 
 Pepsin is only active in the presence of a high hydrogen ion concentration.  It becomes inactive when it enters the small intestine, where the hydrogen ions are neutralized by the bicarbonate ions secreted into the small intestine (Vander, et al; 1994). <P>
 
 Pepsin is not essential for protein digestion since, in its absence, protein can be completely digested by enzymes in the small intestine (Vander, et al; 1994).  However, the importance of protein digestion does not lie so much in its contribution to the breakdown of ingested macromolecules, but rather in the generation of peptides and amino acids that act as stimulants for cholecystokinin release in the duodenum.  The gastric peptides, therefore, are instrumental in the initiation of the pancreatic phase of protein digestion (Devlin; 1982). <P>
- 
 
-The following is the amino acid sequence for human pepsin:  
+
+The following is the amino acid sequence for human pepsin:
 MKWLLLLGLVALSECIMYKVPLIRKKSLRRTLSERGLLKDFLKKHNLNPARKYFPQWEA
 PTLVDEQPLENYLDMEYFGTIGIGTPAQDFTVLFDTGSSNLWVPSVYCSSLACTNHNRF
 NPEDSSTYQSTSETVSITYGTGSMTGILGYDTVQVGGISDTNQIFGLSETEPGSFLYYA
@@ -788,18 +788,18 @@ YTGSLNWVPVTVEGYWQITVDSITMNGETIACAEGCQAIVDTGTSLLTGPTSPIANIQS
 DIGASENSDGDMVVSCSAISSLPDIVFTINGVQYPVPPSAYILQSEGSCISGFQGMVPT
 ESGELWILGDVFIRQYFTVFERANNQVGLAPVA (National Center For Biotechnology Information, 1998) <P>
 
- 
+
  References: <P>
-Campbell, Neil A., 1996. Biology. Fourth Edition  The Benjamin/Cummings Publishing Company, Inc., Menlo Park, California 
+Campbell, Neil A., 1996. Biology. Fourth Edition  The Benjamin/Cummings Publishing Company, Inc., Menlo Park, California
 <P>
 
-Vander, Arthur J. M.D., Sherman, James H., PH.D. and Luciano, Dorthy S., PH.D., 1994. Human Physiology: The 
+Vander, Arthur J. M.D., Sherman, James H., PH.D. and Luciano, Dorthy S., PH.D., 1994. Human Physiology: The
 Mechanisms of Body Function. Sixth Edition  McGraw-Hill, Inc., New York <P>
 
-Devlin, Thomas M. Editor, 1986. Textbook of Biochemistry: With Clinical Correlations. Second Edition. A Wiley Medical 
+Devlin, Thomas M. Editor, 1986. Textbook of Biochemistry: With Clinical Correlations. Second Edition. A Wiley Medical
 Publication.  John Wiley & Sons.  New York  <P>
 
-National Center for Biotechnology Information.  Entrez Protein query: FASTA report 
+National Center for Biotechnology Information.  Entrez Protein query: FASTA report
 http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?db=p_d  January 29, 1998 <P>
 
 

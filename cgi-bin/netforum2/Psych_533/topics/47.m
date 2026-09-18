@@ -9,11 +9,11 @@
 
 5 D)  Cooperative learning - (Pressley)  Students working together to solve problems will help them value the process, as well as the answer in mathematical problems.  It promotes metacognition as they justify their ideas to each other.
 
-Application:  Using teacher produced spreadsheets, the students will manipulate data within the spreadsheet to solve a problem.  Students will work in small groups of 3 to make mathematical decisions in a real life situation.  
+Application:  Using teacher produced spreadsheets, the students will manipulate data within the spreadsheet to solve a problem.  Students will work in small groups of 3 to make mathematical decisions in a real life situation.
 
 Situation one:  You are a member of the ecology club. The club has decided to sell T-shirts to raise money.  The cost of the shirts for the club is $10 each.  The club has a goal of making $700.00.  They will incur other costs from advertising, 3rewards2 for top sellers, and other operating costs outlined below in the spreadsheet.  Change the data in order to decide what the cost of the T-shirts should be for customers, budgets for various expenses, and the number of T-shirts that will have to be sold in order to reach the goals.  Justify your decisions and present your ideas as a group.
 
-Situation two:  Your class has decided to produce a school newspaper.  Below are a list of expense categories and possible avenues of revenue.  Work in small groups to decide on a budget for expenses and goals for sales and advertising revenues.  Keep a log of issues that you discuss as you make your decisions, and justify your decisions.  Example:  We thought that it would be realistic to sell ____ copies a week at  ____ each since there are 388 students in the school and about 30 staff and people can afford _____ each week.  
+Situation two:  Your class has decided to produce a school newspaper.  Below are a list of expense categories and possible avenues of revenue.  Work in small groups to decide on a budget for expenses and goals for sales and advertising revenues.  Keep a log of issues that you discuss as you make your decisions, and justify your decisions.  Example:  We thought that it would be realistic to sell ____ copies a week at  ____ each since there are 388 students in the school and about 30 staff and people can afford _____ each week.
 
 =========yorg=========
 ===from:Ap533
@@ -45,7 +45,7 @@ e.	Interactive Technologies.  Source:  Pressley.  This is my own classification 
 a.	In my role as a technology instructor I would, through direct instruction, deliver Polya’s general strategies for problem-solving.  I would ask the class if this was a reasonable approach.  I would then suggest a problem such as, “How should we learn to use computers for our work?”  As each suggestion is made, as a class we would talk about whether that suggestion met with Polya’s suggested strategy.
 <p>
 <br>
-b.	To promote understanding each student suggesting a plan or strategy would be asked to explain why they thought it might be useful.  Everyone would be asked to suggest something somewhere along the path of Polya’s four rules.  These suggestions and justifications would be entered into a concept mapping computer program such as “Inspiration,” or a drawing program capable of handling text.  The suggestions would be input using a graphics tablet or whiteboard technology (via the internet).  
+b.	To promote understanding each student suggesting a plan or strategy would be asked to explain why they thought it might be useful.  Everyone would be asked to suggest something somewhere along the path of Polya’s four rules.  These suggestions and justifications would be entered into a concept mapping computer program such as “Inspiration,” or a drawing program capable of handling text.  The suggestions would be input using a graphics tablet or whiteboard technology (via the internet).
 <p>
 <br>
 c.	What my goals in doing this would be 1) to demonstrate the utility of computer and software technologies and 2) to use these technologies to bring out the natural strategies (mathematical or otherwise) the students are already using.  This enhanced understanding of where they are coming from would allow me to adapt my own instruction to their needs.
@@ -78,7 +78,7 @@ Word Problems. Source: Pressley.  Word problems help students apply mathematical
 <p>
 Cooperative Learning. Source: Pressley.  Cooperative learning is used in mathematics to promote interactivity among children.  It gives students the opportunity to work together to solve given problems.  This leads to the understanding that problem solving can take place in many ways.  Students come to realize that there is more than one way to solve problems.  A focus is placed more on the actual strategies employed in solving the problem than the actual answer obtained.  Students also get to get feed back from one another.
 <p>
-Situated Learning. Source: Pressley.  Situated learning involves completing a task in a particular setting or situation.  It involves knowledge being tied to a direct application of it.  For example, it might be quite easy for a chef to convert different units of measure while cooking but if given a standardized test where they are asked to do the same type of conversions, s/he might not do as well.  In other words, his/her knowledge about conversions is tied to her/his cooking experience.  
+Situated Learning. Source: Pressley.  Situated learning involves completing a task in a particular setting or situation.  It involves knowledge being tied to a direct application of it.  For example, it might be quite easy for a chef to convert different units of measure while cooking but if given a standardized test where they are asked to do the same type of conversions, s/he might not do as well.  In other words, his/her knowledge about conversions is tied to her/his cooking experience.
 <br>
 Example:  With assistance from parents, students will be asked to participate in a fund-raiser that involves getting pledges from their relatives and friends.  The pledge will be based on the number of push-ups they can do.  For instance, if someone pledges 10 cents and the child does 10 push-ups, the person would owe $1.00.  Those submitting pledges will be encouraged to give the students different scenarios where the student must figure out how much the person will owe.  This involves various types of algorithms.
 <p>
@@ -95,7 +95,7 @@ Example for cooperative learning, word problems and problem solving: Students wi
 1. Self-Regulation: Monitoring and Control
 <p>
 Source: This idea was presented in Chap. 13, Pressley¡¯s book.
-Explanation: It is one of the important features that metacognition has. Students who have a self-regulation would monitor their learning itself and learning procedures. Also they control the use of learning strategies so that they could use strategies in effective ways. According to Schoenfeld (P 322 in Pressley), a good math-problem solver (A professional mathematician) monitors whether problem solving progress is toward the solution of the problem, and if not, s/he would search for better strategies and apply them to the problem solving. 
+Explanation: It is one of the important features that metacognition has. Students who have a self-regulation would monitor their learning itself and learning procedures. Also they control the use of learning strategies so that they could use strategies in effective ways. According to Schoenfeld (P 322 in Pressley), a good math-problem solver (A professional mathematician) monitors whether problem solving progress is toward the solution of the problem, and if not, s/he would search for better strategies and apply them to the problem solving.
 <p>
 2. Cooperative Learning and Mathematics Education
 <p>
@@ -117,7 +117,7 @@ Explanation: Cooperative learning is especially used for mathematics learning en
 Source: This idea was presented in Chap. 13, Pressley¡¯s book.
 Explanation: According to several literature resultings shown in the Pressely book, LOGO programming experience could increase knowledge of geometric concepts. For example, students who received LOGO instruction can draw geometric figure more easily and know better about the features of each figure. And if LOGO instruction is done with cooperative learning, students would experience cognitive development through interaction with peers.
 <p>
-4. Word Problems and Mathematics Instruction 
+4. Word Problems and Mathematics Instruction
 <p>
 Source: This idea was presented in Chap. 13, Pressley¡¯s book.
 Explanation: Rather than providing drill and practice on the basic math concepts, giving students meaningful word problems is a good method that enables students to connect their math knowledge to real world situation, so that they can perceive math concepts as learnable and meaningful things for their lives. And the appropriate time for this word problem instruction is after middle elementary grade level.
@@ -150,7 +150,7 @@ After this LOGO experience, they will get the formal instruction from a teacher.
 <br>
 4. 11/5/97
 <br>
-5a. Strategy: Polya's problem solving. Source: Pressley. Polya presented four general steps to problem solving: Understand the problem, devise a plan, carry out the plan and look back. 
+5a. Strategy: Polya's problem solving. Source: Pressley. Polya presented four general steps to problem solving: Understand the problem, devise a plan, carry out the plan and look back.
 <p>
 5b. Strategy: Schoenfeld's Monitoring and control. Source: Pressley. This is a metastrategy in which the student essentially stands beside him or herself and watches the the thinking that is going on concerning the problem being addressed. This process helps the student stay on a productive path or move in other directions when the current path no longer seems to be moving toward success.
 <p>
@@ -160,13 +160,13 @@ After this LOGO experience, they will get the formal instruction from a teacher.
 <p>
 6. When I taught high school geometry I went about teaching the measurement of similar triangles this way: after an introduction to what constituted a proportion I would have the students construct out of straws and sticks several pairs of proportional triangles. They would measure the sides and from this we would induce the rules governing the relationships between sides (they are proportional, of course). After that, I would show them where similar triangles existed in the classroom, halls, whereever we could find them. Students would then procede to measure these examples to get a firmer grasp of the proportionality properities and how they could be applied. This activity was generally done in pairs providing some cooperative learning experience.
 <p>
-The final activity involved measuring the distance between my outside window and a wall that it looked out to (about 20 feet away - great view). As we were on the third floor of the school it was impossible for the students to actually measure this distance. I gave them no hints but gave them balls of string and measuring tapes, put them into groups of four and turned them loose (I should probably note that these were TAG kids). I didn't call it this at the time but the process that they used to figure out the distance involved a great deal of monitoring and control, as there were many false starts, dead-ends from which they would have to back up and constant questioning of whether they were actually getting anywhere. With some of the students I would have to intervene and assist them. I often used an elaboration of Polya's problem-solving strategy to help them work through the process (usually breaking the first step into the more means-ends approach of understanding what it was they were trying to get to and what they knew at the beginning; and breaking the second step down into what resources were available and what math principles could be applied to the situation). It was a fun exercise and usually several ways of solving the problem were uncovered. And though here I attribute the strategies used to those found in Pressley, in actuality I was generally flying by the seat of my pants and stumbling into some of these strategies as I went. 
+The final activity involved measuring the distance between my outside window and a wall that it looked out to (about 20 feet away - great view). As we were on the third floor of the school it was impossible for the students to actually measure this distance. I gave them no hints but gave them balls of string and measuring tapes, put them into groups of four and turned them loose (I should probably note that these were TAG kids). I didn't call it this at the time but the process that they used to figure out the distance involved a great deal of monitoring and control, as there were many false starts, dead-ends from which they would have to back up and constant questioning of whether they were actually getting anywhere. With some of the students I would have to intervene and assist them. I often used an elaboration of Polya's problem-solving strategy to help them work through the process (usually breaking the first step into the more means-ends approach of understanding what it was they were trying to get to and what they knew at the beginning; and breaking the second step down into what resources were available and what math principles could be applied to the situation). It was a fun exercise and usually several ways of solving the problem were uncovered. And though here I attribute the strategies used to those found in Pressley, in actuality I was generally flying by the seat of my pants and stumbling into some of these strategies as I went.
 =========yorg=========
 ===from:j p533
 ===date:Tue Nov 18 17:28:56 1997
 ===subject:replies
-===message:Before I left town last week I printed everyone's Assignments so that I 
-could read them and respond.  Since our classnet is no longer on the 
+===message:Before I left town last week I printed everyone's Assignments so that I
+could read them and respond.  Since our classnet is no longer on the
 list, here are my responses:
 <p>
 Posted by Lp533
@@ -174,15 +174,15 @@ Posted by Lp533
 Assignment 8
 <br>
 Reply by Jp533
-Bringing in Professional journaling would also be a good use of 
-modeling.  As  volunteers though their presence would be minimal.  
+Bringing in Professional journaling would also be a good use of
+modeling.  As  volunteers though their presence would be minimal.
 <p>
 Posted by Op533
 10/29/97
 Assignment 9
 <br>
 Reply by Jp533
-Read it.  Like the ideas about starting with the characteristics of 
+Read it.  Like the ideas about starting with the characteristics of
 insects to change misconception of Spiders classification as insects.
 <p>
 Posted by Ip533
@@ -204,22 +204,22 @@ Posted by Cp533
 Assignment 7
 <p>
 Reply by Jp533
-The examples are good and simple applications to the major points listed 
-and gives clear practicality to the concepts.  I am not clear on why the 
-students will take notes.  What will the students use the notes for?  To 
-study or just for their own learning enhancements. 
+The examples are good and simple applications to the major points listed
+and gives clear practicality to the concepts.  I am not clear on why the
+students will take notes.  What will the students use the notes for?  To
+study or just for their own learning enhancements.
 <p>
 Posted by Up533
 10/5/97
 Assignment 6
 <br>
 Reply by Jp533
-These example work will with the concepts except for exploration.  It may 
-be difficult to apply this concept with somethng like driving.  What 
-could the driving student explore while on the road where the rules of 
-the road are clearly  and expicitly stated and there is penalty for 
-straying from these rules.  Driving test simply test skills and knowledge 
-of the laws.  There may not be much room for exploration.  
+These example work will with the concepts except for exploration.  It may
+be difficult to apply this concept with somethng like driving.  What
+could the driving student explore while on the road where the rules of
+the road are clearly  and expicitly stated and there is penalty for
+straying from these rules.  Driving test simply test skills and knowledge
+of the laws.  There may not be much room for exploration.
 <p>
 Posted by Ap533
 11/5/97
@@ -235,17 +235,17 @@ Assignment 6
 <br>
 Reply by Jp533
 <br>
-If the teacher points out these abilities, what if the child felt he or 
-she had abilities to offer to the group other than what the teacher 
-recognizes.  Wouldn't that cause problems. By forcing the students to 
-focus on one ability, other abilities may be overlooked.  
+If the teacher points out these abilities, what if the child felt he or
+she had abilities to offer to the group other than what the teacher
+recognizes.  Wouldn't that cause problems. By forcing the students to
+focus on one ability, other abilities may be overlooked.
 <br>
 Posted by Up533
 11/5/97
 Assignment 9
 <br>
 Reply by Jp533
-Verifying I read it. 
+Verifying I read it.
 <p>
 <br>
 

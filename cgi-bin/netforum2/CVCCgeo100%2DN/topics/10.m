@@ -6,7 +6,7 @@
 ===from:A.Blackwell
 ===date:Wed Apr  9 21:43:05 2003
 ===subject:Africa
-===message:I believe that Africa has not caused a threat to America yet, besides HIV/AIDS. They have been in the news for that. America is sometimes a stingy country. We only help people out that are helping us, well at least in this situation. Maybe I am wrong. 
+===message:I believe that Africa has not caused a threat to America yet, besides HIV/AIDS. They have been in the news for that. America is sometimes a stingy country. We only help people out that are helping us, well at least in this situation. Maybe I am wrong.
 =========yorg=========
 ===from:Chazie Brown
 ===date:Wed Apr  9 22:17:54 2003
@@ -16,7 +16,7 @@
 ===from:abiggers
 ===date:Wed Apr  9 22:35:35 2003
 ===subject:Africa
-===message:Everyone attention is on the United States,it is always somthing going on in the United States.THat is why Africa is not the main story going on.I agree with my classmates.United States value life,so if it was that many people who died,it would of been a issue.It would still be heard of today.Countries overseas seems not to value life of their people,so it is believe not to be important enough to mention more. 
+===message:Everyone attention is on the United States,it is always somthing going on in the United States.THat is why Africa is not the main story going on.I agree with my classmates.United States value life,so if it was that many people who died,it would of been a issue.It would still be heard of today.Countries overseas seems not to value life of their people,so it is believe not to be important enough to mention more.
 =========yorg=========
 ===from:Trashanda Person
 ===date:Wed Apr  9 22:37:21 2003
@@ -26,7 +26,7 @@
 ===from:Cedric Miller
 ===date:Wed Apr  9 22:50:18 2003
 ===subject:Africa
-===message:My opion is that due to the tragic ways of the world today; Africa does not impose a threat to the Untied States. As for, Sirdam in Bagdad, whom imposes a serious threat to the U.S.; who has the whole world foucs on war. Due to the fact that we are at risk of being destoryed by atomic weapons an which Africa does not have. So Africa is not a focus of the world at this time. 
+===message:My opion is that due to the tragic ways of the world today; Africa does not impose a threat to the Untied States. As for, Sirdam in Bagdad, whom imposes a serious threat to the U.S.; who has the whole world foucs on war. Due to the fact that we are at risk of being destoryed by atomic weapons an which Africa does not have. So Africa is not a focus of the world at this time.
 =========yorg=========
 ===from:mona shorter
 ===date:Fri Apr 11 12:31:44 2003

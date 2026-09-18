@@ -6,7 +6,7 @@
 
 <p> My friend has a wonderful idea, to make international cities. If you live there, you will be an international citizen. This would make everyone responcibile for there actions on an international instead of sovereign level. His example is of course Jerusalem because of it's volatileness over ownership.  However, if this theory was applied to the ocean and its' use, then maybe the laws made by the international councel would have to be enforced and followed by all sovereign nations. <br>
 
-<p>Let me know what you think. 
+<p>Let me know what you think.
 =========yorg=========
 ===from:Brock McCracken
 ===date:Wed Nov 13  0:09:35 2002
@@ -16,7 +16,7 @@
 ===from:Michelle Cho
 ===date:Thu Nov 14 10:08:36 2002
 ===subject:cooperation
-===message:Coastal areas in the U.S. are very diverse, and all call for different areas of management. Coastal New England has very different needs than the coast of southern California. This is why it is better for regions to make management decisions. The decisions involved often involve more than just the coastal area, they often involve decisions that will affect the whole state.  The problems arise when these decisions involve different agencies, or levels of  government that often have different interests. The scientific agencies and legal agencies, as well as commercial industries all have conflicting interests. When they are faced with something that will affect all aspects, naturally they are going to have their own self-interest in mind. This is really the root of the problem. Another big problem is that many scientists are unfamiliar with other aspects that must also be met, and vice versa. It will be important to integrate these agencies in the long run. 
+===message:Coastal areas in the U.S. are very diverse, and all call for different areas of management. Coastal New England has very different needs than the coast of southern California. This is why it is better for regions to make management decisions. The decisions involved often involve more than just the coastal area, they often involve decisions that will affect the whole state.  The problems arise when these decisions involve different agencies, or levels of  government that often have different interests. The scientific agencies and legal agencies, as well as commercial industries all have conflicting interests. When they are faced with something that will affect all aspects, naturally they are going to have their own self-interest in mind. This is really the root of the problem. Another big problem is that many scientists are unfamiliar with other aspects that must also be met, and vice versa. It will be important to integrate these agencies in the long run.
 =========yorg=========
 ===from:Yvonne Haberer
 ===date:Sat Nov 16 15:01:05 2002
@@ -34,9 +34,9 @@
 ===message:To reference "Butch Cassidy and the Sundance Kid"  …."Who are these guys?"
 <br>
 Reports like this bring back memories of a recurring dream I had in my youth; What would happen if I owned the last tree? (the last river bamk, the last beach, etc)
-Just replace the word river with ocean, etc. and the story is the same and repeated, and repeated, and repeated.  
+Just replace the word river with ocean, etc. and the story is the same and repeated, and repeated, and repeated.
 <br>
-If this is not a prime example of intergovernmental aspects of (Ocean) governance, what is? 
+If this is not a prime example of intergovernmental aspects of (Ocean) governance, what is?
 <p>
 Let it flood  (lead editorial, St. Louis Post Dispatch)
 <p>
@@ -44,26 +44,26 @@ Let it flood  (lead editorial, St. Louis Post Dispatch)
 <p>
   WHEN THE MISSISSIPPI rises, the tiny Missouri village of Pin Hook becomes an island. Jim
   Robinson hitches a flatbed trailer to his farm tractor and hauls the town's children over the
-  flooded roads to their school bus. 
+  flooded roads to their school bus.
 <br>
   Nearby East Prairie gets surrounded, too. In town, the water table gets so high that septic
-  systems stop working and toilets won't flush. On the worst days, fish swim on the streets. 
+  systems stop working and toilets won't flush. On the worst days, fish swim on the streets.
 <br>
   "When old John Brown comes in, he just wipes us out," says Mr. Robinson, who farms 700
-  acres of bottomland. Sometimes he can't get into his fields to plant until July. 
+  acres of bottomland. Sometimes he can't get into his fields to plant until July.
 <br>
   It's easy to see why Mr. Robinson and his neighbors in Southeast Missouri cheer for the
   Army Corps of Engineers. The Corps wants to finish an extravagant $85 million levee and
   pump project that will keep farms and towns much drier. "If we had that levee finished, we'd
-  be sort of the garden spot of Missouri," says Mr. Robinson. 
+  be sort of the garden spot of Missouri," says Mr. Robinson.
 <br>
   Unfortunately, it's a bad idea, and a costly one. Sealing off the river would permanently
   damage a valuable ecosystem and harm wildlife. It could kill off the cypress forest in a
   nearby state park. There must always be a balance between preserving the environment
   and the good of the people. In this case, the balance tips against the 6,000 folks affected by
-  rising water. 
+  rising water.
 <br>
-  Besides, there might be a better and cheaper way to keep part of the area dry. 
+  Besides, there might be a better and cheaper way to keep part of the area dry.
 <br>
   America spent the past century and a half channeling the Mississippi and its tributaries with
   levees and flood walls. The spot just north of New Madrid is one of the few places where the
@@ -71,27 +71,27 @@ Let it flood  (lead editorial, St. Louis Post Dispatch)
   into its flood plains prevents much more severe flooding downstream, replenishes the soil
   and provides protected breeding and feeding areas for fish, birds (migratory and resident)
   and other wildlife. We should preserve as much as we can of what this mighty river used to
-  be. 
+  be.
 <br>
   Area residents say - correctly - that all that upstream levee-building has made their
   problem worse. Water that can't flood upstream comes rolling into their farms. But in
   addition to the bloated cost of the project, the ecological price of keeping local feet dry is
   simply too high. The area contains 18,000 acres of wetlands. It hosts several fish species
   that are rare in our region. Big Oak Tree State Park would be put at risk. Missouri officials
-  fear that the 1,000-acre cypress swamp could die of thirst. 
+  fear that the 1,000-acre cypress swamp could die of thirst.
 <br>
   As it often has, the U.S. Fish and Wildlife Service adamantly opposes the levee and is
-  fighting a bureaucratic war with the Corps of Engineers. 
+  fighting a bureaucratic war with the Corps of Engineers.
 <br>
   "There is no other area along the Lower Mississippi River in Missouri that supports diverse
   and rich fish, wildlife and plant species as well as regionally scarce stream, river and flood
   plain habitats," said the Wildlife Service. The Corps has added $20 million in modifications
   in hopes of appeasing opponents. It would buy 8,000 acres of farmland and plant a forest to
   replace damaged wetlands. But that's not enough. The busy beavers at the Corps should
-  abandon this ill-considered plan. 
+  abandon this ill-considered plan.
 <br>
   Instead, the state might consider a smaller plan proposed by critics. They suggest building
-  a small levee near East Prairie, while elevating roads and improving storm water 
+  a small levee near East Prairie, while elevating roads and improving storm water
 
 =========yorg=========
 ===from:Rick
@@ -111,7 +111,7 @@ The lack of cooperation at these different levels stem from different reasons.  
 ===from:Yvonne Haberer
 ===date:Sun Dec  8 20:13:26 2002
 ===subject:Governance of our Oceans
-===message:I'm also in another class through Nova called "Life on a Water Planet".  Much of what we are focusing on this week directly relates to this Unit regarding Ocean Governance.  We have been focusing on the challenges of learning to live sustainably with our oceans and how it involves governance at all levels, i.e. Internationally, Nationally, and Regionally. We must look at governance at each level.  There seems to be lack of coordination between each level in ocean governance.  It is almost like there seems to be failure in seeing the "whole" picture.  Agencies tend to target, or address, a "specific" problem or area.  We need to treat the ocean like an ecosystem because everthing that lives in the ocean is interrelated.  Each level of government needs to work in tandem.  
+===message:I'm also in another class through Nova called "Life on a Water Planet".  Much of what we are focusing on this week directly relates to this Unit regarding Ocean Governance.  We have been focusing on the challenges of learning to live sustainably with our oceans and how it involves governance at all levels, i.e. Internationally, Nationally, and Regionally. We must look at governance at each level.  There seems to be lack of coordination between each level in ocean governance.  It is almost like there seems to be failure in seeing the "whole" picture.  Agencies tend to target, or address, a "specific" problem or area.  We need to treat the ocean like an ecosystem because everthing that lives in the ocean is interrelated.  Each level of government needs to work in tandem.
 =========yorg=========
 ===from:Ted Kendziora
 ===date:Mon Dec 16 21:38:11 2002

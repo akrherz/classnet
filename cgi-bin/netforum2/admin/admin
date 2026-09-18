@@ -92,10 +92,10 @@
 # Would not display the forum_owner_code_name when creating a forum and
 # editing the forum again.
 
-# Would screw up the admin script if a .cgi extension is required. Not a 
+# Would screw up the admin script if a .cgi extension is required. Not a
 # bug, but an adaptation in the $script_name variable.
 
-# required files: 
+# required files:
 
 require "ctime.pl";
 require "../lib/sys_config";
@@ -138,9 +138,9 @@ sub get_admin_command{
     if ($ENV{'PATH_INFO'} =~ /\!/) {
 	($which_command,$command_vars) = split('!', $ENV{'PATH_INFO'});
     } elsif ($ENV{'PATH_INFO'} =~ /$cvar_separator/) {
-	($which_command,$command_vars) = split($cvar_separator, 
+	($which_command,$command_vars) = split($cvar_separator,
 $ENV{'PATH_INFO'});
-    } else { 
+    } else {
 	$which_command = $ENV{'PATH_INFO'};
     }
 
@@ -156,14 +156,14 @@ sub login {
 
     unless ($httpheader) {print &http_header;}
     &header;
-	
+
 
 
 print "<title>Netforum Login</title>";
 	print<<EOH;
 <h2 align=center>NetForum Login</h2>
 <hr>
-Please enter your owner code name (i.e., login name) and your password. If you do 
+Please enter your owner code name (i.e., login name) and your password. If you do
 not have a login and password, contact the NetForum administrator.<P>
 <CENTER>
 <FORM ACtION="/$netforum_url/$login_command" METHOD=POST>
@@ -196,9 +196,9 @@ sub check_toolbar {
 
 	local($no_no_button) = @_;
 	local($i, @list, $llength);
-	
+
 	if($admin_right eq "YES"){
-		@list = ('admin_menu','create_forum', 'edit_forums', 'edit_site', 
+		@list = ('admin_menu','create_forum', 'edit_forums', 'edit_site',
 		'manage_owners', 'list_forums', 'help', 'login');
 	}
 	else {
@@ -207,10 +207,10 @@ sub check_toolbar {
 			push(@list, 'create_forum');
 		}
 		push(@list, 'edit_forums', 'change_pass','list_forums', 'help', 'login');
-	}    
-	
+	}
+
 	$llength = @list;
-	
+
 	for($i=0; $i<$llength; $i++){
 		if($list[$i] ne $no_no_button){
 			push(@admin_icon_list, $list[$i]);
@@ -226,7 +226,7 @@ sub admin_options{
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	&check_user($owner_code_name, $id);
 
     unless ($httpheader) {print &http_header};
@@ -245,54 +245,54 @@ EOH
    		print "<TR><TD>";
     	print "<IMG SRC=\"$create_forum_gif\"  alt=\"Create forum\" ";
     	print " BORDER=$image_border>\n";
-    	print "\n</TD>"; 
+    	print "\n</TD>";
     	print "<TD><B>Create a Forum</b><BR>
     	This option allows you to create a new forum.</TD>\n";
     }
    		print "<TR><TD>";
     	print "<img SRC=\"$edit_forums_gif\" alt=\"Edit forums\" ";
     	print "  BORDER=$image_border>\n";
-    	print "\n</TD>"; 
+    	print "\n</TD>";
     	print "<TD><B>Edit Forums</b><BR>
-    	This option allows you to edit and configure a forum. This 
+    	This option allows you to edit and configure a forum. This
     	includes editing a forum's topics, messages, and replies.</td>\n";
-    	
+
     if($admin_right eq "YES"){
    		print "<TR><TD>";
     	print "<IMG SRC=\"$edit_site_gif\" alt=\"Edit site\" ";
     	print "BORDER=$image_border>\n";
-    	print "\n</TD>"; 
+    	print "\n</TD>";
   		print "<TD><B>Edit Site Configuration</b><BR>
-  		This option allows you to edit your site's system variables, 
+  		This option allows you to edit your site's system variables,
   		the default forum variables, and the default header and footer files.</td>";
-  		
+
    		print "<TR><TD>";
     	print "<IMG SRC=\"$manage_owners_gif\" alt=\"Manage Forum Owners\" ";
     	print "BORDER=$image_border>\n";
-    	print "\n</TD>"; 
+    	print "\n</TD>";
     	print "<TD><b>Manage Forum Owners</b><BR>
     	This option allows you to create and delete forum owners. In addition, you
-    	can change the owners' forum administrative rights and their passwords.\n";	
+    	can change the owners' forum administrative rights and their passwords.\n";
 	}
 	else{
 		print "<TR><TD>";
     	print "<IMG SRC=\"$change_pass_gif\" alt=\"Change Password\" ";
     	print "BORDER=$image_border>\n";
-    	print "\n</TD>"; 
+    	print "\n</TD>";
     	print "<TD><B>Change Password</b><BR> Press this button if you wish to change your current password</td>\n";
-	}	
+	}
     	print "<TR><TD>";
     	print "<IMG SRC=\"$list_forums_gif\" alt=\"List forums\" ";
     	print "BORDER=$image_border>\n";
-    	print "\n</TD>"; 
-    
+    	print "\n</TD>";
+
     if($admin_right eq "YES"){
     	print "<td><B>List Forums</b><br>
     	Press this button to list all the existing forums.\n</td>"
 	}
 	else{
 		print "<TD>Press this button to list all your forums.\n</td>";
-	}	
+	}
 		print "<TR><TD>";
 		print "<IMG SRC=\"$help_gif\" BORDER=$image_border";
 		print "alt=\"Help\"></a>\n";
@@ -301,7 +301,7 @@ EOH
     	print "<TR><TD>";
     	print "<IMG SRC=\"$goto_login_gif\" BORDER=$image_border";
     	print " alt=\"Go to login page\"></a>\n";
-    	print "\n</TD>"; 
+    	print "\n</TD>";
     	print "<TD><B>Login</b><BR>Press this button to login again.\n</td>";
     print "</TABLE>";
 	print "<HR>";
@@ -316,11 +316,11 @@ sub site_config_menu {
 		$id = $in{'id'};
 	}
 	&check_user($owner_code_name, $id);
-	&check_toolbar("edit_site");	
+	&check_toolbar("edit_site");
 
 	unless ($httpheader) {print &http_header};
     &header;
-	
+
 	print<<EOH;
 	<title>Edit Site Configuration</title>
 	<H3>NetForum Administration</H3><P>
@@ -373,7 +373,7 @@ sub main_menu_options {
 	if ( $in{'action'} eq 'create_forum' ) {&add_forum($owner_code_name,$id)}
     elsif ( $in{'action'} eq 'edit_forum' ) {&edit_forums($owner_code_name,$id)}
     elsif ( $in{'action'} eq 'site_config' ){&site_config_menu($owner_code_name,$id)}
-    
+
     elsif ( $in{'action'} eq 'manage_owners' ){&manage_users($owner_code_name,$id)}
     elsif ( $in{'action'} eq 'change_pass' ){&change_pass($owner_code_name,$id)}
     elsif ( $in{'action'} eq 'list_forums' ){&list_forums($owner_code_name,$id)}
@@ -391,13 +391,13 @@ sub manage_users {
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	&check_user($owner_code_name, $id);
-	&check_toolbar("manage_owners");	
+	&check_toolbar("manage_owners");
 
 	unless ($httpheader) {print &http_header};
     &header;
-	
+
 	if($admin_right ne "YES"){
 		&doh("You do not have the rights to manage forum owners. - manage_users");
 	}
@@ -406,7 +406,7 @@ sub manage_users {
 
 	<title>Manage Forum Owners</title>
 	<h3>NetForum Administration</h3><P><H2> Manage Forum Owners</h2>
-	Managing forum owners allows you to delegate forum responsibilities to 
+	Managing forum owners allows you to delegate forum responsibilities to
 	other persons. <BR>
 EOH
 	print "<HR>";
@@ -420,17 +420,17 @@ EOH
 	 <input type="radio" name="action" value="change_user">Change Owner's Rights <BR>
 	 <input type="radio" name="action" value="change_pass">Change Owner's Password <BR>
 	<input type="radio" name="action" value="list_user">List Owners <P>
-	
+
 	<input type="hidden" name="owner_code_name" value="$owner_code_name">
 	<input type="hidden" name="id" value="$id">
-	
+
 	<input type="submit" value="Submit">
 	<input type="reset" value="Reset">
 	</UL>
 	</FORM>
 	<HR>
 EOH
-	
+
 	&footer;
 }
 
@@ -453,7 +453,7 @@ sub manage_options {
 }
 
 sub list_users_header {
-	
+
 	($owner_code_name,$id) = @_;
 	if((!($owner_code_name)) || (!($id))){
 		$owner_code_name = $in{'owner_code_name'};
@@ -461,7 +461,7 @@ sub list_users_header {
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
 	unless ($httpheader) {print &http_header};
     &header;
 	print "<title>Forum Ownes' List</title>";
@@ -471,9 +471,9 @@ sub list_users_header {
 	&admin_footer($owner_code_name,$id);
 	print "<HR>";
 	&list_users($owner_code_name,$id);
-	
+
 	print "<HR>";
-	
+
 	&footer;
 }
 
@@ -483,7 +483,7 @@ sub check_user {
 	local($user,  $pass, $owner_full_name);
 
 	$user_list_file = "$home_directory/admin/userlist";
-	
+
 	if(!(-e $user_list_file)){
 		&doh("There are NO forum owners in the system now! - check_user");
 	}
@@ -491,16 +491,16 @@ sub check_user {
 		&doh("There are NO forum owners in the system now! - check_user");
 	}
 	else{
-		open(USER_LIST, $user_list_file) || 
+		open(USER_LIST, $user_list_file) ||
 		&doh("Unable to open user list file: $user_list_file - check_user");
 		&lock(USER_LIST);
 		while($line = <USER_LIST>)
 		{
-			($user, $admin_right, $create_f_right, $delete_f_right, $edit_f_right, $config_f_right, 
+			($user, $admin_right, $create_f_right, $delete_f_right, $edit_f_right, $config_f_right,
 			$edit_t_right, $pass, $owner_full_name) = split(/:/, $line);
 			if($user eq $owner_code_name){
 				if($id ne $pass){
-					&doh("Identification failed: Invalid password. - check_user");	
+					&doh("Identification failed: Invalid password. - check_user");
 				}
 				$found = 1;
 				last;
@@ -517,11 +517,11 @@ sub check_user {
 sub check_owner_name {
 
 	local($owner_code_name) = @_;
-	local($user, $admin_right, $create_f_right, $delete_f_right, $edit_f_right, $config_f_right, 
+	local($user, $admin_right, $create_f_right, $delete_f_right, $edit_f_right, $config_f_right,
 			$edit_t_right, $pass, $owner_full_name);
-	
+
 	$user_list_file = "$home_directory/admin/userlist";
-	
+
 	if(!(-e $user_list_file)){
 		&doh("There are NO forum owners in the system now! Please add some before proceeding. - check_owner_name");
 	}
@@ -529,12 +529,12 @@ sub check_owner_name {
 		&doh("There are NO forum owners in the system now! Please add some before proceeding. - check_owner_name");
 	}
 	else{
-		open(USER_LIST, $user_list_file) || 
+		open(USER_LIST, $user_list_file) ||
 		&doh("Unable to open user list file: $user_list_file - check_owner_name");
 		&lock(USER_LIST);
 		while($line = <USER_LIST>)
 		{
-			($user, $admin_right, $create_f_right, $delete_f_right, $edit_f_right, $config_f_right, 
+			($user, $admin_right, $create_f_right, $delete_f_right, $edit_f_right, $config_f_right,
 			$edit_t_right, $pass, $owner_full_name) = split(/:/, $line);
 			if($user eq $owner_code_name){
 				chop($pass);
@@ -552,16 +552,16 @@ sub check_owner_name {
 }
 
 sub list_users {
-	
+
 	($owner_code_name, $id) = @_;
 	if((!($owner_code_name)) || (!($id))){
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	local($line, $admin, $user_list_file, $user, $create_f, $delete_f,
 		 $edit_f, $config_f, $topic_f, $pass, $owner_full_name, $fsize);
-	
+
 	$user_list_file = "$home_directory/admin/userlist";
 	$fsize = 2;
 	if(!(-e $user_list_file)){
@@ -571,7 +571,7 @@ sub list_users {
 		print "There are <b>NO</b> forum owners in the system now.<P>";
 	}
 	else {
-		open(USER_LIST, $user_list_file) || 
+		open(USER_LIST, $user_list_file) ||
 		&doh("Unable to open user list file: $user_list_file - list_users");
 		&lock(USER_LIST);
 		print "\n";
@@ -585,12 +585,12 @@ sub list_users {
 			<td align=center><FONT SIZE=$fsize><b>Edit Forum Info</b></FONT></td>
 			<td align=center><FONT SIZE=$fsize><b>Configure Forum</b></FONT></td>
 			<td align=center><FONT SIZE=$fsize><b>Edit Topics</b></FONT></td>
-			
+
 		</tr>
 EOL
 		while($line = <USER_LIST>)
 		{
-			($user, $admin, $create_f, $delete_f, $edit_f, $config_f, 
+			($user, $admin, $create_f, $delete_f, $edit_f, $config_f,
 			$topic_f, $pass, $owner_full_name) = split(/:/, $line);
 			print<<EOJ;
 			<TR><td align=center><FONT SIZE=$fsize>$user</FONT></td>
@@ -603,29 +603,29 @@ EOL
 				<td align=center><FONT SIZE=$fsize>$topic_f</FONT></td>
 			</tr>
 EOJ
-		
+
 		}
 		print "</table>";
 		close(USER_LIST);
-		&unlock(USER_LIST);	
+		&unlock(USER_LIST);
  	}
 }
 
 sub display_rights_form {
-	
+
 	print<<EOL;
 	<FORM ACTION="/$netforum_url/$post_add_user_command" METHOD=POST>
 	Enter the owner's full name (i.e., John Smith)<BR>
 	Name: <input type=text name="owner_full_name" size=20><P>
-    Asign the forum owner a username (i.e., login name, or whatever 
+    Asign the forum owner a username (i.e., login name, or whatever
 	you want to call it) <BR>
 	Username/Login: <input type=text name="new_user" size=20> <P>
-	
+
 	You will also need to assign this forum owner a password <P>
-	
+
 	Password: <input type=password name=new_id size=20><br>
 	Re-type Password: <input type=password name=new_id2 size=20><br> <P>
-	
+
 	Now you will grant this user permissions: <P>
 	User can administrate NetForum: <input type="radio" name="admin_forum" value="YES">YES
 		<input type="radio" name="admin_forum" value="NO" CHECKED>NO<BR>
@@ -634,16 +634,16 @@ sub display_rights_form {
 	User can delete forums: <input type="radio" name="delete_forum" value="YES">YES
 		<input type="radio" name="delete_forum" value="NO" CHECKED>NO<BR>
 	User can edit forum info: <input type="radio" name="edit_forum" value="YES" CHECKED>YES
-		<input type="radio" name="edit_forum" value="NO" >NO<BR>	
+		<input type="radio" name="edit_forum" value="NO" >NO<BR>
 	User can configure forum: <input type="radio" name="config_forum" value="YES" CHECKED>YES
 		<input type="radio" name="config_forum" value="NO" >NO<BR>
 	User can edit forum's topics: <input type="radio" name="forum_topics" value="YES" CHECKED>YES
 		<input type="radio" name="forum_topics" value="NO" >NO<P>
-	
-	
+
+
 	<input type="hidden" name="owner_code_name" value="$owner_code_name">
 	<input type="hidden" name="id" value="$id">
-		
+
 	<input type="submit" value="Submit">
 	<input type="reset" value="reset">
 	</FORM>
@@ -655,11 +655,11 @@ EOL
 sub user_exists {
 
 	($new_user) = @_;
-	local($user, $admin, $create_f, $delete_f, $edit_f, $config_f,$topic_f, $pass, 
+	local($user, $admin, $create_f, $delete_f, $edit_f, $config_f,$topic_f, $pass,
 	$owner_f_name);
-	
+
 	$user_list_file = "$home_directory/admin/userlist";
-	
+
 	if(!(-e $user_list_file)){
 		return(0);
 	}
@@ -672,7 +672,7 @@ sub user_exists {
 		&lock(USER_LIST);
 		while($line = <USER_LIST>)
 		{
-			($user, $admin, $create_f, $delete_f, $edit_f, $config_f, 
+			($user, $admin, $create_f, $delete_f, $edit_f, $config_f,
 			$topic_f, $pass, $owner_f_name) = split(/:/, $line);
 			if($user eq $new_user)
 			{
@@ -692,7 +692,7 @@ sub post_add_user {
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	local($owner_full_name);	
+	local($owner_full_name);
 
 	$new_username = $in{'new_user'};
 	$new_id = $in{'new_id'};
@@ -718,7 +718,7 @@ sub post_add_user {
 	}
 	elsif(($new_username eq "") || !($new_username)){
 		&doh("Invalid username - post_add_user");
-	}	
+	}
 	elsif(!($new_id) || !($new_id2)){
 		&doh("Password field(s) is/are empty. - post_add_user");
 	}
@@ -734,7 +734,7 @@ sub post_add_user {
 	}
 
 	$user_list_file = "$home_directory/admin/userlist";
-	
+
 	if(!(-e $user_list_file)){
 		open(USER_LIST, ">$user_list_file")
 		|| &doh("Unable to create user list file: $user_list_file - post_add_user");
@@ -768,19 +768,19 @@ sub post_add_user {
 	print "New owner has been added, the current forum owners are:<P>";
 	&list_users;
 	print "<HR>";
-	
+
 	&footer;
 
 }
 
 sub add_user {
-	
+
 	($owner_code_name,$id) = @_;
 	if((!($owner_code_name)) || (!($id))){
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	unless ($httpheader) {print &http_header};
         &header;
 	&check_user($owner_code_name, $id);
@@ -789,7 +789,7 @@ sub add_user {
 
 	<title>Add Forum Owner</title>
 	<h3>NetForum Administration : Manage Forum Owners</h3><P><H2> Add Forum Owner </H2>
-	This option allows you to add a new owner to manage forums in different ways. 
+	This option allows you to add a new owner to manage forums in different ways.
 	<hr>
 EOH
 	&check_toolbar;
@@ -804,23 +804,23 @@ EOH
 }
 
 sub post_remove_user {
-	
+
 	($owner_code_name,$id) = @_;
 	if((!($owner_code_name)) || (!($id))){
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	$remove_user = $in{'remove_user'};
-	
-	
+
+
 	$user_list_file = "$home_directory/admin/userlist";
-	
+
 	open(USER_LIST, $user_list_file) ||
 	&doh("Unable to open user list file: $user_list_file - post_remove_user");
 	&lock(USER_LIST);
 	while($line = <USER_LIST>){
-		($user, $admin, $create_f, $delete_f, $edit_f, $config_f, 
+		($user, $admin, $create_f, $delete_f, $edit_f, $config_f,
 			$topic_f, $pass, $owner_full_name) = split(/:/, $line);
 		if(!($user eq $remove_user)){
 			$lines[$n++] = $line;
@@ -828,14 +828,14 @@ sub post_remove_user {
 	}
 	close(USER_LIST);
 	&unlock(USER_LIST);
-	
+
 	open(USER_LIST, ">$user_list_file") ||
 	&doh("Unable to open user list file: $user_list_file - post_remove_user");
 	&lock(USER_LIST);
 	print USER_LIST (@lines);
 	close(USER_LIST);
 	&unlock(USER_LIST);
-	
+
 	unless ($httpheader) {print &http_header};
     &header;
 	print "<TITLE>Owner: $remove_user Removed</Title>";
@@ -869,9 +869,9 @@ EOK
 	}
 	close(USER_LIST);
 	&unlock(USER_LIST);
-	
+
 	# Check if owner removed owned any forums
-	
+
 	if($found){
 		print "The forum owner just removed ($remove_user)";
 		print " owned these forums: <P>";
@@ -885,7 +885,7 @@ EOK
 		print "<HR>";
 	}
 
-	
+
 	&footer;
 }
 
@@ -896,7 +896,7 @@ sub remove_user {
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	unless ($httpheader) {print &http_header};
     &header;
 
@@ -912,7 +912,7 @@ EOH
 	&admin_footer($owner_code_name,$id);
 	print "<HR>";
 	$user_list_file = "$home_directory/admin/userlist";
-	
+
 	if(!(-e $user_list_file)){
 		print "There are <b>NO</b> forum owners in the system to be removed.<P>";
 	}
@@ -922,12 +922,12 @@ EOH
 	else {
 		print "Please select the forum owner you wish to delete:<P>";
 		print "<FORM ACTION=\"/$netforum_url/$post_delete_user_command\" METHOD=POST><BR>";
-		open(USER_LIST, $user_list_file) 
+		open(USER_LIST, $user_list_file)
 		|| &doh("Unable to to open user list file: $user_list_file - remove_user");
 		&lock(USER_LIST);
 		print "<UL>";
 		while($line = <USER_LIST>){
-			($user, $admin, $create_f, $delete_f, $edit_f, $config_f, 
+			($user, $admin, $create_f, $delete_f, $edit_f, $config_f,
 			$topic_f, $pass, $owner_full_name) = split(/:/, $line);
 			print<<EOJ;
 			<input type="radio" name="remove_user" value="$user">$user, $owner_full_name <BR>
@@ -939,7 +939,7 @@ EOJ
 		</UL>
 		<P>
 		<input type="hidden" name="owner_code_name" value="$owner_code_name">
-		<input type="hidden" name="id" value="$id">	
+		<input type="hidden" name="id" value="$id">
 		<input type="submit" value="Submit">
 		<input type="reset" value="Reset"><BR>
 		</FORM>
@@ -947,8 +947,8 @@ EOK
 
 	}
 	print "<HR>";
-	
-	
+
+
 	&footer;
 }
 
@@ -959,51 +959,51 @@ sub post_change_pass {
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	$old_user = $in{'user'};
 	$old_id = $in{'old_id'};
 	$new_id = $in{'new_id'};
 	$new_id2 = $in{'new_id2'};
-	
+
 	&check_user($owner_code_name, $id);
 
 	if($new_id ne $new_id2){
 		&doh("New passwords are not identical! post_change_pass");
 	}
 	$user_list_file = "$home_directory/admin/userlist";
-	open(USER_LIST, $user_list_file)  
+	open(USER_LIST, $user_list_file)
 	|| &doh("Unable to to open user list file: $user_list_file - post_change_pass");
-	&lock(USER_LIST);		
+	&lock(USER_LIST);
 	while($line = <USER_LIST>){
-		($user, $admin, $create_f, $delete_f, $edit_f, $config_f, 
+		($user, $admin, $create_f, $delete_f, $edit_f, $config_f,
 		$topic_f, $pass, $owner_full_name) = split(/:/, $line);
 		if($old_user eq $user)
 		{
 			$old_id = crypt($old_id, $salt);
 			$new_id = crypt($new_id, $salt);
 			if($old_id eq $pass){
-				$lines[$n++] = 
-				("$user:$admin:$create_f:$delete_f:$edit_f:$config_f:$topic_f:$new_id:$owner_full_name");	
+				$lines[$n++] =
+				("$user:$admin:$create_f:$delete_f:$edit_f:$config_f:$topic_f:$new_id:$owner_full_name");
 			}
 			else{
 				&doh("Old password is incorrect! Are you trying to break into the system...? - post_change_pass");
 			}
 		}
 		else{
-			$lines[$n++] = 
+			$lines[$n++] =
 			("$user:$admin:$create_f:$delete_f:$edit_f:$config_f:$topic_f:$pass:$owner_full_name");
 		}
 	}
 	close(USER_LIST);
 	&unlock(USER_LIST);
-	
-	open(USER_LIST, ">$user_list_file")  
+
+	open(USER_LIST, ">$user_list_file")
 	|| &doh("Unable to to open user list file: $user_list_file - post_change_pass");
-	&lock(USER_LIST);		
+	&lock(USER_LIST);
 	print USER_LIST (@lines);
 	close(USER_LIST);
 	&unlock(USER_LIST);
-	
+
 	unless ($httpheader) {print &http_header};
     &header;
 
@@ -1014,7 +1014,7 @@ sub post_change_pass {
 	<h2>Owner's Password Changed</h2>
 	<HR>
 EOH
-	
+
 	&check_toolbar;
 	&admin_footer($owner_code_name, $id);
 	print "<HR>";
@@ -1029,9 +1029,9 @@ sub change_pass {
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	&check_user($owner_code_name, $id);
-	
+
 	unless ($httpheader) {print &http_header};
     &header;
 
@@ -1045,43 +1045,43 @@ EOH
 	&check_toolbar;
 	&admin_footer($owner_code_name, $id);
 	print "<HR>";
-	
+
 	$user_list_file = "$home_directory/admin/userlist";
-	
+
 	if(!(-e $user_list_file)){
 		print "There are <b>NO</b> forum managers in the system.<P>";
 	}
 	elsif(-z $user_list_file){
 		print "There are <b>NO</b> forum managers in the system.<P>";
 	}
-	else 
+	else
 	{
 		print "Please select the forum manager whose password you wish to change:<P>";
 		print "<FORM ACTION=\"/$netforum_url/$post_change_pass_command\" METHOD=POST><BR>";
-		open(USER_LIST, $user_list_file) 
+		open(USER_LIST, $user_list_file)
 		|| &doh("Unable to to open user list file: $user_list_file - change_pass");
 		&lock(USER_LIST);
 		print "<UL>";
 		while($line = <USER_LIST>)
 		{
-			($user, $admin, $create_f, $delete_f, $edit_f, $config_f, 
+			($user, $admin, $create_f, $delete_f, $edit_f, $config_f,
 			$topic_f, $pass, $owner_full_name) = split(/:/, $line);
 			if($admin_right eq "YES")
-			{				
+			{
 				print "<input type=\"radio\" name=\"user\" value=\"$user\">$user, $owner_full_name <BR>";
 			}
-			else 
+			else
 			{
 				if($user eq $owner_code_name)
 				{
-				
-					print "<input type=\"radio\" name=\"user\" value=\"$user\" CHECKED>$user, $owner_full_name <BR>";				
+
+					print "<input type=\"radio\" name=\"user\" value=\"$user\" CHECKED>$user, $owner_full_name <BR>";
 				}
 			}
 		}
 		close(USER_LIST);
 		&unlock(USER_LIST);
-	
+
 		print<<EOK;
 		</UL>
 		<P>
@@ -1091,16 +1091,16 @@ EOH
 		<input type="password" name="new_id"><BR>
 		Please re-type the new password:
 		<input type="password" name="new_id2"><BR>
-		
+
 		<input type="hidden" name="owner_code_name" value="$owner_code_name">
-		<input type="hidden" name="id" value="$id">	
+		<input type="hidden" name="id" value="$id">
 		<input type="submit" value="Submit">
 		<input type="reset" value="Reset"><BR>
 		</FORM>
 EOK
 	}
 	print "<HR>";
-	
+
 	&footer;
 }
 
@@ -1110,13 +1110,13 @@ EOK
 sub post_change_user {
 
 	local(@lines, $line);
-	
+
 	($owner_code_name,$id) = @_;
 	if((!($owner_code_name)) || (!($id))){
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	$forum_owner = $in{'user'};
 	$admin_forum = $in{'admin'};
 	$create_forum = $in{'create_f'};
@@ -1125,18 +1125,18 @@ sub post_change_user {
 	$config_forum = $in{'config_f'};
 	$forum_topics = $in{'topic_f'};
 	$owner_full_name = $in{'owner_full_name'};
-	
-	
+
+
 	$user_list_file  = "$home_directory/admin/userlist";
 	open(USER_LIST, $user_list_file)
 	|| &doh("Unable to open user list file: $user_list_file - post-change-user");
 	&lock(USER_LIST);
 	while($line = <USER_LIST>){
-		($user, $admin, $create_f, $delete_f, $edit_f, $config_f, 
+		($user, $admin, $create_f, $delete_f, $edit_f, $config_f,
 			$topic_f, $pass, $uname) = split(/:/, $line);
 			if($user eq $forum_owner){
-				$lines[$n] = 
-				"$user:$admin_forum:$create_forum:$delete_forum:$edit_forum:$config_forum:$forum_topics:$pass:$owner_full_name\n"; 	
+				$lines[$n] =
+				"$user:$admin_forum:$create_forum:$delete_forum:$edit_forum:$config_forum:$forum_topics:$pass:$owner_full_name\n";
 			}
 			else{
 				$lines[$n] = $line;
@@ -1145,14 +1145,14 @@ sub post_change_user {
 	}
 	close(USER_LIST);
 	&unlock(USER_LIST);
-	
+
 	open(USER_LIST, ">$user_list_file")
 	|| &doh("Unable to open user list file: $user_list_file - post_change_user");
 	&lock(USER_LIST);
 	print USER_LIST (@lines);
 	close(USER_LIST);
 	&unlock(USER_LIST);
-	
+
 	unless ($httpheader) {print &http_header};
     &header;
 	&check_user($owner_code_name, $id);
@@ -1166,18 +1166,18 @@ sub post_change_user {
 	print "<HR>";
 	&list_users;
 	print "<HR>";
-	
+
 	&footer;
 }
 
 sub change_user {
-	
+
 	($owner_code_name,$id) = @_;
 	if((!($owner_code_name)) || (!($id))){
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	unless ($httpheader) {print &http_header};
     &header;
        &check_user($owner_code_name, $id);
@@ -1190,7 +1190,7 @@ sub change_user {
 	&admin_footer($owner_code_name, $id);
 	print "<HR>";
 	$user_list_file  = "$home_directory/admin/userlist";
-	
+
 	if(!(-e $user_list_file)){
 		print "There are <b>NO</b> forum managers in the system to modify!<P>";
 	}
@@ -1213,11 +1213,11 @@ sub change_user {
 			<td align=center><FONT Size=$fsize><b>Action</b></FONT></td>
 		</tr>
 EOL
-		open(USER_LIST, $user_list_file) 
+		open(USER_LIST, $user_list_file)
 		|| &doh("Unable to to open user list file: $user_list_file - change_user");
 		&lock(USER_LIST);
 		while($line = <USER_LIST>){
-			($user, $admin, $create_f, $delete_f, $edit_f, $config_f, 
+			($user, $admin, $create_f, $delete_f, $edit_f, $config_f,
 			$topic_f, $pass, $owner_full_name) = split(/:/, $line);
 			print "<FORM ACTION=\"/$netforum_url/$post_change_user_command\" METHOD=POST>";
 			print "<TR><td align=center><FONT Size=$fsize>$user</FONT></td>";
@@ -1236,7 +1236,7 @@ EOL
 			<input type=hidden name="id" value="$id">
 			<td><input type="submit" value="Submit">
 			<input type="reset" value="Reset"></td>
-			</TR></FORM>	
+			</TR></FORM>
 EOJ
 		}
 		print "</table>";
@@ -1244,14 +1244,14 @@ EOJ
 		&unlock(USER_LIST);
 	}
 	print "<HR>";
-	
+
 	&footer;
 }
 
 sub select_right {
 
 	local($var_name, $right) = @_;
-	
+
 	print "<td align=center>";
 	print "<SELECT NAME=\"$var_name\">";
 	print "<FONT SIZE=2>";
@@ -1274,11 +1274,11 @@ EOK
 sub select_forum_owner {
 
 	local($default_owner) = @_;
-	
-	
+
+
 	$user_list_file  = "$home_directory/admin/userlist";
-	
-	open(USER_LIST, $user_list_file) 
+
+	open(USER_LIST, $user_list_file)
 		|| &doh("Unable to to open user list file: $user_list_file - select_forum_owner");
 		&lock(USER_LIST);
 	print "<SELECT NAME=\"forum_owner_code_name\">";
@@ -1286,12 +1286,12 @@ sub select_forum_owner {
 		print "<OPTION VALUE=\"$default_owner\">$default_owner";
 	}
 	while($line = <USER_LIST>){
-		($user, $admin, $create_f, $delete_f, $edit_f, $config_f, 
+		($user, $admin, $create_f, $delete_f, $edit_f, $config_f,
 		$topic_f, $pass, $owner_full_name) = split(/:/, $line);
 		if($user ne $default_owner){
 			print "<OPTION VALUE=\"$user\">$user, $owner_full_name";
 		}
-	
+
 	}
 	print "</SELECT>";
 	close(USER_LIST);
@@ -1299,7 +1299,7 @@ sub select_forum_owner {
 }
 
 sub add_forum{
-	
+
 	$owner_code_name = $in{'owner_code_name'};
     $id = $in{'id'};
     if((!($owner_code_name)) || (!($id))){
@@ -1308,15 +1308,15 @@ sub add_forum{
 	&check_user($owner_code_name, $id);
 
     if ($in{'action'} eq "create_forum") {
-    
+
 	$guidelines = "\n<ul>\n<li> Topics can be created by anyone.
 <li> Anyone can leave messages on any topic.
-<li> When leaving a message on a topic it is recommended that you leave 
-your e-mail address. This way individuals can reply directly to you through 
+<li> When leaving a message on a topic it is recommended that you leave
+your e-mail address. This way individuals can reply directly to you through
 NetForum simply by clicking on your e-mail address.
-<li> You may use HTML in your posts, but please don't use header or font 
+<li> You may use HTML in your posts, but please don't use header or font
 size tags.
-<li> Please keep topic names as short as possible. You may enter a topic 
+<li> Please keep topic names as short as possible. You may enter a topic
 description when you create a new topic.
 </ul>\n";
 
@@ -1330,7 +1330,7 @@ description when you create a new topic.
     # this now does two things so we need to make sure we print the correct
     # command to the forum url
 
-    if ($in{'action'} eq "create_forum" 
+    if ($in{'action'} eq "create_forum"
     || $which_command == $edit_new_forum_command) {
 		print "<title>Create a Forum</title>\n";
 		&header;
@@ -1343,18 +1343,18 @@ description when you create a new topic.
 		if($forum_owner_code_name){
 			$default_owner = $forum_owner_code_name;
 		}
-    } 
-    else 
+    }
+    else
     {
 		print "<title>Edit Forum: $forum_name</title>\n";
 		&header;
 		print "<h3>NetForum Administration</h3><P><h2>Edit Forum Info</h2>\n";
-		print "<b>Forum Name:</b>";		
+		print "<b>Forum Name:</b>";
 		if($cgi_required){
 		 print "<a href=\"$url/$base_url/$forum_code/a.cgi/$show_topics_command\">";
 		 }
 		 else{
-		 print "<a href=\"$url/$base_url/$forum_code/a/$show_topics_command\">";		 
+		 print "<a href=\"$url/$base_url/$forum_code/a/$show_topics_command\">";
 		 }
 		 print<<EOL;
 		$forum_name</a><BR>
@@ -1367,10 +1367,10 @@ EOL
 		print "<HR>";
 		print "\n<form action=\"/$netforum_url/";
 		print "$edit_info_command\" method=POST>\n";
-		
+
 		$default_owner = $forum_owner_code_name;
     }
-    
+
 
     # print the standard forum stuff ...
 
@@ -1379,11 +1379,11 @@ EOL
 
 	<dd><b>Forum Name (required) </b>:\n
 	<dd><input value="$forum_name" size=40 name="forum_name"><br>
-	
+
 FINISHED
 
 
-    if ($in{'action'} eq "create_forum" 
+    if ($in{'action'} eq "create_forum"
     || $which_command == $edit_new_forum_command) {
 	print "<dd><b>Forum Code Name to be appended to URL <BR>\n";
 	print "<DD> (required, all lowercase is better)</b>:\n";
@@ -1393,16 +1393,16 @@ FINISHED
     }
 
 #     print <<FINISH;
-# 
+#
 # <dd><b>Forum Owner Full Name (required) </b>:
 # <dd><input value="$forum_owner" size=40 name="owner"><br>
-# 
-# 
+#
+#
 # FINISH
 
 if($admin_right eq "YES"){
 	print <<EOK;
-<dd><b>Owner Code Name (required)</b>: 
+<dd><b>Owner Code Name (required)</b>:
 <BR><DD><b>(Login name of person who will own and manage the forum. <BR>
 <DD>A NetForum owner account must be created for this person<BR>
 <DD> by the site administrator if one does not exist already.)</b><BR>
@@ -1456,11 +1456,11 @@ FINISH
 
 <p>
 <dd> If not, what username/password should be required to add a topic?<p>
-<dd> Username: <dd> <input value="$anyone_add_username" size=40 
+<dd> Username: <dd> <input value="$anyone_add_username" size=40
 name="anyone_add_username">
-<dd> Password: <dd> <input type="password" value="$anyone_add_password" 
+<dd> Password: <dd> <input type="password" value="$anyone_add_password"
 size=40 name="anyone_add_password"><br>
-<dd> Re-enter password for confirmation: <dd> <input type="password" 
+<dd> Re-enter password for confirmation: <dd> <input type="password"
 value="$anyone_add_password2" size=40 name="anyone_add_password2"><br>
 <br>
 <hr>
@@ -1476,7 +1476,7 @@ value="$anyone_add_password2" size=40 name="anyone_add_password2"><br>
 <hr>
 <br>
 <dd><b>Forum Group (optional):</b><br>
-Enter one name or email address per line; enter the member's name first, 
+Enter one name or email address per line; enter the member's name first,
 then enter the member's email address on the next line.<br>
 <dd><textarea rows=20 cols=30 wrap="physical" name="group">$group</textarea>
 <p>
@@ -1491,9 +1491,9 @@ EOH
     if ($in{'action'} eq "create_forum") {
 
        print " <input TYPE=\"submit\" value=\"Preview Forum Info\">\n ";
-    } else { 
+    } else {
 
-       print "  <input TYPE=\"submit\" value=\"Preview Forum Changes\">\n 
+       print "  <input TYPE=\"submit\" value=\"Preview Forum Changes\">\n
 ";
     }
 
@@ -1531,7 +1531,7 @@ sub post_admin_command{
     elsif ($which_command == $delete_forum_command){&delete_forum}
     elsif ($which_command == $delete_topic_command){&delete_topic}
     elsif ($which_command == $edit_info_command){&preview_forum}
-    elsif ($which_command == $make_changes_command){&change_forum} 
+    elsif ($which_command == $make_changes_command){&change_forum}
     elsif ($which_command == $topic_admin_command){&topic_actions}
     elsif ($which_command == $preview_topic_admin){&preview_topic_admin}
     elsif ($which_command == $post_topic_admin){&sub_post_topic_admin}
@@ -1559,7 +1559,7 @@ sub list_actions {
 
 	$owner_code_name = $in{'owner_code_name'};
 	$id = $in{'id'};
-	
+
 
     if ( $in{'action'} eq 'delete' ) {&delete_verify($owner_code_name, $id)}
     elsif ( $in{'action'} eq 'edit' ) {&edit_forum_info($owner_code_name, $id)}
@@ -1585,7 +1585,7 @@ sub topic_actions {
 }
 
 sub message_actions {
-	
+
 	$owner_code_name = $in{'owner_code_name'};
 	$id = $in{'id'};
 
@@ -1593,7 +1593,7 @@ sub message_actions {
 
     $type = $in{'action'};
 
-    if ( $in{'message_action'} eq 'delete' || 
+    if ( $in{'message_action'} eq 'delete' ||
 	 $in{'reply_action'} eq 'delete'  )     {&delete_verify_message($type,$owner_code_name, $id)}
     elsif ($in{'message_action'} eq 'edit' ||
 	   $in{'reply_action'} eq 'edit' )         {&edit_message($owner_code_name, $id)}
@@ -1605,7 +1605,7 @@ sub message_actions {
 }
 
 sub forum_config_actions {
-	
+
 	if ( $in{'forum_action'} eq 'edit_forum_vars' ) {
 		&edit_forum_variables;
 	}
@@ -1624,20 +1624,20 @@ sub get_forum_owner{
 
 	local($forum_owner_code_name) = @_;
 	local($o_code, $a_right, $f_right, $d_right, $e_right, $c_right, $t_right, $pas, $forum_owner);
-	
+
 $userlist = "$home_directory/admin/userlist";
-	open(USER_LIST, "$userlist") 
+	open(USER_LIST, "$userlist")
 	|| &doh("Cannot open user file: $userlist - start_forum");
 	&lock(USER_LIST);
 	while($line = <USER_LIST>)
 	{
-		($o_code, $a_right, $f_right, $d_right, $e_right, $c_right, $t_right, $pas, $forum_owner) 
+		($o_code, $a_right, $f_right, $d_right, $e_right, $c_right, $t_right, $pas, $forum_owner)
 		= split(/:/, $line);
 		last if ($o_code eq $forum_owner_code_name);
 	}
 	close(USER_LIST);
 	&unlock(USER_LIST);
-	
+
 	chop($forum_owner);
 	return($forum_owner);
 }
@@ -1650,10 +1650,10 @@ sub start_forum{
 	&check_toolbar;
 # HEY ! these must be localized! or the logic below will fail at times.
 	local($forum_name, $forum_code, $forum_owner, $forum_owner_site,
-		$forum_monitor, $forum_monitor_email, $anyone_add, $description, 
+		$forum_monitor, $forum_monitor_email, $anyone_add, $description,
 		$guidelines, $group, $anyone_add_username, $anyone_add_password,
 		$anyone_add_password2, $forum_code);
-	
+
     $forum_name = $in{'forum_name'};
     $forum_code = $in{'code'};
     #$forum_owner = $in{'owner'};
@@ -1671,12 +1671,12 @@ sub start_forum{
     $group = $in{'group'};
     $forum_code =~ s/\%20/-/g;
 
-    if ( (!($forum_name)) || 
-	 
-	 
+    if ( (!($forum_name)) ||
+
+
 	 (!($forum_monitor)) ||
 	 (!($forum_code)) ||
-	 (!($forum_monitor_email)) ) 
+	 (!($forum_monitor_email)) )
 	{
 		&doh("Required Fields missing - start_forum");
 	}
@@ -1695,27 +1695,27 @@ sub start_forum{
 	if(($forum_code =~ /:/)){
 		&doh("Forum code cannot contain \":\" - start_forum");
 	}
-	
+
 	# &check_owner_name($forum_owner_code_name);
-	
+
     if ( $anyone_add eq "no" &&
 	  (!$anyone_add_username || !$anyone_add_password) )
     {
 		&doh("Username and/or password fields missing - start_forum");
     }
 
-    if ( ($anyone_add eq "no") && 
-	 ($anyone_add_password ne $anyone_add_password2) ) 
+    if ( ($anyone_add eq "no") &&
+	 ($anyone_add_password ne $anyone_add_password2) )
     {
 		&doh("Passwords are not the same. - start_forum");
     }
 
 	$forumlist = "$home_directory/admin/forumlist";
-	
+
 	$forum_owner = &get_forum_owner($forum_owner_code_name);
-	
+
 	if(-e $forumlist)
-	{		
+	{
 		open(FORUM_LIST, $forumlist) || &doh("Cannot open forums file: $forumlist - start_forum");
 		&lock(FORUM_LIST);
 		while($line = <FORUM_LIST>){
@@ -1723,7 +1723,7 @@ sub start_forum{
 			$code =~ s/\s//g;
 			if($code eq $forum_code)
 			{
-				&doh("Some one is already using the code: $forum_code - start_forum");	
+				&doh("Some one is already using the code: $forum_code - start_forum");
 			}
 		}
 		close(FORUM_LIST);
@@ -1731,10 +1731,10 @@ sub start_forum{
 	}
 
     &decode($guidelines);
-    &decode($description);	
-	
+    &decode($description);
+
 #   &verify_email_address($forum_monitor_email);
-	
+
     if ($description)
     {
 	&check_hot_tamale($description);
@@ -1752,19 +1752,19 @@ sub start_forum{
 #    }
 
 
-    mkdir("$home_directory/$forum_code", "0777") || 
+    mkdir("$home_directory/$forum_code", "0777") ||
 	&doh("Couldn't create directory \"$home_directory/$forum_code\" - start_forum");
 
     chmod 0777, "$home_directory/$forum_code";
 
 	# HEY - File hierarchy change:
-	
-    mkdir("$home_directory/$forum_code/topics", "0777") || 
+
+    mkdir("$home_directory/$forum_code/topics", "0777") ||
       &doh("Couldn't create directory \"$home_directory/$forum_code/topics\" - start_forum");
 
     chmod 0777, "$home_directory/$forum_code/topics";
 
-    mkdir("$home_directory/$forum_code/responses", "0777") || 
+    mkdir("$home_directory/$forum_code/responses", "0777") ||
        &doh("Could not create directory \"$home_directory/$forum_code/responses\" - start_forum");
 
     chmod 0777, "$home_directory/$forum_code/responses";
@@ -1778,7 +1778,7 @@ sub start_forum{
 	$group =~ s/^\s/ /g;
 	$group =~ s/ $/ /g;
 	#$group =~ s/^\s$//g;    # there were two of these why?
-	open(G, ">$home_directory/$forum_code/group") || 
+	open(G, ">$home_directory/$forum_code/group") ||
 	    &doh("Couldn\'t create file \"$home_directory/$forum_code/lib/group\" - start_forum");
 	&lock(G);
 	print G ($group);
@@ -1786,10 +1786,10 @@ sub start_forum{
 	&unlock(G);
      }
 
-    if ($description) 
+    if ($description)
     {
 	&decode($description);
-	open(DESC, ">$home_directory/$forum_code/description") || 
+	open(DESC, ">$home_directory/$forum_code/description") ||
 	    &doh("Couldn\'t create file \"$home_directory/$forum_code/description\" - start_forum");
 	    &lock(DESC);
 	print DESC ($description);
@@ -1797,17 +1797,17 @@ sub start_forum{
 	&unlock(DESC);
     }
 
-    if ($guidelines) 
+    if ($guidelines)
     {
 	&decode($guidelines);
-	open(GU, ">$home_directory/$forum_code/guidelines") || 
+	open(GU, ">$home_directory/$forum_code/guidelines") ||
 	    &doh("Couldn\'t create file \"$home_directory/$forum_code/guidelines\" - start_forum");
 	&lock(GU);
 	print GU ($guidelines);
 	close(GU);
 	&unlock(GU);
     }
-	
+
 	# create forum_config file within forum directory
 	$forum_config = "$home_directory/lib/forum_config";
 	open(CONFIG, "$forum_config") ||
@@ -1816,16 +1816,16 @@ sub start_forum{
 	@config_info = <CONFIG>;
 	close(CONFIG);
 	&unlock(CONFIG);
-	
+
 	$new_config = "$home_directory/$forum_code/forum_config";
 	open(NEW_CONFIG, ">$new_config");
 	&lock(NEW_CONFIG);
 	print NEW_CONFIG (@config_info);
 	close(NEW_CONFIG);
 	&unlock(NEW_CONFIG);
-	
+
 	chmod 0777, "$new_config";
-	
+
 	# create header file within forum directory
 	$header = "$home_directory/lib/header";
 	if(-e $header){
@@ -1835,14 +1835,14 @@ sub start_forum{
 		@header_info = <HEADER>;
 		close(HEADER);
 		&unlock(HEADER);
-	
+
 		$new_header = "$home_directory/$forum_code/header";
 		open(NEW_HEADER, ">$new_header");
 		&lock(NEW_HEADER);
 		print NEW_HEADER (@header_info);
 		close(NEW_HEADER);
 		&unlock(NEW_HEADER);
-	
+
 		chmod 0777, "$new_header";
 	}
 	# create footer file within forum directory
@@ -1854,17 +1854,17 @@ sub start_forum{
 		@footer_info = <FOOTER>;
 		close(FOOTER);
 		&unlock(FOOTER);
-	
+
 		$new_footer = "$home_directory/$forum_code/footer";
 		open(NEW_FOOTER, ">$new_footer");
 		&lock(NEW_FOOTER);
 		print NEW_FOOTER (@footer_info);
 		close(NEW_FOOTER);
 		&unlock(NEW_FOOTER);
-	
+
 		chmod 0777, "$new_header";
 	}
-	
+
 	# create "a" file:
 
     $forum_monitor_email =~ s/\@/\\\@/;
@@ -1876,7 +1876,7 @@ sub start_forum{
     {
     	$a_path = "$home_directory/$forum_code/a";
     }
-    open(NEW, ">$a_path") || 
+    open(NEW, ">$a_path") ||
 	&doh("Couldn\'t create file \"$a_path\" - start_forum");
 	&lock(NEW);
     print NEW "\#\!$perl_path \-si
@@ -1902,7 +1902,7 @@ print NEW "\$script_name = \'a\';\n";
 }
 
 
-print NEW "\$netforum_url = \"\$base_url/\$which_forum/\$script_name\";\n\n"; 
+print NEW "\$netforum_url = \"\$base_url/\$which_forum/\$script_name\";\n\n";
 
     unless ($anyone_add eq 'yes')
     {
@@ -1920,7 +1920,7 @@ print NEW "\$netforum_url = \"\$base_url/\$which_forum/\$script_name\";\n\n";
 
     if ( $forum_owner_site ) {
 	print NEW "\$forum_owner_site = \"$forum_owner_site\";\n";
-    }   
+    }
 
     if ( $forum_monitor_site ) {
 	print NEW "\$forum_monitor_site = \"$forum_monitor_site\";\n";
@@ -1948,16 +1948,16 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
 	else{
 		chmod 0777, "$home_directory/$forum_code/a";
 	}
-	
-	
-	
-	open(FORUM_LIST, ">>$forumlist") 
+
+
+
+	open(FORUM_LIST, ">>$forumlist")
 	|| &doh("Cannot open forums file: $forumlist - start_forum");
 	&lock(FORUM_LIST);
 	print FORUM_LIST ("$forum_code:$forum_name:$forum_owner:$forum_owner_code_name\n");
 	close(FORUM_LIST);
 	&unlock(FORUM_LIST);
-	
+
 # HEY! update netforum page here.
 
     unless( $httpheader ) { print &http_header; }
@@ -1965,11 +1965,11 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
     &header;
     print "<h3>NetForum Administration : Create Forum</h3>";
     print "<H2>Forum: $forum_name Created</H2>";
-    
+
 	print "<HR>";
     &admin_footer($owner_code_name, $id);
     print "<HR>";
-    print "The URL for the new forum is: "; 
+    print "The URL for the new forum is: ";
     if($cgi_required){
     print "<A HREF = \"$url/$base_url/$forum_code/a.cgi/$show_topics_command\">";
     print "$url/$base_url/$forum_code/a.cgi/$show_topics_command</a><BR>\n";
@@ -1981,7 +1981,7 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
     print "Please write this URL down for future reference or keep it in your";
     print " bookmarks so that you can refer to it later. <BR>\n";
     print "<HR>";
-    
+
     &footer;
 }
 
@@ -1994,12 +1994,12 @@ sub configure_forums {
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
     $forum_name = $in{'forum_name'};
     $forum_owner =$in{'forum_owner'};
     $forum_code = $in{'forum_code'};
     $owner_code = $in{'owner_code'};
-    
+
     unless ($httpheader) {print &http_header};
     &header;
     print "<TITLE>Configure Forum</TITLE>";
@@ -2042,12 +2042,12 @@ EOL
 	</FORM>
 	<hr>
 EOH
-	
+
     &footer;
 
 }
 
- 
+
 sub edit_header {
 
 	($owner_code_name,$id) = @_;
@@ -2057,12 +2057,12 @@ sub edit_header {
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
     $forum_name = $in{'forum_name'};
     $forum_owner =$in{'forum_owner'};
     $forum_code = $in{'forum_code'};
     $owner_code = $in{'owner_code'};
-    
+
     $header = "$home_directory/$forum_code/header";
     if($in{'action'} eq 'edit_default_header'){
         $header = "$home_directory/lib/header";
@@ -2075,10 +2075,10 @@ sub edit_header {
 		close(HEADER);
 		&unlock(HEADER);
 	}
-    
+
     unless ($httpheader) {print &http_header};
     &header;
-    
+
     if($in{'action'} eq 'edit_default_header')
     {
     	print "<TITLE>Edit Default Header</TITLE>";
@@ -2128,7 +2128,7 @@ sub edit_header {
 	</FORM>
 	<hr>
 EOH
-	
+
 	&footer;
 
 
@@ -2143,12 +2143,12 @@ sub edit_footer {
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
     $forum_name = $in{'forum_name'};
     $forum_owner =$in{'forum_owner'};
     $forum_code = $in{'forum_code'};
     $owner_code = $in{'owner_code'};
-    
+
     $footer = "$home_directory/$forum_code/footer";
     if($in{'action'} eq 'edit_default_footer'){
         $footer = "$home_directory/lib/footer";
@@ -2161,7 +2161,7 @@ sub edit_footer {
 		close(FOOTER);
 		&unlock(FOOTER);
 	}
-    
+
     unless ($httpheader) {print &http_header};
     &header;
     if($in{'action'} eq 'edit_default_footer')
@@ -2213,7 +2213,7 @@ sub edit_footer {
 	</FORM>
 	<hr>
 EOH
-	
+
     &footer;
 
 
@@ -2228,15 +2228,15 @@ sub save_forum_header {
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
     $forum_name = $in{'forum_name'};
     $forum_owner =$in{'forum_owner'};
     $forum_code = $in{'forum_code'};
     $owner_code = $in{'owner_code'};
     $header_info = $in{'header_info'};
-	
+
 	$header_info =~ s/[\f\t\r]//g;
-	
+
 	$header = "$home_directory/$forum_code/header";
 	if($in{'action'} eq 'edit_default_header'){
         $header = "$home_directory/lib/header";
@@ -2247,7 +2247,7 @@ sub save_forum_header {
 	print HEADER ($header_info);
 	close(HEADER);
 	&unlock(HEADER);
-	
+
 	unless ($httpheader) {print &http_header};
     &header;
     if($in{'action'} eq 'edit_default_header'){
@@ -2278,7 +2278,7 @@ sub save_forum_header {
     }
     print "<HR>";
     print "Header has been saved. <HR>";
-	
+
 	&footer;
 
 }
@@ -2292,15 +2292,15 @@ sub save_forum_footer {
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
     $forum_name = $in{'forum_name'};
     $forum_owner =$in{'forum_owner'};
     $forum_code = $in{'forum_code'};
     $owner_code = $in{'owner_code'};
 	$footer_info = $in{'footer_info'};
-	
+
 	$footer_info =~ s/[\r\f\t]//g;
-	
+
 	$footer = "$home_directory/$forum_code/footer";
 	if($in{'action'} eq 'edit_default_footer'){
         $footer = "$home_directory/lib/footer";
@@ -2311,7 +2311,7 @@ sub save_forum_footer {
 	print FOOTER ($footer_info);
 	close(FOOTER);
 	&unlock(FOOTER);
-	
+
 	unless ($httpheader) {print &http_header};
     &header;
     if($in{'action'} eq 'edit_default_footer'){
@@ -2342,7 +2342,7 @@ sub save_forum_footer {
     }
     print "<HR>";
     print "Footer has been saved. <HR>";
-	
+
 	&footer;
 
 }
@@ -2367,18 +2367,18 @@ sub post_edit_forum{
     $group = $in{'group'};
     $owner_code_name = $in{'owner_code_name'};
     $id = $in{'id'};
-    
+
     $forum_code =~ s/\s/\%20/g;
-    
+
     $group =~ s/\r/\n/g;
     $group =~ s/\n\n/\n/g;
-    
+
     if ($description) {&decode($description)};
     if ($guidelines){&decode($guidelines)};
-    
+
     &decode($guidelines);
-    &decode($description);	
-    
+    &decode($description);
+
     &add_forum($owner_code_name,$id);
 }
 
@@ -2389,7 +2389,7 @@ sub preview_forum {
 	$id = $in{'id'};
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
     $forum_name = $in{'forum_name'};
     $forum_code = $in{'code'};
     #$forum_owner = $in{'owner'};
@@ -2407,26 +2407,26 @@ sub preview_forum {
     $group = $in{'group'};
     $forum_code =~ s/\s/\%20/g;
 
-    if ((!($forum_name)) ||  
+    if ((!($forum_name)) ||
 	(!($forum_monitor)) ||
 	(!($forum_code)) ||
 	(!($forum_monitor_email))) {&doh("Required Fields missing.")};
 
-    if (($anyone_add eq "no") && ((!($anyone_add_username)) || 
-				  (!($anyone_add_password)) || 
+    if (($anyone_add eq "no") && ((!($anyone_add_username)) ||
+				  (!($anyone_add_password)) ||
 				  (!($anyone_add_password2)))) {
 
 	&doh("Required username/password fields missing. - preview_forum ");
     }
 
-    if (($anyone_add eq "no") && 
+    if (($anyone_add eq "no") &&
 	($anyone_add_password ne $anyone_add_password2)) {
 
 	&doh("Bad Topic Password confirmation. - preview_forum");
     }
 
-    
-    if ($description){ 
+
+    if ($description){
 	&check_hot_tamale($description);
     }
 
@@ -2440,23 +2440,23 @@ sub preview_forum {
 	&doh("Sorry, there appears to be HTML in a field that does not accept HTML. - preview_forum");
     }
 
-	
+
 	# HEY! fix this mess!!!
 
     $group =~ s/\r/\n/g;
     $group =~ s/\n\n/\n/g;
-    
+
     if ($group eq "Name\nemail\@address\nName\nemail\@address") {
 	$group = '';
     }
 
-# 	if (($group eq "Name\n\nemail\@address\n\nName\n\nemail\@address") || 
+# 	if (($group eq "Name\n\nemail\@address\n\nName\n\nemail\@address") ||
 # 	    ($group eq "Name\nemail\@address\nName\nemail\@address") ||
 # 	    ($group eq "Name\remail\@address\rName\remail\@address") ||
 # 	    ($group eq "Name\n\remail\@address\n\rName\n\remail\@address")) {
 # 	         $group = '';
 # 	}
-	
+
 	$forum_owner = &get_forum_owner($forum_owner_code_name);
 
     unless ($httpheader) {print &http_header};
@@ -2470,7 +2470,7 @@ sub preview_forum {
     print "\n<h3 align=center>Forum Information:</h3>\n\n<br>\n";
     print "<b>Forum name:</b> $forum_name<br>\n";
 
-    if (($forum_owner_site =~ /http\:\/\//) 
+    if (($forum_owner_site =~ /http\:\/\//)
     && ($forum_owner_site ne 'http://'))
     {
       print "<b>Forum owner:</b> <a href=\"$forum_owner_site\">";
@@ -2489,13 +2489,13 @@ sub preview_forum {
 	print "<b>Forum contact:</b> <a href=\"$forum_monitor_site\">";
 	print "$forum_monitor</a>";
     }
-    elsif ($forum_monitor_site) 
+    elsif ($forum_monitor_site)
     {
 	$forum_monitor_site = "http://" . $forum_monitor_site;
 	print "<b>Forum contact:</b> <a href=\"$forum_monitor_site\">";
 	print "$forum_monitor</a>";
     }
-    else 
+    else
     {
 	print "<b>Forum contact:</b> $forum_monitor ";
     }
@@ -2512,13 +2512,13 @@ sub preview_forum {
 	{
 		print " (<a href=\"mailto:$aa\">$aa</a>)\n<br>\n";
 	}
-    } 
+    }
 
     if ($anyone_add eq "yes")
     {
 		print "<p>\n<dd>Anyone can add topics to this forum.\n<p>\n";
     }
-    else 
+    else
     {
 		print "<p>\n<dd>Adding topics to this forum is restricted.\n<p>\n";
     }
@@ -2534,7 +2534,7 @@ sub preview_forum {
 	@temp_list = split("\n", $group);
 	print "\n<p>\n<b>Forum Group:</b>\n<ul>\n";
 	$item = 0;
-	while (@temp_list[$item]) 
+	while (@temp_list[$item])
 	{
 	    $aa = @temp_list[$item];
 	    if($nf_mail)
@@ -2559,17 +2559,17 @@ sub preview_forum {
     if ($description) {&encode($description)};
     if ($guidelines) {&encode($guidelines)};
 
-    if ($which_command == $preview_forum_command) 
+    if ($which_command == $preview_forum_command)
     {
 		print "<FORM ACTION=\"/$netforum_url/$edit_new_forum_command\"";
 
     }
-# 	elsif ($which_command == $create_forum_command || 
-# 	       $which_command == $preview_forum_command) 
+# 	elsif ($which_command == $create_forum_command ||
+# 	       $which_command == $preview_forum_command)
 # 	{
 # 	    print "<FORM ACTION=\"/$netforum_url/$create_forum_command\"";
 # 	}
-    else 
+    else
     {
 	print "<FORM ACTION=\"/$netforum_url/$edit_forum_command\"";
     }
@@ -2610,7 +2610,7 @@ EOH
     } else {
 	print "<FORM ACTION=\"/$netforum_url/$make_changes_command\"";
     }
-    print " METHOD=POST>\n"; 
+    print " METHOD=POST>\n";
 
     print <<EOH;
 
@@ -2645,7 +2645,7 @@ if ($which_command == $preview_forum_command ) {
 </form>
 
 EOH
-	
+
 	&footer;
 
 }
@@ -2657,30 +2657,30 @@ sub list_forums{
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	&check_user($owner_code_name, $id);
 	&check_toolbar("list_forums");
-	
+
     local ($count);
     $count = 0;
 
 	print "Content-type: text/html\n\n";
     print "<TITLE>List Forums</TITLE>";
     &header;
-    print "<h3>NetForum Administration</h3><P>";	
+    print "<h3>NetForum Administration</h3><P>";
 	print "<H2>List Forums</H2><HR>";
 	&admin_footer($owner_code_name,$id);
 	print "<HR>";
 	$forumlist = "$home_directory/admin/forumlist";
 	if(-e $forumlist)
 	{
-		open(FORUM_LIST, $forumlist) || 
+		open(FORUM_LIST, $forumlist) ||
 		&doh("Cannot open forum list file: $forumlist - list_forums");
 		&lock(FORUM_LIST);
     	while ($line = <FORUM_LIST>) {
 			($forum_code, $forum_name, $forum_owner,$owner_code) = split(/:/, $line );
 			chop($owner_code);
-			if(($owner_code eq $owner_code_name) || ($admin_right eq "YES")){ 
+			if(($owner_code eq $owner_code_name) || ($admin_right eq "YES")){
 				$count++;
         		print "<B>Forum name:</b>";
         		if($cgi_required){
@@ -2708,7 +2708,7 @@ sub list_forums{
 	{
     	print "There are no forums<BR>\n" unless $count;
     }
-	
+
 	&admin_footer($owner_code_name,$id);
 	&footer;
 }
@@ -2721,16 +2721,16 @@ sub edit_forums{
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
 	&check_user($owner_code_name, $id);
 	&check_toolbar("edit_forums");
-	
+
     local ($count);
     $count = 0;
 
 	print "Content-type: text/html\n\n";
     print "<TITLE>Edit Forums</TITLE>";
-    &header;	
+    &header;
     print "<H3>NetForum Administration </h3><P>";
 	print "<H2>Edit Forums</H2><HR>";
 	&admin_footer($owner_code_name,$id);
@@ -2738,13 +2738,13 @@ sub edit_forums{
 	$forumlist = "$home_directory/admin/forumlist";
 	if(-e $forumlist)
 	{
-		open(FORUM_LIST, $forumlist) || 
+		open(FORUM_LIST, $forumlist) ||
 		&doh("Cannot open forum list file: $forumlist - list_forums");
 		&lock(FORUM_LIST);
     	while ($line = <FORUM_LIST>) {
 			($forum_code, $forum_name, $forum_owner,$owner_code) = split(/:/, $line );
 			chop($owner_code);
-			if(($owner_code eq $owner_code_name) || ($admin_right eq "YES")){ 
+			if(($owner_code eq $owner_code_name) || ($admin_right eq "YES")){
 			$count++;
         	print "<B>Forum name:</b>";
         	if($cgi_required){
@@ -2759,17 +2759,17 @@ sub edit_forums{
         	print "<B>Owner:</b> $forum_owner<BR>\n";
         	print "<B>Owner Code Name:</b> $owner_code<BR>\n";
         	print "<BR>\n";
-        	
+
 			print "<FORM ACTION=\"/$netforum_url/$post_list_command\"";
         	print " METHOD=POST>\n";
-        	
+
         	print "<input type=\"hidden\" name=\"owner_code_name\" value=\"$owner_code_name\">\n";
         	print "<input type=\"hidden\" name=\"id\" value=\"$id\">\n";
-        	
+
 		print "<INPUT TYPE=\"hidden\" NAME=\"forum_code\" VALUE=\"$forum_code\">\n";
 		print "<INPUT TYPE=\"hidden\" NAME=\"forum_name\" VALUE=\"$forum_name\">\n";
 		print "<INPUT TYPE=\"hidden\" NAME=\"forum_owner\" VALUE=\"$forum_owner\">\n";
-			
+
 		print "<INPUT TYPE=\"hidden\" NAME=\"owner_code\" VALUE=\"$owner_code\">\n";
 			if($delete_f_right eq "YES"){
 				print "<INPUT TYPE=\"radio\" NAME=\"action\" VALUE=\"delete\">\n";
@@ -2801,7 +2801,7 @@ sub edit_forums{
 	{
     	print "There are no forums<BR>\n" unless $count;
     }
-	
+
 	&admin_footer($owner_code_name,$id);
 	&footer;
 }
@@ -2818,14 +2818,14 @@ sub delete_forum {
     # This routine assumes that a forum to be deleted has been chosen
     # and all it does is remove files from the disk
 	local(@list, @lines);
-	
+
     unless ($httpheader) { print &http_header; }
     $forum_code = $in{'forum_code'};
     $dir = $home_directory . "/$forum_code";	# get the forums directory
     print "<title>Deleting Forum - $forum_code</title>\n";
     &header;
     print "<H3>NetForum Administration : Edit Forums : Delete Forum</H3>";
-    print "<H2>Deleting Forum Code: $forum_code </H2>";	 
+    print "<H2>Deleting Forum Code: $forum_code </H2>";
     print "<HR>";
     &admin_footer($ower_code_name, $id);
     print "<HR>";
@@ -2859,14 +2859,14 @@ sub delete_forum {
 	}
     close(FORUM_LIST);
     &unlock(FORUM_LIST);
-    
+
     open(FORUM_LIST, ">$forumlist")
     || &doh("Cannot open forum list file: $forumlist - delete_forum");
 	&lock(FORUM_LIST);
 	print FORUM_LIST (@lines);
 	close(FORUM_LIST);
-	&unlock(FORUM_LIST);	
-	
+	&unlock(FORUM_LIST);
+
 	print "<HR>";
     &footer;
 
@@ -2882,7 +2882,7 @@ sub delete_verify {
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
 	$forum_name = $in{'forum_name'};
-	
+
     unless ( $httpheader ) { print &http_header; }
     print "<title>Forum Delete Verification </title>";
     &header;
@@ -2908,9 +2908,9 @@ hit the submit button below. Otherwise backup!\n
 </FORM>
 <HR>
 EOJ
-	
-	
-   
+
+
+
     &footer;
 
 }
@@ -2934,7 +2934,7 @@ sub edit_forum_info {
     $owner_code = $in{'owner_code'};
 
     $dir = $home_directory . "/$in{'forum_code'}";
-	
+
 	if($cgi_required){
 		open ( FILE, "$dir/a.cgi" ) || &doh("Cannot open file: $dir/a - edit_forum_info");
 
@@ -2953,7 +2953,7 @@ sub edit_forum_info {
     }
     close ( FILE );
 	&unlock(FILE);
-	
+
     if ( -e "$dir/guidelines" ) {
 		open ( FILE, "$dir/guidelines" );
 		&lock(FILE);
@@ -2963,7 +2963,7 @@ sub edit_forum_info {
 		close( FILE );
 		&unlock(FILE);
     }
-    if ( -e "$dir/description" ) 
+    if ( -e "$dir/description" )
     {
 		open ( FILE, "$dir/description" );
 		&lock(FILE);
@@ -2974,7 +2974,7 @@ sub edit_forum_info {
 		&unlock(FILE);
    	}
 
-    if ( -e "$dir/group" ) 
+    if ( -e "$dir/group" )
     {
 		open ( FILE, "$dir/group");
 		&lock(FILE);
@@ -3016,7 +3016,7 @@ sub change_forum {
     $group = $in{'group'};
     $forum_code =~ s/\s/\%20/g;
 
-    if ( (!($forum_name)) || 
+    if ( (!($forum_name)) ||
 	(!($forum_monitor)) ||
 	(!($forum_code)) ||
 	(!($forum_monitor_email)) ) {
@@ -3036,7 +3036,7 @@ sub change_forum {
 		&doh("Forum code cannot contain \":\" - change_forum");
 	}
 
-    if ( $anyone_add eq "no" && 
+    if ( $anyone_add eq "no" &&
 	(!$anyone_add_username || !$anyone_add_password) ) {
 		&doh("Required Fields missing: username or password. - change_forum");
     }
@@ -3058,23 +3058,23 @@ sub change_forum {
 	}
 	close(FORUM_LIST);
 	&unlock(FORUM_LIST);
-	
+
 	if(!($found))
 	{
 		&doh("Cannot modify forum: There is no directory with forum's code: $forum_code - change_forum");
 	}
-	
+
 
     &decode($guidelines);
-    &decode($description);	
-    
+    &decode($description);
+
 #    &verify_email_address($forum_monitor_email);
-    
+
     if ($description){&check_hot_tamale($description)};
     if ($guidelines){&check_hot_tamale($guidelines)};
 
 
-    # modify the various forum info files 
+    # modify the various forum info files
 
     if ($group){
 		$group =~ s/\r/\n/g;
@@ -3084,13 +3084,13 @@ sub change_forum {
 		$group =~ s/ $//g;
 		#$group =~ s/$\s//;
 		#$group =~ s/$\s//;
-		open(G, ">$home_directory/$forum_code/group") || 
+		open(G, ">$home_directory/$forum_code/group") ||
 	    	&doh("Couldn\'t create file \"$home_directory/$forum_code/group\" - change_forum");
 	    &lock(G);
 		print G ($group);
 		close(G);
 		&unlock(G);
-    	} 
+    	}
     	else {
 			if ( -e "$home_directory/$forum_code/group" ) {	# we need to kill it...
 	    	unlink (  "$home_directory/$forum_code/group" );
@@ -3099,13 +3099,13 @@ sub change_forum {
 
     if ($description) {
 		&decode($description);
-		open(DESC, ">$home_directory/$forum_code/description") || 
+		open(DESC, ">$home_directory/$forum_code/description") ||
 	    &doh("Couldn\'t create file \"$home_directory/$forum_code/description\" - change_forum");
 	    &lock(DESC);
 		print DESC ($description);
 		close(DESC);
 		&unlock(DESC);
-    } 
+    }
     else {
 		if (-e "$home_directory/$forum_code/description" ) {
 	    	unlink ( "$home_directory/$forum_code/description" );
@@ -3114,13 +3114,13 @@ sub change_forum {
 
     if ($guidelines) {
 		&decode($guidelines);
-		open(GU, ">$home_directory/$forum_code/guidelines") || 
+		open(GU, ">$home_directory/$forum_code/guidelines") ||
 	    &doh("Couldn\'t create file \"$home_directory/$forum_code/guidelines\" - change_forum");
 	    &lock(GU);
 		print GU ($guidelines);
 		close(GU);
 		&unlock(GU);
-    } 
+    }
     else {
 		if (-e "$home_directory/$forum_code/guidelines" ) {
 	    	unlink ( "$home_directory/$forum_code/guidelines" );
@@ -3130,7 +3130,7 @@ sub change_forum {
     # Now reprint the a file and we are done ...
 
     $forum_monitor_email =~ s/\@/\\\@/;
-    open(NEW, ">$home_directory/$forum_code/a.temp") || 
+    open(NEW, ">$home_directory/$forum_code/a.temp") ||
 	&doh("Couldn\'t create file \"$home_directory/$forum_code/a.temp\" - change_forum");
 	&lock(NEW);
     print NEW "\#\!$perl_path \-si
@@ -3173,7 +3173,7 @@ print NEW "\$netforum_url = \"\$base_url/\$which_forum/\$script_name\";\n\n";
 
     if ( $forum_owner_site ) {
 	print NEW "\$forum_owner_site = \"$forum_owner_site\";\n";
-    }   
+    }
 
     if ( $forum_monitor_site ) {
 	print NEW "\$forum_monitor_site = \"$forum_monitor_site\";\n";
@@ -3200,7 +3200,7 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
     chmod 0777, "$home_directory/$forum_code/a";
 
 
-	# Now the forum has been updates  so we can update the 
+	# Now the forum has been updates  so we can update the
 	# forum list database ...
 
 	open(FORUM_LIST, "$forumlist")
@@ -3208,7 +3208,7 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
 	&lock(FORUM_LIST);
 	while($line = <FORUM_LIST>){
 	   ($code, $name, $owner, $owner_code) = split(/:/, $line);
- 	   if($forum_code eq $code){ 	
+ 	   if($forum_code eq $code){
 		$lines[$n++] = "$forum_code:$forum_name:$forum_owner:$forum_owner_code_name\n";
 	   }
 	   else {
@@ -3220,7 +3220,7 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
 
 	open(FORUM_LIST, ">$forumlist") || &doh("Cannot open forum list file: $forumlist - change_forum");
         &lock(FORUM_LIST);
-	 print FORUM_LIST (@lines); 
+	 print FORUM_LIST (@lines);
 	close(FORUM_LIST);
 	&unlock(FORUM_LIST);
 
@@ -3232,7 +3232,7 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
     print "<HR>";
     &admin_footer($owner_code_name, $id);
     print "<HR>";
-    print "The URL for the forum is: "; 
+    print "The URL for the forum is: ";
     if($cgi_required){
         print "<A HREF = \"$url/$base_url/$forum_code/a.cgi/$show_topics_command\">";
     	print ("$url/$base_url/$forum_code/a.cgi/$show_topics_command</a><BR>\n");
@@ -3242,8 +3242,8 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
     	print ("$url/$base_url/$forum_code/a/$show_topics_command</a><BR>\n");
     }
     print "<HR>";
-	
-	    
+
+
     &footer;
 }
 
@@ -3258,7 +3258,7 @@ sub edit_forum_topics {
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
 	# This code looks similar to show_topics in main
-	
+
     $which_forum = $in{'forum_code'};
     &parse_a;
     $forum_name = $in{'forum_name'};
@@ -3283,11 +3283,11 @@ sub edit_forum_topics {
     print "<a href=\"$url/$base_url/$which_forum/a/$show_topics_command\">";
     }
     print "$forum_name</a><BR>";
-    
+
     print "<B>Forum Code:</B> $forum_code<BR>";
     print "<b>Forum Owner:</b> ";
 
-    if (($forum_owner_site =~ /http\:\/\//) && 
+    if (($forum_owner_site =~ /http\:\/\//) &&
 	($forum_owner_site ne 'http://')) {
 
 	print "<a href=\"$forum_owner_site\">";
@@ -3295,16 +3295,16 @@ sub edit_forum_topics {
 
     print $forum_owner;
 
-    if (($forum_owner_site =~ /http\:\/\//) && 
-	($forum_owner_site ne 'http://')) { 
+    if (($forum_owner_site =~ /http\:\/\//) &&
+	($forum_owner_site ne 'http://')) {
 
 	print "</a>";
     }
 
-    if ($forum_owner_email) 
+    if ($forum_owner_email)
     {
 		$aa = $forum_owner_email;
-		if($nf_mail) 
+		if($nf_mail)
 		{
 			$aa =~ s/\\@/$mail_separator/;
 			print " (<a href=\"/$netforum_url/$mail_command$cvar_separator";
@@ -3314,7 +3314,7 @@ sub edit_forum_topics {
     	{
     		print " (<a href=\"mailto:$aa\">$aa</a>)\n<br>\n";
 
-    	}	
+    	}
     }
     else {
 
@@ -3324,7 +3324,7 @@ sub edit_forum_topics {
     print "<B>Owner Code:</b> $owner_code<Br>";
     print "<b>Contact:</b> ";
 
-    if (($forum_monitor_site =~ /http\:\/\//) 
+    if (($forum_monitor_site =~ /http\:\/\//)
 	&& ($forum_monitor_site ne 'http://')){
 
 	print "<a href=\"$forum_monitor_site\">";
@@ -3332,7 +3332,7 @@ sub edit_forum_topics {
 
     print $forum_monitor;
 
-    if (($forum_monitor_site =~ /http\:\/\//) 
+    if (($forum_monitor_site =~ /http\:\/\//)
 	&& ($forum_monitor_site ne 'http://')){
 
 	print "</a>";
@@ -3346,14 +3346,14 @@ sub edit_forum_topics {
     	print "$aa\">$forum_monitor_email</a>)\n<br>";
     }
     else
-    {	
+    {
     	$aa =~ s/\\//;
     	print " (<a href=\"mailto:$aa\">$aa</a>)\n<br>\n";
     }
 
     if (-e "$home_directory/$which_forum/description"){
 
-	open(DESC, "$home_directory/$which_forum/description") || 
+	open(DESC, "$home_directory/$which_forum/description") ||
 	    &doh('Can\'t open description file - edit_forum_topics');
 	&lock(DESC);
 	# print "\n<hr>\n";
@@ -3363,11 +3363,11 @@ sub edit_forum_topics {
 	&unlock(DESC);
     }
     print "\n<hr>\n<H3>Topics:</H3>\n<ul>\n";
-       
+
 	# check if file is empty
-	
+
 	 $list_file = "$home_directory/$which_forum/topics/list";
-	
+
 	if (!(-s $list_file))
 	{
 		print "\n<dd><b>No Topics</b>\n";
@@ -3377,7 +3377,7 @@ sub edit_forum_topics {
 		&doh("Couldn\'t find topics list file: $list_file");
 		&lock(TOPICS_LIST);
 		while($line = <TOPICS_LIST>) {
-# 		foreach $item sort( keys %topics_list) 
+# 		foreach $item sort( keys %topics_list)
 		# parse topic numbers and topic names:
 		($which_topic, $num_messages, $num_replies, $item, $udate) = split(/:/, $line, 5);
 			$which_topic =~ s/\s//g;
@@ -3386,7 +3386,7 @@ sub edit_forum_topics {
 	    	print "<li> <b>$item</b>\n";
 	    	if ($num_messages == 0) {
 				print("\t<dd> (no messages)\n");
-	    	} 
+	    	}
 	    	else {
 				print("\t<dd> ($num_messages");
 				if ($num_messages == 1) {
@@ -3426,12 +3426,12 @@ print "</FORM>\n";
 		&unlock(TOPICS_LIST);
     }
     print "</ul>\n<hr>\n";
-    
+
     &footer;
 }
 
 sub delete_verify_topic {
-	
+
 	($owner_code_name,$id) = @_;
 	if((!($owner_code_name)) || (!($id))){
 		$owner_code_name = $in{'owner_code_name'};
@@ -3452,7 +3452,7 @@ EOJ
 	&admin_footer($owner_code_name, $id);
 	print<<EOJ;
 	<HR>
-    You are about to delete the file(s) related to topic: $which_topic in 
+    You are about to delete the file(s) related to topic: $which_topic in
     $home_directory/$which_forum/topics/$which_topic.
 To do so, hit the submit button below. Otherwise backup!\n
 
@@ -3466,7 +3466,7 @@ To do so, hit the submit button below. Otherwise backup!\n
 </FORM>
 <HR>
 EOJ
-	
+
     &footer;
 }
 
@@ -3479,7 +3479,7 @@ sub delete_topic {
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
     $which_forum = $in{'which_forum'};
     $which_topic = $in{'which_topic'};
 
@@ -3489,12 +3489,12 @@ sub delete_topic {
     $responses_dir = "$home_directory/$which_forum/responses";
 
 
-	open(T, "$topic_list_file") || 
+	open(T, "$topic_list_file") ||
 	&doh("Couldn\'t open topic list file: $topic_list_file");
 	&lock(T);
 	$n=0;
 	while($_ =<T>)
-	{	
+	{
 		($number, $messages,$replies, $name, $udate) = split(/:/, $_, 5);
 		$number =~ s/\s//g;
 		# remove topic from list
@@ -3505,7 +3505,7 @@ sub delete_topic {
 		}
 		# these are the topics that will be kept
 		else
-		{ 
+		{
 			@topics_list[$n++] =$_;
 		}
 	}
@@ -3517,7 +3517,7 @@ sub delete_topic {
 	print TT (@topics_list);
 	close(TT);
 	&unlock(TT);
-	
+
 
     # and delete the topic files too.
 
@@ -3529,7 +3529,7 @@ sub delete_topic {
     @responses = grep ( /^$which_topic-/, readdir( DIR ) );
 
     foreach $response( @responses ) {
-	unlink ( "$responses_dir/$response" ) 
+	unlink ( "$responses_dir/$response" )
 	|| &doh("Unable to delete response: $response");
     }
     close(DIR);
@@ -3551,9 +3551,9 @@ sub delete_topic {
     if(@responses) {
     	print "Deleted responses: @responses\n<HR>\n";
     }
-	
+
 	print "<HR>";
-	
+
     &footer;
 
 }
@@ -3569,10 +3569,10 @@ sub preview_topic_admin{
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
     local($formatted, $username, $password, $topic_name, $poster_name,
-	  $poster_institution, $institution_site, $poster_email, $poster_site, 
-	  $comments, $formatting,  $which_topic, $which_forum,$date, 
+	  $poster_institution, $institution_site, $poster_email, $poster_site,
+	  $comments, $formatting,  $which_topic, $which_forum,$date,
 	  $which_forum, $which_topic);
 
     $username = $in{'username'};
@@ -3593,7 +3593,7 @@ sub preview_topic_admin{
     $forum_code = $in{'forum_code'};
     $forum_owner = $in{'forum_owner'};
     $owner_code = $in{'owner_code'};
-    
+
 
     if(!$topic_name)
     {
@@ -3604,7 +3604,7 @@ sub preview_topic_admin{
  		&doh("Name Missing.");
     }
 
-    if( !$poster_institution && $institution_required ) 
+    if( !$poster_institution && $institution_required )
     {
  		&doh("$institution_field_name Field Missing.");
     }
@@ -3620,15 +3620,15 @@ sub preview_topic_admin{
 	    	&doh('Missing username/password fields');
 		}
 
-# 	if (($topic_post_name ne (crypt($username,$password))) || 
+# 	if (($topic_post_name ne (crypt($username,$password))) ||
 # 	    ($topic_post_password ne (crypt($password,$username))))
 # 	{
 # 	    &doh('Bad username/password');
 # 	}
     }
-		
+
     if ($comments){&check_hot_tamale($comments)};
-	
+
     if (&block_html($topic_name,$poster_name,$poster_institution,
 		    $institution_site,$poster_email,$poster_site) == 1){
 	&doh("Sorry, there appears to be HTML in a field that does not accept HTML");
@@ -3675,8 +3675,8 @@ sub preview_topic_admin{
 	print "\n<br>\n";
     }
 
-    if (($institution_site =~ /http:\/\//) && 
-	($institution_site ne 'http://')) 
+    if (($institution_site =~ /http:\/\//) &&
+	($institution_site ne 'http://'))
 	{
 		print "<b>$institution_field_name: </b> <a href=\"$institution_site\">";
 		print "$poster_institution</a>\n<br>\n";
@@ -3755,7 +3755,7 @@ sub preview_topic_admin{
 </form>
 <hr>
 EOH
-	
+
     &footer;
 }
 
@@ -3769,7 +3769,7 @@ sub edit_topic_admin{
     }
     &check_user($owner_code_name, $id);
     &check_toolbar;
-	
+
     if($in{'edit_type'})
     {
 	$username = $in{'username'};
@@ -3801,10 +3801,10 @@ sub edit_topic_admin{
     	$file_path = "$home_directory/$which_forum/topics/$which_topic";
     	$owner_code = $in{'owner_code'};
     	&parse_topic_file($file_path);
-    	
-    	# process the comments 
+
+    	# process the comments
     	$comments = &remove_markup($comments, $formatting);
-    	    	
+
     }
 
     unless ($insto_site){
@@ -3819,10 +3819,10 @@ sub edit_topic_admin{
     print "Edit Topics and Messages </h3>";
     print "<H2>Edit Topic: $topic_name</H2>";
     print "<HR>";
-    &admin_footer($owner_code_name, $id);    
+    &admin_footer($owner_code_name, $id);
     print "<HR>";
     print<<EOL;
-		<b>Forum Name:</b> 
+		<b>Forum Name:</b>
 EOL
     if($cgi_required){
 	print "<a href=\"$url/$base_url/$forum_code/a.cgi/$show_topics_command\">";
@@ -3835,7 +3835,7 @@ EOL
     print "<b>Forum Owner:</b> $forum_owner<BR>";
     print "<b>Owner Code: </B> $owner_code<BR>";
     print "<HR>";
-	
+
     print "\n<form action=\"/$netforum_url/$preview_topic_admin\"";
     print " method=POST>\n";
 
@@ -3859,7 +3859,7 @@ EOL
 <dd><b>Your Name</b>:
 <dd><input value="$name" size=40 name="poster_name"><br>
 <dd><b>$institution_field_name</b>:
-<dd><input value="$institution" size=40 
+<dd><input value="$institution" size=40
 name="poster_institution"><br>
 <hr><b>Optional Information:</b><p>
 <dd><b>Your $institution_field_name\'s Web Site</b>:
@@ -3879,7 +3879,7 @@ EOH
 <INPUT TYPE="radio" NAME="change_date" VALUE="yes">Yes<BR>
 <INPUT TYPE="radio" NAME="change_date" VALUE="no" CHECKED>No<p>
 EOJ
-    }				# 
+    }				#
     else
     {
 	print <<EOJ;
@@ -3903,26 +3903,26 @@ EOJ
 </form>
 <hr>
 EOH
-	
+
     &admin_footer($owner_code_name, $id);
     &footer;
 }
 
 
 sub sub_post_topic_admin {
-	
+
     ($owner_code_name,$id) = @_;
     if((!($owner_code_name)) || (!($id))){
 	$owner_code_name = $in{'owner_code_name'};
 	$id = $in{'id'};
     }
     &check_user($owner_code_name, $id);
-	
+
     local ($username, $password, $topic_name, $new_file_path,$which_topic,
-	   $poster_name, $poster_institution, $institution_site,$which_forum, 
+	   $poster_name, $poster_institution, $institution_site,$which_forum,
 	   $poster_email, $poster_site, $comments, $formatting, $count,
 	   $old_file_path, $date, $change_date, $new_file);
-    
+
 
     $username = $in{'username'};
     $password = $in{'password'};
@@ -3938,8 +3938,8 @@ sub sub_post_topic_admin {
     $which_topic = $in{'which_topic'};
     $change_date = $in{'change_date'};
     $date = $in{'date'};
-    
-    if ((!($topic_name)) || (!($poster_name))) 
+
+    if ((!($topic_name)) || (!($poster_name)))
 	{
 		&doh("Required Feilds missing: Topic Name and Poster Name.");
     }
@@ -3957,25 +3957,25 @@ sub sub_post_topic_admin {
 	if ((!$username) || (!$password)){
 	    &doh('Missing username/password fields');
 	}
-	if (($topic_post_name ne (crypt($username,$password))) || 
+	if (($topic_post_name ne (crypt($username,$password))) ||
 	    ($topic_post_password ne (crypt($password,$username)))){
 	    &doh('Bad username/password');
 	}
     }
-    
+
     if ($comments){
 	&check_hot_tamale($comments);
     }
 
 
     $topic_file = "$home_directory/$which_forum/topics/list";
-    
-    open(T, "$topic_file") || 
+
+    open(T, "$topic_file") ||
 	&doh("Couldn\'t open topic list file: $topic_file in sub_post_topic_admin");
     &lock(T);
     $n=0;
     while($_ =<T>)
-    {	
+    {
 	($number, $messages, $replies, $name, $udate) = split(/:/, $_, 5);
 	$number =~ s/\s//g;
 	# modify topic name from list
@@ -3996,10 +3996,10 @@ sub sub_post_topic_admin {
     print TT (@topics_list);
     close(TT);
     &unlock(TT);
-    
-    
 
-    $new_file_path = 
+
+
+    $new_file_path =
 ">$home_directory/$which_forum/topics/$which_topic.temp";
     $new_file = "$home_directory/$which_forum/topics/$which_topic.temp";
 
@@ -4009,7 +4009,7 @@ sub sub_post_topic_admin {
     &lock(NEW_FILE);
 
     print NEW_FILE ($topic_name_key, $topic_name, "\n");
-    if ( ($poster_site =~ /http:\/\//) && 
+    if ( ($poster_site =~ /http:\/\//) &&
 	 ($poster_site ne "http://") ) {
 	print NEW_FILE ($poster_site_key, $poster_site, "\n");
     }
@@ -4017,7 +4017,7 @@ sub sub_post_topic_admin {
     if ($poster_email) {
 	print NEW_FILE ($poster_email_key, $poster_email, "\n");
     }
-    if ( ($institution_site =~ /http:\/\//) && 
+    if ( ($institution_site =~ /http:\/\//) &&
 	 ($institution_site ne "http://")  ) {
 	print NEW_FILE ($institution_site_key, $institution_site, "\n");
     }
@@ -4027,7 +4027,7 @@ sub sub_post_topic_admin {
 	$date = &ctime(time);
 
     }
- 	
+
  	print NEW_FILE ( $formatting_key, $formatting, "\n");
     print NEW_FILE ( $date_key, $date);
     if ($comments) {
@@ -4035,7 +4035,7 @@ sub sub_post_topic_admin {
     }
     print NEW_FILE ($separator, "\n");
 
-    # reprint the rest of the file here 
+    # reprint the rest of the file here
     $old_file_path = "$home_directory/$which_forum/topics/$which_topic";
     open ( OLD_FILE, $old_file_path ) || &doh("Unable to open file: $old_file_path");
     $count = 0;
@@ -4053,9 +4053,9 @@ sub sub_post_topic_admin {
     }
     close(NEW_FILE);
     &unlock(NEW_FILE);
-    rename( $new_file, $old_file_path ); 
+    rename( $new_file, $old_file_path );
     chmod 0777, "$home_directory/$which_forum/topics/$which_topic";
-	
+
 	&check_toolbar;
 
 	unless( $httpheader ) { print &http_header; }
@@ -4080,7 +4080,7 @@ sub show_messages_admin {
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
 	$forum_name = $in{'forum_name'};
 	$forum_code = $in{'forum_code'};
 	$forum_owner= $in{'forum_owner'};
@@ -4090,23 +4090,23 @@ sub show_messages_admin {
 
 	if ($which_command == $page_messages_command) {
 		($topic_number, $how_deep, $subject_only) = split('\.', $command_vars);
-    } 
+    }
 #     else {
 # 		($topics_number, $how_deep) = split('\.', $command_vars);
 #     }
-    
+
 
 	# use the list file to get title and number of messages
-	
+
 	$topic_file_path = "$home_directory/$which_forum/topics/list";
 	open (TOPIC, $topic_file_path) ||
 	&doh("Couldn\'t open topic file: $topic_file_path");
 	&lock(TOPIC);
-	while( <TOPIC> )  {	 
-	
+	while( <TOPIC> )  {
+
 	($number, $num_messages, $num_replies, $name, $date) = split(/:/, $_, 5 );
-    	last if($number == $topic_number); 	
-    }				
+    	last if($number == $topic_number);
+    }
 
     close(TOPIC);
     &unlock(TOPIC);
@@ -4115,26 +4115,26 @@ sub show_messages_admin {
 
     $i = $num_messages;
     $topic_name = $name;
-    
 
-	
+
+
     if ( !$how_deep ) {
 
 	$how_deep = 1;
     }
-    
+
     $how_many_messages = $how_many_messages_expanded;
 
 	$finish = $num_messages;
  	$start = 1;
-    
+
     &read_messages($topic_number);
 
 
     unless ($httpheader) {print &http_header};
     print "<title>Edit Topic's Messages</title>\n";
     &header;
-    
+
     print "<h3>Netforum Administration : Edit Forums : Edit Forum's Topics";
     print "</h3><P>";
     print "<h2>Edit Topic's Messages </h2>";
@@ -4142,7 +4142,7 @@ sub show_messages_admin {
     &admin_footer($owner_code_name, $id);
     print "<HR>";
     print "	<b>Forum Name:</b> ";
-    	    	
+
    		if($cgi_required){
    		    print "<a href=\"$url/$base_url/$forum_code/a.cgi/$show_topics_command\">";
    		}
@@ -4157,24 +4157,24 @@ sub show_messages_admin {
 EOL
     print "\n<b>Topic: </b><A HREF=\"$url/$base_url/$which_forum/a/$topic_desc_command";
     print "$cvar_separator$topic_number\">$topic_name</a><P>";
-	
-	
+
+
 	#HEY! Need to fix message display here!!!!
 	print "<hr>";
 
 	if (!($i)){
 		print "\n<p>\n<dd><b>No Messages</b>\n<p>\n<hr>\n";
     }
-    
+
 	else {
 		foreach $i ($start..$finish){
 
 	    	$which_message = $num_messages - $i + 1;
-		
+
 	    	if($poster_site[$i]) {
 				print "<b>Posted by:</b><a href=\"$poster_site[$i]\">";
 				print "$poster_name[$i]</a> ";
-	    	}			 
+	    	}
 	    	else {
 				print "<b>Posted by:</b> $poster_name[$i] ";
 	    	}
@@ -4214,7 +4214,7 @@ EOL
 	    	{
 	    		print(&admin_toolbar($which_forum, $topic_number, $which_message, $owner_code_name, $id));
 				print"<b>Replies:</b><BR>\n<ul>\n";
-				
+
 				print( &show_replies_admin);
 		    	print("</ul></UL>\n<hr>\n");
 	    		}
@@ -4224,7 +4224,7 @@ EOL
 			}
     	}
     print "\n<hr>";
-	
+
     &footer;
 }
 
@@ -4232,21 +4232,21 @@ EOL
 sub get_replies_admin{
 
     $counter = 1;
-    @message_list[$j] .= "<p><b>Replies:</b> (<a 
-href=\"/$netforum_url/$show_replies_command$cvar_separator$topic_number\.$which_message\.0\.$how_deep\">list 
+    @message_list[$j] .= "<p><b>Replies:</b> (<a
+href=\"/$netforum_url/$show_replies_command$cvar_separator$topic_number\.$which_message\.0\.$how_deep\">list
 all replies</a>)\n";
-    $reply_file = 
+    $reply_file =
 "$home_directory/$which_forum/responses/$topic_number\-$which_message";
-    open(REPLY_FILE, $reply_file ) || 
+    open(REPLY_FILE, $reply_file ) ||
 	&doh("Couldn\'t open reply file: $reply_file|");
 	&lock(REPLY_FILE);
     while ( <REPLY_FILE> )
     {
 		chop;
 		if (/$subject_key/){
-	     	@message_list[$j] .= "<dd><li> <a 
+	     	@message_list[$j] .= "<dd><li> <a
 href=\"/$netforum_url/$show_replies_command$cvar_separator$topic_number\.$which_message\.$counter\.$how_deep\">$'</a>\n";
-	    
+
 		$counter++;
 		}
     }
@@ -4263,7 +4263,7 @@ sub show_replies_admin{
 #  ($which_topic, $which_message, $which_reply, $how_deep) = split('\.', $command_vars);
     $counter = 0;
     $reply_file = "$home_directory/$which_forum/responses/$topic_number\-$which_message";
-    open(REPLY, $reply_file ) || 
+    open(REPLY, $reply_file ) ||
 	&doh("Couldn\'t open reply file: $reply_file");
 	&lock(REPLY);
     while ( <REPLY> )
@@ -4273,11 +4273,11 @@ sub show_replies_admin{
 	    	@replies[$counter] .= "\n<b>Subject:</b> $'\n<br>\n<b>Response Posted by:</b> ";
 		}
 		elsif (/$poster_site_key/){
-	    	@replies[$counter] .= "<a href=\"$'\">"; 
+	    	@replies[$counter] .= "<a href=\"$'\">";
 	    	$ps = 1;
 		}
 		elsif (/$poster_name_key/){
-	    	@replies[$counter] .= "$'"; 
+	    	@replies[$counter] .= "$'";
 	    	if ($ps){
 			@replies[$counter] .= "</a>  ";
 			$ps = 0;
@@ -4297,7 +4297,7 @@ sub show_replies_admin{
 			}
 		}
 		elsif (/$institution_site_key/){
-	    	@replies[$counter] .= "<br>\n<b>$institution_field_name:</b> <a href=\"$'\">"; 
+	    	@replies[$counter] .= "<br>\n<b>$institution_field_name:</b> <a href=\"$'\">";
 			$is = 1;
 		}
 		elsif (/$poster_institution_key/){
@@ -4335,12 +4335,12 @@ sub show_replies_admin{
     foreach $item (@replies){
 
 		$temp .= $item;
-		$temp .= &admin_reply_toolbar( $which_forum, $topic_number, 
+		$temp .= &admin_reply_toolbar( $which_forum, $topic_number,
 		$which_message, $count, $owner_code_name, $id ) unless ( !$item );
 		$count++;
     }
 
-$temp;    
+$temp;
 
 }
 
@@ -4352,22 +4352,22 @@ sub admin_footer {
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
     print "\n";
     print "<TABLE>";
     print "<TR>";
     foreach $icon (@admin_icon_list){
-    	if ($icon eq 'admin_menu'){	
+    	if ($icon eq 'admin_menu'){
     	    print "\n<FORM ACTION=\"/$netforum_url/$admin_options_command\"";
     		print "METHOD=POST>\n";
     		print "<input type=\"hidden\" name=\"owner_code_name\" value=\"$owner_code_name\">\n";
-    		print "<input type=\"hidden\" name=\"id\" value=\"$id\">\n";	
-    		
+    		print "<input type=\"hidden\" name=\"id\" value=\"$id\">\n";
+
    			print "<TD>";
     		print "<input type=\"image\" alt=\"Go to admin menu\" ";
     		print "SRC=\"$goto_admin_gif\" name=\"admin_menu\" BORDER=$image_border>\n";
-    		print "\n</TD>"; 
-   		    print "</FORM>";  		
+    		print "\n</TD>";
+   		    print "</FORM>";
     	}
     	if($icon eq 'create_forum'){
     		print "\n<FORM ACTION=\"/$netforum_url/$main_menu_command\"";
@@ -4375,11 +4375,11 @@ sub admin_footer {
     		print "<input type=\"hidden\" name=\"owner_code_name\" value=\"$owner_code_name\">\n";
     		print "<input type=\"hidden\" name=\"id\" value=\"$id\">\n";
     		print "<input type=\"hidden\" name=\"action\" value=\"create_forum\"> ";
-    	
+
    			print "<TD>";
     		print "<input type=\"image\" alt=\"Create forum\" ";
     		print "SRC=\"$create_forum_gif\" name=\"create_forum\"  BORDER=$image_border>\n";
-    		print "\n</TD>"; 
+    		print "\n</TD>";
    		    print "</FORM>";
     	}
     	if($icon eq 'edit_forums'){
@@ -4388,11 +4388,11 @@ sub admin_footer {
     		print "<input type=\"hidden\" name=\"owner_code_name\" value=\"$owner_code_name\">\n";
     		print "<input type=\"hidden\" name=\"id\" value=\"$id\">\n";
     		print "<input type=\"hidden\" name=\"action\" value=\"edit_forum\">	";
-    		
+
    			print "<TD>";
     		print "<input type=\"image\" alt=\"Edit forums\" ";
     		print "SRC=\"$edit_forums_gif\" name=\"edit_forums\"  BORDER=$image_border>\n";
-    		print "\n</TD>"; 
+    		print "\n</TD>";
    		    print "</FORM>";
     	}
     	if($icon eq 'edit_site'){
@@ -4401,11 +4401,11 @@ sub admin_footer {
     		print "<input type=\"hidden\" name=\"owner_code_name\" value=\"$owner_code_name\">\n";
     		print "<input type=\"hidden\" name=\"id\" value=\"$id\">\n";
 	   		print "<input type=\"hidden\" name=\"action\" value=\"site_config\">";
-	   		
+
    			print "<TD>";
     		print "<input type=\"image\" alt=\"Edit site\" ";
     		print "SRC=\"$edit_site_gif\" name=\"edit_site\"  BORDER=$image_border>\n";
-    		print "\n</TD>"; 
+    		print "\n</TD>";
    		    print "</FORM>";
     	}
     	if($icon eq 'manage_owners'){
@@ -4414,11 +4414,11 @@ sub admin_footer {
     		print "<input type=\"hidden\" name=\"owner_code_name\" value=\"$owner_code_name\">\n";
     		print "<input type=\"hidden\" name=\"id\" value=\"$id\">\n";
     		print "<input type=\"hidden\" name=\"action\" value=\"manage_owners\">";
-    		
+
    			print "<TD>";
     		print "<input type=\"image\" alt=\"Manage Forum Owners\" ";
     		print "SRC=\"$manage_owners_gif\" name=\"manage_owners\"  BORDER=$image_border>\n";
-    		print "\n</TD>"; 
+    		print "\n</TD>";
    		    print "</FORM>";
     	}
     	if($icon eq 'list_forums'){
@@ -4427,11 +4427,11 @@ sub admin_footer {
     		print "<input type=\"hidden\" name=\"owner_code_name\" value=\"$owner_code_name\">\n";
     		print "<input type=\"hidden\" name=\"id\" value=\"$id\">\n";
 	   		print "<input type=\"hidden\" name=\"action\" value=\"list_forums\">";
-	   	
+
    			print "<TD>";
     		print "<input type=\"image\" alt=\"List forums\" ";
     		print "SRC=\"$list_forums_gif\" name=\"list_forums\"  BORDER=$image_border>\n";
-    		print "\n</TD>"; 
+    		print "\n</TD>";
    		    print "</FORM>";
     	}
     	if($icon eq 'change_pass'){
@@ -4439,12 +4439,12 @@ sub admin_footer {
     		print "METHOD=POST>\n";
     		print "<input type=\"hidden\" name=\"owner_code_name\" value=\"$owner_code_name\">\n";
     		print "<input type=\"hidden\" name=\"id\" value=\"$id\">\n";
-	   		print "<input type=\"hidden\" name=\"action\" value=\"change_pass\">";	
-	   		
+	   		print "<input type=\"hidden\" name=\"action\" value=\"change_pass\">";
+
    			print "<TD>";
     		print "<input type=\"image\" alt=\"Change Password\" ";
     		print "SRC=\"$change_pass_gif\" name=\"change_pass\"  BORDER=$image_border>\n";
-    		print "\n</TD>"; 
+    		print "\n</TD>";
    		    print "</FORM>";
     	}
     	if($icon eq 'help'){
@@ -4456,12 +4456,12 @@ sub admin_footer {
 	    print "</TD>";
     	}
     	if ($icon eq 'login'){
-    		
+
     		print "<TD>";
     		print "<a href=\"$url/$netforum_url\"> ";
     		print "<IMG SRC=\"$goto_login_gif\" name=\"login\" BORDER=$image_border";
     		print " alt=\"Go to login page\"></a>\n";
-    		print "\n</TD>"; 
+    		print "\n</TD>";
     	}
     }
     print "</TR></TABLE>";
@@ -4538,28 +4538,28 @@ sub delete_verify_message {
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
     local ($which_topic, $which_forum, $which_message, $file_path,
 	   $which_reply, $message);
-     
+
     $which_topic = $in{'which_topic'};
     $which_forum = $in{'which_forum'};
     $which_message = $in{'which_message'};
     $which_reply = $in{'which_reply'};
     #$message = $in{'message'};
 
-    
+
     if ( $type eq 'message' ) {
 	$file_path = "$home_directory/$which_forum/topics/$which_topic.m";
 	$which_one = $which_message;
     }
     else {
-	$file_path = 
+	$file_path =
 "$home_directory/$which_forum/responses/$which_topic\-$which_message";
 	$which_one = $which_reply;
     }
 
-    open ( TOPIC, $file_path ) || 
+    open ( TOPIC, $file_path ) ||
     &doh("Unable to open file: $file_path");
     &lock(TOPIC);
     $count = 1;
@@ -4576,7 +4576,7 @@ sub delete_verify_message {
     }
 	close(TOPIC);
 	&unlock(TOPIC);
-	
+
 	unless ($httpheader) {print &http_header}
 
     print "<title>Delete Verify - $type</title>";
@@ -4593,11 +4593,11 @@ sub delete_verify_message {
 	&admin_footer($owner_code_name, $id);
 	print "<HR>";
     print "You are about to delete: <b>$file_path</b><BR>";
-    if ( $type eq 'message' ) 
+    if ( $type eq 'message' )
     {
 		print "Message number:<b>$which_message</b><BR>";
     }
-    else 
+    else
     {
 		print "Reply number: <b>$which_reply</b><BR>\n";
     }
@@ -4621,7 +4621,7 @@ sub delete_verify_message {
 
 </FORM>
 EOJ
-	
+
     &footer;
 }
 
@@ -4635,7 +4635,7 @@ sub edit_message {
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
     local ($which_topic, $which_forum, $which_message, $file_path );
-		
+
     $which_topic = $in{'which_topic'};
     $which_forum = $in{'which_forum'};
     $which_message = $in{'which_message'};
@@ -4644,15 +4644,15 @@ sub edit_message {
     $forum_name = $in{'forum_name'};
     $forum_owner = $in{'forum_owner'};
     $owner_code = $in{'owner_code'};
-	
-	
+
+
 	if($in{'message_action'} eq "edit" || $in{'reply_action'} eq "edit")
 	{
 		if($which_reply)
 		{
 			$file_path = "$home_directory/$which_forum/responses/$which_topic-$which_message";
-			open( MESSAGE_FILE, $file_path ) || 
-			&doh("Unable to open message file: $file_path"); 
+			open( MESSAGE_FILE, $file_path ) ||
+			&doh("Unable to open message file: $file_path");
 			&lock(MESSAGE_FILE);
 			$count = 1;
 			if ($count < $which_reply)
@@ -4666,16 +4666,16 @@ sub edit_message {
 				}
 			}
 		}
-		else 
+		else
 		{
     		$file_path = "$home_directory/$which_forum/topics/$which_topic.m";
-    		open( MESSAGE_FILE, $file_path ) || 
-			&doh("Unable to open message file: $file_path"); 
+    		open( MESSAGE_FILE, $file_path ) ||
+			&doh("Unable to open message file: $file_path");
 			$count = 1;
 			if ($count < $which_message)
 			{
-    			while ( <MESSAGE_FILE> ) 
-    			{		
+    			while ( <MESSAGE_FILE> )
+    			{
 					if (/$separator/) {
 	    				$count++;
 	    				last if ( $count >= $which_message );
@@ -4683,7 +4683,7 @@ sub edit_message {
     			}
     		}
     	}
-    
+
     	while (<MESSAGE_FILE>){
 
 			last if (/$separator/);
@@ -4718,11 +4718,11 @@ sub edit_message {
     			$message .= $_ ."\n";
 			}
     	}
-    
+
     	close ( MESSAGE_FILE );
     	&unlock(MESSAGE_FILE);
 	}
-	
+
     unless ($institution_site){
 	$institution_site = 'http://';
     }
@@ -4739,12 +4739,12 @@ sub edit_message {
     print "<h3>NetForum Administration :  Edit Forums : Edit Forum's Topic";
     print " : Edit Topic's Messages </h3><P>";
     if($which_reply){
-       print "\n<h2>Edit Reply</h2>\n<hr>\n"; 
+       print "\n<h2>Edit Reply</h2>\n<hr>\n";
     }
     else{
-    	print "\n<h2>Edit Message</h2>\n<hr>\n";    	
-	} 
-    &admin_footer($owner_code_name, $id);	
+    	print "\n<h2>Edit Message</h2>\n<hr>\n";
+	}
+    &admin_footer($owner_code_name, $id);
     print "<HR>";
 	print "<b>Forum Name:</b>";
 	if($cgi_required){
@@ -4758,7 +4758,7 @@ sub edit_message {
 	print "<b>Forum Owner:</b> $forum_owner<BR>";
 	print "<b>Owner Code: </B> $owner_code<P>";
 	print "<HR>";
-    print "\n<form action=\"/$netforum_url/$preview_message_update\" 
+    print "\n<form action=\"/$netforum_url/$preview_message_update\"
 method=POST>\n";
     print <<EOH;
     <INPUT TYPE=hidden VALUE="$which_topic" NAME="which_topic">
@@ -4805,7 +4805,7 @@ EOH
 EOH
 
 	&format_list($formatting);
-	
+
     print <<EOH;
 	<p><hr>
 	<center>
@@ -4828,7 +4828,7 @@ EOL
 	<hr>
 
 EOH
-	
+
 	&admin_footer($owner_code_name, $id);
     &footer;
 
@@ -4845,7 +4845,7 @@ sub preview_message_update {
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
     local($formatted);
     $poster_name = $in{'poster_name'};
     $poster_institution = $in{'poster_institution'};
@@ -4863,8 +4863,8 @@ sub preview_message_update {
 	$forum_name = $in{'forum_name'};
     $forum_owner = $in{'forum_owner'};
 
-    if ((!($poster_name)) || 
-	(!($subject)) || (!($message))) 
+    if ((!($poster_name)) ||
+	(!($subject)) || (!($message)))
 	{
 		&doh("Required Fields missing");
     }
@@ -4873,13 +4873,13 @@ sub preview_message_update {
 	{
 		&doh("$institution_field_name Field missing.");
 	}
-	
+
     &check_hot_tamale($message);
 
-    if 
-(&block_html($poster_name,$poster_institution,$institution_site,$poster_email,$poster_site) 
+    if
+(&block_html($poster_name,$poster_institution,$institution_site,$poster_email,$poster_site)
 == 1){
-	&doh("Sorry, there appears to be HTML in a field that does not accept 
+	&doh("Sorry, there appears to be HTML in a field that does not accept
 HTML");
     }
 
@@ -4905,13 +4905,13 @@ HTML");
     }
     print "the forum:</h3>\n<hr>\n<br>\n";
 
-    if (($poster_site =~ /http:\/\//) && 
+    if (($poster_site =~ /http:\/\//) &&
 	($poster_site ne 'http://')){
 		print "<b>Posted by: </b> <a href=\"$poster_site\">";
 		print "$poster_name</a> ";
     }
     else {print "<b>Posted by:</b> $poster_name"}
-	
+
 	if ($poster_email)
     {
 		$aa = $poster_email;
@@ -4928,7 +4928,7 @@ HTML");
     }
     else {print "\n<br>\n"};
 	print "<B>Subject:</b> $subject <BR>\n";
-    if (($institution_site =~ /http:\/\//) && 
+    if (($institution_site =~ /http:\/\//) &&
 	($institution_site ne 'http://')){
 		print "<b>$institution_field_name: </b> <a href=\"$institution_site\">";
 		print "$poster_institution</a>\n<br>\n";
@@ -4959,7 +4959,7 @@ HTML");
     <INPUT TYPE=hidden VALUE="$forum_owner"  NAME="forum_owner">
     <INPUT TYPE=hidden VALUE="$owner_code"  NAME="owner_code">
     <input type=hidden name="poster_name" value="$poster_name">
-    <input type=hidden name="poster_institution" 
+    <input type=hidden name="poster_institution"
 value="$poster_institution">
 	<input type=hidden name="subject" value="$subject">
     <input type=hidden name="institution_site" value="$institution_site">
@@ -4987,7 +4987,7 @@ value="$poster_institution">
     <INPUT TYPE=hidden VALUE="$forum_owner"  NAME="forum_owner">
     <INPUT TYPE=hidden VALUE="$owner_code"  NAME="owner_code">
    	<input type=hidden name="subject" value="$subject">
-    <input type=hidden name="poster_institution" 
+    <input type=hidden name="poster_institution"
 value="$poster_institution">
     <input type=hidden name="institution_site" value="$institution_site">
     <input type=hidden name="poster_email" value="$poster_email">
@@ -5000,7 +5000,7 @@ value="$poster_institution">
     <hr>
 
 EOH
-	
+
     &footer;
 }
 
@@ -5011,7 +5011,7 @@ sub edit_message_again {
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
 	}
-	
+
     local($formatted);
     $poster_name = $in{'poster_name'};
     $subject = $in{'subject'};
@@ -5025,9 +5025,9 @@ sub edit_message_again {
     $which_forum = $in{'which_forum'};
     $which_topic = $in{'which_topic'};
     $which_reply = $in{'which_reply'};
-    
 
-    if ((!($poster_name)) || 
+
+    if ((!($poster_name)) ||
 	(!($message))) {
 
 	&doh("Required Fields missing");
@@ -5037,10 +5037,10 @@ sub edit_message_again {
 	}
     &check_hot_tamale($message);
 
-    if 
-(&block_html($poster_name,$poster_institution,$institution_site,$poster_email,$poster_site) 
+    if
+(&block_html($poster_name,$poster_institution,$institution_site,$poster_email,$poster_site)
 == 1){
-	&doh("Sorry, there appears to be HTML in a field that does not accept 
+	&doh("Sorry, there appears to be HTML in a field that does not accept
 HTML");
     }
 
@@ -5072,7 +5072,7 @@ sub change_message {
     $which_forum = $in{'which_forum'};
     $which_topic = $in{'which_topic'};
     $which_reply = $in{'which_reply'};
-    
+
 
     &decode($message);
 
@@ -5117,7 +5117,7 @@ sub change_message {
 
     # print the new message
 
-    if (($poster_site =~ /http:\/\//) && 
+    if (($poster_site =~ /http:\/\//) &&
 	($poster_site ne "http://")) {
 	print NEW "$poster_site_key$poster_site\n";
     }
@@ -5126,7 +5126,7 @@ sub change_message {
     if ($poster_email) {
 	print NEW "$poster_email_key$poster_email\n";
     }
-    if (($institution_site =~ /http:\/\//) && 
+    if (($institution_site =~ /http:\/\//) &&
 	($institution_site ne "http://")) {
 
 	print NEW "$institution_site_key$institution_site\n";
@@ -5138,7 +5138,7 @@ sub change_message {
     print NEW ($message_key, $message, "\n");
     print NEW ($separator, "\n");
 
-    # copy the following messages    
+    # copy the following messages
 
     while ( <OLD> ) {
 
@@ -5155,12 +5155,12 @@ sub change_message {
     rename ($new_file,$old_file);
 
     chmod 0777, $old_file;
-	
+
 	&check_toolbar;
-	
+
     unless ($httpheader) { print &http_header};
-	
-	if($which_reply){	
+
+	if($which_reply){
 		print "<Title>Reply $which_reply - Modified</title>";
 	}
 	else{
@@ -5169,7 +5169,7 @@ sub change_message {
     &header;
     if($which_reply){
     	print "<h2>Reply Changed</h2>";
-    	print "<HR>";	
+    	print "<HR>";
     	&admin_footer($owner_code_name, $id);
     	print "<HR>";
     	print "Reply: $which_reply, has been modified";
@@ -5187,7 +5187,7 @@ EOL
 	File modified: $old_file<BR>
 <HR>
 EOL
-	
+
     &footer;
 
 }
@@ -5199,7 +5199,7 @@ sub delete_message {
 	if((!($owner_code_name)) || (!($id))){
 		$owner_code_name = $in{'owner_code_name'};
 		$id = $in{'id'};
-	}	
+	}
 	&check_user($owner_code_name, $id);
     local($line, $formatted, $old_file, $new_file, $responses_file, $flag);
 
@@ -5214,11 +5214,11 @@ sub delete_message {
 
     &decode($message);
 
-    # open the topic database list    
+    # open the topic database list
     # Get message information from list file and store new info
-	
+
 	$topic_list = "$home_directory/$which_forum/topics/list";
-	
+
 	open (TOPIC, $topic_list) ||
 	&doh("Couldn\'t open topic file: $topic_list");
 	&lock(TOPIC);
@@ -5229,7 +5229,7 @@ sub delete_message {
 		$num_messages =~ s/\s//g;
 		$number =~ s/\s//g;
 		if($number == $which_topic)
-		{	
+		{
 			$m = $n;
 			if($which_reply){
 			 	$num_replies--;
@@ -5243,7 +5243,7 @@ sub delete_message {
 	}
 	close(TOPIC);
 	&unlock(TOPIC);
-	
+
 	open (TOPIC, ">$topic_list") ||
 	&doh("Couldn\'t open topic file: $topic_list");
 	&lock(TOPIC);
@@ -5265,11 +5265,11 @@ sub delete_message {
 		$new_file  = "$home_directory/$which_forum/responses/$which_topic.temp";
     }
 
-    open ( OLD, $old_file ) || &doh("Unable to open: $old_file"); 
+    open ( OLD, $old_file ) || &doh("Unable to open: $old_file");
     &lock(OLD);
     open ( NEW, ">$new_file" ) || &doh("Unable to create: $new_file");
 	&lock(NEW);
-	
+
     # read the first few messages
 
     $count = 1;
@@ -5292,7 +5292,7 @@ sub delete_message {
     }
 
 
-    # copy the following messages    
+    # copy the following messages
 
     while ( <OLD> ) {
 		$count++;
@@ -5326,7 +5326,7 @@ sub delete_message {
 	    	unlink($responses_file);
 		}
     }
-	
+
 	&check_toolbar;
 
     unless ($httpheader) { print &http_header};
@@ -5360,7 +5360,7 @@ EOJ
 		print "deleted as well\n";
     }
 	print "<HR>";
-		
+
     &footer;
 
 }
@@ -5385,7 +5385,7 @@ sub view_system_variables {
 	<h2>Edit System Configuration </h2>
 	These are the NetForum system variables. This form reads the
 	<b> sys_config </b> file located in the <b> lib</b> directory. If you
-	want to modify the values assigned to these variables, select 
+	want to modify the values assigned to these variables, select
 	"Edit System variables" from below, or use your favorite editor
 	to modify the sys_config file manually. <HR> <P>
 EOJ
@@ -5402,9 +5402,9 @@ EOJ
   </FORM>
 EOL
     print "</a>\n";
-	
-	
-	
+
+
+
     &footer;
 
 }
@@ -5427,8 +5427,8 @@ sub view_forum_variables {
 	<h3> NetForum Administration : Edit Site Configuration</h3><P>
 	<h2> Edit Global Forum Configuration </h2>
 	These are the NetForum forum variables. This form reads the
-	<b> forum_config </b> located inside the lib directory. 
-	If you want to modify the values assigned to these 
+	<b> forum_config </b> located inside the lib directory.
+	If you want to modify the values assigned to these
 	variables, select "Edit Forum variables" from below, or use your favorite editor
 	to modify the forum_config file manually. <HR> <P>
 EOJ
@@ -5446,19 +5446,19 @@ EOJ
     </FORM>
 EOL
     print "</a>\n";
-	 
-	
+
+
     &footer;
 
 }
 
-# This procedure formats the variables on the screen so that they look 
+# This procedure formats the variables on the screen so that they look
 # nicely. Read-only output.
 
 sub format_variables {
-	
-	local($j);	
-	
+
+	local($j);
+
 	for($j=0; $j < $config_line; $j++)
 	{
 		if($var_name[$j])
@@ -5469,7 +5469,7 @@ sub format_variables {
 }
 
 sub index_system_variables {
-	
+
 	print<<EOJ;
 	<CENTER>
 	<table>
@@ -5478,15 +5478,15 @@ sub index_system_variables {
 	<TR><TD><LI><A HREF="\#\$url ">\$url</A></LI></TD>
 	<TD><LI><A href="\#\$sendmail ">\$sendmail</A></LI></TD>
 	<TD><LI><A HREF="\#\$errorsto ">\$errorsto</A></LI></TD></TR>
-	
+
 	<TR><TD><LI><A HREF="\#\$base_url ">\$base_url</A></LI></TD>
 	<TD><LI><A href="\#\$docs">\$docs</A></LI></TD>
 	<TD><LI><A href="\#\$perl_path ">\$perl_path</A></LI></TD></TR>
-	
+
 	<TD><LI><a href="\#\$home_directory ">\$home_directory</A></LI></TD>
 	<TD><LI><A HREF="\#\$htdocs_path ">\$htdocs_path</A></LI></TD>
 	<TD><LI><A href="\#\$flock_exists ">\$flock_exists</A></Li></TD></TR>
-	
+
 	<TR>
 	<TD><LI><A HREF="\#\$cgi_required ">\$cgi_required</A></LI></TD>
 	<TD><LI><A HREF="\#\$allow_forum_config ">\$allow_forum_config</a></li></td>
@@ -5509,38 +5509,38 @@ sub index_forum_variables {
 	<TR><TD><LI><A HREF="\#\$image_border ">\$image_border</A></LI></TD>
 	<TD><LI><A HREF="\#\$gateway ">\$gateway</A></LI></TD>
 	<TD><LI><A HREF="\#\$preview_all ">\$preview_all</A></LI></TD></TR>
-	
+
 	<TR><TD><LI><A HREF="\#\$how_many_messages_expanded ">\$how_many_messages_expanded</A></LI></TD>
 	<TD><LI><A HREF="\#\$default_formatting ">\$default_formatting</A></LI></TD>
 	<TD><LI><A HREF="\#\$preview_topics ">\$preview_topics</A></LI></TD></TR>
-	
+
 	<TR><TD><LI><A HREF="\#\$how_many_messages_compressed ">\$how_many_messages_compressed</A></LI></TD>
 	<TD><LI><A HREF="\#\%format_types ">\%format_types</A></LI></TD>
 	<TD><LI><A HREF="\#\$preview_messages ">\$preview_messages</A></LI></TD></TR>
-	
+
 	<TR><TD><LI><A HREF="\#\$subject_only ">\$subect_only</A></LI></TD>
 	<TD><LI><A HREF="\#\$institution_required ">\$institution_required</A></LI></TD>
 	<TD><LI><A HREF="\#\$preview_replies ">\$preview_replies</A></LI></TD></TR>
-	
+
 	<TR><TD><LI><A HREF="\#\@no_no_tags ">\@no_no_tags</A></LI></TD>
-	<TD><LI><A HREF="\#\$nf_mail ">\$nf_mail</A></LI></TD>	
+	<TD><LI><A HREF="\#\$nf_mail ">\$nf_mail</A></LI></TD>
 	<TD><LI><A HREF="\#\$allow_replies ">\$allow_replies</a></li></TD>
 	</TR>
-	
+
 	<TR>
 	<TD><LI><A HREF="\#\$show_admin_button ">\$show_admin_button</A></LI></TD>
 	<TD><LI><A HREF="\#\$button_path ">\$button_path</A></LI></TD>
 	<TD><LI><A HREF="\#\$institution_field_name ">\$institution_field_name</a>
 	</LI></TD>
 	</TR>
-	
+
 	<TR>
 	<TD><LI><A HREF="\#\$email_messages_to_monitor ">\$email_messages_to_monitor
 	</A></LI></TD>
 	<TD></TD>
 	<TD></TD>
 	</TR>
-	
+
 	</UL>
 	</TABle>
 	</center>
@@ -5548,7 +5548,7 @@ sub index_forum_variables {
 EOJ
 }
 
-# This is the procedure that allows you to edit the config variables 
+# This is the procedure that allows you to edit the config variables
 # through the web page.
 
 sub edit_system_variables {
@@ -5560,7 +5560,7 @@ sub edit_system_variables {
 	}
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
     &read_variables("$home_directory/lib/sys_config");
     unless( $httpheader ) { print &http_header; }
 	print "<title>Edit System Configuration</title>";
@@ -5568,31 +5568,31 @@ sub edit_system_variables {
 	print<<EOJ;
 	<h3>NetForum Administration</h3> <P>
 	<h2> Edit System Configuration </h2>
-	These are the NetForum system configurable variables. These variables 
-	depend on your particular system. If they are not set correctly, NetForum won't 
-	work properly. If you have problems setting them up, ask your system administrator. 
-	<BR> Select "save" to save the values in the sys_config file or "Return to the 
+	These are the NetForum system configurable variables. These variables
+	depend on your particular system. If they are not set correctly, NetForum won't
+	work properly. If you have problems setting them up, ask your system administrator.
+	<BR> Select "save" to save the values in the sys_config file or "Return to the
 	admin page" to abandon any changes. You can also use your browser's "Back" capabilities
 	to move to the previous page. <P>
-	
+
 	<HR>
 EOJ
 	&admin_footer($owner_code_name, $id);
 	print "<HR>";
 	&index_system_variables();
-    
+
     print "<FORM ACTION=\"/$netforum_url/$post_system_variables\"";
     print " METHOD=POST>\n";
 
 	for($j=0; $j < $config_line; $j++)
 	{
-			
+
 		if($var_name[$j] =~ /\burl/)
-		{	
+		{
 			$text = "Set this variable to the full URL of your site \
 			(i.e., http://www.biostat.wisc.edu). Do NOT place a trailing \
 			slash (/)";
-				
+
 			&text_box($var_name[$j], $text, $var_val[$j], 60);
 		}
 		elsif($var_name[$j] =~ /base_url/)
@@ -5607,7 +5607,7 @@ EOJ
 		{
 			$text=" This is the full system path to the \"netforum\" directory \
 			you received (i.e., /export/home/httpd/cgi-bin/netforum). Place a \
-			leading slash, but NO trailing slash.";			
+			leading slash, but NO trailing slash.";
 
 			&text_box($var_name[$j], $text, $var_val[$j], 60);
 		}
@@ -5619,10 +5619,10 @@ EOJ
 		}
 		elsif($var_name[$j] =~ /sendmail/)
 		{
-			$text="Set this variable to the full system path your mail program \ 
+			$text="Set this variable to the full system path your mail program \
 			(i.e., /usr/lib/sendmail -t -n). NetForum will pipe text to \
 			it when sending e-mail.";
-			
+
 			&text_box($var_name[$j], $text, $var_val[$j], 60);
 		}
 		elsif($var_name[$j] =~ /docs$/)
@@ -5650,7 +5650,7 @@ EOJ
 			occur will be e-mailed to. This text will be placed in the\
 			\"Errors-To:\" email header. You need to place a back slash (\\)
 			before the \@ sign (i.e., siman\@biostat.wisc.edu)";
-			&text_box($var_name[$j], $text, $var_val[$j], 60);	
+			&text_box($var_name[$j], $text, $var_val[$j], 60);
 		}
 		elsif($var_name[$j] =~ /perl_path/)
 		{
@@ -5680,30 +5680,30 @@ EOJ
 			directory (i.e., /home/www/httpd/htdocs) do not place a \
 			traling slash (i.e., a \"/\" at the end)";
 			&text_box($var_name[$j], $text, $var_val[$j], 60);
-		}	
-	}		
+		}
+	}
 	print<<EOL;
 	<P>
 	<HR>
 	Before saving, please verify that all the variables that appear
-	on the index are actually in this form.  For some reason, 
+	on the index are actually in this form.  For some reason,
 	a few browsers do not load all the variables in their respective
 	table. Also check that all variables have a value according to
 	their description. <BR>
 	<HR>
 	<input type="hidden" name="owner_code_name" value="$owner_code_name">
 	<input type="hidden" name="id" value="$id">
-	<INPUT TYPE="submit" Value="Save"> 
+	<INPUT TYPE="submit" Value="Save">
 	<INPUT TYPE="reset" Value="Reset"> <BR>
     </FORM>
     <HR>
 EOL
 	&admin_footer($owner_code_name, $id);
     &footer;
-}	
+}
 
 sub edit_forum_variables {
-	
+
 	($owner_code_name,$id) = @_;
 	if((!($owner_code_name)) || (!($id))){
 		$owner_code_name = $in{'owner_code_name'};
@@ -5712,7 +5712,7 @@ sub edit_forum_variables {
 
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
-	
+
 	if ($in{'forum_action'}){
 		$forum_code = $in{'forum_code'};
 		$forum_name = $in{'forum_name'};
@@ -5728,9 +5728,9 @@ sub edit_forum_variables {
 	&header;
 	print "<BODY>";
 	print "<h3>NetForum Administration</h3><P>";
-	if(!$forum_code){	
+	if(!$forum_code){
 		print "<h2> Edit Global Forum Configuration </h2>";
-		
+
 		print "These are the NetForum forum variables, they are used to change the ";
 		print "way forums look or behave.  Through this page you will be changing the default ";
 		print "values for all new forums when they are created.  Forum owners can change the ";
@@ -5755,17 +5755,17 @@ sub edit_forum_variables {
 		print "change the way the forum works and looks. Feel free to experiment ";
 		print "with them. <BR> \n";
 	}
-	
-	print<<EOL;	
-	Select "save" to save the values in the forum_config file or "Return to the 
-	admin page" to abandon any changes. You can also use your browser's "Back" 
-	capabilities to move to the previous page.\n<P>	
+
+	print<<EOL;
+	Select "save" to save the values in the forum_config file or "Return to the
+	admin page" to abandon any changes. You can also use your browser's "Back"
+	capabilities to move to the previous page.\n<P>
 EOL
 	print "<HR>";
 	&admin_footer($owner_code_name, $id);
 	print "<HR>";
 	&index_forum_variables();
-    
+
     print "<FORM ACTION=\"/$netforum_url/$post_forum_variables\"";
     print " METHOD=POST>\n";
 	print "<input type=\"hidden\" name=\"forum_code\" value=\"$forum_code\">";
@@ -5777,20 +5777,20 @@ EOL
 			$text .= " toolbar images when viewed by Netscape users. \n";
 
 			&text_box($var_name[$j], $text, $var_val[$j], 25);
-		}	
+		}
 		elsif($var_name[$j] =~ /gateway/)
 		{
 			$text="This text will bel placed in the \"X-Mail-Gateway:\" ";
 			$text .= "e-mail header.";
 			&text_box($var_name[$j], $text, $var_val[$j], 60);
-		}	
+		}
 		elsif($var_name[$j] =~ /how_many_messages_expanded/)
 		{
 			$text="NetForum allows you to view messages in \"expanded mode\" ";
 			$text .= " and in \"compressed mode\". Set this variable to the number of expanded ";
-			$text .= " messages you want displayed within a browser window (i.e., 5). If 
+			$text .= " messages you want displayed within a browser window (i.e., 5). If
 			 you set this number to <b>-1</b> ALL messages will be displayed. \n";
-		
+
 			&text_box($var_name[$j], $text, $var_val[$j], 25);
 		}
 		elsif($var_name[$j] =~ /how_many_messages_compressed/)
@@ -5799,7 +5799,7 @@ EOL
 			$text .= " and in \"compressed mode\". Set this variable to the number of compressed ";
 			$text .= " messages you want displayed within a browser window (i.e., 10). If ";
 			$text .= "you set this number to <b>-1</b> ALL messages will be displayed.\n";
-		
+
 			&text_box($var_name[$j], $text, $var_val[$j], 25);
 		}
 		elsif($var_name[$j] =~ /institution_required/)
@@ -5823,17 +5823,17 @@ EOL
 			<TABLE border=1>
 			<TR><TD><A NAME="$var_name[$j]"><B>$var_name[$j]</B></A></TD></TR>
 			<TR><TD>
-			This is the default formatting that all text will use.  Select 
+			This is the default formatting that all text will use.  Select
 			among the valid choices: 'html', 'pre', or 'translated'. </TD></TR>
 EOJ
 			if($var_val[$j] =~ /html/)
 			{
 				print<<EOJ;
 				<TR><TD>
-				<input type="radio" Name="$var_name[$j]" value="'html'" CHECKED> html 
+				<input type="radio" Name="$var_name[$j]" value="'html'" CHECKED> html
 				</TD></TR>
 				<TR><TD>
-				<input type="radio" Name="$var_name[$j]" value="'pre'"> pre 
+				<input type="radio" Name="$var_name[$j]" value="'pre'"> pre
 				</TD></TR>
 				<TR><TD>
 				<input type="radio" Name="$var_name[$j]" value="'translated'">
@@ -5845,10 +5845,10 @@ EOJ
 			{
 				print<<EOJ;
 				<TR><TD>
-				<input type="radio" Name="$var_name[$j]" value="'html'"> html 
+				<input type="radio" Name="$var_name[$j]" value="'html'"> html
 				</TD></TR>
 				<TR><TD>
-				<input type="radio" Name="$var_name[$j]" value="'pre'" CHECKED> pre 
+				<input type="radio" Name="$var_name[$j]" value="'pre'" CHECKED> pre
 				</TD></TR>
 				<TR><TD>
 				<input type="radio" Name="$var_name[$j]" value="'translated'">
@@ -5860,10 +5860,10 @@ EOJ
 			{
 				print<<EOJ;
 				<TR><TD>
-				<input type="radio" Name="$var_name[$j]" value="'html'"> html 
+				<input type="radio" Name="$var_name[$j]" value="'html'"> html
 				</TD></TR>
 				<TR><TD>
-				<input type="radio" Name="$var_name[$j]" value="'pre'"> pre 
+				<input type="radio" Name="$var_name[$j]" value="'pre'"> pre
 				</TD></TR>
 				<TR><TD>
 				<input type="radio" Name="$var_name[$j]" value="'translated'" CHECKED>
@@ -5898,13 +5898,13 @@ EOJ
 			$text .= "before they are posted\/saved. Set this variable \"off\" if you want to skip preview ";
 			$text .= " pages. If you set this variable \"off\" it will turn off ALL previews below. \n";
 			$text .= "If you turn it \"on\" you will need to specify which previews you want below. \n";
-			
+
 			&set_radio_but($var_name[$j], $text, $var_val[$j]);
 		}
 		elsif($var_name[$j] =~ /preview_topics/)
 		{
 			$text="Set this variable to \"off\" if you want to skip preview ";
-			$text .= " topics.";			
+			$text .= " topics.";
 			&set_radio_but($var_name[$j], $text, $var_val[$j]);
 		}
 		elsif($var_name[$j] =~ /preview_messages/)
@@ -5967,7 +5967,7 @@ EOJ
 		elsif($var_name[$j] =~ /button_path/)
 		{
 			$name = $var_name[$j];
-			$dir = "$htdocs_path$docs/gifs";	
+			$dir = "$htdocs_path$docs/gifs";
     		opendir(GIF, $dir) || &doh("Unable to open dir: $dir ");
     		@list = grep ( /button/, readdir(GIF));
     		foreach $d (@list){
@@ -6001,27 +6001,27 @@ EOJ
 					print "</TD></TR>\n";
 				}
     		}
-    		print "</TABLE>";		
+    		print "</TABLE>";
 		}
 	}
-	
+
 	print<<EOL;
 	<P>
 	<HR>
 	Before saving, please verify that all the variables that appear
-	on the index are actually in this form.  For some reason, 
+	on the index are actually in this form.  For some reason,
 	a few browsers do not load all the variables in their respective
 	table. Also check that all variables have a value according to
 	their description. <BR>\n
 	<HR>
 	<input type="hidden" name="owner_code_name" value="$owner_code_name">
 	<input type="hidden" name="id" value="$id">
-	<INPUT TYPE="submit" Value="Save"> 
+	<INPUT TYPE="submit" Value="Save">
 	<INPUT TYPE="reset" Value="Reset"> <BR>
     </FORM>
     <HR>
 EOL
-	
+
 	&admin_footer($owner_code_name, $id);
     &footer;
 }
@@ -6045,7 +6045,7 @@ EOJ
 }
 
 sub text_box {
-	
+
 	local($name, $text, $val, $size) = @_;
 	print "<P>";
 	print "<TABLE border=1><TR> \n";
@@ -6068,7 +6068,7 @@ EOJ
 	if($value)
 	{
 		print<<EOJ;
-		<TR><TD> <INPUT TYPE="radio" NAME="$name" VALUE="1" CHECKED> On 
+		<TR><TD> <INPUT TYPE="radio" NAME="$name" VALUE="1" CHECKED> On
 	 	<INPUT TYPE="radio" NAME="$name" VALUE="0"> Off </TD>
 		</TR></TABLE>
 EOJ
@@ -6076,7 +6076,7 @@ EOJ
 	else
 	{
 		print<<EOJ;
-		<TR><TD> <INPUT TYPE="radio" NAME="$name" VALUE="1"> On 
+		<TR><TD> <INPUT TYPE="radio" NAME="$name" VALUE="1"> On
 	 	<INPUT TYPE="radio" NAME="$name" VALUE="0" CHECKED> Off </TD>
 		</TR></TABLE>
 EOJ
@@ -6121,7 +6121,7 @@ sub set_format_types {
 # Working on it (need to change posting file when done)
 
 sub post_variables {
-	
+
 	($owner_code_name,$id) = @_;
 	if((!($owner_code_name)) || (!($id))){
 		$owner_code_name = $in{'owner_code_name'};
@@ -6130,9 +6130,9 @@ sub post_variables {
 	&check_user($owner_code_name, $id);
 	&check_toolbar;
 	local($forum_code, $config_file);
-	
+
 	$forum_code = $in{'forum_code'};
-	
+
 	unless( $httpheader ) { print &http_header; }
 	print "<title>Posted NetForum Variables</title>";
 	&header;
@@ -6146,7 +6146,7 @@ sub post_variables {
 		$config_file = "$home_directory/lib/sys_config";
 	}
 	elsif($which_command == $post_forum_variables)
-	{	
+	{
 		if($forum_code)
 		{
 			$config_file = "$home_directory/$forum_code/forum_config";
@@ -6159,8 +6159,8 @@ sub post_variables {
 	{
 		&doh("Invalid command: $which_command");
 	}
-	&read_variables("$config_file");	
-	
+	&read_variables("$config_file");
+
 	for($i=0; $i<$config_line; $i++)
 	{
 		$var_val[$i] = $in{$var_name[$i]};
@@ -6169,9 +6169,9 @@ sub post_variables {
 			&set_format_types();
 		}
 	}
-	
+
 	&save_variables("$config_file");
-	
+
 	&format_variables;
 	print "<HR>";
 	if($forum_code){
@@ -6183,8 +6183,8 @@ sub post_variables {
 		}
 		print "Go to forum $forum_code</a>";
 	}
-	
-	
+
+
     &footer;
 }
 
@@ -6192,7 +6192,7 @@ sub post_variables {
 sub save_variables {
 
 	local($variable_file) = @_;
-	
+
 	open (VARS, ">$variable_file") ||
 	&doh("Unable to open variable file: $variable_file");
 	&lock(VARS);
@@ -6200,7 +6200,7 @@ sub save_variables {
 	{
 		if($comment[$i] =~ /\w\b/)
 		{
-			
+
 			print VARS "\#$comment[$i]\n";
 		}
 		if($var_name[$i])
@@ -6253,17 +6253,17 @@ sub save_variables {
 sub read_variables {
 
     local($variable_file) = @_;
-    
+
     open ( VARS, $variable_file ) ||
 	&doh("Unable to open variable file: $variable_file");
 	&lock(VARS);
-    while (<VARS>) 
-    { 
+    while (<VARS>)
+    {
 		if ( /^\#(.*)/ || /(^\s+\$)/ ){
 			$comment[$config_line] = $1;
-			$config_line++;		
-	    }			
-		elsif (/(\$.*)\s*=\s*[\"\']*([^\"\']*)[\"\']*;/ 
+			$config_line++;
+	    }
+		elsif (/(\$.*)\s*=\s*[\"\']*([^\"\']*)[\"\']*;/
 		|| /(@.*)\s*=\s*[\(](.*)[\)];/ || /(\%.*)\s*=\s*([\(].*[\)]);/ )
 		{
 	    	$var_name[$config_line] = $1;

@@ -1,27 +1,27 @@
 ===from:Aarron Osterhaus
 ===date:Mon Jun 19 21:11:20 2000
-===subject:Roadkill 
+===subject:Roadkill
 ===message:might think of your choices.
 
-a wolf 3<BR> 
+a wolf 3<BR>
 
-a bullfrog8 <BR> 
+a bullfrog8 <BR>
 
-a chicken 8<BR> 
+a chicken 8<BR>
 
-Adolf Hitler 8<BR> 
+Adolf Hitler 8<BR>
 
-a person 1<BR> 
+a person 1<BR>
 
-a chimpanzee 2<BR> 
+a chimpanzee 2<BR>
 
-a red-tailed hawk 3<BR> 
+a red-tailed hawk 3<BR>
 
-a turtle 9<BR> 
+a turtle 9<BR>
 
-an endangered species of butterfly 10<BR> 
+an endangered species of butterfly 10<BR>
 
-a dog3<BR> 
+a dog3<BR>
 
 a deer 3<BR>
 Most of these are just a gut feeling for some reason I would feel worse when hitting and killing a larger animal then a smaller on. Hitting and killing a person would be the worst.
@@ -30,54 +30,54 @@ Most of these are just a gut feeling for some reason I would feel worse when hit
 ===from:Kathryn St.Croix
 ===date:Sat Jun 24 15:47:04 2000
 ===subject:Road Kill
-===message:a wolf 3<BR> 
+===message:a wolf 3<BR>
 
-a bullfrog 9<BR> 
+a bullfrog 9<BR>
 
-a chicken 7<BR> 
+a chicken 7<BR>
 
-Adolf Hitler 10 <BR> 
+Adolf Hitler 10 <BR>
 
-a person 1<BR> 
+a person 1<BR>
 
-a chimpanzee 2<BR> 
+a chimpanzee 2<BR>
 
-a red-tailed hawk 3<BR> 
+a red-tailed hawk 3<BR>
 
-a turtle 4<BR> 
+a turtle 4<BR>
 
-an endangered species of butterfly 6<BR> 
+an endangered species of butterfly 6<BR>
 
-a dog 3<BR> 
+a dog 3<BR>
 
 a deer 4<BR>
 
-I think that I would probably be affected no matter what animal it is that I hit.  I rated the animals in a way that the more common animals like bullfogs and chickens didn't have as much of an affect on me.  I thought that the human were kind of in their own category and I let my personal feelings play in to those decisions. 
+I think that I would probably be affected no matter what animal it is that I hit.  I rated the animals in a way that the more common animals like bullfogs and chickens didn't have as much of an affect on me.  I thought that the human were kind of in their own category and I let my personal feelings play in to those decisions.
 
 =========yorg=========
 ===psite:http://www.lacey@iastate.edu
 ===from:Lacey Carter
 ===date:Sun Jun 25 13:03:55 2000
 ===subject:Homework #5 Road Kill Dilemma
-===message:a wolf  1 <BR> 
+===message:a wolf  1 <BR>
 
-a bullfrog 10 <BR> 
+a bullfrog 10 <BR>
 
-a chicken 5 <BR> 
+a chicken 5 <BR>
 
-Adolf Hitler 1 <BR> 
+Adolf Hitler 1 <BR>
 
-a person 1 <BR> 
+a person 1 <BR>
 
-a chimpanzee 1 <BR> 
+a chimpanzee 1 <BR>
 
-a red-tailed hawk 5 <BR> 
+a red-tailed hawk 5 <BR>
 
-a turtle 5 <BR> 
+a turtle 5 <BR>
 
-an endangered species of butterfly 8 <BR> 
+an endangered species of butterfly 8 <BR>
 
-a dog 1 <BR> 
+a dog 1 <BR>
 
 a deer 2 <BR>
 
@@ -106,27 +106,27 @@ deer  4  <BR>
 ===from:Bradlee Engh
 ===date:Tue Jun 27 19:05:31 2000
 ===subject:Road Kill
-===message:4 a wolf <BR> 
+===message:4 a wolf <BR>
 
 10 a bullfrog <BR>
 
-7 a chicken <BR> 
+7 a chicken <BR>
 
-1 Adolf Hitler <BR> 
+1 Adolf Hitler <BR>
 
-1 a person <BR> 
+1 a person <BR>
 
-3 a chimpanzee <BR> 
+3 a chimpanzee <BR>
 
-5 a red-tailed hawk <BR> 
+5 a red-tailed hawk <BR>
 
-5 a turtle <BR> 
+5 a turtle <BR>
 
-10 an endangered species of butterfly <BR> 
+10 an endangered species of butterfly <BR>
 
-3 a dog <BR> 
+3 a dog <BR>
 
-5 a deer <BR> 
+5 a deer <BR>
 <BR>
 I would feel worst about killing a human because they are "one of us" and I can relate to them easier than anything else.  Who the person is or what they have done good or bad would not change the way I feel about killing a individual.  Dogs rank high in devistation also because of the relationships I have had with my dogs and I know how bad someone else would feel if I killed there dog.  More commonly killed species such as butterflies and bullfrogs don't have a big effect because running over them in a truck is excepted as a normal occurance.
 =========yorg=========
@@ -134,16 +134,16 @@ I would feel worst about killing a human because they are "one of us" and I can 
 ===email:deserttraveler@msn.com
 ===date:Thu Jun 29  6:37:12 2000
 ===subject:Road Kill Dilemma
-===message:a wolf 4<BR> 
-a bullfrog 10 <BR> 
-a chicken 9<BR> 
-Adolf Hitler 9<BR> 
-a person 1<BR> 
-a chimpanzee 3<BR> 
-a red-tailed hawk 7<BR> 
-a turtle 7<BR> 
-an endangered species of butterfly 7<BR> 
-a dog  2<BR> 
+===message:a wolf 4<BR>
+a bullfrog 10 <BR>
+a chicken 9<BR>
+Adolf Hitler 9<BR>
+a person 1<BR>
+a chimpanzee 3<BR>
+a red-tailed hawk 7<BR>
+a turtle 7<BR>
+an endangered species of butterfly 7<BR>
+a dog  2<BR>
 a deer  8<BR>
 
 =========yorg=========
@@ -155,15 +155,15 @@ a deer  8<BR>
 Copy this worksheet to your word processing program and fill it out as described below. When you are done, highlight the list and copy it to your clipboard. Then get into ClassNet and click on the Discussion topic that says Road Kill Dilemma. Then hit the "new" button to add a message and paste the clipboard contents into the message. The reason you see <BR> on each line is because this is an HTML tag which will put each of your responses on a separate line instead of running them all together. Put your score before this tag. The Discussion topic will also give you some further instructions. Do the scoring FIRST before you check out the Discussion topic.
 You are driving down a narrow road with a steep cliff on each side. You see something in the middle of the road which you cannot avoid hitting and killing. Score each of the following list of possible road kills in terms of how badly you would feel after killing them (from 1 = devastated to 10 = barely notice). Assume equal damage to your car and instant death of victim in all cases. Go with your gut feeling, be honest, and don't worry about what other people might think of your choices.
 a wolf <BR> 1
-a bullfrog <BR>1 
-a chicken <BR>1 
+a bullfrog <BR>1
+a chicken <BR>1
 Adolf Hitler <BR> 9
-a person <BR>1 
+a person <BR>1
 a chimpanzee <BR> 1
 a red-tailed hawk <BR> 1
-a turtle <BR>1 
-an endangered species of butterfly <BR>1 
-a dog <BR>1 
+a turtle <BR>1
+an endangered species of butterfly <BR>1
+a dog <BR>1
 a deer <BR>1
 Copyright © 1995-2000, Project BIO
 Iowa State University, Ames, Iowa. All rights reserved
@@ -190,16 +190,16 @@ DEER          7*
 ===from:Robert Nichols
 ===date:Tue Jul 11 16:23:09 2000
 ===subject:Homework 5
-===message:a wolf 4<BR> 
-a bullfrog 8<BR> 
-a chicken 7<BR> 
-Adolf Hitler 7<BR> 
-a person 1<BR> 
-a chimpanzee 3<BR> 
-a red-tailed hawk 6<BR> 
-a turtle 6<BR> 
-an endangered species of butterfly 9<BR> 
-a dog 3<BR> 
+===message:a wolf 4<BR>
+a bullfrog 8<BR>
+a chicken 7<BR>
+Adolf Hitler 7<BR>
+a person 1<BR>
+a chimpanzee 3<BR>
+a red-tailed hawk 6<BR>
+a turtle 6<BR>
+an endangered species of butterfly 9<BR>
+a dog 3<BR>
 a deer 4<BR>
 
 =========yorg=========
@@ -243,10 +243,10 @@ a turtle- 4
 an endangered species of butterfly- 4
 a dog- 1
 a deer- 1
-I would feel devasted if I killed pretty much anything, 
-although I may feel more devastated over killing some things 
-over others.  I know that some things in the road you cannot 
-see, but it is still very sad to see something dead laying 
+I would feel devasted if I killed pretty much anything,
+although I may feel more devastated over killing some things
+over others.  I know that some things in the road you cannot
+see, but it is still very sad to see something dead laying
 in the roa
 =========yorg=========
 ===psite:http://www.public.iastate.edu/~drussell/310/310.html
@@ -269,16 +269,16 @@ a deer :2
 ===from:Sara Widener
 ===date:Wed Jul 19 16:37:29 2000
 ===subject:Homework #5- Road Kill
-===message:a wolf  4 <BR>  
-a bullfrog  7 <BR> 
-a chicken 7  <BR> 
-Adolf Hitler  7 <BR> 
-a person  1 <BR>  
-a chimpanzee 3  <BR> 
-a red-tailed hawk  5 <BR>  
-a turtle 6  <BR> 
-an endangered species of butterfly  8 <BR> 
-a dog 2  <BR>  
+===message:a wolf  4 <BR>
+a bullfrog  7 <BR>
+a chicken 7  <BR>
+Adolf Hitler  7 <BR>
+a person  1 <BR>
+a chimpanzee 3  <BR>
+a red-tailed hawk  5 <BR>
+a turtle 6  <BR>
+an endangered species of butterfly  8 <BR>
+a dog 2  <BR>
 a deer  3 <BR>
 
 I would obviously feel the worst about hitting a person.  At the risk of sounding heartless, since we are assuming the person died, I would also be really worried about getting charged with something like invluntary manslaughter.  That's a risk you don't have to worry about if you kill a butterfly.  <BR>
@@ -325,7 +325,7 @@ just my gut feeling on these, I really couldn't explain
 ===from:Chris Slania
 ===date:Wed Jul 26 19:47:39 2000
 ===subject:#5 R-Kill
-===message:wolf  3,     
+===message:wolf  3,
 
 bullfrog  8,
 
@@ -350,53 +350,53 @@ deer  3,
 ===from:Eppert, Michelle
 ===date:Thu Jul 27 12:21:29 2000
 ===subject:Road Kill Dilemma
-===message:a wolf 5<BR> 
+===message:a wolf 5<BR>
 
-a bullfrog 10<BR> 
+a bullfrog 10<BR>
 
-a chicken 10<BR> 
+a chicken 10<BR>
 
-Adolf Hitler 1<BR> 
+Adolf Hitler 1<BR>
 
-a person 1<BR> 
+a person 1<BR>
 
-a chimpanzee 2<BR> 
+a chimpanzee 2<BR>
 
-a red-tailed hawk 8<BR> 
+a red-tailed hawk 8<BR>
 
-a turtle 4<BR> 
+a turtle 4<BR>
 
-an endangered species of butterfly 8<BR> 
+an endangered species of butterfly 8<BR>
 
-a dog 3<BR> 
+a dog 3<BR>
 
 a deer 3<BR>
 =========yorg=========
 ===from:Eppert, Michelle
 ===date:Thu Jul 27 12:37:09 2000
 ===subject:Road Kill Dilemma Justification
-===message:a wolf 5<BR> 
+===message:a wolf 5<BR>
 
-a bullfrog 10<BR> 
+a bullfrog 10<BR>
 
-a chicken 10<BR> 
+a chicken 10<BR>
 
-Adolf Hitler 1<BR> 
+Adolf Hitler 1<BR>
 
-a person 1<BR> 
+a person 1<BR>
 
-a chimpanzee 2<BR> 
+a chimpanzee 2<BR>
 
-a red-tailed hawk 8<BR> 
+a red-tailed hawk 8<BR>
 
-a turtle 4<BR> 
+a turtle 4<BR>
 
-an endangered species of butterfly 8<BR> 
+an endangered species of butterfly 8<BR>
 
-a dog 3<BR> 
+a dog 3<BR>
 
 a deer 3<BR>
-Mostly gut reactions.  I would be devastated  even if I hit Adolf Hitler because 1) he is human, 2)some of the historical accounts I have read indicate that he was mentally ill and in American we don't execute insane people, and, 3) although it was his idea, he didn't murder 5 million people all by himself.   
+Mostly gut reactions.  I would be devastated  even if I hit Adolf Hitler because 1) he is human, 2)some of the historical accounts I have read indicate that he was mentally ill and in American we don't execute insane people, and, 3) although it was his idea, he didn't murder 5 million people all by himself.
 
 I'm sure someone loved him in his lifetime, even Hitler had a mother.
 =========yorg=========
@@ -404,16 +404,16 @@ I'm sure someone loved him in his lifetime, even Hitler had a mother.
 ===email:archiersp@hotmail.com
 ===date:Thu Jul 27 14:01:10 2000
 ===subject:Roadkill Dilema
-===message:a wolf 1<BR> 
-a bullfrog 4<BR> 
-a chicken 3<BR> 
-Adolf Hitler 8<BR> 
-a person 1<BR> 
-a chimpanzee 1<BR> 
-a red-tailed hawk 1<BR> 
-a turtle 3<BR> 
-an endangered species of butterfly 5<BR> 
-a dog 1<BR> 
+===message:a wolf 1<BR>
+a bullfrog 4<BR>
+a chicken 3<BR>
+Adolf Hitler 8<BR>
+a person 1<BR>
+a chimpanzee 1<BR>
+a red-tailed hawk 1<BR>
+a turtle 3<BR>
+an endangered species of butterfly 5<BR>
+a dog 1<BR>
 a deer 1<BR>
 
 Basically I would feel pretty devastated about hitting most things.  Obviously things like insects are unavoidable, so I don't usually feel bad when I hit a fly, but anything larger (except cockroaches) I would feel very upset about killing.  I don't even like killing spiders in the bathroom.  With a chicken, turtle, or a bullfrog I think I would get over it sooner.  With the butterfly, I think once I realized it was endangered I would feel upset about its death.  I don't think the Hitler question is quite fair because on the one hand I don't think we have the right to kill even complete bastards but on the other hand I would probably enjoy running him over, if it was unavoidable.
@@ -421,15 +421,15 @@ Basically I would feel pretty devastated about hitting most things.  Obviously t
 ===from:Jennifer Ducey
 ===date:Tue Aug  1 19:11:40 2000
 ===subject:roadkill discussion
-===message:a wolf <BR>  2 
-a bullfrog <BR>2 
+===message:a wolf <BR>  2
+a bullfrog <BR>2
 a chicken <BR> 2
-Adolf Hitler <BR>2 
+Adolf Hitler <BR>2
 a person <BR> 1
-a chimpanzee <BR>2 
-a red-tailed hawk <BR>2 
+a chimpanzee <BR>2
+a red-tailed hawk <BR>2
 a turtle <BR> 2
-an endangered species of butterfly <BR>2 
+an endangered species of butterfly <BR>2
 a dog <BR> 2
 a deer <BR>2
 =========yorg=========
@@ -437,23 +437,23 @@ a deer <BR>2
 ===email:jlharris@iastate.edu
 ===date:Tue Aug  1 19:44:31 2000
 ===subject:Road Kill!!! HW5
-===message:a wolf  8<BR> 
+===message:a wolf  8<BR>
 
-a bullfrog   9<BR> 
+a bullfrog   9<BR>
 
-a chicken  5 <BR> 
+a chicken  5 <BR>
 
-Adolf Hitler  10<BR> 
+Adolf Hitler  10<BR>
 
-a person  1<BR> 
+a person  1<BR>
 
-a chimpanzee  3<BR> 
+a chimpanzee  3<BR>
 
-a red-tailed hawk   7<BR> 
+a red-tailed hawk   7<BR>
 
-a turtle    7<BR> 
+a turtle    7<BR>
 
-an endangered species of butterfly  8<BR> 
+an endangered species of butterfly  8<BR>
 
 a dog  2<BR>
 
@@ -466,19 +466,19 @@ Most of the things on the list wouldn't make me feel too bad.  Yeah, I probably 
 ===subject:Road Kill
 ===message:
 
-a wolf 6<BR> 
-a bullfrog 9<BR> 
-a chicken 8<BR> 
-Adolf Hitler 6<BR> 
-a person 2<BR> 
-a chimpanzee 4<BR> 
-a red-tailed hawk 4<BR> 
-a turtle 6<BR> 
-an endangered species of butterfly 5<BR> 
-a dog 3<BR> 
+a wolf 6<BR>
+a bullfrog 9<BR>
+a chicken 8<BR>
+Adolf Hitler 6<BR>
+a person 2<BR>
+a chimpanzee 4<BR>
+a red-tailed hawk 4<BR>
+a turtle 6<BR>
+an endangered species of butterfly 5<BR>
+a dog 3<BR>
 a deer 5<BR>
 
-i really don't have any reasons-they are just gut 
+i really don't have any reasons-they are just gut
 instincts-i just like some animals more than others
 derek s
 =========yorg=========
@@ -501,16 +501,16 @@ deer 9
 ===email:stevensonsally@hotmail.com
 ===date:Thu Aug  3 23:58:07 2000
 ===subject:road kill
-===message:a wolf 10<BR> 
-a bullfrog 10<BR> 
-a chicken 10<BR> 
-Adolf Hitler 10<BR> 
-a person 10<BR> 
-a chimpanzee 10<BR> 
-a red-tailed hawk 10<BR> 
-a turtle 10<BR> 
-an endangered species of butterfly 10<BR> 
-a dog10 <BR> 
+===message:a wolf 10<BR>
+a bullfrog 10<BR>
+a chicken 10<BR>
+Adolf Hitler 10<BR>
+a person 10<BR>
+a chimpanzee 10<BR>
+a red-tailed hawk 10<BR>
+a turtle 10<BR>
+an endangered species of butterfly 10<BR>
+a dog10 <BR>
 a deer 10<BR>
 Copyright © 1995-2000, Project BIO
 Iowa State University, Ames, Iowa. All rights reserved
@@ -533,25 +533,25 @@ You are driving down a narrow road with a steep cliff on each side. You see some
 each of the following list of possible road kills in terms of how badly you would feel after killing them (from 1 = devastated to 10 = barely notice). Assume equal
 damage to your car and instant death of victim in all cases. Go with your gut feeling, be honest, and don't worry about what other people might think of your choices.
 
-a wolf  1<BR> 
+a wolf  1<BR>
 
-a bullfrog  5<BR> 
+a bullfrog  5<BR>
 
-a chicken 3<BR> 
+a chicken 3<BR>
 
-Adolf Hitler 10<BR> 
+Adolf Hitler 10<BR>
 
-a person 1<BR> 
+a person 1<BR>
 
-a chimpanzee 1<BR> 
+a chimpanzee 1<BR>
 
-a red-tailed hawk 1<BR> 
+a red-tailed hawk 1<BR>
 
-a turtle 3<BR> 
+a turtle 3<BR>
 
-an endangered species of butterfly1 <BR> 
+an endangered species of butterfly1 <BR>
 
-a dog 1<BR> 
+a dog 1<BR>
 
 a deer1 <BR>
 Copyright © 1995-2000, Project BIO
@@ -563,9 +563,9 @@ Last Modified August 02, 1998
 ===date:Fri Aug 18 12:00:31 2000
 ===subject:RoadKill dilema
 ===message:2
-a wolf <BR> 
+a wolf <BR>
 5
-a bullfrog <BR>  
+a bullfrog <BR>
 2
 a chicken <BR>
 7

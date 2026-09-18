@@ -26,15 +26,15 @@ require DIALOG;
 =over 4
 
 =item Description
-Create a new CLASS object 
+Create a new CLASS object
 
 =item Params
-$cls_name: Unmodified class name 
+$cls_name: Unmodified class name
 
 =item Instance Variables
 
 $self->{'Name'}: Unmodified class name. It is not escaped,
-not converted to upper case, and does not have leading or 
+not converted to upper case, and does not have leading or
 trailing blanks removed.
 
 $self->{'Disk Name'}: Modified class name
@@ -42,13 +42,13 @@ $self->{'Disk Name'}: Modified class name
 $self->{'Root Dir'}: Class root directory
 (e.g. /local/classnet/data/class_name).
 
-$self->{'Enroll Opt'}: Set to 'auto' for automatic 
+$self->{'Enroll Opt'}: Set to 'auto' for automatic
 enrollment or to 'controlled' for controlled enrollment
 
 $self->{'Expiration Month'}: Month Year
 
 =item Returns
-CLASS object 
+CLASS object
 
 =back
 
@@ -78,7 +78,7 @@ sub new {
 =over 4
 
 =item Description
-Does this class already exists in the database? 
+Does this class already exists in the database?
 
 =item Returns
 BOOLEAN
@@ -98,7 +98,7 @@ sub exists {
 =over 4
 
 =item Description
-Get class registration options in the receiver object: 
+Get class registration options in the receiver object:
 'Verify Enrollment' = 0(open),1(approval),2(closed)
 'Expiration Month' = Mon Year
 'ShowComm' = yes,no
@@ -112,7 +112,7 @@ sub get_reg_options {
    # Read options from reg_options file if it exists
    my $reg_opt_file = "$self->{'Root Dir'}/admin/reg_options";
    if (-e $reg_opt_file) {
-       open(REG_OPT, "<$reg_opt_file") or 
+       open(REG_OPT, "<$reg_opt_file") or
        	   ERROR::system_error("CLASS","get_reg_options","Open",$reg_opt_file);
        flock(REG_OPT, $LOCK_EX);
        while (<REG_OPT>) {
@@ -131,7 +131,7 @@ sub get_reg_options {
 =over 4
 
 =item Description
-Set class registration options in admin/options file: 
+Set class registration options in admin/options file:
 $enroll = 'Verify Enrollment' = 0(open),1(approval),2(closed)
 $month  = 'Expiration Month' = Mon Year
 $showcomm = 'ShowComm' = yes,no
@@ -143,7 +143,7 @@ sub set_reg_options {
    my ($self, $enroll,$month,$showcomm) = @_;
    # Set options in admin/reg_options;
    my $fname = "$self->{'Root Dir'}/admin/reg_options";
-   open(REG_OPT, ">$fname") or 
+   open(REG_OPT, ">$fname") or
        ERROR::system_error("INSTRUCTOR","set_reg_options","Open",$fname);
    flock(REG_OPT, $LOCK_EX);
    print REG_OPT "Verify Enrollment=$enroll\n";
@@ -161,7 +161,7 @@ sub set_reg_options {
 =over 4
 
 =item Description
-Creates the class directory structure 
+Creates the class directory structure
 
 =back
 
@@ -176,7 +176,7 @@ sub create_dir_structure {
    chdir($self->{'Root Dir'});
    (mkdir('admin',0700) and mkdir('admin/members',0700) and mkdir('admin/member_lists',0700) and
     mkdir('admin/members/requests',0700) and mkdir('admin/members/instructors',0700) and
-    mkdir('admin/members/students',0700) and mkdir('assignments',0700) and mkdir('students',0700)) 
+    mkdir('admin/members/students',0700) and mkdir('assignments',0700) and mkdir('students',0700))
        or
    &ERROR::system_error("CLASS","create_dir_structure","mkdir2",$self->{'Name'});
 }
@@ -205,7 +205,7 @@ sub create_stud_dirs {
    mkdir($stud_root_dir,0700) or
       ERROR::system_error("CLASS","create_stud_dirs","mkdir root",$stud_root_dir);
    chdir($stud_root_dir);
-   (mkdir('graded',0700) and 
+   (mkdir('graded',0700) and
     mkdir('ungraded',0700) and
     mkdir('dialog',0700) and
     mkdir('java',0700)) or
@@ -232,7 +232,7 @@ sub add_to_classlist {
    my ($name) = @_;
    my @class_names = list();
    push (@class_names, $name);
-   open(CLASS_LIST, ">$GLOBALS::CLASSNET_ROOT_DIR/class_list") or 
+   open(CLASS_LIST, ">$GLOBALS::CLASSNET_ROOT_DIR/class_list") or
        &ERROR::system_error("CLASS","create","open","class list");
    $, = "\n";
    print CLASS_LIST sort { uc($a) cmp uc($b)} @class_names;
@@ -262,8 +262,8 @@ sub remove_from_classlist {
 
    for ($i = 0; ( ($i < @class_list) and ($name ne $class_list[$i]) ); $i++) {}
    if ($i < @class_list) {
-       splice(@class_list,$i,1);   
-       open(CLASS_LIST, ">$GLOBALS::CLASSNET_ROOT_DIR/class_list") or 
+       splice(@class_list,$i,1);
+       open(CLASS_LIST, ">$GLOBALS::CLASSNET_ROOT_DIR/class_list") or
        	   &ERROR::system_error("CLASS","remove_from_class_list","Open",$mem_type);
        $, = "\n";
        print CLASS_LIST @class_list;
@@ -282,15 +282,15 @@ sub remove_from_classlist {
 Checks to see if the limit on the number of classes has been reached
 
 =item Params
-$query: CGI parsed form object 
+$query: CGI parsed form object
 
 =back
 
 =cut
 
 sub check_limit {
-   # Has the maximum number of classes been reached? 
-   opendir(CLASS_DIR,$GLOBALS::CLASSNET_ROOT_DIR);  
+   # Has the maximum number of classes been reached?
+   opendir(CLASS_DIR,$GLOBALS::CLASSNET_ROOT_DIR);
    # Don't include . or .. directories
    my $num_classes = grep(!/^\.\.?$/, readdir(CLASS_DIR));
    closedir(CLASS_DIR);
@@ -335,8 +335,8 @@ sub create {
 =over 4
 
 =item Description
-Get a member (instructor or student) of a class. If the 
-user designated by $uname is requesting enrollment or 
+Get a member (instructor or student) of a class. If the
+user designated by $uname is requesting enrollment or
 does not exist in the class, the script dies with an
 HTML error message returned. if $uname is not defined,
 then the Username is taken from $query.
@@ -379,12 +379,12 @@ sub get_member {
    my $mem_type = $self->mem_exists($disk_uname);
 
    if ($mem_type eq 'instructor') {
-       $mem = INSTRUCTOR->new($query, $self, $uname); 
+       $mem = INSTRUCTOR->new($query, $self, $uname);
    }
    elsif ($mem_type eq 'student') {
        $mem = STUDENT->new($query, $self, $uname);
        # Is a student attempting an instructor option?
-       if ( (defined $query->{'cn_option'}->[0]) and 
+       if ( (defined $query->{'cn_option'}->[0]) and
 		(index("inst",$query->{'cn_option'}->[0]) == 0)) {
        	       ERROR::user_error($ERROR::NOPERM);
        }
@@ -398,7 +398,7 @@ sub get_member {
 
    $mem->{'Member Type'} = $mem_type;
    $mem->{'Ticket'} = $tkt;
-   return $mem;  
+   return $mem;
 
 }
 
@@ -454,7 +454,7 @@ sub get_uname {
        my @members = $self->get_mem_names('instructor');
        push(@members,$self->get_mem_names('student'));
        foreach $member (@members) {
-           my $val = $self->get_email_addr($member); 
+           my $val = $self->get_email_addr($member);
            print EFILE "$val=$member\n";
        }
        flock(EFILE,UNLOCK);
@@ -597,7 +597,7 @@ sub add_to_mem_list {
    open(MEM_LIST, "<$fname");
    my @mem_names = <MEM_LIST>;
    push (@mem_names, @name_list);
-   open(MEM_LIST, ">$fname") or 
+   open(MEM_LIST, ">$fname") or
        	   &ERROR::system_error("CLASS","add_to_mem_list","Open list",$mem_type);
    flock(MEM_LIST,$LOCK_EX);
    chomp (@mem_names = sort @mem_names);
@@ -637,9 +637,9 @@ sub remove_from_mem_list {
    chomp @mem_list;
 
    for ($i = 0; ( ($i < @mem_list) and ($mem_name ne $mem_list[$i]) ); $i++) {}
-   splice(@mem_list,$i,1);   
-       	   
-   open(MEM_LIST, ">$fname") or 
+   splice(@mem_list,$i,1);
+
+   open(MEM_LIST, ">$fname") or
        	   &ERROR::system_error("CLASS","remove_from_mem_list","Open",$mem_type);
    $, = "\n";
    flock(MEM_LIST,$LOCK_EX);
@@ -778,7 +778,7 @@ sub expired {
     $cls_tot = $i + 12 * $year;
     $year = (localtime)[5] + 1900;
     $cur_tot = (localtime)[4] + 12 * $year;
-    return $cur_tot >= $cls_tot;  
+    return $cur_tot >= $cls_tot;
 }
 
 #########################################
@@ -801,7 +801,7 @@ none
 
 sub list {
     my $class = shift; # Handle method call - ignore class arg
-          
+
 open(CLASS_LIST, "<$GLOBALS::CLASSNET_ROOT_DIR/class_list") or
     &ERROR::system_error("CLASS","list","open",
                          "$GLOBALS::CLASSNET_ROOT_DIR/class_list");
@@ -847,7 +847,7 @@ sub member_menu {
 
     CN_UTILS::print_cn_header("Members");
 
-    print <<"FORM";   
+    print <<"FORM";
 <FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/membership>
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$self->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
@@ -857,7 +857,7 @@ FORM
     foreach $member (sort @members) {
         print qq|<OPTION> $member\n|;
     }
-       	       
+
     print <<"FORM";
 </SELECT>
 <P>
@@ -1020,7 +1020,7 @@ none
 
 sub print_gradebook {
     my ($self,$inst) = @_;
-    
+
     my @students = $self->get_mem_names('student');
     my $hasTable = CN_UTILS::hasTables();
     CN_UTILS::print_cn_header("Gradebook");
@@ -1060,16 +1060,16 @@ GRADEBOOK
     print <<"GRADEBOOK";
 <P>
 <H4>
-<INPUT TYPE=submit NAME=cn_option VALUE=Scores> 
-<INPUT TYPE=submit NAME=cn_option VALUE=Statistics> 
+<INPUT TYPE=submit NAME=cn_option VALUE=Scores>
+<INPUT TYPE=submit NAME=cn_option VALUE=Statistics>
 <INPUT TYPE=submit NAME=cn_option VALUE=Grade>
 <INPUT TYPE=submit NAME=cn_option VALUE=Ungrade>
 <INPUT TYPE=submit NAME=cn_option VALUE=Histogram>
 <INPUT TYPE=submit NAME=cn_option VALUE=Data>
-<BR> 
-<INPUT TYPE=submit NAME=cn_option VALUE=Edit> 
-<INPUT TYPE=submit NAME=cn_option VALUE=Delete> 
-<INPUT TYPE=submit NAME=cn_option VALUE=Add> 
+<BR>
+<INPUT TYPE=submit NAME=cn_option VALUE=Edit>
+<INPUT TYPE=submit NAME=cn_option VALUE=Delete>
+<INPUT TYPE=submit NAME=cn_option VALUE=Add>
 <BR>
 <INPUT TYPE=submit NAME=back VALUE="Instructor Menu">
 </CENTER>
@@ -1114,21 +1114,21 @@ sub print_login {
 </tr>
 </table>
 <CENTER><B><INPUT TYPE=submit Value=Login> <INPUT TYPE=reset></B>
-<P><a 
-href="$GLOBALS::SERVER_ROOT/help/get_login.html#password">Forget 
+<P><a
+href="$GLOBALS::SERVER_ROOT/help/get_login.html#password">Forget
 your Password?</a>
 </CENTER>
 </FORM>
 $GLOBALS::HR
 <CENTER><img SRC="$GLOBALS::SERVER_IMAGES/warning.gif" ALT="Warning">
-</CENTER>   
+</CENTER>
 <BLOCKQUOTE>
 To protect your personal information you should
 <B>Exit your Browser completely</B> when finished. See help for details.<BR>
-<b>All information viewed while using a ClassNet class is for class use and 
+<b>All information viewed while using a ClassNet class is for class use and
 may not be shared with individuals not enrolled in the class.<b>
-<BR>If your  name is not on the list, you need to 
-<a href="$GLOBALS::SECURE_SERVER_ROOT/cgi-bin/get_stud_reg_form">Join the 
+<BR>If your  name is not on the list, you need to
+<a href="$GLOBALS::SECURE_SERVER_ROOT/cgi-bin/get_stud_reg_form">Join the
 ClassNet class</a> before you can enter it.
 </BLOCKQUOTE>
 END_FORM
@@ -1168,18 +1168,18 @@ Step 1. Click on a class name<BR>
 Step 2. Click on Login<BR>
 <P>
 <B>First-time Options</B><BR>
-<B>Students:</B> <A 
-HREF="$GLOBALS::SECURE_SCRIPT_ROOT/get_stud_reg_form">Join a 
+<B>Students:</B> <A
+HREF="$GLOBALS::SECURE_SCRIPT_ROOT/get_stud_reg_form">Join a
 ClassNet class</A><BR>
-<B>Instructors:</B> <A 
-HREF="$GLOBALS::SECURE_SCRIPT_ROOT/get_class_reg_form">Create a 
+<B>Instructors:</B> <A
+HREF="$GLOBALS::SECURE_SCRIPT_ROOT/get_class_reg_form">Create a
 ClassNet class</A>
 </TD>
 <TD>
 <B>Classes</B><BR>
 <SELECT SIZE=8  NAME="Class Name">
 START_FORM
-   
+
     foreach $cls_name (@cls_files) {
        print qq|<OPTION> $cls_name\n|;
     }
@@ -1193,13 +1193,13 @@ START_FORM
 </TABLE>
 <HR SIZE="4">
 <CENTER>
-$GLOBALS::RED_BALL<A HREF="$GLOBALS::SERVER_ROOT/help/index.html">Help</A> 
+$GLOBALS::RED_BALL<A HREF="$GLOBALS::SERVER_ROOT/help/index.html">Help</A>
 $GLOBALS::RED_BALL<A HREF="$GLOBALS::MAIL">Questions?</A>
 $GLOBALS::RED_BALL<A HREF="$GLOBALS::SERVER_ROOT/credits.html">Credits</A>
 </CENTER>
 </FORM>
 END_FORM
-    
+
    CN_UTILS::print_cn_footer();
 }
 
@@ -1311,10 +1311,10 @@ sub send_edit_form {
 sub grade {
    my ($self,$stud_names,$asn_names) = @_;
 
-   (@{$stud_names} < 1) and 
-       ERROR::user_error($ERROR::NOSTUDNAMES);   
-   (@{$asn_names} < 1) and 
-       ERROR::user_error($ERROR::NOASNNAMES);   
+   (@{$stud_names} < 1) and
+       ERROR::user_error($ERROR::NOSTUDNAMES);
+   (@{$asn_names} < 1) and
+       ERROR::user_error($ERROR::NOASNNAMES);
 
    # Get class names and set up dummy student object
    my @snames = @{$stud_names};
@@ -1341,10 +1341,10 @@ sub grade {
 sub ungrade {
    my ($self,$stud_names,$asn_names) = @_;
 
-   (@{$stud_names} < 1) and 
-       ERROR::user_error($ERROR::NOSTUDNAMES);   
-   (@{$asn_names} < 1) and 
-       ERROR::user_error($ERROR::NOASNNAMES);   
+   (@{$stud_names} < 1) and
+       ERROR::user_error($ERROR::NOSTUDNAMES);
+   (@{$asn_names} < 1) and
+       ERROR::user_error($ERROR::NOASNNAMES);
 
    # Get class names and set up dummy student object
    foreach $asn_name (@{$asn_names}) {
@@ -1384,19 +1384,19 @@ sub view_scores {
    my @asn_files;
    my %asn_info = {};
 
-   (@{$stud_names} < 1) and 
-       ERROR::user_error($ERROR::NOSTUDNAMES);   
-   (@{$asn_names} < 1) and 
-       ERROR::user_error($ERROR::NOASNNAMES);   
+   (@{$stud_names} < 1) and
+       ERROR::user_error($ERROR::NOSTUDNAMES);
+   (@{$asn_names} < 1) and
+       ERROR::user_error($ERROR::NOASNNAMES);
 
-   # Grade ungraded assignments. 
+   # Grade ungraded assignments.
    foreach $sname (@{$stud_names}) {
        my $stud = $self->get_member("",$sname);
        foreach $aname (@{$asn_names}) {
            my $asn = $self->get_assignment("",$stud,$aname);
            $asn->grade_ungraded();
        }
-   } 
+   }
 
    # Get an associative array of assignment types
    foreach $asn_name (@{$asn_names}) {
@@ -1431,7 +1431,7 @@ sub view_scores {
        } else {
            printf("%15s(%s pts)",$asn_name,$pts);
        }
-       $tabstr .= "\t$asn_name($pts pts)"; 
+       $tabstr .= "\t$asn_name($pts pts)";
    }
    if ($hasTable) {
        print "<TR BGCOLOR='#FFFFFF'>\n";
@@ -1465,7 +1465,7 @@ sub view_scores {
            } else {
                $line .= sprintf("%15s","$scores[2]");
            }
-           $tabstr .= "\t$scores[2]"; 
+           $tabstr .= "\t$scores[2]";
        	   $tot_pts += $scores[1];
        	   $tot_pts_rec += $pts;
            $detail .= "$scores[0]\n";
@@ -1488,28 +1488,28 @@ sub view_scores {
    print "* = submitted but awaiting due date<BR>";
    print "? = requires instructor grading<BR>";
    print "# = non-scored evaluation or survey<BR>";
-   my $script = "gradebook";                                          
-   if ($inst->{'Member Type'} =~ /student/) {                         
-        $script = "student";                                          
-   }                                                                  
-   print <<"FORM";                                                    
-<FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/$script>               
-<INPUT TYPE=hidden NAME="Class Name" VALUE="$self->{'Name'}">         
-<INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">   
-<INPUT TYPE=hidden NAME=cn_option VALUE="Mail Table">                 
-<INPUT TYPE=hidden NAME=table VALUE="$tabstr">                        
-<CENTER>                                                              
-<img src="$GLOBALS::SERVER_IMAGES/new_tiny.gif"><P>       
-</CENTER>                                                             
-<BLOCKQUOTE>                                                          
-You may mail a text version of the summary table to yourself. Columns 
-will be separated by tabs making the file suitable for importing into 
-a spreadsheet.                                                        
-</BLOCKQUOTE>                                                         
-<P>                                                                   
-<CENTER>                                                              
-<INPUT TYPE=submit NAME=mailTable VALUE="Mail">                       
-</CENTER>                                                             
+   my $script = "gradebook";
+   if ($inst->{'Member Type'} =~ /student/) {
+        $script = "student";
+   }
+   print <<"FORM";
+<FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/$script>
+<INPUT TYPE=hidden NAME="Class Name" VALUE="$self->{'Name'}">
+<INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
+<INPUT TYPE=hidden NAME=cn_option VALUE="Mail Table">
+<INPUT TYPE=hidden NAME=table VALUE="$tabstr">
+<CENTER>
+<img src="$GLOBALS::SERVER_IMAGES/new_tiny.gif"><P>
+</CENTER>
+<BLOCKQUOTE>
+You may mail a text version of the summary table to yourself. Columns
+will be separated by tabs making the file suitable for importing into
+a spreadsheet.
+</BLOCKQUOTE>
+<P>
+<CENTER>
+<INPUT TYPE=submit NAME=mailTable VALUE="Mail">
+</CENTER>
 FORM
    print $detail;
    print "</BODY>\n</HTML>\n";
@@ -1562,10 +1562,10 @@ sub view_assignments {
    my @asn_files;
    my %asn_type;
 
-   (@{$stud_names} < 1) and 
-       ERROR::user_error($ERROR::NOSTUDNAMES);   
-   (@{$asn_names} < 1) and 
-       ERROR::user_error($ERROR::NOASNNAMES);   
+   (@{$stud_names} < 1) and
+       ERROR::user_error($ERROR::NOSTUDNAMES);
+   (@{$asn_names} < 1) and
+       ERROR::user_error($ERROR::NOASNNAMES);
 
    TEST->print_test_header("\u$op Assignments");
    print <<"HEAD";
@@ -1577,7 +1577,7 @@ Select assignments to $op:<BR>
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
 <INPUT TYPE=hidden NAME=cn_option VALUE="Submit \u$op Changes">
 HEAD
-   #  
+   #
    foreach $sname (@{$stud_names}) {
        print "<B>$sname</B><BR>\n";
        my $stud = $self->get_member("",$sname);
@@ -1640,7 +1640,7 @@ sub submit_add_changes {
 
 sub print_reg_options {
     my ($self,$inst) = @_;
-    
+
     my @ck = (undef,undef,undef);
     $ck[$self->{'Verify Enrollment'}] = 'CHECKED';
     my $expire = $self->{'Expiration Month'};
@@ -1651,7 +1651,7 @@ sub print_reg_options {
        $showcomm = "CHECKED";
     }
     CN_UTILS::print_cn_header("Class Options");
-    print <<"FORM";   
+    print <<"FORM";
 <FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/instructor>
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$self->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
@@ -1671,19 +1671,19 @@ for ($i= 0; $i < 12; $i++, $mon++) {
   my $date = "$monname[$mon] $year";
   if ($expire eq $date) {
     print "<OPTION SELECTED>$date\n";
-  } else {  
+  } else {
     print "<OPTION>$date\n";
   }
 }
 print <<"END_FORM";
-</SELECT> 
+</SELECT>
 <P>
-Enrollment: <INPUT TYPE=radio NAME='Verify Enrollment' VALUE=0 $ck[0]> Open 
+Enrollment: <INPUT TYPE=radio NAME='Verify Enrollment' VALUE=0 $ck[0]> Open
 <INPUT TYPE=radio NAME='Verify Enrollment' VALUE=1 $ck[1]> Approval
 <INPUT TYPE=radio NAME='Verify Enrollment' VALUE=2 $ck[2]> Closed
-<INPUT TYPE=check NAME='ShowComm' $showcomm> Show Communcation 
+<INPUT TYPE=check NAME='ShowComm' $showcomm> Show Communcation
 Options on Student Menu
- <h3>For Registered Iowa State University Classes 
+ <h3>For Registered Iowa State University Classes
 only</h3> </center>
 <p>
 <INPUT TYPE=check NAME='Enable update'>Enable automatic updating of class list<br>
@@ -1699,8 +1699,8 @@ Your ISU Card Number (9 digits):<INPUT TYPE=text VALUE="000000000" col=9><br>
 <CENTER>
 <P>
 <H4>
-<INPUT TYPE=submit NAME=save VALUE=Save> 
-<INPUT TYPE=reset> 
+<INPUT TYPE=submit NAME=save VALUE=Save>
+<INPUT TYPE=reset>
 <BR>
 <INPUT TYPE=submit NAME=memback VALUE="Instructor Menu">
 </H4>
@@ -1711,7 +1711,7 @@ END_FORM
 
 sub print_renewal {
     my ($self,$inst) = @_;
-    
+
    # Must be owner
    if ($inst->{'Priv'} ne 'owner') {
       ERROR::user_error($ERROR::NOPERM);
@@ -1738,7 +1738,7 @@ remain unchanged.
 <CENTER>
 <H4>
 <INPUT TYPE=submit Value=Renew>
-<BR> 
+<BR>
 <INPUT TYPE=submit name=memback VALUE="Members Menu">
 </H4>
 </CENTER>
@@ -1784,10 +1784,10 @@ sub histogram {
    my $asn_info = {};
 
    # produce histogram of scores across assignments
-   (@{$stud_names} < 1) and 
-       ERROR::user_error($ERROR::NOSTUDNAMES);   
-   (@{$asn_names} < 1) and 
-       ERROR::user_error($ERROR::NOASNNAMES);   
+   (@{$stud_names} < 1) and
+       ERROR::user_error($ERROR::NOSTUDNAMES);
+   (@{$asn_names} < 1) and
+       ERROR::user_error($ERROR::NOASNNAMES);
    # Get an associative array of assignment types
    foreach $asn_name (@{$asn_names}) {
        my $disk_name = CGI::escape($asn_name);
@@ -1819,7 +1819,7 @@ sub histogram {
    open(DATA,">$fname");
    my $max = 0;
    foreach $v (keys %tot) {
-       my $n = $tot{$v}; 
+       my $n = $tot{$v};
        print DATA "$v $n\n";
        ($n > $max) and $max = $n;
    }

@@ -65,7 +65,7 @@
 
 
 
-# version number 
+# version number
 $v = '2.0.2';
 
 $subject_key = "===subject:";
@@ -86,7 +86,7 @@ $salt = "JS";
 
 # this is a global command id -- the choice of 4 is an unfortunate feature
 # of rodgers code -- it doesnt really matter what it is as long as it
-# is unique 
+# is unique
 $mail_command = 4;
 
 $show_topics_command = 1;
@@ -197,13 +197,13 @@ $back_to_list_gif = "$button_path/list_mess.gif";
 $the_year = '1996';		# duh (this is no longer necessary but its
 				# a nice little legacy piece of code
 
-# the year will hopefully change to a ctime thing so we dont forget to 
+# the year will hopefully change to a ctime thing so we dont forget to
 # change it till windows 96 comes out ....
 
 
-@hot_tamale_tags = ('a', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'dl', 'ol', 'ul', 
-'menu', 'dir', 'b>', 'u>', 'i>', 's>', 'b ', 'u ', 'i ', 's ','sub', 'sup', 
-'tt', 'pre', 'strong', 'em', 'strike', 'blockquote', 
+@hot_tamale_tags = ('a', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'dl', 'ol', 'ul',
+'menu', 'dir', 'b>', 'u>', 'i>', 's>', 'b ', 'u ', 'i ', 's ','sub', 'sup',
+'tt', 'pre', 'strong', 'em', 'strike', 'blockquote',
 'samp', 'code', 'var', 'cite', 'dfn', 'address', 'center', 'div', 'table',
 'big', 'small', 'kbd', 'font', 'applet', 'map', 'form', 'script' );
 

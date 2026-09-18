@@ -17,7 +17,7 @@ sub new {
     if ($filehandle) {
         my($package) = caller;
         # force into caller's package if necessary
-        $IN = $filehandle=~/[':]/ ? $filehandle : "$package\:\:$filehandle"; 
+        $IN = $filehandle=~/[':]/ ? $filehandle : "$package\:\:$filehandle";
     }
     my $self = {};
     bless $self,$class;
@@ -56,8 +56,8 @@ sub initialize {
                 $query_string=join("&",@lines);
             } else {
                 $query_string=join("+",@lines);
-            }   
-    
+            }
+
             # If method is GET or HEAD, fetch the query from
             # the environment.
 
@@ -75,7 +75,7 @@ sub initialize {
                 $self->read_multipart($boundary,$ENV{'CONTENT_LENGTH'});
             } else {
                 $query_string ='';      # hack to avoid 'uninitialized variable' warnings
-                read(STDIN,$query_string,$ENV{'CONTENT_LENGTH'}) 
+                read(STDIN,$query_string,$ENV{'CONTENT_LENGTH'})
                     if $ENV{'CONTENT_LENGTH'} > 0;
             }
 
@@ -107,7 +107,7 @@ sub initialize {
             }
         }
     }
-    
+
     # We now have the query string in hand.  We do slightly
     # different things for keyword lists and parameter lists.
     if ($query_string) {
@@ -124,7 +124,7 @@ sub initialize {
     if ($self->param('.defaults')) {
         undef %{$self};
     }
-    
+
     # flag that we've been inited
     $self->{'.init'}++ if $self->param;
 
@@ -162,7 +162,7 @@ sub parse_params {
 
 sub add_parameter {
     my($self,$param)=@_;
-    push (@{$self->{'.parameters'}},$param) 
+    push (@{$self->{'.parameters'}},$param)
         unless defined($self->{$param});
 }
 
@@ -178,7 +178,7 @@ sub param {
     return $self->all_parameters unless @p;
     my($name,$value,@other);
 
-    # For compatability between old calling style and use_named_parameters() style, 
+    # For compatability between old calling style and use_named_parameters() style,
     # we have to special case for a single parameter present.
     if (@p > 1) {
         ($name,$value,@other) = $self->rearrange([NAME,[DEFAULT,VALUE,VALUES]],@p);
@@ -215,10 +215,10 @@ sub rearrange {
         $param[$i]=~s/^\-//;     # get rid of initial - if present
         $param[$i]=~tr/a-z/A-Z/; # parameters are upper case
     }
-    
+
     my(%param) = @param;                # convert into associative array
     my(@return_array);
-    
+
     my($key);
     foreach $key (@$order) {
         my($value) = '';
@@ -338,7 +338,7 @@ sub save_request {
     foreach (@QUERY_PARAM) {
         $QUERY_PARAM{$_}=$self->{$_};
     }
-    
+
 }
 
 # unescape URL-encoded data
@@ -382,7 +382,7 @@ sub get_reg_options {
    # Read options from reg_options file if it exists
    my $reg_opt_file = "$self->{'Root Dir'}/admin/reg_options";
    if (-e $reg_opt_file) {
-       open(REG_OPT, "<$reg_opt_file") or 
+       open(REG_OPT, "<$reg_opt_file") or
            ERROR::system_error("CLASS","get_reg_options","Open",$reg_opt_file);
        flock(REG_OPT, $LOCK_EX);
        while (<REG_OPT>) {
@@ -419,22 +419,22 @@ sub print_login {
 </tr>
 </table>
 <CENTER><B><INPUT TYPE=submit Value=Login> <INPUT TYPE=reset></B>
-<P><a 
-href="$GLOBALS::SERVER_ROOT/help/get_login.html#password">Forget 
+<P><a
+href="$GLOBALS::SERVER_ROOT/help/get_login.html#password">Forget
 your Password?</a>
 </CENTER>
 </FORM>
 $GLOBALS::HR
 <CENTER><img SRC="$GLOBALS::SERVER_IMAGES/warning.gif" ALT="Warning">
-</CENTER>   
+</CENTER>
 <BLOCKQUOTE>
 To protect your personal information you should
 <B>Exit your Browser completely</B> when finished. See help for details.
-<BR><B>All information you view while using a ClassNet class is for 
-class use only and may not be shared with individuals outside the 
+<BR><B>All information you view while using a ClassNet class is for
+class use only and may not be shared with individuals outside the
 class.</b>
-<BR>If your name is not on the list, you need to 
-<a href="$GLOBALS::SECURE_SERVER_ROOT/cgi-bin/get_stud_reg_form">Join the 
+<BR>If your name is not on the list, you need to
+<a href="$GLOBALS::SECURE_SERVER_ROOT/cgi-bin/get_stud_reg_form">Join the
 ClassNet class</a> before you can enter it.
 </BLOCKQUOTE>
 END_FORM
@@ -460,7 +460,7 @@ sub get_mem_names {
        chomp (@mem_names = <MEM_LIST>);
        close(MEM_LIST);
    }
-   return @mem_names;   
+   return @mem_names;
 }
 
 sub get_member {
@@ -489,12 +489,12 @@ sub get_member {
    my $disk_uname = CN_UTILS::get_disk_name($uname);
    my $mem_type = $self->mem_exists($disk_uname);
    if ($mem_type eq 'instructor') {
-       $mem = INSTRUCTOR->new($query, $self, $uname); 
+       $mem = INSTRUCTOR->new($query, $self, $uname);
    }
    elsif ($mem_type eq 'student') {
        $mem = STUDENT->new($query, $self, $uname);
        # Is a student attempting an instructor option?
-       if ( (defined $query->{'cn_option'}->[0]) and 
+       if ( (defined $query->{'cn_option'}->[0]) and
 		(index("inst",$query->{'cn_option'}->[0]) == 0)) {
        	       &ERROR::user_error($ERROR::NOPERM);
        }
@@ -508,7 +508,7 @@ sub get_member {
 
    $mem->{'Member Type'} = $mem_type;
    $mem->{'Ticket'} = $tkt;
-   return $mem;  
+   return $mem;
 
 }
 
@@ -567,7 +567,7 @@ sub get_uname {
    my @req = $self->get_mem_names('requests');
    foreach $member (@req) {
        my $disk_uname = CN_UTILS::get_disk_name($member);
-       my $fname = "$self->{'Root Dir'}/admin/members/requests/$disk_uname"; 
+       my $fname = "$self->{'Root Dir'}/admin/members/requests/$disk_uname";
        open(REQ,"<$fname") or
            ERROR::user_error($ERROR::MEMBERNF,$uname);
        while (<REQ>) {
@@ -609,27 +609,27 @@ sub print_main_menu {
     CN_UTILS::print_cn_header("Main Menu");
 
     print <<"START_FORM";
-<FORM METHOD=POST 
+<FORM METHOD=POST
 ACTION="$GLOBALS::SCRIPT_ROOT/get_login">
 <INPUT TYPE=hidden NAME=cn_option VALUE="Get Login">
- <TABLE WIDTH=60%> 
+ <TABLE WIDTH=60%>
 <TR ALIGN="CENTER"> <TD ALIGN="LEFT"><B>Login Directions</B><BR>
 Step 1. Click on a class name<BR>
 Step 2. Click on Login<BR>
 <P>
 <B>First-time Options</B><BR>
-<B>Students:</B> <A 
-HREF="$GLOBALS::SECURE_SCRIPT_ROOT/get_stud_reg_form">Join a 
+<B>Students:</B> <A
+HREF="$GLOBALS::SECURE_SCRIPT_ROOT/get_stud_reg_form">Join a
 ClassNet class</A><BR>
-<B>Instructors:</B> <A 
-HREF="$GLOBALS::SECURE_SCRIPT_ROOT/get_class_reg_form">Create a 
+<B>Instructors:</B> <A
+HREF="$GLOBALS::SECURE_SCRIPT_ROOT/get_class_reg_form">Create a
 ClassNet class</A> </TD>
 </TD>
 <TD>
 <B>Classes</B><BR>
 <SELECT SIZE=20  NAME="Class Name">
 START_FORM
-   
+
     foreach $cls_name (@cls_files) {
        print qq|<OPTION> $cls_name\n|;
     }
@@ -643,7 +643,7 @@ START_FORM
 </TABLE>
 <HR SIZE="4">
 <CENTER>
-$GLOBALS::RED_BALL<A HREF="$GLOBALS::SERVER_ROOT/help/index.html">Help</A> 
+$GLOBALS::RED_BALL<A HREF="$GLOBALS::SERVER_ROOT/help/index.html">Help</A>
 $GLOBALS::RED_BALL<A HREF="$GLOBALS::MAIL">Questions?</A>
 $GLOBALS::RED_BALL<A HREF="$GLOBALS::SERVER_ROOT/credits.html">Credits</A>
 </CENTER>
@@ -654,7 +654,7 @@ END_FORM
 }
 
 sub list {
-          
+
 open(CLASS_LIST, "<$GLOBALS::CLASSNET_ROOT_DIR/class_list") or
     &ERROR::system_error("CLASS","list","open",
                          "$GLOBALS::CLASSNET_ROOT_DIR/class_list");
@@ -764,7 +764,7 @@ sub print_edit_info_form {
    my ($self, $cls, $mem) = @_;
 
    # Only owners can edit other instructors
-   if (($mem->{'Member Type'} =~ /instructor/) and 
+   if (($mem->{'Member Type'} =~ /instructor/) and
        ("$self->{'Username'}" ne "$mem->{'Username'}") and
        !($self->{'Priv'} =~ /owner/ || $self->{'Priv'} =~ /student/)) {
        ERROR::user_error($ERROR::NOPERM);
@@ -806,14 +806,14 @@ Verify New Password: <INPUT TYPE=password NAME="Verify New Password"></PRE><p>
 FORM
 
    # Is owner editing another instructor other than herself/himself
-   if (($self->{'Priv'} =~ /owner/) and 
-       ($self->{'Username'} ne $mem->{'Username'}) and  
+   if (($self->{'Priv'} =~ /owner/) and
+       ($self->{'Username'} ne $mem->{'Username'}) and
        ($mem->{'Member Type'} =~ /instructor/)) {
        my $chk_students = $mem->{'Priv'} =~ /student/ ? "CHECKED" : "";
        my $chk_assigns = $mem->{'Priv'} =~ /assignment/ ? "CHECKED" : "";
        print <<"FORM";
 <H3>Privileges</H3>
-<INPUT TYPE=checkbox NAME=Privileges VALUE=students $chk_students> Manage students 
+<INPUT TYPE=checkbox NAME=Privileges VALUE=students $chk_students> Manage students
 <INPUT TYPE=checkbox NAME=Privileges VALUE=assignments $chk_assigns> Manage assignments
 FORM
    } elsif ($mem->{'Member Type'} =~ /instructor/) {
@@ -822,7 +822,7 @@ FORM
 FORM
    }
    print <<"FORM";
-<P><CENTER><H4><INPUT TYPE=submit Value=Change> 
+<P><CENTER><H4><INPUT TYPE=submit Value=Change>
 <INPUT TYPE=reset Value=Reset>
 <BR>
 <INPUT TYPE=submit name=memback VALUE="$back_title">
@@ -839,22 +839,22 @@ sub change_info_file {
    my ($self, $query) = @_;
 
    # Verify passwords in the form -- if needed
-   $newpwd = $query->param('New Password'); 
+   $newpwd = $query->param('New Password');
    if ($newpwd) {
       if ($newpwd ne $query->param('Verify New Password')) {
        	 &ERROR::user_error($ERROR::PWDVERIFY);
       }
       if ($newpwd ne $self->{'Password'}) {
-         $self->{'Password'} = $newpwd;  
+         $self->{'Password'} = $newpwd;
       }
-   }    
+   }
 
    # Look for email; If blanked out, then do not change
    ($query->param('New Email Address')) and
        $self->{'Email Address'} = $query->param('New Email Address');
 
    # What about privileges?
-   
+
    if (($self->{'Priv'} =~ /owner/) or ($self->{'Member Type'} eq 'student')) {
        $priv_str = $self->{'Priv'};
    } else {
@@ -863,11 +863,11 @@ sub change_info_file {
    my $new_fname = "$self->{'Root Dir'}/admin/members/$self->{'Member Type'}s/$self->{'Disk Username'}.new";
    my $fname = "$self->{'Root Dir'}/admin/members/$self->{'Member Type'}s/$self->{'Disk Username'}";
 
-   open(MEM_FILE, ">$new_fname") or 
+   open(MEM_FILE, ">$new_fname") or
      &ERROR::system_error("MEMBER","change_info_file","Open",$new_fname);
    print MEM_FILE "Password=$self->{'Password'}\n";
    print MEM_FILE "Email Address=$self->{'Email Address'}\n";
-   print MEM_FILE "Priv=$priv_str\n" 
+   print MEM_FILE "Priv=$priv_str\n"
       if ($self->{'Member Type'} eq 'instructor');
    close(MEM_FILE) or
      &ERROR::system_error("MEMBER","change_info_file","Close",$new_fname);

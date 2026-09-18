@@ -42,22 +42,22 @@ if ($asn) {
     CN_UTILS::print_cn_header("Assignment?");
     print "Select an assignment name by clicking on a name in the Assignment Listbox.";
     CN_UTILS::print_cn_footer();
-    die;          
+    die;
 }
 
 # Perform the option
 $_ = $query->param('cn_option');
 SWITCH: {
-   /^Edit/	   &&  
+   /^Edit/	   &&
        do  {   # edit assignment
                $editor->open();
        	       last SWITCH;
        	   };
 
-   /^Command/	   &&  
+   /^Command/	   &&
        do  {   # edit assignment
                $editor->command();
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
    ERROR::user_error($ERROR::NOOPTION);

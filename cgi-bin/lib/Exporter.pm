@@ -72,7 +72,7 @@ sub export {
 		    if $Verbose;
 
 		if ($remove) {
-		   foreach $sym (@names) { delete $imports{$sym} } 
+		   foreach $sym (@names) { delete $imports{$sym} }
 		}
 		else {
 		    @imports{@names} = (1) x @names;

@@ -31,7 +31,7 @@ The "MCAS" Teens Give Each Other
 =========yorg=========
 ===from:Joseph Storr
 ===date:Tue Sep 23 23:39:45 2003
-===subject:CA: Advertisement Q1-2 9/23 
+===subject:CA: Advertisement Q1-2 9/23
 ===message:1. The strong emotional appeal in the ad is saying that the gas company doesn't care about innocent children. No, not from what the ad say anyway. Gas is an explosion hazard, and carbon dioxide is also bad, but neither of these is elluded to in this ad.
 <br>
 2. I wouldn't look at an ad from an opposing company. This oil company has a vested interest in people thinking that gas in dangrous and switching over. I would look into periodicals and studies that were impartially done and see if they support the oil companies claim.
@@ -56,7 +56,7 @@ The "MCAS" Teens Give Each Other
 ===date:Thu Sep 25 21:44:04 2003
 ===subject:Abolish Grading 1-6, Sept. 25, 2003
 ===message:1. Grades are rediculous
-Teachers should jump at this chance 
+Teachers should jump at this chance
 Threatening is harmful
 
 2. Not really, the whole argument seems to be mono-tone and relatively weak. He has no factual evidence to support his claims.
@@ -142,7 +142,7 @@ Is the music industry price fixing CD's?
 <br>
 3. Comitatus and Comrodary. Comitatus means that you must serve a king in life, and he will serve you in death. Ex. You die in a war for your king, and he will provide burial and provide for your family.
 <br>
-Comrodary- This is a way of getting along with your team mates, means trust and companionship. 
+Comrodary- This is a way of getting along with your team mates, means trust and companionship.
 <br>
 4. Good Wife- someone who is always there for you when you need her, provides for her part of the family, someone strong willed and willing to help the husband when needed.
 =========yorg=========

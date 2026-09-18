@@ -26,7 +26,7 @@
 
 CONFIG: {
     package timelocal;
-    
+
     @epoch = localtime(0);
     $tzmin = $epoch[2] * 60 + $epoch[1];	# minutes east of GMT
     if ($tzmin > 0) {
@@ -62,9 +62,9 @@ sub timelocal {
 sub cheat {
     $year = $_[5];
     $month = $_[4];
-    die "Month out of range 0..11 in timelocal.pl\n" 
+    die "Month out of range 0..11 in timelocal.pl\n"
 	if $month > 11 || $month < 0;
-    die "Day out of range 1..31 in timelocal.pl\n" 
+    die "Day out of range 1..31 in timelocal.pl\n"
 	if $_[3] > 31 || $_[3] < 1;
     die "Hour out of range 0..23 in timelocal.pl\n"
 	if $_[2] > 23 || $_[2] < 0;

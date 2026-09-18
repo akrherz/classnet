@@ -53,15 +53,15 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
     private ControlItems cntrl;
     private GraphControlItems graph_cntrl;
     private Image icon;
-    
-    
+
+
     final int MAX_ALBEDOS = 4;                // maximum number of surface types
     final int MAX_NUM_ALTITUDES = 20;         // max number of altitudes the ballon can be at
 
     // Data for plotting
     private String plot_data_file = new String ("media/rs1.txt");
     private Vector pressure;
-    private Vector altitude;    
+    private Vector altitude;
     // Dimension1: Day/Nite   Dimension2: Albedo   Dimension3: Altitude Index
     // The array contains the value of the actual temperature in Kelvin
     private float temperature[][][];
@@ -95,7 +95,7 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
     private String destination = "";
     private String mode = ""; // play for viewing what a student has done
                               // record for saving what a student is doing
-                              // demo for no viewing or saving of sessions    
+                              // demo for no viewing or saving of sessions
     private AppletRecorder ar;
     private Vector steps;
 
@@ -211,15 +211,15 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
     private float getMaxAltitude ()
     {
       float max = -1;
-      
+
       for (int i=0; i < altitude.size(); i++)
         {
         float temp = ((Float)(altitude.elementAt(i))).floatValue();
-        
+
         if ( temp > max )
           max = temp;
         }
-      
+
       return max;
     }
 
@@ -343,7 +343,7 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
     private void init_plotted_points ()
       {
         // set all points to not plotted
-        
+
         int i,j,k;
 
         plotted = new boolean [2][MAX_ALBEDOS][MAX_NUM_ALTITUDES];
@@ -359,7 +359,7 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
     {
         // get the temperatures for each height for each surface
         // from the plot_data_file
-       
+
        String s;
        int line_count = 0;
 
@@ -416,13 +416,13 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
                     n2 = new Float (tok.nextToken());
                     temperature[1][i][altitude_count] = n2.floatValue();
                 }
-            
+
             } // end if line_count > 2
          } // end while(true)
 
          in.close ();
        }
-       
+
        catch (java.net.MalformedURLException e)
          {
          System.out.println ("MalFormed URL: " + getCodeBase() + plot_data_file);
@@ -475,8 +475,8 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
           back = null;
         else
           back = getImage (getCodeBase(), ATGRAPH_BACKGROUND);
-        
-        land_scape = new MultiPortrait(bnd.width/2-20,(bnd.height*3)/5-18,back); 
+
+        land_scape = new MultiPortrait(bnd.width/2-20,(bnd.height*3)/5-18,back);
         back = current_image;
         land_scape.setImage (back);
 
@@ -494,7 +494,7 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
         pic_panel.add(land_scape);
 
 
-        
+
         /* Create the AT Graph */
         if (ATGRAPH_BACKGROUND.equals (""))
           back = null;
@@ -526,7 +526,7 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
         graph_control_panel.add (graph_cntrl);
 
 
-        
+
         /* Create buttons */
         //plotAllButton = new Button("Plot All");
 
@@ -541,7 +541,7 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
         add(graph_control_panel,gbl,GridBagConstraints.RELATIVE,GridBagConstraints.CENTER);
         add(graph_panel,gbl,GridBagConstraints.REMAINDER,GridBagConstraints.NORTH);
         add(control_panel,gbl,GridBagConstraints.REMAINDER,GridBagConstraints.SOUTHWEST);
-      
+
       }
 
     public void paint (Graphics g)
@@ -556,17 +556,17 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
         // clear the graph
         init_plotted_points ();
         replot_all_points ();
-        
+
         // update checkboxes
         cntrl.setAlbTime("Sand","Day");
-        
+
         // update image
         int selected_surface_index = 0;
         int day_nite_index = 0;
         current_image = images [selected_surface_index][day_nite_index];
         land_scape.setImage (current_image);
         waitForImage (this,current_image);
-        
+
         // move balloon
         land_scape.resetAltitude();
 
@@ -597,17 +597,17 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
 
             // update checkboxes
             cntrl.setAlbTime(albedo,time);
-            
+
             // update image
             int selected_surface_index = cntrl.getSelectedSurfaceIndex();
             int day_nite_index = (cntrl.IsDay())? 0 : 1;
             current_image = images [selected_surface_index][day_nite_index];
             land_scape.setImage (current_image);
             waitForImage (this,current_image);
-            
+
             // move balloon
             land_scape.setAltitude(alt);
-            
+
             // plot the point
             plot (land_scape.getAltitudeIndex());
         }
@@ -639,7 +639,7 @@ public class RadiationSim extends java.applet.Applet implements PlayableApplet
 
        int icony = land_scape.getIconY();
        sendData (icony);
-       
+
       }
 
 /*    public void plotAll ()

@@ -611,11 +611,11 @@
   In some situations it can be not conform to your local policy to actually
   allow all files named &quot;<SAMP>*.cgi</SAMP>&quot; to be executable.
   Perhaps all you want is to enable a particular file in a normal directory to
-  be executable. This can be alternatively accomplished 
-  via 
+  be executable. This can be alternatively accomplished
+  via
   <A
    HREF="../mod/mod_rewrite.html"
-  ><SAMP>mod_rewrite</SAMP></A> 
+  ><SAMP>mod_rewrite</SAMP></A>
   and the following steps:
   </P>
   <P>
@@ -947,13 +947,13 @@
       <STRONG>Can I increase <SAMP>FD_SETSIZE</SAMP> on FreeBSD?</STRONG>
      </A>
   <P>
-  On versions of FreeBSD before 3.0, the <SAMP>FD_SETSIZE</SAMP> define 
+  On versions of FreeBSD before 3.0, the <SAMP>FD_SETSIZE</SAMP> define
   defaults to 256.  This means that you will have trouble usefully using
   more than 256 file descriptors in Apache.  This can be increased, but
   doing so can be tricky.
 
   If you are using a version prior to 2.2, you need to recompile your
-  kernel with a larger FD_SETSIZE.  This can be done by adding a 
+  kernel with a larger FD_SETSIZE.  This can be done by adding a
   line such as:
   </P>
   <DL>
@@ -977,8 +977,8 @@
   has been removed.
   </P>
   <P>
-  After you deal with the appropriate changes above, you can increase 
-  the setting of <SAMP>FD_SETSIZE</SAMP> at Apache compilation time 
+  After you deal with the appropriate changes above, you can increase
+  the setting of <SAMP>FD_SETSIZE</SAMP> at Apache compilation time
   by adding &quot;<SAMP>-DFD_SETSIZE=<EM>nnn</EM></SAMP>&quot; to the
   <SAMP>EXTRA_CFLAGS</SAMP> line in your <SAMP>Configuration</SAMP>
   file.
@@ -1673,7 +1673,7 @@
   <HR>
  </LI>
  <LI><A NAME="remote-user-var">
-         <STRONG>Why is the environment variable 
+         <STRONG>Why is the environment variable
          <SAMP>REMOTE_USER</SAMP> not set?</STRONG>
          </A>
   <P>
@@ -1885,18 +1885,18 @@
           particular URL-related problems?</STRONG>
      </A>
   <P>
-  There is a collection of 
+  There is a collection of
   <A
       HREF="http://www.engelschall.com/sw/mod_rewrite/docs/mod_rewrite/solutions.html#Solutions"
   >Practical Solutions for URL-Manipulation</A>
   where you can
-  find all typical solutions the author of 
+  find all typical solutions the author of
   <A
    HREF="../mod/mod_rewrite.html"
-  ><SAMP>mod_rewrite</SAMP></A> 
+  ><SAMP>mod_rewrite</SAMP></A>
   currently knows of. If you have more
   interesting rulesets which solve particular problems not currently covered in
-  this document, send it to 
+  this document, send it to
   <A
       HREF="mailto:rse@apache.org"
   >Ralf S. Engelschall</A>
@@ -1910,21 +1910,21 @@
           mod_rewrite?</STRONG>
      </A>
   <P>
-  There is an article from 
+  There is an article from
   <A
       HREF="mailto:rse@apache.org"
   >Ralf S. Engelschall</A>
   about URL-manipulations based on
   <A
    HREF="../mod/mod_rewrite.html"
-  ><SAMP>mod_rewrite</SAMP></A> 
+  ><SAMP>mod_rewrite</SAMP></A>
   in the &quot;iX Multiuser Multitasking Magazin&quot; issue #12/96. The
   german (original) version
-  can be read online at 
+  can be read online at
   <A
       HREF="http://www.heise.de/ix/artikel/9612149/"
   >http://www.heise.de/ix/artikel/9612149/</A>,
-  the English (translated) version can be found at 
+  the English (translated) version can be found at
   <A
       HREF="http://www.heise.de/ix/artikel/E/9612149/"
   >http://www.heise.de/ix/artikel/E/9612149/</A>.
@@ -1942,7 +1942,7 @@
   uses software leverage and makes use of a powerful regular expression
   library by Henry Spencer which is an integral part of Apache since its
   version 1.2.  And regular expressions itself can be difficult to newbies,
-  while providing the most flexible power to the advanced hacker. 
+  while providing the most flexible power to the advanced hacker.
   </P>
   <P>
   On the other hand mod_rewrite has to work inside the Apache API environment

@@ -33,7 +33,7 @@ package edu.iastate.csl.util;
 import java.awt.*;
 import edu.iastate.csl.util.Axis;
 
-public class Graph extends edu.iastate.csl.util.Portrait 
+public class Graph extends edu.iastate.csl.util.Portrait
 {
     protected Axis xAxis;
     protected Axis yAxis;
@@ -66,7 +66,7 @@ public class Graph extends edu.iastate.csl.util.Portrait
     }
 
     public Graph(int w, int h, String s, Graphics g)
-    {   
+    {
         // s is of format "000" which is the largest Y unit label.
         super(w,h);
 
@@ -150,7 +150,7 @@ public class Graph extends edu.iastate.csl.util.Portrait
         theImage = createImage(r.width,r.height);
         Graphics bg = theImage.getGraphics();
 
-        if (actual_image == null) 
+        if (actual_image == null)
         {
             // System.out.println ("No Back Image");
             bg.setColor(new Color(252,250,248));
@@ -176,7 +176,7 @@ public class Graph extends edu.iastate.csl.util.Portrait
     {
        if (new_image)
          this.create_image (g);
- 
+
        super.paint(g);
     }
 
@@ -218,21 +218,21 @@ public class Graph extends edu.iastate.csl.util.Portrait
     protected void plotBuffer(double xval,double yval)
     {
         if (xval >= xAxis.min && xval <= xAxis.max &&
-            yval >= yAxis.min && yval <= yAxis.max) 
-            {                
+            yval >= yAxis.min && yval <= yAxis.max)
+            {
                 int x = xAxis.getLoc(xval);
                 int y = yAxis.getLoc(yval);
-            
+
                 Graphics g = theImage.getGraphics();
                 g.setColor(plotColor);
-            
-                if (last == null) 
+
+                if (last == null)
                 {
                     g.drawLine(x,y,x,y);
                     last = new Point(x,y);
                     drawMarker(g,x,y);
-                } 
-                else 
+                }
+                else
                 {
                     drawMarker(g,last.x,last.y);
                     if (mode == POINT)

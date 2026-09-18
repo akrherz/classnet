@@ -2,7 +2,7 @@
 ===email:ptflute@bellsouth.net
 ===date:Thu Sep 18 17:15:37 2003
 ===subject:Stamp Act
-===message:Governor Johnson's argument didn't hold water with the colonists b/c they held more power in the colonies government than they did in England.  In the case of England's Parliament the so called "common" vote was minimal.  But in the colonies, the "common" vote was much more representative of the people and therefore could give the people greater power.  This way they needn't defer to others.  
+===message:Governor Johnson's argument didn't hold water with the colonists b/c they held more power in the colonies government than they did in England.  In the case of England's Parliament the so called "common" vote was minimal.  But in the colonies, the "common" vote was much more representative of the people and therefore could give the people greater power.  This way they needn't defer to others.
 =========yorg=========
 ===from:Amy Metzger
 ===email:ptflute@bellsouth.net
@@ -14,15 +14,15 @@
 ===email:ptflute@bellsouth.net
 ===date:Thu Sep 18 17:25:53 2003
 ===subject:Stamp Act
-===message:Why the people who weren't directly involved by the Stamp Act got involved is an interesting question...Perhaps because the printers of the newspapers and the publishers who were affected by the act used their papers as a vehicle to incite the public.  Maybe the lawyers who were affected were going to pass the taxes they had to pay onto their clients.  I think maybe the reason was the increasing feeling of ownership in the new colonies made the people more ready to rebel against anything that came from the English side of the Atlantic.  
+===message:Why the people who weren't directly involved by the Stamp Act got involved is an interesting question...Perhaps because the printers of the newspapers and the publishers who were affected by the act used their papers as a vehicle to incite the public.  Maybe the lawyers who were affected were going to pass the taxes they had to pay onto their clients.  I think maybe the reason was the increasing feeling of ownership in the new colonies made the people more ready to rebel against anything that came from the English side of the Atlantic.
 =========yorg=========
 ===from:Ryan Hilton
 ===date:Thu Sep 18 19:10:10 2003
 ===subject:Not my dice!
-===message:What philosophical arguments did American colonists employ to justify their opposition to Parliament's actions? Who were correct, American colonists like Patrick Henry or Crown advocates such as Governors Glen and Johnson or Whately? What larger issues were involved with the Stamp Act? Why did people not directly affected by the act--the poor working men and women who formed mobs--inspired to protest against it? 
+===message:What philosophical arguments did American colonists employ to justify their opposition to Parliament's actions? Who were correct, American colonists like Patrick Henry or Crown advocates such as Governors Glen and Johnson or Whately? What larger issues were involved with the Stamp Act? Why did people not directly affected by the act--the poor working men and women who formed mobs--inspired to protest against it?
 
 --------------------------------------------------------------------------------
-The main argument was taxation without representation.  The colonists thought(and rightfully so) that taxes should be collected locally through colonial officials, with a representative watching out for their best interests.  Patrick Henry wanted this, asserting that throughout history there have always been people to "stand up" for their country(I took this as he himself almost declaring war on Britain by himself).  
+The main argument was taxation without representation.  The colonists thought(and rightfully so) that taxes should be collected locally through colonial officials, with a representative watching out for their best interests.  Patrick Henry wanted this, asserting that throughout history there have always been people to "stand up" for their country(I took this as he himself almost declaring war on Britain by himself).
 Larger issues associated with the stamp acts were those of elitism.  The people collecting all the dues at the end of the day were representatives of Britain, and for the most part, being accelerated through the class structure at a rate that would bring red to the cheeks of a musket ball.
 I disagree with the last part of the question.  I do beleive that the people of the "mobs" were equally affected by the taxes imposed by the empire. Cards, dice, and (i know most were probably illiterate, but) newspapers?  I don't imagine that the "eloquent" and "distinguished" members of society would be found a dark alley playing craps or poker for a week's wages.  And the thought of this gathering being broken up at gun-point by the ruddy good Kool-Aid man doesn't seem to set well with me, as it probably would not have set well with a conglomerate of drunken plowshares and blacksmiths having a good time.  The people of the colonies were united well before this time, known to them or not.
 =========yorg=========
@@ -43,7 +43,7 @@ In essence, the force that moved the common man was the power of persuasion, wie
 ===email:csu12108@mail.claytonstate.net
 ===date:Fri Sep 19  6:25:10 2003
 ===subject:Stamp Act
-===message:I think the philosophical arguments the colonists employed to justify their opposition to parliament's actions was the taxation without representation. I mean how can one go and represent a country where one do not come from while there are people from that country to represent their country. I mean you may have heard the history of that country but do not know about the custom of the country.It does not make any sense at all. like Patrick Henry was against that becasue he gave out an order to carry out and the British people decided to do the thing their own way. Like Henry gave an information on whom to tax and whom not to tax but his message was in vain. The British representatives were interested in collecting the taxes and the people chose to impose those taxes and also chose not to listen to any information that came from the British. And I do not think that the poor working men and women who formed mobs inspired to protest against it were not affected because they believed that it was the right time for them to stand face the British people and fight for their rights because they were ready to face anything that would come out of it. 
+===message:I think the philosophical arguments the colonists employed to justify their opposition to parliament's actions was the taxation without representation. I mean how can one go and represent a country where one do not come from while there are people from that country to represent their country. I mean you may have heard the history of that country but do not know about the custom of the country.It does not make any sense at all. like Patrick Henry was against that becasue he gave out an order to carry out and the British people decided to do the thing their own way. Like Henry gave an information on whom to tax and whom not to tax but his message was in vain. The British representatives were interested in collecting the taxes and the people chose to impose those taxes and also chose not to listen to any information that came from the British. And I do not think that the poor working men and women who formed mobs inspired to protest against it were not affected because they believed that it was the right time for them to stand face the British people and fight for their rights because they were ready to face anything that would come out of it.
 =========yorg=========
 ===from:Lydia Muttai
 ===date:Fri Sep 19 18:27:09 2003
@@ -61,7 +61,7 @@ In essence, the force that moved the common man was the power of persuasion, wie
 ===from:Patricia Shepard
 ===date:Sat Sep 20 13:29:50 2003
 ===subject:Stamp Act
-===message:I think Patrick Henry & his followers were right.  Do you want people (parliment)who don't have to pay the tax to pass a law that says you do?  No!  Taxation without represtentation. I think the greater issue and why the unaffected become involved is because there is something fundamentally wrong with a group of people making rules for others to live by when they don't have to live by the same rules.  The unaffected could be affected next time around.    
+===message:I think Patrick Henry & his followers were right.  Do you want people (parliment)who don't have to pay the tax to pass a law that says you do?  No!  Taxation without represtentation. I think the greater issue and why the unaffected become involved is because there is something fundamentally wrong with a group of people making rules for others to live by when they don't have to live by the same rules.  The unaffected could be affected next time around.
 =========yorg=========
 ===from:Adrienne Randall
 ===date:Sat Sep 20 17:58:13 2003
@@ -91,7 +91,7 @@ The poor was impacted by the  ideas their elite peers imposed on them.  The elit
 ===from:Marcella Emmett
 ===date:Sat Sep 20 20:59:19 2003
 ===subject:The Stamp Act
-===message:The philosophical arguement that the colonist used to justify their opposition was a theory called republicanism .  Republicanism was a set of doctrines dating back to the Renaissance.  The bases of these doctrines were that the few in power would deprive them people of liberty to make themselves more powerful, or that absolute power corrupts absolutley. 
+===message:The philosophical arguement that the colonist used to justify their opposition was a theory called republicanism .  Republicanism was a set of doctrines dating back to the Renaissance.  The bases of these doctrines were that the few in power would deprive them people of liberty to make themselves more powerful, or that absolute power corrupts absolutley.
 
 There is no clear answer as to who was correct the colonist who lobbied for equals rights under the Bristish constitution or the loyalist.  On one hand the colonist were not being fairly represented in the Parliment who felt it just to tax the colonies without having officials from the colonies in Parliment.  However the govenors were doing their jobs, and supporting the crown who had just created a defiect fighting in a war the colonist had instigated.
 
@@ -104,7 +104,7 @@ The people who were less effectected by the the Stamp Act such as the poor worki
 ===subject:The Stamp Act
 ===message:The American colonist argued that the British Constitution allowed taxation only by a people's representatives.  Basically the Crown advicates were not seeking the betterment of the people, they were working for self advancement.
 
-The Stamp Act would cause higher prices for services which would be passed on to the poor working people in the end.  The poor were smart enough to know that a crunch on the rich would directly affect them.  THe little freedom that they had would be jeopardized.  
+The Stamp Act would cause higher prices for services which would be passed on to the poor working people in the end.  The poor were smart enough to know that a crunch on the rich would directly affect them.  THe little freedom that they had would be jeopardized.
 =========yorg=========
 ===from:Tiffany Charles
 ===date:Sun Sep 21 16:09:49 2003
@@ -132,12 +132,12 @@ The Stamp Act would cause higher prices for services which would be passed on to
 ===subject:Hist 2111
 ===message:The colonist were tired of being taken advantage of leaders that abused power and had so little care for their constituents. I feel that they were correct in their feelings of "no taxation without representation". The poor wanted their freedom and they may have felt that they wouldn't be so opressed if taxes were not being paid to England.
 =========yorg=========
-===from:Ian Esson 
+===from:Ian Esson
 ===date:Sun Sep 21 18:06:23 2003
 ===subject:Hist 2111 The Stamp Act
-===message:The basic philosophical arguments used by the colonists was that freedom was a right had by the people. This right or liberty allowed one to choose who would represent their interests. The elected representative in return could tax them based on the fact that it was in their interest. The colonists did not have any elected representatives therefore no one had the right to taxed them at will, especially when those collecting the taxes did so for their own gain. The “collectors” or enforcers were mostly imperialists who the colonists had no trust in and saw them as agents of the crown trying to control them. 
+===message:The basic philosophical arguments used by the colonists was that freedom was a right had by the people. This right or liberty allowed one to choose who would represent their interests. The elected representative in return could tax them based on the fact that it was in their interest. The colonists did not have any elected representatives therefore no one had the right to taxed them at will, especially when those collecting the taxes did so for their own gain. The “collectors” or enforcers were mostly imperialists who the colonists had no trust in and saw them as agents of the crown trying to control them.
 <br>
-The Stamp Act affected not only the merchants but also the common who would have to pay increased costs for the services he received. The larger issues around the Act was that it brought together all classes of the society under one banner, the fact that the many meetings that evolved out of opposition to the act laid the foundation for the unification of all the colonies and created what would become the basis of the American Constitution.   
+The Stamp Act affected not only the merchants but also the common who would have to pay increased costs for the services he received. The larger issues around the Act was that it brought together all classes of the society under one banner, the fact that the many meetings that evolved out of opposition to the act laid the foundation for the unification of all the colonies and created what would become the basis of the American Constitution.
 
 =========yorg=========
 ===from:Azure-Dee Mallory
@@ -158,12 +158,12 @@ The Stamp Act affected not only the merchants but also the common who would have
 ===from:Yaschica Barber
 ===date:Sun Sep 21 21:28:16 2003
 ===subject:The Stamp Act
-===message:The colonists really thought smart and tried to analyze the British Consitution. they quickly realized that they were not getting the same treatment as their fellow Englishmen. To thier understanding they had the same rights as the Englishmen. Taxation without representation was a very valid point. It affect all people of all classes because it put a tax on the things that even the poorest people enjoyed such as the newspaper. Basically there was a tax on everything that was most likely very important to everyone of the time no matter what class you belonged to. 
+===message:The colonists really thought smart and tried to analyze the British Consitution. they quickly realized that they were not getting the same treatment as their fellow Englishmen. To thier understanding they had the same rights as the Englishmen. Taxation without representation was a very valid point. It affect all people of all classes because it put a tax on the things that even the poorest people enjoyed such as the newspaper. Basically there was a tax on everything that was most likely very important to everyone of the time no matter what class you belonged to.
 =========yorg=========
 ===from:Erica May
 ===date:Sun Sep 21 21:38:31 2003
 ===subject:The Stamp Act
-===message:The philosophical argument used by the colonist to oppose the Parliment was that every one is entitled freedom and the rights as any man in England.  This philosophy lead to the refusal of taxation without representation. It's hard to imagine that Britain beleived it could enforce taxes on the colonies who were separated from them by an ocean.  Unless they were there physically, there was no way they could force the colonies to adhere to their rules and regulations as they had exspected them to.  
+===message:The philosophical argument used by the colonist to oppose the Parliment was that every one is entitled freedom and the rights as any man in England.  This philosophy lead to the refusal of taxation without representation. It's hard to imagine that Britain beleived it could enforce taxes on the colonies who were separated from them by an ocean.  Unless they were there physically, there was no way they could force the colonies to adhere to their rules and regulations as they had exspected them to.
 
 The colonists were right to challenge the Parliment on these taxes.  In the reading, it is clear to see that parliment exspected the colonies to foot the bill for the wars they thought was necessary to fight; for the sole purpose of expanding the empire.
 

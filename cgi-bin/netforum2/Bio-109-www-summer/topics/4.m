@@ -3,7 +3,7 @@
 ===subject:Cloning
 ===message:Hunington's Disease:
 
-If I found out that my parents had the disease I believe that I would have myself checked.  If I found out that I was going to die at the age of 50 I believe I would live my life differently.  I probably would not get married nor would I want to have children if I knew I would die early.  
+If I found out that my parents had the disease I believe that I would have myself checked.  If I found out that I was going to die at the age of 50 I believe I would live my life differently.  I probably would not get married nor would I want to have children if I knew I would die early.
 
 
 
@@ -14,7 +14,7 @@ I dont think that it would be right to clone a dog because you liked that pet so
 
 Child Killed:
 
-I believe that this is also wrong.  Again, it will not be like you are continueing your childs life.  You can not replace the child you lost.  If you clone the child it will look the same and maybe act the same, but I believe a person would still feel a loss for the child that was killed.  You are not bringing the child back to life, you are creating another one.  
+I believe that this is also wrong.  Again, it will not be like you are continueing your childs life.  You can not replace the child you lost.  If you clone the child it will look the same and maybe act the same, but I believe a person would still feel a loss for the child that was killed.  You are not bringing the child back to life, you are creating another one.
 
 Einstein's Brain:
 
@@ -29,7 +29,7 @@ I Think this is a ridiculous idea.  I don't want to watch reruns for as long as 
 ===subject:cloning/genitic engineering
 ===message:1) I personally would not want to be tested for Huntington's disease.  I believe in a qualitative life, and not a quantative life.  I think that if I found out that I had the disease and my days were numbered, I would lose all drive in my life and adopt a who cares about all of it attitude because I am going to die anyway.  If I found out that I had it, and I was no married, then maybe finding a mate would be kind of hard to do.  The prospective mate might be gunshy about getting married to a man that could make 50% of her offspring have Huntington's disease.  I also am a believer that when it is your time to go, then it is just your time.  Live every day to its fullest, and when you die it will not be in vain or with any regrets.
 
-2)My answer for all senarios is NO!!!!!  I do not believe that cloning is the answer.  cloning a dead child is not the answer.  When cloning the child you are not remembering the child, you are just making a copy of it.  Also the child would not have the memories/capabilities of the five year old.  You would have ot teach it all over again form an infant.  I think that is just morally worng to do.  Now with the dead family pet.  I also think that it would be worng in this case because another dog could be gotten and make the owners happy again. This would not take up the place of the other dog, but it would create new memories for the owners and ease some pain.  Cloning Micheal Jordan is also wrong.  That is for a profit for the benefit of somebody.  Also, what is the clone does not want to play basketball?  Then that would be a real problem.  It is a wrong thing to do.  Cloning Albert Einstein would be wrong.  Don't get me wrong the man was a great scientist, but we have more of him around these days that are continuing his studies further.  Coming down to it all I think that cloning is a bad idea for complete organisms.  Now to clone a heart or kidney for donation purposes is a whole new ball of wax.  
+2)My answer for all senarios is NO!!!!!  I do not believe that cloning is the answer.  cloning a dead child is not the answer.  When cloning the child you are not remembering the child, you are just making a copy of it.  Also the child would not have the memories/capabilities of the five year old.  You would have ot teach it all over again form an infant.  I think that is just morally worng to do.  Now with the dead family pet.  I also think that it would be worng in this case because another dog could be gotten and make the owners happy again. This would not take up the place of the other dog, but it would create new memories for the owners and ease some pain.  Cloning Micheal Jordan is also wrong.  That is for a profit for the benefit of somebody.  Also, what is the clone does not want to play basketball?  Then that would be a real problem.  It is a wrong thing to do.  Cloning Albert Einstein would be wrong.  Don't get me wrong the man was a great scientist, but we have more of him around these days that are continuing his studies further.  Coming down to it all I think that cloning is a bad idea for complete organisms.  Now to clone a heart or kidney for donation purposes is a whole new ball of wax.
 =========yorg=========
 ===from:Donita Riesselman
 ===date:Wed Jul  5  8:30:03 2000
@@ -62,17 +62,17 @@ Scenario 4:Again, cloning Micheal Jordan is not a good idea. Athletes are traine
 ===date:Fri Jul  7 10:52:09 2000
 ===subject:Cloning and genetic testing
 ===message:topic 1.  I would want to do it so I could be enjoying the rest of my life.  THis test doesn't put an exact day on my death plus I don't fear what comes after death so if it is early then fine.  But I wouldn't want to be wasting it worrying about personal appearance or what other people think, but rather for what it is worth.
-Topic 2.  I don't think I would want to do any cloning as of right now.  It may be a better idea in the future when it is better controlled.  I think that if we clone a person to be who they were before is tragic for that person because of the new environment that they are in.  If Albert Einstein was cloned and lived here again doesn't mean that he may want to be studying all the time.  He may be smart but with so many environmental factors he may just want to sit under an unbrella in the Carribean and enjoy life because on 1 different factor that he encountered in his life.  SO for right now I don't think that cloning kids or basketball stars is good.  
+Topic 2.  I don't think I would want to do any cloning as of right now.  It may be a better idea in the future when it is better controlled.  I think that if we clone a person to be who they were before is tragic for that person because of the new environment that they are in.  If Albert Einstein was cloned and lived here again doesn't mean that he may want to be studying all the time.  He may be smart but with so many environmental factors he may just want to sit under an unbrella in the Carribean and enjoy life because on 1 different factor that he encountered in his life.  SO for right now I don't think that cloning kids or basketball stars is good.
 
 
 =========yorg=========
 ===from:Jill Geer
 ===date:Fri Jul  7 11:28:51 2000
 ===subject:Homework #6
-===message:Discussion 1:  
+===message:Discussion 1:
 <BR>
 <BR>
-If I knew my parents had this disease, I would be tested.  Some people might say that knowing would hang over your head, but in my opinion so would not knowing.  I wouldn't be able to enjoy my life if I knew that all my work might be for nothing because I might not get the chance to enjoy my accomplishments.  If I knew whether or not I had the disease, I would live a more active life.  I would do all the things that under normal circumstances I would put off, saying that I could do it some other time.  Also, knowing early enough would give me time to adjust to this inevitable future.  While this news might bother me at first, I would be able to accept it if I new in advance to the disease setting in.  Another reason why I would want to know is so I would be able to discuss this with a possible spouse.  I feel that if you love the person enough, they should be informed of this condition.  Perhaps they wouldn't want to have children that might possibly get the disease, or maybe they would not want to continue your relationship in order to spare themselves the heartache they would feel later, or maybe they would want to spend every possible minute with you in order to make you forget about this dismal future.  
+If I knew my parents had this disease, I would be tested.  Some people might say that knowing would hang over your head, but in my opinion so would not knowing.  I wouldn't be able to enjoy my life if I knew that all my work might be for nothing because I might not get the chance to enjoy my accomplishments.  If I knew whether or not I had the disease, I would live a more active life.  I would do all the things that under normal circumstances I would put off, saying that I could do it some other time.  Also, knowing early enough would give me time to adjust to this inevitable future.  While this news might bother me at first, I would be able to accept it if I new in advance to the disease setting in.  Another reason why I would want to know is so I would be able to discuss this with a possible spouse.  I feel that if you love the person enough, they should be informed of this condition.  Perhaps they wouldn't want to have children that might possibly get the disease, or maybe they would not want to continue your relationship in order to spare themselves the heartache they would feel later, or maybe they would want to spend every possible minute with you in order to make you forget about this dismal future.
 <BR>
 <BR>
 Discussion 2:
@@ -81,11 +81,11 @@ Discussion 2:
 Scenario 1:  I would not have my pet cloned.  For one reason, the pet wouldn't be the same.  There is the possibility that the dog would not have the same personality, and habits that you loved.  Also, the pet might not "connect" with you and your family the way the other dog did.  This would leave a person with an even greater feeling of loss.  Another reason why I wouldn't have my dog cloned is because if people were meant to have the power over life and death, we would be able to do so without the help of science.  We would be able to snap our fingers and have the person/animal come back to life.  Without this ability, I feel that for some reason we aren't supposed to have this power.
 <BR>
 <BR>
-Scenario 2:  While I wish I were able to say that I wouldn't clone my child, that would be a lie.  No parent would say no to cloning their child.  Unfortunately, doing this will lead to the same problems as Scenario 1.  I don't think this is right, and I don't think this should be given as an option to anyone.  However, I know that my love for my child would overcome any rational thoughts.  I would only want for that child to come back, to ease my pain and suffering.  This is self centered, but I would like to find a person that would put thoughts of their heartache, pain, suffering, and emotional anguish, out of their minds and think only of what is right and wrong.   
+Scenario 2:  While I wish I were able to say that I wouldn't clone my child, that would be a lie.  No parent would say no to cloning their child.  Unfortunately, doing this will lead to the same problems as Scenario 1.  I don't think this is right, and I don't think this should be given as an option to anyone.  However, I know that my love for my child would overcome any rational thoughts.  I would only want for that child to come back, to ease my pain and suffering.  This is self centered, but I would like to find a person that would put thoughts of their heartache, pain, suffering, and emotional anguish, out of their minds and think only of what is right and wrong.
 <BR>
 <BR>
 Scenario 3:  Again, I do not support cloning.  While on the surface, cloning a genius like Albert Einstein might seem a good idea, but it could lead to problems.  What if Einstein used his genius to destroy the world?  Or, what if Einstein found out that his theories were actually wrong?  Would the world want to accept the fact that Einstein was wrong?  Also, what if Einstein didn't retain any of his memories?  Wouldn't that mean that all of the information he had learned in his life would be forgotten?  Wouldn't that ultimately make him not a genius, taking away his ability to do good for humanity, the very reason why he was cloned?
-Again, I believe that if people were meant to bring things back to life, they would have the ability to do it with the snap of their fingers.  
+Again, I believe that if people were meant to bring things back to life, they would have the ability to do it with the snap of their fingers.
 <BR>
 <BR>
 Scenario 4:  Sports are fun to watch and participate in, but what is the fun of watching the same people make the same accomplishments?  If multiple Michael Jordans were cloned, wouldn't they eventually end up playing themselves?  This would lead to a very boring game to watch.  Also, this would take away from anyone else's chances of becoming a great sports star.  What if someone was born with the potential of being a better basketball player than Michael Jordan, but because the sports industry is clogged with MJ clones, this person never gets the chance to play basketball?  Also, what if the new MJs didn't want to play sports?  Or, what if they didn't retain MJ's memory?  Then, they would run the risk of not knowing how to play basketball, or not being coordinated enough for the sport.  All of these possibilities aside, no person should be exploited for someone else's gain.  These clones would be at the mercy of the man who cloned them.  What would happen if this person was unhappy with their performance?  Since the person had the ability to make all these MJ clones, would the person then feel like they had control over life and death of the clones?  Would they decide to kill a clone that wasn't performing and replace it with one that would?  Once again, I stand firm with my belief that no person should have this power because if we were meant to have it, we would be born with it.
@@ -114,15 +114,15 @@ Discussion Topic #2: I don't think cloning is a good idea at all for any reason.
 Scenario 1 - This one is a little difficult for me, because I have never been emotionally attached to a pet.  But I feel that I would not decide to make a clone of my dog.  As hard as it is to lose things, it is a fact of life.  I thing the wisest thing would be for my family to go together and pick out a new pet to replace our lost dog.
 Scenario 2 - As much as I would want to bring my child back to life, I don't believe that creating a clone of my child is the answer.  Just because it would look like my child and have the same tendencies as my child, it would not be my child.  This clone would not have had any of the experiences that developed my little 5 year old into who he/she was when hit by the car.  I think this would just be a way for me to push my pain aside and never deal with it, only for it to resurface later.
 Scenario 3 - Out of all the scenarios, this is the one where I would almost say yes.  It would be nice to have a brain like Einstein's around again.  But at the same time, people come and go, and they give the world what they can while they're here.  I don't believe that we should be changing the normal progression of our existence. And there are plenty of extremely intelligent people living today, that, as far as we know, could be much wiser then Einstein was.  He was living during a time when almost anything would have been an invention.
-Scenario 4 - I feel that cloning Michael Jordan would be a really bad idea.  It would make basketball at all levels less interesting and much less competitive.  It would ruin our spirit of competition and desire to strive for excellence.  Especially at the high school level, where sports are so important to the development of teenagers.  Plus, Michael Jordan does NOT need any more money.  
+Scenario 4 - I feel that cloning Michael Jordan would be a really bad idea.  It would make basketball at all levels less interesting and much less competitive.  It would ruin our spirit of competition and desire to strive for excellence.  Especially at the high school level, where sports are so important to the development of teenagers.  Plus, Michael Jordan does NOT need any more money.
 =========yorg=========
 ===from:Kelly Nennig
 ===date:Wed Jul 12 23:25:16 2000
 ===subject:Homework 6
 ===message:Discussion 1
-If one of my parents had huntington's disease, I would be tested.  But I wouldn't want to be tested right away.  I would probably  try to continue life as normal until I decided to have children.  Then I would definately get tested.  A 50/50 chance is ok for me, but it is not ok for my children.  I would most likely choose not to have children if I tested positive and there is the chance they may get the disease.  
+If one of my parents had huntington's disease, I would be tested.  But I wouldn't want to be tested right away.  I would probably  try to continue life as normal until I decided to have children.  Then I would definately get tested.  A 50/50 chance is ok for me, but it is not ok for my children.  I would most likely choose not to have children if I tested positive and there is the chance they may get the disease.
 Discussion 2
-I do not think that any of these senerios justify cloning.  Humans have always been unique because we are all different.  No one person is exactly like another.  I think cloning humans can only lead to a total loss of individuality.  Society has already put too much emphasis on having fancy material things.  I cannot imagine the impact if cloning helped put emphasis on having "fancy" humans.  Increased intelligence, good physical appearance, and high athletic ability are all nice things to have, but they are not necessary for every human to be a productive member of society.  
+I do not think that any of these senerios justify cloning.  Humans have always been unique because we are all different.  No one person is exactly like another.  I think cloning humans can only lead to a total loss of individuality.  Society has already put too much emphasis on having fancy material things.  I cannot imagine the impact if cloning helped put emphasis on having "fancy" humans.  Increased intelligence, good physical appearance, and high athletic ability are all nice things to have, but they are not necessary for every human to be a productive member of society.
 =========yorg=========
 ===from:Amanda Konecny
 ===email:akonecny@iastate.edu
@@ -132,7 +132,7 @@ I do not think that any of these senerios justify cloning.  Humans have always b
  I think if I found out that one of my paretns had Huntington's disease at first I would want to know if I had it, but I wouldn't get tested right away.  I would be to scared to know.  I would deal with my parents sickness first.  I'm not sure when I would get tested.  I just know that I would want to be tested.  I do know that I would get tested before I marry and have children.
 
 Discussion Topic 2:
- To all of the cloning scenarios I say no.  Personally I don't agree with cloning.  And when a child or family pet dies, grieving the loss of a loved one is a part of life.  Everyone needs to go through the grieving process in their lifetime.  When you clone people or animals they aren't necessarily going to be the same as you remember them.  They may look the same on the outside, but inside they are going to be different.  
+ To all of the cloning scenarios I say no.  Personally I don't agree with cloning.  And when a child or family pet dies, grieving the loss of a loved one is a part of life.  Everyone needs to go through the grieving process in their lifetime.  When you clone people or animals they aren't necessarily going to be the same as you remember them.  They may look the same on the outside, but inside they are going to be different.
 =========yorg=========
 ===from:Cynthia Lind
 ===date:Tue Jul 18 18:40:57 2000
@@ -152,41 +152,41 @@ Scenario 3:  Cloning Einstein is not a good idea.   We have persons living right
 
 Scenario 4:  I love sports, but I feels it's best to let God create people with athletic abilities and then leave it up to the individual to "grow" those abilities to their full potential. What we are is God's gift to us, what we do with what He has given us is our gift to God.
 
-I'm against cloning.  I feel using genetics to control diseases to provide a better quality of life for individuals is fine, but we are created to pro-create and it's best left that way.  If God wanted us to all be alike and to be the "the best" creatures in the eyes of man, he would have just created robots and left it at that.  Besides, I'm guessing that making babies God's way is way more fun than cloning. 
+I'm against cloning.  I feel using genetics to control diseases to provide a better quality of life for individuals is fine, but we are created to pro-create and it's best left that way.  If God wanted us to all be alike and to be the "the best" creatures in the eyes of man, he would have just created robots and left it at that.  Besides, I'm guessing that making babies God's way is way more fun than cloning.
 =========yorg=========
 ===from:Benjamin Combs
 ===date:Wed Jul 19 14:41:04 2000
 ===subject:Homework 6
-===message:Discussion topic #1:  This is a terrible difficult decision 
-to make.  I think that after considering the angles I would 
-have myself tested simply because I wouldn't be able to 
-stand not knowing.  I could begin to prepare myself if I 
-found I was going to die and would probably live my life 
-differently knowing it would be significantly shorter.  If I 
-found out I didn't have the disease than I could live a 
-worry-free life.  If I had the disease marraige and children 
-would be something else that is a difficult decision.  It 
-would be hard to know that I would leave my wife a widow 
-early in life and leave my children without a father.  
-However, it would be like cheating myself out of more of my 
+===message:Discussion topic #1:  This is a terrible difficult decision
+to make.  I think that after considering the angles I would
+have myself tested simply because I wouldn't be able to
+stand not knowing.  I could begin to prepare myself if I
+found I was going to die and would probably live my life
+differently knowing it would be significantly shorter.  If I
+found out I didn't have the disease than I could live a
+worry-free life.  If I had the disease marraige and children
+would be something else that is a difficult decision.  It
+would be hard to know that I would leave my wife a widow
+early in life and leave my children without a father.
+However, it would be like cheating myself out of more of my
 life and not giving my future children a life at all.
 
-Discussion #2:  1.  This isn't a healthy way to grieve 
-because of the expectations that this dog would be the same 
-as the old one.  A dog of the same breed could be found that 
-would remind you of the old dog without the thoughts that it 
+Discussion #2:  1.  This isn't a healthy way to grieve
+because of the expectations that this dog would be the same
+as the old one.  A dog of the same breed could be found that
+would remind you of the old dog without the thoughts that it
 was the same dog.
-2.  Absolutley not.  That goes against everything that I 
-believe "makes us human".  We are more than just cells and 
-tissue.  We have experiences that begin to form our 
+2.  Absolutley not.  That goes against everything that I
+believe "makes us human".  We are more than just cells and
+tissue.  We have experiences that begin to form our
 personality and ideas.  It wouldn't be the same child.
-3 and 4.  Both of these situations are wrong because the 
-person could never live up to the expectations that society 
-would have for them.  The failures that these men 
-experienced probably did more to shape them than anything.  
-These failures would not be tolerated by the people who 
-"own" them and it would probably end up becoming a huge 
-mistake to even try.  I just don't believe that because you 
+3 and 4.  Both of these situations are wrong because the
+person could never live up to the expectations that society
+would have for them.  The failures that these men
+experienced probably did more to shape them than anything.
+These failures would not be tolerated by the people who
+"own" them and it would probably end up becoming a huge
+mistake to even try.  I just don't believe that because you
 have the same body
 =========yorg=========
 ===from:Katie Ruchti
@@ -213,7 +213,7 @@ Topic 2
 ===subject:Bio 109
 ===message:Topic 1--If one of my parents had Huntington's disease and I was in between the ages of 17-20, I wouldn't have myself tested unless I had symptoms of it. Considering that 17-20 is a fairly young age bracket, I don't believe that I would want to worry about death. Also, there is no cure for it,so I wouldn't want to live my life feeling like my existance was pointless, ending so soon, and knowing I was not going to be able to achieve my highest goals that come in time. Some people may argue that they would WANT to know if they had this disease, because they would try to live their life to the fullest and this disease would serve as mechanism for motivation. I believe that regardless if you have a disease or not you SHOULD live your life to the fullest and get motivated to do want you want for your own well-being. On the contrary, I believe that I would want to be tested before marriage if I decide to have children. When someone elses life would be at stake, I feel that the Huntington's disease would be a major concern. Since I don't plan on getting married until after the age of 20, the answer to the question "Would you have yourself tested?" would be "no", under such circumstances given.
 
-Topic 2-- I don't believe that cloning would be justified in ANY scenario. Although it may be beneficial to society such as in Scenario 3, I still believe that it is immoral and is a selfish act. I must admit that I have more of a traditional point-of-view and not the "new perspective" outlook in this particular subject. Cloning is a very interesting, but debatable subject. I believe that Scenerio's 1,4, and regretfully 2 are outrageous, if not absurd. Cloning affects the rights of the diseased and all the laws of mankind. I live by the widely used expression,"if it was meant to be, it was meant to be". Cloning is a great scientific discovery and I commend whomever or WHATEVER helped to contribute to this discovery, but I still am faced with the question of morality. Let us live, die in peace, and keep all of our characteristics unique and special as we go on.  
+Topic 2-- I don't believe that cloning would be justified in ANY scenario. Although it may be beneficial to society such as in Scenario 3, I still believe that it is immoral and is a selfish act. I must admit that I have more of a traditional point-of-view and not the "new perspective" outlook in this particular subject. Cloning is a very interesting, but debatable subject. I believe that Scenerio's 1,4, and regretfully 2 are outrageous, if not absurd. Cloning affects the rights of the diseased and all the laws of mankind. I live by the widely used expression,"if it was meant to be, it was meant to be". Cloning is a great scientific discovery and I commend whomever or WHATEVER helped to contribute to this discovery, but I still am faced with the question of morality. Let us live, die in peace, and keep all of our characteristics unique and special as we go on.
 =========yorg=========
 ===from:Drew Keuning
 ===date:Sun Jul 23 14:03:59 2000
@@ -238,7 +238,7 @@ In such a situation, I would want to be tested  so that I would know whether or 
 
 Topic #2
 
-Like I've said before, death is inevitable and part of the human experience involves learning to accept Death's role in Life.  While losing a pet and especially a child can be devastating, what sort of truths about existance we have to formulate if we could simply "replace" our loved ones.  Death is part of the cycle of life and learning to deal with it part of our experience as emotional beings.  NOt only must we learn to cope with death, we also are given a  natural guarantee that we are genetically one-of-a-kind.  I'm not so sure it is humanity's place to rob individuals of the right of unique existance.  What sort of mental disorders are we going to breed into humans who know that they are the 3rd, 4th, etc clone of Mr. John Smith?  Cloning humans seems to cross bounds of human existance and integrity that I feel should not be crossed.        
+Like I've said before, death is inevitable and part of the human experience involves learning to accept Death's role in Life.  While losing a pet and especially a child can be devastating, what sort of truths about existance we have to formulate if we could simply "replace" our loved ones.  Death is part of the cycle of life and learning to deal with it part of our experience as emotional beings.  NOt only must we learn to cope with death, we also are given a  natural guarantee that we are genetically one-of-a-kind.  I'm not so sure it is humanity's place to rob individuals of the right of unique existance.  What sort of mental disorders are we going to breed into humans who know that they are the 3rd, 4th, etc clone of Mr. John Smith?  Cloning humans seems to cross bounds of human existance and integrity that I feel should not be crossed.
 
 =========yorg=========
 ===from:Gina Pighetti
@@ -255,10 +255,10 @@ I do not believe that it is right to clone any type of living thing.   I don’t b
 ===email:zayiraj@hotmail.com
 ===date:Tue Jul 25 12:07:46 2000
 ===subject:hwk 6
-===message:Discussion topic 1: Let us say that you are between the ages of 17-20 and one of your parents has Huntington's disease. Would you have yourself tested? 
+===message:Discussion topic 1: Let us say that you are between the ages of 17-20 and one of your parents has Huntington's disease. Would you have yourself tested?
 I would.  I think it would be responsible for me to know if my kids could get the disease.  I would do everything possible to find a cure or promote the cause.  I would not feel discouraged or sentenced, but I would make the best of the years I have to live.
 
-Discussion topic 2: Consider the following scenarios and say whether you think cloning would be justified. 
+Discussion topic 2: Consider the following scenarios and say whether you think cloning would be justified.
 
 Scenario 1: Would you clone your dead pet? No
 
@@ -296,17 +296,17 @@ Cloning? I do not think it would be ethical to do any of the senerios listed. Yo
 ===email:hibsais@iastate.edu
 ===date:Wed Jul 26  3:49:55 2000
 ===subject:HWK 6
-===message:1. I would get myself tested. But if a carrier and there is a 50/50 chance for my kids to have the disease I would still have kids. By the time I will be 40 my kids would become grown up and they can count on themselves. Besides it is not fair to deprive somebody from having kids because he/she is a carrier of a disease. Mainly every one of us carries a dominant or a recessive bad allele. 
+===message:1. I would get myself tested. But if a carrier and there is a 50/50 chance for my kids to have the disease I would still have kids. By the time I will be 40 my kids would become grown up and they can count on themselves. Besides it is not fair to deprive somebody from having kids because he/she is a carrier of a disease. Mainly every one of us carries a dominant or a recessive bad allele.
 
-2. 
+2.
 a. I am against cloning humans or animals because the circumstances are not guaranteed. cloning a dead pet would be ok, if the owners are responsible for taking care of the cloned pet even if he has some problems.
 
 b. I won't clone my child, if I have the chance to bring more children then I will do so by normal pregnancy. Cloning won't bring me back what was lost.
 
-c. Cloning einestien would benefit wellfare of human beings. 
+c. Cloning einestien would benefit wellfare of human beings.
 
 d. Cloning athletes is not justified because you cannot make an athlete. Cloning should be used for necessary needs not for personal preferences.
- 
+
 
 =========yorg=========
 ===from:Lath Hoang
@@ -314,7 +314,7 @@ d. Cloning athletes is not justified because you cannot make an athlete. Cloning
 ===date:Wed Jul 26 17:04:38 2000
 ===subject:Homework #6
 ===message:Topic 1:  I would get tested for Huntington's disease if my family had a history of it.  The earlier the doctor dectected the disease there may be a treatable drug out there to slow down the progress.  If there wasn't a cure, I'm sure in a couple of years, genomic scientists would figure out which genes regulate the Huntington genes through the Human Genome Project.  This early detection would make me notify my spouse that I have it or not and discuss it with her about my family history.  My loved ones would be the first to know about any heritable diseases that was in my family tree imediately.
-Topic 2: 
+Topic 2:
 Scenario 1. I'm emotionally attached to a cat right now, but I would never replace him by using the tissue from it's ear. When the cloned replica of my cat grew up, the emotions of the cat would never be replicated again.  For example, two twins are 100% genetically alike, but their environment disposes them to act differently in their personalities.  So my new cloned cat could behave very differently.  If u could clone emotions, that would be great.  That is very freaky if you think about it.
 Scenario 2:  Again, cloning behaviors is very different than cloning biological matter.  If the 5-year-old child was cloned again, me as a father, the child would have a different environment to grown in since time has passed.  By the time she grows up her predisposed surroundings would be different.  Not the same as it was five years ago.  So cloning a child would be irrelevant to me.
 Scenario 3:  Albert Einstein wrote many theories that contributed to science today.  If we cloned his brain cells, what would other scientists argue about originality and creativity in scientific knowledge?  I think it would be more of an ethical issue.
@@ -332,13 +332,13 @@ Scenario 4:  The new stars today in basketball would lose their fame to this new
 ===subject:Homework #6
 ===message:Well, life is full of tough decisions, and tough luck.  Huntington's disease is a horrible, frightining disease, but it is also part of life.  We only live for a short time, and I guarantee all of you that we will all die, and whether or not we have this disease, most of us won't even have a clue as to when we will die.  The knowledge of infection may prevent our children from having it, and what then?  We do not have children?  We do not give ourselves a chance to improve the world through our offspring?  We do not give our children a chance to try?  We give up all hope?  We lay down, put our heads in our hands and cry?  Life is too short.  You know what else?  If you ever have children, don't find out what it is...  Life has very few genuine surprises.  Make each one count.
 
-As for question #2, I do not think that any thing, anyone, or any part of anyone or thing should be cloned.  People and animals are given one chance on this earth... sorry.  Do you know any identical twins?  Are they exactly alike in every way?  Would you trade one for the other, no questions asked?  Well, there you have it.  Also, with respect to Albert Einstein's Brain,  what if the clone doesn't want to be a scientist.  Does it have rights?  Will it live past ten years old, or will it kill itself because it can't take the psycological pressure of knowing that it was engineered solely for it's mental capacity, and that no one in the world will ever love it for more than that of a flesh shell around one hell of a brain? 
+As for question #2, I do not think that any thing, anyone, or any part of anyone or thing should be cloned.  People and animals are given one chance on this earth... sorry.  Do you know any identical twins?  Are they exactly alike in every way?  Would you trade one for the other, no questions asked?  Well, there you have it.  Also, with respect to Albert Einstein's Brain,  what if the clone doesn't want to be a scientist.  Does it have rights?  Will it live past ten years old, or will it kill itself because it can't take the psycological pressure of knowing that it was engineered solely for it's mental capacity, and that no one in the world will ever love it for more than that of a flesh shell around one hell of a brain?
 =========yorg=========
 ===from:Adam Worth
 ===email:aworth@iastate.edu
 ===date:Sun Jul 30 20:01:50 2000
 ===subject:HOMEWORK 6
-===message:If one of my parent's had Huntington's disease I don't think that I would want to know if I had it, for the simple fact that my life would be changed. I would end up cheating myself out of living a life that I want to live. I feel that cloning is a remarkable technology, but I don't think we should use it. If they do clone that dog it won't be the same. It will look the same but it isn't guaranteed to act the same. The same goes for the child. Our experiences make us who we are. appearances play a small role in how we interact and behave in the world. 
+===message:If one of my parent's had Huntington's disease I don't think that I would want to know if I had it, for the simple fact that my life would be changed. I would end up cheating myself out of living a life that I want to live. I feel that cloning is a remarkable technology, but I don't think we should use it. If they do clone that dog it won't be the same. It will look the same but it isn't guaranteed to act the same. The same goes for the child. Our experiences make us who we are. appearances play a small role in how we interact and behave in the world.
 =========yorg=========
 ===from:Joe Heskett
 ===date:Sun Jul 30 20:25:08 2000
@@ -349,7 +349,7 @@ I don't think i could hold off and not know the answer to having the disease or 
 ===from:Heather Patterson
 ===date:Mon Jul 31 13:41:17 2000
 ===subject:Homework 6
-===message:Discussion 1:<br> 
+===message:Discussion 1:<br>
 I would not want to be tested for Huntington's Disease if my parent was found to have the disease. I think that if I were to test positive for the disease I would become depressed and sad about knowing my own destiny. If I were to test negative, in one sense I would feel lucky, but in another, sad that my parent had to endure it while I got off "free".<br>
 <br>
 It would be terrible to go through life knowing that at a certain age, I would come down with this horrible disease and lead a slow and painful death. I would marry, but not have children. Adoption would be the only choice if I did decide that I wanted children. Regardless of getting tested or not, the fear that I would live with would be emense and I can honestly say I don't know 100% what I would choose to do.
@@ -362,7 +362,7 @@ I find it hard to justify cloning for any reason, simply because I am very afrai
 Regarding scenario 1, I cannot agree with cloning the family dog. What is to say that that new dog will have the exact same personality and temperment as the old one? It will not have had the same experiences or treatment as the old dog. I think it would be an incredible waste of money and basically, a sick way for the owners and family to live in the past. Everything dies at some point and we need to accept that and move on. By cloning a pet dog, the owner obviously has some serious issues and cannot move on with their life. I would be afraid of what kind of "dog" would be produced and what would happen if this cloned dog mated with another normal dog? I think we are getting in over our heads and we need to seriously consider the outcomes of such a risky venture. Messing with mother nature is just not cool.<br>
 <br>
 Scenario 2 is even more sick than the first one. CLoning humans is wrong and we should not do it. That person has no say whether they want to be cloned and the cloned individual has to live with whatever characteristics they get. I can't help but think of the "Alien" movies and what happens when they clone the main character. We are really messing with nature and things that aren't meant to be messed with. We know so little in the realm of things and until there is more research and evidence of little things like plants, I am 100% against cloning humans. We have no concept of what all happens as a result of cloning and what may happen if the cloned individual has children with a normal person--will they be ok? I wouldn't want to subject any human to such unethical treatment. I am against testing on most animals as well as all humans!<br>
-<br> 
+<br>
 Scenario 3 is yet another ridiculous attempt to relive the past. I am against any human cloning and that would include ALbert Einstein. He was a genius and that was that. There are other geniuses in the world and they will continue to come up with new things just as Einstein did. Subjecting any human to this type of "experiment" is unethical. The "clone" would basically be a lab rat and no human should be treated in such a manner.<br>
 <br>
 No person should be created purely for the purpose of money. Sadly, there are people out there who have no regard for human life and would accept such a proposition. Like the other scenarios, this violates every form of "ethical" treatment and should not be done. These clones would be humans and would have the right not to be a lab rat or a slave--which is what they would turn into after being "bought" and "sold" like animals. I am completely against it.
@@ -371,7 +371,7 @@ No person should be created purely for the purpose of money. Sadly, there are pe
 ===email:bemgries@iastate.edu
 ===date:Tue Aug  1 20:44:01 2000
 ===subject:Homework # 6
-===message:AS far as the first topic, Huntington's disease:  No, I wouldn't have myself tested. There is a similar scenario out with diabetes now--my mom, grandpa, great grandma, and aunts all have diabetes, and there is a test now that will tell you if you are to ever acquire diabetes.  The thing is, why get tested, when it's going to set paranoia into one's life every day, when the disease may never even develop.  These predictory tests show if the gene is there, but not if the disease will actually start causing problems. It is possible to have a disease in your body but have it never activate any affects while a person is still alive.  Anyway...There's several reasons why I think it's going too far to pre-test oneself for a disease:  first, what is wrong with having imperfect people in the world?  Although disease can spread and kill of populations and all that kind of thing--disease is a natural part of life that controls the human population--it sounds cold for me to say that, I know, but disease is something that employs many many people, advances technology through research, and controls the world population to an extent.  It is something that it seems sadly, that nature has intended.  Yes, there is discomfort and mourning and tragedy involved in illness, but that too is a part of life.  I know several people with severely painful diseases that appreciate life the way it is.  Why?  Because there is something about human imperfections and tragedies that is natural and necessary in the realm of things.  I know I sound so cruel here, and I don't mean it that way, but honestly--why would one want to find out about a disease that may or may not ever show side affects.  Somehow it seems to me that finding out about biological imperfections before the natural time seems almost Hitlar like to me--like genetically engineering our world to make sure everyone is disease free.  I'm not going to bring the Bible up, because that's a weak source to use for objective discussions I think, but there's probably a lot of people in the world who would have some major relgious qualms with pre-testing for disease if it ever became a norm at child birth or something.  I know that in this world, we do a lot of things that go against nature for human comfort, but to me, finding out one's future in extreme advance seems a little too against nature. 
+===message:AS far as the first topic, Huntington's disease:  No, I wouldn't have myself tested. There is a similar scenario out with diabetes now--my mom, grandpa, great grandma, and aunts all have diabetes, and there is a test now that will tell you if you are to ever acquire diabetes.  The thing is, why get tested, when it's going to set paranoia into one's life every day, when the disease may never even develop.  These predictory tests show if the gene is there, but not if the disease will actually start causing problems. It is possible to have a disease in your body but have it never activate any affects while a person is still alive.  Anyway...There's several reasons why I think it's going too far to pre-test oneself for a disease:  first, what is wrong with having imperfect people in the world?  Although disease can spread and kill of populations and all that kind of thing--disease is a natural part of life that controls the human population--it sounds cold for me to say that, I know, but disease is something that employs many many people, advances technology through research, and controls the world population to an extent.  It is something that it seems sadly, that nature has intended.  Yes, there is discomfort and mourning and tragedy involved in illness, but that too is a part of life.  I know several people with severely painful diseases that appreciate life the way it is.  Why?  Because there is something about human imperfections and tragedies that is natural and necessary in the realm of things.  I know I sound so cruel here, and I don't mean it that way, but honestly--why would one want to find out about a disease that may or may not ever show side affects.  Somehow it seems to me that finding out about biological imperfections before the natural time seems almost Hitlar like to me--like genetically engineering our world to make sure everyone is disease free.  I'm not going to bring the Bible up, because that's a weak source to use for objective discussions I think, but there's probably a lot of people in the world who would have some major relgious qualms with pre-testing for disease if it ever became a norm at child birth or something.  I know that in this world, we do a lot of things that go against nature for human comfort, but to me, finding out one's future in extreme advance seems a little too against nature.
     AS for topic number 2:  Cloning scares me.  It's cool that we have found the technology to do these things, but it is scary.  There is so much power in the ability to clone humans someday--it could cause some massive chaos.  As far as the dog cloning--not so scary, but once again, it's reinventing the concept of death into an only partially permanent condition in a way.  I just don't agree with that, and I don't have any good support for why.  It's just creepy.  The Albert Einstein cloning?  Why not let someone else have a turn?  There's a lot of people being born every day, and I'm sure someone else might like to fill his shoes with the genius role.  Besides--I think that already, the last 10 years generations have obviously shown that there are others beyond Einstein who can solve the problems of science in the universe--uh, for example, whoever came up with the cloning thing.  The child cloning--smae argument as the dog, and also the above statements I had about letting nature run its course.  Already we interfere with death enough that people stay alive on machines for years with no brain activity.  Completely reinventing a life in order to avoid the agony of mourning a death is taking a very risky way out of confronting a normal human experience and emotion of grieving, not to mention helping to over populate our world wtih a bunch of fake people. It;s just all icky to me.  I think, as far as interfering with death, the current rate is about right--medicinal help and therapy--but not cloning.  Okay, that's it.  Goodbye.
 =========yorg=========
 ===from:Samuel Potter
@@ -385,7 +385,7 @@ No person should be created purely for the purpose of money. Sadly, there are pe
 ===date:Tue Aug  1 22:10:20 2000
 ===subject:HW #6
 ===message:1) Given my current situation (Married w/children 3 & 5 and soon to turn 33), I will have myself tested during my next annual examination. My kids are very active and seemingly have no end to the energy resources that they can call upon at any given moment. With the ever increasing demands their actives lives will require, I feel that to get the utmost out of my body for them I need the testing. It would be better to prepare for the outcome if the test came back positive and squeeze the most out of the time before disease takes hold.
-2)I don't agree with cloning under the situations listed. The clone will look and might have the potential of the orignal, yet experiences and the decisions made at critical junctions of life is what makes us what we currently are. Also the time in which we are born impacts who and what we are. By cloning we are only getting a cheap imitation of we thought we wanted or thought we would have. 
+2)I don't agree with cloning under the situations listed. The clone will look and might have the potential of the orignal, yet experiences and the decisions made at critical junctions of life is what makes us what we currently are. Also the time in which we are born impacts who and what we are. By cloning we are only getting a cheap imitation of we thought we wanted or thought we would have.
 =========yorg=========
 ===from:Larry Iseminger
 ===email:larryiseminger@hotmail.com
@@ -398,31 +398,31 @@ No person should be created purely for the purpose of money. Sadly, there are pe
 ===from:Mike Bourne
 ===date:Thu Aug  3 23:37:12 2000
 ===subject:Homework #6
-===message:Discussion topic 1: Let us say that you are between the ages of 17-20 and one of your parents has Huntington's disease. Would you have yourself tested? 
+===message:Discussion topic 1: Let us say that you are between the ages of 17-20 and one of your parents has Huntington's disease. Would you have yourself tested?
 No I wouldn't have myself tested until I thought about having kids.  If I married and my wife wanted me to get tested earlier, I might consider it.
 
-Discussion topic 2: Consider the following scenarios and say whether you think cloning would be justified. 
+Discussion topic 2: Consider the following scenarios and say whether you think cloning would be justified.
 
-Scenario 1: Would you clone your dead pet? 
+Scenario 1: Would you clone your dead pet?
 No, cloning is wrong, especially for such a surperfilous reason
-Scenario 2: Would you clone your 5-year-old child who has been hit by a car and killed? 
+Scenario 2: Would you clone your 5-year-old child who has been hit by a car and killed?
 no, however it would be tempting, in the end my moral obligations would make me not do it.
-Scenario 3: Would you support cloning Albert Einstein? 
+Scenario 3: Would you support cloning Albert Einstein?
 No again, I think that more harm than good would come from getting into that
-Scenario 4: Should an entrepreneur be allowed to clone Michael Jordon? 
+Scenario 4: Should an entrepreneur be allowed to clone Michael Jordon?
 NO, cloning should never be used as a money making operation.
 
 =========yorg=========
 ===from:Lety Ramirez
 ===date:Fri Aug  4 11:21:38 2000
 ===subject:homework 6
-===message:1. I would definately get tested.  If I do have the disease, I'm going to find out soomer or later and I would rather know sooner.  I would be incredibly satisfied to find out that I didn't have the disease and would probably enjoy life a little more.  If I found out that I was going to get it, I would probably be depressed for a while and then live life to the fullest until I no longer could.  
-I think that it is a good idea to get tested before you get married and think about kids just so that you can let your spouse know before you make a commitment, but if they truly love you it shouldn't matter whether you are at risk for the disease or not. 
-2. Senario 1: I think it would be alright if you wanted to clone your dog but for myself, even if it is the same dog, it still would not be.  It would almost be a little 
+===message:1. I would definately get tested.  If I do have the disease, I'm going to find out soomer or later and I would rather know sooner.  I would be incredibly satisfied to find out that I didn't have the disease and would probably enjoy life a little more.  If I found out that I was going to get it, I would probably be depressed for a while and then live life to the fullest until I no longer could.
+I think that it is a good idea to get tested before you get married and think about kids just so that you can let your spouse know before you make a commitment, but if they truly love you it shouldn't matter whether you are at risk for the disease or not.
+2. Senario 1: I think it would be alright if you wanted to clone your dog but for myself, even if it is the same dog, it still would not be.  It would almost be a little
 freaky.
-Senario 2: Again, I don't think I would want to just because it's not the same child though it is and I don't know how I would treat it morally but I can see how some families would want to have their child back.  Maybe I would think differently if I were in that situation but right now I don't think I could. 
-Senario 3: On one hand, it would be a great advance in technology but shouldn't we let time take it's toll? What happens when we get too advanced?  What if they used their good for bad.  That sounds more like a movie but what if they did?  
-Senario 4:  I think we should let time produce the next Micheal Jordan.  Who knows, maybe his children will grow up to be like him.  If we did have a lot of MJ clones running around, there would be something or someone that is bigger and better and then we would start cloning them.  It would just be a big cycle.    
+Senario 2: Again, I don't think I would want to just because it's not the same child though it is and I don't know how I would treat it morally but I can see how some families would want to have their child back.  Maybe I would think differently if I were in that situation but right now I don't think I could.
+Senario 3: On one hand, it would be a great advance in technology but shouldn't we let time take it's toll? What happens when we get too advanced?  What if they used their good for bad.  That sounds more like a movie but what if they did?
+Senario 4:  I think we should let time produce the next Micheal Jordan.  Who knows, maybe his children will grow up to be like him.  If we did have a lot of MJ clones running around, there would be something or someone that is bigger and better and then we would start cloning them.  It would just be a big cycle.
 =========yorg=========
 ===from:Barbara Mulert
 ===email:bmulert@iastate.edu

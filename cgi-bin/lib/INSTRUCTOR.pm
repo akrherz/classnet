@@ -76,13 +76,13 @@ sub add {
    }
 
    chdir("$self->{'Root Dir'}/admin/members/instructors");
-   open(INST_FILE, ">$self->{'Disk Username'}") or 
+   open(INST_FILE, ">$self->{'Disk Username'}") or
      &ERROR::system_error("INSTRUCTOR","add","Open",self->{'Disk Username'});
    print INST_FILE "Password=$self->{'Password'}\n";
    print INST_FILE "Email Address=$self->{'Email Address'}\n";
    print INST_FILE "Priv=$priv\n";
    close(INST_FILE) or
-     &ERROR::system_error("INSTRUCTOR","add","Close",self->{'Disk Username'}); 
+     &ERROR::system_error("INSTRUCTOR","add","Close",self->{'Disk Username'});
    chmod(0600, $self->{'Disk Username'});
    $cls->add_to_mem_list('instructor',$self->{'Username'});
 
@@ -94,7 +94,7 @@ sub add {
 =over 4
 
 =item Description
-Does this instructor already exist?  
+Does this instructor already exist?
 
 =item Returns
 BOOLEAN
@@ -218,13 +218,13 @@ sub delete_member {
        my $assign_dir = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}";
        system("rm -f -r $assign_dir");
    }
-   else { 
+   else {
        unlink "$cls->{'Root Dir'}/admin/members/instructors/$member->{'Disk Username'}";
-   } 
+   }
 
    $cls->remove_from_mem_list($member->{'Member Type'}, $mem_name);
    return $mem_name;
-      
+
 }
 
 #########################################

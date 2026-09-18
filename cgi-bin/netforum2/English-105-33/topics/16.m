@@ -1,19 +1,19 @@
 ===from:Brian Hamman
 ===date:Wed Sep 17 12:32:00 2003
 ===subject:FPT: Topic
-===message:I have chosen do write an arguement sex and violence in popular culture. 
+===message:I have chosen do write an arguement sex and violence in popular culture.
 =========yorg=========
 ===from:Brian Hamman
 ===date:Thu Sep 18 13:09:34 2003
 ===subject:Hack Q#1&2 (9/9)
 ===message:1. It is not alright to have pre-marital sex, It is wrong for a society to promote sex, Yale has posters & signs in it's dormatories that makes it sound like they assume every collge student has sex/
-2. That he shouldn't have to live in the dorms. It is a rule that all freshman & sophomore students live in the dorms their first year. Yes, living in the dorms the first years of college help a student to adjust to the new format of education. 
+2. That he shouldn't have to live in the dorms. It is a rule that all freshman & sophomore students live in the dorms their first year. Yes, living in the dorms the first years of college help a student to adjust to the new format of education.
 =========yorg=========
 ===from:Brian Hamman
 ===date:Thu Sep 18 13:20:11 2003
 ===subject:Jacoby Q 1&2 (9/9)
 ===message:1. It depends on the students priorities. If he/she chooses to catch up on popular culture rather then catch up on studies so be it. I mean if you force a kid to study they aren't going to get much out of it. They have to want to learn the stuff.
-2. He is definately for the MCAS. I also think he is saying that kids have to know facts for their educational part of life, and they have to know facts for their social part of life. 
+2. He is definately for the MCAS. I also think he is saying that kids have to know facts for their educational part of life, and they have to know facts for their social part of life.
 =========yorg=========
 ===from:Brian Hamman
 ===date:Sun Sep 28 20:39:26 2003

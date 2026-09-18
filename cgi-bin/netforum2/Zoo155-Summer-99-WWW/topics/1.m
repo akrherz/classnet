@@ -4,7 +4,7 @@
 ===subject:Username and password
 ===message:You will need to use the following username and password to obtain access to the lectures.  This must all be done lower case.
 
-Username: anatomy              
+Username: anatomy
 
 
 
@@ -69,7 +69,7 @@ Thanks, have a great summer!   -Tim</pre>
 ===email:mrss@forbin.com
 ===date:Mon Jul  5 12:35:17 1999
 ===subject:Quiz 4 information
-===message:Quiz 4 is up.  It will cover material from lectures 12-15. 
+===message:Quiz 4 is up.  It will cover material from lectures 12-15.
 The word list for this quiz begins with alveol-
 
 Thanks,
@@ -80,7 +80,7 @@ Mrs. S.
 ===email:mrss@forbin.com
 ===date:Mon Jul  5 12:53:47 1999
 ===subject:Quiz 5 information
-===message:Quiz 5 covers material from lectures 16-19. 
+===message:Quiz 5 covers material from lectures 16-19.
 
 The quiz list begins with ana- and andro-.
 
@@ -158,9 +158,9 @@ Take each Study Guide for each exam.
 
 Type answers or definitions or information for each topic listed.
 
-E-mail or fax them to me. 
-You will receive 5 points per completed study guide.  
-This is an opportunity to receive 20 Extra Credit Points to be added to the final exam score.  
+E-mail or fax them to me.
+You will receive 5 points per completed study guide.
+This is an opportunity to receive 20 Extra Credit Points to be added to the final exam score.
 
 I must receive these by NOON August 6th.
 

@@ -11,33 +11,33 @@
 ===from:Anna King
 ===date:Tue Sep 23 18:23:15 2003
 ===subject:CA: PattersonQ1-4 9/23
-===message:1. Patterson states his claim in the fourth paragraph of the essay. He states, "In any case, the suggestion that the white population of America is fast on the way to becoming a minority is a gross distortion. This is the idea that he is trying to argue against and prove incorrect. 
+===message:1. Patterson states his claim in the fourth paragraph of the essay. He states, "In any case, the suggestion that the white population of America is fast on the way to becoming a minority is a gross distortion. This is the idea that he is trying to argue against and prove incorrect.
 
 2. -no possibility of whites becoming a minority
-  -Hispanic whites are intermarrying and assimilating 
+  -Hispanic whites are intermarrying and assimilating
     faster than European Americans
   -racist fears, affirmative action
   -reclassification of races
   -African American minority
 
-3. Patterson feels that by releasin inaccurate statistics people get worked over nothing. Whites feel their country is being taken over, therefore racial tensions increase. We need the media to stop obsessing about race, and if they aren't going to at least obsess accurately. 
+3. Patterson feels that by releasin inaccurate statistics people get worked over nothing. Whites feel their country is being taken over, therefore racial tensions increase. We need the media to stop obsessing about race, and if they aren't going to at least obsess accurately.
 
-4. His statistics and analyzation are persuasive, particularly the statical evidence, however this makes it more difficult to follow. There is a lot of numbers and words to work through to get the message Patterson wants to convey. The statistic that is the most susceptible to change is the future prediction statistic for the year 2050. This statistic is the one most likely to change or differ in the coming years. 
+4. His statistics and analyzation are persuasive, particularly the statical evidence, however this makes it more difficult to follow. There is a lot of numbers and words to work through to get the message Patterson wants to convey. The statistic that is the most susceptible to change is the future prediction statistic for the year 2050. This statistic is the one most likely to change or differ in the coming years.
 =========yorg=========
 ===from:Anna King
 ===date:Tue Sep 23 18:29:43 2003
 ===subject:CA: AdvertisementQ1-2 9/23
-===message:1. The women is trying to protect her family from the evil gas company. They're evil because they don't care about the child in the picture, the effect the gas has on children, or how devastating a gas accident could have on that woman's family, just like any other family in America. The oil company is trying to convey that smart people will choose to use oil rather than gas. Smart people, like the woman with the children, care about their family's well-being and how gas doesn't provide that and oil does. 
+===message:1. The women is trying to protect her family from the evil gas company. They're evil because they don't care about the child in the picture, the effect the gas has on children, or how devastating a gas accident could have on that woman's family, just like any other family in America. The oil company is trying to convey that smart people will choose to use oil rather than gas. Smart people, like the woman with the children, care about their family's well-being and how gas doesn't provide that and oil does.
 
-No, I do not feel this is justified. It's an emotional appeal with very little backing. The oil company is relying on a woman's innate need to protect her children, not on the actual basis of the dangers associated with gas heating versus oil heating. 
+No, I do not feel this is justified. It's an emotional appeal with very little backing. The oil company is relying on a woman's innate need to protect her children, not on the actual basis of the dangers associated with gas heating versus oil heating.
 
 2. This ad would be more valid if it included statistics of deaths in homes caused by gas heat compared to oil heat.
 =========yorg=========
 ===from:Anna King
 ===date:Tue Sep 23 18:35:38 2003
 ===subject:CA: Question 8 9/23
-===message:8. 
-D. "A dog is man's best friend." This is thought to be true because a dog is loyal, happy, hard-working, and obedient when treated as a 'best friend' by its owner. The dog will have all the qualities of a human best friend while making fewer mistakes, always being there, and never talking too much. There is this stereotypical view of dogs because most dogs have these qualities when treated correctly. It's almost like no man could ask for more. However, this image usually produces the "manly-man," not much of a talker, going out to hunt with his dog, and so on and in that case the man usually chooses to spend so much time with his 'best friend'. 
+===message:8.
+D. "A dog is man's best friend." This is thought to be true because a dog is loyal, happy, hard-working, and obedient when treated as a 'best friend' by its owner. The dog will have all the qualities of a human best friend while making fewer mistakes, always being there, and never talking too much. There is this stereotypical view of dogs because most dogs have these qualities when treated correctly. It's almost like no man could ask for more. However, this image usually produces the "manly-man," not much of a talker, going out to hunt with his dog, and so on and in that case the man usually chooses to spend so much time with his 'best friend'.
 =========yorg=========
 ===from:Anna King
 ===date:Tue Sep 23 19:07:59 2003
@@ -45,13 +45,13 @@ D. "A dog is man's best friend." This is thought to be true because a dog is loy
 ===message:FPT topic: the media has had a positive effect on women's rights.
 
 When did women begin to frequently appear in the media?
-How have "porn" magazines effected how people view women? Liberated? Subordinate? 
+How have "porn" magazines effected how people view women? Liberated? Subordinate?
 How have advertisements used women?
 How much of a role did women have in the beginner television days?
 Why do women resent media's use of their body today?
 Does the media exploit men's bodies as much as women's? Why?
 How do women's roles differ from men's roles in advertisements?
-Are women accurately portrayed in the media? 
+Are women accurately portrayed in the media?
 What are feminists? Where do they stand on this issue?
 Which women in the media have been a good influence on women's equality?
 Which women are a poor portrayal of the need for equality?
@@ -103,7 +103,7 @@ Grading nullifies testing because today they are to point out weakness and to de
 
 2. They want to save the environment and they're into butterflies.
 
-3. I think the butterfly advertisement is stronger. The other one is too much of an emotional appeal for me. 
+3. I think the butterfly advertisement is stronger. The other one is too much of an emotional appeal for me.
 =========yorg=========
 ===from:Anna King
 ===date:Fri Sep 26  0:53:46 2003
@@ -123,14 +123,14 @@ Grading nullifies testing because today they are to point out weakness and to de
 ===from:Anna King
 ===date:Fri Sep 26 17:06:01 2003
 ===subject:FPT: Journal week1
-===message:Last week I looked into speakers relevant to my topic and signed up to go to one next Wednesday. I also read the essays in the english book about media and sex issues. This week I researched magazines in the library and found one that I think will work well with my topic. I am in the process of checking out the magazine further and making sure it has the audience I want. Othewise, I have been reading up on my subject and I trying to gain a better understanding of both sides of my argument. 
+===message:Last week I looked into speakers relevant to my topic and signed up to go to one next Wednesday. I also read the essays in the english book about media and sex issues. This week I researched magazines in the library and found one that I think will work well with my topic. I am in the process of checking out the magazine further and making sure it has the audience I want. Othewise, I have been reading up on my subject and I trying to gain a better understanding of both sides of my argument.
 =========yorg=========
 ===from:Anna King
 ===date:Sat Oct  4  1:16:37 2003
 ===subject:CA: page153 Q1-4
 ===message:1. e) Friends is more amusing and realistic , simply more geared toward my humor, than Just Shoot Me.
 
-2. c) Affirmative action is a way for minority students to have an opportunity that they would have otherwise been denied. 
+2. c) Affirmative action is a way for minority students to have an opportunity that they would have otherwise been denied.
 Affirmative action selects students based on race rather than qualifications.
 
 3. sympathy - something that affects both people; what affects one person automatically affects the other
@@ -151,10 +151,10 @@ pity - feeling sorry for someone's unhappiness
 ===from:Anna King
 ===date:Fri Oct 17 23:52:50 2003
 ===subject:FPT: weekly journal 4
-===message:This week i attended a speech about politics and the media. the different messages conveyed by the different genders was very interesting and brought a new aspect to my topic. i also found two people that i plan to interview. One woman specializes on politics and media, the other on the media and women's images. these two interviews should really advance my essay. 
+===message:This week i attended a speech about politics and the media. the different messages conveyed by the different genders was very interesting and brought a new aspect to my topic. i also found two people that i plan to interview. One woman specializes on politics and media, the other on the media and women's images. these two interviews should really advance my essay.
 =========yorg=========
 ===from:Anna King
 ===date:Fri Oct 24 15:32:02 2003
 ===subject:FPT: weekly journal 5
-===message:this week i sent emails to the two people i want to interview, but i have not heard back from them so i'm not sure when my interviews will be happening. hopefully soon. otherwise, i met with iraj and discussed my progress on the project so far. we decided that i can have 2 sources from the textbook and 2 from outside sources, rather than 1 from an outside source and 3 from the textbook. i also think, because of his suggestion, that i will use jacoby's 'desensitized' article as a support for my opposition. 
+===message:this week i sent emails to the two people i want to interview, but i have not heard back from them so i'm not sure when my interviews will be happening. hopefully soon. otherwise, i met with iraj and discussed my progress on the project so far. we decided that i can have 2 sources from the textbook and 2 from outside sources, rather than 1 from an outside source and 3 from the textbook. i also think, because of his suggestion, that i will use jacoby's 'desensitized' article as a support for my opposition.
 =========yorg=========

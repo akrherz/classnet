@@ -21,7 +21,7 @@ http://www.heartland.org/earthday96/gwfacts.htm<P>
 ===date:Fri Feb 20 12:32:57 1998
 ===subject:assignment III
 ===message:http://www.iitap.iastate.edu/gcp/<P>
- 
+
 This website is also a site for a university course.
 =========yorg=========
 ===from:Bill Rockey
@@ -63,9 +63,9 @@ is a site sponsored by the national consumers union and represents an opposing v
 ===date:Tue Feb 24 16:45:15 1998
 ===subject:relationship of plants and ghg's
 ===message:It's my understanding that plants in general will prosper due to the effects of global warming.  Higher carbon dioxide concentrations result in higher respiration (and therefore production).  However, green plants respire water vapor as well as oxygen.  Water vapor is the most abundant green house gas in the atmosphere.  So, while the plants prosper in a high CO2 environment they're doing so at the expense of long wave radiation out, that is, it will be reflected back to earth, increasing global warming.  <P>
-While CO2 is in the atmosphere at high levels, I think perhaps methane emissions are of greater worth as far as reduction.  Methane is up to 20 times, molecule for molecule, more potent at absorbing radiation than is CO2, and it's also the most rapidly increasing green house gas. 
+While CO2 is in the atmosphere at high levels, I think perhaps methane emissions are of greater worth as far as reduction.  Methane is up to 20 times, molecule for molecule, more potent at absorbing radiation than is CO2, and it's also the most rapidly increasing green house gas.
 I thnk we should invest technology in areas like agriculture or lanfill management to try and siphon the methane emissions and use them for fuel.   Yes this adds CO2 to the atmosphere, but remember CO2 is 20 times less absorptive than methane.<P>
- 
+
 just my thoughts on parts 2 and 3 of assignment 3.
 
 
@@ -169,7 +169,7 @@ http://chemistry.miningco.com/library/weekly/aa020298.htm
 ===from:Sara Nachtman
 ===date:Tue Mar  3 20:07:11 1998
 ===subject:Assignment III
-===message:     There has been a thirteen percent increase in atmospheric carbon dioxide levels since 1958.  Why such a drastic incline?  Researchers have pointed the blame at the  elimination of trees, particularly tropical rain forests, and the burning of fossil fuels.  Trees absorb and recycle carbon dioxide.  Without them, we have an abundance of carbon dioxide which could have a very drastic effect on our earth in the future.  When radiation from the sun hits earth, it is reflected back into space.  Carbon dioxide and water vapor in the atmosphere take in this reflected radiation and aim it back towards earth.  This is called the greenhouse effect, and it creates warmer temperatures on earth.     I think that the best thing we can do to prevent global warming is to plant trees, and to reduce deforestation.  With trees we could eliminate the abundance of carbon dioxide in our atmosphere because the trees would absorb more and recycle it.  We could also be more concious about how we use fossil fuels, especially coal. There should be regulations on how plants and factories can emit dangerous gases into our atmosphere, creating global warming. 
+===message:     There has been a thirteen percent increase in atmospheric carbon dioxide levels since 1958.  Why such a drastic incline?  Researchers have pointed the blame at the  elimination of trees, particularly tropical rain forests, and the burning of fossil fuels.  Trees absorb and recycle carbon dioxide.  Without them, we have an abundance of carbon dioxide which could have a very drastic effect on our earth in the future.  When radiation from the sun hits earth, it is reflected back into space.  Carbon dioxide and water vapor in the atmosphere take in this reflected radiation and aim it back towards earth.  This is called the greenhouse effect, and it creates warmer temperatures on earth.     I think that the best thing we can do to prevent global warming is to plant trees, and to reduce deforestation.  With trees we could eliminate the abundance of carbon dioxide in our atmosphere because the trees would absorb more and recycle it.  We could also be more concious about how we use fossil fuels, especially coal. There should be regulations on how plants and factories can emit dangerous gases into our atmosphere, creating global warming.
 =========yorg=========
 ===from:Sarra Nachtman
 ===date:Tue Mar  3 20:11:42 1998
@@ -207,7 +207,7 @@ my response:  i'm replying to Jonathan Mullin's message.  I think he's right, es
 ===subject:Assignment 3 - parts 2 and 3
 ===message:Assignment 3 - Parts 2 and 3
 <P>
-The greenhouse effect is a natural phenomenon by which the greenhouse gases (carbon dioxide, water vapor, methane, ozone and nitrous oxide) in the earth’s atmosphere prevent all the solar radiation that the earth receives from being radiated back to space. This keeps the earth’s average annual surface air temperature at about 15 degrees Celsius. Without the greenhouse effect, the earth would be 33 degrees Celsius colder on the average, and would be uninhabitable. 
+The greenhouse effect is a natural phenomenon by which the greenhouse gases (carbon dioxide, water vapor, methane, ozone and nitrous oxide) in the earth’s atmosphere prevent all the solar radiation that the earth receives from being radiated back to space. This keeps the earth’s average annual surface air temperature at about 15 degrees Celsius. Without the greenhouse effect, the earth would be 33 degrees Celsius colder on the average, and would be uninhabitable.
 <P>
 In the past 10 years, prominent scientists have contended that in recent times, the greenhouse effect is contributing to an increase in temperature of the earth’s surface, because of the increased emissions of greenhouse gases (especially carbon dioxide) caused by human activities. This increase in temperature is referred to as "global warming". It is predicted, albeit with considerable controversy, that global warming will result in significant climatic and ecological changes in the next 50-100 years, that will significantly affect future life on earth.
 <P>
@@ -229,7 +229,7 @@ Adger, W.N. and K.Brown (1994), "Land Use and the Causes of Global Warming", Joh
 Wiener, J.B. (1997), "Designing Global Climate Policy: Efficient Markets versus Political Markets", Policy Study No. 143, Center for the Study of American Business, Washington University in St. Louis.
 <P>
 
- 
+
 
 =========yorg=========
 ===from:James Nisly
@@ -240,13 +240,13 @@ Wiener, J.B. (1997), "Designing Global Climate Policy: Efficient Markets versus 
 
 Part 1:<P>
 Website re: Global Warming: <P>
-http://www.globalwarming.net/    
+http://www.globalwarming.net/
 Global Warming International Center <P>
 The Global Warming International Center (GWIC) is the international body disseminating information on global warming science and policy, serving both governamental, non-governamental organizations, and industries in more than 120 countries. It sponsors unbiased research supporting the understanding of global warming and its mitigation. <P>
- 
+
 
 Part 2:<P>
-First of all, my understanding is that plants converted the high concentrations of carbon dioxide of the early earth to organic compounds.  This happened most notably during the Carboniferous Period of the Paleozoic Era, but, aside from times of catastophies such as huge volcanic activity, the carbon dioxide levels have generally decreased in the earth's atmosphere until the dawn of the industrial revolution which began about 150 years ago.  Again, this reduction in carbon dioxide was due to a net conversion of carbon dioxide to organic matter primarily via the process of photosythesis of plants.  The in last 150 years, humans have been converting huge quantities of organic compounds, mainly in the form of petroleum and coal, back into carbon 
+First of all, my understanding is that plants converted the high concentrations of carbon dioxide of the early earth to organic compounds.  This happened most notably during the Carboniferous Period of the Paleozoic Era, but, aside from times of catastophies such as huge volcanic activity, the carbon dioxide levels have generally decreased in the earth's atmosphere until the dawn of the industrial revolution which began about 150 years ago.  Again, this reduction in carbon dioxide was due to a net conversion of carbon dioxide to organic matter primarily via the process of photosythesis of plants.  The in last 150 years, humans have been converting huge quantities of organic compounds, mainly in the form of petroleum and coal, back into carbon
 dioxide thus increasing the atmospheric levels of carbon dioxide.  <P>
 
 So, plants are an indirect cause of increased levels of greenhouse gases because humans are burning the organic compounds which the plants converted via the photosythesis process, however plants are directly involved in the reduction of greenhouse gases by converting carbon dioxide into organic compounds, thus reducing atmospheric levels of greenhouse gases.  <P>
@@ -255,7 +255,7 @@ So, plants are an indirect cause of increased levels of greenhouse gases because
 Part 3: <P>
 First of all, I can not think of any way that humans can have a direct effect in minimizing the impact of greenhouse gas induced global warming.  I haven't even heard of any capacity to minimize the effect of this years el-nino, other than to forcast inclimate weather and recommend for people to take necessary precautions.  I assume that this question wants me to address what steps we can take to reduce the greenhouse gases which are causing and will continue to cause global warming.  If this is the question, my recommendation is for governments to begin to tax fossil fuel energy at taxation levels considerably higher than what they currently are.  This would do several things:<P>
 1. It would reduce the consumption of fossil fuels just because they are more expensive;<P>
-2. It would make renewable energy, (preferably solar energy and hydro-electric energy) more affordable than fossil fuel 
+2. It would make renewable energy, (preferably solar energy and hydro-electric energy) more affordable than fossil fuel
 energy, therefore increasing its use;<P>
 3. It would generate tax revenues which could be spent on: <P>
 A. research on how to use fossil fuel energy more efficiently, <P>
@@ -263,7 +263,7 @@ B. building more renewable energy harvesting facilies, and <P>
 C. developing new technologies to make the  use of  renewable energy more practical. <P>
 
 Part 4: <P>
-I assume you want me to reply to someone elses recommendation directly, and not in this file. <P> 
+I assume you want me to reply to someone elses recommendation directly, and not in this file. <P>
 
 
 
@@ -276,7 +276,7 @@ I assume you want me to reply to someone elses recommendation directly, and not 
 <br>
 The web address I found is:
 http://www.telson.net/thetruth.htm#ENVIRONMENT
- 
+
 <br>
 Part 2
 <br>
@@ -286,7 +286,7 @@ The web site I found stated that CFCs found in the Freon that is present in air 
 <br>
 Part 3
 <br>
-If this is possible in any way, we should increase the number of CO2 absorbing organisms, plants, on earth.  
+If this is possible in any way, we should increase the number of CO2 absorbing organisms, plants, on earth.
 Population explosions are a problem, but there are areas of land that aren't totally necessary to clear away.  We could even increase the number of potted plants and cover the city streets and blocks with.  I really don't know any other creative or logical ways to correct this problem.
 =========yorg=========
 ===from:Beckie Bollin
@@ -294,7 +294,7 @@ Population explosions are a problem, but there are areas of land that aren't tot
 ===subject:Global Warming Web Site
 ===message:http://www.edf.org/issues/globalwarming.html<P>
 
-This is a great site from the Environmental Defense Fund. It 
+This is a great site from the Environmental Defense Fund. It
 has several articles about how global warming could affect
 different places in the world. <P>
 =========yorg=========
@@ -313,9 +313,9 @@ Personally, I think the answer to global warming (and many other environmental/e
 ===from:Beckie Bollin
 ===date:Wed Mar  4 20:00:26 1998
 ===subject:Assignment III
-===message:My recommendation is as follows, as corny as it may sound.<P> 
+===message:My recommendation is as follows, as corny as it may sound.<P>
 I truly believe that the only way anything is going to get done about this problem is to remain aware of it. Those of us in this course right now are the biologists, botanists, engineers, researchers, scientists and leaders that are going to sculpt the future of the planet. We can delude ourselves and say that global warming isn't a problem and let it slip our minds, OR, we can commit to the ecosystem being a priority in what we do. We can help raise community awareness. We can plant trees and sponser organizations to do the same. We can make it our life's work to study the problem and find the solution. We can support environmental causes that help implement that solution. We can engineer cleaner burning fuels and explore alternative energy sources. <P>
-My recommendation is to remember that our own little worlds are part of a bigger world. 
+My recommendation is to remember that our own little worlds are part of a bigger world.
 
 =========yorg=========
 ===from:Bill Rockey
@@ -323,7 +323,7 @@ My recommendation is to remember that our own little worlds are part of a bigger
 ===subject:Part 2
 ===message:	The atmosphere surrounding the earth not only serves to support life chemically but also acts as an insulating blanket which keeps the sun’s heat in the ecosystem.  The earth is in thermodynamic equilibrium with the sun; i.e., the earth radiates energy back into space at the same rate it absorbs energy from the sun.  As seen from space, the earth has a temperature of 254 K outside the atmosphere (about –2.5 degrees F), a temperature much too cold to sustain life. Through a phenomenon known as the greenhouse effect, the atmosphere retains a great deal of the sun’s energy which would otherwise radiate back into space.  Water vapor and carbon dioxide are the atmospheric components responsible for infrared absorption.  (Brown, 1994) <P>
 	As humanity alters the natural carbon dioxide balance through its diverse machinations, the temperature of the earth may rise a few degrees over the next century.  Since plants rely on carbon dioxide to produce photosynthesis, they are intrinsically affected by the changing concentrations of carbon dioxide in the atmosphere.  Indeed, as the levels of carbon dioxide rise, plant growth actually increases, particularly plants with a C3 Calvin cycle since these plants are more affected by carbon dioxide availability.   Due to this selection, the dominance of C3 plants may increase as the carbon dioxide levels increase.  (Campbell, 1996) <P>
-	As more and more areas of forestation are being destroyed, the levels of carbon dioxide in the atmosphere rise since a great amount of carbon dioxide is converted to glucose through photosynthesis.  It is estimated that each year, 20% of the carbon dioxide emission due to humanity is caused by the annual destruction of 25 million acres of rain forest.  (Helikson, 1992)  Plants are the regulators of the carbon dioxide cycle, and it is to plants that humanity should turn as it seeks the answer to this dilemma that has the potential to drastically alter life as we know it.   
+	As more and more areas of forestation are being destroyed, the levels of carbon dioxide in the atmosphere rise since a great amount of carbon dioxide is converted to glucose through photosynthesis.  It is estimated that each year, 20% of the carbon dioxide emission due to humanity is caused by the annual destruction of 25 million acres of rain forest.  (Helikson, 1992)  Plants are the regulators of the carbon dioxide cycle, and it is to plants that humanity should turn as it seeks the answer to this dilemma that has the potential to drastically alter life as we know it.
 <P>
 
 Brown, Theodore.  1994.  Chemistry, The Central Science, Sixth Edition.  Englewood Cliffs, NJ:  Prentice 	Hall. <P>
@@ -338,7 +338,7 @@ Helikson, H.J.  1992.  “Global Climatic Change Primer.”  University of Florida, 
 ===institution:ISU
 ===date:Wed Mar  4 20:19:38 1998
 ===subject:Part 3
-===message:	Since the burning of hydrocarbons contributes so greatly to the emission of carbon dioxide in the atmosphere, it would make sense to reevaluate the industrial and consumer level processes used to harness the energy of these fuels.  Even over the past ten years, the technology in automobiles to produce cleaner exhaust has improved tremendously, and scientists are ever developing new compositions of fuel which burn cleaner.  Energy sources other than hydrocarbons are an ideal solution, but the adoption of these often expensive and impractical schemes by the public is totally unrealistic.  I suggest that work be continued in the improvement of existing technologies, including the designing of industrial processes that are as environmentally responsible as possible.  
+===message:	Since the burning of hydrocarbons contributes so greatly to the emission of carbon dioxide in the atmosphere, it would make sense to reevaluate the industrial and consumer level processes used to harness the energy of these fuels.  Even over the past ten years, the technology in automobiles to produce cleaner exhaust has improved tremendously, and scientists are ever developing new compositions of fuel which burn cleaner.  Energy sources other than hydrocarbons are an ideal solution, but the adoption of these often expensive and impractical schemes by the public is totally unrealistic.  I suggest that work be continued in the improvement of existing technologies, including the designing of industrial processes that are as environmentally responsible as possible.
 =========yorg=========
 ===from:Kate McGhee
 ===date:Wed Mar  4 20:55:44 1998
@@ -366,23 +366,23 @@ So although the accumulation of the greenhouse effect should, theoretically, cau
 ===email:abolton@iastate.edu
 ===date:Wed Mar  4 22:41:23 1998
 ===subject:Assignment 3 Part 2
-===message:	Global warming is caused by the atmosphere trapping in 
-heat because the concentration of carbon dioxide in the 
-atmosphere is increasing.  Many scientists link global 
-warming to human activities such as the burning of fossil 
-fuels.  It is not for sure what exactly will happen as a 
-result of global warming, but scientists believe it is 
-likely that future impacts may include damage to human 
-health, the rise in sea level, and more extreme weather 
+===message:	Global warming is caused by the atmosphere trapping in
+heat because the concentration of carbon dioxide in the
+atmosphere is increasing.  Many scientists link global
+warming to human activities such as the burning of fossil
+fuels.  It is not for sure what exactly will happen as a
+result of global warming, but scientists believe it is
+likely that future impacts may include damage to human
+health, the rise in sea level, and more extreme weather
 conditions.<P>
-	Plants play a great role in decreasing the accumulation 
-of these greenhouse gases.  Plants take up the carbon 
-dioxide that is released out into the environment by human 
-beings and other animals.  Through photosynthesis, plants 
-convert this carbon dioxide into oxygen that is then 
-released into the environment.  Plants, therefore, help to 
-reduce the amount of carbon dioxide in the environment, but 
-cannot account for or help the increased release of it into 
+	Plants play a great role in decreasing the accumulation
+of these greenhouse gases.  Plants take up the carbon
+dioxide that is released out into the environment by human
+beings and other animals.  Through photosynthesis, plants
+convert this carbon dioxide into oxygen that is then
+released into the environment.  Plants, therefore, help to
+reduce the amount of carbon dioxide in the environment, but
+cannot account for or help the increased release of it into
 the same environment.<P>
 
 =========yorg=========
@@ -390,19 +390,19 @@ the same environment.<P>
 ===email:abolton@iastate.edu
 ===date:Wed Mar  4 23:22:22 1998
 ===subject:Assignment 3 Part 3
-===message:	I believe a worldwide effort must be taken for any 
-solution to work.  A variety of small steps may eventually 
+===message:	I believe a worldwide effort must be taken for any
+solution to work.  A variety of small steps may eventually
 add up to the desired result.<P>
-	For starters, cars give off a LOT of carbon dioxide 
-gas.  There are a couple ways this problem can be reduced.  
-Car manufacturers could find a way to reduce this in the 
-making of the car.  People could also use their cars less or 
+	For starters, cars give off a LOT of carbon dioxide
+gas.  There are a couple ways this problem can be reduced.
+Car manufacturers could find a way to reduce this in the
+making of the car.  People could also use their cars less or
 carpool more.<P>
-	The burning of fossil fuels also adds a great deal to 
-global warming.  I don't know that there really is a 
-solution to that though unless we can possibly find a way to 
+	The burning of fossil fuels also adds a great deal to
+global warming.  I don't know that there really is a
+solution to that though unless we can possibly find a way to
 produce energy more efficiently.<P>
-	Again I don't think there is ONE big step to take, but 
+	Again I don't think there is ONE big step to take, but
 if everyone helps a little maybe a dent can be made.<P>
 
 =========yorg=========
@@ -427,7 +427,7 @@ if everyone helps a little maybe a dent can be made.<P>
 ===message:Part 1: A website where information about global warming can be found is http://www.cato.org/dailys/9-15-97.html<P>
 
 
-Part 2: Plates are related to the accumulation of greenhouse gases in that when they are burned carbon dioxide is produced.  Trees are burned every year for the purpose of farming.  This is called the slash and burn technique.  New land is bleared by burning in forest regions because old farm land has  been depleted of minerals needed for plants to grow.  The carbondioxide released from the trees when burned accumulates in the atmosphere.  Carbon dioxide in the atmosphere may absorb infared radiation reflected from the earth's surface and reflect it back toward the earth raising temperatures-global warming.  Another reason plants are related is because they are an important store of carbon.  When these trees are burned we not only accumulate carbon dioxide, we destroy a way of taking carbon dioxide from the atmosphere. <P> 
+Part 2: Plates are related to the accumulation of greenhouse gases in that when they are burned carbon dioxide is produced.  Trees are burned every year for the purpose of farming.  This is called the slash and burn technique.  New land is bleared by burning in forest regions because old farm land has  been depleted of minerals needed for plants to grow.  The carbondioxide released from the trees when burned accumulates in the atmosphere.  Carbon dioxide in the atmosphere may absorb infared radiation reflected from the earth's surface and reflect it back toward the earth raising temperatures-global warming.  Another reason plants are related is because they are an important store of carbon.  When these trees are burned we not only accumulate carbon dioxide, we destroy a way of taking carbon dioxide from the atmosphere. <P>
 
 Part 3: The recommendation I have to minimize the greenhouse effect is better forest management.  If better forest management was practiced the trees being cut down would be replaced.  I also suggest that crop rotation be used by farmers for that the nutrients are not depleted as quickly from the land that has already been cleared.
 =========yorg=========
@@ -449,15 +449,15 @@ Part 2<P>
 Plants are key players in the global warming game.  Greenhouse gases emitted by the burning of plants contribute to the global warming problem.  The burning gives off CO2 one of the greenhouses gases.  Though this is not the number one cause of the dangerous increase in greenhouse gases in our atmosphere, it is a contributor.<P>
 Plants are very important in filtering CO2 our of the atmosphere.  The reduction of plant life means a reduction of CO2 filters.  This is a major concern because plants are being burned by the thousands of acres in many tropical areas.<P>
 It should be noted, however, that global warming may not be as big of a problem as previously thought.  Studies by a UAH research team have found that global warming in the last 15 plus years has been only 1/4 of what was predicted.<P>
-Part 3<P> 
-The best way to combat the impact of greenhouse gas induced global warming is by reducing the emission of industrially released greenhouse gases and creating higher emission standards for new cars.  Emissions from some large factories are leading causes in the excessive amounts of greenhouse gases in the atmosphere.  Industries should be forced to maintain high standards in emitting as few greenhouse gases as possible.  The automobile industry should also have to carefully monitor the rate of emission on their new vehicles.  These solutions would not solve the global warming problem, but they would get us headed in the right direction.  
+Part 3<P>
+The best way to combat the impact of greenhouse gas induced global warming is by reducing the emission of industrially released greenhouse gases and creating higher emission standards for new cars.  Emissions from some large factories are leading causes in the excessive amounts of greenhouse gases in the atmosphere.  Industries should be forced to maintain high standards in emitting as few greenhouse gases as possible.  The automobile industry should also have to carefully monitor the rate of emission on their new vehicles.  These solutions would not solve the global warming problem, but they would get us headed in the right direction.
 =========yorg=========
 ===from:David Cohen
 ===email:cato@iastate.edu
 ===date:Thu Mar  5 16:14:27 1998
 ===subject:Assignment 3 parts 2,3
 ===message:Part 2
-When I think of the greenhouse effect, I imagine a car.  When the rays pass through the windshield of the car, it's like the sun's rays passing through the atmosphere.  They get trapped inside the earth, and that's how global warming effects us.  Plants aid us by taking the harmful greenhouse gasses and using them as food.  They then produce oxygen which aids us.  There aren't enough plants now to completely counteract what the greenhouse effect is doing, so there is still increasing global warming.  
+When I think of the greenhouse effect, I imagine a car.  When the rays pass through the windshield of the car, it's like the sun's rays passing through the atmosphere.  They get trapped inside the earth, and that's how global warming effects us.  Plants aid us by taking the harmful greenhouse gasses and using them as food.  They then produce oxygen which aids us.  There aren't enough plants now to completely counteract what the greenhouse effect is doing, so there is still increasing global warming.
 <br>
 Part 3
 In order to slow down global warming, we must plant more trees.  It's that simple.  By planting more plants, we will reduce the amount of harmful greenhouse gas and slow global warming.  Another way to slow global warming is to come up with some type of device to convert the harmful greenhouse gasses to something else that isn't so harmful and doesn't contribute to global warming.
@@ -465,7 +465,7 @@ In order to slow down global warming, we must plant more trees.  It's that simpl
 ===from:Ross Laubscher
 ===date:Thu Mar  5 17:10:01 1998
 ===subject:Assignment III parts 2,3
-===message:I found that there are three principle gases, related to human activity, that are responsible for the warming of the earth's surface.  They include carbon dioxide, methane, and nitrous oxide.   Plants use carbon dioxide for photosynthesis and give off oxygen.  By icreasing the earth's vegetation we rid the atmosphere of gases that in excess.Part 3I recommend that we don't burn as much and save the rain forest. 
+===message:I found that there are three principle gases, related to human activity, that are responsible for the warming of the earth's surface.  They include carbon dioxide, methane, and nitrous oxide.   Plants use carbon dioxide for photosynthesis and give off oxygen.  By icreasing the earth's vegetation we rid the atmosphere of gases that in excess.Part 3I recommend that we don't burn as much and save the rain forest.
 =========yorg=========
 ===from:Damon Johnson
 ===date:Thu Mar  5 20:25:34 1998
@@ -490,7 +490,7 @@ There is one positive prediction to global warming.  CO2 enables plants to use w
 ===email:rox@iastate.edu
 ===date:Thu Mar  5 23:36:22 1998
 ===subject:Greenhouse Effect
-===message:The intricate relationship between plants and the greenhouse effect is fundamental to the survival of the world as we know it.  As the burning of fossil fuels releases harmful greenhouse gases into the atmosphere at an average rate of 5 billion tons per year our earth is increasingly insulated.  Due to the greenhouse effect, the earth's average temperature is expected to rise nearly 5 degrees Farenheit by the year 2100.  Without the earth's chief oxygen/carbon dioxide converters, the rainforests, this process is accelerated.  As 1000's of acres of rainforest are lost per day, our future of clean air slips away as well.  At the rate of .23% per year, carbon dioxide levels increase.  The only defense against the accumulation of greenhouse gases (mainly CH2 and CO2) is to stop cutting down our rainforests and to increase efforts to replace the trees that have been lost.  
+===message:The intricate relationship between plants and the greenhouse effect is fundamental to the survival of the world as we know it.  As the burning of fossil fuels releases harmful greenhouse gases into the atmosphere at an average rate of 5 billion tons per year our earth is increasingly insulated.  Due to the greenhouse effect, the earth's average temperature is expected to rise nearly 5 degrees Farenheit by the year 2100.  Without the earth's chief oxygen/carbon dioxide converters, the rainforests, this process is accelerated.  As 1000's of acres of rainforest are lost per day, our future of clean air slips away as well.  At the rate of .23% per year, carbon dioxide levels increase.  The only defense against the accumulation of greenhouse gases (mainly CH2 and CO2) is to stop cutting down our rainforests and to increase efforts to replace the trees that have been lost.
 =========yorg=========
 ===from:Roxanne Sweney
 ===email:rox@iatate.edu
@@ -509,7 +509,7 @@ So maybe we should leave the earth alone.  Continue cutting down trees, keep pum
 ===date:Thu Mar  5 23:47:33 1998
 ===subject:I have gas problem
 ===message:<p> The world is a very delicate balance of various equilibrium.  If one equilibrium is thrown off the world most suffer.  Mankind has been adding tons of gases to the atmosphere which has now made it more difficult to get rid of carbon dioxide.  The carbon dioxide then mounts in the atmosphere and slowly but surely, glonbal warming occurs. We have deystroyed the rainforest and pluncder the worlds natural resrources.
-<p> Now some might ask but how does the involve plants?  Well, plants through a procees oof photsynthesis take in carbon dioxide, and release Oxygen and water back in to the atmosphere.  Then planbts take some oxygen back in to undergo aerrobic respiration.  One plant alone doesn't make that much of a difference but a rainforst does.  
+<p> Now some might ask but how does the involve plants?  Well, plants through a procees oof photsynthesis take in carbon dioxide, and release Oxygen and water back in to the atmosphere.  Then planbts take some oxygen back in to undergo aerrobic respiration.  One plant alone doesn't make that much of a difference but a rainforst does.
 <p>How can this problem be avoided?  Well, by setting new regulations on the air pollution satnadrds in cars and factories worldwide.  Most pollution doesn't come from super power it is produced by the underdeveloped nations. the rainforest must be replanted instead of deystroyed.  There is no way to stop this, but we can atleast try to slow it down.
 =========yorg=========
 ===from:Nikkoli Dollinger
@@ -517,13 +517,13 @@ So maybe we should leave the earth alone.  Continue cutting down trees, keep pum
 ===subject:Plants and Global Warming
 ===message:Part 1: http://www.marin.k12.ca.us/~kenthtp/kentms.htp/warming/keith_index.html <p>Part 2: The leaves of plants take in carbon dioxide from the air.  Within the leaves, thecarbon dioxide is converted to oxygen and carbohydrate.  This process is calledphotosynthesis.  Photosynthesis is powered by the energy of the sun.  Animals needoxygen and carbohydrates to survive.  We humans are doing a “double whammy” to ourselves.  With the increase in the use ofautomobiles, with “industrialization” we burn more fossil fuels.  This increases the amountof carbon dioxide in the atmosphere.  The continuing destruction of the agriculture areasin the world also contribute to the accumulation of greenhouse gases, The carbon dioxideis increased, and there are less and less plants around to recycle the carbon dioxide.  These factors have interfered with the natural cycling of oxygen and carbon dioxide.  Thecarbon dioxide then acts somewhat like a blanket over the earth.  This blanket traps inheat, causing earth’s temperature to rise.<p>Part 3: My first recommendation is that every person in the world can play a part inminimizing the impact of greenhouse gases.  I know that I can not change the wholeworld.  I can however change how I live my daily life.  If everyone made a consciouseffort to cut back on the use of things that they know are harmful, it would be a start.  I know in today’s society that many can not live with out things that are contributing tothe problem.  These things have become “necessities.”  Because of this there needs to be greater research into alternative ways to do these things. With much of the technology we have today I believe that we can find better ways to dothings.  I do not know how (yet!).  One of the main problems with this is economics.  Ittakes money to do research, maybe with an increased awareness more people would bewilling to contribute money, or maybe even have more government funding for this type ofresearch (I am not even sure if there is any funding now?).<p>Part 4: I have chosen to reply to Beckie Bollins recommendation, I agree with Becky’srecommendation.  It fits right in with mine that everyone can play a part in helping, and weas the future have a big part in this.  Education I believe is often the key to change.  Ifpeople do not know why they should do something they are less willing to do it. <p>
 =========yorg=========
-===from:Ellie 
+===from:Ellie
 ===email:ellie@iastate.edu
 ===date:Fri Mar  6 20:49:26 1998
 ===subject:Assignment III
-===message:	The greenhouse effect has been an issue of concern for several years now. Put simply, the greenhouse effect is the trapping of infared rays by certain gases in the atmosphere, which warm the land and surrounding air. While some gases are naturally occuring, like methane and carbon dioxide, others, like chloroflourocarbons, are manmade. Carbon dioxide and other naturally occuring types are supposed to retain warmth in the atmosphere. However, the excessive amounts of these gases present in the atmosphere make  them a little too successful, which can lead to several enviromental imbalances. 
+===message:	The greenhouse effect has been an issue of concern for several years now. Put simply, the greenhouse effect is the trapping of infared rays by certain gases in the atmosphere, which warm the land and surrounding air. While some gases are naturally occuring, like methane and carbon dioxide, others, like chloroflourocarbons, are manmade. Carbon dioxide and other naturally occuring types are supposed to retain warmth in the atmosphere. However, the excessive amounts of these gases present in the atmosphere make  them a little too successful, which can lead to several enviromental imbalances.
 
-	Plants are involved due to the fact that they require carbon dioxide as an ingredient in photosynthesis. The destruction of tropical rain forests and the cutting down of other vegetation drastically reduces the amount of carbon dioxide used by plants. In conjunction with the overproduction of carbon dioxide through vehicle exhaust and factory waste products, the amount of carbon dioxide in the atmosphere has risen sharply. 
+	Plants are involved due to the fact that they require carbon dioxide as an ingredient in photosynthesis. The destruction of tropical rain forests and the cutting down of other vegetation drastically reduces the amount of carbon dioxide used by plants. In conjunction with the overproduction of carbon dioxide through vehicle exhaust and factory waste products, the amount of carbon dioxide in the atmosphere has risen sharply.
 =========yorg=========
 ===from:Ellie
 ===email:ellie@iastate.edu

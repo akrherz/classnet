@@ -10,7 +10,7 @@
 <CENTER>
 
   <H2>Linear Equations<br>
-    General form: <font color="green">a</font><font color="red">X</font> + 
+    General form: <font color="green">a</font><font color="red">X</font> +
     <font color="green">b</font><font color="red">Y</font> = <font color="green">c</font>
   </H2>
   <HR>
@@ -20,7 +20,7 @@
 
   <HR>
   <a href="http://classnet.cc.iastate.edu/cgi-bin/main-menu">ClassNet Main Menu</a>
-  <br> 
+  <br>
   <a href="http://classnet.cc.iastate.edu/graph/help.html">Help</a>
   <HR>
   <i>Copyright 1996, Iowa State University</i>

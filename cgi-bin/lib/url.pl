@@ -3,22 +3,22 @@
 # url.pl	--- recognize, parse and retrieve URLs
 #
 # Copyright (c) 1995 Oscar Nierstrasz
-# 
+#
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation; either version 2 of the License, or (at
 # your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful, but
 # WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 # General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program (as the file COPYING in the main directory of
 # the distribution); if not, write to the Free Software Foundation,
 # Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-# 
+#
 #
 # NB: If this package interests you, you should probably
 # have a look at Roy Fielding's libwww-perl packages:
@@ -38,7 +38,7 @@
 # 5/4/94 -- commented out ftp stuff (problems at various sites)
 
 # Gorm Haug Eriksen gorm@usit.uio.no
-# 20/5/95 -- added get_mod 
+# 20/5/95 -- added get_mod
 
 package url;
 
@@ -62,10 +62,10 @@ sub get {
 	($type,$host,$port,$path,$request) =
 		html'parse($type,$host,$port,$path,$url);
 	if ($host) {
-		if ($type eq "http") { 
-                   my $txt=  http'get($host,$port,$request,$version); 
-                } else { 
-                    undef; 
+		if ($type eq "http") {
+                   my $txt=  http'get($host,$port,$request,$version);
+                } else {
+                    undef;
                 }
 	} else {
             undef;
@@ -78,8 +78,8 @@ sub mod_get {
     local($url,@modtime) = @_;
     ($type,$host,$port,$path,$request) = &html'parse($type,$host,$port,$path,$url);
 	 if ($host) {
-             $bah= &http'mod_get($host,$port,$request,@modtime); 
-    
+             $bah= &http'mod_get($host,$port,$request,@modtime);
+
     $bah;
     }
 }
@@ -103,7 +103,7 @@ sub defport {
 # 	&ftp'close;
 # 	$page;
 # }
-# 
+#
 # sub fail {
 # 	$save = &ftp'error;
 # 	&ftp'close;

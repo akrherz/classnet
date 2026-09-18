@@ -58,12 +58,12 @@ $FIELDNF,
 "Please complete or correct information for <B>%s</B>.$RETRY",
 
 $PWDVERIFY,
-"The values you entered for password and verify password are not the 
+"The values you entered for password and verify password are not the
 same.$RETRY",
 
 $PWDBAD,
-"The password you entered is incorrect. UPPER and lower case 
-letters are important.  Check your CAPS LOCK key.$RETRY<BR>If you continue to have 
+"The password you entered is incorrect. UPPER and lower case
+letters are important.  Check your CAPS LOCK key.$RETRY<BR>If you continue to have
 trouble, contact your instructor (for students) or ClassNet administrator (for instructors) to change your password.",
 
 $CLASSEX,
@@ -95,8 +95,8 @@ $ENROLL,
 "Your enrollment must be approved by your instructor before you can proceed.",
 
 $ENROLLREQ,
-"Your enrollment request has been submitted to your instructor. The 
-instructor must approve this request before you can perform any 
+"Your enrollment request has been submitted to your instructor. The
+instructor must approve this request before you can perform any
 activities. You will be notified by email when your request is approved.",
 
 $MEMBEREX,
@@ -365,7 +365,7 @@ Reports message if the Class Name is Sample Class and exists
 
 =item Params
 $query: CGI query object
-$msg: Text of operation being attempted 
+$msg: Text of operation being attempted
 
 =item Returns
 Exits
@@ -384,7 +384,7 @@ sub check_sample {
   print <<"FOOTER";
 The operation to <B>$msg</B> would normally be completed at this time,
 but won't actually be performed since you are using the Sample class.
-Press <B>Back</B> to continue exploring. 
+Press <B>Back</B> to continue exploring.
 $GLOBALS::HR
 </BODY>
 </HTML>

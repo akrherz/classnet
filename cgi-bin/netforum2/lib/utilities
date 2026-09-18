@@ -63,7 +63,7 @@
 
 
 
-# This routine was used to sort the list of responese in the 
+# This routine was used to sort the list of responese in the
 # sub number { $a <=> $b; }
 
 # lock files at the system level
@@ -101,7 +101,7 @@ sub get_url_vars {
     $ENV{'PATH_INFO'} =~ s/\///;
 
     if ( $ENV{'PATH_INFO'} =~ /$cvar_separator/ ) {
-	($which_command,$command_vars) = 
+	($which_command,$command_vars) =
 	    split($cvar_separator, $ENV{'PATH_INFO'});
     } else {
 	$which_command = $ENV{'PATH_INFO'};
@@ -146,13 +146,13 @@ sub front_page{
 sub markup_options{
 
     local($in, $vars) = @_;
-    
+
     if ($vars eq 'html'){return "$in"}
     elsif($vars eq 'pre'){return "<pre>$in</pre>"}
     elsif($vars eq 'translated'){
 	$in =~ s/\r//g;
-	$in =~ s/\n\n\n/\n\<p\>\n/g;	
-	$in =~ s/\n\n/\n\<br\>\n/g;	
+	$in =~ s/\n\n\n/\n\<p\>\n/g;
+	$in =~ s/\n\n/\n\<br\>\n/g;
 	return $in;
 	}
     else{&doh("Not a formatting option: $vars")};
@@ -206,7 +206,7 @@ EOH
 }
 
 # this prints the header files for each forum. it tests to see if
-# a particular forum has a header (by the file existing) and 
+# a particular forum has a header (by the file existing) and
 # if not uses the standard system one
 
 sub header {
@@ -219,15 +219,15 @@ sub header {
 	$forum_header = "$home_directory/lib/header";
     }
 
-    open(DUMP, $forum_header) || 
+    open(DUMP, $forum_header) ||
 	&doh('Couldn\'t open header file: $forum_header');
-	
+
     while(<DUMP>){
 #	s/PICTURE/$forum_gif/;	# HEY! shouldn't this line go?
 	print;
     }
     close(DUMP);
-    
+
 }
 
 
@@ -243,7 +243,7 @@ sub footer {
 
     unless( -e $footer ) { $footer = "$home_directory/lib/footer"; }
 
-    open(DUMP_AGAIN, $footer) || 
+    open(DUMP_AGAIN, $footer) ||
 	&doh('Couldn\'t find footer file','nofoot');  # nofoot fixes possible
 				# looping -- it keeps going & going ...
 
@@ -257,7 +257,7 @@ sub footer {
     print "<BR><a href=\"http://www.biostat.wisc.edu/netforum\">\n";
     print "About NetForum</a> - v.$v\n<hr>";
 #ISU change - ctime generates an error
-#    print &ctime(time), 
+#    print &ctime(time),
     print "<BR>\n";
 }
 
@@ -288,7 +288,7 @@ sub check_hot_tamale{
     }
 }
 
-# Encode html so that it doesn't get goofed up in the client server 
+# Encode html so that it doesn't get goofed up in the client server
 # exchange
 
 sub encode{
@@ -304,7 +304,7 @@ sub encode{
     }
 }
 
-# decode the damage we did above 
+# decode the damage we did above
 
 sub decode{
     foreach $item (@_){
@@ -327,7 +327,7 @@ sub block_html{
     }
 }
 
-# this give the list of possible formatting options 
+# this give the list of possible formatting options
 # this list is established by the assoc array %format_types
 
 sub format_list {
@@ -388,7 +388,7 @@ sub format_list {
 
 }
 
-# if possible this opens the topic description file and 
+# if possible this opens the topic description file and
 # prints that info to a page.
 
 sub get_topic_info {
@@ -413,11 +413,11 @@ sub get_topic_info {
 	print &email( $email );
     }
 
-    else { 
+    else {
 	print "<BR>\n";
     }
     if ($insto_site){
-	print "<b>$institution_field_name:</b> <a href=\"$insto_site\">"; 
+	print "<b>$institution_field_name:</b> <a href=\"$insto_site\">";
 	$a_site = 1;
     }
     if ($institution){
@@ -425,7 +425,7 @@ sub get_topic_info {
 	    print "<b>$institution_field_name:</b> $institution<BR>\n";
 	}
 	else {
-	    print "$institution</a><BR>\n"; 
+	    print "$institution</a><BR>\n";
 	}
     }
     if ($date){
@@ -446,8 +446,8 @@ sub get_topic_info {
 sub parse_topic_file {
 
     local($topic_file) = @_;
-    
-    open(TOPIC_INFO, $topic_file) || 
+
+    open(TOPIC_INFO, $topic_file) ||
 	&doh("Could not open topic info file $topic_file");
 
 
@@ -496,14 +496,14 @@ sub parse_topic_file {
 	else {
 	    $comments .= $_;
 	}
-    }				
+    }
 
    close(TOPIC_INFO);
 
 }
 
 
-# this parses the good old a file 
+# this parses the good old a file
 
 sub parse_a {
 
@@ -523,7 +523,7 @@ sub parse_a {
     while(<A>)
     {
 	next if (/^\$netforum_url/);
-	last if ( /^\&/);	
+	last if ( /^\&/);
 	if (/^\$/) {
 	    eval;
 	}
@@ -545,7 +545,7 @@ sub unimplemented {
     print "That feature $in{'action'} hasn\'t been implemented yet!";
     print "<BR>\n<HR>";
 
-    &admin_footer;		 
+    &admin_footer;
 
 }
 
@@ -558,10 +558,10 @@ sub read_messages {
 
     $j = $num_messages;
 
-    $message_file_path = 
+    $message_file_path =
          "$home_directory/$which_forum/topics/$topic_number.m";
 
-    open(MESSAGE, $message_file_path) || 
+    open(MESSAGE, $message_file_path) ||
 	&doh("Couldn\'t open message file: $message_file_path");
 
 
@@ -599,16 +599,16 @@ sub read_messages {
 	elsif ( /$subject_key/) {
 	    $poster_subject[$j] = $';
 	}
-	elsif ( /$separator/ ) { 
+	elsif ( /$separator/ ) {
 	    $j--;
 	}
 	else {
 	    $anything_else[$j] .= $_;
 	}
-    }				
+    }
 
     close(MESSAGE);
-       
+
 }
 
 
@@ -633,7 +633,7 @@ sub get_replies{
 	$what_next = 0;
     }
 
-    $reply_file = 
+    $reply_file =
        "$home_directory/$which_forum/responses/$topic_number\-$which_message";
 
     open( REPLY_FILE, $reply_file ) ||
@@ -658,11 +658,11 @@ sub get_replies{
 
 	}
     }
-		
-    
-   
+
+
+
     close(REPLY_FILE);
-    
+
     $count = 0;
 
     print "<DL><TR><TD><DD><b>Replies:</b>";
@@ -670,7 +670,7 @@ sub get_replies{
     if ( $print_list && $j > 1 ) {
 	print " (<a href=\"/$netforum_url/$show_replies_command$cvar_separator$topic_number\.$which_message\.0\.$how_deep\">list all replies</a>)<\TD>\n";
     }
-    else { 
+    else {
 	print "</TD>\n";
     }
 
@@ -684,17 +684,17 @@ sub get_replies{
     	if( $poster_name[$k] ) {
 	    print $poster_name[$k];
 	}
-    	if( $date[$k] ) { 
+    	if( $date[$k] ) {
 	    print $date[$k];
 	}
 	if($admin_flag){
 
-	    &admin_reply_toolbar($which_forum, $topic_number, 
+	    &admin_reply_toolbar($which_forum, $topic_number,
 				 $which_message, $count );
 	    $count++;
 
 	}
-    } 
+    }
     print "</DL>\n";
 
 }
@@ -706,8 +706,8 @@ sub load_group{
 
     local($n, $group_file);
     $n = 0;
-    $group_file = "$home_directory/$which_forum/group"; 
-    open(G, $group_file) || 
+    $group_file = "$home_directory/$which_forum/group";
+    open(G, $group_file) ||
 	&doh("Couldn\'t open group file: $group_file");
 
     while(<G>){
@@ -717,7 +717,7 @@ sub load_group{
 #    @group = <G>;
 
     close(G);
-    
+
 #    foreach $item ( @group ) {
 #	if ( $n ) {
 #	    $name = $item;
@@ -774,22 +774,22 @@ Subject:
 <p>
 <table border=1 cellpadding=5 cellspacing=0 width=90%>
 <tr><td><b>Recipients:</b><br>
-Select one or more recipients from the email list of the forum: $forum_name 
+Select one or more recipients from the email list of the forum: $forum_name
 at right.
-You may select several recipients by holding down the 
+You may select several recipients by holding down the
 Command (Mac) or Control (Windows) key.
 </td>
 <td rowspan=2>
 <SELECT NAME="to" MULTIPLE SIZE=10>
 EOH
 
-    while (@group_list[$item]) { 
+    while (@group_list[$item]) {
 	print "\t\t<option value=\"(@group_list[$item++]) ";
 	print "@group_list[$item--]\">@group_list[$item++]\n";
-	$item++;		
-    }				
-	    
-    print <<EOH;		# 
+	$item++;
+    }
+
+    print <<EOH;		#
 
 
 </SELECT>
@@ -877,12 +877,12 @@ EOH
     }
 
 }
- 
-# this actually does the mail sending - once again we need a local 
+
+# this actually does the mail sending - once again we need a local
 # sending agent to do the dirty work
 
 sub send_mail{
-                    
+
     $name	= $in{'name'};
     $from_email	= $in{'from_email'};
     $subject	= $in{'subject'};
@@ -939,7 +939,7 @@ sub send_mail{
 	     print MAIL (", @list[$item++]");
 	 }
 	 print MAIL ("\n");
-     }				# 
+     }				#
      else{
 	 print MAIL ("To: $realaddr\n");
      }
@@ -950,8 +950,8 @@ sub send_mail{
     print MAIL ("$body\n");
     close(MAIL);
     &unlock(MAIL);
-    
-    
+
+
 
 
     unless ($httpheader) {print &http_header};
@@ -981,12 +981,12 @@ sub send_mail{
 	}
 	print "\n";
     }
-    
+
     print "<p>\n<B>Subject</B>: $subject<br>\n<B>From</B>: ";
     print "$name ($from_email) <br>\n";
     print "<B>Really from</B>: $realfrom <p>\n";
     print "<pre>\n$body\n</pre>\n<hr>";
-    
+
     &footer;
 }
 
@@ -1009,7 +1009,7 @@ sub about_format{
     }
     else{
 	&doh("Bad command variable \(\"$command_vars\"\)");
-    }	
+    }
     print "<title>$glorg</title>";
     &header;
     print "\n<h2>$glorg</h2>\n<hr>\n";
@@ -1048,14 +1048,14 @@ html markup. It will:
 <p>
 What does this mean if you couldn\'t care less about HTML?
 <dl>
-<dd><b>a)</b> Enter a single line break in your form text area, 
+<dd><b>a)</b> Enter a single line break in your form text area,
    and there will be no effect in the display in the browser window.
-<dd><b>b)</b> Enter two line breaks in your form 
-   text area (i.e. leave a blank line), 
+<dd><b>b)</b> Enter two line breaks in your form
+   text area (i.e. leave a blank line),
 and the effect in the browser window display will be a simple line break.
-<dd><b>c)</b> Enter three line breaks in your 
-   form text area (i.e. leave two blank lines), 
-   and the effect in the browser window display 
+<dd><b>c)</b> Enter three line breaks in your
+   form text area (i.e. leave two blank lines),
+   and the effect in the browser window display
    will be two line breaks (i.e. a blank line).
 </dl>
 
@@ -1066,28 +1066,28 @@ EOH
 }
 # this prints the tool bars ( lists of icons that are links to other
 # pages. it requires that you have created a list called icon_list
-# it then runs through the list and prints the icons in the correct 
+# it then runs through the list and prints the icons in the correct
 # order
 
 sub toolbar {
-    # I would really like to replace this with an associatve array 
+    # I would really like to replace this with an associatve array
     # and a eval block but that will have to wait
 
     foreach $icon ( @icon_list )
     {
-	
+
 	if ($icon eq 'add_topic'){
 
 	    # Show topic icon
 
 	    print "<a href=\"/$netforum_url/$add_topic_command\">";
 	    print "<img border=$image_border alt=\"Add a Topic\" ";
-	    print "src=\"$add_topic_toolbar_gif\"></a>\n";  
-	}			
+	    print "src=\"$add_topic_toolbar_gif\"></a>\n";
+	}
 
 	elsif ($icon eq 'add_message' ) {
 	    # Add a message icon
-	    
+
 	    print "<a href=\"/$netforum_url/$add_message_command";
 	    print "$cvar_separator$topic_number\">";
 	    print "<img border=$image_border alt=\"Add a Message\" ";
@@ -1102,7 +1102,7 @@ EOF
         }
 	elsif ( $icon eq 'contract_messages' ) {
 	    # contract messages
-	    print<<EOF;		
+	    print<<EOF;
 <a href="/$netforum_url/$contract_messages_command$cvar_separator$topic_number.$how_deep_convert">
 <img border=$image_border alt="Contract All Messages"
 src="$contract_message_toolbar_gif"></a>
@@ -1122,7 +1122,7 @@ EOF
 	    print "all replies\" src=\"$all_responses_toolbar_gif\"></a>\n";
 	}
 	elsif ( $icon eq 'show_group' ) {
-	    #show group info 
+	    #show group info
 	    next unless ( -e "$home_directory/$which_forum/group" );
 	    print "<a href=\"/$netforum_url/$show_group_command\"><img border=$image_border alt=\"Show group Info\" src=\"$group_info_toolbar_gif\"></a>\n";
 	}
@@ -1131,9 +1131,9 @@ EOF
 	    next unless ( -e "$home_directory/$which_forum/group" );
 	    print "<a href=\"/$netforum_url/$mail_command$cvar_separator";
 	    print "g\"><img border=$image_border alt=\"Send email to group\" src=\"$email_toolbar_gif\"></a>\n";
-	}	
+	}
 	elsif ( $icon eq 'list_topics' ) {
-	    
+
 	    # goto topics list
 	    print "<a href=\"/$netforum_url/$show_topics_command\">";
 	    print "<img border=$image_border alt=\"Topics List\" ";
@@ -1146,7 +1146,7 @@ EOF
 
 		print "<A HREF=\"/$base_url/admin/admin.cgi\">";
 	    }
-	    else { 
+	    else {
 
 		print "<A HREF=\"/$base_url/admin/admin\">";
 	    }
@@ -1206,7 +1206,7 @@ sub update_front_page{
 		}
 		print $line;
 	    }
-	    else {  
+	    else {
 		print;
 	    }
 	}
@@ -1220,19 +1220,19 @@ sub parse_cookie {
     local ( $name, $value, @list );
 
     # decode list first
-  
+
     $_ = $ENV{'HTTP_COOKIE'};
 
     s/\s//g;			# strip offending spaces
 
     @list = split( /;/ );
-    
+
     foreach $_ ( @list ) {
-	
+
 	s/\+/ /g;
 
 	( $name, $value ) = split ( /=/ );
-    
+
 	$cookie{$name} = $value;
     }
 
@@ -1250,7 +1250,7 @@ sub print_cookies {
 
     local ( $name,$email,$site,$institution,$institution_site ) = @_;
 
-    # encode all of the variables 
+    # encode all of the variables
 
 
     # first make \s a +
@@ -1262,8 +1262,8 @@ sub print_cookies {
     $institution_site =~ s/\s/+/g;
 
     # next encode all strange characters
-    
-    # print mime header 
+
+    # print mime header
     # if there is already a contenttype printed its too late
 
     return if ( $httpheader );
@@ -1275,10 +1275,10 @@ sub print_cookies {
     print "Set-Cookie: NFName=$name\n";
     if ( $email ) { print "Set-Cookie: NFEmail=$email\n"; }
     if ( $institution ) { print "Set-Cookie: NFInstitution=$institution\n"; }
-    if ( $institution_site ) { 
-	print "Set-Cookie: NFInstSite=$institution_site\n"; 
+    if ( $institution_site ) {
+	print "Set-Cookie: NFInstSite=$institution_site\n";
     }
-    
+
     if ( $site )  { print "Set-Cookie: NFSite=$site\n\n"; }
 
 
@@ -1299,24 +1299,24 @@ sub ReadParse {
     }
 
     @list = split( /&/ );
-    
+
     foreach $_ (@list) {
 	# Convert plus's to spaces
 	s/\+/ /g;
 
 	# Split into key and value.
 	($key, $value) = split(/=/, $_ ,2); # splits on the first =.
-	
+
 	# Convert %XX from hex numbers to alphanumeric
 
 	$value =~ s/%(..)/pack("c",hex($1))/ge;
 	$key =~ s/%(..)/pack("c",hex($1))/ge;
-	
+
 	# Associate key and value
         # \0 is the multiple separator
 	# borrowed this idea from cgi-lib.pl by XXXX?
 
-	$in{$key} .= "\0" if (defined($in{$key})); 
+	$in{$key} .= "\0" if (defined($in{$key}));
 	$in{$key} .= $value;
 
     }
@@ -1331,7 +1331,7 @@ sub ReadParse {
 sub email {
 
     local ( $email ) = @_;
-    
+
     if($nf_mail) {
 
 	$aa = $email;
@@ -1383,7 +1383,7 @@ sub check_topic {
 	    $error_message .= "<LI> Missing username/password fields\n";
 
 	}
-	if ( $anyone_add_username ne $username || 
+	if ( $anyone_add_username ne $username ||
 	     $anyone_add_password ne $password ){
 
 	    $error_message .= "<LI> Bad username/password\n";
@@ -1392,12 +1392,12 @@ sub check_topic {
 
 
 
-    if ($comments){ 
+    if ($comments){
 	&decode( $comments );
-	&check_hot_tamale( $comments ); 
+	&check_hot_tamale( $comments );
     }
-	
-	
+
+
     if (&block_html($topic_name,$poster_name,$poster_institution,
 		    $institution_site,$poster_email,$poster_site) == 1){
 	$error = 1;
@@ -1424,7 +1424,7 @@ sub check_message {
     local ( $poster_name, $message, $subject, $poster_institution,
  	    $institution_site, $poster_email, $poster_site ) = @_;
 
-	    
+
     local ( $error, $error_message );
 
 
@@ -1434,7 +1434,7 @@ sub check_message {
 	$error_message = "<LI> Poster name missing\n";
 
     }
-    
+
     if ( !$message ) {
 
 	$error = 1;
@@ -1495,7 +1495,7 @@ EndOfError
     }
 }
 
-# this prints pagination info at the bottom of the page 
+# this prints pagination info at the bottom of the page
 
 sub do_pages {
 
@@ -1505,7 +1505,7 @@ sub do_pages {
 
     # return if only one page of messages
 
-    return if ( $num_messages < $how_many_messages 
+    return if ( $num_messages < $how_many_messages
 	       || $how_many_messages == -1);
 
     $first = 1;
@@ -1519,9 +1519,9 @@ sub do_pages {
     while ( $first < $num_messages ) {
 
 	if ( $page_count == $how_deep ) {
-	    
+
 	    print "| $first...$last ";
-	    
+
 	} else {
 
 	    print "| <a href=\"/$netforum_url/$page_messages_command";

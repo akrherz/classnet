@@ -36,7 +36,7 @@
 ===from:Hoon Choi
 ===date:Mon Sep 22 15:24:34 2003
 ===subject:File Sharing Article...
-===message:Hello. That would just be great if you could please bring that file sharing article that you had found last week. Thank you very much and I appreciate the help. - Hoon 
+===message:Hello. That would just be great if you could please bring that file sharing article that you had found last week. Thank you very much and I appreciate the help. - Hoon
 =========yorg=========
 ===from:Christina Elliott
 ===date:Tue Sep 23 23:10:45 2003
@@ -77,7 +77,7 @@
 ===from:Christina Elliott
 ===date:Tue Sep 23 23:39:30 2003
 ===subject:CA: pg. 198 Q# 8e 9/23
-===message:#8e. 
+===message:#8e.
 <br>
     Naturally, I can agree with this claim. Canada already has laws against beauty contests for the very reason that is supplied here. Beauty contests (in my limited experiance) often focus on bodies and superficial physical elements about women that often undermine self-esteem and personal value. Examples behind this "stereotype" are the women that are pushed to participate - they are often unintelligent and uneducated, although with the increase in the achievement of higher education, many beauty contests also include talent show qualifications as well. I personally disapprove of them. Women have been itemized for far too long in history for us to still be continuing the practice. Stone age.
 =========yorg=========
@@ -114,7 +114,7 @@ Businesses Don't Necessarily Need Good Grades When Hiring
 ===subject:CA: Ad, pg 221, 9/25
 ===message:1.) First off, are butterflies superior to other flora and fauna for the purposes of this ad? Yes. They are very pretty and catch the eye of the apathetic viewer and make them think about pretty things that they could save from harm. Easy, huh? This ad stresses the environmental slant of natural gas - that it helps to (perhaps) reduce pollution (it's much "cleaner" at least) and that it helps to conserve energy (once you follow a certain energy plan they provide).
 <br>
-2.)   They assume that you would associate "cleaner" energy of natural gas with "creates less pollution than fossil fuels". They never actually say that it creates less pollution. They also assume that adults are reading this ad, as energy needs and saving money do not apply to children generally. They also assume that people like butterflies and would stop to consider using natural gas to "save" more butterflies. 
+2.)   They assume that you would associate "cleaner" energy of natural gas with "creates less pollution than fossil fuels". They never actually say that it creates less pollution. They also assume that adults are reading this ad, as energy needs and saving money do not apply to children generally. They also assume that people like butterflies and would stop to consider using natural gas to "save" more butterflies.
 <br>
 3.)   I believe that the Metropolitan Oil ad is a stronger and more aggressive ad, in that it implies danger to your family. The BostonGas ad is more positive in that it stresses the good of natural gas and the benefits to the environment. One is much closer to home because we naturally think more about our family than we do about the environment (well, at least most do). The MO ad is much more negative and stresses the downfalls and dangers of gas, rather than the benefits.
 =========yorg=========
@@ -127,7 +127,7 @@ Dr. Dane - I chose him for age (not too old), for his knowledge (PhD) and good h
 <br>
 Mrs. Dane - Sorry, I sent her back to Earth. She is rather unhealthy and is dangerously close to an age where child-bearing is difficult and unadvised.
 <br>
-Bobby Dane - I chose him to stay. He is young, strong and able bodied, can at least follow simple instructions and training and could be useful for manual labor that any community rebuilding would require. 
+Bobby Dane - I chose him to stay. He is young, strong and able bodied, can at least follow simple instructions and training and could be useful for manual labor that any community rebuilding would require.
 <br>
 Mrs. Garcia - I chose her as well. She is young, of ethnic diversity, of child-bearing age and is female. It is my general opinion that societies where the women are the majority are rather stable (provided they are in some position to guide governance).
 <br>
@@ -145,7 +145,7 @@ Father Frans - Nope, he left on the homeship too. His background on farming my n
 <br>
 Dr. Gonzales - He left with Frans and Blake. He is too old, is in poor physical condition and we already have two Spanish-Americans. We already have a medical figure so he is not detrimental.
 <br>
-And that about sums up my personal views and values of this particular group. Surprisingly, my group agreed with all of these, athough our reasons may have been different. Our overall reasons were population growth and stability. 
+And that about sums up my personal views and values of this particular group. Surprisingly, my group agreed with all of these, athough our reasons may have been different. Our overall reasons were population growth and stability.
 =========yorg=========
 ===from:Christina Elliott
 ===date:Tue Oct  7 11:06:50 2003
@@ -177,7 +177,7 @@ I'll have to say my mother, when she had her first child (me) she was not a good
 ===from:Christina Elliott
 ===date:Wed Oct 22 10:35:32 2003
 ===subject:Journal for the Week of Oct. 13
-===message:Ah, well... I didn't get much done this week. I was swamped by homework and bad midterm grades and ETHOS has yet to even get back to me about my submission. Mr.O suggested that I waltz in and get in their faces, but I wonder if it's worth the effort. Well, I'll do anything to get published, even if only for a grade. I'll try to get the outline done during the week of Oct. 20 so that I can start fleshing it out the week after. That's the plan anyway. 
+===message:Ah, well... I didn't get much done this week. I was swamped by homework and bad midterm grades and ETHOS has yet to even get back to me about my submission. Mr.O suggested that I waltz in and get in their faces, but I wonder if it's worth the effort. Well, I'll do anything to get published, even if only for a grade. I'll try to get the outline done during the week of Oct. 20 so that I can start fleshing it out the week after. That's the plan anyway.
 =========yorg=========
 ===from:Christina Elliott
 ===date:Thu Oct 23 15:41:09 2003
