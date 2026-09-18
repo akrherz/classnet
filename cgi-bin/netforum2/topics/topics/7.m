@@ -21,25 +21,25 @@ National Center for Biotechnology Information. Online Mendelian Inheritance in 	
 ===email:abolton@iastate.edu
 ===date:Thu Feb 12 13:11:49 1998
 ===subject:Achondroplasia
-===message:	The gene Fibroblast Growth Factor Receptor-3 (FGFR3) is 
-found on chromosome 4 (4p16.3).  FGFR3 is known to cause a 
-disease called achondroplasia.  Many distortions of the body 
-are associated with this common form of short-limb dwarfism.  
-Included in these distortions is a long narrow truck, 
-shortened extremities, a large head, and a trident hand 
-(internet 100800).  It has been seen by researchers that 
-risk of death in infants with achondroplasia may approach 
-7.5% mainly because of the increased cervical cord 
+===message:	The gene Fibroblast Growth Factor Receptor-3 (FGFR3) is
+found on chromosome 4 (4p16.3).  FGFR3 is known to cause a
+disease called achondroplasia.  Many distortions of the body
+are associated with this common form of short-limb dwarfism.
+Included in these distortions is a long narrow truck,
+shortened extremities, a large head, and a trident hand
+(internet 100800).  It has been seen by researchers that
+risk of death in infants with achondroplasia may approach
+7.5% mainly because of the increased cervical cord
 compression (Hecht et al 1987).<P>
-	FGFR3 is inherited as an autosomal dominant.  About 7/8 
-are the result of a new mutation (internet 100800).  
-Homozygosity of FGFR3 results in severe disorder of the 
+	FGFR3 is inherited as an autosomal dominant.  About 7/8
+are the result of a new mutation (internet 100800).
+Homozygosity of FGFR3 results in severe disorder of the
 skeleton -- early death results (Hall 1969).<P>
-	There are two known mutations.  The first location is 
-on nucleotide 1138 on codon 380 in the sequence GGG.  Almost 
-all of the time the first G changes to an A.  A few cases 
-show the first G turning to a C.  The other location is on 
-codon 375 where there is a G to T transversion (Shiang 
+	There are two known mutations.  The first location is
+on nucleotide 1138 on codon 380 in the sequence GGG.  Almost
+all of the time the first G changes to an A.  A few cases
+show the first G turning to a C.  The other location is on
+codon 375 where there is a G to T transversion (Shiang
 1994).<P>
 <P>
 <P>
@@ -49,10 +49,10 @@ Internet source located at:
 http://www3.ncbi.nlm.nih.gov/htbin-
 post/Omim/dispmim?100800<P>
 
-Hecht, J.T.; Francomano, C.A.; Horton, W.A.; Annegers, 
+Hecht, J.T.; Francomano, C.A.; Horton, W.A.; Annegers,
 J.F.: Mortality in Achondroplasia. Am.J.Hum.Genet. 41: 454-464, 1987.<P>
 
-Hall, J.G.; Dorst, J.P.; Taybi, H.; Scott, C.I., Jr.; Langer, L.O., Jr.; McKusick, V.A.:  Two Probable 
+Hall, J.G.; Dorst, J.P.; Taybi, H.; Scott, C.I., Jr.; Langer, L.O., Jr.; McKusick, V.A.:  Two Probable
 Cases of Homozygosity for the achondroplasia gene.  Birth Defects Orig. Art. Ser. V(4):  24-34, 1969.<P>
 
 Shiang, R.; Thompson, L.M.; Zhu, Y.Z.; Church, D.M.; Fielder, T.J.; Bocian, M.; Winokur, S.T., Wasmuth, J.J.:  Mutations in the transmembrane domain of FGFR3 cause the most common genetic form of dwarfism, achondroplasia.  Cell 78:  335-342, 1994.<P>
@@ -103,13 +103,13 @@ this horrible disease is becoming more understood every day.</P>
 
 <BLOCKQUOTE><DIR>
    Neurofibromas
-   
+
    <P>Plexiform neuroma</P>
-   
+
    <P>Cafe-au-lait spots</P>
-   
+
    <P>Axillary freckling</P>
-   
+
    <P>Inguinal freckling</P>
 </DIR></BLOCKQUOTE>
 
@@ -117,9 +117,9 @@ this horrible disease is becoming more understood every day.</P>
 
 <BLOCKQUOTE><DIR>
    Lisch nodules (iris hamartomas)
-   
+
    <P>Glaucoma</P>
-   
+
    <P>Hypertelorism</P>
 </DIR></BLOCKQUOTE>
 
@@ -139,9 +139,9 @@ this horrible disease is becoming more understood every day.</P>
 
 <BLOCKQUOTE><DIR>
    Pseudoarthrosis
-   
+
    <P>Thinning of long bone cortex</P>
-   
+
    <P>Massive leg overgrowth</P>
 </DIR></BLOCKQUOTE>
 
@@ -149,23 +149,23 @@ this horrible disease is becoming more understood every day.</P>
 
 <BLOCKQUOTE><DIR>
    Pheochromocytoma
-   
+
    <P>Meningioma</P>
-   
+
    <P>Optic glioma</P>
-   
+
    <P>Acoustic neuroma</P>
-   
+
    <P>Hypothalamic tumor</P>
-   
+
    <P>Neurofibrosarcoma</P>
-   
+
    <P>Rhabdomyosarcoma</P>
-   
+
    <P>Duodenal carcinoid</P>
-   
+
    <P>Somatostatinoma</P>
-   
+
    <P>Parathyroid adenoma</P>
 </DIR></BLOCKQUOTE>
 
@@ -173,7 +173,7 @@ this horrible disease is becoming more understood every day.</P>
 
 <BLOCKQUOTE><DIR>
    Mental retardation
-   
+
    <P>Aqueductal stenosis and hydrocephalus</P>
 </DIR></BLOCKQUOTE>
 
@@ -181,7 +181,7 @@ this horrible disease is becoming more understood every day.</P>
 
 <BLOCKQUOTE><DIR>
    Hypertension
-   
+
    <P>Hypophosphatemic osteomalacia</P>
 </DIR></BLOCKQUOTE>
 
@@ -201,7 +201,7 @@ this horrible disease is becoming more understood every day.</P>
 
 <BLOCKQUOTE><DIR>
    Arterial occlusive disease
-   
+
    <P>Renal artery stenosis</P>
 </DIR></BLOCKQUOTE>
 
@@ -209,9 +209,9 @@ this horrible disease is becoming more understood every day.</P>
 
 <BLOCKQUOTE><DIR>
    Papillary adenomas
-   
+
    <P>Interstitial pulmonary fibrosis</P>
-   
+
    <P>Pulmonary hypertension</P>
 </DIR></BLOCKQUOTE>
 
@@ -345,7 +345,7 @@ evaluation. <I>Am. J. Neuroradiol</I>. 16: 1711-1718.</P>
 	The gene BLM is located on chromosome 15, and has an autosomal recessive inheritance pattern.  Bloom Syndrome has three known allelic variations.  The first is a 6 base pair deletion/7 base pair insertion at nucleotide 2281, causing a stop codon a few codons after amino acid 736.  The second allele is a deletion of CAA at nucleotide position 631-633, causing a stop codon at amino acid position 186.  The final variation is a T to C transition at nucleotide 2596 which results in an isoleucine to threonine substitution at amino acid position 843.  (OMIM, 1998) <P>
 
 Online Mendelian Inheritance in Man.  OMIM Entry 210900.  http://www3.ncbi.nlm.nih.gov/htbin-post/
-	Omim/dispmim?210900 (15 February 1998).  
+	Omim/dispmim?210900 (15 February 1998).
 
 =========yorg=========
 ===from:James Nisly
@@ -355,21 +355,21 @@ Online Mendelian Inheritance in Man.  OMIM Entry 210900.  http://www3.ncbi.nlm.n
 ===message:Genetic Diseases Assignment, Part II <P>
 by James Nisly <P>
 
-I selected the gene named PKD1 for this assignment.  The name of the disease associated with this gene defect is Polycystic Kidney Disease Type 1 (http://www.nhgri.nih.gov/DIR/GTB/CLONE/; Feb. 15, 1998).  This gene defect in humans produces a systemic disease with cysts in the kidneys and other organs, most commonly in the liver, and occasionally in the pancreas and ovaries and with frequent structural abnormalities in the gastrointestinal tract, the vascular tree, and the cardiac valves.  Complete penetrance of the gene is estimated to occur by 90 years of age.  The pathogenesis of PKD1 has not been established. However, altered epithelial cell growth, secretion, and extracellular matrix have all been shown to occur in PKD1.  
+I selected the gene named PKD1 for this assignment.  The name of the disease associated with this gene defect is Polycystic Kidney Disease Type 1 (http://www.nhgri.nih.gov/DIR/GTB/CLONE/; Feb. 15, 1998).  This gene defect in humans produces a systemic disease with cysts in the kidneys and other organs, most commonly in the liver, and occasionally in the pancreas and ovaries and with frequent structural abnormalities in the gastrointestinal tract, the vascular tree, and the cardiac valves.  Complete penetrance of the gene is estimated to occur by 90 years of age.  The pathogenesis of PKD1 has not been established. However, altered epithelial cell growth, secretion, and extracellular matrix have all been shown to occur in PKD1.
 These abnormalities could, in fact, contribute to cyst development and extrarenal manifestations.  Cells are not simply stretched to permit a tubular outpouching to become a cyst; cell numbers must increase.  With electron microscopy, polypoid lesions have been noted throughout the cyst walls in both experimental cystic disease and human PKD1, (Wyngaarden, et al; 1992). <P>
 
 Human symptoms of this disease usually manifest as flank pain or back pain and can be constant or intermittent, mild or severe and may be disabling.  Other symptoms can include complications such as urinary tract infections, renal calculi, or retroperitoneal bleeding.  Early in the course of PKD1, the kidneys can be normal in size with only a few cysts.  Ultimately, the kidneys enlarge and may attain the size of a football, weighing as much as 8 kg.  The end-stage kidney appears to be virtually replaced by cysts throughout the renal parenchyma, (Wyngaarden, et al; 1992). <P>
 
-The gene, PKD1 is located on the human chromosome 16.  It is an autosomal dominant disease and has a worldwide 
+The gene, PKD1 is located on the human chromosome 16.  It is an autosomal dominant disease and has a worldwide
 prevalence of 1 in 200 to 1 in 1000.  It is the most common hereditary disease in the United States affecting 500,000 people, (Wyngaarden, et al; 1992).  There are 44 known mutations of gene PKD1.  They are located at: 16p13 on the homo sapien #16 chromosome, (http://www.uwcm.ac.uk/uwcm/mg/search/120293.html; Feb. 15,1998). <P>
 
 
 Bibliography: <P>
 
-The National Human Genome Research Institute:  Inherited Disease Genes Identified by Positional Cloning, 
+The National Human Genome Research Institute:  Inherited Disease Genes Identified by Positional Cloning,
 http://www.nhgri.nih.gov/DIR/GTB/CLONE/; Feb. 15, 1998 <P>
 
-Wyngaarden, James B., Smith, Lloyd H., Bennet, J. Claude.  1992. Cecil Textbook of Medicine. 19th Edition. W. B. 
+Wyngaarden, James B., Smith, Lloyd H., Bennet, J. Claude.  1992. Cecil Textbook of Medicine. 19th Edition. W. B.
 Saunders Company, Harcourt Brace Jovanovish, Inc., Philadelphia <P>
 
 The Human Gene Mutation Database, Cardiff,  http://www.uwcm.ac.uk/uwcm/mg/search/120293.html; Feb. 15, 1998 <P>
@@ -384,7 +384,7 @@ The Human Gene Mutation Database, Cardiff,  http://www.uwcm.ac.uk/uwcm/mg/search
 ===message: <P>Cystic Fibrosis, the disease formerly known as Cystic Fibrosis of the Pancreas has long been a part of mankind's life. Although this disease was just identified ten years ago 119 alles have been found. The gene responsible for Cystic Fibrosis is known as  CFTR; Cystic Fibrosis Transmembrane Conductance Regulator, located on the seventh chromosome. The recessive inheritance saves many from the ill fated effects of Cystic Fibrosis, but for those who are CFTR homosygotes there is little to look forward. First detection of Cystic fibrosis was very simple, A midwife would lick a babies head to see if it was salty. If salty it was said they die of Pulmonary Congestion. Recently though we have identified CRTR along with many of CFTR’s  symptoms.Problems arise with the exocrin function of the body. The meconium ileus,Billiary cirrhosis, and the sweat glands all affected. Promising studies suggest Ion channels could be a major factor in the symptoms of Cystic Fibrosis. The chloride ion channels in particular seem adversely affected. Other problems such as infertility in both male and female can sometimes arise in Cystic Fibrosis patients. It is unclear exactly how this problem arises but for the male it is assumed that a linked gene may play a factor in the deformation of the Vas Deferens, thus causing infertility. Female infertility likely comes from an excess in cervical mucus.
 
 <P><U>Sources</U>
- <P>McKusick, Victor A. . 6/3/1986. <I>last update 
+ <P>McKusick, Victor A. . 6/3/1986. <I>last update
 <P> terry : 1/8/1998 </I>. OMIM ENTRY 219700.
 <P>*219700 CYSTIC FIBROSIS; CF
 <P>http://www3.ncbi.nlm.nih.gov/htbin-<P>post/Omim/dispmim?219700#AllelicVariant0113?219700. (2/15/98)
@@ -392,242 +392,242 @@ The Human Gene Mutation Database, Cardiff,  http://www.uwcm.ac.uk/uwcm/mg/search
 <P><U>Addendum:
  <P> ALLELIC VARIANTS</U>
 
-         <P> 0001 : CYSTIC FIBROSIS 
+         <P> 0001 : CYSTIC FIBROSIS
                  <P>   Mutation : CFTR, PHE508DEL
-          <P>0002 : CYSTIC FIBROSIS 
+          <P>0002 : CYSTIC FIBROSIS
                   <P>  Mutation : CFTR, ILE507DEL
-        <P>0003 : CYSTIC FIBROSIS 
+        <P>0003 : CYSTIC FIBROSIS
                    <P> Mutation : CFTR, GLN493TER
-         <P> 0004 : CYSTIC FIBROSIS 
+         <P> 0004 : CYSTIC FIBROSIS
                  <P>Mutation : CFTR, ASP110HIS
-         <P> 0005 : CYSTIC FIBROSIS 
+         <P> 0005 : CYSTIC FIBROSIS
                   <P>  Mutation : CFTR, ARG117HIS
-          <P>0006 : CYSTIC FIBROSIS 
+          <P>0006 : CYSTIC FIBROSIS
                  <P>   Mutation : CFTR, ARG347PRO
-         <P> 0007 : CYSTIC FIBROSIS 
+         <P> 0007 : CYSTIC FIBROSIS
                  <P>   Mutation : CFTR, ALA455GLU
-         <P> 0008 : CYSTIC FIBROSIS 
+         <P> 0008 : CYSTIC FIBROSIS
                    <P> Mutation : CFTR, IVS10AS, G-A, -1
-       <P>0009 : CYSTIC FIBROSIS 
+       <P>0009 : CYSTIC FIBROSIS
                    <P> Mutation : CFTR, GLY542TER
-        <P>0010 : CYSTIC FIBROSIS 
+        <P>0010 : CYSTIC FIBROSIS
                  <P>Mutation : CFTR, SER549ASN
-         <P>0011 : CYSTIC FIBROSIS 
+         <P>0011 : CYSTIC FIBROSIS
               <P> Mutation : CFTR, SER549ILE
-       <P>0012 : CYSTIC FIBROSIS 
+       <P>0012 : CYSTIC FIBROSIS
                  <P>   Mutation : CFTR, SER549ARG
-      <P>0013 : CYSTIC FIBROSIS 
+      <P>0013 : CYSTIC FIBROSIS
                  <P>Mutation : CFTR, GLY551ASP
-       <P>0014 : CYSTIC FIBROSIS 
+       <P>0014 : CYSTIC FIBROSIS
                   <P>Mutation : CFTR, ARG553TER
-         <P> 0015 : CYSTIC FIBROSIS 
+         <P> 0015 : CYSTIC FIBROSIS
                   <P>Mutation : CFTR, ALA559THR
-        <P>  0016 : CYSTIC FIBROSIS 
+        <P>  0016 : CYSTIC FIBROSIS
                 <P>Mutation : CFTR, ARG560THR
-          <P>0017 : CYSTIC FIBROSIS 
+          <P>0017 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, TYR563ASN
-          <P>0018 : CYSTIC FIBROSIS 
+          <P>0018 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, PRO574HIS
-          <P>0019 : CYSTIC FIBROSIS 
+          <P>0019 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, AT INS, 2566
-          <P>0020 : CYSTIC FIBROSIS 
+          <P>0020 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, C DEL, 3659
-          <P>0021 : CYSTIC FIBROSIS 
+          <P>0021 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, SER1255TER
-          <P>0022 : CYSTIC FIBROSIS 
+          <P>0022 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, TRP1282TER
-          <P>0023 : CFTR POLYMORPHISM 
+          <P>0023 : CFTR POLYMORPHISM
                     <P>Mutation : CFTR, MET470VAL
-          <P>0024 : CYSTIC FIBROSIS 
+          <P>0024 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ILE506VAL
-          <P>0025 : CYSTIC FIBROSIS 
+          <P>0025 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, PHE508CYS
-          <P>0026 : CYSTIC FIBROSIS 
+          <P>0026 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, TRP846TER
-          <P>0027 : CYSTIC FIBROSIS 
+          <P>0027 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, TYR913CYS
-          <P>0028 : CYSTIC FIBROSIS 
+          <P>0028 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLY458VAL
-          <P>0029 : CYSTIC FIBROSIS 
+          <P>0029 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, TRP1316TER
-          <P>0030 : CYSTIC FIBROSIS 
+          <P>0030 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, TC INS, 1154
-          <P>0031 : CYSTIC FIBROSIS 
+          <P>0031 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, T DEL, 1213
-          <P>0032 : CYSTIC FIBROSIS 
+          <P>0032 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ASN1303LYS
-          <P>0033 : CYSTIC FIBROSIS 
+          <P>0033 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ARG1162TER
-          <P>0034 : CYSTIC FIBROSIS 
+          <P>0034 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ARG334TRP
-          <P>0035 : CYSTIC FIBROSIS 
+          <P>0035 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 2-BP DEL, 1677TA DEL, FS515TER
-          <P>0036 : CYSTIC FIBROSIS 
+          <P>0036 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ARG851TER
-          <P>0037 : CYSTIC FIBROSIS 
+          <P>0037 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLY551SER
-          <P>0038 : CYSTIC FIBROSIS 
+          <P>0038 : CYSTIC FIBROSIS
                    <P> Mutation : CFTR, GLY85GLU
-          <P>0039 : CYSTIC FIBROSIS 
+          <P>0039 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ARG1158TER
-          <P>0040 : CYSTIC FIBROSIS 
+          <P>0040 : CYSTIC FIBROSIS
                    <P> Mutation : CFTR, IVS19DS, A-G, +4
-          <P>0041 : CYSTIC FIBROSIS 
+          <P>0041 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 22-BP DEL
-          <P>0042 : CYSTIC FIBROSIS 
+          <P>0042 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 1-BP DEL, 556A DEL, FS
-          <P>0043 : CYSTIC FIBROSIS 
+          <P>0043 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 1-BP DEL, 557T DEL, FS
-          <P>0044 : CYSTIC FIBROSIS 
+          <P>0044 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 84-BP DEL, EX13, 1949DEL84
-          <P>0045 : CYSTIC FIBROSIS 
+          <P>0045 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 1-BP INS, 2869 INS G, FS
-          <P>0046 : CYSTIC FIBROSIS 
+          <P>0046 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, VAL520PHE
-          <P>0047 : CYSTIC FIBROSIS 
+          <P>0047 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, CYS524TER
-          <P>0048 : CYSTIC FIBROSIS 
+          <P>0048 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLN1291HIS
-          <P>0049 : CYSTIC FIBROSIS 
+          <P>0049 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, PHE311LEU
-          <P>0050 : CYSTIC FIBROSIS 
+          <P>0050 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 2-BP DEL, CT1221
-          <P>0051 : CYSTIC FIBROSIS 
+          <P>0051 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, SER492PHE
-          <P>0052 : CYSTIC FIBROSIS 
+          <P>0052 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ARG560LYS
-          <P>0053 : CYSTIC FIBROSIS 
+          <P>0053 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLU827TER
-          <P>0054 : CYSTIC FIBROSIS 
+          <P>0054 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ARG1066HIS
-          <P>0055 : CYSTIC FIBROSIS 
+          <P>0055 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ALA1067THR
-          <P>0056 : CYSTIC FIBROSIS 
+          <P>0056 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, IVS20DS, G-A, +1
-          <P>0057 : CYSTIC FIBROSIS 
+          <P>0057 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 5-BP DUP, 3320 + TCTATG
-          <P>0058 : CYSTIC FIBROSIS 
+          <P>0058 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ARG1066CYS
-          <P>0059 : CYSTIC FIBROSIS 
+          <P>0059 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 1-BP DEL, T1078
-          <P>0060 : VAS DEFERENS, CONGENITAL BILATERAL ABSENCE OF 
+          <P>0060 : VAS DEFERENS, CONGENITAL BILATERAL ABSENCE OF
                     <P>Mutation : CFTR, ASP1270ASN
-          <P>0061 : VAS DEFERENS, CONGENITAL BILATERAL ABSENCE OF 
+          <P>0061 : VAS DEFERENS, CONGENITAL BILATERAL ABSENCE OF
                     <P>Mutation : CFTR, GLY576ALA
-          <P>0062 : CYSTIC FIBROSIS 
+          <P>0062 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, IVS19DS, +10 KB, C-T
-          <P>0063 : CYSTIC FIBROSIS 
+          <P>0063 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ARG1283MET
-          <P>0064 : CYSTIC FIBROSIS 
+          <P>0064 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, IVS12DS, G-A, +1
-          <P>0065 : CYSTIC FIBROSIS 
+          <P>0065 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLN359LYS AND THR360LYS
-          <P>0066 : CYSTIC FIBROSIS 
+          <P>0066 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, IVS6, 12-BP DEL
-          <P>0067 : CYSTIC FIBROSIS 
+          <P>0067 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ARG347LEU
-          <P>0068 : CYSTIC FIBROSIS 
+          <P>0068 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ALA349VAL
-          <P>0069 : CYSTIC FIBROSIS 
+          <P>0069 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ALA554GLU
-          <P>0070 : CYSTIC FIBROSIS 
+          <P>0070 : CYSTIC FIBROSIS
                    <P> Mutation : CFTR, LYS716TER
-         <P> 0071 : CYSTIC FIBROSIS 
+         <P> 0071 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, IVS13DS, G-A, +1
-          <P>0072 : CYSTIC FIBROSIS 
+          <P>0072 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLN1238TER
-          <P>0073 : CYSTIC FIBROSIS 
+          <P>0073 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, IVS19AS, G-A, -1
-          <P>0074 : CYSTIC FIBROSIS 
+          <P>0074 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 1-BP INS, 3898 INS C, FS
-          <P>0075 : CYSTIC FIBROSIS 
+          <P>0075 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, TRP57TER
-          <P>0076 : CYSTIC FIBROSIS 
+          <P>0076 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLN1313TER
-          <P>0077 : CYSTIC FIBROSIS 
+          <P>0077 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLU92LYS
-          <P>0078 : CYSTIC FIBROSIS 
+          <P>0078 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ARG347HIS
-          <P>0079 : CYSTIC FIBROSIS 
+          <P>0079 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLY91ARG
-          <P>0080 : CYSTIC FIBROSIS 
+          <P>0080 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, PHE1286SER
-          <P>0081 : CYSTIC FIBROSIS 
+          <P>0081 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 1-BP INS, 2307 INS A, FS
-          <P>0082 : CYSTIC FIBROSIS 
+          <P>0082 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLU92TER
-          <P>0083 : CYSTIC FIBROSIS 
+          <P>0083 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLY480CYS
-          <P>0084 : CYSTIC FIBROSIS 
+          <P>0084 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, LEU206TRP
-         <P> 0085 : NASAL POLYPS, RECURRENT 
+         <P> 0085 : NASAL POLYPS, RECURRENT
                     <P>Mutation : CFTR, 18-BP DEL, EX4
-          <P>0086 : VAS DEFERENS, CONGENITAL BILATERAL ABSENCE OF 
+          <P>0086 : VAS DEFERENS, CONGENITAL BILATERAL ABSENCE OF
                     <P>Mutation : CFTR, IVS8SA, 5T VARIANT
-          <P>0087 : CYSTIC FIBROSIS 
-                    <P>Mutation : CFTR, THR338ILE 
-          <P>0088 : CYSTIC FIBROSIS 
+          <P>0087 : CYSTIC FIBROSIS
+                    <P>Mutation : CFTR, THR338ILE
+          <P>0088 : CYSTIC FIBROSIS
 
                     <P>Mutation : CFTR, TRP1089TER
-          <P>0089 : CYSTIC FIBROSIS 
+          <P>0089 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 4-BP DEL, TATT4010
-         <P> 0090 : CYSTIC FIBROSIS 
+         <P> 0090 : CYSTIC FIBROSIS
                    <P> Mutation : CFTR, ILE556VAL
-          <P>0091 : CYSTIC FIBROSIS 
+          <P>0091 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, TYR109CYS
-          <P>0092 : CYSTIC FIBROSIS 
+          <P>0092 : CYSTIC FIBROSIS
                    <P> Mutation : CFTR, ARG352GLN
-          <P>0093 : CYSTIC FIBROSIS 
+          <P>0093 : CYSTIC FIBROSIS
                    <P> Mutation : CFTR, IVS3, DS, A-G, +4
-          <P>0094 : CYSTIC FIBROSIS 
+          <P>0094 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLN524HIS
-          <P>0095 : CYSTIC FIBROSIS 
+          <P>0095 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLU542TER
-          <P>0096 : CYSTIC FIBROSIS 
+          <P>0096 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLN552TER
-          <P>0097 : CYSTIC FIBROSIS 
+          <P>0097 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ASP648VAL
-          <P>0098 : CYSTIC FIBROSIS 
+          <P>0098 : CYSTIC FIBROSIS
                    <P> Mutation : CFTR, LYS710TER
-          <P>0099 : CYSTIC FIBROSIS 
+          <P>0099 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLN890TER
-          <P>0100 : CYSTIC FIBROSIS 
+          <P>0100 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, SER912LEU
-          <P>0101 : CYSTIC FIBROSIS 
+          <P>0101 : CYSTIC FIBROSIS
                    <P> Mutation : CFTR, 2-BP DEL, TA936
-          <P>0102 : CYSTIC FIBROSIS 
+          <P>0102 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, HIS949TYR
-          <P>0103 : CYSTIC FIBROSIS 
+          <P>0103 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, LEU1065PRO
-          <P>0104 : CYSTIC FIBROSIS 
+          <P>0104 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLN1071PRO
-          <P>0105 : CYSTIC FIBROSIS 
+          <P>0105 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, HIS1085ARG
-          <P>0106 : CYSTIC FIBROSIS 
+          <P>0106 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, TYR1092TER
-          <P>0107 : CYSTIC FIBROSIS 
+          <P>0107 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, TRP1204TER
-          <P>0108 : CYSTIC FIBROSIS 
+          <P>0108 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 1-BP DEL, G1215
-          <P>0109 : CYSTIC FIBROSIS 
+          <P>0109 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, THR1220ILE
-          <P>0110 : CYSTIC FIBROSIS 
+          <P>0110 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ILE1234VAL
-          <P>0111 : CYSTIC FIBROSIS 
+          <P>0111 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, GLY1249GLU
-          <P>0112 : CYSTIC FIBROSIS 
+          <P>0112 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, SER1251ASN
-          <P>0113 : CYSTIC FIBROSIS 
+          <P>0113 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, SER1255PRO
-          <P>0114 : CYSTIC FIBROSIS 
+          <P>0114 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, ASN1303HIS
-           <P>0115 : CYSTIC FIBROSIS 
+           <P>0115 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 2-BP DEL, CA1609
-          <P>0116 : CYSTIC FIBROSIS 
+          <P>0116 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 1-BP DEL, G2423
-          <P>0117 : CYSTIC FIBROSIS 
+          <P>0117 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 1-BP DEL, A3293
-          <P>0118 : CYSTIC FIBROSIS 
+          <P>0118 : CYSTIC FIBROSIS
                     <P>Mutation : CFTR, 4-BP INS, TCAA3667
 
 
@@ -665,7 +665,7 @@ Bibliography<P>
 “Adrenoleukodystrophy.”  Pediatric Database (PEDBASE) Homepage.  25 July 1994.
 http://www.icondata.com/health/pedbase/files/ADRENOLE.HTM  (15 February 1998).<P>
 
-DeLaCruz, Rene;  Kho, David;  Tran, Chuyen.  “Adrenoleukodystrophy (ALD):  A Peroxisomal Disorder.”  University of Washington.  2 April 1996.  
+DeLaCruz, Rene;  Kho, David;  Tran, Chuyen.  “Adrenoleukodystrophy (ALD):  A Peroxisomal Disorder.”  University of Washington.  2 April 1996.
 http://www.biology.washington.edu/bsa/bio...Papers/AB%20Adrenoleukodystrophy%202.html  (12 February 1998).<P>
 
 =========yorg=========
@@ -673,9 +673,9 @@ http://www.biology.washington.edu/bsa/bio...Papers/AB%20Adrenoleukodystrophy%202
 ===email:cato@iastate.edu
 ===date:Mon Feb 16 11:44:34 1998
 ===subject:Huntington's Disease
-===message:Huntington's Disease (HD) is a degenerative brain disease begining at mid-life.  "HD is caused by the expansion of polymorphic trinucleotide repeat (CAG)n located in the coding region of the gene for huntingtin.  HD occurs when the cells in the caudate nucleus of the brain begin to die.  HD causes relentless deteriation of intelectual ability, emotional control, balance and speech.  Chorea or involuntary movements is nearly always a symptom as well.  
+===message:Huntington's Disease (HD) is a degenerative brain disease begining at mid-life.  "HD is caused by the expansion of polymorphic trinucleotide repeat (CAG)n located in the coding region of the gene for huntingtin.  HD occurs when the cells in the caudate nucleus of the brain begin to die.  HD causes relentless deteriation of intelectual ability, emotional control, balance and speech.  Chorea or involuntary movements is nearly always a symptom as well.
 
-HD is caused by a single dominant gene from either parent.  A child with one parent that suffers from HD has a 50% chance of obtaining that gene.  
+HD is caused by a single dominant gene from either parent.  A child with one parent that suffers from HD has a 50% chance of obtaining that gene.
 
 The HD gene was located in 1983, but not correctly identified until 1993.  Its location was pinpointed to chromosome number four.  There are fifty known mutations in the HD gene.
 
@@ -683,19 +683,19 @@ Bibliography:
 
 Huntington's Disease.  Available at: www.interlog.com/~rlaycock/2nd.html
 
-National center for Biotechnology.  Available at:  www3.nlm.nib.gov:80/htbin-post/omim/dispmim?143100  
+National center for Biotechnology.  Available at:  www3.nlm.nib.gov:80/htbin-post/omim/dispmim?143100
 =========yorg=========
 ===from:Sheri Staudt
 ===email:sstaudt@iastate.edu
 ===date:Mon Feb 16 12:14:44 1998
 ===subject:Genetic Disorder
-===message:		Achondroplasia, also called chondrodystrophia fetalis, is 
-a form of dwarfism.  This particular disorder is, unlike most 
-harmful alleles, dominant instead of recessive.  There is one 
-case of this dominant allele disorder in every 10,000 people 
+===message:		Achondroplasia, also called chondrodystrophia fetalis, is
+a form of dwarfism.  This particular disorder is, unlike most
+harmful alleles, dominant instead of recessive.  There is one
+case of this dominant allele disorder in every 10,000 people
 (Campbell, 1996).  The people who have the phenotype for
 dwarfism are heterozygous.  The individuals who are homozygous
-for this recessive allele and not achondroplastic dwarfs make 
+for this recessive allele and not achondroplastic dwarfs make
 up 99.99% of the human population (Campbell, 1996).  Since
 these dominant alleles cannot be masked in heterozygous pairs,
 they are much less common than recessive pairs.  Most of these
@@ -709,7 +709,7 @@ arms, legs, and torso.  Those with proportionate size of body
 parts are also called midgets (World Book, 1995).  Achondroplastics
 are lacking in cartilage cells.  When not enough cartilage is
 present, the body's bones are unable to grow correctly.  This
-is the most common form of dwarfism, and the torso of the 
+is the most common form of dwarfism, and the torso of the
 individual is of almost normal size.  They also have larger heads
 due to overgrowth of bones after the sutures at the skull's base
 prematurely fuse.  These individuals may also have bulging
@@ -742,21 +742,21 @@ In an inbred Pakistani kindred, Montague et al. (1997) found that 2 " morbidly o
 <P>
 References:
 <P>
- Iversen, Michael,  M.D. (1998).  Obesity: A Contemporary Look at The Proper Diagnosis. 	Obesity. http://www.flash.net/~familymd/obesity.htm 
+ Iversen, Michael,  M.D. (1998).  Obesity: A Contemporary Look at The Proper Diagnosis. 	Obesity. http://www.flash.net/~familymd/obesity.htm
 <P>
- Friedman, J. M.; Leibel, R. L.; Siegel, D. S.; Walsh, J.; Bahary, N., 1991. 
-     	Molecular mapping of the mouse ob mutation. Genomics         11: 1054-1062. 
-     	
+ Friedman, J. M.; Leibel, R. L.; Siegel, D. S.; Walsh, J.; Bahary, N., 1991.
+     	Molecular mapping of the mouse ob mutation. Genomics         11: 1054-1062.
+
 <P>
-	Montague, C. T.; Farooqi, I. S.; Whitehead, J. P.; Soos, M. A.; Rau, H.; Wareham, N. J.; Sewter, C. P.; Digby, J. E.; Mohammed, S. N.; Hurst, J. A.; Cheetham, C. H.; Earley, A. R.; Barnett, A. H.; Prins, J. B.; O'Rahilly, S., 1997.  Congenital leptin deficiency is associated with severe early-onset obesity in humans. Nature 387: 903-908. 
+	Montague, C. T.; Farooqi, I. S.; Whitehead, J. P.; Soos, M. A.; Rau, H.; Wareham, N. J.; Sewter, C. P.; Digby, J. E.; Mohammed, S. N.; Hurst, J. A.; Cheetham, C. H.; Earley, A. R.; Barnett, A. H.; Prins, J. B.; O'Rahilly, S., 1997.  Congenital leptin deficiency is associated with severe early-onset obesity in humans. Nature 387: 903-908.
 
 =========yorg=========
 ===from:Matt Sogard
 ===date:Mon Feb 16 14:54:11 1998
 ===subject:Situs Inversus
 ===message:	HTX1, Heterotaxy-1, is a gene located on Homo Sapien chromosome number 14.  The disease known as situs inversus is caused by a mutation of this gene. (OMIM Home Page, 1998)  The word “situs,” refers to the position of the atria.  Situs inversus is the left to right reversal of the cardiac chambers.  The right atrium and ventricle are located on the left side of the heart while the left atrium and ventricle are located on the right of the heart.  This cardiac inversion can also be accompanied by an inversion of the other internal organs such as the liver, spleen, and stomach. (Situs Inversus, 1998) <P>
-	One of two known mutations of the HTX1 gene can cause situs inversus.  One type of mutation is a missense mutation in the HTX1 gene caused by a 1502C-T transition.  The other type is a nonsense mutation caused by a 1408C-T transversion. (OMIM Home Page, 1998) <P> 
-	Situs inversus is rare, but people born with situs inversus have increased chances of developing congenital heart disease.  HTX1 is an 
+	One of two known mutations of the HTX1 gene can cause situs inversus.  One type of mutation is a missense mutation in the HTX1 gene caused by a 1502C-T transition.  The other type is a nonsense mutation caused by a 1408C-T transversion. (OMIM Home Page, 1998) <P>
+	Situs inversus is rare, but people born with situs inversus have increased chances of developing congenital heart disease.  HTX1 is an
 x-linked gene.  It is autosomally recessive in its inheritance patterns. (The Genome Database, 1998)<P>
 
 References<P>
@@ -774,7 +774,7 @@ Situs Inversus
  February 13, 1998<P>
 
 =========yorg=========
-===from:Dallas 
+===from:Dallas
 ===email:kcrowley@nwiowa.com
 ===institution:AC-T SD
 ===date:Mon Feb 16 15:36:41 1998
@@ -853,8 +853,8 @@ http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?db=n&form=6&dopt=g&uid=u0734
 
 
 
-References: 
-Online Mendelian Inheritance in Man. February 16, 1997.   
+References:
+Online Mendelian Inheritance in Man. February 16, 1997.
 =========yorg=========
 ===from:Rohit Ramaswamy
 ===email:rohitr@worldnet.att.net
@@ -900,7 +900,7 @@ Martin, J. P.; Zorab, E. C. , "Familial glaucoma in nine generations of a South 
 
 Morissette, J.; Cote, G.; Anctil, J.-L.; Plante, M.; Amyot, M.; Heon, E.; Trope, G. E.;
 Weissenbach, J.; Raymond, V. "A common gene for juvenile and adult-onset primary open-angle glaucomas confined on chromosome 1q",  Am. J. Hum. Genet. 56: 1431-1442, 1995. <P>
-     
+
 Stone, E. M.; Fingert, J. H.; Alward, W. L. M.; Nguyen, T. D.; Polansky, J. R.; Sunden, S. L.
 F.; Nishimura, D.; Clark, A. F.; Nystuen, A.; Nichols, B. E.; Mackey, D. A.; Ritch, R.; Kalenak, J.
 W.; Craven, E. R.; Sheffield, V. C., "Identification of a gene that causes primary open angle glaucoma",  Science 275: 668-670, 1997. <P>
@@ -914,7 +914,7 @@ Zorab, A.,  "Glaucoma simplex familialis",  Trans. Ophthal. Soc. U.K. 52: 446-46
 ===subject:genetic diseases assignment - part 2
 ===message:UBE3A- Ubiquitin-Protein Ligase<P>
 
-	Ubiquitin-Protein Ligase, UBE3A, is the gene at which Angelman Syndrome, AS, arises.  The gene is located on the 15th human chromosome (Kishino, T., M. Lacande, and J. Wagstaff, 1997).<P>  Angelman Syndrome results from a lack of maternal contribution of chromosome 15q11-q13 (Online Mendelian Inheritance in Man, 1997).  This occurs from de novo, repeated, deletion. A mode of inheritance in rare cases, families having more than one occurrence, is autosomal dominant modified by imprinting (Online Mendelian Inheritance in Man, 1997).<P>  
+	Ubiquitin-Protein Ligase, UBE3A, is the gene at which Angelman Syndrome, AS, arises.  The gene is located on the 15th human chromosome (Kishino, T., M. Lacande, and J. Wagstaff, 1997).<P>  Angelman Syndrome results from a lack of maternal contribution of chromosome 15q11-q13 (Online Mendelian Inheritance in Man, 1997).  This occurs from de novo, repeated, deletion. A mode of inheritance in rare cases, families having more than one occurrence, is autosomal dominant modified by imprinting (Online Mendelian Inheritance in Man, 1997).<P>
 	AS is characterized by mental and motor retardation, seizures, paroxysmal (fitful) laughter, absence of speech, and ataxia (lack of coordination).  The components of ataxia and paroxysmal laughter are what led to early diagnoses of “happy puppet” syndrome (Online Mendelian Inheritance in Man, 1997).  Only in the past twenty years has sensitivity to sufferers and their families been accorded by the name Angelman Syndrome.<P>
 
 
@@ -925,13 +925,13 @@ Works Cited <P>
 Online Mendelian Inheritance in Man.  Angelman Syndrome.  National 	Center for Biotechnology Information.  http://www3.ncbi.nlm.
 	nih.gov/htbin-post/Omim/dispmim?105830#TEXT, 2/16/98.<P>
 
-Kishino, T., M. Lalande, and M. Wagstaff.  “UBE3A/E6-AP Mutations 		Cause Angelman Syndrome.”  Nat Genet.  January, 1997; 			15(1):70-73.      	 				     
-	
+Kishino, T., M. Lalande, and M. Wagstaff.  “UBE3A/E6-AP Mutations 		Cause Angelman Syndrome.”  Nat Genet.  January, 1997; 			15(1):70-73.
+
 =========yorg=========
 ===from:jeremy duehr
 ===date:Mon Feb 16 23:05:44 1998
 ===subject:part II
-===message:Choroidermia Gene.  
+===message:Choroidermia Gene.
 
 
 Blindness is a not a really serious problem in today's society however it can still be very challenging. Geneticists are constantly searching for cures to blindness and by isolating genes which cause this debilitating disease they come closer to that goal. The X-linked gene Choroidermia(Chm) is one such gene that causes disease of the retina. The blindness it causes is characterized by progressive dystrophy of the Chroid, Retinal pigment epithelium, and Retina.(Van Bokhoven) Choroidermia is located on chromosome X and the mutations, which cause it to be debilitating, are 4 Exons of the 3' portion.(Van Bokhoven)
@@ -961,7 +961,7 @@ http://www3.ncbi.nlm.nih.gov/
 ===from:Damon Johnson
 ===date:Mon Feb 16 23:56:46 1998
 ===subject:Hey Mr. Wilson
-===message:<p>Most of us remeber Mr. Wilson as the Grumpy old man on dennis the Menace, but Wilson Disease is a fatal disease is fatal if not treatred immediately. Wilson' disease is an autosomal recessive disease and its gene is called ATP 7B (ManOMIM).  Wilson's diseases causes the body to accumuklate copper in the brain liver and other vital organs (Taylor).  
+===message:<p>Most of us remeber Mr. Wilson as the Grumpy old man on dennis the Menace, but Wilson Disease is a fatal disease is fatal if not treatred immediately. Wilson' disease is an autosomal recessive disease and its gene is called ATP 7B (ManOMIM).  Wilson's diseases causes the body to accumuklate copper in the brain liver and other vital organs (Taylor).
 <P>The gene ATP 7B creates several different forms of Wilson's disease.  They have identified 16 novel mutations, 7 missense mutations, and 1 splicing defect (ManOMIM).  The disease also has 8 different alleles which range from .0001 to .0008(ManOMIM).  The gene can be found on chromosome number 13 in the 14.3 region(ManOMIM)
 <P> If caught soon enough, victims of Wilsons Disease can be cured.  The treatment consits mainly of the use of the drug penicilleamine(Taylor).  If not treated most victims won't live to be 30 years old.
 <P>Literature Citied
@@ -974,13 +974,13 @@ http://www3.ncbi.nlm.nih.gov/
 ===message:Hemochromatosis
 
 Hemochromatosis is a condition in which the body absorbs an excess amount of iron, causing an iron overload (Bacon, 96). Iron accumulates in the body over time. This excess iron is stored in various organs, mainly in the liver, but the pancreas, endocrine glands and joints can also be affected (OMIM, 97). This can lead to serious damage of tissues, symptoms include abdominal pain, diabetes mellitus, enlargement of the heart leading to congestive heart failure and dysrhythmias, enlargement and cirrhosis of the liver which, if left untreated can over time lead to liver cancer (PGD, 1254). Hemochromatosis can also manifest in symptoms such as nausea, memory loss, and disorientation (Green, 97). It is frequently misdiagnosed as chronic hepatitis. This disorder is also highly treatable. The patient is put on a regular program of blood donation. Most patients experience total relief of symptoms using this treatment (PGD, 1254).<P>
-Hemochromatosis is caused by the inheritance of two abnormal genes (autosomal recessive). The task of locating this gene has been challenging (Ponka, 97). It is known that the gene is on the short arm of chromosome 6 (Bacon, 96). The suspected region is very large. One of the genes in the area a suspect and was named HLA-H and is highly suspected to play a part in hemochromatosis. No definite proof has been presented (Ponka,97).<P>  
- 
+Hemochromatosis is caused by the inheritance of two abnormal genes (autosomal recessive). The task of locating this gene has been challenging (Ponka, 97). It is known that the gene is on the short arm of chromosome 6 (Bacon, 96). The suspected region is very large. One of the genes in the area a suspect and was named HLA-H and is highly suspected to play a part in hemochromatosis. No definite proof has been presented (Ponka,97).<P>
+
 Bacon, Bruce (1996). The Elusive Hemochromatosis Gene and Other Reports on Iron Metabolism.   	http://sadeio.ucsf.edu/ALF/ALFfinal/proghemochrom.html<P>
 
 Green, Hadley (1997). The Haemochromatosis Society. http://ourworld.compuserve/homepages/ghsoc/<P>
 
-Online Mendelian Inheritance in Man (1997). Hemochromatosis, Hereditary:HH.  
+Online Mendelian Inheritance in Man (1997). Hemochromatosis, Hereditary:HH.
                http://www3.ncbi.nlm.nih.gov:80/htbin-post/Omim/dispmim?235200<P>
 
 Ponka, Prem (1997). Has the Hemochromatosis Gene been Identified? http://home.iSTAR.ca/chcts/ponmar97.

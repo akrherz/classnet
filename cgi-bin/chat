@@ -6,7 +6,7 @@ BEGIN {
 }
 
 require 'optimize.pl';
-    
+
 umask 000;
 
 nice;
@@ -60,7 +60,7 @@ Window-target: entry
 <HEAD><TITLE>$cname Chat</TITLE></HEAD>
 <BODY $GLOBALS::BACKGROUND>
 <B>Instructions</B>: Type text then click on Send.
-Screen updates every $refresh seconds. 
+Screen updates every $refresh seconds.
 <FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/chat>
 <INPUT TYPE=hidden name="Class Name" VALUE="$cname">
 <INPUT TYPE=hidden name=Ticket VALUE="$ticket">
@@ -97,7 +97,7 @@ HTML
         if (-M $fname > 7 ) {
             unlink $fname;
         } else {
-            print `cat $fname`; 
+            print `cat $fname`;
         }
     }
     print "</BODY></HTML>\n";

@@ -6,8 +6,8 @@
 3. 496-98-9102
 4. September 27, 1997
 
-5. a.Behavior modification: 
-Source- Pressley. Behavior modification is an intervention strategy that is  based on the idea that one should reinforce behaviors that are desirable.  For instance, in the classroom, desirable behaviors might include having students raise their hands before speaking, being polite to others, etc.  A teacher practicing behavior modification would encourage/reinforce these behaviors by using positive or negative enforcers.  As such behaviors are reinforced, children are more likely to continue them. 
+5. a.Behavior modification:
+Source- Pressley. Behavior modification is an intervention strategy that is  based on the idea that one should reinforce behaviors that are desirable.  For instance, in the classroom, desirable behaviors might include having students raise their hands before speaking, being polite to others, etc.  A teacher practicing behavior modification would encourage/reinforce these behaviors by using positive or negative enforcers.  As such behaviors are reinforced, children are more likely to continue them.
 
 
 B.  Positive and  negative reinforcers:
@@ -25,7 +25,7 @@ D. Observational/social learning theory:
 Source: Pressley. Observational learning theory is centered around the notion that we learn things by observing others.  This has evolved into social learning theory because it has been found that many of our social behaviors are learned through observation.  Social learning theory also identifies with other theories of learning including analysis of behavior.
 
 E.  Retentional processes:
-Source: Pressley.  Retentional processes are those that help us remember things that will affect what we do in the future.  These might include, but are not limited to, encoding strategies involving imagery and verbalization, and rehearsal processes.  Basically, retentional processes are anything we do that helps us retain information for future use.  For instance, while trying to remember items on our grocery list, we might try a rehearsal technique. 
+Source: Pressley.  Retentional processes are those that help us remember things that will affect what we do in the future.  These might include, but are not limited to, encoding strategies involving imagery and verbalization, and rehearsal processes.  Basically, retentional processes are anything we do that helps us retain information for future use.  For instance, while trying to remember items on our grocery list, we might try a rehearsal technique.
 
 6. A.  It is the first day of school and I have gone over my expectations for the year.  One of these expectations is that when I give an assignment, everyone should do their best, work quietly and try to get the task completed on time.  It is now 1:25pm  and time for math.  I give the students an assignment, but notice that I have made it kind of lengthy and redundant and that this is frustrating for many of my students.  As I walk around the room, I can also see that all my expectations dealing with work habits are being met.  I make this known to them and tell them that because they are doing such a good job, I will shorten the assignment because I realize that I made a mistake by making it too long.  (Behavior modification)
 

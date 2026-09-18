@@ -37,7 +37,7 @@ sub new {
    $self->{'Editor Type'} = 'JAVAEDITOR';
    # Make sure this student has a dir reserved for this java assignment
    if (($member and ($member->{'Member Type'} eq 'student')) and !(-e $self->{'Java Dir'})) {
-      my $javadir = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/java"; 
+      my $javadir = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/java";
       if (!(-e $javadir)) {
           mkdir($javadir,0700) or
               ERROR::system_error('JAVA','create','mkdir',$javadir);
@@ -108,19 +108,19 @@ sub upload {
    print JAVA_FILE $hfile;
    close JAVA_FILE;
    chmod 0600, $file;
-   
+
    return;
 }
 sub get_graded_form {
     my $self = shift;
-  
+
     # This needs to be generalized... Lesson Graph students can replay
     #!($self->{'Name'} =~ /Graph/) and
-    #	return "<B>$self->{'Name'}: No correct answers for Java  assignments</B>"; 
+    #	return "<B>$self->{'Name'}: No correct answers for Java  assignments</B>";
 
    # Read in the html file
    open(HTML_FILE, "<$self->{'Dev Root'}/$self->{'Disk Name'}.html") or
-      ERROR::system_error("JAVA.pm","send_edit_form","open","Could not open $self->{'Name'}.html"); 
+      ERROR::system_error("JAVA.pm","send_edit_form","open","Could not open $self->{'Name'}.html");
    undef $/;
    my $java_file = <HTML_FILE>;
    close HTML_FILE;
@@ -191,7 +191,7 @@ sub send_ungraded_form {
    my $date = sprintf("%02d$months[$mon]%04d",$mday,$year);
 
    open(HTML_FILE, "<$html_file") or
-      ERROR::system_error("JAVA.pm","send_ungraded_form","open","Could not open $self->{'Name'}.html"); 
+      ERROR::system_error("JAVA.pm","send_ungraded_form","open","Could not open $self->{'Name'}.html");
 
    # Read in the html file
    undef $/;
@@ -208,7 +208,7 @@ sub send_ungraded_form {
    #   push(@msgfiles,grep(/^From_s/,readdir(JAVADIR)));
    closedir(JAVADIR);
    my $msgList = join(';',@msgfiles);
-   
+
    # Modify the applet params
    # SRM_ALIAS must be defined in srm.conf of ClassNet's httpd server
    #    - this allows server document retrieval in other directories
@@ -245,7 +245,7 @@ sub send_edit_form {
 
    # Read in the html file
    open(HTML_FILE, "<$self->{'Dev Root'}/$self->{'Disk Name'}.html") or
-      ERROR::system_error("JAVA.pm","send_edit_form","open","Could not open $self->{'Name'}.html"); 
+      ERROR::system_error("JAVA.pm","send_edit_form","open","Could not open $self->{'Name'}.html");
    undef $/;
    my $java_file = <HTML_FILE>;
    close HTML_FILE;

@@ -37,5 +37,5 @@
 ===from:Chazie Brown
 ===date:Tue Apr 22 13:56:30 2003
 ===subject:Microcredit
-===message:I feel Microcredit is a very beneficial program for the people of Banglesh. The program gives the people a chance to start somewhere. True enough they may or may not be successful but at least they have the chance. Grameen has addressed poverty fairly well because Microcredit has helped. It has helped to develop a positive status in the economy for women. I do think women are the winners in this senario. 
+===message:I feel Microcredit is a very beneficial program for the people of Banglesh. The program gives the people a chance to start somewhere. True enough they may or may not be successful but at least they have the chance. Grameen has addressed poverty fairly well because Microcredit has helped. It has helped to develop a positive status in the economy for women. I do think women are the winners in this senario.
 =========yorg=========

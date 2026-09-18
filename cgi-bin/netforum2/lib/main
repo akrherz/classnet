@@ -102,22 +102,22 @@ sub show_messages {
     } else {
 	($topic_number, $how_deep) = split('\.', $command_vars);
     }
-    # Get message information from list file 
-    # (number of messages and topic name)	
-	
+    # Get message information from list file
+    # (number of messages and topic name)
+
     $topic_file_path = "$home_directory/$which_forum/topics/list";
     open (TOPIC, $topic_file_path) ||
 	&doh("Couldn\'t open topic file: $topic_file_path");
-    
 
-    while( <TOPIC> )  {	 
-	
+
+    while( <TOPIC> )  {
+
 	($number, $num_messages, $num_replies, $name, $date) = split(/:/,$_,5);
-    	last if($number == $topic_number); 	
-    }				
+    	last if($number == $topic_number);
+    }
 
     close(TOPIC);
-    
+
     $num_messages =~ s/\s//g;
     $number =~ s/\s//g;
 
@@ -130,13 +130,13 @@ sub show_messages {
     elsif ( $which_command == $expand_messages_command ) {
 	$subject_only = 0;
     }
-	
+
     if ( !$how_deep ) {
 
 	$how_deep = 1;
     }
 
-    $convert = $how_many_messages_expanded / $how_many_messages_compressed; 
+    $convert = $how_many_messages_expanded / $how_many_messages_compressed;
 
     if ( $subject_only == 1 ) {
 	$convert = 1 / $convert;
@@ -149,7 +149,7 @@ sub show_messages {
     $how_deep_convert = int( $convert * ( $how_deep - 1 ) ) + 1;
 
     if ( $how_many_messages == -1 ) {
-	
+
 	$finish = $num_messages;
 	$start = 1;
 	$how_deep_convert = 1;
@@ -168,7 +168,7 @@ sub show_messages {
     }
 
     # Build the toolbar
-    
+
     if ( $subject_only ) {
 	@icon_list = ( 'add_message', 'expand_messages', 'show_group', 'email_group', 'list_topics', 'goto_admin', 'help', 'about_forum' );
     }
@@ -177,7 +177,7 @@ sub show_messages {
     }
 
     &read_messages($topic_number);
-       
+
     unless ($httpheader) {print &http_header};
     print "<title>Messages In Topic: $topic_name</title>\n";
     &header;
@@ -201,7 +201,7 @@ sub show_messages {
 
     print "<CENTER><EM>Newer messages are at the top</EM></CENTER>\n<HR>\n";
 
-    
+
     if ( $start != 1 ) {
 	print "<CENTER><EM>";
 	print "<a href=\"/$netforum_url/$page_messages_command";
@@ -238,16 +238,16 @@ sub show_messages {
 
 		if (-e "$home_directory/$which_forum/responses/$topic_number\-$which_message") {
 
-		    &get_replies(0); 
+		    &get_replies(0);
 
 	    	}
-	    }			
+	    }
 	}
 	print "</TABLE>\n";
 	print "<BR>\n";
 	print "<HR>\n";
 
-    }	    
+    }
     # Here we print in expando mode
 
     else {
@@ -255,11 +255,11 @@ sub show_messages {
 
 	    $which_message = $num_messages - $i + 1;
 
-	    
+
 	    if($poster_site[$i]) {
 		print "<b>Posted by:</b><a href=\"$poster_site[$i]\">";
 		print "$poster_name[$i]</a> ";
-	    }			 
+	    }
 	    else {
 		print "<b>Posted by:</b> $poster_name[$i] ";
 	    }
@@ -296,7 +296,7 @@ sub show_messages {
 		print $anything_else[$i];
 	    }
 
-	    if($allow_replies) {	
+	    if($allow_replies) {
 		print "<BR>";
 	    	if (-e "$home_directory/$which_forum/responses/$topic_number\-$which_message") {
 		    print "\n<P>\n";
@@ -306,7 +306,7 @@ sub show_messages {
 		    print "</TABLE>\n";
 
 		}
-	    
+
 	    	print "\n<p>\n<a href=\"/$netforum_url/";
 		print "$add_reply_command$cvar_separator$topic_number\.";
 		print "$which_message\.$how_deep\"><img alt=\"Reply to this";
@@ -330,11 +330,11 @@ sub show_messages {
 
     # print pagination info
     &do_pages($how_deep);
-    
+
     print "<HR>\n";
 
     # if the list is long print another toolbar
-    if ( $finish - $start == $how_many_messages - 1 
+    if ( $finish - $start == $how_many_messages - 1
 	 || $how_many_messages == -1 ) {
 	&toolbar;
 	print "<HR>\n";
@@ -350,7 +350,7 @@ sub show_messages {
 #    print "\n<hr>\n\n";
 
     &footer;
-	
+
 }
 
 # this will display a single message in expando mode
@@ -361,9 +361,9 @@ sub show_specific_message {
     ( $topic_number, $which_message, $how_deep ) = split(/\./, $command_vars);
 
 
-    # Get message information from list file 
+    # Get message information from list file
     # (number of messages and topic name)
-	
+
      $topic_file_path = "$home_directory/$which_forum/topics/list";
      open (TOPIC, $topic_file_path) ||
  	&doh("Couldn\'t open topic file: $topic_file_path");
@@ -381,20 +381,20 @@ sub show_specific_message {
     # HEY! read topic info now
 
     unless ($httpheader) {print &http_header;}
- 
-    print "<title>NetForum - $topic_name</title>\n"; 
-    &header; 
 
-    print "<H3>Forum: $forum_name</H3>";			 
+    print "<title>NetForum - $topic_name</title>\n";
+    &header;
+
+    print "<H3>Forum: $forum_name</H3>";
 
     &get_topic_info;
 
     # show messages toolbar:
 
-    @icon_list = ( 'back_to_list', 'show_group', 'email_group', 'list_topics', 
+    @icon_list = ( 'back_to_list', 'show_group', 'email_group', 'list_topics',
 		  'goto_admin', 'help', 'about_forum' );
 
-   
+
     &toolbar;
 
     print "<hr>";
@@ -403,10 +403,10 @@ sub show_specific_message {
 
     if ( $which_message != $num_messages ) {
 
-	
+
 	print "<A HREF=\"/$netforum_url/$view_message_expanded";
 	print "$cvar_separator$topic_number.", $which_message + 1, ".";
-	if ( $which_message == 
+	if ( $which_message ==
 	    $num_messages - $how_many_messages * ($how_deep - 1) ) {
 
 	    print $how_deep - 1;
@@ -415,7 +415,7 @@ sub show_specific_message {
 	}
 
 	print "\">Previous message</A>\n<HR>\n";
-    
+
     }
 
 
@@ -445,14 +445,14 @@ sub show_specific_message {
 
     }
 
-    print "<BR><HR>\n";  
+    print "<BR><HR>\n";
 
     if ( $which_message > 1 ) {
 
 	print "<A HREF=\"/$netforum_url/$view_message_expanded";
 	print "$cvar_separator$topic_number.", $which_message - 1, ".";
 
-	
+
 	if ( $which_message  - 1 == $num_messages - $how_many_messages * $how_deep ) {
 	    print $how_deep + 1;
 	} else {
@@ -465,8 +465,8 @@ sub show_specific_message {
 
 
     &footer;
-	
-}				
+
+}
 
 
 # this presents the user with a forum that allows them to add a new topic
@@ -492,7 +492,7 @@ sub add_topic {
 
     @icon_list = ( 'show_group', 'email_group', 'list_topics', 'goto_admin', 'help', 'about_forum' );
     &toolbar;
-    
+
     print "\n<hr>\n<form action=\"/$netforum_url/";
 
     if ( $preview_all && $preview_topics ) {
@@ -501,10 +501,10 @@ sub add_topic {
 
     }
     else {
-	
+
 	print "$post_topic_command\"";
     }
-    
+
     print "method=POST>\n";
 
     if ( $anyone_add_username && $anyone_add_password ) {
@@ -521,7 +521,7 @@ Please enter your username and password:</b>
 </DL>
 <hr>
 EOH
-	
+
     }
 
     print <<EOH;
@@ -567,9 +567,9 @@ EOH
     if ( $which_command == $add_topic_command ) {
 	$formatting = $default_formatting;
     }
-    
+
     &format_list($formatting);
-    
+
     print "<p>\n<hr>\n<center>\n";
 
     if ( $preview_all && $preview_topics ) {
@@ -603,7 +603,7 @@ sub show_desc {
 
     print "<b>Owner:</b> ";
 
-    if (($forum_owner_site =~ /http\:\/\//) && 
+    if (($forum_owner_site =~ /http\:\/\//) &&
 	($forum_owner_site ne 'http://')) {
 
 	print "<a href=\"$forum_owner_site\">";
@@ -611,7 +611,7 @@ sub show_desc {
 
     print $forum_owner;
 
-    if (($forum_owner_site =~ /http\:\/\//) && 
+    if (($forum_owner_site =~ /http\:\/\//) &&
 	($forum_owner_site ne 'http://')){
 
 	print "</a>";
@@ -626,7 +626,7 @@ sub show_desc {
     }
 
     print "<b>Contact:</b> ";
-    if ($forum_monitor_site =~ /http\:\/\// && 
+    if ($forum_monitor_site =~ /http\:\/\// &&
 	$forum_monitor_site ne 'http://' ) {
 
 	print "<a href=\"$forum_monitor_site\">";
@@ -637,8 +637,8 @@ sub show_desc {
 	&& $forum_monitor_site ne 'http://'){
 	print "</a> \n";
     }
-    if($forum_monitor_email) {	
-    	
+    if($forum_monitor_email) {
+
 	print &email( $forum_monitor_email );
     }
     else {
@@ -648,7 +648,7 @@ sub show_desc {
     print "<hr>\n";
 
     if ( -e "$home_directory/$which_forum/description") {
-	open(DFILE, "$home_directory/$which_forum/description") || 
+	open(DFILE, "$home_directory/$which_forum/description") ||
 	    &doh('Can\'t open description file');
 	while (<DFILE>){print;}
 	close(DFILE);
@@ -656,7 +656,7 @@ sub show_desc {
     }
 
     if ( -e "$home_directory/$which_forum/guidelines") {
-	open(GFILE, "$home_directory/$which_forum/guidelines") || 
+	open(GFILE, "$home_directory/$which_forum/guidelines") ||
 	    &doh('Can\'t find guidelines file');
 	while (<GFILE>){print;}
 	close(GFILE);
@@ -676,14 +676,14 @@ sub show_group {
 
     print "<b>Owner:</b> ";
 
-    if ($forum_owner_site =~ /http\:\/\// && 
+    if ($forum_owner_site =~ /http\:\/\// &&
 	$forum_owner_site ne 'http://' ){
 	print "<a href=\"$forum_owner_site\">";
     }
 
     print $forum_owner;
 
-    if ($forum_owner_site =~ /http\:\/\// && 
+    if ($forum_owner_site =~ /http\:\/\// &&
 	$forum_owner_site ne 'http://'){
 
 	print "</a>";
@@ -726,7 +726,7 @@ sub show_group {
 #	print "<li>$name";
 #	print &email( $group_list{ $name } );
 
-#    }				
+#    }
 
     $count = 1;
 
@@ -745,7 +745,7 @@ sub show_group {
     print "</ul>\n";
     if (-e "$home_directory/$which_forum/description"){
 
-	open(DESC, "$home_directory/$which_forum/description") || 
+	open(DESC, "$home_directory/$which_forum/description") ||
 	    &doh('Can\'t open description file');
 	print "<hr>\n";
 
@@ -771,16 +771,16 @@ sub add_reply {
     }
     unless ($poster_site){$poster_site = 'http://';}
 
-    # read the origional message 
+    # read the origional message
 
     ($topic_number, $which_message ) = split ( /\./, $command_vars );
-    
+
 
     unless ($httpheader) {print &http_header;}
     print "<title>$forum_name - Add Reply</title>\n";
     &header;
     print "\n<h3>Forum: $forum_name</h3>\n";
- 
+
     &get_topic_info;
 
     @icon_list = ( 'show_group', 'email_group', 'list_topics', 'goto_admin', 'help', 'about_forum' );
@@ -792,21 +792,21 @@ sub add_reply {
     print "<h3>Original Message:</h3>\n\n";
 
     &print_message( $topic_number, $which_message );
-    
+
     print "\n<hr>\n<form action=\"/$netforum_url/";
-    
+
     if ( $preview_all && $preview_replies ) {
 
 	print "$preview_reply_command$cvar_separator$command_vars\"";
 
     }
     else {
-	
+
 	print "$post_reply_command$cvar_separator$command_vars\"";
     }
-    
+
     print "method=POST>\n";
-    
+
     print <<EOH;
 <h3>Reply:</h3>
 <b>Required Information:</b><p>
@@ -839,13 +839,13 @@ EOH
 
 <dd><b>Your $institution_field_name\'s Web Site</b>:
 <dd><input value="$institution_site" size=40 name="institution_site"><br>
-<dd><b>Your Email Address</b>: 
+<dd><b>Your Email Address</b>:
 <dd><input value="$poster_email" size=40 name="poster_email"><br>
-<dd><b>Your Web home page</b>: 
+<dd><b>Your Web home page</b>:
 <dd><input value="$poster_site" size=40 name="poster_site"><p>
 </DL>
 <HR>
-<dd><b>Message:</b> 
+<dd><b>Message:</b>
 <DL><dd><textarea rows=8 cols=60 name="message" wrap=physical>$message</textarea>
 </DL>
 <p>
@@ -856,7 +856,7 @@ EndOfForum
 
 
     &format_list($formatting);
-		
+
     print <<EOH;
 <p>
 <hr>
@@ -864,10 +864,10 @@ EndOfForum
 EOH
     if ( $preview_all && $preview_replies ) {
 	print "<input TYPE=\"submit\" value=\"Preview Reply \">\n";
-    }				 
-    else {			
+    }
+    else {
 	print "<input TYPE=\"submit\" value=\"Post Reply\">\n";
-    }				
+    }
 
     print<<EOH;
 <input TYPE="reset" value=" Reset message ">
@@ -877,15 +877,15 @@ EOH
 EOH
 
     &footer;
-}				
+}
 
 
-sub show_replies {		
-    
-    local($flag, $topic_number, $which_message, $which_reply, $counter, 
-	  $how_deep, $is, $ps, @replies, $item); 
+sub show_replies {
 
-    ($topic_number, $which_message, $which_reply, $how_deep, $where_from) = 
+    local($flag, $topic_number, $which_message, $which_reply, $counter,
+	  $how_deep, $is, $ps, @replies, $item);
+
+    ($topic_number, $which_message, $which_reply, $how_deep, $where_from) =
 	split('\.', $command_vars);
 
     if  ( $where_from ) {
@@ -900,7 +900,7 @@ sub show_replies {
 
     $topic_file = "$home_directory/$which_forum/topics/$topic_number";
 
-    open ( TOPIC, $topic_file ) || 
+    open ( TOPIC, $topic_file ) ||
 	&doh ("Unable to open topic file: $topic_file" );
 
     while ( <TOPIC> ) {
@@ -912,9 +912,9 @@ sub show_replies {
 
     # read replies
 
-    $counter = 1; 
+    $counter = 1;
 
-    $reply_file =  
+    $reply_file =
 	"$home_directory/$which_forum/responses/$topic_number\-$which_message";
 
     open(REPLY, $reply_file ) || &doh("Can\'t open reply file: $reply_file");
@@ -923,22 +923,22 @@ sub show_replies {
 	if (/$separator/){
 	    $counter++;
 	    $emailSeen = 0;	# this is a kludge to get a <BR> in the right
-				# place 
+				# place
 	}
 	elsif (/$subject_key/){
-	    $replies[$counter] .= 
+	    $replies[$counter] .=
 		"\n<b>Subject:</b> $'\n<br>\n<b>Reply Posted by:</b> ";
 	}
 	elsif (/$poster_site_key/){
-	    $replies[$counter] .= "<a href=\"$'\">"; 
+	    $replies[$counter] .= "<a href=\"$'\">";
 	    $ps = 1;
 	}
 	elsif (/$poster_name_key/){
-	    $replies[$counter] .= "$'"; 
+	    $replies[$counter] .= "$'";
 	    if ($ps) {
 		$replies[$counter] .= "</a>  ";
 	    }
-		
+
 	}
 	elsif (/$poster_email_key/){
 
@@ -950,18 +950,18 @@ sub show_replies {
 		$replies[$counter] .= "<BR>\n";
 		$emailSeen = 0;
 	    }
-	    $replies[$counter] .= 
-		"\n<b>$institution_field_name:</b> <a href=\"$'\">"; 
+	    $replies[$counter] .=
+		"\n<b>$institution_field_name:</b> <a href=\"$'\">";
 	    $is = 1;
-	}			
+	}
 	elsif (/$poster_institution_key/){
 	    if ($is){
 		$replies[$counter] .= "$'</a>\n<br>\n";
-	    }		
+	    }
 	    else{
 		$replies[$counter] .= "\n<b>$institution_field_name:</b> $'\n<br>\n";
 	    }
-	    $pi = 1;		
+	    $pi = 1;
 	}
 	elsif (/$date_key/){
 
@@ -972,7 +972,7 @@ sub show_replies {
 	    	$replies[$counter] .= "<b>Date Posted:</b> $'\n<br>\n";
 	    }
 	    else {
-		
+
 		$replies[$counter] .= "<b>Date Posted:</b> $'\n<br>\n";
 	    }
 	}
@@ -990,7 +990,7 @@ sub show_replies {
     unless ($httpheader) {print &http_header};
     print "<title>NetForum - Message Replies</title>\n";
     &header;
-    print "\n<h2>NetForum - Message Replies</h2>\n<hr>\n"; 
+    print "\n<h2>NetForum - Message Replies</h2>\n<hr>\n";
 
     print "<H3>Forum: $forum_name</H3>";
 
@@ -1012,7 +1012,7 @@ sub show_replies {
 	print $which_reply - 1;
 	print "\.$how_deep\">";
 	print "Previous reply\</A>\n";
-    }			
+    }
 
 
     if ($which_reply == 0){
@@ -1021,7 +1021,7 @@ sub show_replies {
 		print "\n<hr>\n";
 		print "<B>Reply:</B> <P>\n";
 	    }
-	    print $item;	
+	    print $item;
 	}
 	print "\n<hr>\n";
 	&toolbar;
@@ -1071,7 +1071,7 @@ sub add_message {
     &header;
     print "\n<h2>$forum_name - Add Message</h2>\n<hr>\n";
 
-    @icon_list = ('show_group', 'email_group', 'list_topics', 'goto_admin', 
+    @icon_list = ('show_group', 'email_group', 'list_topics', 'goto_admin',
 		  'help', 'about_forum' );
     &toolbar;
 
@@ -1083,7 +1083,7 @@ sub add_message {
 
     }
     else {
-	
+
 	print "$post_message_command";
     }
 
@@ -1144,8 +1144,8 @@ EOH
 <p>
 EOH
 
-	
-    &format_list($formatting);	
+
+    &format_list($formatting);
 
     print "<p>\n<hr>\n<center>\n";
 
@@ -1175,13 +1175,13 @@ sub show_topics {
 
     unless ($httpheader) {print &http_header;}
     print "<title>$forum_name - Topics</title>\n";
-    
+
     &header;
 
     print "\n<h2>Forum:$forum_name</h2>\n\n";
     print "<b>Owner:</b> ";
 
-    if (($forum_owner_site =~ /http\:\/\//) && 
+    if (($forum_owner_site =~ /http\:\/\//) &&
 	 $forum_owner_site ne 'http://' ) {
 
 	print "<a href=\"$forum_owner_site\">";
@@ -1189,7 +1189,7 @@ sub show_topics {
 
     print $forum_owner;
 
-    if (($forum_owner_site =~ /http\:\/\//) && 
+    if (($forum_owner_site =~ /http\:\/\//) &&
 	$forum_owner_site ne 'http://' ) {
 
 	print "</a>";
@@ -1204,26 +1204,26 @@ sub show_topics {
     }
 
     print "<b>Contact:</b> ";
-    if ($forum_monitor_site =~ /http\:\/\// && 
+    if ($forum_monitor_site =~ /http\:\/\// &&
 	$forum_monitor_site ne 'http://') {
 
 	print "<a href=\"$forum_monitor_site\">";
     }
 
     print $forum_monitor;
-    if ($forum_monitor_site =~ /http\:\/\// && 
+    if ($forum_monitor_site =~ /http\:\/\// &&
 	$forum_monitor_site ne 'http://') {
 	print "</a>";
     }
 
-    if( $forum_monitor_email ) {	
-    	
+    if( $forum_monitor_email ) {
+
 	print &email( $forum_monitor_email );
     } else {
     	print "\n<BR>\n";
     }
     if (-e "$home_directory/$which_forum/description"){
-	open(DESC, "$home_directory/$which_forum/description") || 
+	open(DESC, "$home_directory/$which_forum/description") ||
 	    &doh('Can\'t open description file');
 	print "<B>Description:</b>\n";
 	while (<DESC>){
@@ -1243,7 +1243,7 @@ sub show_topics {
 
     # &load_topics;
     $list_file = "$home_directory/$which_forum/topics/list";
-	
+
     if (!(-s $list_file)) {
 	print "\n<dd><b>No Topics</b>\n";
     }
@@ -1251,11 +1251,11 @@ sub show_topics {
     {
 	open(TOPICS_LIST, $list_file) ||
 	    &doh("Couldn\'t find topics list file: $list_file");
-		
+
 	print "<UL>\n";
 
 	while($line = <TOPICS_LIST>) {
-	    ($topic_number, $num_messages, $num_replies, $item, $udate) = 
+	    ($topic_number, $num_messages, $num_replies, $item, $udate) =
 		split(/:/, $line,5);
 
 	    $topic_number =~ s/\s//g;
@@ -1268,7 +1268,7 @@ sub show_topics {
 
 	    if ($num_messages == 0) {
 		print "<dd> (no messages)\n";
-	    } 
+	    }
 	    else {
 		print "<dd> ($num_messages";
 		if ($num_messages == 1) {
@@ -1294,11 +1294,11 @@ sub show_topics {
 	    }
 	    print "</DL>\n";
 
-	}		
-    }			
+	}
+    }
 
     print "</ul>\n<hr>\n";
-    &footer;    
+    &footer;
 
 }
 
@@ -1352,7 +1352,7 @@ sub preview_topic {
     &print_cookies($poster_name,$poster_email,$poster_site,$poster_institution,$institution_site);
 
     if ( $anyone_add eq 'no' ) {
-	&doh("Username, password incorrect") 
+	&doh("Username, password incorrect")
 	    unless ($anyone_add_username eq $username
 		    && $anyone_add_password eq $password );
     }
@@ -1468,7 +1468,7 @@ sub preview_reply {
     print "in the forum:</h3>\n<hr>\n<br>\n";
     print "<b>Subject:</b> $subject<br>\n";
 
-    if (($poster_site =~ /http:\/\//) && 
+    if (($poster_site =~ /http:\/\//) &&
 	($poster_site ne 'http://')){
 
 	print "<b>Reply Posted by: </b> <a href=\"$poster_site\">$poster_name</a> ";
@@ -1484,19 +1484,19 @@ sub preview_reply {
     }
     else { print "\n<br>\n"; }
 
-    if (($institution_site =~ /http:\/\//) && 
+    if (($institution_site =~ /http:\/\//) &&
 	($institution_site ne 'http://')){
 
 	print "<b>$institution_field_name:</b> ";
 	print "<a href=\"$institution_site\">$poster_institution</a>\n<br>\n";
     }
-    else { 
-	print "<b>$institution_field_name:</b> $poster_institution\n<br>\n"; 
+    else {
+	print "<b>$institution_field_name:</b> $poster_institution\n<br>\n";
     }
 
     print "<b>Date Posted:</b>", &ctime(time), "\n<br>\n";
-    if ($message){ 
-	print "<b>Message:</b><br>\n$formatted\n<p>\n"; 
+    if ($message){
+	print "<b>Message:</b><br>\n$formatted\n<p>\n";
     }
 
     &encode($message);
@@ -1554,14 +1554,14 @@ sub preview_message {
     $formatted = &markup_options($message, $formatting);
 
     &print_cookies($poster_name,$poster_email,$poster_site,$poster_institution,$institution_site);
-    
+
 
     print "<title>Preview Message</title>\n";
     &header;
     print "\n<h3 align=center>This is how the message will appear in ";
     print "the forum:</h3>\n<hr>\n<br>\n";
 
-    if (($poster_site =~ /http:\/\//) && 
+    if (($poster_site =~ /http:\/\//) &&
 	($poster_site ne 'http://')){
 	print "<b>Message Posted by: </b> <a href=\"$poster_site\">$poster_name</a> ";
     }
@@ -1572,13 +1572,13 @@ sub preview_message {
     }
     else { print "\n<br>\n"; }
 
-    if (($institution_site =~ /http:\/\//) && 
+    if (($institution_site =~ /http:\/\//) &&
 	($institution_site ne 'http://')){
 
 	print "<b>$institution_field_name: </b> <a href=\"$institution_site\">$poster_institution</a>\n<br>\n";
     }
-    else { 
-	print "<b>$institution_field_name: </b> $poster_institution\n<br>\n"; 
+    else {
+	print "<b>$institution_field_name: </b> $poster_institution\n<br>\n";
     }
 
     print "<b>Date Posted:</b>", &ctime(time), "\n<br>\n";
@@ -1639,7 +1639,7 @@ sub post_topic {
     $formatting = $in{'formatting'};
 
     if ( $anyone_add eq 'no' ) {
-	&doh("Username, password incorrect") 
+	&doh("Username, password incorrect")
 	    unless ($anyone_add_username eq $username
 		    && $anyone_add_password eq $password );
     }
@@ -1669,19 +1669,19 @@ sub post_message{
 
     &check_message( $poster_name, $message, $subject, $poster_institution,
 		    $institution_site, $poster_email, $poster_site );
-	
+
     #HEY! testing if this was missing.
     &decode($message);
     # Jose: changed message file to 1.m
-	
+
     $message_file = ">>$home_directory/$which_forum/topics/$command_vars.m";
 
-    open (DUMP, $message_file) || 
+    open (DUMP, $message_file) ||
 	&doh("Couldn\'t open message file $message_file");
 
     &lock(DUMP);
 
-    if (($poster_site =~ /http:\/\//) && 
+    if (($poster_site =~ /http:\/\//) &&
 	($poster_site ne "http://")) {
 	print DUMP "$poster_site_key$poster_site\n";
     }
@@ -1691,7 +1691,7 @@ sub post_message{
     if ($poster_email) {
 	print DUMP "$poster_email_key$poster_email\n";
     }
-    if (($institution_site =~ /http:\/\//) && 
+    if (($institution_site =~ /http:\/\//) &&
 	($institution_site ne "http://")) {
 
 	print DUMP "$institution_site_key$institution_site\n";
@@ -1710,7 +1710,7 @@ sub post_message{
     close(DUMP);
 
     # Get message information from list file and store new info
-		
+
     $topic_file_path = "$home_directory/$which_forum/topics/list";
     open (TOPIC, $topic_file_path) ||
 	&doh("Couldn\'t open topic file: $topic_file_path");
@@ -1718,13 +1718,13 @@ sub post_message{
     $n=0;
     while($line[$n] = <TOPIC>)
     {
-	($number, $num_messages, $num_replies, $name, $udate) = 
+	($number, $num_messages, $num_replies, $name, $udate) =
 	    split(/:/, $line[$n],5);
 
 	$num_messages =~ s/\s//g;
 	$number =~ s/\s//g;
 	if($number == $command_vars)
-	{	
+	{
 	    #increment messages and update date
 	    $num_messages++;
 	    $line[$n] = "$number:$num_messages:$num_replies:$name:$date";
@@ -1733,7 +1733,7 @@ sub post_message{
     }
     close(TOPIC);
     &unlock($topic_file_path);
-	
+
     open (TOPIC, ">$topic_file_path") ||
 	&doh("Couldn\'t open topic file: $topic_file_path");
     &lock($topic_file_path);
@@ -1753,11 +1753,11 @@ sub email_messages_to_monitor {
 
 	local($message, $poster_name, $poster_email, $subject) = @_;
 	local($gateway);
-	
+
 	$gateway = "NetForum: $forum_name";
 	&parse_a;
     $realfrom   = $ENV{'REMOTE_HOST'} ? $ENV{'REMOTE_HOST'}: $ENV{'REMOTE_ADDR'};
-	
+
 	open(MAIL, "| $sendmail") || &doh("Couldn\'t find sendmail");
 	&lock(MAIL);
     print MAIL ("From: $poster_name <$poster_email>\n");
@@ -1783,8 +1783,8 @@ sub post_reply {
     $message = $in{'message'};
     $subject = $in{'subject'};
     $formatting = $in{'formatting'};
-    
-    
+
+
     ($topic_number, $which_message, $how_deep) = split('\.', $command_vars);
 
     &check_message( $poster_name, $message, $subject, $poster_institution,
@@ -1793,7 +1793,7 @@ sub post_reply {
     #HEY! checking if this is a problem:
     &decode($message);
 
-    $response_file = 
+    $response_file =
        "$home_directory/$which_forum/responses/$topic_number\-$which_message";
 
     if (-e $response_file ) {
@@ -1805,7 +1805,7 @@ sub post_reply {
     }
     &lock(DUMP);
     print DUMP ("$subject_key$subject\n");
-    if (($poster_site =~ /http:\/\//) && 
+    if (($poster_site =~ /http:\/\//) &&
 	($poster_site ne "http://")) {
 	print DUMP "$poster_site_key$poster_site\n";
     }
@@ -1813,7 +1813,7 @@ sub post_reply {
     if ($poster_email) {
 	print DUMP "$poster_email_key$poster_email\n";
     }
-    if (($institution_site =~ /http:\/\//) && 
+    if (($institution_site =~ /http:\/\//) &&
 	($institution_site ne "http://")) {
 	print DUMP "$institution_site_key$institution_site\n";
     }
@@ -1829,13 +1829,13 @@ sub post_reply {
     chmod 0777, $response_file;
 
     $topic_list = "$home_directory/$which_forum/topics/list";
-    
+
     open (TOPIC, $topic_list) ||
 	&doh("Couldn\'t open topic file: $topic_list");
 	&lock($topic_list);
 	$n=0;
 	while( $line[$n] = <TOPIC> ) {
-	    ($number, $num_messages, $num_replies, $name, $udate) = 
+	    ($number, $num_messages, $num_replies, $name, $udate) =
 		split(/:/, $line[$n],5);
 
 	    $num_messages =~ s/\s//g;
@@ -1850,7 +1850,7 @@ sub post_reply {
 	}
     close(TOPIC);
     &unlock($topic_list);
-    
+
     open (TOPIC, ">$topic_list") ||
 	&doh("Couldn\'t open topic file: $topic_list");
     &lock($topic_list);
@@ -1901,7 +1901,7 @@ sub edit_message{
     $subject = $in{'subject'};
     $message = $in{'message'};
     $formatting = $in{'formatting'};
-    
+
     $no_cookies = 1;
 
     &decode($message);
@@ -1934,9 +1934,9 @@ sub create_topic_file {
     local($new_file_path,$n);
 
     $topics_file = "$home_directory/$which_forum/topics/list";
-	
+
     $date = &ctime(time);
-    
+
     $topic_number=1;
 
     $topic_name =~ s/:/ /g;
@@ -1948,14 +1948,14 @@ sub create_topic_file {
 	close(T);
     } else {
 
-	open(T, "<$home_directory/$which_forum/topics/list") 
+	open(T, "<$home_directory/$which_forum/topics/list")
 	    || &doh("Couldn\'t open topic list file");
 	&lock(T);
 	while ( <T> ) {
 	    @topics_list[$topic_number++] = $_;
 	    # replace everything but topic numbers
 	    next if(/\#/);
-	    ($temp_number, $num_messages,$replies,$temp_name,$temp_date) = 
+	    ($temp_number, $num_messages,$replies,$temp_name,$temp_date) =
 		split(/:/, $_,5);
 	    $temp_number =~ s/\s//g;
 	    # assure that new topic number is unique (add 1 later)
@@ -1971,23 +1971,23 @@ sub create_topic_file {
 	if (-e "$home_directory/$which_forum/topics/$topic_number") {
 	    &doh("$home_directory/$which_forum/topics/$topic_number already exists!");
 	}
-		
-	open(TT, ">>$home_directory/$which_forum/topics/list") 
+
+	open(TT, ">>$home_directory/$which_forum/topics/list")
 	    || &doh("Couldn\'t open topic list file");
 	&lock(TT);
 	print TT ("$topic_number:0:0:$topic_name:$date");
 	close(TT);
 	&unlock(TT);
-    }			
-	
-    
+    }
+
+
     $new_file_path = ">$home_directory/$which_forum/topics/$topic_number";
     &decode($comments);
     open(NEW_FILE, $new_file_path);
 
     &lock(NEW_FILE);
     print NEW_FILE ($topic_name_key, $topic_name, "\n");
-    if ( ($poster_site =~ /http:\/\//) && 
+    if ( ($poster_site =~ /http:\/\//) &&
 	 ($poster_site ne "http://") ) {
 	print NEW_FILE ($poster_site_key, $poster_site,"\n");
     }
@@ -1995,13 +1995,13 @@ sub create_topic_file {
     if ($poster_email) {
 	print NEW_FILE ($poster_email_key, $poster_email,"\n");
     }
-    if ( $institution_site =~ /http:\/\// && 
+    if ( $institution_site =~ /http:\/\// &&
 	 $institution_site ne "http://"  ) {
 	print NEW_FILE ($institution_site_key, $institution_site, "\n");
     }
     if ( $poster_institution ) {
 	print NEW_FILE ($poster_institution_key, $poster_institution, "\n");
-	
+
     }
 
     $date = &ctime(time);
@@ -2011,7 +2011,7 @@ sub create_topic_file {
 	print NEW_FILE ($comments_key, $comments, "\n");
     }
     if ($formatting) {
-	
+
 	$formatting =~ /\s//g;
     	print NEW_FILE ($formatting_key, $formatting, "\n");
     }
@@ -2019,7 +2019,7 @@ sub create_topic_file {
     &unlock(NEW_FILE);
     close(NEW_FILE);
     chmod 0777, "$home_directory/$which_forum/topics/$topic_number";
-    
+
     # create message file for new topic
 
     $message_file = ">$home_directory/$which_forum/topics/$topic_number.m";
@@ -2028,7 +2028,7 @@ sub create_topic_file {
     &unlock(MESSAGE_FILE);
     close(MESSAGE_FILE);
     chmod 0777, "$home_directory/$which_forum/topics/$topic_number.m";
-    
+
 
 }
 
@@ -2042,10 +2042,10 @@ sub print_message {
 
     $j = 1;
 
-    $message_file_path = 
+    $message_file_path =
          "$home_directory/$which_forum/topics/$topic_number.m";
 
-    open(MESSAGE, $message_file_path) || 
+    open(MESSAGE, $message_file_path) ||
 	&doh("Couldn\'t open message file: $message_file_path");
 
     while (($_ = <MESSAGE>) && $j != $which_message+ 1) {
@@ -2076,22 +2076,22 @@ sub print_message {
 	elsif ( /$subject_key/) {
 	    $poster_subject[$j] = $';
 	}
-	elsif ( /$separator/ ) { 
+	elsif ( /$separator/ ) {
 	    $j++;
 	}
 	else {
 	    $anything_else[$j] .= $_;
 	}
-    }				
+    }
 
     close(MESSAGE);
-       
+
 
     if($poster_site[$which_message]) {
 	print "<b>Posted by:</b><a href=\"$poster_site[$which_message]\">";
 	print "$poster_name[$which_message]</a> ";
-    }		 
-    else {		
+    }
+    else {
 	print "<b>Posted by:</b> $poster_name[$which_message] ";
     }
     if($email_list[$which_message]) {
@@ -2100,7 +2100,7 @@ sub print_message {
     else {
 	print "<BR>\n";
     }
-    if( $institution_site[$which_message] && 
+    if( $institution_site[$which_message] &&
         $poster_institution[$which_message]) {
 
 	print "<b>$institution_field_name:</b>";

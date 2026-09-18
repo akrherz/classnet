@@ -23,7 +23,7 @@ Create a new class member object. If the member
 already exists somewhere in the class (including
 requesting membership), then all information
 about that user is also read from that member's
-info file. If this call came from a member 
+info file. If this call came from a member
 registering for a class, the member info is
 taken from the HTML form.
 
@@ -48,7 +48,7 @@ $self->{'Last Name'}: The member's last name
 
 $self->{'Password'}: The member's password
 
-$self->{'Root Dir'}: The class root directory 
+$self->{'Root Dir'}: The class root directory
 (e.g. /local1/classnet/class_name)
 
 $self->{'Email Address'}: Member's email address
@@ -144,9 +144,9 @@ sub check_password {
 =over 4
 
 =item Description
-Get information from the class member file and place 
-into the receiving member object. The member is 
-searched for in the student directory first, followed 
+Get information from the class member file and place
+into the receiving member object. The member is
+searched for in the student directory first, followed
 by the instructor directory and finally the requests directory
 
 =item Params
@@ -201,7 +201,7 @@ sub print_edit_info_form {
    my ($self, $cls, $mem) = @_;
 
    # Only owners can edit other instructors
-   if (($mem->{'Member Type'} =~ /instructor/) and 
+   if (($mem->{'Member Type'} =~ /instructor/) and
        ("$self->{'Username'}" ne "$mem->{'Username'}") and
        !($self->{'Priv'} =~ /owner/ || $self->{'Priv'} =~ /student/)) {
        ERROR::user_error($ERROR::NOPERM);
@@ -243,14 +243,14 @@ Verify New Password: <INPUT TYPE=password NAME="Verify New Password"></PRE><p>
 FORM
 
    # Is owner editing another instructor other than herself/himself
-   if (($self->{'Priv'} =~ /owner/) and 
-       ($self->{'Username'} ne $mem->{'Username'}) and  
+   if (($self->{'Priv'} =~ /owner/) and
+       ($self->{'Username'} ne $mem->{'Username'}) and
        ($mem->{'Member Type'} =~ /instructor/)) {
        my $chk_students = $mem->{'Priv'} =~ /student/ ? "CHECKED" : "";
        my $chk_assigns = $mem->{'Priv'} =~ /assignment/ ? "CHECKED" : "";
        print <<"FORM";
 <H3>Privileges</H3>
-<INPUT TYPE=checkbox NAME=Privileges VALUE=students $chk_students> Manage students 
+<INPUT TYPE=checkbox NAME=Privileges VALUE=students $chk_students> Manage students
 <INPUT TYPE=checkbox NAME=Privileges VALUE=assignments $chk_assigns> Manage assignments
 FORM
    } elsif ($mem->{'Member Type'} =~ /instructor/) {
@@ -259,7 +259,7 @@ FORM
 FORM
    }
    print <<"FORM";
-<P><CENTER><H4><INPUT TYPE=submit Value=Change> 
+<P><CENTER><H4><INPUT TYPE=submit Value=Change>
 <INPUT TYPE=reset Value=Reset>
 <BR>
 <INPUT TYPE=submit name=memback VALUE="$back_title">
@@ -297,17 +297,17 @@ sub print_add_member_form {
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$cls->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$self->{'Ticket'}">
 <CENTER><H3>$cls->{'Name'}</H3>
-Type: 
-<INPUT TYPE=radio NAME=Type VALUE=Student CHECKED> Student 
+Type:
+<INPUT TYPE=radio NAME=Type VALUE=Student CHECKED> Student
 <INPUT TYPE=radio NAME=Type VALUE=Instructor> Instructor
-<HR> 
+<HR>
 <H3>Personal Data</H3>
 </CENTER>
 <PRE>
 First Name <INPUT NAME="Member First Name" TYPE="text" SIZE="20">        Last Name  <INPUT
 NAME="Member Last Name" TYPE="text" SIZE="20">
 Password   <INPUT TYPE="password" NAME="Member Password" SIZE="20">  Verify Password  <INPUT TYPE="password" NAME="Verify Member Password" SIZE="20">
-Email      <INPUT NAME="Member Email Address" TYPE="text" SIZE="37">  
+Email      <INPUT NAME="Member Email Address" TYPE="text" SIZE="37">
 </PRE>
 <HR>
 <CENTER>
@@ -316,7 +316,7 @@ Email      <INPUT NAME="Member Email Address" TYPE="text" SIZE="37">
 <INPUT TYPE=checkbox NAME=Privileges VALUE=assignments> Manage assignments
 <HR>
 <H4>
-<INPUT TYPE=submit Value=Add> <INPUT TYPE=reset> 
+<INPUT TYPE=submit Value=Add> <INPUT TYPE=reset>
 <INPUT TYPE=submit name=back VALUE="Members Menu">
 </H4>
 </CENTER>
@@ -368,7 +368,7 @@ Enter the local filename or URL below then click on Upload:
 </PRE>
 <CENTER>
 <H4>
-<INPUT TYPE=submit Value=Upload> <INPUT TYPE=reset> 
+<INPUT TYPE=submit Value=Upload> <INPUT TYPE=reset>
 <INPUT TYPE=submit name=back VALUE="Members Menu">
 </H4>
 </CENTER>
@@ -396,22 +396,22 @@ sub change_info_file {
    my ($self, $query) = @_;
 
    # Verify passwords in the form -- if needed
-   $newpwd = $query->param('New Password'); 
+   $newpwd = $query->param('New Password');
    if ($newpwd) {
       if ($newpwd ne $query->param('Verify New Password')) {
        	 &ERROR::user_error($ERROR::PWDVERIFY);
       }
       if ($newpwd ne $self->{'Password'}) {
-         $self->{'Password'} = $newpwd;  
+         $self->{'Password'} = $newpwd;
       }
-   }    
+   }
 
    # Look for email; If blanked out, then do not change
    ($query->param('New Email Address')) and
        $self->{'Email Address'} = $query->param('New Email Address');
 
    # What about privileges?
-   
+
    if (($self->{'Priv'} =~ /owner/) or ($self->{'Member Type'} eq 'student')) {
        $priv_str = $self->{'Priv'};
    } else {
@@ -420,11 +420,11 @@ sub change_info_file {
    my $new_fname = "$self->{'Root Dir'}/admin/members/$self->{'Member Type'}s/$self->{'Disk Username'}.new";
    my $fname = "$self->{'Root Dir'}/admin/members/$self->{'Member Type'}s/$self->{'Disk Username'}";
 
-   open(MEM_FILE, ">$new_fname") or 
+   open(MEM_FILE, ">$new_fname") or
      &ERROR::system_error("MEMBER","change_info_file","Open",$new_fname);
    print MEM_FILE "Password=$self->{'Password'}\n";
    print MEM_FILE "Email Address=$self->{'Email Address'}\n";
-   print MEM_FILE "Priv=$priv_str\n" 
+   print MEM_FILE "Priv=$priv_str\n"
       if ($self->{'Member Type'} eq 'instructor');
    close(MEM_FILE) or
      &ERROR::system_error("MEMBER","change_info_file","Close",$new_fname);
@@ -471,9 +471,9 @@ sub print_email_form {
        'Instructor Menu':'Student Menu';
 
    # Print the form
-   
+
    CN_UTILS::print_cn_header("Send Mail");
-   print <<"FORM";   
+   print <<"FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SERVER_ROOT$ENV{'SCRIPT_NAME'}">
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$cls->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$self->{'Ticket'}">
@@ -494,7 +494,7 @@ FORM
        }
        print "</SELECT>\n";
        print "<TD ALIGN=CENTER>\n";
-       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";       	       
+       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";
        foreach $member (sort @instructors) {
            print qq|<OPTION> $member\n|;
        }
@@ -511,7 +511,7 @@ FORM
        print "</SELECT><BR>";
        print "<INPUT TYPE=checkbox VALUE=All NAME=\"All Students\"> All<P>";
        print "Instructors<BR>";
-       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";       	       
+       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";
        foreach $member (sort @instructors) {
            print qq|<OPTION> $member\n|;
        }
@@ -548,7 +548,7 @@ Send email
 sub send_email {
    my ($self, $query, $cls) = @_;
    my @mem_names;
-   my $email_recips = "";    	       
+   my $email_recips = "";
    my $SENDMAIL = '/usr/sbin/sendmail';
    my @mem_names = $query->param('All Students') ?
        $cls->get_mem_names('student'):$query->param('Students');
@@ -561,7 +561,7 @@ sub send_email {
    }
    # Get in the email addresses of all members into one string
    my $i = 0;
-   my $email_recips = '';    	       
+   my $email_recips = '';
    foreach $mem_name (@mem_names) {
        %mem_info = $cls->get_mem_info($mem_name);
        my $recip_info = ", $mem_info{'Email Address'} ($mem_info{'First Name'} $mem_info{'Last Name'})";
@@ -569,7 +569,7 @@ sub send_email {
        $i++;
        if (($i % 50) == 0 || $i == $n) {
            open (MAIL, "| $SENDMAIL -t -n -oi $mem_info{'Email Address'}") ||
-       	       ERROR::system_error("MEMBER.pm", "send_email", "Open Mail", 
+       	       ERROR::system_error("MEMBER.pm", "send_email", "Open Mail",
        	           	       	       "From: $self->{'Username'}", "To: $mem_info{'Email Address'}");
            print MAIL "Reply-to: $self->{'Email Address'} ($self->{'First Name'} $self->{'Last Name'})\n";
            print MAIL "From: $self->{'Email Address'} ($self->{'First Name'} $self->{'Last Name'})\n";

@@ -1,25 +1,25 @@
 This document discusses how to upgrade NetForum from version 1.2.x to
 2.0. and NetForum 2.0 beta 3.x to 2.0
 
-You will need the NetForum 2.0 source from 
+You will need the NetForum 2.0 source from
 
 	http://www.biostat.wisc.edu/netforum/download.html
 
 This will unpack itself into a directory called netforum when you run
 the INSTALLME script. You may want to avoid clobbering NF 1.2.x by
 moving the pieces of the program to a safe place before running
-install. 
+install.
 
 Run install and go through the steps to install the program. Do this
 first, the upgrade program needs to know a few things about how you
 have the program setup and looks in the configuration files for this.
-Test out NF 2.0 using the included test forum. Don't get rid of the 
+Test out NF 2.0 using the included test forum. Don't get rid of the
 admin owner just yet (but do change its password!)
 
 When you have the new version running you can go about migrating your
 old forums to the new format. The new format requires all forums to be
 registered in the admin script and old forms are lacking subjects. The
-program forum1.2.6_to_2.0 (a perl script) will do this. 
+program forum1.2.6_to_2.0 (a perl script) will do this.
 
 Copy all of the forums you wish to convert to the directory containing
 NF 2.0. We recommend that you keep a backup of these. Even thought the
@@ -28,10 +28,10 @@ program has been tested, you never know what odd errors may crop up...
 Run the forum1.2.6_to_2.0 program. It will prompt you for a comma
 separated list of forums you wish to update. Type them in and hit
 return and let the thing go. The forums will be updated and given to
-the admin owner for maintenance. 
+the admin owner for maintenance.
 
 These forums can now be manipulated as any other NF 2.0 forum. Note
-the old versions of these forums will be deleted. 
+the old versions of these forums will be deleted.
 
 Upgrading from 3.x beta (or any of the later betas) should be easy:
 
@@ -46,7 +46,7 @@ look something like this:
 
 test:NO:NO:NO:NO:NO:YES:JSvVbXnLJqJ/M:Test Account
 
-on each line. 
+on each line.
 
 Now replace all of the programs in the lib and admin directories:
 
@@ -78,11 +78,11 @@ A short FAQ:
 Q: forum1.2.6_to_2.0 wont run!
 
 A: You either have the path to perl wrong in it or the current
-directory is not in your path. Try 
+directory is not in your path. Try
 
-	shell% ./forum1.2.6_to_2.0 
+	shell% ./forum1.2.6_to_2.0
 
-or 
+or
 
 	shell% perl forum1.2.6_to_2.0
 

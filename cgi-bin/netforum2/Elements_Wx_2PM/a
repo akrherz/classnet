@@ -4,7 +4,7 @@ require "ctime.pl";
 require "/local1/www/apache-isu/cgi-bin/netforum2/lib/sys_config";
 require "/local1/www/apache-isu/cgi-bin/netforum2/lib/forum_config";
 if($allow_forum_config){
-require 
+require
 "/local1/www/apache-isu/cgi-bin/netforum2/Elements_Wx_2PM/forum_config"; }
 require "/local1/www/apache-isu/cgi-bin/netforum2/lib/main";
 require "/local1/www/apache-isu/cgi-bin/netforum2/lib/variables";

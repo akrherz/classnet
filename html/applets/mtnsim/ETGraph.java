@@ -60,8 +60,8 @@ public class ETGraph extends Graph implements Observer
         double p = airPress;
         double w = (epsilon * vaporPress)/(p);
 
-        return (B/Math.log(A*epsilon/w*p) - 273.0);*/       
-        
+        return (B/Math.log(A*epsilon/w*p) - 273.0);*/
+
         // another formula:
         return (2354.0/(9.4041-Math.log(vaporPress)/Math.log(10))-273.0);
     }

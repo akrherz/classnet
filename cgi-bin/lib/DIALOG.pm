@@ -106,16 +106,16 @@ sub upload {
    foreach $elt (@ta_array) {
       if (!($elt =~ /<\/textarea>/i)) {
       	 $num_ta++;
-      	 $elt =~ s/(<\s*textarea)\s+name=\S+([^>*])/$1$2/i;      	 
+      	 $elt =~ s/(<\s*textarea)\s+name=\S+([^>*])/$1$2/i;
       	 $elt =~ s/(<\s*textarea)/$1 name=CN_$num_ta/i;
-      }      	 
+      }
    }
    if ($hfile =~ m/href="?^h/i) {
         ERROR::user_error($ERROR::NOTDONE,
       	    "All hrefs must be <b>href=\"http://.....</b>");
         exit(0);
    }
- 
+
    # Just give the assignment file the assignment name
    my $file = "$self->{'Dev Root'}/$self->{'Disk Name'}";
    open(DIALOG_FILE,">$file") or
@@ -123,12 +123,12 @@ sub upload {
    print DIALOG_FILE @ta_array;
    close DIALOG_FILE;
    chmod 0600, $file;
-   
+
    return;
 }
 sub get_graded_form {
     my $self = shift;
-    return "<B>$self->{'Name'}: No correct answers for Dialog assignments</B>"; 
+    return "<B>$self->{'Name'}: No correct answers for Dialog assignments</B>";
 }
 
 sub get_score {
@@ -141,7 +141,7 @@ sub send_ungraded_form {
    my $self = shift;
    my $html_file = "$self->{'Dev Root'}/$self->{'Disk Name'}";
    open(HTML_FILE, "<$html_file") or
-      ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $html_file"); 
+      ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $html_file");
 
    # Read in the html file
    undef $/;
@@ -154,7 +154,7 @@ sub send_ungraded_form {
    if (!(-e $stud_file)) {
       open(STUD_FILE, ">$stud_file") or
       	 ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $stud_file");
-      my $name; 
+      my $name;
       # Save backups: These are created each time instructor submits
       # Reason: Someone could delete part or all of the conversation from
       # the text area boxes. This may be undesirable.
@@ -175,7 +175,7 @@ sub send_ungraded_form {
 
    # Read in student file
    open(STUD_FILE, "<$stud_file") or
-      ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $stud_file"); 
+      ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $stud_file");
    my $dialog_file = <STUD_FILE>;
    close STUD_FILE;
    my @stud_array = split(/<CN_Q NAME=[^>]*>\n/i, $dialog_file);
@@ -225,7 +225,7 @@ sub submit {
    # Read the student file and fill in new answers
    my $stud_file = "$self->{'Dialog Dir'}/$self->{'Disk Name'}";
 
-   undef $/; 
+   undef $/;
    open(STUD_FILE, "<$stud_file") or
       ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $stud_file");
    my $dialog_file = <STUD_FILE>;
@@ -246,14 +246,14 @@ sub submit {
    my $name = "";
    open(STUD_FILE, ">$stud_file") or
       ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $stud_file");
- 
+
    print STUD_FILE $stud_array[0];
    foreach $elt (@stud_array) {
       ($elt =~ /<CN_Q NAME=([^>]*)>\n/i) and
       	 print STUD_FILE $elt, $query->{$1}->[0];
    }
    close STUD_FILE;
-   
+
    # Save what teacher sent?
    if ($inst_submission == 1) {
       system "cp $stud_file $bak_file";
@@ -265,7 +265,7 @@ sub submit {
 sub submit_edit_changes {
    my ($self,$query) = @_;
    $self->submit($query);
-   
+
 }
 sub send_edit_form {
    my ($self,$query,$stu) = @_;
@@ -283,7 +283,7 @@ sub send_edit_form {
 
    my $html_file = "$self->{'Dev Root'}/$self->{'Disk Name'}";
    open(HTML_FILE, "<$html_file") or
-      ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $html_file"); 
+      ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $html_file");
 
    # Read in the html file
    undef $/;
@@ -296,7 +296,7 @@ sub send_edit_form {
    if (!(-e $stud_file)) {
       open(STUD_FILE, ">$stud_file") or
       	 ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $stud_file");
-      my $name; 
+      my $name;
       # Save backups: These are created each time instructor submits
       # Reason: Someone could delete part or all of the conversation from
       # the text area boxes. This may be undesirable.
@@ -317,7 +317,7 @@ sub send_edit_form {
 
    # Read in student file
    open(STUD_FILE, "<$stud_file") or
-      ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $stud_file"); 
+      ERROR::system_error("DIALOG.pm","send_ungraded_form","open","Could not open $stud_file");
    my $dialog_file = <STUD_FILE>;
    close STUD_FILE;
    my @stud_array = split(/<CN_Q NAME=[^>]*>\n/i, $dialog_file);

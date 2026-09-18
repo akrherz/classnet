@@ -8,7 +8,7 @@ package main;
 BEGIN {
    unshift(@INC,'/local/classnet/cgi-bin/lib');
 }
-    
+
 require GLOBALS;
 require CLASS;
 require TEST;

@@ -21,7 +21,7 @@ foreach $original (@files) {
 
     print STDERR "processing $original\n";
     $backup = "$original.bak";
-    rename($original, $backup) || die("couldn't rename $original => 
+    rename($original, $backup) || die("couldn't rename $original =>
 $backup\n");
     open(BAK, "<$backup") || die("couldn't open $backup for read\n");
     open(ORIG, ">$original") || die("couldn't open $original for write\n");

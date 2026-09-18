@@ -6,7 +6,7 @@
 ===from:Monashorter
 ===date:Wed Apr 30  9:35:45 2003
 ===subject:China
-===message:China is known for the things they produce for the United States. Everywhere you look everything is made in China. The wages that are made in that country is not up to par. You have power when you have unity. We have so many immigrants of that country over here working and going to school. I guess our conditions are better. I don't think that they will be next have what call power. 
+===message:China is known for the things they produce for the United States. Everywhere you look everything is made in China. The wages that are made in that country is not up to par. You have power when you have unity. We have so many immigrants of that country over here working and going to school. I guess our conditions are better. I don't think that they will be next have what call power.
 =========yorg=========
 ===from:Amanda Blackwell
 ===date:Wed Apr 30 10:55:20 2003
@@ -16,7 +16,7 @@
 ===from:Chazie Brown
 ===date:Wed Apr 30 16:57:35 2003
 ===subject:China
-===message:I can't see China as the next Superpower because of the environmental issues they have. They are very smart people and they care for each other but until they change some of their rules toward women, they will never be a superpower. 
+===message:I can't see China as the next Superpower because of the environmental issues they have. They are very smart people and they care for each other but until they change some of their rules toward women, they will never be a superpower.
 =========yorg=========
 ===from:cedric miller
 ===date:Wed Apr 30 22:32:43 2003

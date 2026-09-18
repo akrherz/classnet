@@ -11,9 +11,9 @@ Biodiversity, also, is an essential condition; it guarantees foods (both plant a
 ===date:Wed Dec  2 14:32:15 1998
 ===subject:Scenario 4
 ===message:   Our group has chosen scenario 4.  We feel this scenario would most benefit future generations of humanity.  With 3 billion people, everyone would have a high standard of living, and there would be plenty of resources to rebuild.  The world as a whole would be highly developed, which is essential to the conservation of the remaining resources.  Economically, it is more feasable for developed countries to protect the planet from pollution and exploitation of resources than less developed countries who must be concerned with mere survival.
-    
-    This scenario would also provide for the survival of the largest number of species.  If fewer were to survive, essential organisms would be destroyed, resulting in the destruction of all the world's ecosystems, and ultimately, the end of mankind.  It is impossible for us to know which species are "keystones" of ecosystems until they have disappeared and the system collapses.  
-    
+
+    This scenario would also provide for the survival of the largest number of species.  If fewer were to survive, essential organisms would be destroyed, resulting in the destruction of all the world's ecosystems, and ultimately, the end of mankind.  It is impossible for us to know which species are "keystones" of ecosystems until they have disappeared and the system collapses.
+
      This scenario will result in the long-term survival of the largest number of people with the highest standard of living.
 =========yorg=========
 ===from:Sara Brenner, Hope Bergemann, Stephanie Gershgol, Ruby Bode
@@ -31,14 +31,14 @@ Biodiversity, also, is an essential condition; it guarantees foods (both plant a
 ===message:     By the year 2098, we believe that the future of Planet Earth as determined by a group of scientific advisors, will be most closely related to scenario 2, where 10 billion humans will live like developed countries, and maintain 10% of current day biodiversity.
 
 
-     
+
 
      We selected scenario 2, because we felt it was an adequate compromise between limiting lives and resources. We opted to cut lives back to 10 million. However we felt that it would be a greater shift to live any other way than what was normally expected, which was like a developed country, so we chose to remain with good comfortable living conditions.  Although there is a flaw to our selected scenario, only 10% of the biodiversity of Planet Earth will remain. However unfortunate this may seem, we believe that conditions of life will still be maintained and that we will just have to cut back, do without, and find new ways to obtain our resources. Things have not always been this convenient for humans, so we believe that we can go back to the primitive ways of obtaining resources and still manage to live comfortably. We also feel that by the year 2098, it wouldn't be so surprising if we came up with replacements for our resources anyway.
 
 
 
 
-     We believe that the other groups which selected scenario 4 are being unrealistic. Although their scenario will work just as good as ours, they have to figure in exactly how they will go about eliminating such a large amount of people. Not only by what means will they eliminate them, but also how they will select those to be eliminated. It's beginning to not sound like America to us.  Yes those 3 million will live comfortably like a developed country and they will have 85% of their biodiversity left, at what cost to society will all that be. We feel it is a far greater cost to society to eliminate lives than it is to go without some of our resources we have become far too dependent on anyway. 
+     We believe that the other groups which selected scenario 4 are being unrealistic. Although their scenario will work just as good as ours, they have to figure in exactly how they will go about eliminating such a large amount of people. Not only by what means will they eliminate them, but also how they will select those to be eliminated. It's beginning to not sound like America to us.  Yes those 3 million will live comfortably like a developed country and they will have 85% of their biodiversity left, at what cost to society will all that be. We feel it is a far greater cost to society to eliminate lives than it is to go without some of our resources we have become far too dependent on anyway.
 
 =========yorg=========
 ===from:Leah Reznikov, Kelly Leavitt, Ngim Ung, Elizabeth Kelsey
@@ -49,22 +49,22 @@ Biodiversity, also, is an essential condition; it guarantees foods (both plant a
 ===from:Aaron Peden, Missy Hoover,Kelly Kraska,Jocelyn Beach, Khamnoy Sipaseuth
 ===date:Fri Dec  4 16:18:51 1998
 ===subject:Senario 4
-===message:	Scenario Four seems to be the only reasonable and humane answer. The inherent problem with this scenario is the obvious population standard. The human race already numbers 6 billion people. We must first reduce the poplulation, then maintain it. There are several methods that could be used to control population such as governmental intervention and regulation of childbirth. 
+===message:	Scenario Four seems to be the only reasonable and humane answer. The inherent problem with this scenario is the obvious population standard. The human race already numbers 6 billion people. We must first reduce the poplulation, then maintain it. There are several methods that could be used to control population such as governmental intervention and regulation of childbirth.
 	The loss of 15 percent of our biodiversity by 2093 seems large, but if you consider that on our current course we will lose 20% of our planets diversity by 2020. Scenario four reduces that number by 5 percent, as well as slowing the result by 70+ years.
-	Scenario four allows humans to remain at the current living standards, as well as improving the chances of sustaining the world's biodiversity. 
+	Scenario four allows humans to remain at the current living standards, as well as improving the chances of sustaining the world's biodiversity.
 =========yorg=========
 ===from:Jaclyn Harry, Amanda Crabtree, Margaret Englesson, Kate Pellett, Elizabeth Nickell
 ===date:Fri Dec  4 18:57:54 1998
 ===subject:Scenario 3
 ===message:	Our group chose Scenario 3 because we had ruled out Scenarios 1 and 2 as untenable due to the low biodiversity.  We believe that with 10 billion people, the earth will have reached its carrying capacity for our species.
-	Also, reducing the population to 3 billion would require either a severe natural disaster or an aggressive program to curtail the birth rate, which is not practicable and would go against many people's consciences.  The 3 billion people living at current developed nations' standards would probably pollute the planet and consume its resources so whatever biodiversity we maintained will be used up in the years to follow. 
-	Our 10 billion people will be able to preserve the high biodiversity because of the lower standard of living.  We do not believe that this precludes a decent level of technology, comfort, or the advancement of scientific knowledge.  This depends on what technology we chose - more necessities and fewer luxuries.  To maintain an equilibrium, the world must be in a peaceful state to supply all peoples with food, water, energy, etc.    
- 
+	Also, reducing the population to 3 billion would require either a severe natural disaster or an aggressive program to curtail the birth rate, which is not practicable and would go against many people's consciences.  The 3 billion people living at current developed nations' standards would probably pollute the planet and consume its resources so whatever biodiversity we maintained will be used up in the years to follow.
+	Our 10 billion people will be able to preserve the high biodiversity because of the lower standard of living.  We do not believe that this precludes a decent level of technology, comfort, or the advancement of scientific knowledge.  This depends on what technology we chose - more necessities and fewer luxuries.  To maintain an equilibrium, the world must be in a peaceful state to supply all peoples with food, water, energy, etc.
+
 =========yorg=========
 ===from:Becky Stodola, Lynnette Turner, Nick McKenna, and Victor Van Laar
 ===date:Sat Dec  5 18:35:39 1998
 ===subject:Scenario 2
-===message:Becky Stodola, Lynnette Turner, Nick McKenna, and 
+===message:Becky Stodola, Lynnette Turner, Nick McKenna, and
 Victor Van Laar
 <br>
 	Our group has chosen to implement scenario 2.  We believe that this scenario has various strengths that make it a good choice for the future of mankind and planet Earth.  First we feel that it is important that everyone has a high standard of living equivalent to modern-day developed countries.  By having this high standard of living, future generations will not only be able to sustain themselves, but also sustain their habitat.  Even as we can easily observe today, good society development and living standards are best for the growth of stable societies and stable minds.
@@ -75,7 +75,7 @@ Finally, the great loss of biodiversity is striking, but is not ultimately detri
 ===from:Amelia Potratz, Elizabeth Cieslinski, Rene Richter, Simisola Fasehun, Whitney Buchman, Eboniece Cason
 ===date:Sun Dec  6 20:59:27 1998
 ===subject:Scenario 4
-===message:Scenario four is the best plan for the future because it has the most biodiversity.  Additional new species could be helpful to human sufferings such as disease and starvation. According to E.O. Wilson, "Biological diversity is the key to the maintenance of the world..."          In a developed country the reproduction rate is lower so the population growth will be slower.  Living in developed countries will also meet the needs that many humans are accustomed to today such as food, running water, clothing, shelter, and entertainment.  Being developed allows for more efficient use of resources and therefore causes less of a strain on the environment.  
+===message:Scenario four is the best plan for the future because it has the most biodiversity.  Additional new species could be helpful to human sufferings such as disease and starvation. According to E.O. Wilson, "Biological diversity is the key to the maintenance of the world..."          In a developed country the reproduction rate is lower so the population growth will be slower.  Living in developed countries will also meet the needs that many humans are accustomed to today such as food, running water, clothing, shelter, and entertainment.  Being developed allows for more efficient use of resources and therefore causes less of a strain on the environment.
 =========yorg=========
 ===from:Deborah Kuhn, Luke Foster, Crystal Papke, Andrew Heil, Nicole Waterland, Wendi Rockwell
 ===date:Mon Dec  7 10:54:24 1998
@@ -88,7 +88,7 @@ Our group ruled out the three other scenarios for various reasons.  In Scenario 
 ===from:Yukiko Yamada, Kelly Turpin, Lindsey Moore, Melissa Huckaby, Elisabeth Bendo, and Allison Baumann
 ===date:Mon Dec  7 16:52:05 1998
 ===subject:Scenario 4 Because...
-===message:     Scenario 4 is clearly the best option.  3 billion humans is half of the population that exists now.  Already this planet is experiencing overcrowding.  Also with the countries all being "developed", the population is more likely to be educated, have fewer children, and get married later.  These "developed", educated countries would then be able to prevent future overcrowding.  Through education and recycling, the 85% of biodiversity remaining could in fact be kept forever and become new sources of medicine, food, new products, and biological stability for the entire planet.  The planet itself could become healthier with the decreased pollution due to less people and better technology gained over the years by the work of many developed countries.  The down side to this scenario is that the human population would have to experience some sort of disaster to decrease its numbers down to half.  However, diseases, such as AIDS, natural disasters, plagues, cancers, and accidents are all increasing with the increase of human population.  So, it is not totally impossible that humans could see this low population number again.  
+===message:     Scenario 4 is clearly the best option.  3 billion humans is half of the population that exists now.  Already this planet is experiencing overcrowding.  Also with the countries all being "developed", the population is more likely to be educated, have fewer children, and get married later.  These "developed", educated countries would then be able to prevent future overcrowding.  Through education and recycling, the 85% of biodiversity remaining could in fact be kept forever and become new sources of medicine, food, new products, and biological stability for the entire planet.  The planet itself could become healthier with the decreased pollution due to less people and better technology gained over the years by the work of many developed countries.  The down side to this scenario is that the human population would have to experience some sort of disaster to decrease its numbers down to half.  However, diseases, such as AIDS, natural disasters, plagues, cancers, and accidents are all increasing with the increase of human population.  So, it is not totally impossible that humans could see this low population number again.
 =========yorg=========
 ===from:Laura Marsh, Elizabeth McNeill, Anne Hildebrand , Sara Shepley, Amy Sheldahl, Kent Mouw
 ===date:Mon Dec  7 19:44:02 1998
@@ -114,13 +114,13 @@ Our group ruled out the three other scenarios for various reasons.  In Scenario 
 ===from:Russ Otto, Courtney Babic, Meg Breen, Lily Erdahl, Laura Brown
 ===date:Wed Dec  9 19:18:37 1998
 ===subject:Scenario 4
-===message:We chose scenario #4 because of the following reasons: first of all, in a "developed" country there is more advanced technology that is available to deal with arising problems like pollution that is likely to be an issue with a large population of 3 billion people. Second of all, with an 85% biodiversity,this scenario is desireable because the ecosystem has the ability to survive if one species were to become extinct.  There is also a greater possibility for another species to replace it.  Lastly, there's more competition for limited resources which promotes natural selection and can lead to the prevention of overpopulation by species.  Another thing to consider is that with a "developed" country there is more access to things like medicines and forms of birth control that can help regulate the birth and death rates.   
+===message:We chose scenario #4 because of the following reasons: first of all, in a "developed" country there is more advanced technology that is available to deal with arising problems like pollution that is likely to be an issue with a large population of 3 billion people. Second of all, with an 85% biodiversity,this scenario is desireable because the ecosystem has the ability to survive if one species were to become extinct.  There is also a greater possibility for another species to replace it.  Lastly, there's more competition for limited resources which promotes natural selection and can lead to the prevention of overpopulation by species.  Another thing to consider is that with a "developed" country there is more access to things like medicines and forms of birth control that can help regulate the birth and death rates.
 =========yorg=========
 ===from:Olivia Dietz, Alison Rentel, Jon Swanson, Todd Stevens, Nick Ledin, Pete Zaback
 ===date:Wed Dec  9 20:29:29 1998
 ===subject:Humans and Biodiversity
 ===message:Our group picked scenario number four.  We chose this particular scenario because it retains a high level of diversity and therefore a lesser likeliness of extinction.  With a higher level of biodiversity, it will not take as long for natural selection and other evolutionary factors to help achieve the level of biodiversity we have today.
-    We chose scenario four over three because, although there are more people in scenario three, we feel that with underdeveloped conditions, it would be easier to be wiped out by famines and plagues.  Additionally, life in underdeveloped countries is not very desirable.  Ten billion people in scenario three would overuse the natural resources that would be available.  Three billion people would be an ideal population.  In light of these factors,we feel that scenario four is the best solution.  
+    We chose scenario four over three because, although there are more people in scenario three, we feel that with underdeveloped conditions, it would be easier to be wiped out by famines and plagues.  Additionally, life in underdeveloped countries is not very desirable.  Ten billion people in scenario three would overuse the natural resources that would be available.  Three billion people would be an ideal population.  In light of these factors,we feel that scenario four is the best solution.
 =========yorg=========
 ===from:Josh Hibben, Megan Wisecup, Andrea Clark
 ===date:Fri Dec 11  9:38:06 1998
@@ -130,26 +130,26 @@ Our group ruled out the three other scenarios for various reasons.  In Scenario 
 ===from:Scott Cooper, Tim Boland, Andrew Kothenbeutel, Lawrence Stutler, Kara Grupp, Shelley Sedivy
 ===date:Fri Dec 11 14:18:29 1998
 ===subject:Scenario 4
-===message:For our Humans and Biodiversity assignment, our group chose 
-scenario number four as the best option.  This decision was 
-based on the greater amount of biodiversity available under 
-this option from a lesser demand from a smaller human 
-population.  This situation would leave the environment with 
-a greater sense of stability, while providing more 
-environmental resources per person.  With a small population 
-there would also be less diseases and famine, while 
-increasing the general living conditions for people around 
-the world as we learn more about the biodiversity that was 
+===message:For our Humans and Biodiversity assignment, our group chose
+scenario number four as the best option.  This decision was
+based on the greater amount of biodiversity available under
+this option from a lesser demand from a smaller human
+population.  This situation would leave the environment with
+a greater sense of stability, while providing more
+environmental resources per person.  With a small population
+there would also be less diseases and famine, while
+increasing the general living conditions for people around
+the world as we learn more about the biodiversity that was
 preserved and studied.
-One of the possible flaws in our scenario is the noted 
-decrease in the human population.  Yet this can also be 
-viewed as a negative consequence of a decrease in resources 
-available and the all too rapid expansion of the human race.  
-Our scenario allows for the preservation of these rare 
-resources while being realistic about the limitations of the 
-expansion of humankind.  The remaining population would have 
-a higher average standard of living than most people have 
-today, while still having a great deal of today's 
+One of the possible flaws in our scenario is the noted
+decrease in the human population.  Yet this can also be
+viewed as a negative consequence of a decrease in resources
+available and the all too rapid expansion of the human race.
+Our scenario allows for the preservation of these rare
+resources while being realistic about the limitations of the
+expansion of humankind.  The remaining population would have
+a higher average standard of living than most people have
+today, while still having a great deal of today's
 biodiversity
 =========yorg=========
 ===from:Khaliah beal
@@ -173,20 +173,20 @@ We chose Scenario #3 because,with the standard of living for humans being so poo
 ===from:Troy Hamblin, Lucas Dearorff, Andy Otting
 ===date:Fri Dec 11 15:48:36 1998
 ===subject:Scenario 4
-===message:We decided that the fourth scenario would be the best for 
-our current situation.  It provides the most biodiversity 
-while cutting down on our worthless human race.  If we 
-lowered the biodiversity, the planet might not return to its 
-high abundance of species causing astronomic catastrophies.  
-We thought that we should cut down on our human race but 
-obtain the same technology that we have now to hopefully 
-maintain a better bioshpere.  For these reasons we decided 
+===message:We decided that the fourth scenario would be the best for
+our current situation.  It provides the most biodiversity
+while cutting down on our worthless human race.  If we
+lowered the biodiversity, the planet might not return to its
+high abundance of species causing astronomic catastrophies.
+We thought that we should cut down on our human race but
+obtain the same technology that we have now to hopefully
+maintain a better bioshpere.  For these reasons we decided
 that scenario four would be the b
 =========yorg=========
 ===from:Amy Campbell,Sara Downes,Cara Scheetz,Missy Lund,Anne Palmer
 ===date:Sat Dec 12 12:48:05 1998
 ===subject:Scenario Four
-===message:We believe that the fourth scenario should be implemented because this one will allow the humans and other organisms to thrive the most.  There will be more resources to go around due to the smaller population, and less people to destroy what remains.  Since humans will be living in well-developed countries the urge to destroy the rain forest and other organic resources will decrease.  The new species will be used in ways to advance the world technologically, medically, and environmentally.  We believe that with this scenario the world will be the most harmonious.    
+===message:We believe that the fourth scenario should be implemented because this one will allow the humans and other organisms to thrive the most.  There will be more resources to go around due to the smaller population, and less people to destroy what remains.  Since humans will be living in well-developed countries the urge to destroy the rain forest and other organic resources will decrease.  The new species will be used in ways to advance the world technologically, medically, and environmentally.  We believe that with this scenario the world will be the most harmonious.
 =========yorg=========
 ===from:Carolyn Kenyon  Kevin Schulte
 ===date:Sun Dec 13 11:48:05 1998
@@ -196,7 +196,7 @@ that scenario four would be the b
 ===from:Hope Metheny, Melinda Witherow, and Janessa Morgan
 ===date:Sun Dec 13 15:44:36 1998
 ===subject:Scenario # 4
-===message:	Assuming that population control programs such as birth control and education were implimented, we decided that Scenario #4 would be the most acceptable choice for the future. 
+===message:	Assuming that population control programs such as birth control and education were implimented, we decided that Scenario #4 would be the most acceptable choice for the future.
 	With 3  billion people, the 85% biodiversity ratio will more then cover the amount needed for human uses, With a drop in current population to three billion people there will still be enough people left to be  scientists, inventors, doctors, teachers, and general workers. There would be increased amounts of technology, therefore decreasing the amount of people needed to work in general areas, also allowing more people to move into new fields. With less people there will be less pollution, less expansion, and lower extinction rates therefore keeping the remaining diversity constant.
 
 =========yorg=========
@@ -208,7 +208,7 @@ that scenario four would be the b
 ===from:John Hamre, Skip Bouma, Lawrence Cunningham, Angi Grengs, Andrea Rasmusson
 ===date:Sun Dec 13 18:18:47 1998
 ===subject:Scenario 2
-===message:Defense:  We choose scenario two because it is the most realistic of the four choices.  People wouldn’t be able to handle lowering their standards of living no matter how gradual it is.  If we start declining now we will continue to decline.  People would lose faith and not have a reason to live for.  This makes scenario 1 and 3 impractical choices.   Situation four would not work unless there was some massive catastrophe.  It is unrealistic to cut the current population in half. 
+===message:Defense:  We choose scenario two because it is the most realistic of the four choices.  People wouldn’t be able to handle lowering their standards of living no matter how gradual it is.  If we start declining now we will continue to decline.  People would lose faith and not have a reason to live for.  This makes scenario 1 and 3 impractical choices.   Situation four would not work unless there was some massive catastrophe.  It is unrealistic to cut the current population in half.
 	As far as biodiversity, at the rate things are going ten percent seems to be a realistic number.  Although this is unfortunate it is necessary to continue to live the life we are living now.  In order for the human species to survive other species are going to have to be sacrificed.
 
 =========yorg=========

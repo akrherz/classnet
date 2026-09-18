@@ -8,7 +8,7 @@ package main;
 BEGIN {
    unshift(@INC,'/local/classnet/cgi-bin/lib');
 }
-    
+
 # Modules to include
 require "optimize.pl";
 
@@ -74,12 +74,12 @@ sub add {
        chdir("$self->{'Root Dir'}/admin/members/students");
    }
 
-   open(STUD_FILE, ">$self->{'Disk Username'}") or 
+   open(STUD_FILE, ">$self->{'Disk Username'}") or
      ERROR::system_error("STUDENT","add","Open",$self->{'Disk Username'});
    print STUD_FILE "Password=$self->{'Password'}\n";
    print STUD_FILE "Email Address=$self->{'Email Address'}\n";
    close(STUD_FILE) or
-     ERROR::system_error("STUDENT","add","Close",$self->{'Disk Username'});    
+     ERROR::system_error("STUDENT","add","Close",$self->{'Disk Username'});
    chmod(0600, $self->{'Username'});
 
    # Create student assignment directories if necessary
@@ -94,13 +94,13 @@ sub add {
                    CN_UTILS::mail($info{'Email Address'},
                       'Username approvals requested',
                       "One or more students have requested to enroll in class $cls->{'Name'}.
-To approve, login to ClassNet and click the Approve button on the 
+To approve, login to ClassNet and click the Approve button on the
 Instructor/Members menu.");
                }
            }
        }
    } else {
-       $cls->create_stud_dirs($self->{'Disk Username'}); 
+       $cls->create_stud_dirs($self->{'Disk Username'});
        $cls->add_to_mem_list('student',$self->{'Username'});
    }
 }
@@ -116,7 +116,7 @@ sub create_stud_dirs {
    mkdir($stud_root_dir,0700) or
        ERROR::system_error("CLASS","create_stud_dirs","mkdir root",$stud_root_dir);
    chdir($stud_root_dir);
-   (mkdir('graded',0700) and 
+   (mkdir('graded',0700) and
     mkdir('ungraded',0700) and
     mkdir('dialog',0700) and
     mkdir('java',0700)) or
@@ -145,7 +145,7 @@ sub add_to_mem_list {
    my @mem_names = <MEM_LIST>;
    push (@mem_names, @name_list);
    close(MEM_LIST);
-   open(MEM_LIST, ">$fname") or 
+   open(MEM_LIST, ">$fname") or
        ERROR::system_error("CLASS","add_to_mem_list","Open list",$mem_type);
    flock(MEM_LIST,$LOCK_EX);
    chomp (@mem_names = sort @mem_names);

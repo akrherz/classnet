@@ -18,25 +18,25 @@
 5c.  Semantic Context Clues.  Source:  Pressley, Chap. 14.  Explanation:  A popular hypothesis in the reading literature, semantic context clues refers to the idea that words read within context offer cues to the meaning of words, which facilitates decoding.  The use of semantic context clues represents an attempt to compensate for poor decoding skills in reading.
 <p>
 <br>
-5d.  Dual Route Theory.  Source:  Ehri (1992) in Pressley, Chap 14.  Explanation:  A popular theory of flexibility in decoding, the dual route theory postulates that knowledge of some words is based on their visual representation rather than a derivation of the words pronunciation when the word is not visually familiar and the subsequent matching of the pronunciation to an item in the mental lexicon.  To routes or processes are involved in the decoding or reading of text.  The visual route (i.e. sight word and orthographic reading) involves faster and more direct processing of the word, while the phonological decoding processes (i.e. alphabetic reading or phonics rule application) is slower and less direct.  
+5d.  Dual Route Theory.  Source:  Ehri (1992) in Pressley, Chap 14.  Explanation:  A popular theory of flexibility in decoding, the dual route theory postulates that knowledge of some words is based on their visual representation rather than a derivation of the words pronunciation when the word is not visually familiar and the subsequent matching of the pronunciation to an item in the mental lexicon.  To routes or processes are involved in the decoding or reading of text.  The visual route (i.e. sight word and orthographic reading) involves faster and more direct processing of the word, while the phonological decoding processes (i.e. alphabetic reading or phonics rule application) is slower and less direct.
 <p>
 <br>
-5e.  Transactional Strategies Instruction.  Source:  Pressley, Chap. 14 and Brown, Pressley, Van Meter, a& Schuder (1996).  Explanation:  An effective method of reading instruction, transactional strategies instruction is characterized by: (1) the encouragement of readers to construct meaning from the use of strategies that enable the linking of the text content to the readers' prior knowledge, (2) strategy instruction occurs in reading groups and involves group members using strategies to construct meaning together, and (3) teacher and group interactions cannot be anticipated.  Transactional strategies instruction emphasizes that interpretations of the text and what occurs within the reading group are codetermined by teacher-student-text interactions.  
+5e.  Transactional Strategies Instruction.  Source:  Pressley, Chap. 14 and Brown, Pressley, Van Meter, a& Schuder (1996).  Explanation:  An effective method of reading instruction, transactional strategies instruction is characterized by: (1) the encouragement of readers to construct meaning from the use of strategies that enable the linking of the text content to the readers' prior knowledge, (2) strategy instruction occurs in reading groups and involves group members using strategies to construct meaning together, and (3) teacher and group interactions cannot be anticipated.  Transactional strategies instruction emphasizes that interpretations of the text and what occurs within the reading group are codetermined by teacher-student-text interactions.
 <p>
 <br>
 6.  Application:
 <p>
        I am assisting and observing a teacher in a special class for students with profound reading difficulties at a middle school.  The middle school consists of grades five through eight.  The special class is made up of four students in the fifth grade who have been identified as having reading problems and who require extra instruction in reading to supplement their fifth grade Language Arts class.  Traditionally, fifth graders do not get additional instruction in reading at the middle school.
-	
+
 <p>
-     The orientation of instruction in the class follows the dual route theory, in that students are instructed in both phonological-based strategies and visual reading strategies.  A major emphasis is placed on recognition of word patterns and letter-sound correspondence.  The primary goal is to increase the students reading strategy use and general reading ability/competency.  Because reading fluency is one of the best predictors of literacy, instruction and progress monitoring focuses on fluency versus comprehension.  Comprehension skills and strategies are incorporate into the instruction, but are not the focus.  Instructional units focus on particular word-sound families.  
-	
+     The orientation of instruction in the class follows the dual route theory, in that students are instructed in both phonological-based strategies and visual reading strategies.  A major emphasis is placed on recognition of word patterns and letter-sound correspondence.  The primary goal is to increase the students reading strategy use and general reading ability/competency.  Because reading fluency is one of the best predictors of literacy, instruction and progress monitoring focuses on fluency versus comprehension.  Comprehension skills and strategies are incorporate into the instruction, but are not the focus.  Instructional units focus on particular word-sound families.
+
 <p>
-     At the beginning of each class, students receive direct instruction in particular sound-letter patterns in words.  Reading by analogy is incorporated into this part of the lesson.  Students learn words that share the same pattern of letters and sound.  When they have mastered a particular sound-letter pattern, variations on the sound-letter patterns are added.  For example,  instruction on the "-ee" words may be followed by words that sound the same, but use "-ea" or alternative patterns.  Students are quizzed orally on the spelling of words.  This involves attention to phonological awareness.  The teacher will say the word in full and then proceed to break the word into its corresponding sounds.  If students have difficulty with a word, they are prompted with the phoneme.  In addition to workbooks that focus on sound-letter correspondence and letter patterns in words, the students play a card game that involves phonemic awareness and letter patterns.  During the game students must read a word and look for other words in the "bone pile" or the other players' hands that follows the same phonemic rule.  Before they can pick up cards, they must explain their reason and say the words using both sound segmentation ("b-oa-t") and sound blending ("boat").  
-	
+     At the beginning of each class, students receive direct instruction in particular sound-letter patterns in words.  Reading by analogy is incorporated into this part of the lesson.  Students learn words that share the same pattern of letters and sound.  When they have mastered a particular sound-letter pattern, variations on the sound-letter patterns are added.  For example,  instruction on the "-ee" words may be followed by words that sound the same, but use "-ea" or alternative patterns.  Students are quizzed orally on the spelling of words.  This involves attention to phonological awareness.  The teacher will say the word in full and then proceed to break the word into its corresponding sounds.  If students have difficulty with a word, they are prompted with the phoneme.  In addition to workbooks that focus on sound-letter correspondence and letter patterns in words, the students play a card game that involves phonemic awareness and letter patterns.  During the game students must read a word and look for other words in the "bone pile" or the other players' hands that follows the same phonemic rule.  Before they can pick up cards, they must explain their reason and say the words using both sound segmentation ("b-oa-t") and sound blending ("boat").
+
 <p>
 <br>
-    A portion of the class period is also spent reading as a group from.  Students take turns reading pages from their books.  Transactional strategies instruction is used in this activity.  The teacher will generate questions that involve having the students predict what will happen next and summarize what has happened.  This offers a chance to check the students reading comprehension.  When students experience difficulties decoding words, the teacher encourages the child by providing clues about the sounds in the word or pointing out familiar letter-patterns.  The teacher also prompts the student to use clues from the text to decode the word (Semantic Context Cues).  Once a week, the students are assigned a particular section of the text to practice on their own so that they can read it in front of the class.  Students are encouraged to use the strategies instructed in class and discuss any difficulties they may have with their teacher, parents, or fellow students.  Weekly practiced readings provide the teacher with an opportunity to monitor reading fluency and analyze common reading errors.  
+    A portion of the class period is also spent reading as a group from.  Students take turns reading pages from their books.  Transactional strategies instruction is used in this activity.  The teacher will generate questions that involve having the students predict what will happen next and summarize what has happened.  This offers a chance to check the students reading comprehension.  When students experience difficulties decoding words, the teacher encourages the child by providing clues about the sounds in the word or pointing out familiar letter-patterns.  The teacher also prompts the student to use clues from the text to decode the word (Semantic Context Cues).  Once a week, the students are assigned a particular section of the text to practice on their own so that they can read it in front of the class.  Students are encouraged to use the strategies instructed in class and discuss any difficulties they may have with their teacher, parents, or fellow students.  Weekly practiced readings provide the teacher with an opportunity to monitor reading fluency and analyze common reading errors.
 
 =========yorg=========
 ===from:IP533
@@ -66,7 +66,7 @@ After this initial test, and additional instuction for those students who needed
 <br>
 After the children have reached a certain level of mastery of lographic reading, I would then lead them through the process of reading word by sounding them out (alphabetic reading) by using their letter sound relations. I would begin with simple and phonetically correct words such as cat, car, etc. Once they have mastered the sounding out of simple words, I would then lead them through the same task with words a bit more difficult, such as letter, color, etc.
 <p>
- 
+
 Once the children can sound out words utilizing the alphabetic reading process, I would move on to teaching the child to peceive meaningful letter strings as wholes (orthographic reading). This would invlolve helping the child to recognize that certain letter combinations, which by this time the child has automatized, carry certain meanings. For example, the child would be taught to recognize that the suffix -ing, ed, and s carry standard units of meaning in every word in which they are present.
 <p>
 <br>
@@ -109,11 +109,11 @@ Message:
 
 Good readers are active readers who use diverse strategies for monitoring their understanding.
 
-Emergent literacy [Clay 1966] in Pressley:  Literacy development occurs  at the preschool level.  Literacy begins  in infancy and develps anywhere a child is (home, school, etc.).  Children are actuve ub tgeur kuteract development.   
+Emergent literacy [Clay 1966] in Pressley:  Literacy development occurs  at the preschool level.  Literacy begins  in infancy and develps anywhere a child is (home, school, etc.).  Children are actuve ub tgeur kuteract development.
 
-[Pressley, p ]Supportive emergent literary environments consist of rich interpersonal experiences with family members, environments filled with reading material and a child whose parents has a high regard for literacy.  
+[Pressley, p ]Supportive emergent literary environments consist of rich interpersonal experiences with family members, environments filled with reading material and a child whose parents has a high regard for literacy.
 
-Storybook Reading provides rich discussions and animated conversations between the reader and the child.  Together they work out the meaning of the text with fun.  Questions takes place by both participants.  Both relate what is happening in the text to their lives.  The quality of storybook reading affected longterm literacy development.  The more parents interact verbally with their children, the more verbally competent the children are.  
+Storybook Reading provides rich discussions and animated conversations between the reader and the child.  Together they work out the meaning of the text with fun.  Questions takes place by both participants.  Both relate what is happening in the text to their lives.  The quality of storybook reading affected longterm literacy development.  The more parents interact verbally with their children, the more verbally competent the children are.
 
 Reading During Elementary Years [Pressley, p 354]:
 
@@ -121,22 +121,22 @@ a.  Decoding  Instructions benefit most children.   Phenomic awareness [p 355] (
 
 b. Logographic, Selective Association or Visual Cue Reading [Gough,1992] in Pressley, p357:  Involves using only salient visual characteristics of a word rather than relying on letter-sound and correspondence.  Children associate the visual cue and the word.  [eg.  the words are accompanied by a graphic symbol :  the graphic symbol- golden arches- are always associated with McDonalds.]
 
-c. Alphabet Reading -Pressley, pg. 357: This concept emphasizes sounding out words using letter sound relations:  Children operate based on this concept long before they know all the letter-sound correspondences.  Children use this concept in invented spelling.  This also helps them in reading using what [Ehri 1991] refers to as phonetic cue reading.  
+c. Alphabet Reading -Pressley, pg. 357: This concept emphasizes sounding out words using letter sound relations:  Children operate based on this concept long before they know all the letter-sound correspondences.  Children use this concept in invented spelling.  This also helps them in reading using what [Ehri 1991] refers to as phonetic cue reading.
 
-d. The Cipher [Gough,1992] in Pressley is a code mapping sound of a language onto its alphabet.  Acquiring the cipher and using it increases speed and accuracy in reading of unfamiliar words.  Specific rules must be learned when learning cipher.  
+d. The Cipher [Gough,1992] in Pressley is a code mapping sound of a language onto its alphabet.  Acquiring the cipher and using it increases speed and accuracy in reading of unfamiliar words.  Specific rules must be learned when learning cipher.
 
 
 e. Orthographic Reading-  Pressley, p 357, occurs only after a child has experience with alphabet reading.  Meaningful letters together has meaning e.g. "ing"  "able", prefixes and suffixes.  Good advantages of reading words  by sight an orthographic chunks are processed as wholes.
 
-Automaticity theory [Samuel, Schermer and Reinking, 1992] in Pressley p359,   involves 2 task:  decoding and comprehending.  They require little effort and attention.  
+Automaticity theory [Samuel, Schermer and Reinking, 1992] in Pressley p359,   involves 2 task:  decoding and comprehending.  They require little effort and attention.
 
 Reading by Analogy (Pressley, p359)  words that sound the same often have the same spelling patterns.  It strengthens associations.
 
-To assure  a reading environment that meets the requirement for emergent literacy, children should be read to from birth.  Family members should read to children daily and let children see them read as well.  
+To assure  a reading environment that meets the requirement for emergent literacy, children should be read to from birth.  Family members should read to children daily and let children see them read as well.
 
 Example:
 Each child is given a book with 6 pages.  The last page includes a string of 3 letters like "ake".  The students are to add 5 pages on top using one letter that can be added to the string to make a word.  This booklet should be taken home and read to parents. By adding letters like c, r, t, m  and f, the children will create words and practice Reading by Analogies.  They will recognize the spelling patterns.  Each time the  string is encountered and pronounced, it will strengthen the association with the sound.
-	They must then draw pictures of the words so that as they practice these words they see them.  As this relates to automaticity  theory, they decode the words and the picture allows them to comprehend the meaning of the word.  The picture also can represent selective association.  If the teacher provides  the drawing for each word, (s)he can give some clue in the graphic that the child could remember (e.g.. if the string  is "ell" and b, d, f, s, and h are the letters given on the other pages, the "ll" could be drawn as hockey sticks.  Phonetic cue reading suggests that the hockey sticks are parts of the information children will use to connect the word in their memory.  
+	They must then draw pictures of the words so that as they practice these words they see them.  As this relates to automaticity  theory, they decode the words and the picture allows them to comprehend the meaning of the word.  The picture also can represent selective association.  If the teacher provides  the drawing for each word, (s)he can give some clue in the graphic that the child could remember (e.g.. if the string  is "ell" and b, d, f, s, and h are the letters given on the other pages, the "ll" could be drawn as hockey sticks.  Phonetic cue reading suggests that the hockey sticks are parts of the information children will use to connect the word in their memory.
 
 =========yorg=========
 ===from:j p533
@@ -147,88 +147,88 @@ November 12, 1997
 Assignment 11, Chapter 14
 Message:
 <p>
-Good readers are active readers who use diverse strategies for monitoring 
+Good readers are active readers who use diverse strategies for monitoring
 their understanding.
 <br>
-Emergent literacy [Clay 1966] in Pressley:  Literacy development occurs  
-at the preschool level.  Literacy begins  in infancy and develps anywhere 
-a child is (home, school, etc.).  Children are actuve ub tgeur kuteract 
-development.   
+Emergent literacy [Clay 1966] in Pressley:  Literacy development occurs
+at the preschool level.  Literacy begins  in infancy and develps anywhere
+a child is (home, school, etc.).  Children are actuve ub tgeur kuteract
+development.
 <br>
-[Pressley, p ]Supportive emergent literary environments consist of rich 
-interpersonal experiences with family members, environments filled with 
-reading material and a child whose parents has a high regard for 
-literacy.  
+[Pressley, p ]Supportive emergent literary environments consist of rich
+interpersonal experiences with family members, environments filled with
+reading material and a child whose parents has a high regard for
+literacy.
 <br>
-Storybook Reading provides rich discussions and animated conversations 
-between the reader and the child.  Together they work out the meaning of 
-the text with fun.  Questions takes place by both participants.  Both 
-relate what is happening in the text to their lives.  The quality of 
-storybook reading affected longterm literacy development.  The more 
-parents interact verbally with their children, the more verbally 
-competent the children are.  
+Storybook Reading provides rich discussions and animated conversations
+between the reader and the child.  Together they work out the meaning of
+the text with fun.  Questions takes place by both participants.  Both
+relate what is happening in the text to their lives.  The quality of
+storybook reading affected longterm literacy development.  The more
+parents interact verbally with their children, the more verbally
+competent the children are.
 <br>
 Reading During Elementary Years [Pressley, p 354]:
 <br>
-a.  Decoding  Instructions benefit most children.   Phenomic awareness [p 
-355] (words composed ofseparate sounds and phonemes are combined to say 
-words.  Children who fail to learn to read this after the first few years 
-of school lack this awareness.  Formal instruction in reading is 
+a.  Decoding  Instructions benefit most children.   Phenomic awareness [p
+355] (words composed ofseparate sounds and phonemes are combined to say
+words.  Children who fail to learn to read this after the first few years
+of school lack this awareness.  Formal instruction in reading is
 essential for phonemic awareness to develop.
 <br>
-b. Logographic, Selective Association or Visual Cue Reading [Gough,1992] 
-in Pressley, p357:  Involves using only salient visual characteristics of 
-a word rather than relying on letter-sound and correspondence.  Children 
-associate the visual cue and the word.  [eg.  the words are accompanied 
-by a graphic symbol :  the graphic symbol- golden arches- are always 
+b. Logographic, Selective Association or Visual Cue Reading [Gough,1992]
+in Pressley, p357:  Involves using only salient visual characteristics of
+a word rather than relying on letter-sound and correspondence.  Children
+associate the visual cue and the word.  [eg.  the words are accompanied
+by a graphic symbol :  the graphic symbol- golden arches- are always
 associated with McDonalds.]
 <br>
-c. Alphabet Reading -Pressley, pg. 357: This concept emphasizes sounding 
-out words using letter sound relations:  Children operate based on this 
-concept long before they know all the letter-sound correspondences.  
-Children use this concept in invented spelling.  This also helps them in 
-reading using what [Ehri 1991] refers to as phonetic cue reading.  
+c. Alphabet Reading -Pressley, pg. 357: This concept emphasizes sounding
+out words using letter sound relations:  Children operate based on this
+concept long before they know all the letter-sound correspondences.
+Children use this concept in invented spelling.  This also helps them in
+reading using what [Ehri 1991] refers to as phonetic cue reading.
 <br>
-d. The Cipher [Gough,1992] in Pressley is a code mapping sound of a 
-language onto its alphabet.  Acquiring the cipher and using it increases 
-speed and accuracy in reading of unfamiliar words.  Specific rules must 
-be learned when learning cipher.  
+d. The Cipher [Gough,1992] in Pressley is a code mapping sound of a
+language onto its alphabet.  Acquiring the cipher and using it increases
+speed and accuracy in reading of unfamiliar words.  Specific rules must
+be learned when learning cipher.
 <p>
-e. Orthographic Reading-  Pressley, p 357, occurs only after a child has 
-experience with alphabet reading.  Meaningful letters together has 
-meaning e.g. "ing"  "able", prefixes and suffixes.  Good advantages of 
+e. Orthographic Reading-  Pressley, p 357, occurs only after a child has
+experience with alphabet reading.  Meaningful letters together has
+meaning e.g. "ing"  "able", prefixes and suffixes.  Good advantages of
 reading words  by sight an orthographic chunks are processed as wholes.
 <br>
-Automaticity theory [Samuel, Schermer and Reinking, 1992] in Pressley 
-p359,   involves 2 task:  decoding and comprehending.  They require 
-little effort and attention.  
+Automaticity theory [Samuel, Schermer and Reinking, 1992] in Pressley
+p359,   involves 2 task:  decoding and comprehending.  They require
+little effort and attention.
 <br>
-Reading by Analogy (Pressley, p359)  words that sound the same often have 
+Reading by Analogy (Pressley, p359)  words that sound the same often have
 the same spelling patterns.  It strengthens associations.
 <br>
-To assure  a reading environment that meets the requirement for emergent 
-literacy, children should be read to from birth.  Family members should 
-read to children daily and let children see them read as well.  
+To assure  a reading environment that meets the requirement for emergent
+literacy, children should be read to from birth.  Family members should
+read to children daily and let children see them read as well.
 <br>
 Example:
-Each child is given a book with 6 pages.  The last page includes a string 
-of 3 letters like "ake".  The students are to add 5 pages on top using 
-one letter that can be added to the string to make a word.  This booklet 
-should be taken home and read to parents. By adding letters like c, r, t, 
-m  and f, the children will create words and practice Reading by 
-Analogies.  They will recognize the spelling patterns.  Each time the  
-string is encountered and pronounced, it will strengthen the association 
+Each child is given a book with 6 pages.  The last page includes a string
+of 3 letters like "ake".  The students are to add 5 pages on top using
+one letter that can be added to the string to make a word.  This booklet
+should be taken home and read to parents. By adding letters like c, r, t,
+m  and f, the children will create words and practice Reading by
+Analogies.  They will recognize the spelling patterns.  Each time the
+string is encountered and pronounced, it will strengthen the association
 with the sound.
-	They must then draw pictures of the words so that as they 
-practice these words they see them.  As this relates to automaticity  
-theory, they decode the words and the picture allows them to comprehend 
-the meaning of the word.  The picture also can represent selective 
-association.  If the teacher provides  the drawing for each word, (s)he 
-can give some clue in the graphic that the child could remember (e.g.. if 
-the string  is "ell" and b, d, f, s, and h are the letters given on the 
-other pages, the "ll" could be drawn as hockey sticks.  Phonetic cue 
-reading suggests that the hockey sticks are parts of the information 
-children will use to connect the word in their memory.  
+	They must then draw pictures of the words so that as they
+practice these words they see them.  As this relates to automaticity
+theory, they decode the words and the picture allows them to comprehend
+the meaning of the word.  The picture also can represent selective
+association.  If the teacher provides  the drawing for each word, (s)he
+can give some clue in the graphic that the child could remember (e.g.. if
+the string  is "ell" and b, d, f, s, and h are the letters given on the
+other pages, the "ll" could be drawn as hockey sticks.  Phonetic cue
+reading suggests that the hockey sticks are parts of the information
+children will use to connect the word in their memory.
 <p>
 
 =========yorg=========

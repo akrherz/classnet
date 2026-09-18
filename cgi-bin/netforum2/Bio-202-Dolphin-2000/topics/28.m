@@ -1,7 +1,7 @@
 ===from:James Eucher
 ===date:Wed Mar 29 17:38:26 2000
 ===subject:Laryngeal Cancer
-===message:This is a link to a site describing cancer of the throat, or larynx.  Part of the respiratory tract, the larynx is  important in normal breathing and speaking.  Cancers of the larynx are the most common form of throat cancer; heavy smoking or alcohol consumption are significant risk factors.  If caught early enough, the cancer can be cured through surgery or radiation therapy.  
+===message:This is a link to a site describing cancer of the throat, or larynx.  Part of the respiratory tract, the larynx is  important in normal breathing and speaking.  Cancers of the larynx are the most common form of throat cancer; heavy smoking or alcohol consumption are significant risk factors.  If caught early enough, the cancer can be cured through surgery or radiation therapy.
 
 <a href="http://health.ucsd.edu/guide/T1626.htm">Laryngeal Cancer</a>
 =========yorg=========
@@ -15,12 +15,12 @@ http://www.people.virginia.edu/~rjh9u/cfsciam.html
 ===from:Megan Cox
 ===date:Wed Mar 29 18:58:59 2000
 ===subject:Black Lung Disease
-===message:The condition know as "miners lung" or "black lung disease" has plagued miners for decades. This condition, provoked by extended periods of time spent inhaling the black soot, or dust from the mining of coal, leads to fibrogenic growths in the miners lungs. The actual lungs upon autopsy were found to have been turned a black, sooty color. This condition is fatal upon latter onset of the condition. 
+===message:The condition know as "miners lung" or "black lung disease" has plagued miners for decades. This condition, provoked by extended periods of time spent inhaling the black soot, or dust from the mining of coal, leads to fibrogenic growths in the miners lungs. The actual lungs upon autopsy were found to have been turned a black, sooty color. This condition is fatal upon latter onset of the condition.
 =========yorg=========
 ===from:Megan Cox
 ===date:Wed Mar 29 19:00:52 2000
 ===subject:Black Lung Disease
-===message:The condition know as "miners lung" or "black lung disease" has plagued miners for decades. This condition, provoked by extended periods of time spent inhaling the black soot, or dust from the mining of coal, leads to fibrogenic growths in the miners lungs. The actual lungs upon autopsy were found to have been turned a black, sooty color. This condition is fatal upon latter onset of the condition. The webpage used can be found at http://www-medlib.med.utah.edu/WebPath/LUNGHTML/LUNH085.html 
+===message:The condition know as "miners lung" or "black lung disease" has plagued miners for decades. This condition, provoked by extended periods of time spent inhaling the black soot, or dust from the mining of coal, leads to fibrogenic growths in the miners lungs. The actual lungs upon autopsy were found to have been turned a black, sooty color. This condition is fatal upon latter onset of the condition. The webpage used can be found at http://www-medlib.med.utah.edu/WebPath/LUNGHTML/LUNH085.html
 =========yorg=========
 ===from:Heidi Edsill
 ===date:Wed Mar 29 19:25:07 2000
@@ -72,7 +72,7 @@ http://www.lung.ca/tb/index.html
 ===from:Erin Costello
 ===date:Thu Mar 30 10:52:21 2000
 ===subject:Bronchitis
-===message:Acute bronchitis usually follows a respiratory infection. the infection produces bronchial inflammation and leads to bronchitis and secondary bacterial infection. Chronic bronchitis on the other hand is a long term condition of excessive brochial mucus with a productive cough. Cigarette smoking is the chief cause of this disease. 
+===message:Acute bronchitis usually follows a respiratory infection. the infection produces bronchial inflammation and leads to bronchitis and secondary bacterial infection. Chronic bronchitis on the other hand is a long term condition of excessive brochial mucus with a productive cough. Cigarette smoking is the chief cause of this disease.
 Symptoms:
 -Cough that produces mucus, may be blood streaked
 -shortness of breath aggrivated by exertion or mild activity
@@ -116,7 +116,7 @@ www.lungusa.org/diseases/lungchronic.html
 =========yorg=========
 ===from:Jonah Ferrin
 ===date:Thu Mar 30 21:39:39 2000
-===subject:(RAD) Reactive Airway Disease 
+===subject:(RAD) Reactive Airway Disease
 ===message:Reactive Airway Disease (RAD), also known as asthma accurse in about 5% of all US citizens.  Asthma is caused by the persons bronchial passages being more sensitive to irritation then normal peoples.  We don’t know why some people have RAD and some don’t.
 	This Web page is unique it talks about the differences between RAD and wheezing, and it also has helpful hints on how to deal with RAD,  and shows pictures to help see what goes on in the Bronchial Tube at the time of an attack.
 
@@ -142,7 +142,7 @@ http://search1.healthgate.com/mdx-books/ped/sym58.shtml
 ===date:Fri Mar 31  7:38:38 2000
 ===subject:Respiratory Disease
 ===message:The Center For Disease Control and Prevention has a section specifically about respiratory disease and prevention of it.  This site offers means of preventing respiratory disease and ways to control the disease.  There is also information about Biostatistics and Information Mangement, Foodborne and Diarrheal Diseases, Health Communications Activity, Meningitis and Special Pathogens, Mycotic Diseases, and of course Respiratory Diseases.
-  
+
 http://www.cdc.gov/ncidod/dbmd/respirat.htm
 =========yorg=========
 ===from:Mikaela Grove
@@ -155,13 +155,13 @@ http://www.cdc.gov/ncidod/dbmd/respirat.htm
 ===institution:Healthsquare
 ===date:Fri Mar 31  9:14:41 2000
 ===subject:respiratory diseases
-===message:This web site has information on many different kinds of 
-respiratory diseases.  First, it explains basically how the 
-human respiratory system works.  Then it goes on to describe 
-several different kinds of respiratory diseases including 
-the 
-common cold, flu, pnuemonia, chronic lung disorders, etc.  
-This site does a good job of explaining each type of 
+===message:This web site has information on many different kinds of
+respiratory diseases.  First, it explains basically how the
+human respiratory system works.  Then it goes on to describe
+several different kinds of respiratory diseases including
+the
+common cold, flu, pnuemonia, chronic lung disorders, etc.
+This site does a good job of explaining each type of
 respiratory disease
 =========yorg=========
 ===from:Jason Peterson
@@ -180,7 +180,7 @@ http://www.lungusa.org/diseases/lungemphysem.html
 ===from:Jennifer Snider
 ===date:Fri Mar 31 13:27:41 2000
 ===subject:Legionnaire's Disease
-===message:Legionnaire's Disease is an infection due to a bacterium, legionella pneumophila, which causes a severe form of pneumonia.  It was discovered in Philadelphia during a legionnaires convention in 1976-hence the name.  It caused over 200 illnesses with 34 deaths just within that convention.  Water can be contaminated by cooling towers, but the bacteria is spread widely by air circulation.  It may be fatal in about fifteen percent of the cases. 
+===message:Legionnaire's Disease is an infection due to a bacterium, legionella pneumophila, which causes a severe form of pneumonia.  It was discovered in Philadelphia during a legionnaires convention in 1976-hence the name.  It caused over 200 illnesses with 34 deaths just within that convention.  Water can be contaminated by cooling towers, but the bacteria is spread widely by air circulation.  It may be fatal in about fifteen percent of the cases.
 www.mayohealth.org/mayo/askphys/qa970408.htm
 =========yorg=========
 ===from:Jared Travnicek
@@ -198,7 +198,7 @@ Asthma is a very common respitory disease and on this web site they show you a p
 ===from:Carrie Fu
 ===date:Fri Mar 31 14:37:10 2000
 ===subject:Pulmonary Hypertension
-===message:Pulmonary hypertension is the presence of abnormally high blood pressure in the vessels that carry blood between the heart and lungs (known as the pulmonary circulation). The condition can be caused by many other types of diseases, such as chronic pulmonary heart disease, recurrent blood clots in the pulmonary arteries, narrowing of the mitral heart valve, and cirrhosis of the liver. Initially, patients experience breathlessness, weakness, and fatigue with exertion. As the condition progresses, patients become very tired after only slight activity. Eventually, patients experience right-sided heart failure and death. 
+===message:Pulmonary hypertension is the presence of abnormally high blood pressure in the vessels that carry blood between the heart and lungs (known as the pulmonary circulation). The condition can be caused by many other types of diseases, such as chronic pulmonary heart disease, recurrent blood clots in the pulmonary arteries, narrowing of the mitral heart valve, and cirrhosis of the liver. Initially, patients experience breathlessness, weakness, and fatigue with exertion. As the condition progresses, patients become very tired after only slight activity. Eventually, patients experience right-sided heart failure and death.
 The Web Site is http://www.people.delphi.com/graphking/breath.htm
 =========yorg=========
 ===from:Megan Wiedmann
@@ -223,37 +223,37 @@ http://www.uiuc.edu/departments/mckinley/health-info/dis-cond/cold/bronchit.html
 ===from:Mike Cummings
 ===date:Fri Mar 31 19:29:21 2000
 ===subject:Valley Fever
-===message:Valley Fever, or Coccidioidomycosis, is a lung disease that is common in southwestern United States and northern Mexico.  The cause of Valley Fever is a fungus that grows in the soil in these areas.  Spores in the soil become airborne when disturbed by agriculture, wind, or construction.  These spores can be inhaled by humans or animals where they can develop into a larger multicellular structures. This spore grows and releases endospores in the lung. Symptoms of Valley Fever include fatigue, coughing, a rash, and other flu like symptoms. Most people do not even notice the symptoms and those that do usually recover without treatment and have lifelong immunity.  This disease is not contagious.   
+===message:Valley Fever, or Coccidioidomycosis, is a lung disease that is common in southwestern United States and northern Mexico.  The cause of Valley Fever is a fungus that grows in the soil in these areas.  Spores in the soil become airborne when disturbed by agriculture, wind, or construction.  These spores can be inhaled by humans or animals where they can develop into a larger multicellular structures. This spore grows and releases endospores in the lung. Symptoms of Valley Fever include fatigue, coughing, a rash, and other flu like symptoms. Most people do not even notice the symptoms and those that do usually recover without treatment and have lifelong immunity.  This disease is not contagious.
 
 =========yorg=========
 ===from:Emily Horst
 ===date:Fri Mar 31 23:11:32 2000
 ===subject:alpha-1 antitrypsin
-===message:Alpha-1 antitrysin deficiency is a disease that effects the 
-lungs and can lead to emphysema.  Alpha-1 antitrypsin is 
-an enzyme produced by the liver that  breaks down the mucus 
-in the lungs.  This deficiency is comparable to 
-cystic-fibrosis.  This genetic disease affects 1/6000 
-people.  This is a genetic disease that  is a mutation at 
-position 
-342 on chromosome 14.  This is a disease that can be tested 
-by a simple blood test.  People with 35% of the normal 
-level may be eligable to receive experimental replacement 
-therapy with a drug called Prolastin by Bayer.  This 
-drug is derived from human plasma containing alpha-1 
-antitrypsin.  SO PLEASE-DONATE PLASMA!!         
+===message:Alpha-1 antitrysin deficiency is a disease that effects the
+lungs and can lead to emphysema.  Alpha-1 antitrypsin is
+an enzyme produced by the liver that  breaks down the mucus
+in the lungs.  This deficiency is comparable to
+cystic-fibrosis.  This genetic disease affects 1/6000
+people.  This is a genetic disease that  is a mutation at
+position
+342 on chromosome 14.  This is a disease that can be tested
+by a simple blood test.  People with 35% of the normal
+level may be eligable to receive experimental replacement
+therapy with a drug called Prolastin by Bayer.  This
+drug is derived from human plasma containing alpha-1
+antitrypsin.  SO PLEASE-DONATE PLASMA!!
 HTTP://WWW.DAILYLUNG.COM/ATT
 =========yorg=========
 ===from:Jenny VanderSchoor
 ===date:Sat Apr  1 12:47:19 2000
 ===subject:Chronic Bronchitis
-===message:Chronic bronchitis is an inflammation of the bronchial 
-tubes.  It may precede emphysema.  It is characterized by a 
-"mucus-producing cough" a majority of the month, three 
-months of the year for two successive years.  Causes of this 
-disease include smoking, air pollution and industrial dusts.  
-Smoking is by far the biggest cause.  Chronic bronchitis 
-affects 5% of the population, or 14 million people a year.  
+===message:Chronic bronchitis is an inflammation of the bronchial
+tubes.  It may precede emphysema.  It is characterized by a
+"mucus-producing cough" a majority of the month, three
+months of the year for two successive years.  Causes of this
+disease include smoking, air pollution and industrial dusts.
+Smoking is by far the biggest cause.  Chronic bronchitis
+affects 5% of the population, or 14 million people a year.
 
 The web site is:  www.lungusa.org/diseases/lungchroni
 =========yorg=========
@@ -285,7 +285,7 @@ http://www.umdnj.edu/~ntbcweb/
 ===from:Jennie Kingery
 ===date:Sat Apr  1 16:27:01 2000
 ===subject:Respiratory Diseases
-===message:Lymphangioleiomyomatosis (LAM) is a respiratory disease that hits only young women usually during their 20 to early 30's.  Their are a few hundred cases in the U.S.  This disease has an unusual kind of muscle cell invade the lung tissue and block airways, blood and lymph vessels.  Eventually this tissue will block air, blood, and lymph flow to and from the lungs, which will prevent oxygen from getting to other cells in the body.  There is no cure for this disease, there is also no known cause.  Estrogen reduction therapy is often used, along with progesterone and tamixofen therapy.  Lung transplants are available for advanced patients.  
+===message:Lymphangioleiomyomatosis (LAM) is a respiratory disease that hits only young women usually during their 20 to early 30's.  Their are a few hundred cases in the U.S.  This disease has an unusual kind of muscle cell invade the lung tissue and block airways, blood and lymph vessels.  Eventually this tissue will block air, blood, and lymph flow to and from the lungs, which will prevent oxygen from getting to other cells in the body.  There is no cure for this disease, there is also no known cause.  Estrogen reduction therapy is often used, along with progesterone and tamixofen therapy.  Lung transplants are available for advanced patients.
 http://dir.yahoo.com/Health/Diseases_and_Condition/Lymphangiolieomyomatosis__LAM_/
 =========yorg=========
 ===from:Leah Pollastrini
@@ -302,8 +302,8 @@ More information is available at http://www.tli.org/gobmasso.htm
 ===from:Rachel Anderson
 ===date:Sun Apr  2  0:18:59 2000
 ===subject:Interstitial Lung Disease
-===message:Interstitial Lung Disease, which is also called pulmonary fibrosis or interstitial pulmonary fibrosis, actually includes more than 130 chronic lung diseases.  In these disorders, the lung is damaged, the walls of the air sacs become inflamed, scarring begins to occur in the tissue between the air sacs (interstitium), and the lungs become stiff.  Symptoms include breathlessness and a dry cough.  The disease may progress rapidly or at a more gradual rate,  but as it progresses, breathing becomes more and more difficult.  All forms of ILD begin with inglammation of either the bronchioles (brochitis), alveoli (alveolitis), or capillaries (vasculitis).  This inflammation may heal or may cause permanent scarring of the lung tissue, a condition called pulmonary fibrosis.  More information about these diseases can be found at <a href="http://www.cheshire-med.com/programs/pulrehab/ipf.html">http://www.cheshire-med.com/programs/pulrehab/ipf.html</a> 
- 
+===message:Interstitial Lung Disease, which is also called pulmonary fibrosis or interstitial pulmonary fibrosis, actually includes more than 130 chronic lung diseases.  In these disorders, the lung is damaged, the walls of the air sacs become inflamed, scarring begins to occur in the tissue between the air sacs (interstitium), and the lungs become stiff.  Symptoms include breathlessness and a dry cough.  The disease may progress rapidly or at a more gradual rate,  but as it progresses, breathing becomes more and more difficult.  All forms of ILD begin with inglammation of either the bronchioles (brochitis), alveoli (alveolitis), or capillaries (vasculitis).  This inflammation may heal or may cause permanent scarring of the lung tissue, a condition called pulmonary fibrosis.  More information about these diseases can be found at <a href="http://www.cheshire-med.com/programs/pulrehab/ipf.html">http://www.cheshire-med.com/programs/pulrehab/ipf.html</a>
+
 =========yorg=========
 ===from:Tyree Lawrence
 ===date:Sun Apr  2  8:29:21 2000
@@ -316,7 +316,7 @@ More information is available at http://www.tli.org/gobmasso.htm
 ===date:Sun Apr  2 10:24:13 2000
 ===subject:Emphysema and chronic bronchitis
 ===message:http://www.acf.org.au/respir.htm
-Smoking can cause many respiratory diseases.  Such diseases like emphysema and chronic bronchitis, which are known as Chronic Obstructive Pulmonary Diseases (COPD).  23% of smokers will die from emphysema and chronic bronchitis.  Most often then not, these two diseases occur at the same time in humans.  Emphysema cannot be cured.  The best way to help it is to stop smoking because smoking more just makes it worse.  
+Smoking can cause many respiratory diseases.  Such diseases like emphysema and chronic bronchitis, which are known as Chronic Obstructive Pulmonary Diseases (COPD).  23% of smokers will die from emphysema and chronic bronchitis.  Most often then not, these two diseases occur at the same time in humans.  Emphysema cannot be cured.  The best way to help it is to stop smoking because smoking more just makes it worse.
 Smoking damages the lungs of humans.  The tiny hairs in the lungs that protect against infections are damaged, the airways narrow, and carbon dioxide gets in the blood.  Most smokers get some dose of emphysema, either it be extremely bad or minor.  They can live for several years after being diagnosed, but it is not pleasent.
 =========yorg=========
 ===from:Grant Schultz
@@ -347,7 +347,7 @@ Covers diagnosis, treatment, and current research.  This site also talks about s
 ===subject:Asthma
 ===message:http://www.lungusa.org/asthma/astasthma.html
 
-This website describes the conditions and signs of asthma.  Asthma starts with a tigger. Cells in your air tubes make more mucus than normal. Then your bronchioles swell and muscles tighten.  This is what makes it difficult to breath. Then It describes the different types of attacks and how to deal with them.  They put emphasis on finding out what your particular symptoms are and what triggers them.  This gives you control of your asthma since there is no cure. 
+This website describes the conditions and signs of asthma.  Asthma starts with a tigger. Cells in your air tubes make more mucus than normal. Then your bronchioles swell and muscles tighten.  This is what makes it difficult to breath. Then It describes the different types of attacks and how to deal with them.  They put emphasis on finding out what your particular symptoms are and what triggers them.  This gives you control of your asthma since there is no cure.
 =========yorg=========
 ===from:Chris Kubina-Koziol
 ===date:Sun Apr  2 17:45:49 2000
@@ -360,18 +360,18 @@ This website describes the conditions and signs of asthma.  Asthma starts with a
 ===email:tstearns@iastate.edu
 ===date:Sun Apr  2 18:29:10 2000
 ===subject:asthma
-===message:Asthma is a chronic respiratory condition that is often accompanied by sudden attacks of constricted airway. People who have asthma exhibit almost continually inflamed bronchial tubes, which make it hard to breathe normally. When an attack occurs, the air passages become extremely inflamed and clogged with thick secretions. A few factors that may trigger asthma symptoms include: dust, pollen, cold air, smoke, airbourne molds, exercise, air pollutants, and stress. Asthma is treated in two ways. Relief of symptoms often involves the use of inhalers to deliver beta-agonist medications to help relax the smooth muscle of the airways. Prevention of attacks utilizes anti-inflammatory drugs, such as corticosteroids and non-steroid anti-inflammatories. These are also delivered by inhalers. 
-http://www.ipacmdi.com/Respiratory.html     
+===message:Asthma is a chronic respiratory condition that is often accompanied by sudden attacks of constricted airway. People who have asthma exhibit almost continually inflamed bronchial tubes, which make it hard to breathe normally. When an attack occurs, the air passages become extremely inflamed and clogged with thick secretions. A few factors that may trigger asthma symptoms include: dust, pollen, cold air, smoke, airbourne molds, exercise, air pollutants, and stress. Asthma is treated in two ways. Relief of symptoms often involves the use of inhalers to deliver beta-agonist medications to help relax the smooth muscle of the airways. Prevention of attacks utilizes anti-inflammatory drugs, such as corticosteroids and non-steroid anti-inflammatories. These are also delivered by inhalers.
+http://www.ipacmdi.com/Respiratory.html
 =========yorg=========
 ===from:Allison Hall
 ===date:Sun Apr  2 18:46:32 2000
 ===subject:pneumonia-forms & causes
-===message:www.lung.ca/pneumonia:  
-    Pneumonia is the inflammation or infection of the lungs. Air sacs fill with pus, mucus, or other liquid, which makes it difficult for the lungs to function. Oxygen can't reach the blood, so body cells can't function either. Pneumonia can be lobar, when it affects a section or lobe of the lung, or bronchial, when it affects patches in both lungs. There are over thirty cause of pneumonia, including bacterial, viral, and mycoplasma. 
+===message:www.lung.ca/pneumonia:
+    Pneumonia is the inflammation or infection of the lungs. Air sacs fill with pus, mucus, or other liquid, which makes it difficult for the lungs to function. Oxygen can't reach the blood, so body cells can't function either. Pneumonia can be lobar, when it affects a section or lobe of the lung, or bronchial, when it affects patches in both lungs. There are over thirty cause of pneumonia, including bacterial, viral, and mycoplasma.
   Bacterial pneumonia attacks all ages, but children under 2 and adults over 65 are more likely to get the illness. The most commom cause of it is the bacterium Pneumucoccus, which cause the formation of pneumococcal pneumonia. It occurs in the lobar state, caused by the entrance of bacteria in the lung. The air sacs inflame and tissues of the lobes become filled with liquid matter. Infection spreads through the bloodstream and affects the entire body. Symptoms include cough, chest pain, chills, high temperature. Bacterial pneumonia is the only form with a vaccine available.
   Viral pneumonia is caused by primary influenza virus pneumonia, which invades the lungs and multiplies. Flu-like symptoms occur along with breathlessness.
-  Mycoplasma pneumonia affects all ages as well. It possesses characteristics of both bacterial and viral. This type rarely causes death. Other kinds of pneumonia are caused by the inhalation of food, liquid, gases, dirt, or foreign bodies. It may also be caused by a bronchial obstruction, such as a tumor. 
-  A quick recovery will more quickly occur if a person is young, it is diagnosed early, the immune system is in good condition, infection hasn't spread, and there are no other illnesses present at the time. 
+  Mycoplasma pneumonia affects all ages as well. It possesses characteristics of both bacterial and viral. This type rarely causes death. Other kinds of pneumonia are caused by the inhalation of food, liquid, gases, dirt, or foreign bodies. It may also be caused by a bronchial obstruction, such as a tumor.
+  A quick recovery will more quickly occur if a person is young, it is diagnosed early, the immune system is in good condition, infection hasn't spread, and there are no other illnesses present at the time.
 =========yorg=========
 ===from:Sarah Goodwin
 ===email:iagoat@yahoo.com
@@ -379,7 +379,7 @@ http://www.ipacmdi.com/Respiratory.html
 ===subject:Respiratory Syncytial Virus in Children
 ===message:http://www.thedailyapple.com/public/content/healthLibrary/featureArticle.jhtml?center=&articleRepositoryID=%2Ftarget%2Fcs%2Farticle%2Fcs%2F100357.html
 
-This disease is seen in almost 100% of the children  in day cares. It causes both upper and lower respiratory infections.  The disease varies from being very minor to being fatal in some children.  RSV causes symptoms to occur continuosly through life.  The disease is spread through direct contact (usually saliva from a cough) and a child can be contagious for up to three weeks. 
+This disease is seen in almost 100% of the children  in day cares. It causes both upper and lower respiratory infections.  The disease varies from being very minor to being fatal in some children.  RSV causes symptoms to occur continuosly through life.  The disease is spread through direct contact (usually saliva from a cough) and a child can be contagious for up to three weeks.
 =========yorg=========
 ===from:Michael Arrett
 ===date:Sun Apr  2 19:37:46 2000
@@ -397,19 +397,19 @@ http://www.cdc.gov/ncidod/dbmd/diseaseinfo/histoplasmosis_g.htm
 ===from:Leslie Wiederin
 ===date:Sun Apr  2 19:59:58 2000
 ===subject:Chronic bronchitis
-===message:Chronic bronchitis is defined by the presence of a muscus-producing cough most days of the month, three months of a year, for two consecutive years without other underlying diseases to explain the cough.  It is caused primarily by cigarette smoking, but also air pollutants and industrial dusts.  Chronic bronchitis can be treated with antibiotics, but it is also necessary to eliminate the source of the irritation.  http://www.lungusa.org/diseases/lungchronic.html 
+===message:Chronic bronchitis is defined by the presence of a muscus-producing cough most days of the month, three months of a year, for two consecutive years without other underlying diseases to explain the cough.  It is caused primarily by cigarette smoking, but also air pollutants and industrial dusts.  Chronic bronchitis can be treated with antibiotics, but it is also necessary to eliminate the source of the irritation.  http://www.lungusa.org/diseases/lungchronic.html
 =========yorg=========
 ===from:Julie Blacksmith
 ===email:julieb@iastate.edu
 ===date:Sun Apr  2 20:26:03 2000
 ===subject:Asthma
 ===message:The site I found for a respiratory disease was on Asthma.  The URL for the site is: http://my.webmd.com/content/dmk/dmk_article_40006
-This site is very informative and is titled "Asthma in Adults."  It gives tons of information about what asthma is, and I found out that asthma is a Greek word meaning inability to breath properly. It also gives information about hyperreactive response, inflammatory response, and what causes asthma including allergic responses, genetic factors,exercise induced asthma, infections, and hormones. It continues to give information about who gets asthma, symptoms of it, complications, long-term outlooks, and the tests required for diagnosis. It also gives a list of drug treatments and information about how to prevent attacks. 
+This site is very informative and is titled "Asthma in Adults."  It gives tons of information about what asthma is, and I found out that asthma is a Greek word meaning inability to breath properly. It also gives information about hyperreactive response, inflammatory response, and what causes asthma including allergic responses, genetic factors,exercise induced asthma, infections, and hormones. It continues to give information about who gets asthma, symptoms of it, complications, long-term outlooks, and the tests required for diagnosis. It also gives a list of drug treatments and information about how to prevent attacks.
 =========yorg=========
 ===from:Anna King
 ===date:Sun Apr  2 20:32:06 2000
 ===subject:Asthma
-===message:If you want to learn more about asthma, check out the website: http://fbhc.org/Patients/BetterHealth/Asthma/home.html  
+===message:If you want to learn more about asthma, check out the website: http://fbhc.org/Patients/BetterHealth/Asthma/home.html
 
   I would guess that nearly everyone in our Biology class either knows someone who has been or is personally affected by the respiratory disease asthma.  This website clearly explains asthma, a disease that affects nearly 12 million people in America.  It describes the symptoms of asthma, which include wheezing attacks, difficulty breathing and "asthma attacks" in which the airways become inflamed and sometimes blocked.  These asthma attacks are often caused by "triggers", such as allergens, irritants, or exercise.  The website addresses facts about asthma, FAQ's, and has many useful links.
 =========yorg=========
@@ -425,7 +425,7 @@ The name of the article is "The lung of the premature infant: Pathophysiology of
 ===subject:Bovine Respiratory Synctytial Virus
 ===message:<a  href="http://ianrwww.unl.edu/pubs/animaldisease/g1144.htm">Bovine Respiratory Synctytial Virus</a>
 It is a virus that attacks the respiratory system in cattle.
-This site here is a link of how to find out if your cattle may have this disease or not. Some of the symptoms are trouble breathing and coughing. The site also describes how to treat and prevent this disease from happening. Treating it invovles taking vitamins and antibiotics. 
+This site here is a link of how to find out if your cattle may have this disease or not. Some of the symptoms are trouble breathing and coughing. The site also describes how to treat and prevent this disease from happening. Treating it invovles taking vitamins and antibiotics.
 =========yorg=========
 ===from:Cory Robinson
 ===date:Sun Apr  2 21:54:02 2000
@@ -447,7 +447,7 @@ URL: http://kidshealth.org/parent/common/rsv.html
 ===from:Kelly Lackore
 ===date:Sun Apr  2 22:37:40 2000
 ===subject:Laryngomalacia
-===message:Laryngomalacia can develop from 2 weeks to 2 months of age and is defined as a congenetal disorder of the larynx characterized by inspiratory stridor and airway obstruction.  The conplications this disease causes are respiratory distress, thoracic deformities, and failure to thrive.  The cure in severe cases is surgical repair.  The website for this disease is http://pedianet.com/news/illness/disease/files/larygom.htm 
+===message:Laryngomalacia can develop from 2 weeks to 2 months of age and is defined as a congenetal disorder of the larynx characterized by inspiratory stridor and airway obstruction.  The conplications this disease causes are respiratory distress, thoracic deformities, and failure to thrive.  The cure in severe cases is surgical repair.  The website for this disease is http://pedianet.com/news/illness/disease/files/larygom.htm
 =========yorg=========
 ===from:Stephan Joanides
 ===date:Sun Apr  2 22:50:08 2000
@@ -471,7 +471,7 @@ On this website Dr. Yohannes Tesfaigzi, explains how too many mucous cells may c
 ===from:Jessica Goeken
 ===date:Sun Apr  2 23:07:53 2000
 ===subject:Chronic Bronchitis
-===message:The most common cause of chronic bronchitis is cigarette smoking.  When the bronchial tubes have been irritated over a long period of time, excessive mucus is constantly produced, the lining of the bronchial tubes becomes thickened, and an irritating, persistent cough develops.  This disease affects about 5% of the U.S. population (14 million people).  
+===message:The most common cause of chronic bronchitis is cigarette smoking.  When the bronchial tubes have been irritated over a long period of time, excessive mucus is constantly produced, the lining of the bronchial tubes becomes thickened, and an irritating, persistent cough develops.  This disease affects about 5% of the U.S. population (14 million people).
 =========yorg=========
 ===from:Heather Vohs
 ===date:Sun Apr  2 23:17:36 2000
@@ -484,7 +484,7 @@ http://www.jeffersonhealth.org/diseases/pulmonary/chrnbron.htm
 ===subject:Respitory Diseases
 ===message:http://www.tli.org/gobmasso.htm
 
-Emphysema is a lung disease that affects 2 million people and kills 17,000 people anually.  Two doctors by the names of Gloria and Donald Massaro have made it a goal to expand research done with emphysema and may have discovered a new treatment using retinoic acid which helps regenerate lost lung tissue due to emphysema.  Their research has shown regeneration of lung tissue in adult animals.  This has opened a lot of doors in finding a cure to emphysema.  Seeing that right now, there is only treatment such as medications to prevent heart failure and adding oxygen to the lungs and the only cure is to have a lung transplant.  Hopefully with the diligent work of these two doctors, a true cure will be found to treat this terrible and overwhelming disease. 
+Emphysema is a lung disease that affects 2 million people and kills 17,000 people anually.  Two doctors by the names of Gloria and Donald Massaro have made it a goal to expand research done with emphysema and may have discovered a new treatment using retinoic acid which helps regenerate lost lung tissue due to emphysema.  Their research has shown regeneration of lung tissue in adult animals.  This has opened a lot of doors in finding a cure to emphysema.  Seeing that right now, there is only treatment such as medications to prevent heart failure and adding oxygen to the lungs and the only cure is to have a lung transplant.  Hopefully with the diligent work of these two doctors, a true cure will be found to treat this terrible and overwhelming disease.
 =========yorg=========
 ===from:Kristin Schlautman
 ===email:kschlaut@iastate.edu
@@ -496,7 +496,7 @@ Emphysema is a lung disease that affects 2 million people and kills 17,000 peopl
 ===date:Sun Apr  2 23:57:28 2000
 ===subject:Acute Bronchitis
 ===message:The site for acute bronchitis is --- http://12.4.5.33/bronchitis.html
-     
+
      Acute bronchitis is an inflammation of the trachea's mucous membrane, the bronchial tubes, and the bronchioles.  The symptoms of acute bronchitis are persistent coughing, painful aches associated with the fever induced by the disease, and mucous secretions.  Victims of the disease often feel tired because the body gets a lack of oxygen.  Finally, some of the risk factors include; chronic sinusitis, chronic lung or bronchial diseases, being of a very young age, being in the presence of air pollutants, swollen tonsils, smoking, being around second-hand smoke, and alcoholism.  Those are pretty much the basics of acute bronchitis.
 
 =========yorg=========
@@ -506,30 +506,30 @@ Emphysema is a lung disease that affects 2 million people and kills 17,000 peopl
 ===message:Cystic Fibrosis
 http://cf-web.mit.edu/info-zone/faq/sec-1.html
 
-The disease cystic fibrosis used to be known as a childhood disease, but now the median age of people with the disease is 28 years.  Cystic fibrosis is genetic, resulting in a mutation of the delta F-508 gene.  This gene was discovered in 1989.  There is about 20,000 people with the disease in the US.  There are several target organs in the body that cystic fibrosis effects; the pancreas, the intestinal glands, biliary glands, bronchial tubes and sweat glands.  The mutation of the gene  results in the lack of an essential protein that makes a cell unable to funnel out chloride ions in the body.  As a result, in the lungs, a thick mucus builds up.  The mucus is mostly composed of bacteria, the stuff already in mucus and dead white blood cells.  It is believed that the dead white blood cells and their DNA is the main reason why the air pathways clog.  However, there is medicine to help reduce the symptoms.  Research has also shown that the mutation that causes cystic fibrosis is resistant to cholera, a bacteria that causes diarrhea.  
+The disease cystic fibrosis used to be known as a childhood disease, but now the median age of people with the disease is 28 years.  Cystic fibrosis is genetic, resulting in a mutation of the delta F-508 gene.  This gene was discovered in 1989.  There is about 20,000 people with the disease in the US.  There are several target organs in the body that cystic fibrosis effects; the pancreas, the intestinal glands, biliary glands, bronchial tubes and sweat glands.  The mutation of the gene  results in the lack of an essential protein that makes a cell unable to funnel out chloride ions in the body.  As a result, in the lungs, a thick mucus builds up.  The mucus is mostly composed of bacteria, the stuff already in mucus and dead white blood cells.  It is believed that the dead white blood cells and their DNA is the main reason why the air pathways clog.  However, there is medicine to help reduce the symptoms.  Research has also shown that the mutation that causes cystic fibrosis is resistant to cholera, a bacteria that causes diarrhea.
 =========yorg=========
 ===from:Jan Boge
 ===date:Mon Apr  3  0:54:52 2000
 ===subject:Alpha-1 Antitrypsin Deficiency
-===message:Website:  http://www.nhlbi.nih.gov/health/public/lung/other/antitryp.htm   Alpha-1 antitrypsin deficiency is a recessive inherited disorder that causes lung damage and leads to emphysema.  There is a lack of alpha-1 antitrypsin production by the liver.  Normally this is released in the bloodstream and provides protection to the lungs.  With suboptimal levels, neutrophil elastase is free to damage lungs.  Smoking is not necessary to have emphysema that is due to this protein deficiency.  If you have ever talked to anyone that has said they have emphysema and have never smoked in their life, this could be the cause.  If a person does smoke, the disease progresses even faster.  With smoking, the body makes more white blood cells to protect the lungs, which increases neutrophil elastase levels resulting in even more lung damage at a faster rate.  This website is informational and has a diagram of lung anatomy.  
+===message:Website:  http://www.nhlbi.nih.gov/health/public/lung/other/antitryp.htm   Alpha-1 antitrypsin deficiency is a recessive inherited disorder that causes lung damage and leads to emphysema.  There is a lack of alpha-1 antitrypsin production by the liver.  Normally this is released in the bloodstream and provides protection to the lungs.  With suboptimal levels, neutrophil elastase is free to damage lungs.  Smoking is not necessary to have emphysema that is due to this protein deficiency.  If you have ever talked to anyone that has said they have emphysema and have never smoked in their life, this could be the cause.  If a person does smoke, the disease progresses even faster.  With smoking, the body makes more white blood cells to protect the lungs, which increases neutrophil elastase levels resulting in even more lung damage at a faster rate.  This website is informational and has a diagram of lung anatomy.
 
 =========yorg=========
 ===from:Miki Katayama
 ===date:Mon Apr  3  1:03:24 2000
 ===subject:Tuberculosis
-===message:TB or tuberculosis is a disease caused by bacteria called 
-Mycobacterium tuberculosis. The bacteria can attack usually 
-the lungs. Since the 1940s, siecntists discovered the drugs 
-now used to treat TB, the disease began to disappear in the 
+===message:TB or tuberculosis is a disease caused by bacteria called
+Mycobacterium tuberculosis. The bacteria can attack usually
+the lungs. Since the 1940s, siecntists discovered the drugs
+now used to treat TB, the disease began to disappear in the
 United States.
-After 1984, the number of TB cases in the United States 
+After 1984, the number of TB cases in the United States
 began to increase.
-TB is spread through the air from one person to another by 
-throat coughing or sneesing. People nearby may breath in 
+TB is spread through the air from one person to another by
+throat coughing or sneesing. People nearby may breath in
 these bacteria and become infected.
-Symptoms may develp at some time in the future. To cure the 
-diesease, people with TB disease had better to seek medical 
-help at early time so that they will never develp TB 
+Symptoms may develp at some time in the future. To cure the
+diesease, people with TB disease had better to seek medical
+help at early time so that they will never develp TB
 disease.
 The URL for the site: www.cdc.gov/nchstp/th/faqs/
 qa.htm#lntro_1
@@ -575,7 +575,7 @@ This web page gives a short description of the lung disease pneumonia and a brie
 ===message:http://www.cdc.gov/ncidod/dbmd/diseaseinfo/strppneum_t.htm.
 
 
-Gives facts about pneumonia.  Includes technical information  
+Gives facts about pneumonia.  Includes technical information
 about the disease and also backround info, like the history of it, where it is most prevalent, and how it is transmitted.
 =========yorg=========
 ===from:Lesley Price
@@ -607,7 +607,7 @@ The most useful way of preventing pneumonia is with an influenza vaccination.  T
 ===subject:Emphysema
 ===message:Web page information was found at: http://www.geocities.com/heartland/Prairie/5601/emphysema.html------------------------
                                Emphysema is a respiratory ailment in which the air sacs in the lungs, aveoli, are severly damaged.  This distruction of these air sacs leads to shortness of breath and tiredness even after tasks as simple as walking up a flight of stairs.
-One of the effects emphysema has is hadening of the lungs. This is one of the main reasons why patients have a hard time breathing because the lungs are no longer elastic enough to expell air.  Because of this one of the treatments for the disease is to simply have those suffering from it strengthen their diaphram and abdominals which are muscles used in breathing.  Other treatments include prescription drugs and oxygen treatments.  
+One of the effects emphysema has is hadening of the lungs. This is one of the main reasons why patients have a hard time breathing because the lungs are no longer elastic enough to expell air.  Because of this one of the treatments for the disease is to simply have those suffering from it strengthen their diaphram and abdominals which are muscles used in breathing.  Other treatments include prescription drugs and oxygen treatments.
 
 =========yorg=========
 ===from:Amy Yin
@@ -621,26 +621,26 @@ One of the effects emphysema has is hadening of the lungs. This is one of the ma
 ===subject:Pleurisy
 ===message:http://www.mayohealth.org/mayo/askphys/qa970103.htm
 
-Pleurisy is a term used to describe inflammation of the 
-pleura, the membrane that lines the chest cavity and covers 
-the lungs. It typically causes sharp pain in the affected 
-side of the chest and is aggravated by breathing.Pleurisy 
-may result from a wide variety of conditions including acute 
-viral infection, bacterial infection of the lung 
-(pneumonia), lung damage from blood clots , tumors that 
-involve the surface of the lung and even rib fractures that 
-lead to lung 
+Pleurisy is a term used to describe inflammation of the
+pleura, the membrane that lines the chest cavity and covers
+the lungs. It typically causes sharp pain in the affected
+side of the chest and is aggravated by breathing.Pleurisy
+may result from a wide variety of conditions including acute
+viral infection, bacterial infection of the lung
+(pneumonia), lung damage from blood clots , tumors that
+involve the surface of the lung and even rib fractures that
+lead to lung
 =========yorg=========
 ===from:Andrew Slattery
 ===date:Mon Apr  3 13:04:29 2000
 ===subject:Emphysema
 ===message:http://webmd.lycos.com/content/dmk/dmk_article_53212
-This site covers everything you want to know about emphysema.  It starts by explaining how the lungs work and then goes into to what exactly emphysema does.  It also lists the symptoms and some of the genetic factors of the disease. 
+This site covers everything you want to know about emphysema.  It starts by explaining how the lungs work and then goes into to what exactly emphysema does.  It also lists the symptoms and some of the genetic factors of the disease.
 
 =========yorg=========
 ===from:Amy Yin
 ===date:Mon Apr  3 13:08:45 2000
-===subject:Legionellosis 
+===subject:Legionellosis
 ===message:<A HREF="http://www.health.state.ny.us/nysdoh/consumer/legion.htm">Legionellosis</A> or as it is commonly known as Legionnaires' disease can cause pneumonia. It is often mild, but can cause death if not treated. It is spread through the air from soil or a water source. Symptoms of Legionnaires' disease are flu-like and last anywhere between five and ten days.
 
 =========yorg=========
@@ -660,22 +660,22 @@ This site covers everything you want to know about emphysema.  It starts by expl
 ===email:kshrader@iastate.edu
 ===date:Mon Apr  3 13:24:17 2000
 ===subject:Emphysema
-===message:Shortness of breath is characteristic of a patient with 
-emphysema.  This is caused by two processes: obstruction of 
-airways, and loss of lung tissue.  Patients feel as though 
-they are trying to breathe with their lungs already filled 
-to capacity.  With this overinflation of the lungs, it is 
-almost impossible for them to do any physical activity.  
-With the loss of lung tissue, it is difficult for the blood 
-to recieve oxygen.  More about emphysema and other lung 
-diseases can be found at www.dailylung.com which is an 
+===message:Shortness of breath is characteristic of a patient with
+emphysema.  This is caused by two processes: obstruction of
+airways, and loss of lung tissue.  Patients feel as though
+they are trying to breathe with their lungs already filled
+to capacity.  With this overinflation of the lungs, it is
+almost impossible for them to do any physical activity.
+With the loss of lung tissue, it is difficult for the blood
+to recieve oxygen.  More about emphysema and other lung
+diseases can be found at www.dailylung.com which is an
 online monthly magazine for respritory infections.
 =========yorg=========
 ===from:Brook Hunter
 ===date:Mon Apr  3 13:27:57 2000
 ===subject:Pneumonia
-===message:A website that has a lot of information about Pneumonia.  It 
-lists the causes and types and gives treatements and 
+===message:A website that has a lot of information about Pneumonia.  It
+lists the causes and types and gives treatements and
 symptoms.
 
 http://www.lungusa.org/diseases/lungpneumoni.html
@@ -683,7 +683,7 @@ http://www.lungusa.org/diseases/lungpneumoni.html
 ===from:Danette Allen
 ===date:Mon Apr  3 13:51:08 2000
 ===subject:RSV
-===message:RSV otherwise known as Respiratory Syncytical Virus causes an infection in the lungs and breathing passages.  It can infect the same person multiple times, but it is never as severe as in infancy.  The highest rates of RSV occur in infants 2-6 months old.  RSV passes from person to person through nasal/oral fluids.  It can enter the body when eyes/nose are touched.  RSV usually lasts from 7-14 days, but it can last up to 3 weeks.  
+===message:RSV otherwise known as Respiratory Syncytical Virus causes an infection in the lungs and breathing passages.  It can infect the same person multiple times, but it is never as severe as in infancy.  The highest rates of RSV occur in infants 2-6 months old.  RSV passes from person to person through nasal/oral fluids.  It can enter the body when eyes/nose are touched.  RSV usually lasts from 7-14 days, but it can last up to 3 weeks.
 <p>
 RSV is a major respiratory illness in young children.  In children and adults three and older symptoms are usually similar to those of the "common cold," stuffy/runny nose, sore throat, mild headache, mild cough, and low-grade fever.  In children younger than three, it mainly causes bronchiolitis and pneumonia.  This may lead to respiratory failure.  The symptoms usually include high fever, severe cough, wheezing, rapid breathing, difficulty breathing, and bluish color of lips and fingernails.  Infants withs severe RSV often have abnormal retrations of the muscles between the ribs.
 <p>
@@ -696,14 +696,14 @@ http://kidshealth.org/parent/common/rsv.html
 ===institution:Centers for Disease Control and Prevention
 ===date:Mon Apr  3 13:52:52 2000
 ===subject:Haemohilus influenae
-===message:This website is a website that gives general information about respiratory diseases.  One of the diseases that they mention is Haemohilus influenae.  All respiratory disease are a significant threat to the publics health.  Among respiratory diseases' is pneumococcal infections, legionnaire's disease, streptococcal infections, and pneumonia.  This websites goal is to educate those who do not know much about this topic.  They conduct surveillances, and inform of prevention strategies.  They also conduct and post ground-breaking research and investigate outbreaks that occur in common areas to find out what causes them.  
+===message:This website is a website that gives general information about respiratory diseases.  One of the diseases that they mention is Haemohilus influenae.  All respiratory disease are a significant threat to the publics health.  Among respiratory diseases' is pneumococcal infections, legionnaire's disease, streptococcal infections, and pneumonia.  This websites goal is to educate those who do not know much about this topic.  They conduct surveillances, and inform of prevention strategies.  They also conduct and post ground-breaking research and investigate outbreaks that occur in common areas to find out what causes them.
 =========yorg=========
 ===from:Sheri Patrick
 ===email:spatrick@iastate.edu
 ===date:Mon Apr  3 14:15:02 2000
 ===subject:COPD
 ===message:http://www.lung.ca/copd/intro/definition.html
-------------                                                 This website deals with Chronic Obstructive Pulmonary Disease or COPD.  COPD is a chronic disease that affects a person's lungs.  It often times blocks the airways in the lungs with mucus or other secretions.  The effects of COPD are non-reversible unlike those of asthma and there is no cure for this disease.  
+------------                                                 This website deals with Chronic Obstructive Pulmonary Disease or COPD.  COPD is a chronic disease that affects a person's lungs.  It often times blocks the airways in the lungs with mucus or other secretions.  The effects of COPD are non-reversible unlike those of asthma and there is no cure for this disease.
 =========yorg=========
 ===psite:http://www.chegg.com
 ===from:Mike Seager
@@ -718,20 +718,20 @@ http://www.cdc.gov/ncidod/dbmd/diseaseinfo/chlamydiapneumonia_t.htm
 ===from:Garrett Korrect
 ===date:Mon Apr  3 14:34:15 2000
 ===subject:cystic fibrosis
-===message:Cystic Fibrosis (CF) is a respiratory disease with genetic origins.  This particular disease infects about 1 in 23 Americans. The lungs of sufferers become covered in a sticky mucous and are prone to bacterial infections. There is gene that codes for a protein, CFTR, which is believed to cause CF.  Those homozygous for this gene suffer from CF, and those heterozygous are carriers.  CF is not contagious.   
+===message:Cystic Fibrosis (CF) is a respiratory disease with genetic origins.  This particular disease infects about 1 in 23 Americans. The lungs of sufferers become covered in a sticky mucous and are prone to bacterial infections. There is gene that codes for a protein, CFTR, which is believed to cause CF.  Those homozygous for this gene suffer from CF, and those heterozygous are carriers.  CF is not contagious.
 
 http://cf-web.mit.edu/what-is-cf.html
 =========yorg=========
 ===from:Mary Arguello
 ===date:Mon Apr  3 14:35:35 2000
 ===subject:Black Lung Disease
-===message:The site www.cdc.gov/noish/mngfs.html talks about Black Lung Disease and how many miners are affected each year.  It also gives statistics showing mining is the most dangerous occupation in the US.  Strategies are also given on how employers can reduce the risk to it's workers regarding this disease and the criteria for exposure to coal dust. Contact information for NOISH (National Occupational Institute for Safety & Health) is also given here.  
+===message:The site www.cdc.gov/noish/mngfs.html talks about Black Lung Disease and how many miners are affected each year.  It also gives statistics showing mining is the most dangerous occupation in the US.  Strategies are also given on how employers can reduce the risk to it's workers regarding this disease and the criteria for exposure to coal dust. Contact information for NOISH (National Occupational Institute for Safety & Health) is also given here.
 
 =========yorg=========
 ===from:Laurence Woodruff
 ===date:Mon Apr  3 14:36:37 2000
-===subject:Respiratory Syncytial Virus 
-===message:This page, run by the center for disease control discusses RSV, the virus that causes bronchitis and pneumonia. The page goes over symptoms, how the virus is transmitted, how prevention of this transmittance can be acheived. The lack of a cure and very little the the way of treatment is also discussed. 
+===subject:Respiratory Syncytial Virus
+===message:This page, run by the center for disease control discusses RSV, the virus that causes bronchitis and pneumonia. The page goes over symptoms, how the virus is transmitted, how prevention of this transmittance can be acheived. The lack of a cure and very little the the way of treatment is also discussed.
 
 http://www.cdc.gov/ncidod/dvrd/nrevss/rsvfeat.htm
 
@@ -739,8 +739,8 @@ http://www.cdc.gov/ncidod/dvrd/nrevss/rsvfeat.htm
 =========yorg=========
 ===from:Laurence Woodruff
 ===date:Mon Apr  3 14:37:29 2000
-===subject:Respiratory Syncytial Virus 
-===message:This page, run by the center for disease control discusses RSV, the virus that causes bronchitis and pneumonia. The page goes over symptoms, how the virus is transmitted, how prevention of this transmittance can be acheived. The lack of a cure and very little the the way of treatment is also discussed. 
+===subject:Respiratory Syncytial Virus
+===message:This page, run by the center for disease control discusses RSV, the virus that causes bronchitis and pneumonia. The page goes over symptoms, how the virus is transmitted, how prevention of this transmittance can be acheived. The lack of a cure and very little the the way of treatment is also discussed.
 
 http://www.cdc.gov/ncidod/dvrd/nrevss/rsvfeat.htm
 
@@ -762,7 +762,7 @@ www.healthline.com/articles/ac990106.htm
 ===from:Eric Vobr
 ===date:Mon Apr  3 14:48:23 2000
 ===subject:respiratory disease
-===message:Legionellosis (legionnaire's disease) ia an illness with acute onset, commonly characterized by fever, cough and pneumonia that is confirmed by chest radiograph. Encephalopathy and diarrhea are other symptoms. 
+===message:Legionellosis (legionnaire's disease) ia an illness with acute onset, commonly characterized by fever, cough and pneumonia that is confirmed by chest radiograph. Encephalopathy and diarrhea are other symptoms.
 http://www.cdc.gov/epo/mmwr/other/case_def/legion.html
 =========yorg=========
 ===from:Jeremy Meierotto
@@ -776,7 +776,7 @@ Asthma has increased greatly in the last 23 years.  Doctors today are increasing
 ===date:Mon Apr  3 14:52:07 2000
 ===subject:Centrilobular Emphysema
 ===message:http://www.mamc.amedd.army.mil/williams/NucMed/PU4.HTM
-   Centrilobular Emphysema is the most common form of emphysema, and is most often due to smoking. It affects the upper portions of the lobes of the lungs. Alveoli surrounding the proximal bronchioles are destroyed, while more distal alveoli are usually less affected. The affected areas can grow together to form an emphasematous bulla larger than i cm in diameter. 
+   Centrilobular Emphysema is the most common form of emphysema, and is most often due to smoking. It affects the upper portions of the lobes of the lungs. Alveoli surrounding the proximal bronchioles are destroyed, while more distal alveoli are usually less affected. The affected areas can grow together to form an emphasematous bulla larger than i cm in diameter.
 
 
 =========yorg=========
@@ -784,7 +784,7 @@ Asthma has increased greatly in the last 23 years.  Doctors today are increasing
 ===date:Mon Apr  3 14:54:02 2000
 ===subject:Centrilobular Emphysema
 ===message:http://www.mamc.amedd.army.mil/williams/NucMed/PU4.HTM
-   Centrilobular Emphysema is the most common form of emphysema, and is most often due to smoking. It affects the upper portions of the lobes of the lungs. Alveoli surrounding the proximal bronchioles are destroyed, while more distal alveoli are usually less affected. The affected areas can grow together to form an emphasematous bulla larger than 1 cm in diameter. 
+   Centrilobular Emphysema is the most common form of emphysema, and is most often due to smoking. It affects the upper portions of the lobes of the lungs. Alveoli surrounding the proximal bronchioles are destroyed, while more distal alveoli are usually less affected. The affected areas can grow together to form an emphasematous bulla larger than 1 cm in diameter.
 
 
 =========yorg=========
@@ -839,7 +839,7 @@ http://www.mtsinai.org/pulmonary/books/breathe/Secto.htm
 =========yorg=========
 ===from:Jacqueline Townsend
 ===date:Mon Apr  3 17:26:25 2000
-===subject:Lymphangioleiomyomatosis 
+===subject:Lymphangioleiomyomatosis
 ===message:Lymphangioleiomyomatosis (LAM) is a rare disease in which a weird kind of muscle cell grows in the lungs. it is not cancerous, but it grows everywhere, and eventually blocks the air, blood, and lymph from reaching the lungs.  The cause for this disease is currently unknown. I found this information at http://lam.uc.edu/
 =========yorg=========
 ===from:Jennifer Pelusi
@@ -851,7 +851,7 @@ This site gives an introduction to their program and outlines the programs goals
 ===from:Jennifer Larson
 ===date:Mon Apr  3 18:47:07 2000
 ===subject:Psittacosis
-===message:This website, <A HREF="http://www.cdc.gov/ncidod/dbmd/diseaseinfo/psittacosis_t.htm">http://www.cdc.gov/ncidod/dbmd/diseaseinfo/psittacosis_t.htm</A>, describes some of the symptoms and facts about psittacosis, a pneumonia-like disease caused by the bacteria <I>Chlamydia psittaci</I> and transmitted by birds.  Characterized by a dry cough, fever, headache, muscle aches, and chills in humans, psittacosis is most common in people who work with or own pet birds or foul.  
+===message:This website, <A HREF="http://www.cdc.gov/ncidod/dbmd/diseaseinfo/psittacosis_t.htm">http://www.cdc.gov/ncidod/dbmd/diseaseinfo/psittacosis_t.htm</A>, describes some of the symptoms and facts about psittacosis, a pneumonia-like disease caused by the bacteria <I>Chlamydia psittaci</I> and transmitted by birds.  Characterized by a dry cough, fever, headache, muscle aches, and chills in humans, psittacosis is most common in people who work with or own pet birds or foul.
 =========yorg=========
 ===from:Kristen Ehler
 ===date:Mon Apr  3 21:01:11 2000
@@ -869,7 +869,7 @@ www.entman.com/laryngom.htm
 ===from:Roni Mukerjea
 ===date:Mon Apr  3 22:02:58 2000
 ===subject:Emphysema
-===message:Emphysema is a respiratory disease which is thought generally to be caused by smoking. The disease targets the air sacs in lungs which allow oxygen to flow into the bloodstream and allow carbon dioxide to leave the body. Eventually inflation of the lungs occurs which hampers a person's ability to breathe, and becomes a fatal. There is hope for a cure, in a special type of surgery called lung-volume-reduction-surgery. This technique removes parts of the infected lung in a way that the rest of the respiratory system can function at a better rate. Currently, this surgery is only performed on people with advanced emphysema, not any other respiratory diseases.  
+===message:Emphysema is a respiratory disease which is thought generally to be caused by smoking. The disease targets the air sacs in lungs which allow oxygen to flow into the bloodstream and allow carbon dioxide to leave the body. Eventually inflation of the lungs occurs which hampers a person's ability to breathe, and becomes a fatal. There is hope for a cure, in a special type of surgery called lung-volume-reduction-surgery. This technique removes parts of the infected lung in a way that the rest of the respiratory system can function at a better rate. Currently, this surgery is only performed on people with advanced emphysema, not any other respiratory diseases.
 http://cpmcnet.columbia.edu/dept/pulmonary/lungvr.html
 =========yorg=========
 ===from:Chimin Ho
@@ -877,22 +877,22 @@ http://cpmcnet.columbia.edu/dept/pulmonary/lungvr.html
 ===subject:cystic fibrosis
 ===message:<pre>http://www.inxpress.net/~paisans/NCFAC/CF.html
 
-cystic fibrosis is a genetic disease in which transport of 
-Na and Cl with epithelial cells, which line organs such as 
-the lungs and the pancreas, to their outer surfaces is 
-defective.  the effect of this defect is that the body 
-produces mucus that is abnormally thick and sticky.  this 
-mucus does not function properly in aiding the removal of 
+cystic fibrosis is a genetic disease in which transport of
+Na and Cl with epithelial cells, which line organs such as
+the lungs and the pancreas, to their outer surfaces is
+defective.  the effect of this defect is that the body
+produces mucus that is abnormally thick and sticky.  this
+mucus does not function properly in aiding the removal of
 antigens from the body, and is difficult to dislodge from
 the lungs and respiratory pathways.  in addition, the mucus
 interferes with the function of the pancreas, obstructing it
-and preventing enzymes produced by the pancreas from 
+and preventing enzymes produced by the pancreas from
 reaching the intestines.  this results in poor digestion and
-nutrient absorption.  treatment of this disease includes 
-postural drainage (aka chest physical therapy), which 
+nutrient absorption.  treatment of this disease includes
+postural drainage (aka chest physical therapy), which
 involves pounding the back and chest of the CF victim
 several times a day to dislodge the thick mucus from their
-lungs and trachea/bronchal tubes, and also antibiotics and 
+lungs and trachea/bronchal tubes, and also antibiotics and
 nutrient/vitamin/enzyme supplements.  however, although
 research has advanced substantially since the disease was
 first discovered in 1989, CF is a fatal disease: there is no
@@ -903,7 +903,7 @@ years.
 ===from:Cheryl Wroblewski
 ===date:Mon Apr  3 22:12:16 2000
 ===subject:Cystic fibrosis
-===message:Cystic fibrosis is a genetic disease.  About 1 in every 23 people in the U.S.  carry at least one of the defeative gene.  This website also gives information on the symptoms and the disadvantaages of the absent protein that causes cystic fibrosis.  The website address is http://www.cf-web.mit.edu/what-is-cf.html 
+===message:Cystic fibrosis is a genetic disease.  About 1 in every 23 people in the U.S.  carry at least one of the defeative gene.  This website also gives information on the symptoms and the disadvantaages of the absent protein that causes cystic fibrosis.  The website address is http://www.cf-web.mit.edu/what-is-cf.html
 =========yorg=========
 ===from:Charles (Chuck) Amos
 ===date:Mon Apr  3 22:20:48 2000
@@ -918,7 +918,7 @@ years.
 ===from:Julia Haas-Slatttery
 ===date:Mon Apr  3 22:32:49 2000
 ===subject:ILD
-===message:The National Jewish Medical Center at http://www.njc.org/MFhtml/ILD_.html offers information on Interstitial Lung Disease (ILD).  ILD results in scarring of the lungs, affects both men and women, and is also known as pulmonary fibrosis or "stiff lung disease."  ILD can be difficult to diagnose.  It is caused by organic and inorganic dust, gas fumes, in rare cases;antibiotics, radiation, residue from an infection, Lupus, and Rheumatiod arthritis.  The pattern ILD takes is usually an injury, followed by inflammation that spreads to the alveoli, then fibrosis of interstitium and the lung stiffening.  It can be treated with medication and can be removed if caught early. 
+===message:The National Jewish Medical Center at http://www.njc.org/MFhtml/ILD_.html offers information on Interstitial Lung Disease (ILD).  ILD results in scarring of the lungs, affects both men and women, and is also known as pulmonary fibrosis or "stiff lung disease."  ILD can be difficult to diagnose.  It is caused by organic and inorganic dust, gas fumes, in rare cases;antibiotics, radiation, residue from an infection, Lupus, and Rheumatiod arthritis.  The pattern ILD takes is usually an injury, followed by inflammation that spreads to the alveoli, then fibrosis of interstitium and the lung stiffening.  It can be treated with medication and can be removed if caught early.
 =========yorg=========
 ===from:Katie Johnson
 ===date:Mon Apr  3 22:34:02 2000
@@ -937,7 +937,7 @@ Chronic Bronchitis is the inflamation of the bronchial tubes.  It is caused most
 ===from:Terese Nickol
 ===date:Mon Apr  3 22:41:10 2000
 ===subject:Respiratory Diseases
-===message:Respriatory Syncytial Virus (RSV) is the common cause of bronchiolitis and pneunomonia among children under one year of age.  RSV begins with symptoms of fever, runny nose, cough, and occasional wheezing.  Up to 40% of the children show symptoms of bronchitis or pneunomia and 2% require hospitalization.  The RSV can also cause infections repeatedly during life.  
+===message:Respriatory Syncytial Virus (RSV) is the common cause of bronchiolitis and pneunomonia among children under one year of age.  RSV begins with symptoms of fever, runny nose, cough, and occasional wheezing.  Up to 40% of the children show symptoms of bronchitis or pneunomia and 2% require hospitalization.  The RSV can also cause infections repeatedly during life.
   RSV is an RNA virus and is variable in shape and size.  It is unstable in environment and is inactivated with soap and water.  It is spread in respiratory secretions.  Contact with mucus of eyes, mouth, nose, and sneezing can cause infections.  For mild cases no specific treatment is used but treatment of the symptoms helps.  If there is a severe case there may be a need for oxygen therapy and mechanical ventilation.  Development of of a vaccine is being researched but is not yet available.  To prevent infections wash hands frequently and do not share eating utensils.
 available at
 <A HREF="http://www.cdc.gov/ncidod/dvrd/nrevss/rsvfeat.htm">RSV</A>
@@ -953,7 +953,7 @@ Chronic Bronchits affects about 5% of Americans.  This disease is characterized 
 ===from:Dan Boberg
 ===date:Mon Apr  3 23:00:09 2000
 ===subject:COPD
-===message:The page says what COPD is, and says how to live with it. 
+===message:The page says what COPD is, and says how to live with it.
 
 <a href="http://www.lung.ca/copd/intro/definition.html">COPD</a>
 =========yorg=========
@@ -971,7 +971,7 @@ Chronic Bronchits affects about 5% of Americans.  This disease is characterized 
 ===from:Susan Wolfe
 ===date:Mon Apr  3 23:30:44 2000
 ===subject:Asthma
-===message:Asthma is a cronic lung disease, its symptoms include shortness of breath, chest tightness, coughing, and wheezing.  It is a disease that could affect a person every day, or only occasionally.  It affects more than 14 million people in the United States alone.  It is not known what causes asthma, but it must be treated in order for a victim to lead a normal and productive life.  There have been some recent advances against asthma, but no cure has been found.  If untreated, it can cause death.   
+===message:Asthma is a cronic lung disease, its symptoms include shortness of breath, chest tightness, coughing, and wheezing.  It is a disease that could affect a person every day, or only occasionally.  It affects more than 14 million people in the United States alone.  It is not known what causes asthma, but it must be treated in order for a victim to lead a normal and productive life.  There have been some recent advances against asthma, but no cure has been found.  If untreated, it can cause death.
 							URL: www.med.upenn.edu/~health/hi_files/topics/asthma/ast_what.html
 =========yorg=========
 ===from:Saralyn Ohanian
@@ -985,7 +985,7 @@ This article addresses the fact that mine workers had to form unions to prevent 
 ===from:Scott Gilroy
 ===date:Mon Apr  3 23:35:25 2000
 ===subject:Chronic Bronchitis
-===message:Chronic bronchitis is defined by the presence of a mucus-producing cough most days of the month, three months of a year for two successive years without other underlying disease to explain the cough. It may precede or accompany pulmonary emphysema. 
+===message:Chronic bronchitis is defined by the presence of a mucus-producing cough most days of the month, three months of a year for two successive years without other underlying disease to explain the cough. It may precede or accompany pulmonary emphysema.
 The Url is http://www.lungusa.org/diseases/lungchronic.html
 
 =========yorg=========
@@ -1010,16 +1010,16 @@ This is an informative page which details the different stages of Lung Cancer an
 =========yorg=========
 ===from:Keyana Ambrose
 ===date:Mon Apr  3 23:57:21 2000
-===subject:Emphysema 
+===subject:Emphysema
 ===message:Emphysema is the fourth largest cause of mortality in the U.S., yet it is not a highly publicized disease and , consequently, little is known about it by the average citizen. Almost 16-30 million U.S. citizens are afflicted with emphysema... and every year approximately 100,000 sufferers die of the disease. Smoking is the major cause, but with ever increasing air pollution and other environmental factors that negatively impact pulmonary patients, those numbers are on the rise. There is no denying it, we must continue our work to reduce the suffering and the toll emphysema is taking.
 http://emphysemafoundation.org/
 =========yorg=========
 ===from:Erin Greene
 ===date:Mon Apr  3 23:57:51 2000
-===subject:Emphysema and COPD 
+===subject:Emphysema and COPD
 ===message:URL:http://health.excite.com/content/dmk/dmk_article_53212
 
-The article described first about the lungs and how they generally work. Then the article discussed what COPD is and the causes and the effects of it.  As the article continued, it talked about emphysema and what causes it. Then it gave a general overview on how people live and cope with these diseases. 
+The article described first about the lungs and how they generally work. Then the article discussed what COPD is and the causes and the effects of it.  As the article continued, it talked about emphysema and what causes it. Then it gave a general overview on how people live and cope with these diseases.
 =========yorg=========
 ===from:Jose Davila
 ===date:Tue Apr  4  0:08:13 2000
@@ -1054,7 +1054,7 @@ This site talks about what tuberculosis is, how it spreads, the history of it an
 ===from:Kat Strachan
 ===date:Sat Apr  8  0:32:52 2000
 ===subject:Asthma
-===message:Most often people think asthma is a wheezing sound when you breathe. Sometimes people associate chest pane with asthma, or intense coughing. Some people become paranoid with a chest cold believing it is asthma, but the web sight http://www.aanma.org explains the differences between allergies, colds and asthma. This is very helpful, but the website takes this information a step further into how asthma attacks cn be prevented for those diognosed with asthma. Throughout the entire website, it is always advised to consult a doctor, but these tips can be very helpful. 
+===message:Most often people think asthma is a wheezing sound when you breathe. Sometimes people associate chest pane with asthma, or intense coughing. Some people become paranoid with a chest cold believing it is asthma, but the web sight http://www.aanma.org explains the differences between allergies, colds and asthma. This is very helpful, but the website takes this information a step further into how asthma attacks cn be prevented for those diognosed with asthma. Throughout the entire website, it is always advised to consult a doctor, but these tips can be very helpful.
 =========yorg=========
 ===from:Noah Mundahl
 ===date:Thu Apr 13 22:56:10 2000

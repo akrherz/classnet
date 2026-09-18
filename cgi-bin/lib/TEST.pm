@@ -105,9 +105,9 @@ sub replace_placeholders {
        /CHOICE|LIKERT/  &&
        	   do {
        	       my $j=0;
-       	       $q_str =~ s/<\?>/eval 
+       	       $q_str =~ s/<\?>/eval
                    { $j++; my $check = ($j == $val) ? "CHECKED" : "";
-       	       	     "<INPUT TYPE=radio NAME=\"$name\" VALUE=$j $check> " 
+       	       	     "<INPUT TYPE=radio NAME=\"$name\" VALUE=$j $check> "
                    }/eg;
        	       last SWITCH;
        	      };
@@ -116,7 +116,7 @@ sub replace_placeholders {
        	   do {
        	       my $j=0;
                my @picks = split(/%2C/,$val);
-       	       $q_str =~ s#<\?>#eval 
+       	       $q_str =~ s#<\?>#eval
                    { $j++; $check = '';
                      foreach $num (@picks) {
                          if ($num == $j) {
@@ -124,7 +124,7 @@ sub replace_placeholders {
                              last;
                          }
                      }
-       	       	     "<INPUT TYPE=checkbox NAME=$name.$j VALUE=1 $check> " 
+       	       	     "<INPUT TYPE=checkbox NAME=$name.$j VALUE=1 $check> "
                    }#eg;
        	       last SWITCH;
        	      };
@@ -186,7 +186,7 @@ $cols WRAP=physical>$val<\/TEXTAREA> /si;
        /OPTION/ &&
        	   do {
                ($q_str,$rest) = split(/<\/\?>/,$q_str);
-	       # I am not sure why we have to reverse it here, just append </SELECT> below 
+	       # I am not sure why we have to reverse it here, just append </SELECT> below
        	       #$q_str = reverse $q_str;
        	       #$q_str =~ s/([\n?.*>\?]{1}?)/>TCELES<\n$1/;
        	       #$q_str = reverse $q_str;
@@ -307,7 +307,7 @@ sub question_count {
 =item Description
 renames block $b to .clipb and renumbers
 remaining blocks
- 
+
 =item Params
 $b: block number
 
@@ -484,7 +484,7 @@ sub grade {
    }
 
    # Only grade if after the due date
-   (!$self->due_date_past() and (defined $self->{'Key Header'}{'DUE'}))  and 
+   (!$self->due_date_past() and (defined $self->{'Key Header'}{'DUE'}))  and
        return;
 
    # Has key been read or constructed?
@@ -559,7 +559,7 @@ sub grade {
           };
        } else {
            if (!($key->{$q_name}{'Question Type'} =~ /LIKERT/i)) {
-               $correct = $self->match($key->{$q_name}{'ANS'}, 
+               $correct = $self->match($key->{$q_name}{'ANS'},
                                        $stud_ans->{$q_name}{'ANS'},
                                        $key->{$q_name}{'JUDGE'});
            }
@@ -583,7 +583,7 @@ sub grade {
            }
            push(@q_list,$q_name);
        } else {
-           $pts = $correct? $key->{$q_name}{'TP'}: 
+           $pts = $correct? $key->{$q_name}{'TP'}:
                             $key->{$q_name}{'PP'};
        }
        $pts_rec += $pts;
@@ -616,7 +616,7 @@ sub match {
 ###########################################################
 ####PATCH: Change when all judge options programmed########
 ####Only exact and numeric judging#########################
-###########################################################  
+###########################################################
     # substitute {name} in answer with run-time values
     my %values = $self->get_runtime_values();
     (%values) and $key_ans =~ s/{\s*(\w+)\s*}/$values{$1}/g;
@@ -640,7 +640,7 @@ sub match {
        	       my $high = $2 + 0.000001;
        	       (($stud_ans >= $low) and ($stud_ans <= $high)) and return 1;
            }
-           else { 
+           else {
        	       ($ans =~ m/"?([+|-]?\d+\.?\d*)/);
        	       my $diff = abs ($stud_ans - $1);
        	       ($diff <= .000001) and return 1;
@@ -749,7 +749,7 @@ Read block data from file
 =item Params
 $b: block number
 
-$no_unpack: Optional param which if set 
+$no_unpack: Optional param which if set
 to true does not unpack the header
 
 =item Returns
@@ -800,7 +800,7 @@ $b: block number
 
 $q: question number
 
-$no_unpack: Optional param which if set 
+$no_unpack: Optional param which if set
 to true does not unpack the header
 
 =item Returns
@@ -821,7 +821,7 @@ sub read_question {
         ERROR::system_error('TEST','read_question','open',$fname);
     @qdata = <QUEST>;
     close(QUEST);
-    if ($no_unpack) { 
+    if ($no_unpack) {
        $params{'cn_q'} = shift @qdata;
     }
     else {
@@ -836,7 +836,7 @@ sub read_question {
     $qdata = join('',@qdata);
     my ($html, $feedback) = split(/<CN_FEEDBACK>\n?/i,$qdata);
     $params{'qtext'} = $html;
-    $feedback and $params{'feedback'} = $feedback; 
+    $feedback and $params{'feedback'} = $feedback;
     return %params;
 }
 
@@ -1173,9 +1173,9 @@ sub pack_assign_header {
     my ($class,%params) = @_;
     $hdr = ASSIGNMENT->pack_assign_header(%params);
     ($hdr =~ /(.+) >/) and $hdr = $1;
-    $hdr .= ($params{'FILL'})? ",FILL":",NOFILL"; 
+    $hdr .= ($params{'FILL'})? ",FILL":",NOFILL";
     $hdr .= ($params{'VERS'} > 0)? ",VERS=$params{'VERS'}":'';
-    $hdr .= ($params{'MULT'})? ",MULT":''; 
+    $hdr .= ($params{'MULT'})? ",MULT":'';
     return $hdr . ' >';
 }
 
@@ -1237,15 +1237,15 @@ sub pack_question_header {
     my (%params) = @_;
     my $hdr = '<CN_Q ';
     $hdr .= "TYPE=$params{'Question Type'} ";
-    ($params{'ANS'}) 
+    ($params{'ANS'})
         and $hdr .= "ANS=\"$params{'ANS'}\" ";
-    ($params{'JUDGE'}) 
+    ($params{'JUDGE'})
         and $hdr .= "JUDGE=$params{'JUDGE'} ";
-    ($params{'ROWS'}) 
+    ($params{'ROWS'})
         and $hdr .= "ROWS=$params{'ROWS'} ";
-    ($params{'COLS'}) 
+    ($params{'COLS'})
         and $hdr .= "COLS=$params{'COLS'} ";
-    ($params{'N'}) 
+    ($params{'N'})
         and $hdr .= "N=$params{'N'} ";
     return $hdr . '>';
 }
@@ -1370,7 +1370,7 @@ sub submit_edit_changes {
        if (length($query->{$q_name}->[0]) > $GLOBALS::MAX_ANS_LENGTH) {
        	   $q_name =~ m/(\d+)\./;
        	   ERROR::user_error($ERROR::MAXANS, $1);
-       }       
+       }
    }
    $self->{'Test Header'}{'PR'} = $pts_rec;
    # Write Test back out
@@ -1391,7 +1391,7 @@ sub send_edit_form {
    }
    ($self->get_status() eq 'ungraded') and
        $self->grade();
-   my $fname = "$self->{'Graded Dir'}/$self->{'Student File'}"; 
+   my $fname = "$self->{'Graded Dir'}/$self->{'Student File'}";
    (-e $fname) or
        ERROR::user_error($ERROR::UNGRADED,
        "$self->{'Member'}->{'Username'} has possibly not turned in
@@ -1404,7 +1404,7 @@ $self->{'Name'} or Classnet is waiting for a due date to pass");
    !($self->{'bl_q'}) and
        $self->read_all();
    my $bl_q = $self->{'bl_q'};
-   
+
    # Start the form
    $form =<<"FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SCRIPT_ROOT/gradebook">
@@ -1435,7 +1435,7 @@ FORM
        } elsif ($q_type eq 'BLANK') {
            my @ans_array = ();
            $ans_array[$blank_num-1] = $ans;
-       	   $q_name = shift @q_names; 
+       	   $q_name = shift @q_names;
        	   while ($q_name =~  m/^$root\.(\d+)/) {
        	       $ans_array[$1-1] = ($q_type eq 'MULTIPLE')?
                            "$1":$stud_ans->{$q_name}{'ANS'};
@@ -1463,7 +1463,7 @@ instructor has changed the questions");
        }
        $question = $self->replace_placeholders($ans, $b_num, $q_num, %{$bl_q->{$root}});
        $form = "$form<B>$b_num)</B> $question<P><B>Answer:</B> $key_ans<br>$pts</b><br>$feedback<HR>";
-   }   
+   }
 
    # Finish the form
    $self->print_base_header();
@@ -1476,7 +1476,7 @@ instructor has changed the questions");
 
 sub send_ungraded_form {
    my $self = shift;
-   my ($form,$status,%params);  
+   my ($form,$status,%params);
 
    # Check status of assignment
    $status = $self->get_status();
@@ -1500,7 +1500,7 @@ sub send_ungraded_form {
        $self->print_base_header();
        print "$due$GLOBALS::HR$form";
    }
-   elsif ($status eq 'ungraded') { 
+   elsif ($status eq 'ungraded') {
        # Assignment has been submitted but ungraded
        my $form = $self->get_ungraded_form();
        $self->print_base_header();
@@ -1564,7 +1564,7 @@ FORM
        else {
            $form .= $self->check_java($b_params{'btext'},"demo");
        }
-       
+
        # Get number of questions
        $num_questions = $self->question_count($block);
 
@@ -1693,7 +1693,7 @@ FORM
        $question = $self->replace_placeholders($ans, $b_num, $q_num, %q_params);
        $form = "$form<B>$b_num)</B> $question<HR>";
 
-   }   
+   }
    # Finish the form
    $form = "$form<CENTER><H4><INPUT TYPE=submit VALUE=Submit>
        	   <INPUT TYPE=reset></H4><p></CENTER>\n</FORM>";
@@ -1746,7 +1746,7 @@ sub get_graded_form {
    !($self->{'bl_q'}) and
        $self->read_all();
    my $bl_q = $self->{'bl_q'};
-   
+
    # Construct the form
    @q_names = sort {$a <=> $b} (keys %{$self->{'Stud Answers'}});
    $stud_ans = $self->{'Stud Answers'};
@@ -1820,7 +1820,7 @@ instructor has changed the questions");
        $qcnt++;
        $form =
 "$form$qcnt) $question<br><B>Answer:</B> $key_ans<br><B>Points:</b> $pr of $tp<br>$feedback<HR>";
-   }   
+   }
    # Finish the form
    $form = "$form</FORM><CENTER><B>Total Score:</B> $self->{'Test Header'}{'PR'} of $self->{'Test Header'}{'TP'}</CENTER><P>";
    return $form;
@@ -1877,10 +1877,10 @@ sub write_test {
    my ($self, $status) = @_;
    my (%answers, @questions, $cn_q, $num_questions, $assign_str, $fname);
 
-   if ($status eq 'ungraded') { 
+   if ($status eq 'ungraded') {
        $fname = "$self->{'Ungraded Dir'}/$self->{'Student File'}";
        $dt = CN_UTILS::getTime($fname);
-   } 
+   }
    else {
        $fname = "$self->{'Graded Dir'}/$self->{'Student File'}";
        $dt = $self->{'Test Header'}{'SEEN'};
@@ -1888,7 +1888,7 @@ sub write_test {
 
    # Open file
    open(ASSIGN, ">$fname") or
-       &ERROR::system_error("TEST","write_test","open",$fname); 
+       &ERROR::system_error("TEST","write_test","open",$fname);
    flock(ASSIGN, $LOCK_EX);
    $type = ref($self);
    if (!defined $dt) {
@@ -1907,7 +1907,7 @@ sub write_test {
      $submit = 1;
    }
    print ASSIGN "<CN_ASSIGN TYPE=$type SUBMIT=$submit $dt $subdt PTS=\"$self->{'Test Header'}{'PR'}/$self->{'Test Header'}{'TP'}\">\n";
-   @q_names = sort {$a <=> $b} (keys %{$self->{'Stud Answers'}});   
+   @q_names = sort {$a <=> $b} (keys %{$self->{'Stud Answers'}});
 
    my $stud_ans = $self->{'Stud Answers'};
    foreach $q_name (@q_names) {
@@ -1937,7 +1937,7 @@ sub read_key {
         ERROR::system_error('TEST','read_key','read header',
                             "$self->{'Dev Root'}/options");
    $self->{'Key Header'} = \%assign_params;
-   
+
    # Make the key if necessary
    $self->make_key();
 
@@ -1959,7 +1959,7 @@ sub read_key {
 
     # Fill in question names, answers and grading data
    for ($block_num=0; $block_num<@cn_blocks; $block_num++) {
-       # Get cn_block string       
+       # Get cn_block string
        @questions = split(/(<CN_Q.*>)/,$cn_blocks[$block_num]);
        chomp @questions;
        $cn_block = shift @questions;
@@ -1984,8 +1984,8 @@ sub read_key {
 
        	   # Any feedback follows the cn_q
        	   $feedback = "";
-       	   (@questions and !($questions[0] =~ /<CN_.*>/)) and 
-       	       $q_info{'Feedback'} = shift @questions; 
+       	   (@questions and !($questions[0] =~ /<CN_.*>/)) and
+       	       $q_info{'Feedback'} = shift @questions;
 
        	   # Get block name
        	   $block_name = $block_num+1;
@@ -2007,8 +2007,8 @@ sub read_key {
        	       my $ans = $q_info{'ANS'};
        	       for($i = 1; $i <= $n; $i++) {
        	       	   $questions{"$block_name.$q_num.$i"} = { %q_info };
-       	       	   $questions{"$block_name.$q_num.$i"}{'ANS'} = 
-                       (($ans =~ /$i/)?$i:0); 
+       	       	   $questions{"$block_name.$q_num.$i"}{'ANS'} =
+                       (($ans =~ /$i/)?$i:0);
        	       }
        	   }
        }
@@ -2032,13 +2032,13 @@ sub read_test {
    }
    # Get questions
    open(ASSIGN, "<$fname") or
-       ERROR::system_error("TEST","read_test","open","$fname"); 
+       ERROR::system_error("TEST","read_test","open","$fname");
    flock(ASSIGN, $LOCK_EX);
    undef $/;
    $assign_str = <ASSIGN>;
    flock(ASSIGN, $LOCK_UN);
    close(ASSIGN);
-   
+
    $/="";
    @questions = split(/(<CN_Q.*>)/,$assign_str);
    chomp @questions;
@@ -2050,7 +2050,7 @@ sub read_test {
         ERROR::system_error('TEST','read_test','unpack stheader',
                             "$fname:$test_header");
    $self->{'Test Header'} = \%test_params;
-   
+
    # Read in the question answers
    my $num_questions = grep(/<CN_Q/, @questions);
    for ($q_num=1; $q_num<=$num_questions; $q_num++) {
@@ -2101,9 +2101,9 @@ sub due_date_past {
    $mon+=1;
    $year+=1900;
    # Check for year 2000+. This check was in but not needed. (12/1/98)
-   #($year < 1996) and 
+   #($year < 1996) and
    #    $year+=100;
-   $cur_tot = $mday + ($mon * 31) + ($year * 12 * 31); 
+   $cur_tot = $mday + ($mon * 31) + ($year * 12 * 31);
    # convert both to minutes
    $cur_tot = 60 * (24 * $cur_tot + $hour) + $min;
    $due_tot = 60 * (24 * $due_tot + $due_hr) + $due_min;
@@ -2142,7 +2142,7 @@ sub get_score {
        if (defined $subdate) {
           $text .= "<BR>Submitted on $subdate";
        }
-       my $date = CN_UTILS::getTime($path); 
+       my $date = CN_UTILS::getTime($path);
        if ($scores{'SUBMIT'} == 2) {
          $pr = '?';
          $text .= " (awaiting grading by instructor)<BR>";
@@ -2151,7 +2151,7 @@ sub get_score {
        }
        $text = "<B>$asn_name:</B> $pr/$tp$text";
   }
-   else { 
+   else {
        $path = "$cls->{'Root Dir'}/assignments/$escaped_asn_name/options";
        open(ASN,"<$path") or
            ERROR::system_error('TEST','read','open',$path);
@@ -2360,7 +2360,7 @@ sub get_stats {
     my $name = $self->{'Name'};
     my $type;
 
-    # Has key been read or constructed? 
+    # Has key been read or constructed?
     # Need key for differentiating question types
     $self->{'Key'} or $self->read_key();
     my $ans_key = $self->{'Key'};
@@ -2374,7 +2374,7 @@ sub get_stats {
     	        $key =~ m/(\d+).(\d+)/;
                 if ($1 eq $cat) {
     	            $type = $ans_key->{"$1.$2"}{'Question Type'};
-                    if ($type =~ m/ESSAY/i || 
+                    if ($type =~ m/ESSAY/i ||
                         $type =~ m/BLANK/i ||
                         $type =~ m/MULTIPLE/i) {
 		           ERROR::user_error($ERROR::NOTDONE,"categorize on ESSAY, BLANK or MULTIPLE questions.");
@@ -2407,7 +2407,7 @@ sub get_stats {
     	    	    $stats->{$key} = "";
     	    	    (length($ans) > 0) and
     	    	    	$stats->{$key} = $ans . "<BR><HR>";
-        	} else { 
+        	} else {
                     my %cnt = {};
                     $cnt{$ans} = 1;
                     $stats->{$key} = \%cnt;
@@ -2479,13 +2479,13 @@ sub format_stats {
        	    	   grep {s/%22/"/g; s/%2C/,/g} @key_answers;
     	    	   $key_ans = join("%2C",@key_answers);
     	       }
-    	    
+
                if ($key->{$root}{'Question Type'} =~ /ESSAY/i) {
     	    	   #$question = $self->replace_placeholders($stats->{$root},$b,$q,%{$bl_q->{$root}});
                    $question = $stats->{$root};
                }
     	       else {
-    	    	   $question = $self->replace_placeholders($key_ans,$b,$q, 
+    	    	   $question = $self->replace_placeholders($key_ans,$b,$q,
                                                        %{$bl_q->{$root}});
     	       }
                if ($key->{$root}{'Question Type'} =~ /BLANK/i) {
@@ -2504,7 +2504,7 @@ sub format_stats {
                    for ($i = 1; $i <= $n; $i++) {
                        my $blnk = "$root.$i";
                        my $nm = $stats->{$blnk}{'1'};
-                       (! defined $nm) and $nm = 0;             
+                       (! defined $nm) and $nm = 0;
                        $row1 .= "<TH ALIGN=CENTER>$i</TH>\n";
                        $row2 .= "<TD ALIGN=RIGHT>$nm</TD>\n";
                    }
@@ -2514,7 +2514,7 @@ sub format_stats {
                    $row2 = "<TD ALIGN=CENTER>N/A</TD>\n";
                } else {
                    if (defined $stats->{$root}) {
-                       foreach $ans (keys %{$stats->{$root}}) {            
+                       foreach $ans (keys %{$stats->{$root}}) {
                            $row1 .= "<TH ALIGN=CENTER>$ans</TH>\n";
                            $row2 .= "<TD ALIGN=RIGHT>$stats->{$root}{$ans}</TD>\n";
                        }
@@ -2529,7 +2529,7 @@ sub format_stats {
     open(DATA,">$fname");
     my $max = 0;
     foreach $v (keys %{$tot}) {
-        my $n = $tot->{$v}; 
+        my $n = $tot->{$v};
         print DATA "$v $n\n";
         ($n > $max) and $max = $n;
     }

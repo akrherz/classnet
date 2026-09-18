@@ -2,7 +2,7 @@
 ===date:Fri May 23  7:55:34 2003
 ===subject:Europeans, potatoes, smallpox
 ===message:In my opinion, the Europeans benefited the most from the Columbian exchange. The Europeans were the first group of people to travel back and forth to the Americas on a regular basis so the products of the Columbian exchange would have more time and opportunity to proliferate in Europe. The American food crops were definitely needed in the European diet. Potatoes, for instance, became such a staple in Ireland that later potato famines in that country were devastating.
- 
+
 
 The most important "gift" to the Americas was disease. Smallpox, almost single-handedly, ravaged the Aztec empire. The Incas were pretty much wiped out by diseases, also. Estimates of one hundred million deaths between 1500 and 1800, arguably the worst demographic calamity in history, far away make disease the most profound "gift" to the Americas.
 
@@ -33,27 +33,27 @@ The most important gift to the America's were the food crops and the domesticed 
 <p>Another reason why the Americans benefited is the amount of livestock that was transported.  With the transfer of cattle, pigs, and chicken American people could now raise up animals to provide food for communities.  The horse could also be used in farming and travel beyond what had been previously experienced in the Americas.</p>
 <p>Finally, migration has been a key factor to the production of the American community.  After the massive decline in population from the diseases, many people from all over the world came to America to begin a new life.  With them came their medicines, technologies, practices, religion, farming techniques, and many other things to add to the quality of life in America.  If it were not for migration to the Americas then this part of the world could still be unsettled and even unknown.</p>
 <p>The most important “gift” from the Americas has to be the various crops from the land.  These new foods added nutritional value and new flavors to the European peoples.  This nutritional value added immensely to the population of the Europeans.</p>
-<p>I would have to say that the most important “gift” to the Americas was the migration from around the world.  People from all over the world traveled to America for different purposes.  With these new people came all of their practices and traditions, which influenced how America is today.  Whether we realize it or not, migration has played a great role in the past and is continuously happening today.  That is a major reason why the United States is considered the “melting pot” today.</p> 
+<p>I would have to say that the most important “gift” to the Americas was the migration from around the world.  People from all over the world traveled to America for different purposes.  With these new people came all of their practices and traditions, which influenced how America is today.  Whether we realize it or not, migration has played a great role in the past and is continuously happening today.  That is a major reason why the United States is considered the “melting pot” today.</p>
 
 =========yorg=========
 ===from:Jesse Caudill
 ===date:Tue May 27 20:55:47 2003
 ===subject:Columbian Exchange
-===message:I would have to say Europe and America both gained the most from the columbian exchange but at different levels. The Europeans did explode in population and found great ways to feed vast amounts of people in a quick and efficient way. Although this is true, I would have to sway more towards America getting the most out of the exchange. I believe this is true not only because of the rising of the country but also because of the resources that were extremely important to the civilization of America. 
+===message:I would have to say Europe and America both gained the most from the columbian exchange but at different levels. The Europeans did explode in population and found great ways to feed vast amounts of people in a quick and efficient way. Although this is true, I would have to sway more towards America getting the most out of the exchange. I believe this is true not only because of the rising of the country but also because of the resources that were extremely important to the civilization of America.
 
 The most important gift from the Americans was maize and potatoes. The potatoes gave the Irish so much. Ireland is a very rocky terrain and the potatoes were able to grow easily there. The Irish at the time were not very significant, but the potatoes gave them strength and food which aloud them to focus on other things such as trade. Maize helped out the Asians a great deal because maize is easy to grow and can be spread out to numerous amounts of people. The Asians also liked that the crops were able to grow quick. This helped them with keeping up with their population growth.
 
-The most important “gift” given to the Native Americans was diseases. Although horses played an enormous part of the Natives’ lives and how they lived, the diseases impacted their lives in a bigger way. During the time of the Columbian exchange, the Americans were settling in the new world and were fighting for land. This also helped the Americans. The Indians were dying fast and in great numbers. The Americans gained from this because they did not have to fight as much for the land until they did not have to fight at all. The Native Americans obviously lost the most from the exchange, but the Americans capitalized greatly from the it.  
+The most important “gift” given to the Native Americans was diseases. Although horses played an enormous part of the Natives’ lives and how they lived, the diseases impacted their lives in a bigger way. During the time of the Columbian exchange, the Americans were settling in the new world and were fighting for land. This also helped the Americans. The Indians were dying fast and in great numbers. The Americans gained from this because they did not have to fight as much for the land until they did not have to fight at all. The Native Americans obviously lost the most from the exchange, but the Americans capitalized greatly from the it.
 
 =========yorg=========
 ===from:Jesse Caudill
 ===date:Tue May 27 20:56:17 2003
 ===subject:Columbian Exchange
-===message:I would have to say Europe and America both gained the most from the columbian exchange but at different levels. The Europeans did explode in population and found great ways to feed vast amounts of people in a quick and efficient way. Although this is true, I would have to sway more towards America getting the most out of the exchange. I believe this is true not only because of the rising of the country but also because of the resources that were extremely important to the civilization of America. 
+===message:I would have to say Europe and America both gained the most from the columbian exchange but at different levels. The Europeans did explode in population and found great ways to feed vast amounts of people in a quick and efficient way. Although this is true, I would have to sway more towards America getting the most out of the exchange. I believe this is true not only because of the rising of the country but also because of the resources that were extremely important to the civilization of America.
 
 The most important gift from the Americans was maize and potatoes. The potatoes gave the Irish so much. Ireland is a very rocky terrain and the potatoes were able to grow easily there. The Irish at the time were not very significant, but the potatoes gave them strength and food which aloud them to focus on other things such as trade. Maize helped out the Asians a great deal because maize is easy to grow and can be spread out to numerous amounts of people. The Asians also liked that the crops were able to grow quick. This helped them with keeping up with their population growth.
 
-The most important “gift” given to the Native Americans was diseases. Although horses played an enormous part of the Natives’ lives and how they lived, the diseases impacted their lives in a bigger way. During the time of the Columbian exchange, the Americans were settling in the new world and were fighting for land. This also helped the Americans. The Indians were dying fast and in great numbers. The Americans gained from this because they did not have to fight as much for the land until they did not have to fight at all. The Native Americans obviously lost the most from the exchange, but the Americans capitalized greatly from the it.  
+The most important “gift” given to the Native Americans was diseases. Although horses played an enormous part of the Natives’ lives and how they lived, the diseases impacted their lives in a bigger way. During the time of the Columbian exchange, the Americans were settling in the new world and were fighting for land. This also helped the Americans. The Indians were dying fast and in great numbers. The Americans gained from this because they did not have to fight as much for the land until they did not have to fight at all. The Native Americans obviously lost the most from the exchange, but the Americans capitalized greatly from the it.
 
 =========yorg=========
 ===from:Stephanie Chadwick
@@ -64,11 +64,11 @@ The most important “gift” given to the Native Americans was diseases. Although h
 ===from:Lesa Tolbert
 ===date:Thu May 29 13:44:45 2003
 ===subject:Columbian Exchange
-===message:It’s fascinating how the exchange of plants, crops, animals, human populations, and disease between lands with radically different flora, fauna, and disease resulted in permanent alterations of culture, health, and nutrition in their respective environments. 
+===message:It’s fascinating how the exchange of plants, crops, animals, human populations, and disease between lands with radically different flora, fauna, and disease resulted in permanent alterations of culture, health, and nutrition in their respective environments.
 
-The Europeans benefited the most from the Columbian Exchange in my opinion.  The gifts they acquired resulted in greater nourishment and health as well as more ease and efficiency in cultivation.  The vast array of foods such as maize, potatoes, tomatoes, beans, peppers, avocados, peanuts, cocoa, and more cultivated by indigenous peoples in the western hemisphere changed the way of life in Europe. Europeans gained not only better nutrition but also the techniques of planting and processing. From the Indians the Europeans learned the value of planting seeds rather than sowing them and from South American Indians Europeans learned a completely different system that used no seeds, growing crops from cuttings and from root sprouts, a form of cultivation which thrives better in the tropics. 
+The Europeans benefited the most from the Columbian Exchange in my opinion.  The gifts they acquired resulted in greater nourishment and health as well as more ease and efficiency in cultivation.  The vast array of foods such as maize, potatoes, tomatoes, beans, peppers, avocados, peanuts, cocoa, and more cultivated by indigenous peoples in the western hemisphere changed the way of life in Europe. Europeans gained not only better nutrition but also the techniques of planting and processing. From the Indians the Europeans learned the value of planting seeds rather than sowing them and from South American Indians Europeans learned a completely different system that used no seeds, growing crops from cuttings and from root sprouts, a form of cultivation which thrives better in the tropics.
 
-The Americas and Pacific Islands, on the other hand, experienced disease epidemics that were catastrophic to their areas, at least temporarily.  These previously unexposed populations were especially vulnerable to smallpox and other diseases which quickly reached epidemic proportions and claimed the lives of over 100 million people during the 1500s through the 1800s. 
+The Americas and Pacific Islands, on the other hand, experienced disease epidemics that were catastrophic to their areas, at least temporarily.  These previously unexposed populations were especially vulnerable to smallpox and other diseases which quickly reached epidemic proportions and claimed the lives of over 100 million people during the 1500s through the 1800s.
 
 The positive changes, or gifts, in the New World included the introduction of animals that became a principal part of the American life, and the influx of people that replaced those lost during the disease calamity.  Overall, all of these exchanges profoundly and permanently influenced history and the world.
 
@@ -89,7 +89,7 @@ The positive changes, or gifts, in the New World included the introduction of an
 ===institution:History 1112
 ===date:Sat May 31 15:51:24 2003
 ===subject:Columbian Exchange
-===message:How did the Columbia Exchange benefit Africans/ Asians?  
+===message:How did the Columbia Exchange benefit Africans/ Asians?
 =========yorg=========
 ===from:Conswella Walker
 ===email:swellawalker@aol.com
@@ -97,9 +97,9 @@ The positive changes, or gifts, in the New World included the introduction of an
 ===date:Sat May 31 18:01:27 2003
 ===subject:Columbian Exchange
 ===message:The Columbian Exchange is best defined as the  global diffusion of plants, food crops, animals, human population, and disease pathogens. The New World indeed has given the Old World a great deal. But the question remains who benefited from these gifts of the New World? From the Columbian Exchange?
-  Perhaps,the Eurpeans are the group of people who benefited most. They initially are the people that received the gifts of the New World and along with being first they had great advantages. Such advantages as food, crops, animals and trade. Europeans first had the experience of the global economy and had the advantages of population and growth. The cross-cultural exchange was more beneficial for Eurpeans, who gained significant new food crops.  
- The most important gift to Americans were food crops and animals. These gifts were very important because it helped increased the population of the Americas-which was dimished in the 16th century with the infectious and contagious diseases such as small pox, diptheria, and influenza. The gift of crops and animals that would promote a global spread was the most important gifts that the Americas was given. 
- The most important gift given to the native American was American crops.  The American crops took root in Africa, Asia, and Europe. This included maize, potatoes, beans, tomatoes, peppers, peanuts, manioc, papayas. Residents in the eastern hemisphere developed a taste for American crops.  By the eighteen century maize and potatoes had contribiuted to a sharply increased number of calories in a Eurasian diets. Peanuts and manioc flourished in tropical southeast Asian and west African soils that otherwise would not produce large yields or support large populations. 
+  Perhaps,the Eurpeans are the group of people who benefited most. They initially are the people that received the gifts of the New World and along with being first they had great advantages. Such advantages as food, crops, animals and trade. Europeans first had the experience of the global economy and had the advantages of population and growth. The cross-cultural exchange was more beneficial for Eurpeans, who gained significant new food crops.
+ The most important gift to Americans were food crops and animals. These gifts were very important because it helped increased the population of the Americas-which was dimished in the 16th century with the infectious and contagious diseases such as small pox, diptheria, and influenza. The gift of crops and animals that would promote a global spread was the most important gifts that the Americas was given.
+ The most important gift given to the native American was American crops.  The American crops took root in Africa, Asia, and Europe. This included maize, potatoes, beans, tomatoes, peppers, peanuts, manioc, papayas. Residents in the eastern hemisphere developed a taste for American crops.  By the eighteen century maize and potatoes had contribiuted to a sharply increased number of calories in a Eurasian diets. Peanuts and manioc flourished in tropical southeast Asian and west African soils that otherwise would not produce large yields or support large populations.
 =========yorg=========
 ===from:Alfonso Boyer
 ===date:Sat May 31 20:34:00 2003
@@ -109,8 +109,8 @@ The positive changes, or gifts, in the New World included the introduction of an
 ===from:Marisa Walker
 ===date:Sun Jun  1 13:39:09 2003
 ===subject:Hist1112 - The Columbian Exchange
-===message:    The most important gift that the  old world benefited from was all of the crops from the new world that grew in the old world, adding new foods, flavors and nutrients. Those new nutrients in turn increased the population growth and extended life spans. I believe that southeast asia and west africa benefited the most from the columbian exchnage becuase finally the soils in those regions were able to produce large yields from crops like peanuts, that would support their large populations. 
- The most important gift given to the new world from the old world was also some crop diversity and the addition of animals, like cattle, that would provide labor, meat and digestable milk.   
+===message:    The most important gift that the  old world benefited from was all of the crops from the new world that grew in the old world, adding new foods, flavors and nutrients. Those new nutrients in turn increased the population growth and extended life spans. I believe that southeast asia and west africa benefited the most from the columbian exchnage becuase finally the soils in those regions were able to produce large yields from crops like peanuts, that would support their large populations.
+ The most important gift given to the new world from the old world was also some crop diversity and the addition of animals, like cattle, that would provide labor, meat and digestable milk.
 
 
 =========yorg=========
@@ -134,13 +134,13 @@ To say the least, the Columbian exchange helped decrease the population in the b
 ===date:Thu Jun  5 19:15:20 2003
 ===subject:Columbian Exchange
 ===message:     The Americans greatly benefited from the Columbian exchange.  Even before large numbers of Europeans settled in the Americas, infectious and contagious diseases had wiped out a vast population of the indigenous people.  Especially diseases like smallpox and whooping cough, which were common in their homelands of Europe.  Even if the “new” Americans acquired such diseases a smaller population would be affected, namely small children.  Most adults would be spared.  Also, with this newly unpopulated region, Americans inherited a rich agricultural legacy compliments of those few Native Americans that survived.  America was able to gain economic standing with the introduction of such crops like potatoes, peppers, and beans into the European diet, by way of trade. These and many other food crops became essential sources of nutrition for the Europeans.
-     Native Americans benefited from the plant and animal life brought to the Americas by the Europeans.  With the introduction of cattle, chickens, and numerous species of plant life, Native Americans were also able to utilize these European imports.  Unfortunately, the “gift” came with a bonus prize, disease.  Many diseases made the long voyage from Europe.  Entire indigenous societies were destroyed because they had not been previously exposed these illnesses. 
+     Native Americans benefited from the plant and animal life brought to the Americas by the Europeans.  With the introduction of cattle, chickens, and numerous species of plant life, Native Americans were also able to utilize these European imports.  Unfortunately, the “gift” came with a bonus prize, disease.  Many diseases made the long voyage from Europe.  Entire indigenous societies were destroyed because they had not been previously exposed these illnesses.
 
 =========yorg=========
 ===from:Tiffany Charles
 ===date:Sat Jun  7  9:17:55 2003
 ===subject:Columbian Exchange
-===message:Isn't it obvious, that Europeans benefitted the most from the Columbian Exchange?! The Europeans gained immense wealth. Wealth that grew from colonization and natural resources of the Americas not available in Europe. When they arrived in the Americas their diseases alone killed off most of the indeginous people. Europeans were able to conquer the lands and claim them as there own. They basically had nothing or no one to stop them. The land and free labor of the people in captivity was the most important gifts given to the Europeans. The Europeans were able to establish new colonies with the land stolen from the indeginous people. In addition to having the enslaved people work the land and built the infrastructure. Now, on the other hand I do not believe the Native Americans ever received any kinds of gifts. All they received was disease which lead to the dealth of their people. The Europeans being introduced into their lives have not made anything easier or simplier to the Native Americans. Europeans were the Native Americans ultimate destruction.           
+===message:Isn't it obvious, that Europeans benefitted the most from the Columbian Exchange?! The Europeans gained immense wealth. Wealth that grew from colonization and natural resources of the Americas not available in Europe. When they arrived in the Americas their diseases alone killed off most of the indeginous people. Europeans were able to conquer the lands and claim them as there own. They basically had nothing or no one to stop them. The land and free labor of the people in captivity was the most important gifts given to the Europeans. The Europeans were able to establish new colonies with the land stolen from the indeginous people. In addition to having the enslaved people work the land and built the infrastructure. Now, on the other hand I do not believe the Native Americans ever received any kinds of gifts. All they received was disease which lead to the dealth of their people. The Europeans being introduced into their lives have not made anything easier or simplier to the Native Americans. Europeans were the Native Americans ultimate destruction.
 =========yorg=========
 ===from:Joseph Hester
 ===date:Mon Jun  9 13:58:06 2003
@@ -161,30 +161,30 @@ To say the least, the Columbian exchange helped decrease the population in the b
 ===email:aguilar14@juno.com
 ===date:Sat Jun 14  2:28:55 2003
 ===subject:Columbian Exchange - Global Impact
-===message:For thousands of years, groups such as the Egyptians, Romans and the like had been swapping goods (bartering),  taking spoilage from sub cultures, dominating and introducing and blending cultures, changing the face of peoples and the world alike. But what I think is very unique about the Columbian Exchange is that it was probably the greatest global interaction (exchange) to ever exist. Why? Because it had a "whole" affect, globally. What I mean by "whole" is that it ignited a plethora of cultural, economic and bio-logical changes that propelled the world into a new dimension and new directions forever. 
+===message:For thousands of years, groups such as the Egyptians, Romans and the like had been swapping goods (bartering),  taking spoilage from sub cultures, dominating and introducing and blending cultures, changing the face of peoples and the world alike. But what I think is very unique about the Columbian Exchange is that it was probably the greatest global interaction (exchange) to ever exist. Why? Because it had a "whole" affect, globally. What I mean by "whole" is that it ignited a plethora of cultural, economic and bio-logical changes that propelled the world into a new dimension and new directions forever.
 
-Populations transformed, cultures clashed, and economies were drastically changed forever. The eastern and western hemispheres and oceania converged to share in this global exchange. Whereas, before these areas were greatly seperated.  
+Populations transformed, cultures clashed, and economies were drastically changed forever. The eastern and western hemispheres and oceania converged to share in this global exchange. Whereas, before these areas were greatly seperated.
 
-Who benefited? Well...? 
-Diseases that spread from Europeans wiped out populations, (the indigenous peoples of the Americas as well as other cultures), but probably set the foundation for the building of immunities, understanding diseases, the creation of vaccines, medicines, cures. Ironically, due to the spread of food crops and animals the population increased. (Keep in mind that our country's forefathers are British. Since the Europeans' intent was to establish rule and create wealth, I believe the Columbian Exchange had an impact on the Americas laying the ground work for the establishment of the "great" American democratic society.)  
+Who benefited? Well...?
+Diseases that spread from Europeans wiped out populations, (the indigenous peoples of the Americas as well as other cultures), but probably set the foundation for the building of immunities, understanding diseases, the creation of vaccines, medicines, cures. Ironically, due to the spread of food crops and animals the population increased. (Keep in mind that our country's forefathers are British. Since the Europeans' intent was to establish rule and create wealth, I believe the Columbian Exchange had an impact on the Americas laying the ground work for the establishment of the "great" American democratic society.)
 
 As radical changes occured in the plant world new crops (such as coffee, bananas, and sugar which incidently, would play a significant role in slavery) were introduced to the Americas, as well as crops from the New World that were introduced and flourished in Africa, Asia, Europe and China adding diversity to their daily meals. Because of the nutritional value, again the populations were drastically affected in an upward fashion.
 
 Transoceanic voyages helped increased migrations to the Americas as well as other areas. This would later play a definite role in the increase in population of the "new world".
 
-But keep in mind that without all this, would we be the "great" country that we are today?   
+But keep in mind that without all this, would we be the "great" country that we are today?
 
-Although other countries benefited and were affected, I think the greatest benefit was to the Americas, but not without a price.         
+Although other countries benefited and were affected, I think the greatest benefit was to the Americas, but not without a price.
 =========yorg=========
 ===from:Leon Aguilar
 ===email:aguilar14@juno.com
 ===date:Sat Jun 14  2:52:08 2003
 ===subject:The Most Important Gifts
-===message:I think the most important gift from the Americas is the success of the crops in other areas of the world namely Africa, Asia, Europe, and China. These crops flourished so well that they added nutritional value to the diets of people and were able to support large populations, let alone I'm sure this equalled huge profit$ for the Europeans. This is always their ultimate goal!  
+===message:I think the most important gift from the Americas is the success of the crops in other areas of the world namely Africa, Asia, Europe, and China. These crops flourished so well that they added nutritional value to the diets of people and were able to support large populations, let alone I'm sure this equalled huge profit$ for the Europeans. This is always their ultimate goal!
 
 Not only that, whenever I travel, I am always looking for the best, tasty restaurants and places to eat. I think the success of the crops from the Americas would somehow play a role in keeping a connection to those countries for possible migration opportunities to the New World out of curiosity and developed interests.
 
-The most important gift to the natives would be the exchange of the animals and some crops whereby increasing food supply and animal energy, which in turn would help with the population growth. 
+The most important gift to the natives would be the exchange of the animals and some crops whereby increasing food supply and animal energy, which in turn would help with the population growth.
 
 
 =========yorg=========

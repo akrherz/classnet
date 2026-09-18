@@ -82,7 +82,7 @@ public class BudgetSim extends Applet implements PlayableApplet
     private Vector steps;
 
 
-    
+
     private void addComponent (Panel p,Component c, GridBagLayout g,
                                GridBagConstraints gc, int row,
                                int column, int width, int height)
@@ -171,21 +171,21 @@ public class BudgetSim extends Applet implements PlayableApplet
         parm = getParameter("drainChangeable");
         if (parm != null)
             drainChangeable = parm.equalsIgnoreCase("true");
-            
+
 	}
 
     public boolean handleEvent(Event event) {
 
-        if ( event.target == btnContinue && event.id == Event.ACTION_EVENT) 
+        if ( event.target == btnContinue && event.id == Event.ACTION_EVENT)
         {
             sendData();
             triggered_dripping ();
             return true;
         }
 
-        if (event.target == faucet) 
+        if (event.target == faucet)
         {
-            if (faucetChangeable ) 
+            if (faucetChangeable )
             {
 
                     if (hour <6 || hour >18)
@@ -193,13 +193,13 @@ public class BudgetSim extends Applet implements PlayableApplet
                         faucetValue = fConstant;
                         faucet.setValue((int) fConstant);
                     }
-                    else 
+                    else
                     {
                         faucetValue = faucet.getValue();
                     }
                     faucet.setValue((int) faucetValue);
             }
-            else 
+            else
             {
                 faucetValue = fConstant;
                 faucet.setValue((int) fConstant);
@@ -207,24 +207,24 @@ public class BudgetSim extends Applet implements PlayableApplet
             lblFaucet.setText("Faucet: " + faucet.getValue() + " liter/hr");
             return true;
         }
-        if (event.target == drain) 
+        if (event.target == drain)
         {
-            if (!drainChangeable) 
+            if (!drainChangeable)
             {
                 drain.setValue((int) dConstant);
                 lblDrain.setText(drain.getValue() + " liter/hr");
             }
-            else 
+            else
             {
                 drainValue = drain.getValue();
                 lblDrain.setText("Drain: " + drain.getValue() + " liter/hr");
             }
-            
+
             return true;
         }
 
 
-        if (event.target == btnStart && event.id == Event.ACTION_EVENT) 
+        if (event.target == btnStart && event.id == Event.ACTION_EVENT)
         {
             sendDataStart();
             start_afresh ();
@@ -233,24 +233,24 @@ public class BudgetSim extends Applet implements PlayableApplet
         }
 
         if ( (event.target == lgraph_line || event.target == lgraph_point )
-             && event.id == Event.ACTION_EVENT) 
+             && event.id == Event.ACTION_EVENT)
         {
             lgraph_plot ();
             return true;
         }
 
         if ( (event.target == rgraph_line || event.target == rgraph_point )
-             && event.id == Event.ACTION_EVENT) 
+             && event.id == Event.ACTION_EVENT)
         {
             rgraph_plot ();
             return true;
         }
-        
+
         return super.handleEvent(event);
     }
 
 
-    public void init() 
+    public void init()
     {
         Font f;
 
@@ -323,7 +323,7 @@ public class BudgetSim extends Applet implements PlayableApplet
         mode = getParameter("mode");
         if (mode == null) System.out.println("Applet Parameter mode is required");
         ar.open(filepath, mode, this);
-        
+
         water_level_recorder.setValue(levelVal);
     }
 
@@ -516,11 +516,11 @@ public class BudgetSim extends Applet implements PlayableApplet
         gbConstraints.weightx = 1;
         gbConstraints.weighty = 1;
         gbConstraints.insets = new Insets(0,10,0,10);
-        
+
         water_level_recorder = new ReadoutPanel ("Water-Level: ");
-        
+
         message_panel.setLayout (gbLayout);
-        addComponent(message_panel, lblTime, 
+        addComponent(message_panel, lblTime,
                         gbLayout, gbConstraints, 0,0,1,1);
         addComponent(message_panel, new Label ("Drain: 1 liter/hr"),
                         gbLayout, gbConstraints, 1,0,1,1);
@@ -790,7 +790,7 @@ public class BudgetSim extends Applet implements PlayableApplet
         double waterVal = (Double.valueOf((String)ht.get("water"))).doubleValue();
 
         if ( faucetVal == -1)
-        {   
+        {
             // Start was pressed
             start_afresh ();
             auto_dripping ();
@@ -969,7 +969,7 @@ public class BudgetSim extends Applet implements PlayableApplet
         lblFaucet.setText("Faucet: " + faucet.getValue() + " liter/hr");
 
         hour = 0;
-    
+
     }
 
     public void stop ()
@@ -1014,7 +1014,7 @@ public class BudgetSim extends Applet implements PlayableApplet
         faucet_min_label.setText ("0");
         faucet_max_label.setText ("  " + (faucet.getMaximum()-faucet.getVisible()));
         faucet.max=faucet.getMaximum() - faucet.getVisible();
-        
+
         // to make max right on a mac:
         // faucet_max_label.setText ("  " + faucet.getMaximum());
 
@@ -1042,7 +1042,7 @@ public class BudgetSim extends Applet implements PlayableApplet
       faucet_min_label.setText ("" + min );
       faucet_max_label.setText ("  " + (max - faucet.getVisible()));
       faucet.max=faucet.getMaximum() - faucet.getVisible();
-      
+
       // to make the max label right on the mac:
       // faucet_max_label.setText("  " + (max));
 

@@ -13,7 +13,7 @@
 ===from:Alex Carlstedt
 ===email:acarls@iastate.edu
 ===date:Tue Sep 23 13:44:46 2003
-===subject:CA:Jacoby Questions 1&2 (9/9) 
+===subject:CA:Jacoby Questions 1&2 (9/9)
 ===message:1.  The strongest argument Jacoby has presented that claims that students are capable of memorizing dates and names because they do memorize dates, dates, and other useless information from sports, the music industry, etc.  The student coalition makes a good argument however that the information on the MCAS are not as useful to the students during the course of interaction with their peers and therefore is not top priority.  I feel that the argument is solid.  The difference between the information on the MCAS and the "non-essential" information students know, is that the students are not memorizing the non-essential, but learning it.  Names and dates on the MCAS are not learned, and will soon be forgotten.  2.  I think that the essay was written more to express his opinion of the student coalition and the anti-MCAS movement and not the test itself.  His tone is sarcastic and demeaning in nature, as shown here, "You think the MCAS and tests like it are too difficult?  You find it crazy that so much should ride on a teen's ability to spit back dates ans figures he'll never use again....What then do you make of the 'MCAS' to which teenagers routinely subject to their peers?"  Jacoby's writing was not persuasive in the least, and only manages to create anger amongst the anti-MCAS movement.  Perhaps Jacoby failed to pass his own peer's "MCAS" tests, but something has made him very angry about the whole thing.
 =========yorg=========
 ===from:Alex Carlstedt

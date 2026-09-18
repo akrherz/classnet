@@ -10,7 +10,7 @@
 ===message:http://www.innerbody.com<<P>>
 So your stuck along the highway, your car is overheating.  When lifting the hood to look for that thing where you should put the coolant, it suddenly closes on you leaving you in pain with a car that doesn't work.  The muscles in your back are in pain, but you can't for the life of you remember what those muscles those are called.  You suddenly think to yourself, I should have used INNER BODY ONLINE, the only place on the internet where you can learn both HUMAN AND AUTOMOTIVE ANATOMY!!!  <<P>>
 
-All i have to say is this site is just awesome!!  I have literally spent almost and hour playing around with it and i have learned so much.  (..and i am sounding like and infomercial...=)...)  The grapics are great, it is very informative.  There is information and pictures and descriptions of absolutely anything and everything you want to know about the human body.  You can either go through this program using a little anatomy lesson or you can cruise through the interactive body on your own. You can go through 10 different body systems.  There are animations that i haven't even gotten too yet.  You can even go under search and search for a particular topic or part of the body! <<P>> 
+All i have to say is this site is just awesome!!  I have literally spent almost and hour playing around with it and i have learned so much.  (..and i am sounding like and infomercial...=)...)  The grapics are great, it is very informative.  There is information and pictures and descriptions of absolutely anything and everything you want to know about the human body.  You can either go through this program using a little anatomy lesson or you can cruise through the interactive body on your own. You can go through 10 different body systems.  There are animations that i haven't even gotten too yet.  You can even go under search and search for a particular topic or part of the body! <<P>>
 I highly encourage you to go through this, just because its neat, or atlest keep it on file because this site would be a great reference tool.<<P>>
 
 As far as the AUTOMOTIVE anatomy....i'm about to go there...my dad would be very proud if he knew i knew how to even GET the hood open to look at the rest of the car!
@@ -26,19 +26,19 @@ As far as the AUTOMOTIVE anatomy....i'm about to go there...my dad would be very
 ===date:Thu Apr 16 10:02:06 1998
 ===subject:The Whole Brain Atlas
 ===message:count51.med.harvard.edu/AANLIB/home.html<P>
-"The Whole Brain Atlas," is web site that maps the brain.  The site was developed by Keith A. Johnson M.D. from Harvard and J. Alex Becker from MIT.  The site has hundreds of images of the brain.  One section lists 106 structures in the brain and maps them all on individual links.  Affects of aging on the brain are discussed and shown.  Another section has images of brains affected by many types of afflictions including cerebrovascular disease (stoke), cerebral hemorrhaging, neoplastic disease (brain tumor), degenerative diseases (i.e. Alzheimer's disease, Huntington's disease), inflammatory or infectious diseases (i.e. multiple sclerosis AIDS dementia).  The site also includes various links to other sites.   
+"The Whole Brain Atlas," is web site that maps the brain.  The site was developed by Keith A. Johnson M.D. from Harvard and J. Alex Becker from MIT.  The site has hundreds of images of the brain.  One section lists 106 structures in the brain and maps them all on individual links.  Affects of aging on the brain are discussed and shown.  Another section has images of brains affected by many types of afflictions including cerebrovascular disease (stoke), cerebral hemorrhaging, neoplastic disease (brain tumor), degenerative diseases (i.e. Alzheimer's disease, Huntington's disease), inflammatory or infectious diseases (i.e. multiple sclerosis AIDS dementia).  The site also includes various links to other sites.
 =========yorg=========
 ===from:Ross Laubscher
 ===date:Thu Apr 16 18:13:30 1998
 ===subject:Assignment 5
-===message:URL:  http://www.sciencenet.org.uk/soundofsci/solutions/xeno.htmlXenotansplantation:  Can this really work?This web site basically tells about the difficulties of transplanting organs from animals to humans.  It also gives an intersting way in which this sort of transplant can be made possible.  Presently it is extremely hard to find a success story when transplanting animal organs into humans.  Our immune systems attack an animal organ because our bodies recognize this new organ as a huge infection and it is destroyed or rejected.  However there is hope, scientist have been studying a way to customize organs by introducing human genesinto the animal's organ to make it less foreign to the human's body.  This web site helped me understand organs better by relating the effectiveness of organ transplants with our immune system and our genes.  I did have one question; Does our immune system act on foreign bodies only because it doesn't recognize the genes in that object?This site was easy to use mostly because it was only text.    
+===message:URL:  http://www.sciencenet.org.uk/soundofsci/solutions/xeno.htmlXenotansplantation:  Can this really work?This web site basically tells about the difficulties of transplanting organs from animals to humans.  It also gives an intersting way in which this sort of transplant can be made possible.  Presently it is extremely hard to find a success story when transplanting animal organs into humans.  Our immune systems attack an animal organ because our bodies recognize this new organ as a huge infection and it is destroyed or rejected.  However there is hope, scientist have been studying a way to customize organs by introducing human genesinto the animal's organ to make it less foreign to the human's body.  This web site helped me understand organs better by relating the effectiveness of organ transplants with our immune system and our genes.  I did have one question; Does our immune system act on foreign bodies only because it doesn't recognize the genes in that object?This site was easy to use mostly because it was only text.
 =========yorg=========
 ===from:Eric Underbakke
 ===date:Sun Apr 19 13:11:25 1998
 ===subject:Interactive Frog Dissection
 ===message:http://curry.edschool.Virginia.EDU/go/frog/menu.html<P>
 This website is a step by step tutorial about dissecting a pithed frog (A pithed frog has his spinal cord, so it's techincally dead, but its organs are still functioning.  By starting with the "Introduction" button on the main menu, you can follow the dissection from pinning the frog to the pan to digging out its spleen and ending with a brief summary of how to dispose of the frog.  The tutorial is made up of descriptive steps accompanied by pictures.  The pictures aren't the greatest quality I've ever seen, but they show everything you would want to see (and anyway, if the quality wsa any better, it would've made me queasy.)  Many short movies are scattered throughout the tutorial showing a demonstration of most of the steps.  In addition, some of the movies show the frog's still-beating heart and expanding lungs.  I was particularly fascinated by the lungs; they blow up like balloons!<P>
-The tutorial was extremely easy to follow.  All the steps were very descriptive, and the movies made every little incision very clear.  The pictures highlighted each organ being examined, and made identification easy.  Also, after each tutorial page, you can take a short quiz where you point out different organs and incisions yourself.<P>  
+The tutorial was extremely easy to follow.  All the steps were very descriptive, and the movies made every little incision very clear.  The pictures highlighted each organ being examined, and made identification easy.  Also, after each tutorial page, you can take a short quiz where you point out different organs and incisions yourself.<P>
 Overall, the page was a lot of fun.  I never had any troubles navigating through the site, and everything loaded quickly (even the movies loaded within fifteen seconds!).  I've dissected three fetal pigs through my educational career, but I've never seen a dissection where the organs were still working.  I found this very interesting in a morbid way.
 =========yorg=========
 ===from:Wes Haut
@@ -58,7 +58,7 @@ This site contains multiple pages of information dealing with the vestibular and
 
 A Brief Overview of Anatomy and Physiology of Mammals<P>
 
-This site is from the Encarta Concise Encyclopedia and contains brief descriptions of all the systems of the mammal body.  It contains one paragraph long descriptions of all body systems from Musculoskeletal, Immune to Reproductive.  Within these paragraphs are underlined words.  Clicking on those words takes you to links that furthur explain the words.  Although I wouldn't recommend using this site for a report, there are some facts that come out of these short paragraphs on anatomy and physiology.  I feel the quality of this web site is okay.  There are no photos or illustrations to see what is being explained, but I do like having the easily accessible links for clarification.  
+This site is from the Encarta Concise Encyclopedia and contains brief descriptions of all the systems of the mammal body.  It contains one paragraph long descriptions of all body systems from Musculoskeletal, Immune to Reproductive.  Within these paragraphs are underlined words.  Clicking on those words takes you to links that furthur explain the words.  Although I wouldn't recommend using this site for a report, there are some facts that come out of these short paragraphs on anatomy and physiology.  I feel the quality of this web site is okay.  There are no photos or illustrations to see what is being explained, but I do like having the easily accessible links for clarification.
 =========yorg=========
 ===from:Sheri Staudt
 ===email:sstaudt@iastate.edu
@@ -79,16 +79,16 @@ This site had pictures of the human skeletal system, the digestive system, the h
 <P>
 Organs and their systems<P>
 <P>
-This website gives a long list of many words having to do 
-with the body's organs and systems.  The purpose of this 
-website was to help people to group different organs and 
-other items having to do with those organs into different 
-categories especially into their respective organ systems.  
-You have to click on an item and it gives you all of the 
-words that are in that system plus related words that could 
-link to it also.  This website is helpful if trying to 
-figure out how the organs relate to each other, but it is 
-quite brief and doesn't give much more information than 
+This website gives a long list of many words having to do
+with the body's organs and systems.  The purpose of this
+website was to help people to group different organs and
+other items having to do with those organs into different
+categories especially into their respective organ systems.
+You have to click on an item and it gives you all of the
+words that are in that system plus related words that could
+link to it also.  This website is helpful if trying to
+figure out how the organs relate to each other, but it is
+quite brief and doesn't give much more information than
 that.<P>
 
 =========yorg=========
@@ -100,16 +100,16 @@ that.<P>
 <P>
 Organs and their systems<P>
 <P>
-This website gives a long list of many words having to do 
-with the body's organs and systems.  The purpose of this 
-website was to help people to group different organs and 
-other items having to do with those organs into different 
-categories especially into their respective organ systems.  
-You have to click on an item and it gives you all of the 
-words that are in that system plus related words that could 
-link to it also.  This website is helpful if trying to 
-figure out how the organs relate to each other, but it is 
-quite brief and doesn't give much more information than 
+This website gives a long list of many words having to do
+with the body's organs and systems.  The purpose of this
+website was to help people to group different organs and
+other items having to do with those organs into different
+categories especially into their respective organ systems.
+You have to click on an item and it gives you all of the
+words that are in that system plus related words that could
+link to it also.  This website is helpful if trying to
+figure out how the organs relate to each other, but it is
+quite brief and doesn't give much more information than
 that.<P>
 
 =========yorg=========
@@ -117,9 +117,9 @@ that.<P>
 ===date:Sun Apr 26 10:15:18 1998
 ===subject:Assignment 5
 ===message:http://www.life-net.org/<P>
-Lifenet:  A Better Understanding on all that goes into Organ 
+Lifenet:  A Better Understanding on all that goes into Organ
           Transplantation.<P>
-This web cite is basically a promotional web site for the Organ Procurement Organization(OPO) in the U.S.  In the cite it has many different links to information having to do with organ transplantation.  This cite is also trying to promote organ donation.  And several of the links show pictures and describe in detail the preparation and storage of the organ to be transplanted.  To sum it up the cite itself says that "Lifenet's mission is to improve the quality of human life through the provision of organs and tissues for transplantation... and to serve the community by providing educational and support services which enhance the donation process."  This cite provides some info on animal form and function when it describes the procedure for prep and storage of the organ to be transplanted.  Other than that 
+This web cite is basically a promotional web site for the Organ Procurement Organization(OPO) in the U.S.  In the cite it has many different links to information having to do with organ transplantation.  This cite is also trying to promote organ donation.  And several of the links show pictures and describe in detail the preparation and storage of the organ to be transplanted.  To sum it up the cite itself says that "Lifenet's mission is to improve the quality of human life through the provision of organs and tissues for transplantation... and to serve the community by providing educational and support services which enhance the donation process."  This cite provides some info on animal form and function when it describes the procedure for prep and storage of the organ to be transplanted.  Other than that
 there isn't too much information concerning animal form and function.  Even so the cite is very interesting and very easy to use.
 =========yorg=========
 ===from:Jonathan Mullin
@@ -156,21 +156,21 @@ This site is an online reproduction of a report on the work of a curator at the 
 ===subject:Assignment 5: Animal Form & Function
 ===message:http://www.niagara.edu/~bcliff/hapcswhy.html <P>
 
-This is the website of Dr. William H. Cliff, Dept. Biology, Niagara University, Niagara Univ., NY 14019, and 
+This is the website of Dr. William H. Cliff, Dept. Biology, Niagara University, Niagara Univ., NY 14019, and
 includes a compilation of seven human anatomy and physiology case studies. <P>
 
 This website has several objectives.  The first is to help students develop the necessary synthetic, analytical and diagnostic
-thinking skills early in their program of study by introducing case analysis for various human organ system conditions.   Second,  
-it should help deepen the student's understanding of the normal human anatomy and physiology, prove immediate, real- life 
-relevance, and help develop an appreciation that the mastery of human anatomy and physiology is essential for achieving the 
-clinical expertise of a competent health professional.  And third, to help students become truly knowledgeable by helping them 
+thinking skills early in their program of study by introducing case analysis for various human organ system conditions.   Second,
+it should help deepen the student's understanding of the normal human anatomy and physiology, prove immediate, real- life
+relevance, and help develop an appreciation that the mastery of human anatomy and physiology is essential for achieving the
+clinical expertise of a competent health professional.  And third, to help students become truly knowledgeable by helping them
 to correctly apply the facts they have learned about the human body to the solution of relevant, real world problems.  <P>
 
-This website did not necessarily contribute a significant amount of knowledge to my understanding of animal form and function, 
-but it could be helpful for medical students who wish to sharpen their clinical diagnostic skills of human organ system conditions.  
-This site appears to be relativley new as there are only seven case studies available to read at this time.  The site does have a 
-system in place to recieve case studies submitted by other individuals in order to expand the available listings.  The site is very 
-easy to use, as most of the pages are data only and no graphics.  I would recommend this site to any budding physicians wishing 
+This website did not necessarily contribute a significant amount of knowledge to my understanding of animal form and function,
+but it could be helpful for medical students who wish to sharpen their clinical diagnostic skills of human organ system conditions.
+This site appears to be relativley new as there are only seven case studies available to read at this time.  The site does have a
+system in place to recieve case studies submitted by other individuals in order to expand the available listings.  The site is very
+easy to use, as most of the pages are data only and no graphics.  I would recommend this site to any budding physicians wishing
 to practice their clinical diagnostic skills and continue to watch this site for future expansion.
 =========yorg=========
 ===from:Jeremy Duehr
@@ -184,7 +184,7 @@ This article which was written by Catherine W, Brittell M.D. is meant to let peo
 ===from:Nikkoli Dollinger
 ===date:Mon Apr 27 18:19:16 1998
 ===subject:# 5
-===message:http://visembryo.ucsf.edu/<p>The First Four Weeks <p>This sight is titled The Visible Embryo, and it chronicals the first four weeks of a human embryo.  There are real pictures with text that talks you through each step, as well as diagrams. The viewer can follow along step by step.  The sight is organized into weeks, with each week having its own section.  This sight also contains a movie, which you can view if you have Netscape and a Shockwave plug-in.  After you have looked through the whole sight there is a test for the viewer to see what they have learned.<p>  (I got to this sight via another sight which I am also posting because it lists many other sights that contain interactive anatomy.  I have looked at a few already and most have real pitures and are pretty cool if you like that type of thing!! It is titled Anatomy on the Internet http://www.meddean.luc.edu/lumen/MedEd/GrossAnatomy/anatomy.htm) 
+===message:http://visembryo.ucsf.edu/<p>The First Four Weeks <p>This sight is titled The Visible Embryo, and it chronicals the first four weeks of a human embryo.  There are real pictures with text that talks you through each step, as well as diagrams. The viewer can follow along step by step.  The sight is organized into weeks, with each week having its own section.  This sight also contains a movie, which you can view if you have Netscape and a Shockwave plug-in.  After you have looked through the whole sight there is a test for the viewer to see what they have learned.<p>  (I got to this sight via another sight which I am also posting because it lists many other sights that contain interactive anatomy.  I have looked at a few already and most have real pitures and are pretty cool if you like that type of thing!! It is titled Anatomy on the Internet http://www.meddean.luc.edu/lumen/MedEd/GrossAnatomy/anatomy.htm)
 =========yorg=========
 ===from:Kate McGhee
 ===date:Mon Apr 27 19:34:45 1998
@@ -210,28 +210,28 @@ Feline Info Page
 
 <p> Mike's lymphoma resource Pages
 
-<p> Mike  has oout done himself here.  If you ever had a question on lymhoma where how or what is strikes, this man has it.  He tells everything you need to know about the lympahtetic system and the problems it faces.  The main focus of this site is of course lymphoma. He discuuses the effect it has on animals, books on this cancer, and even a glossary.  This man even added a place disscussing the patients rights to ensure a doctor isn't using you as a guinea pig. If you ever need to find information on the lymphatetic system, this is the place to start. 
+<p> Mike  has oout done himself here.  If you ever had a question on lymhoma where how or what is strikes, this man has it.  He tells everything you need to know about the lympahtetic system and the problems it faces.  The main focus of this site is of course lymphoma. He discuuses the effect it has on animals, books on this cancer, and even a glossary.  This man even added a place disscussing the patients rights to ensure a doctor isn't using you as a guinea pig. If you ever need to find information on the lymphatetic system, this is the place to start.
 =========yorg=========
 ===from:Roxanne Sweney
 ===date:Mon Apr 27 23:52:15 1998
 ===subject:The American Heart Association
 ===message:<pre>Part I
-The interesting place about animal form and function I found was the 
+The interesting place about animal form and function I found was the
 
 http://www.americanheart.org/catalog/Heart_catpage16.html
 
 Part II
 
 The American Heart Association's Illustrative and
- Informative Tour of the Human Heart: Diseases, Conditions 
+ Informative Tour of the Human Heart: Diseases, Conditions
 and Treatments
 
 Part III
- 
-This site was quite an informative tool for an exploratory 
-investigation about the human heart, its function, and 
-preventive measures to avoid heart disease and stroke. It 
-was carefully laid out with a list of options to choose from 
+
+This site was quite an informative tool for an exploratory
+investigation about the human heart, its function, and
+preventive measures to avoid heart disease and stroke. It
+was carefully laid out with a list of options to choose from
 :
 
 Warning Signs of a Heart Attack;
@@ -242,26 +242,26 @@ Warning Signs of a Heart Attack;
  Conditions and Diseases;
  Resources for Information;
 
-Each option provides a well structured and organized 
-delineation of its descriptor. A layman could easily 
-navigate through this site, exploring the biological realm 
-of the human heart as deeply, or as briefly, as desired. 
-Even for those educated in the biological sciences, such as 
-myself, it appears to hold quite a bit of detailed 
-information which is quite useful, especially when one is 
-constantly looking up definitions and explanations of names 
-and processes for school projects like I am.  I learned 
-quite a bit more about  human heart surgery and the various 
-treatment involved in this delicate procedure. Angioplasty, 
-Percutaneous Transluminal ;Coronary (PTCA); Angina Pectoris 
-Treatments; Anticoagulants; Aspirin in Heart Attack and 
-Stroke are just a few examples of the many different 
-treatments used today for treating the heart. I found this 
-site to be both colorful, illustrative as well as useful and 
-informative. It was relatively easy to find. I simply looked 
-up the American Heart Association on the Net Search and came 
-up with a series of web pages, this being on of them. I 
-would definitely recommend it for in depth research, or just 
+Each option provides a well structured and organized
+delineation of its descriptor. A layman could easily
+navigate through this site, exploring the biological realm
+of the human heart as deeply, or as briefly, as desired.
+Even for those educated in the biological sciences, such as
+myself, it appears to hold quite a bit of detailed
+information which is quite useful, especially when one is
+constantly looking up definitions and explanations of names
+and processes for school projects like I am.  I learned
+quite a bit more about  human heart surgery and the various
+treatment involved in this delicate procedure. Angioplasty,
+Percutaneous Transluminal ;Coronary (PTCA); Angina Pectoris
+Treatments; Anticoagulants; Aspirin in Heart Attack and
+Stroke are just a few examples of the many different
+treatments used today for treating the heart. I found this
+site to be both colorful, illustrative as well as useful and
+informative. It was relatively easy to find. I simply looked
+up the American Heart Association on the Net Search and came
+up with a series of web pages, this being on of them. I
+would definitely recommend it for in depth research, or just
 some curiosity leisure reading.
 
 

@@ -12,7 +12,7 @@ require 'ctime.pl';
 require ERROR;
 
 $SENDMAIL = '/usr/sbin/sendmail';
-$GNUPLOT = '/afs/iastate.edu/project/gnu/bin/axp/gnuplot'; 
+$GNUPLOT = '/afs/iastate.edu/project/gnu/bin/axp/gnuplot';
 $PPMTOGIF = '/afs/iastate.edu/public/pbm/bin/axp/ppmtogif';
 $GIFTRANS = '/afs/iastate.edu/project/www/bin/axp/giftrans';
 
@@ -43,7 +43,7 @@ Window-target: _top
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body $GLOBALS::BACKGROUND $GLOBALS::BGCOLOR>
- 
+
 <h3><a href="/">Iowa State University ClassNet</a></h3>
 
 <h2>$title</h2>
@@ -91,13 +91,13 @@ sub print_cn_footer {
     if ($help_page ne "") {
         print $GLOBALS::RED_BALL;
         print " <A HREF=\"$GLOBALS::HELP_ROOT/$help_page\">Help </A>\n";
-    } 
+    }
 
     print "</CENTER></H3>\n";
     print "<div id=\"footer\">\n";
     print "Copyright &copy; 1996-2004, <A HREF=\"http://www.iastate.edu/\">Iowa State University</A>. All rights reserved.\n";
     print "</div>\n</body>\n</html>";
- 
+
 }
 
 #########################################
@@ -105,16 +105,16 @@ sub print_cn_footer {
 
 =over 4
 =item Description
-Verify that required HTML pairs exist on the incoming form 
+Verify that required HTML pairs exist on the incoming form
 
 =item Params
-$query: CGI parsed form object 
+$query: CGI parsed form object
 
-@names: List of required form names 
+@names: List of required form names
 
 =item Returns
-If a required name/value pair is missing, the script dies, and 
-the user is notified which name is needed. 
+If a required name/value pair is missing, the script dies, and
+the user is notified which name is needed.
 
 =back
 
@@ -135,7 +135,7 @@ sub verify_pairs {
 =item Description
 Convert a name to its disk representation. This will be used
 for usernames and course names. The changes are hex
-conversion of possible dangerous characters, removal of 
+conversion of possible dangerous characters, removal of
 beginning and trailing whitespace, and conversion of all
 letters to upper case.
 
@@ -155,7 +155,7 @@ sub get_disk_name {
    $disk_name = CN_UTILS::remove_spaces($disk_name);
    $disk_name = CGI::escape($disk_name);
 
-}   
+}
 
 #########################################
 =head2 CN_UTILS::remove_spaces($name)
@@ -182,7 +182,7 @@ sub remove_spaces {
    $name =~ s/\s*(.*)/$1/;
    reverse $name;
 
-}   
+}
 
 #########################################
 =head2 CN_UTILS::mail($destination,$subject,$body)
@@ -213,7 +213,7 @@ print MAIL "Subject: $subject\n";
 # the body. Else everything gets stuck on the subject line
 print MAIL "\n$body\n";
 close MAIL;
-}  
+}
 
 #########################################
 =head2 CN_UTILS::hasTables()
@@ -259,7 +259,7 @@ sub plot {
 
     my $gname = "/local/classnet/html/tmpgifs/$$.gif";
     # | $GIFTRANS -t#ffffff
-    open (GRAPH,"| $GNUPLOT | $PPMTOGIF | cat >$gname") 
+    open (GRAPH,"| $GNUPLOT | $PPMTOGIF | cat >$gname")
       or return "can't open $gname: $!\n";
     foreach $cmd (@{$parms}) {
         print GRAPH "$cmd\n";

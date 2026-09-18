@@ -27,25 +27,25 @@ $Header: /Lessons/util/ErrorFrame.java 2     3/05/99 3:42p Lisa $
         * OUT OF THE USE OR INABILITY TO USE SUCH PROGRAM.            *
         *                                                             *
         **************************************************************/
-        
+
 package edu.iastate.csl.util;
 
 import java.applet.Applet;
 import java.awt.*;
 
-public class ErrorFrame extends Frame 
+public class ErrorFrame extends Frame
 {
   protected Button closeButton;
 
   protected Font errorFont = new Font("TimesRoman",Font.BOLD,12);
   protected FontMetrics fm;
-  
+
   protected int errorLabelSize;
   protected Label errorLabel;
-  
+
   protected Panel p1, p2, p3;
 
-  public ErrorFrame() 
+  public ErrorFrame()
   {
 
     // call base class constructor
@@ -54,24 +54,24 @@ public class ErrorFrame extends Frame
     // Allocate and add components;
     p1 = new Panel();
     p2 = new Panel();
-    
+
     errorLabel = new Label();
     errorLabel.setAlignment(Label.CENTER);
     errorLabel.setFont(errorFont);
-    
+
     closeButton = new Button ("CLOSE");
-    
+
     p1.add(errorLabel);
     p2.add(closeButton);
-    
+
     add("North",p1);
     add("South",p2);
 
   }
 
-  public void showMsg(String errMsg) 
+  public void showMsg(String errMsg)
   {
-    
+
     int BORDER_SIZE = 20;
 
     errorLabel.setText(errMsg);
@@ -81,25 +81,25 @@ public class ErrorFrame extends Frame
 
   }
 
-  public boolean handleEvent( Event e ) 
+  public boolean handleEvent( Event e )
   {
-    if ( e.id == Event.WINDOW_DESTROY ) 
+    if ( e.id == Event.WINDOW_DESTROY )
     {
       removeSelf();
       return true;
     }
-    
+
     return super.handleEvent( e );
   }
 
-  public boolean action( Event e, Object o ) 
+  public boolean action( Event e, Object o )
   {
     if ( e.target == closeButton )
       removeSelf();
     return true;
   }
 
-  public void removeSelf() 
+  public void removeSelf()
   {
     hide();
     dispose();

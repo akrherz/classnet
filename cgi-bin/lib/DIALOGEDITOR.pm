@@ -72,7 +72,7 @@ sub command {
 FRAME: {
     /^writing/ &&
         do {
-            if (defined $query->param('publish')) { 
+            if (defined $query->param('publish')) {
                 $asn->publish();
             } else {
                 $asn->unpublish();
@@ -118,7 +118,7 @@ sub edit_assignment {
 <CENTER>
 (Type $atype)
 <HR>
-<INPUT TYPE=checkbox NAME=publish VALUE=Publish $publish> Publish 
+<INPUT TYPE=checkbox NAME=publish VALUE=Publish $publish> Publish
 <HR>
 <H4>
 <INPUT TYPE=submit NAME=save VALUE=Save>

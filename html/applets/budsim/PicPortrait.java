@@ -220,5 +220,5 @@ public class PicPortrait extends Canvas {
                              size().width-2*MARGIN,
                              size().height-2*MARGIN);
     }
-        
+
 }

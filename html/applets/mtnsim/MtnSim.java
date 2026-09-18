@@ -470,10 +470,10 @@ public class MtnSim extends Applet implements PlayableApplet
 	    model.setIcon(leaf,clouds);
         model.setStartConditions(maxAltitude,etgraph.getTemp(),etgraph.getHumidity(),startPressure,startAltitude,etgraph.getDewPoint());
         etgraph.setPlotMode(Graph.POINT,trycolors[tryidx]);
-        
+
         etgraph.setAcceptInput (false);
         readout.setAcceptInput (false);
-        
+
         atgraph.setPlotMode(Graph.POINT,trycolors[tryidx]);
         tryidx = ++tryidx % trycolors.length;
         model.setPath(path);
@@ -501,9 +501,9 @@ public class MtnSim extends Applet implements PlayableApplet
 
     }
 
-    public void thunder() 
-    { 
-        if (playAudio) thunder.play(); 
+    public void thunder()
+    {
+        if (playAudio) thunder.play();
     }
 
     /*

@@ -37,12 +37,12 @@ import edu.iastate.csl.util.AppletRecorder;
 import edu.iastate.csl.util.PlayableApplet;
 import edu.iastate.csl.util.ErrorFrame;
 
-public class GetDataFrame extends Frame 
+public class GetDataFrame extends Frame
 {
   protected Button start, step, close;
- 
+
   protected Panel sessionsPanel, buttonsPanel;
-  
+
   protected List sessionList;
 
   protected PlayableApplet theApplet;
@@ -98,18 +98,18 @@ public class GetDataFrame extends Frame
 
   }
 
-  public boolean handleEvent( Event e ) 
+  public boolean handleEvent( Event e )
   {
-    if ( e.id == Event.WINDOW_DESTROY ) 
+    if ( e.id == Event.WINDOW_DESTROY )
     {
       removeSelf();
       return true;
     }
-    
+
     return super.handleEvent( e );
   }
 
-  public boolean action( Event e, Object o ) 
+  public boolean action( Event e, Object o )
   {
     int curCursorType;
     String session;
@@ -167,7 +167,7 @@ public class GetDataFrame extends Frame
 
   }
 
-  public void removeSelf() 
+  public void removeSelf()
   {
     hide();
     dispose();

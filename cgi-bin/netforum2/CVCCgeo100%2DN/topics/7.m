@@ -1,7 +1,7 @@
 ===from:Byrd
 ===date:Thu Feb 27  6:37:24 2003
 ===subject:Europe some more
-===message:The major states of Western Europe seem to be coming closer together in the EU, but within their own boundries some of these nations are struggling to maintain control of ethnic minorites or nationalities, which are seeking some level of autonomy. There are many questions for Euorpe's political future. Will there be a United States of Europe? Will the large influx of outside immigrants drown the complaints of a handfull of Scots or Basque? Will Europe continue its current trend with countries breaking down into smaller states (see Yugoslavia)? Will Scotland ever achieve..."FREEDOM!!!!" (Braveheart joke) 
+===message:The major states of Western Europe seem to be coming closer together in the EU, but within their own boundries some of these nations are struggling to maintain control of ethnic minorites or nationalities, which are seeking some level of autonomy. There are many questions for Euorpe's political future. Will there be a United States of Europe? Will the large influx of outside immigrants drown the complaints of a handfull of Scots or Basque? Will Europe continue its current trend with countries breaking down into smaller states (see Yugoslavia)? Will Scotland ever achieve..."FREEDOM!!!!" (Braveheart joke)
 
 =========yorg=========
 ===from:bridget sheppard
@@ -16,7 +16,7 @@
 =========yorg=========
 ===from:Keith Bolton
 ===date:Wed Mar  5 21:03:10 2003
-===subject:Europe 
+===subject:Europe
 ===message:It feel that there will one day be a United States of Europe. I lived in Germany for 3 years from 1983 to 1986. Everything East of Germany was considered enemy to include the Czech Republic which is now a member of NATO. This goes to show that people in general want to unite. It takes leaders that are willing to look at the big picture and look at what is in the best interest of their citizens. It may take upwards of 50 or more years to Unite but it will happen. Once you get all countries on one sheet of music, these countries begin to flourish. People will have more choices on where they want to live and work. They will be able to spend one currency throughout Europe. I know what it is like to watch the exchange rate daily for the value of the dollar to the German Mark. Every country you visited, you had to buy their currency. It was very mind boggling.
 By uniting it will cause immigration and it will drown the complaints of a few. I feel that Europe will continue its trend of breaking down into smaller states.
 
@@ -35,7 +35,7 @@ Keith Bolton
 ===from:Amanda Blackwell
 ===date:Wed Mar  5 22:58:37 2003
 ===subject:Europe
-===message:A United States of Europe would not be a great idea, because the social norms vary amoung the small states and would never merge...that would not be "FREEDOM". 
+===message:A United States of Europe would not be a great idea, because the social norms vary amoung the small states and would never merge...that would not be "FREEDOM".
 =========yorg=========
 ===from:Tiffany Wimmer
 ===date:Fri Mar  7 20:35:06 2003

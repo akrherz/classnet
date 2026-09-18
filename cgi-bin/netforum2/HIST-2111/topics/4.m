@@ -2,20 +2,20 @@
 ===email:ptflute@bellsouth.net
 ===date:Mon Sep  1 18:07:53 2003
 ===subject:The Great Awakening
-===message:I think the Great Awakening was so successful for a few reasons.  First, because of the prevailing "rules" of the leading churches in the time, it took people longer to be converted.  Sometimes months and years.  Also, there were obstacles in the way of some in becoming full fledged members.  So much so that there was the "Half way Covenant" to be a stepping stone to full membership in the church.  
-The preaching of Whitefield and Edwards and others like them led to the creation of churches that offered "instant" salvation and less ritual.  This appealed to many people.  
-As far as preparing the American people for a revolution... Essentially if you joined up with Whitefield or one of the others, you were "rebelling" against the Church of England/ the roots of the colonies.  It broke the ice for a breaking off politically as well.  
+===message:I think the Great Awakening was so successful for a few reasons.  First, because of the prevailing "rules" of the leading churches in the time, it took people longer to be converted.  Sometimes months and years.  Also, there were obstacles in the way of some in becoming full fledged members.  So much so that there was the "Half way Covenant" to be a stepping stone to full membership in the church.
+The preaching of Whitefield and Edwards and others like them led to the creation of churches that offered "instant" salvation and less ritual.  This appealed to many people.
+As far as preparing the American people for a revolution... Essentially if you joined up with Whitefield or one of the others, you were "rebelling" against the Church of England/ the roots of the colonies.  It broke the ice for a breaking off politically as well.
 The long term consequences were perhaps that the people were now in a position to be self-confident with their new found conversion and more able to take a stand against the King.
 =========yorg=========
 ===from:Ryan Hilton
 ===email:RGH913@hotmail.com
 ===date:Sat Sep  6 16:09:07 2003
 ===subject:Great Awakening
-===message:Why do you suppose the Great Awakening was so successful? What was it about the message of Whitefield, Edwards and others that reached so many people? How did the Great Awakening prepare American colonists for a revolution? What were the long-term consequences of the Great Awakening? 
+===message:Why do you suppose the Great Awakening was so successful? What was it about the message of Whitefield, Edwards and others that reached so many people? How did the Great Awakening prepare American colonists for a revolution? What were the long-term consequences of the Great Awakening?
 
 --------------------------------------------------------------------------------
      The success of the great awakening is derived from idea that it expressed.  Everyone is equal, everyone has a free will, and God is merciful.  The messages presented by theses two evangelicals reached so many people because of their enthusiasm in the idea that everyone is equal.  The poor, the rich, the slave, and the slaves' masters were on a level playign field when God was concerned.
-     With regard to the revolution, the Great Awakening prepared the hearts and minds of colonists by uniting them in the idea that each induvidual had a purpose, and when everyone is united in this idea, it is much easier to unite in other ideas as well, such as driving the British from the colonies.  
+     With regard to the revolution, the Great Awakening prepared the hearts and minds of colonists by uniting them in the idea that each induvidual had a purpose, and when everyone is united in this idea, it is much easier to unite in other ideas as well, such as driving the British from the colonies.
      Consequences of this time included factioning of the churches, and much more induvidualism that Calvanism once held in check.  While I do not agree with factioning of the churches(in most aspects), it promotes the ability to worship freely the way you want to.
 =========yorg=========
 ===from:Nathaniel M. Smith
@@ -43,18 +43,18 @@ The long term consequences were perhaps that the people were now in a position t
 ===message:The Great Awaking was so successful due to the colonists' thirst for spirtuality and the charismatic men who stated the rivals in the colonies.
 The colonist who had suffered war, stuggles over land, and lack of employment where in need of spiritual leadership.  Many people did not have a enough religious guidance and the colonist suffered from the limited amount of preachers that were availible in the growing colonies.  The rivivals helped bring to the colonist more, or for many their first religious guidance through the sermons of energetic men such as Whitefield, edwards and Tennent.
 
-The messages of Whitefield, Edwards and others were so appealing to the massing of people they reach because it was open for interpertation and the critized the system and the church officials who many colonist had become wary of.  
+The messages of Whitefield, Edwards and others were so appealing to the massing of people they reach because it was open for interpertation and the critized the system and the church officials who many colonist had become wary of.
 The message of these men could appeal to man or woman, rich or poor, slave owner or slave because the spokeput against issues without condemning the partice of them.  They spoke of the individual  challenging the system by looking inside themselves, but not to critizing the sociel structure itself. The message of the rivials were also less harsh the that of Calvanism which helped it appeal to more people.
 When Whitefield and Tennent began to speak out against the minisrty in what they called unconverted ministry it appealed to many of those who were aready wary of the religious leader in their community especially in New England.  With it becoming harder for ordinary people to make lives for themselves and the heirarcy system in place it is easy to see why many would begin to critize the minisrty who held a high ranks in the society.
 
-The Great Awaking prepared the colonist for the revolution by helping them look at the authority and to challege what they thought to be unjust or unfair.  
+The Great Awaking prepared the colonist for the revolution by helping them look at the authority and to challege what they thought to be unjust or unfair.
 
 The long-term consequences of the Great Awaking was that it turned religous instutions on their faces while allowing the goverment to not take the blame for many of the colonists problems. It also encouraged the indivualism which proved hard to overcome in the on sight of the revolution.
 =========yorg=========
 ===from:Demetria Amos
 ===date:Thu Sep 18 23:19:14 2003
 ===subject:Great Awakening
-===message:Its something about a reason to renew something or even your self.   And that is exactly what the great awakening did.  Emotion filled sermons and answers to question long forgotten by a lot of people.  These evangelist were in a word radical and that is why they had such a huge sucess.  They tapped into a lot of uncharted areas were the Word of God was not strongly conveyed. 
+===message:Its something about a reason to renew something or even your self.   And that is exactly what the great awakening did.  Emotion filled sermons and answers to question long forgotten by a lot of people.  These evangelist were in a word radical and that is why they had such a huge sucess.  They tapped into a lot of uncharted areas were the Word of God was not strongly conveyed.
 =========yorg=========
 ===from:Azure-Dee Mallory
 ===date:Fri Sep 19 16:25:11 2003
@@ -69,7 +69,7 @@ The long-term consequences of the Great Awaking was that it turned religous inst
 ===from:Ronda Cooper
 ===date:Fri Sep 19 21:03:52 2003
 ===subject:HIST 2111
-===message:Why do you suppose the Great Awakening was so successful? What was it about the message of Whitefield, Edwards and others that reached so many people? How did the Great Awakening prepare American colonists for a revolution? What were the long-term consequences of the Great Awakening? 
+===message:Why do you suppose the Great Awakening was so successful? What was it about the message of Whitefield, Edwards and others that reached so many people? How did the Great Awakening prepare American colonists for a revolution? What were the long-term consequences of the Great Awakening?
 
 The great awakening was so successful because the people were able to come and listen and learn about jesus and salvation, and basically if you loved Jesus you would not go to hell. It gave people resassurance and direction. Instead of putting salvation on God, it was put on man. Although many different denomination were already established it was almost as if the great awakening went right through those barriers. As far as the message, I dont really feel that is was the message itself, as it was the way it was delivered. The way a pastor delivers a message has a lot to do with how the audience will respond. I think that this is why there were so many conversions. It prepared the colonists for a revolution because it broke barriers between religions although the barriers were still there it allowed them to come together without shame and congregate and confess their sins. The long term consequesnces of the great awakening were that the denominations were broken up in every different direction, it challenged authority as well as supporting it, most of the evangelist denounced slavery, which at the time was the wrong thing to do.  There was a break down in the "church" there is always going to be someone that doesnt want change, so there was the old church versus the new. Although there were many consequences for the great awakening I feel that more good than bad came from it.
 =========yorg=========
@@ -91,23 +91,23 @@ Discussion Three
 ===from:Adrienne Randall
 ===date:Sat Sep 20 11:30:38 2003
 ===subject:The Great Awakening
-===message:The Geat Awakening was so successful because it brought unity, indiviualism, and hope amongst the people.  They received the kind of religion that they desired. The ministeres reached so many people because they preached in a way that all could understand and receive.  They provided the spiritual leadership that the people longed for. They gave them hope and brought about change. AThe colonies became stronger together.  Many new denominations were established adn the people had a right to choose which religion they wanted to follow.  
+===message:The Geat Awakening was so successful because it brought unity, indiviualism, and hope amongst the people.  They received the kind of religion that they desired. The ministeres reached so many people because they preached in a way that all could understand and receive.  They provided the spiritual leadership that the people longed for. They gave them hope and brought about change. AThe colonies became stronger together.  Many new denominations were established adn the people had a right to choose which religion they wanted to follow.
 =========yorg=========
 ===from:Jill Gazaway
 ===date:Sat Sep 20 17:28:41 2003
 ===subject:Hist 2111
-===message:I think Whitefield's message and other's messages as well reached so many people, because it encouraged individualism. I believe at that time in history that is what the people were needing to hear. It was starting a revolution by encouraging people to think for themselves, which is something many at that time had never done before. I don't think the consequences were all that bad. It just paved the way for more new religions to follow.  
+===message:I think Whitefield's message and other's messages as well reached so many people, because it encouraged individualism. I believe at that time in history that is what the people were needing to hear. It was starting a revolution by encouraging people to think for themselves, which is something many at that time had never done before. I don't think the consequences were all that bad. It just paved the way for more new religions to follow.
 =========yorg=========
 ===from:Ian Esson
 ===date:Sat Sep 20 18:33:21 2003
-===subject:Hist 2111 - The Great awakening 
-===message:The great awakening was a successful mostly because it occurred at the right time. The social climate of the colonies were ripe for a new thinking and indeed needed a revival of some of the old values that were lost but not a total reverting to them.  
+===subject:Hist 2111 - The Great awakening
+===message:The great awakening was a successful mostly because it occurred at the right time. The social climate of the colonies were ripe for a new thinking and indeed needed a revival of some of the old values that were lost but not a total reverting to them.
 <br>
-The non-elite now had more time to think about issues other than just surviving in a harsh world, the slaves need some hope of betterment as well and were included into a movement which offered them some semblance of equality.  The elite were drawn in because the criticism of governance was just the right amount for them to accept and not feel threatened that they would loose their authority or worse of their slaves, their means to maintain their status. 
+The non-elite now had more time to think about issues other than just surviving in a harsh world, the slaves need some hope of betterment as well and were included into a movement which offered them some semblance of equality.  The elite were drawn in because the criticism of governance was just the right amount for them to accept and not feel threatened that they would loose their authority or worse of their slaves, their means to maintain their status.
 <br>
-This prepared the colonists for revolution because they had a structured argument for self-rule and the enlightened concept that they could control their own destiny. 
+This prepared the colonists for revolution because they had a structured argument for self-rule and the enlightened concept that they could control their own destiny.
 <br>
-The long consequences are of course an independent country, the establishment of a religious sect that continue to represent the disenfranchised today. An adverse effect however was that it justified the continuance of slavery for yet another hundred years or so.  
+The long consequences are of course an independent country, the establishment of a religious sect that continue to represent the disenfranchised today. An adverse effect however was that it justified the continuance of slavery for yet another hundred years or so.
 
 =========yorg=========
 ===from:candy nartey
@@ -131,22 +131,22 @@ Great Awakening encouraged the American colonist to be independent. In other wor
 ===from:yaschica barber
 ===date:Sat Sep 20 21:48:08 2003
 ===subject:great awakening
-===message: I think that the Great Awakening was so successful because new donominations were created and the old ones were split up and some even done away with. The Great Awakening made way for more colleges so that the ministry could be properly taught.It gave the people a sense of belonging. The Great awakening simply had a good message and people love to hear good and positve things for the enrichment of their own selves. Whitefield's message challenged authority but not the system that supported it. The people liked this tatic because he was saying something that they wanted to say and were not in position to. The Great Awakening may have very well prepared American colonists for the revolution. Revolution is all about change and the Great Awakening brought about  change . The Great Awakening encouraged individualism which in the long run may have created some problems for the American colonists. 
+===message: I think that the Great Awakening was so successful because new donominations were created and the old ones were split up and some even done away with. The Great Awakening made way for more colleges so that the ministry could be properly taught.It gave the people a sense of belonging. The Great awakening simply had a good message and people love to hear good and positve things for the enrichment of their own selves. Whitefield's message challenged authority but not the system that supported it. The people liked this tatic because he was saying something that they wanted to say and were not in position to. The Great Awakening may have very well prepared American colonists for the revolution. Revolution is all about change and the Great Awakening brought about  change . The Great Awakening encouraged individualism which in the long run may have created some problems for the American colonists.
 =========yorg=========
 ===from:Erica May
 ===date:Sun Sep 21  0:13:46 2003
 ===subject:The Great Awakening
 ===message:I think the Great Awakening was so successful because people at the time was bored with the sermons that they were receiving, and the evangelist brought thoughts that stimulated the congregations.  Any time authority is criticized it will always spark interest.
 
-Whitfied, Edwards, and others delivered a message that gave the poor equality among the elite in God's eyes. And ultimately encouraged individual religion which told them to judge their own actions.    
+Whitfied, Edwards, and others delivered a message that gave the poor equality among the elite in God's eyes. And ultimately encouraged individual religion which told them to judge their own actions.
 
 
-  
+
 =========yorg=========
 ===from:Sahkira Muhammad
 ===date:Sun Sep 21  8:40:10 2003
 ===subject:Great Awakening
-===message:The Great Awakwning was so successful because the colonist actually lived the concept.  The colonist came to the new land and struggled and made someting out of nothing.  The cultivated theland and used their talents to develop an economic system.  The belief that each person has a direct connction with God is a freeing feeling.  THe colonist wre prepared for the Revolution because they now saw importance in themselves.  Once one realizes that the power of God dwells within there is no limit to his accomplishment.  Religion became a matter of personal choice and not decided on by one for the masses. Individuality was promoted.  
+===message:The Great Awakwning was so successful because the colonist actually lived the concept.  The colonist came to the new land and struggled and made someting out of nothing.  The cultivated theland and used their talents to develop an economic system.  The belief that each person has a direct connction with God is a freeing feeling.  THe colonist wre prepared for the Revolution because they now saw importance in themselves.  Once one realizes that the power of God dwells within there is no limit to his accomplishment.  Religion became a matter of personal choice and not decided on by one for the masses. Individuality was promoted.
 =========yorg=========
 ===from:Tiffany Charles
 ===date:Sun Sep 21 15:04:41 2003
@@ -156,7 +156,7 @@ Whitfied, Edwards, and others delivered a message that gave the poor equality am
 ===from:Andrea Jones
 ===date:Sun Sep 21 16:29:14 2003
 ===subject:The Great Awakening
-===message:The Great Awakening was so successful because it came at a time when the people were ready for a change.  They needed something new, and something meaningful to believe in.  The message of Whitefield, Edwards, and others was interesting and easy for people to follow and understand.  The Great Awakening prepared colonists for a revolution by sparking within them a sense of individualism, independence, hope, a sense of purpose, unity, and a desire for change.  The long term effects were overall unity, and a sense of the right to choose when it comes to religion.  
+===message:The Great Awakening was so successful because it came at a time when the people were ready for a change.  They needed something new, and something meaningful to believe in.  The message of Whitefield, Edwards, and others was interesting and easy for people to follow and understand.  The Great Awakening prepared colonists for a revolution by sparking within them a sense of individualism, independence, hope, a sense of purpose, unity, and a desire for change.  The long term effects were overall unity, and a sense of the right to choose when it comes to religion.
 =========yorg=========
 ===from:Nicole White
 ===date:Sun Sep 21 18:37:09 2003
@@ -166,7 +166,7 @@ Whitfied, Edwards, and others delivered a message that gave the poor equality am
 ===from:Idorenyin Akpan
 ===date:Sun Sep 21 18:58:49 2003
 ===subject:The Great Awakening
-===message:The Great Awakening was successful because it appealed to everyone young, old, rich, poor. Whitfield spoke out against the cruelty of slavery. It also addressed the problem the colonist faced with rational religion which was not particularly fufilling emotionally and brought spiritual renewal. The Awakening prepared the colonist for the Revolution by encouraging individualism by asking them to look inwards and scrutinizing their own hearts .In the long run, the Awakening brought cultural conflict instead restoring unity. 
+===message:The Great Awakening was successful because it appealed to everyone young, old, rich, poor. Whitfield spoke out against the cruelty of slavery. It also addressed the problem the colonist faced with rational religion which was not particularly fufilling emotionally and brought spiritual renewal. The Awakening prepared the colonist for the Revolution by encouraging individualism by asking them to look inwards and scrutinizing their own hearts .In the long run, the Awakening brought cultural conflict instead restoring unity.
 =========yorg=========
 ===from:Jaime Barnett
 ===date:Sun Sep 21 20:09:40 2003
@@ -175,12 +175,12 @@ Whitfied, Edwards, and others delivered a message that gave the poor equality am
 =========yorg=========
 ===from:Jerome Scales
 ===date:Sun Sep 21 20:38:34 2003
-===subject:The Great Awakening 
+===subject:The Great Awakening
 ===message:The Great Awakening was so successful, because the revivals served a need that the people where looking for.  They were looking for religion, leadership and direction, from people who sided with the struggle of everyday people - those who supported authority and those that didn't support authority at times. What allowed the message of Whitefield, Edwards and others to reached so many people was the emotion and enthusiasm that the used during their sermons. The Awakening prepared the colonist by making everyone believe in individualism.  The long term consequences was that it split the church into two separate factions - evangelical and traditional.
 
 =========yorg=========
 ===from:Delores Williams
 ===date:Sun Sep 21 22:25:35 2003
 ===subject:Great Awakening
-===message:I believe The Great Awakening was successful because Whitefield was able to reach the people where they were. The good news of the Gospel is a universal message that touches all receiving hearts. 
+===message:I believe The Great Awakening was successful because Whitefield was able to reach the people where they were. The good news of the Gospel is a universal message that touches all receiving hearts.
 =========yorg=========

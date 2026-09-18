@@ -32,15 +32,15 @@ package edu.iastate.csl.util;
 import java.awt.*;
 import java.applet.Applet;
 
-public class Canvas3D extends Canvas 
-{    
+public class Canvas3D extends Canvas
+{
     // puts a 3D border of width 1 around the Canvas
-    
-    public void paint(Graphics g) 
+
+    public void paint(Graphics g)
     {
         int w = size().width;
         int h = size().height;
-        
+
         g.setColor(Color.black);
         g.drawLine(0,0,w,0);
         g.drawLine(0,0,0,h);

@@ -71,7 +71,7 @@ Content-type: text/html
   <frameset cols="*,2*">
     <frame name="listing" src="$url&suboption=List">
     <frame name="editor" src="$GLOBALS::SERVER_ROOT/editor_frame.html">
-  </frameset>    
+  </frameset>
   <frame name="help" src="$GLOBALS::SERVER_ROOT/asn_edit_help.html">
 <noframes>
 <BODY>
@@ -232,8 +232,8 @@ sub listing {
     my $cls = $asn->{'Class'};
     my $dir = $asn->{'Dev Root'};
     my $develop = "$cls->{'Root Dir'}/assignments/.develop";
-    my $clipb = "$develop/.clipb"; 
-    my $clipq = "$develop/.clipq"; 
+    my $clipb = "$develop/.clipb";
+    my $clipq = "$develop/.clipq";
     my $flag = "$develop/.flag";
     if ($query->param('back')) {
        if (!($asn->{'Dev Root'} =~ /.develop/)) {
@@ -255,7 +255,7 @@ sub listing {
         $self->print_help('Click on a <b>section</b> in the Listbox first.');
     }
     $section = $query->param('section');
-    if ($section =~ /^(\d+)[\.](\d+)/) { 
+    if ($section =~ /^(\d+)[\.](\d+)/) {
 	$b = $1; $q = $2;
         $type = 2;
     } elsif ($section =~ /^(\d+)[\ ]/) {
@@ -269,7 +269,7 @@ sub listing {
         $self->print_help("You must <b>Cancel</b> or <b>Save</b> in the section editor before using $_.");
     }
     SWITCH: {
-        /^Edit/ && 
+        /^Edit/ &&
             do { # edit selection
                 open(EDIT_FLAG,">$flag");
                 close(EDIT_FLAG);
@@ -283,7 +283,7 @@ sub listing {
                 last SWITCH;
                };
 
-        /^Add/ && 
+        /^Add/ &&
             do { # add new block/question after selection
                 if ($type == 0) {
                     # if assignment selected, add block to end of list
@@ -306,7 +306,7 @@ sub listing {
                 last SWITCH;
                };
 
-        /^Cut/ && 
+        /^Cut/ &&
             do { # move selection to clipboard (.clipb or .clipq)
                 if ($type == 0) {
                     $self->print_help('You may only <b>edit</b> an assignment or insert a section.');
@@ -329,9 +329,9 @@ least one block. Delete the assignment instead.');
                 }
                 $self->print_listing();
 	        last SWITCH;
-	       }; 
+	       };
 
-        /^Copy/ && 
+        /^Copy/ &&
             do { # copy selection to clip buffer
                 if ($type == 0) {
                     $self->print_help('You may only <b>edit</b> an assignment or insert a section.');
@@ -347,14 +347,14 @@ least one block. Delete the assignment instead.');
                 last SWITCH;
                };
 
-        /^Paste/ && 
+        /^Paste/ &&
             do { # copy cut buffer (if any) at selection
                 if ($type == 0) {
                     $self->print_help("You can't paste there.");
-                } 
+                }
                 if ($type == 1) {
                     # insert block at location. Copy clipb if exists.
-                    $asn->insert_block($b);                    
+                    $asn->insert_block($b);
                     if (-e "$clipb") {
                         system "rm -r $dir/$b";
                         system "cp -r $clipb $dir/$b";
@@ -423,22 +423,22 @@ sub writing {
                              }
                          }
                      } else {
-                         $self->print_help('Enter date in the form mm/dd/yyyy (e.g. 01/05/1997) or hh:mm:mn/dd/yyyy (e.g. 13:30:01/05/1997)');        
+                         $self->print_help('Enter date in the form mm/dd/yyyy (e.g. 01/05/1997) or hh:mm:mn/dd/yyyy (e.g. 13:30:01/05/1997)');
                      }
                  }
                  my %params = {};
                  $params{'Assignment Type'} = $query->param('Assignment Type');
-                 ($query->param('duedate')) and 
+                 ($query->param('duedate')) and
                      $params{'DUE'} = $query->param('duedate');
-                 ($query->param('password')) and 
+                 ($query->param('password')) and
                      $params{'PASSWORD'} = $query->param('password');
-                 (defined $query->param('fill')) and 
+                 (defined $query->param('fill')) and
                      $params{'FILL'} = 1;
-                 (defined $query->param('view')) and 
+                 (defined $query->param('view')) and
                      $params{'VIEW'} = 1;
-                 (defined $query->param('mult')) and 
+                 (defined $query->param('mult')) and
                      $params{'MULT'} = 1;
-                 if ($query->param('rand') eq 'vers') { 
+                 if ($query->param('rand') eq 'vers') {
                      $params{'VERS'} = $query->param('versions');
                  } else {
                      $params{'RAND'} = 1;
@@ -447,7 +447,7 @@ sub writing {
                  unlink $flag;
                  $asn->write(%params);
                  $asn->put_extra_fields($query);
-                 if (defined $query->param('publish')) { 
+                 if (defined $query->param('publish')) {
                      $asn->publish();
                  } else {
                      $asn->unpublish();
@@ -498,7 +498,7 @@ sub writing {
                          $self->print_help('For CHOICE, use $ldelim in front of each answer.');
                      }
                      unless (($ans eq '') or
-                         ($ans =~ /{\s*\w+\s*}/) or 
+                         ($ans =~ /{\s*\w+\s*}/) or
                          ($ans >= 1 and $ans <= $n)) {
                          $self->print_help("For CHOICE, answer should be a number between 1 and $n.");
                      };
@@ -508,7 +508,7 @@ sub writing {
                          $self->print_help('For LIKERT, use $ldelim to mark your choices.');
                      }
                      unless (($ans eq '') or
-                         ($ans =~ /{\s*\w+\s*}/) or 
+                         ($ans =~ /{\s*\w+\s*}/) or
                          ($ans =~ /^\s*[+-]?\d+(\s*,\s*[+-]?\d+\s*)*\s*$/)) {
                          $self->print_help("For LIKERT, answer should be
 blank or a list of numbers (weights) separated by commas.");
@@ -633,9 +633,9 @@ sub edit_assignment {
 <H3>Assignment $asn->{'Name'}</H3>
 (Type $atype)
 <HR>
-<H3>Question Selection</H3> 
+<H3>Question Selection</H3>
 <INPUT TYPE=radio NAME=rand VALUE=rand $EDITOR::checked[$rand]> Random
-<INPUT TYPE=radio NAME=rand VALUE=vers $EDITOR::checked[!$rand]> Versions 
+<INPUT TYPE=radio NAME=rand VALUE=vers $EDITOR::checked[!$rand]> Versions
 <INPUT TYPE=text NAME=versions SIZE=2 VALUE="$nver">
 <HR>
 <H3>Student Answer Options</H3>
@@ -649,14 +649,14 @@ sub edit_assignment {
 <H3>Proctor Options</H3>
 Password<BR>
 <INPUT TYPE=password NAME=password SIZE=16 VALUE="$pass"><BR>
-<INPUT TYPE=checkbox NAME=mult VALUE=mult $mult> Allow multiple tries 
+<INPUT TYPE=checkbox NAME=mult VALUE=mult $mult> Allow multiple tries
 <HR>
-<INPUT TYPE=checkbox NAME=publish VALUE=Publish $publish> Publish 
+<INPUT TYPE=checkbox NAME=publish VALUE=Publish $publish> Publish
 <HR>
 $extra_fields
 <H4>
 <INPUT TYPE=submit NAME=save VALUE=Save>
-<INPUT TYPE=reset  NAME=reset VALUE=Reset> 
+<INPUT TYPE=reset  NAME=reset VALUE=Reset>
 <INPUT TYPE=submit NAME=back VALUE=Cancel>
 </H4>
 </CENTER>
@@ -702,7 +702,7 @@ sub edit_block {
 Name <INPUT TYPE=text SIZE=20 NAME=name VALUE="$name" MAXLENGTH=20>
 <HR>
 <H3>Credit</H3>
-Total <INPUT TYPE=text SIZE=5 NAME=tcredit VALUE="$tcredit"> 
+Total <INPUT TYPE=text SIZE=5 NAME=tcredit VALUE="$tcredit">
 Partial <INPUT TYPE=text SIZE=5 NAME=pcredit VALUE="$pcredit">
 <HR>
 <H3>Preface</H3>
@@ -710,8 +710,8 @@ Partial <INPUT TYPE=text SIZE=5 NAME=pcredit VALUE="$pcredit">
 $btext
 </TEXTAREA>
 <H4>
-<INPUT TYPE=submit NAME=save VALUE=Save> 
-<INPUT TYPE=reset  NAME=reset VALUE=Reset> 
+<INPUT TYPE=submit NAME=save VALUE=Save>
+<INPUT TYPE=reset  NAME=reset VALUE=Reset>
 <INPUT TYPE=submit NAME=back VALUE=Cancel>
 </H4>
 </CENTER>
@@ -770,7 +770,7 @@ sub edit_question {
 <INPUT TYPE=hidden NAME=question VALUE=$q>
 <CENTER><H2>Question $b.$q</H2>
 <HR>
-Type: 
+Type:
 <B>
 <SELECT NAME="Question Type">
 <OPTION $EDITOR::selected[$type eq 'CHOICE']>CHOICE
@@ -811,13 +811,13 @@ Type:
 <BR>(Only exact comparisons are currently implemented)
 <HR>
 <H3>Essay Editor Size</H3>
-Rows: <INPUT TYPE=text NAME=rows VALUE="$rows" SIZE=3> 
+Rows: <INPUT TYPE=text NAME=rows VALUE="$rows" SIZE=3>
 Cols: <INPUT TYPE=text NAME=cols VALUE="$cols" SIZE=3>
 <HR>
 <H4>
 <INPUT TYPE=submit NAME=save VALUE=Save>
-<INPUT TYPE=submit NAME=view VALUE=View> 
-<INPUT TYPE=reset  NAME=reset VALUE=Reset> 
+<INPUT TYPE=submit NAME=view VALUE=View>
+<INPUT TYPE=reset  NAME=reset VALUE=Reset>
 <INPUT TYPE=submit NAME=back VALUE=Cancel>
 </H4>
 </CENTER>

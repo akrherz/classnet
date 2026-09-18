@@ -12,7 +12,7 @@ use Exporter;
 
 # Copyright 1995,1996, Lincoln D. Stein.  All rights reserved.
 # It may be used and modified freely, but I do request that this copyright
-# notice remain attached to the file.  You may modify this module as you 
+# notice remain attached to the file.  You may modify this module as you
 # wish, but if you redistribute a modified version, please attach a note
 # listing the modifications you have made.
 
@@ -67,7 +67,7 @@ sub new {
     if ($filehandle) {
         my($package) = caller;
         # force into caller's package if necessary
-        $IN = $filehandle=~/[':]/ ? $filehandle : "$package\:\:$filehandle"; 
+        $IN = $filehandle=~/[':]/ ? $filehandle : "$package\:\:$filehandle";
     }
     my $self = {};
     bless $self,$class;
@@ -97,7 +97,7 @@ sub param {
     return $self->all_parameters unless @p;
     my($name,$value,@other);
 
-    # For compatability between old calling style and use_named_parameters() style, 
+    # For compatability between old calling style and use_named_parameters() style,
     # we have to special case for a single parameter present.
     if (@p > 1) {
         ($name,$value,@other) = $self->rearrange([NAME,[DEFAULT,VALUE,VALUES]],@p);
@@ -215,8 +215,8 @@ sub initialize {
                 $query_string=join("&",@lines);
             } else {
                 $query_string=join("+",@lines);
-            }   
-    
+            }
+
             # If method is GET or HEAD, fetch the query from
             # the environment.
 
@@ -234,7 +234,7 @@ sub initialize {
                 $self->read_multipart($boundary,$ENV{'CONTENT_LENGTH'});
             } else {
                 $query_string ='';      # hack to avoid 'uninitialized variable' warnings
-                read(STDIN,$query_string,$ENV{'CONTENT_LENGTH'}) 
+                read(STDIN,$query_string,$ENV{'CONTENT_LENGTH'})
                     if $ENV{'CONTENT_LENGTH'} > 0;
             }
 
@@ -266,7 +266,7 @@ sub initialize {
             }
         }
     }
-    
+
     # We now have the query string in hand.  We do slightly
     # different things for keyword lists and parameter lists.
     if ($query_string) {
@@ -283,7 +283,7 @@ sub initialize {
     if ($self->param('.defaults')) {
         undef %{$self};
     }
-    
+
     # flag that we've been inited
     $self->{'.init'}++ if $self->param;
 
@@ -315,7 +315,7 @@ sub save_request {
     foreach (@QUERY_PARAM) {
         $QUERY_PARAM{$_}=$self->{$_};
     }
-    
+
 }
 
 sub parse_keywordlist {
@@ -341,7 +341,7 @@ sub parse_params {
 
 sub add_parameter {
     my($self,$param)=@_;
-    push (@{$self->{'.parameters'}},$param) 
+    push (@{$self->{'.parameters'}},$param)
         unless defined($self->{$param});
 }
 
@@ -367,10 +367,10 @@ sub rearrange {
         $param[$i]=~s/^\-//;     # get rid of initial - if present
         $param[$i]=~tr/a-z/A-Z/; # parameters are upper case
     }
-    
+
     my(%param) = @param;                # convert into associative array
     my(@return_array);
-    
+
     my($key);
     foreach $key (@$order) {
         my($value) = '';
@@ -460,7 +460,7 @@ sub MULTIPART { 'multipart/form-data'; }
 
 #### Method: keywords
 # Keywords acts a bit differently.  Calling it in a list context
-# returns the list of keywords.  
+# returns the list of keywords.
 # Calling it in a scalar context gives you the size of the list.
 ####
 sub keywords {
@@ -483,7 +483,7 @@ sub ReadParse {
     }
     tie(%in,CGI);
 }
-sub TIEHASH { 
+sub TIEHASH {
     return new CGI;
 }
 sub STORE {
@@ -527,8 +527,8 @@ sub version {
 }
 
 #### Method: dump
-# Returns a string in which all the known parameter/value 
-# pairs are represented as nested lists, mainly for the purposes 
+# Returns a string in which all the known parameter/value
+# pairs are represented as nested lists, mainly for the purposes
 # of debugging.
 ####
 sub dump {
@@ -575,7 +575,7 @@ sub save {
 sub header {
     my($self,@p) = @_;
 
-    my($type,$status,$cookie,$target,$expires,@other) = 
+    my($type,$status,$cookie,$target,$expires,@other) =
         $self->rearrange([TYPE,STATUS,COOKIE,TARGET,EXPIRES],@p);
 
     # rearrange() was designed for the HTML portion, so we
@@ -641,7 +641,7 @@ sub redirect {
 # $title -> (optional) The title for this HTML document (-title)
 # $author -> (optional) e-mail address of the author (-author)
 # $base -> (option) if set to true, will enter the BASE address of this document
-#          for resolving relative references (-base) 
+#          for resolving relative references (-base)
 # $xbase -> (option) alternative base at some remote location (-xbase)
 # $script -> (option) Javascript code (-script)
 # @other -> (option) any other named parameters you'd like to incorporate into
@@ -649,7 +649,7 @@ sub redirect {
 ####
 sub start_html {
     my($self,@p) = @_;
-    my($title,$author,$base,$xbase,$script,@other) = 
+    my($title,$author,$base,$xbase,$script,@other) =
         $self->rearrange([TITLE,AUTHOR,BASE,XBASE,SCRIPT],@p);
 
     # strangely enough, the title needs to be escaped as HTML
@@ -708,7 +708,7 @@ sub isindex {
 sub startform {
     my($self,@p) = @_;
 
-    my($method,$action,$enctype,@other) = 
+    my($method,$action,$enctype,@other) =
         $self->rearrange([METHOD,ACTION,ENCTYPE],@p);
 
     $method = $method || 'POST';
@@ -727,7 +727,7 @@ sub start_form {
 # synonym for startform
 sub start_multipart_form {
     my($self,@p) = @_;
-    my($method,$action,$enctype,@other) = 
+    my($method,$action,$enctype,@other) =
         $self->rearrange([METHOD,ACTION,ENCTYPE],@p);
     $self->startform($method,$action,$enctype || MULTIPART,@other);
 }
@@ -756,10 +756,10 @@ sub end_form {
 #
 sub textfield {
     my($self,@p) = @_;
-    my($name,$default,$size,$maxlength,$override,@other) = 
+    my($name,$default,$size,$maxlength,$override,@other) =
         $self->rearrange([NAME,[DEFAULT,VALUE],SIZE,MAXLENGTH,[OVERRIDE,FORCE]],@p);
 
-    my $current = $override ? $default : 
+    my $current = $override ? $default :
         (defined($self->param($name)) ? $self->param($name) : $default);
 
     $current = defined($current) ? $self->escapeHTML($current) : '';
@@ -780,7 +780,7 @@ sub textfield {
 sub filefield {
     my($self,@p) = @_;
 
-    my($name,$default,$size,$maxlength,$override,@other) = 
+    my($name,$default,$size,$maxlength,$override,@other) =
         $self->rearrange([NAME,[DEFAULT,VALUE],SIZE,MAXLENGTH,[OVERRIDE,FORCE]],@p);
 
     my($current);
@@ -807,7 +807,7 @@ sub filefield {
 sub password_field {
     my ($self,@p) = @_;
 
-    my($name,$default,$size,$maxlength,$override,@other) = 
+    my($name,$default,$size,$maxlength,$override,@other) =
         $self->rearrange([NAME,[DEFAULT,VALUE],SIZE,MAXLENGTH,[OVERRIDE,FORCE]],@p);
 
     my($current) =  $override ? $default :
@@ -832,7 +832,7 @@ sub password_field {
 #
 sub textarea {
     my($self,@p) = @_;
-    
+
     my($name,$default,$rows,$cols,$override,@other) =
         $self->rearrange([NAME,[DEFAULT,VALUE],ROWS,[COLS,COLUMNS],[OVERRIDE,FORCE]],@p);
 
@@ -951,7 +951,7 @@ sub defaults {
 sub checkbox {
     my($self,@p) = @_;
 
-    my($name,$checked,$value,$label,$override,@other) = 
+    my($name,$checked,$value,$label,$override,@other) =
         $self->rearrange([NAME,[CHECKED,SELECTED,ON],VALUE,LABEL,[OVERRIDE,FORCE]],@p);
 
     if (!$override && $self->inited) {
@@ -982,7 +982,7 @@ END
 #             then this will be used to decide which
 #             checkboxes to turn on by default.
 #             2. If a scalar, will be assumed to hold the
-#             value of a single checkbox in the group to turn on. 
+#             value of a single checkbox in the group to turn on.
 #   $linebreak -> (optional) Set to true to place linebreaks
 #             between the buttons.
 #   $labels -> (optional)
@@ -1223,7 +1223,7 @@ sub hidden {
     # this is the one place where we departed from our standard
     # calling scheme, so we have to special-case (darn)
     my(@result,@value);
-    my($name,$default,$override,@other) = 
+    my($name,$default,$override,@other) =
         $self->rearrange([NAME,[DEFAULT,VALUE,VALUES],[OVERRIDE,FORCE]],@p);
 
     my($do_override);
@@ -1310,7 +1310,7 @@ sub url {
 # Usual rules apply to the stickiness of -value.
 #  Parameters:
 #   -name -> name for this cookie (required)
-#   -value -> value of this cookie (scalar, array or hash) 
+#   -value -> value of this cookie (scalar, array or hash)
 #   -path -> paths for which this cookie is valid (optional)
 #   -domain -> internet domain in which this cookie is valid (optional)
 #   -secure -> if true, cookie only passed through secure channel (optional)
@@ -1451,9 +1451,9 @@ sub query_string {
 sub accept {
     my($self,$search) = @_;
     my(%prefs,$type,$pref,$pat);
-    
+
     my(@accept) = split(',',$ENV{'HTTP_ACCEPT'});
-    
+
     foreach (@accept) {
         ($pref) = /q=(\d\.\d+|\d+)/;
         ($type) = m#(\S+/[^;]+)#;
@@ -1462,7 +1462,7 @@ sub accept {
     }
 
     return keys %prefs unless $search;
-    
+
     # if a search type is provided, we may need to
     # perform a pattern matching operation.
     # The MIME types use a glob mechanism, which
@@ -1508,7 +1508,7 @@ sub raw_cookie {
 # purposes.
 ####
 sub remote_host {
-    return $ENV{'REMOTE_HOST'} || $ENV{'REMOTE_ADDR'} 
+    return $ENV{'REMOTE_HOST'} || $ENV{'REMOTE_ADDR'}
     || 'localhost';
 }
 
@@ -1600,7 +1600,7 @@ sub previous_or_default {
 
     if (!$override && ($self->inited || $self->param($name))) {
         grep($selected{$_}++,$self->param($name));
-    } elsif (defined($defaults) && ref($defaults) && 
+    } elsif (defined($defaults) && ref($defaults) &&
              (ref($defaults) eq 'ARRAY')) {
         grep($selected{$_}++,@{$defaults});
     } else {
@@ -1619,12 +1619,12 @@ sub new {
     if ($filehandle) {
         my($package) = caller;
         # force into caller's package if necessary
-        $IN = $filehandle=~/[':]/ ? $filehandle : "$package\:\:$filehandle"; 
+        $IN = $filehandle=~/[':]/ ? $filehandle : "$package\:\:$filehandle";
     }
     $IN = "main::STDIN" unless $IN;
 
     binmode($IN) if $CGI::needs_binmode;
-    
+
     # If the user types garbage into the file upload field,
     # then Netscape passes NOTHING to the server (not good).
     # We may hang on this read in that case. So we implement
@@ -1636,7 +1636,7 @@ sub new {
     # about providing boundary strings
 
     if ($boundary) {
-        # Under the MIME spec, the boundary consists of the 
+        # Under the MIME spec, the boundary consists of the
         # characters "--" PLUS the Boundary string
         $boundary = "--$boundary";
         # Read the topmost (boundary) line plus the CRLF
@@ -1646,7 +1646,7 @@ sub new {
     } else { # otherwise we find it ourselves
         my($old);
         ($old,$/) = ($/,$CRLF); # read a CRLF-delimited line
-        $boundary = <$IN>;              
+        $boundary = <$IN>;
         $length -= length($boundary);
         chomp($boundary);               # remove the CRLF
         $/ = $old;                      # restore old line separator
@@ -1674,7 +1674,7 @@ sub readHeader {
         $self->fillBuffer($FILLUNIT);
         $ok++ if ($end = index($self->{BUFFER},"${CRLF}${CRLF}")) >= 0;
         $ok++ if $self->{BUFFER} eq '';
-        $FILLUNIT *= 2 if length($self->{BUFFER}) >= $FILLUNIT; 
+        $FILLUNIT *= 2 if length($self->{BUFFER}) >= $FILLUNIT;
     } until $ok;
 
     my($header) = substr($self->{BUFFER},0,$end+2);
@@ -1703,7 +1703,7 @@ sub readBody {
 sub read {
     my($self,$bytes) = @_;
     # default number of bytes to read
-    $bytes = $bytes || $FILLUNIT;       
+    $bytes = $bytes || $FILLUNIT;
 
     # Fill up our internal buffer in such a way that the boundary
     # is never split between reads.
@@ -1729,7 +1729,7 @@ sub read {
         return undef;
     }
 
-    my $bytesToReturn;    
+    my $bytesToReturn;
     if ($start > 0) {           # read up to the boundary
         $bytesToReturn = $start > $bytes ? $bytes : $start;
     } else {    # read the requested number of bytes
@@ -1741,7 +1741,7 @@ sub read {
 
     my $returnval=substr($self->{BUFFER},0,$bytesToReturn);
     substr($self->{BUFFER},0,$bytesToReturn)='';
-    
+
     # If we hit the boundary, remove the CRLF from the end.
     return ($start > 0) ? substr($returnval,0,-2) : $returnval;
 }
@@ -1759,7 +1759,7 @@ sub fillBuffer {
     # will block for more than TIMEOUT seconds.
     die "CGI.pm: Client timed out during multipart read.\n" if wouldBlock($self->{IN},$TIMEOUT);
     my $bytesRead = read($self->{IN},$self->{BUFFER},$bytesToRead,$bufferLength);
-    
+
     # An apparent bug in the Netscape Commerce server causes the read()
     # to return zero bytes repeatedly without blocking if the
     # remote user aborts during a file transfer.  I don't know how
@@ -1910,7 +1910,7 @@ sub tmpFileName {
 
 # so that require() returns true and to prevent
 # warnings with the -w switch;
-$CGI::revision || 1; 
+$CGI::revision || 1;
 
 __END__
 
@@ -1974,7 +1974,7 @@ out which CGI script is generating fatal error messages.
      $query = new CGI
 
 This will parse the input (from both POST and GET methods) and store
-it into a perl5 object called $query.  
+it into a perl5 object called $query.
 
 =head2 CREATING A NEW QUERY OBJECT FROM AN INPUT FILE
 
@@ -2006,7 +2006,7 @@ single parameter named 'keywords'.
 
 NOTE: As of version 1.5, the array of parameter names returned will
 be in the same order as they were submitted by the browser.
-Usually this order is the same as the order in which the 
+Usually this order is the same as the order in which the
 parameters are defined in the form (however, this isn't part
 of the spec, and so isn't guaranteed).
 
@@ -2118,7 +2118,7 @@ NEW VERSION
 CGI.pm's ReadParse() routine creates a tied variable named %in,
 which can be accessed to obtain the query variables.  Like
 ReadParse, you can also provide your own variable.  Infrequently
-used features of ReadParse, such as the creation of @in and $in 
+used features of ReadParse, such as the creation of @in and $in
 variables, are not supported.
 
 Once you use ReadParse, you can retrieve the query object itself
@@ -2212,7 +2212,7 @@ add additional fields to the header, just tack them on to the end:
 
 The last example shows the named argument style for passing arguments
 to the CGI methods using named parameters.  Recognized parameters are
-B<-type>, B<-status>, B<-expires>, and B<-cookie>.  Any other 
+B<-type>, B<-status>, B<-expires>, and B<-cookie>.  Any other
 parameters will be stripped of their initial hyphens and turned into
 header fields, allowing you to specify any HTTP header you desire.
 
@@ -2277,7 +2277,7 @@ of the document you are redirecting to.
                             'fred@capricorn.org','true',
                             'BGCOLOR="#00A0A0"');
 
-This will return a canned HTML header and the opening <BODY> tag.  
+This will return a canned HTML header and the opening <BODY> tag.
 All parameters are optional.   In the named parameter form, recognized
 parameters are -title, -author and -base (see below for the
 explanation).  Any additional parameters you provide, such as the
@@ -2289,13 +2289,13 @@ in
 
     -xbase=>"http://home.mcom.com/"
 
-JAVASCRIPTING:  Version 2.17 adds the B<-script>, B<-onLoad> and 
-B<-onUnload> parameters, 
-which are used to add Netscape JavaScript calls to your pages.  
+JAVASCRIPTING:  Version 2.17 adds the B<-script>, B<-onLoad> and
+B<-onUnload> parameters,
+which are used to add Netscape JavaScript calls to your pages.
 B<-script> should point to a block of
 text containing JavaScript function definitions.  This block will be
 placed within a <SCRIPT> block inside the HTML (not HTTP) header.  The
-block is placed in the header in order to give your page a fighting 
+block is placed in the header in order to give your page a fighting
 chance of having all its JavaScript functions in place even if the user
 presses the stop button before the page has loaded completely.  CGI.pm
 attempts to format the script in such a way that JavaScript-naive
@@ -2351,7 +2351,7 @@ The author's e-mail address (will create a <LINK REV="MADE"> tag if present
 =item 3.
 
 A 'true' flag if you want to include a <BASE> tag in the header.  This
-helps resolve relative addresses to absolute ones when the document is moved, 
+helps resolve relative addresses to absolute ones when the document is moved,
 but makes the document hierarchy non-portable.  Use with care!
 
 =item 4, 5, 6...
@@ -2378,7 +2378,7 @@ around the form elements.
 I<Another note> The default values that you specify for the forms are only
 used the B<first> time the script is invoked (when there is no query
 string).  On subsequent invocations of the script (when there is a query
-string), the former values are used even if they are blank.  
+string), the former values are used even if they are blank.
 
 If you want to change the value of a field from its previous value, you have two
 choices:
@@ -2403,7 +2403,7 @@ autoEscape() method with a false value immediately after creating the CGI object
 
    $query = new CGI;
    $query->autoEscape(undef);
-                             
+
 
 =head2 CREATING AN ISINDEX TAG
 
@@ -2433,12 +2433,12 @@ default is to process the query with the current script.
 
 startform() will return a <FORM> tag with the optional method,
 action and form encoding that you specify.  The defaults are:
-        
+
     method: POST
     action: this script
     encoding: application/x-www-form-urlencoded
 
-endform() returns the closing </FORM> tag.  
+endform() returns the closing </FORM> tag.
 
 Startform()'s encoding method tells the browser how to package the various
 fields of the form before sending the form to the server.  Two
@@ -2479,10 +2479,10 @@ for use with JavaScript.  The -name parameter gives the
 form a name so that it can be identified and manipulated by
 JavaScript functions.  -onSubmit should point to a JavaScript
 function that will be executed just before the form is submitted to your
-server.  You can use this opportunity to check the contents of the form 
+server.  You can use this opportunity to check the contents of the form
 for consistency and completeness.  If you find something wrong, you
-can put up an alert box or maybe fix things up yourself.  You can 
-abort the submission by returning false from this function.  
+can put up an alert box or maybe fix things up yourself.  You can
+abort the submission by returning false from this function.
 
 Usually the bulk of JavaScript functions are defined in a <SCRIPT>
 block in the HTML header and -onSubmit points to one of these function
@@ -2498,7 +2498,7 @@ call.  See start_html() for details.
 
     print $query->textfield('field_name','starting value',50,80);
 
-textfield() will return a text input field.  
+textfield() will return a text input field.
 
 =over 4
 
@@ -2506,12 +2506,12 @@ textfield() will return a text input field.
 
 =item 1.
 
-The first parameter is the required name for the field (-name).  
+The first parameter is the required name for the field (-name).
 
 =item 2.
 
 The optional second parameter is the default starting value for the field
-contents (-default).  
+contents (-default).
 
 =item 3.
 
@@ -2525,7 +2525,7 @@ The optional fourth parameter is the maximum number of characters the
 
 =back
 
-As with all these methods, the field will be initialized with its 
+As with all these methods, the field will be initialized with its
 previous contents from earlier invocations of the script.
 When the form is processed, the value of the text field can be
 retrieved with:
@@ -2584,7 +2584,7 @@ and B<-onSelect> parameters are recognized.  See textfield().
 
    print $query->password_field('secret','starting value',50,80);
 
-password_field() is identical to textfield(), except that its contents 
+password_field() is identical to textfield(), except that its contents
 will be starred out on the web page.
 
 JAVASCRIPTING: The B<-onChange>, B<-onFocus>, B<-onBlur>
@@ -2601,7 +2601,7 @@ and B<-onSelect> parameters are recognized.  See textfield().
     print $query->filefield('uploaded_file','starting value',50,80);
 
 filefield() will return a file upload field for Netscape 2.0 browsers.
-In order to take full advantage of this I<you must use the new 
+In order to take full advantage of this I<you must use the new
 multipart encoding scheme> for the form.  You can do this either
 by calling B<startform()> with an encoding type of B<$CGI::MULTIPART>,
 or by calling the new method B<start_multipart_form()> instead of
@@ -2613,7 +2613,7 @@ vanilla B<startform()>.
 
 =item 1.
 
-The first parameter is the required name for the field (-name).  
+The first parameter is the required name for the field (-name).
 
 =item 2.
 
@@ -2677,7 +2677,7 @@ of the file using standard Perl file reading calls:
 
 JAVASCRIPTING: The B<-onChange>, B<-onFocus>, B<-onBlur>
 and B<-onSelect> parameters are recognized.  See textfield()
-for details. 
+for details.
 
 =head2 CREATING A POPUP MENU
 
@@ -2763,7 +2763,7 @@ section for details on when these handlers are called.
                                 -multiple=>'true',
                                 -labels=>\%labels);
 
-scrolling_list() creates a scrolling list.  
+scrolling_list() creates a scrolling list.
 
 =over 4
 
@@ -2829,7 +2829,7 @@ the description of when these handlers are called.
    print $query->checkbox_group(-name=>'group_name',
                                 -values=>['eenie','meenie','minie','moe'],
                                 -rows=2,-columns=>2);
-    
+
 
 checkbox_group() creates a list of checkboxes that are related
 by the same name.
@@ -2868,8 +2868,8 @@ be used as the default.
 
 =item 5.
 
-B<HTML3-compatible browsers> (such as Netscape) can take advantage 
-of the optional 
+B<HTML3-compatible browsers> (such as Netscape) can take advantage
+of the optional
 parameters B<-rows>, and B<-columns>.  These parameters cause
 checkbox_group() to return an HTML3 compatible table containing
 the checkbox group formatted with the specified number of rows
@@ -3015,8 +3015,8 @@ displayed.
 
 =item 6.
 
-B<HTML3-compatible browsers> (such as Netscape) can take advantage 
-of the optional 
+B<HTML3-compatible browsers> (such as Netscape) can take advantage
+of the optional
 parameters B<-rows>, and B<-columns>.  These parameters cause
 radio_group() to return an HTML3 compatible table containing
 the radio group formatted with the specified number of rows
@@ -3045,7 +3045,7 @@ or in other creative ways:
     @h = $query->radio_group(-name=>'group_name',-values=>\@values);
     &use_in_creative_way(@h);
 
-=head2 CREATING A SUBMIT BUTTON 
+=head2 CREATING A SUBMIT BUTTON
 
    print $query->submit(-name=>'button_name',
                         -value=>'value');
@@ -3089,7 +3089,7 @@ parameter.  See checkbox_group() for further details.
    print $query->reset
 
 reset() creates the "reset" button.  Note that it restores the
-form to its value from the last time the script was called, 
+form to its value from the last time the script was called,
 NOT necessarily to the defaults.
 
 =head2 CREATING A DEFAULT BUTTON
@@ -3122,7 +3122,7 @@ of the script to the next.
 The first argument is required and specifies the name of this
 field (-name).
 
-=item 2.  
+=item 2.
 
 The second argument is also required and specifies its value
 (-default).  In the named parameter style of calling, you can provide
@@ -3145,7 +3145,7 @@ do it manually:
 
      print $query->image_button(-name=>'button_name',
                                 -src=>'/source/URL',
-                                -align=>'MIDDLE');      
+                                -align=>'MIDDLE');
 
         -or-
 
@@ -3225,11 +3225,11 @@ will remain active until the user quits Netscape.
 
 =item 2. a domain
 
-This is a partial or complete domain name for which the cookie is 
+This is a partial or complete domain name for which the cookie is
 valid.  The browser will return the cookie to any host that matches
 the partial domain name.  For example, if you specify a domain name
 of ".capricorn.com", then Netscape will return the cookie to
-Web servers running on any of the machines "www.capricorn.com", 
+Web servers running on any of the machines "www.capricorn.com",
 "www2.capricorn.com", "feckless.capricorn.com", etc.  Domain names
 must contain at least two periods to prevent attempts to match
 on top level domains like ".edu".  If no domain is specified, then
@@ -3295,7 +3295,7 @@ above.
 
 =item B<-expires>
 
-The optional expiration date for this cookie.  The format is as described 
+The optional expiration date for this cookie.  The format is as described
 in the section on the B<header()> method:
 
         "+1h"  one hour from now
@@ -3342,7 +3342,7 @@ saved on the server's side of the connection.
 =head1 WORKING WITH NETSCAPE FRAMES
 
 It's possible for CGI.pm scripts to write into several browser
-panels and windows using Netscape's frame mechanism.  
+panels and windows using Netscape's frame mechanism.
 There are three techniques for defining new frames programatically:
 
 =over 4
@@ -3350,20 +3350,20 @@ There are three techniques for defining new frames programatically:
 =item 1. Create a <Frameset> document
 
 After writing out the HTTP header, instead of creating a standard
-HTML document using the start_html() call, create a <FRAMESET> 
+HTML document using the start_html() call, create a <FRAMESET>
 document that defines the frames on the page.  Specify your script(s)
 (with appropriate parameters) as the SRC for each of the frames.
 
-There is no specific support for creating <FRAMESET> sections 
+There is no specific support for creating <FRAMESET> sections
 in CGI.pm, but the HTML is very simple to write.  See the frame
-documentation in Netscape's home pages for details 
+documentation in Netscape's home pages for details
 
   http://home.netscape.com/assist/net_sites/frames.html
 
 =item 2. Specify the destination for the document in the HTTP header
 
 You may provide a B<-target> parameter to the header() method:
-   
+
     print $q->header(-target=>'ResultsWindow');
 
 This will tell Netscape to load the output of your script into the
@@ -3394,7 +3394,7 @@ side-by-side frames.
 
 If you are running the script
 from the command line or in the perl debugger, you can pass the script
-a list of keywords or parameter=value pairs on the command line or 
+a list of keywords or parameter=value pairs on the command line or
 from standard input (you don't have to worry about tricking your
 script into reading from environment variables).
 You can pass keywords like this:
@@ -3415,7 +3415,7 @@ or this:
 
 or even as newline-delimited parameters on standard input.
 
-When debugging, you can use quotes and backslashes to escape 
+When debugging, you can use quotes and backslashes to escape
 characters in the familiar shell manner, letting you place
 spaces and other funny characters in your parameter=value
 pairs:
@@ -3429,7 +3429,7 @@ name/value pairs formatted nicely as a nested list.  This is useful
 for debugging purposes:
 
     print $query->dump
-    
+
 
 Produces something that looks like:
 
@@ -3449,7 +3449,7 @@ You can pass a value of 'true' to dump() in order to get it to
 print the results out as plain text, suitable for incorporating
 into a <PRE> section.
 
-As a shortcut, as of version 1.56 you can interpolate the entire 
+As a shortcut, as of version 1.56 you can interpolate the entire
 CGI object into a string and it will be replaced with the
 the a nice HTML dump shown above:
 
@@ -3476,7 +3476,7 @@ are handled correctly.
 
 Returns the HTTP_COOKIE variable, an HTTP extension
 implemented by Netscape browsers version 1.1
-and higher.  Cookies have a special format, and this 
+and higher.  Cookies have a special format, and this
 method call just returns the raw form (?cookie dough).
 See cookie() for ways of setting and retrieving
 cooked cookies.
@@ -3542,7 +3542,7 @@ one of 'POST', 'GET' or 'HEAD'.
 
 Copyright 1995,1996, Lincoln D. Stein.  All rights reserved.
 It may be used and modified freely, but I do request that this copyright
-notice remain attached to the file.  You may modify this module as you 
+notice remain attached to the file.  You may modify this module as you
 wish, but if you redistribute a modified version, please attach a note
 listing the modifications you have made.
 
@@ -3598,9 +3598,9 @@ for suggestions and bug fixes.
 
 
         #!/usr/local/bin/perl
-     
+
         use CGI;
- 
+
         $query = new CGI;
 
         print $query->header;
@@ -3610,35 +3610,35 @@ for suggestions and bug fixes.
         &do_work($query);
         &print_tail;
         print $query->end_html;
- 
+
         sub print_prompt {
            my($query) = @_;
- 
+
            print $query->startform;
            print "<EM>What's your name?</EM><BR>";
            print $query->textfield('name');
            print $query->checkbox('Not my real name');
- 
+
            print "<P><EM>Where can you find English Sparrows?</EM><BR>";
            print $query->checkbox_group(
                                  -name=>'Sparrow locations',
                                  -values=>[England,France,Spain,Asia,Hoboken],
                                  -linebreak=>'yes',
                                  -defaults=>[England,Asia]);
- 
+
            print "<P><EM>How far can they fly?</EM><BR>",
                 $query->radio_group(
                         -name=>'how far',
                         -values=>['10 ft','1 mile','10 miles','real far'],
                         -default=>'1 mile');
- 
+
            print "<P><EM>What's your favorite color?</EM>  ";
            print $query->popup_menu(-name=>'Color',
                                     -values=>['black','brown','red','yellow'],
                                     -default=>'red');
- 
+
            print $query->hidden('Reference','Monty Python and the Holy Grail');
- 
+
            print "<P><EM>What have you got there?</EM><BR>";
            print $query->scrolling_list(
                          -name=>'possessions',
@@ -3646,19 +3646,19 @@ for suggestions and bug fixes.
                                    'A Sword','A Ticket'],
                          -size=>5,
                          -multiple=>'true');
- 
+
            print "<P><EM>Any parting comments?</EM><BR>";
            print $query->textarea(-name=>'Comments',
                                   -rows=>10,
                                   -columns=>50);
- 
+
            print "<P>",$query->reset;
            print $query->submit('Action','Shout');
            print $query->submit('Action','Scream');
            print $query->endform;
            print "<HR>\n";
         }
- 
+
         sub do_work {
            my($query) = @_;
            my(@values,$key);
@@ -3671,7 +3671,7 @@ for suggestions and bug fixes.
               print join(", ",@values),"<BR>\n";
           }
         }
- 
+
         sub print_tail {
            print <<END;
         <HR>

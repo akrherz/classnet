@@ -30,11 +30,11 @@
 <p>
 6.	I will be teaching telecommuting skills to single mothers interested in achieving economic self-sufficiency.  The class is structured for those who already possess a knowledge of or fluency in keyboarding.  I would use the motor skills they already possess to make use the new manipulatives, in this case the keyboard and the carefully chosen raw data to be entered.  This automatized motor skill frees up valuable short-term memory for the important task of interpreting the raw data for quality which, in turn, enhance the marketability of the young mother’s skills.
 <p>
-  
+
 	As this interpretation is practiced, some students might discover on their own, a deliberate pattern in the incomplete character of the raw data supplied to them by me.  As they complete an exercise which involves entering names and addresses from hand written orders prepared ahead of time with certain fields of data deliberately obscured, smudged, or left incomplete they will encounter issues requiring lion’s share of their processing capability.
 <p>
-  
-	This is a form of guided discovery, and it  evolves from the distinct possibility that problems of interpretation which are quite real might still not reliably appear in truly random raw data.  Should this process provide insufficient opportunity for discovery, discussion will follow centering on the difficulties encountered in the exercise.  Strategies for inferring zip-codes from available data, choosing the most likely spelling of a given name can be suggested, followed-up by practice of these instructer suggested strategies.  Discussion would also attempt to elicit strategies used by the students in solving the unreliable data problem.  
+
+	This is a form of guided discovery, and it  evolves from the distinct possibility that problems of interpretation which are quite real might still not reliably appear in truly random raw data.  Should this process provide insufficient opportunity for discovery, discussion will follow centering on the difficulties encountered in the exercise.  Strategies for inferring zip-codes from available data, choosing the most likely spelling of a given name can be suggested, followed-up by practice of these instructer suggested strategies.  Discussion would also attempt to elicit strategies used by the students in solving the unreliable data problem.
 <p>
 	The merits of these strategies would be tested by a home assignment to be delvered via the internet to practice the unautomatized skill of e-mailing.  The students would complete the assignment by using the procedural knowledge provided through lecture, gained from practice with an internet-based e-mail simulation, and a hand-out detailing the process of submitting their assignments.
 <br>

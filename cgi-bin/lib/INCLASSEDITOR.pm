@@ -89,7 +89,7 @@ FRAME: {
                 }
             }
             $asn->write(%params);
-            if (defined $query->param('publish')) { 
+            if (defined $query->param('publish')) {
                 $asn->publish();
             } else {
                 $asn->unpublish();
@@ -134,14 +134,14 @@ sub edit_assignment {
 <CENTER>
 (Type $atype)
 <HR>
-<INPUT TYPE=checkbox NAME=publish VALUE=Publish $publish> Publish 
+<INPUT TYPE=checkbox NAME=publish VALUE=Publish $publish> Publish
 <HR>
 Total Points
  <INPUT NAME=TP SIZE=3 VALUE=$tp><BR>
 <HR>
 <H4>
 <INPUT TYPE=submit NAME=save VALUE=Save>
-<INPUT TYPE=reset  NAME=reset VALUE=Reset> 
+<INPUT TYPE=reset  NAME=reset VALUE=Reset>
 <INPUT TYPE=submit NAME=back VALUE=Cancel>
 </H4>
 </CENTER>

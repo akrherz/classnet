@@ -5,7 +5,7 @@
 3.  537-96-8027
 4.  9/17/97
 <br>
-5a.  Benefit of prior knowledge in learning new material.  Source:  Pressley Ch #4.  An individual is better able to learn new information if that information is related to and is in agreement with an area of knowledge the individual already has.  
+5a.  Benefit of prior knowledge in learning new material.  Source:  Pressley Ch #4.  An individual is better able to learn new information if that information is related to and is in agreement with an area of knowledge the individual already has.
 <br>
 5b.  Prior knowledge may interfere with new learning.  Source:  Pressley Ch. #4.  This concept, while apparently contradictory to 5a is actually quite consistent.  This concept states that if an individual is presented information that contradicts that individual’s prior knowledge of the area, the individual may not learn the new material and may instead retain their prior knowledge, even if the prior knowledge is incorrect.
 <br>

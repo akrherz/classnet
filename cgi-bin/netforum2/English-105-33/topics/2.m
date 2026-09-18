@@ -45,7 +45,7 @@ the kalam is as follows:
 2.The universe began to exist.
 3.The universe has a cause.
 
-Questions:  
+Questions:
 What philosophical support is there for premise 2?
 What scientific support is there for premise 2?
 
@@ -85,7 +85,7 @@ If so, what are they?</pre>
 ===from:Bryan Appley
 ===date:Fri Sep 26 12:54:51 2003
 ===subject:FPT: Weekly Journal 9/26
-===message:This week I continued to read more about the cosmological argument in The kalam Cosmological argument by William Lane Craig.  I also asked a friend about some possible criticisms of the argument, and practiced trying to respond to the criticisms.  
+===message:This week I continued to read more about the cosmological argument in The kalam Cosmological argument by William Lane Craig.  I also asked a friend about some possible criticisms of the argument, and practiced trying to respond to the criticisms.
 =========yorg=========
 ===from:Bryan Appley
 ===date:Thu Oct  2 12:46:53 2003
@@ -96,7 +96,7 @@ If so, what are they?</pre>
 
 </p>3)agnostic and atheist:  These two terms are often confused with each other often.  They seem to both be someone who disbelieves in God.  This is not true, but before we establish what the definitions, we must actually split the words into four different beliefs.  There is hard and soft agnosticism, and hard and soft atheism.  Hard atheism is a disbelief in God, no matter how much evidence is shown for His existence.  Soft atheism is simply the lack of a belief in God, but someone who is a soft atheist should probably call themselves something like a nontheist, since "non" has less of an "anti" connotation than "a-".  A hard agnostic believes that humans cannot know anything about God.  Soft agnostics just affirm that they don't know about god.  To avoid confusion.  I believe all should acknowledge whether they are hard or soft atheists/agnostics.
 
-</p>4)A good parent is a parent who someone who loves there child and teaches them morality.  It is the childs fault if they do something wrong, but parents need to show them what is wrong and why it's wrong.  
+</p>4)A good parent is a parent who someone who loves there child and teaches them morality.  It is the childs fault if they do something wrong, but parents need to show them what is wrong and why it's wrong.
 
 </p>5) post-grunge rock:  post grunge rock applies to any rock band whose musical influence has been fairly heavily influenced by the grunge movement of the early 1990's (pioneered by bands like Nirvana, Bush, and Smashing Pumpkins).  Cold, who has a recent single called stupid girl, would be considered post grunge.  So would Trapt(with the song headstrong), and the band Breaking Benjamin.  I would say those would be the most "post-grunge" bands of late, but in a sense, basically all modern rock is post-grunge.  The grunge movement heavily affected all rock music from the early 90's on.
 =========yorg=========

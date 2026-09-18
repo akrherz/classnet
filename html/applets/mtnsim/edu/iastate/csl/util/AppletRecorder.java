@@ -64,7 +64,7 @@ public class AppletRecorder
     }
 
     public void close()
-    {   
+    {
         // closes the server connection regardless of mode
         try
         {
@@ -94,7 +94,7 @@ public class AppletRecorder
     }
 
     public Vector getValues(Date d)
-    {   
+    {
         // returns a vector of hashtables for the given date
         // each hashtable corresponds to one event
         // NOTE: the hashtable consists entirely of strings
@@ -139,7 +139,7 @@ public class AppletRecorder
             {
                 readInput();
                 new GetDataFrame((PlayableApplet)app, this);
-            }                
+            }
 
         }
         catch (IOException e)
@@ -193,7 +193,7 @@ public class AppletRecorder
             if (scode.equalsIgnoreCase("session"))
             {
                 // read session date
-                sdate = new Date(readUntil('\n')); 
+                sdate = new Date(readUntil('\n'));
 
                 // store session date
                 sessions.addElement(sdate);

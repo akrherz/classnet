@@ -6,14 +6,14 @@
 ===from:Anne
 ===date:Mon Sep 29 19:33:17 2003
 ===subject:CA: Happiness is a Warm Planet question 1
-===message:"Global warming, if it were to occur, would probably benefit most Americans" 
+===message:"Global warming, if it were to occur, would probably benefit most Americans"
 "Humans, nearly all other animals and most plants would be better off with higher temperatures."
 "Based on the evidence, including historical records, global warming is likely to be good for most of mankind."
 =========yorg=========
 ===from:Anne
 ===date:Mon Sep 29 19:39:35 2003
 ===subject:FPT: Topic
-===message:Full Inclusion of Disabled Students is Desirable. 
+===message:Full Inclusion of Disabled Students is Desirable.
 =========yorg=========
 ===from:Anne
 ===date:Mon Sep 29 19:54:17 2003
@@ -48,7 +48,7 @@
 ===message:1. university views, history of tests, objectors to tests, students reality
 2. I think the end statement about students cheating on the tests thus making tests not an accurate view of students overall intelligence is one of his stronger arguments. He indicates this argument over and over by backing it up over and over with evidence and different points of view.
 3.I believe Goodman calls upon those universities because they are prestigious and leaders in the world of education and they set the standards by which all other universities will follow.
-4. The author reveals his purpose in the following statements: "I think that the great majority of professors agree that grading hinders teaching and creates a bad spirit, going as far as cheating and plagiarizing." "A miserable effect of grading is to nullify the various uses of testing." "Many students are lazy, so teachers try to goad or threaten them by grading. In the long run this must do more harm than good. Laziness is a character-defense." 
+4. The author reveals his purpose in the following statements: "I think that the great majority of professors agree that grading hinders teaching and creates a bad spirit, going as far as cheating and plagiarizing." "A miserable effect of grading is to nullify the various uses of testing." "Many students are lazy, so teachers try to goad or threaten them by grading. In the long run this must do more harm than good. Laziness is a character-defense."
 5. Goodman reply's to the professors statement of "I think that the great majority of professors agree that grading hinders teaching and creates a bad spirit, going as far as cheating and plagiaring" Then, Goodman goes on to say, "It is uniformyl asserted, however, that the grading is inevitable; for how else will the graduate schools, the foundations, the corporations know whom to accept, reward, hire? How will the talent scouts know whom to tap?"  Goodman responds to this assertion that it is inevitable by saying, "By testing the applicants, of course, according to the specific task requirements of  the inducting institution, just as applicants for the Civil Service or for licenses in medicine, law, and architecture are tested."
 6. Goodman thinks the real purpose of testing should be to test specific task requirements of the inducting institution. He says "grading is to nullify the various uses of testing, for both student and teacher is a means of structuring, and also of finding out what is blank or wrong and what has been assimilated and can be taken for granted. The aim is to discover weakness, what is the point of down-grading and punishing it, and thereby inviting the student to conceal his weakness, by faking and bulling, if not cheating?"
 

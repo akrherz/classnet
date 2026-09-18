@@ -17,7 +17,7 @@
 ===from:Jennie Kingery
 ===date:Sun Feb 13 14:52:25 2000
 ===subject:GM crops good idea
-===message:Many ideas are being presented on trying to save the butterflies from Bt.  There is a theory on covering the plants with plastic so the pollen stays around the plants and doesn't fly to others that butterfly caterpillars can crawl on.  There does need to be more research on this subject, but regular crops that are planted with Bt crops do well.  Although GM crops are a very good idea, a lot of work still needs to be done to make sure it's safe for the environment.  
+===message:Many ideas are being presented on trying to save the butterflies from Bt.  There is a theory on covering the plants with plastic so the pollen stays around the plants and doesn't fly to others that butterfly caterpillars can crawl on.  There does need to be more research on this subject, but regular crops that are planted with Bt crops do well.  Although GM crops are a very good idea, a lot of work still needs to be done to make sure it's safe for the environment.
 =========yorg=========
 ===from:Sara Balluff
 ===email:sballuff@iastate.edu
@@ -44,14 +44,14 @@
 ===from:Michelle Evans
 ===date:Mon Feb 14  1:58:41 2000
 ===subject:GM Crops
-===message:I believe that there needs to be further testing before any definite opinions are formed.  
-I believe however, that until GM foods are proven dangerous/bad for the environment, that they all should be labeled so the public can decide whether or not to consume them.  
-Potentially harmfull effects could possibly magnify as the chemicals pass through the food chain.  Perhaps scientists should look into the health of the birds and rodents that eat the monarchs and the other insects.  That way, any hidden dangers may show up more clear higher up in the food chain.  
+===message:I believe that there needs to be further testing before any definite opinions are formed.
+I believe however, that until GM foods are proven dangerous/bad for the environment, that they all should be labeled so the public can decide whether or not to consume them.
+Potentially harmfull effects could possibly magnify as the chemicals pass through the food chain.  Perhaps scientists should look into the health of the birds and rodents that eat the monarchs and the other insects.  That way, any hidden dangers may show up more clear higher up in the food chain.
 =========yorg=========
 ===from:Michael Arrett
 ===date:Mon Feb 14 10:07:43 2000
 ===subject:GM Crops
-===message:After reading the packet and reading some other magazine articles I have to say our technology is outpacing our understanding.  Scientists, for the most part, understand heredity and methods for manipulating it.  The difficulty is that we have so little understanding of the effect of GM crops on ecosystems.  The introduction of GM crops is very similar to the colonial introduction of foreign species.  It unbalances the ecosystem and leads to a number of problems.  Simply put, GM crops should not be mass produced until we are very certain of what their long term effects are.       
+===message:After reading the packet and reading some other magazine articles I have to say our technology is outpacing our understanding.  Scientists, for the most part, understand heredity and methods for manipulating it.  The difficulty is that we have so little understanding of the effect of GM crops on ecosystems.  The introduction of GM crops is very similar to the colonial introduction of foreign species.  It unbalances the ecosystem and leads to a number of problems.  Simply put, GM crops should not be mass produced until we are very certain of what their long term effects are.
 =========yorg=========
 ===from:Jared Travnicek
 ===date:Mon Feb 14 10:49:52 2000
@@ -88,7 +88,7 @@ Potentially harmfull effects could possibly magnify as the chemicals pass throug
 ===from:Jennifer Willems
 ===date:Mon Feb 14 16:38:52 2000
 ===subject:opinion on GM crops
-===message:I have my strongest opinion on issues pertaining to GM foods.  I think it is wrong that the FDA is not demanding labeling of food which have been genetically engineered.  It is our right as a consumer to know what is being put into the foods we eat.  Genetic engineering of food has not YET been proven safe and until then should not be on the market.  It has even been proven that FDA scientists are leary on GE of foods but this doubt was ignored by higher officials.  For more info search www.bio-integrity.org.  
+===message:I have my strongest opinion on issues pertaining to GM foods.  I think it is wrong that the FDA is not demanding labeling of food which have been genetically engineered.  It is our right as a consumer to know what is being put into the foods we eat.  Genetic engineering of food has not YET been proven safe and until then should not be on the market.  It has even been proven that FDA scientists are leary on GE of foods but this doubt was ignored by higher officials.  For more info search www.bio-integrity.org.
 =========yorg=========
 ===from:Matt Dietrich
 ===date:Mon Feb 14 17:20:25 2000
@@ -118,7 +118,7 @@ Potentially harmfull effects could possibly magnify as the chemicals pass throug
 ===from:Joe Baustian
 ===date:Mon Feb 14 22:17:53 2000
 ===subject:GM Crops
-===message:This was the most intersting article I have read on the subject of geniticaly engineered crops.  I had no idea that the European community felt so strongly against GM crops.  I think I liked the American point of view better, since there wasn't sufficient evidence to prove that GM crops are harmful to the environment.  Having grown up in Iowa, I am particularly close to farming, and I can really understand the worries that farmers have about the decision to use or not to use GM crops.  
+===message:This was the most intersting article I have read on the subject of geniticaly engineered crops.  I had no idea that the European community felt so strongly against GM crops.  I think I liked the American point of view better, since there wasn't sufficient evidence to prove that GM crops are harmful to the environment.  Having grown up in Iowa, I am particularly close to farming, and I can really understand the worries that farmers have about the decision to use or not to use GM crops.
 Thank you,
 -_joe_-
 =========yorg=========
@@ -135,7 +135,7 @@ Thank you,
 ===from:Kristin Wenzel
 ===date:Mon Feb 14 22:47:04 2000
 ===subject:GM Crops
-===message:The article covered quite a controversial issue that a lot of people may be affected by and don't even know it.  I personally think that from the outside looking in, it seems like GM crops would be a threat to the population.  But, when you actually go and do the research, its not as big of a deal as it seems.  When I did research on the super cow phenomenon, I thought that the population would be really negatively affected by genetically engineering cows. But in acuality, no one was seriously being hurt.  I think it is a similar case with GM crops.  But, since the science really can't back up that there is a problem that is affecting society, there shouldn't be a big worry.  One thing that should be done though is labeling.  I believe that people have a right to know what they are ingesting.  I don't know why Europe is freaking out, but there definetly needs to be more research done in the field to make sure that nothing is going to harm the people, bugs, animals or crops themselves. But, without any hard core evidence backing up all the proposed problems, no assumtions on the subject should be made.  
+===message:The article covered quite a controversial issue that a lot of people may be affected by and don't even know it.  I personally think that from the outside looking in, it seems like GM crops would be a threat to the population.  But, when you actually go and do the research, its not as big of a deal as it seems.  When I did research on the super cow phenomenon, I thought that the population would be really negatively affected by genetically engineering cows. But in acuality, no one was seriously being hurt.  I think it is a similar case with GM crops.  But, since the science really can't back up that there is a problem that is affecting society, there shouldn't be a big worry.  One thing that should be done though is labeling.  I believe that people have a right to know what they are ingesting.  I don't know why Europe is freaking out, but there definetly needs to be more research done in the field to make sure that nothing is going to harm the people, bugs, animals or crops themselves. But, without any hard core evidence backing up all the proposed problems, no assumtions on the subject should be made.
 =========yorg=========
 ===from:Kelcey Larsen-Ferree
 ===date:Tue Feb 15  0:25:38 2000
@@ -154,17 +154,17 @@ OVERALL, GM crops are more a hinderance to human life (and life on earth as we k
 ===from:Megan Cox
 ===date:Tue Feb 15 11:59:12 2000
 ===subject:GM Crops and Agriculture
-===message:In response to the article on genetically modified crops, I feel that they are both a hazard and a great technology. I do feel that since we live in agricultures heartland, we should be especially aware of any possible risks, from harming insects to not having a market for these crops. While certain advantages, such as having crop resistance, these are weighted when concidering the many possible disadvantages. I feel it somewhat scary that our race has the power to genitically alter organisms. Overall, if i had to choose, I would oppose GM crops, but i can identify with both sides of the debate. The article was very interesting, altough my views were already predetermined on the subject. 
+===message:In response to the article on genetically modified crops, I feel that they are both a hazard and a great technology. I do feel that since we live in agricultures heartland, we should be especially aware of any possible risks, from harming insects to not having a market for these crops. While certain advantages, such as having crop resistance, these are weighted when concidering the many possible disadvantages. I feel it somewhat scary that our race has the power to genitically alter organisms. Overall, if i had to choose, I would oppose GM crops, but i can identify with both sides of the debate. The article was very interesting, altough my views were already predetermined on the subject.
 =========yorg=========
 ===from:Heidi Edsill
 ===date:Tue Feb 15 13:39:08 2000
 ===subject:GM Crops
-===message:After reading the article passed out in class, I have mixed feelings on the subject of genetically modified crops.  New technology and advances in genetics point to exciting new possibilities.  Theoretically, they can be used instead of chemical pesticides and fertilizers, helping the environment.  They can be used to increase production, making better use of the land available and reducing the need to clear new land for farming.  But also, little is known about the consequences of tinkering with genetics.  There could be unforseen effects, not only on the plants and humans who eat them, but on the animals and other plants that interact with them, and on the environment as a whole.  The interactions within an ecosystem are unbelieveably complex and it is impossible to understand them all completely.  This means that we cannot know the full effects this new technology will have.  It poses a very difficult question:  Do we continue on with GM crops and risk the potential side-effects, or do we halt the use of GM crops and give up the benefits they offer?  I think perhaps the best course of action is to proceed cautiously with any new products, testing them thoroughly and considering the possible effects, while keeping close watch on the existing products to see the kinds of effects they have in the long run.  
+===message:After reading the article passed out in class, I have mixed feelings on the subject of genetically modified crops.  New technology and advances in genetics point to exciting new possibilities.  Theoretically, they can be used instead of chemical pesticides and fertilizers, helping the environment.  They can be used to increase production, making better use of the land available and reducing the need to clear new land for farming.  But also, little is known about the consequences of tinkering with genetics.  There could be unforseen effects, not only on the plants and humans who eat them, but on the animals and other plants that interact with them, and on the environment as a whole.  The interactions within an ecosystem are unbelieveably complex and it is impossible to understand them all completely.  This means that we cannot know the full effects this new technology will have.  It poses a very difficult question:  Do we continue on with GM crops and risk the potential side-effects, or do we halt the use of GM crops and give up the benefits they offer?  I think perhaps the best course of action is to proceed cautiously with any new products, testing them thoroughly and considering the possible effects, while keeping close watch on the existing products to see the kinds of effects they have in the long run.
 =========yorg=========
 ===from:Lacey Bilden
 ===date:Tue Feb 15 13:49:25 2000
 ===subject:GM Crops
-===message:From reading the article on GMOs, I have decided that they are not worth all they are meant to be.  First of all, GMOs are not doing any good for the natural wildlife that live in the same area, the monarch butterfly larvae and the rats.  Second, the growth of GMOs may cause the weeds to become resistant to the chemicals of pesticides and insecticides.  These resistant weeds can then take over the field and wipe out the crops.  Also I had done my biology 202 Lab poster report on GMO Corn, and I learned that many countries in Europe will not buy GMOs and many storage facilities, such as ADM will not store them either.  The GMO crop may have benifits, but I feel that they are not worth the money and nature loss.  
+===message:From reading the article on GMOs, I have decided that they are not worth all they are meant to be.  First of all, GMOs are not doing any good for the natural wildlife that live in the same area, the monarch butterfly larvae and the rats.  Second, the growth of GMOs may cause the weeds to become resistant to the chemicals of pesticides and insecticides.  These resistant weeds can then take over the field and wipe out the crops.  Also I had done my biology 202 Lab poster report on GMO Corn, and I learned that many countries in Europe will not buy GMOs and many storage facilities, such as ADM will not store them either.  The GMO crop may have benifits, but I feel that they are not worth the money and nature loss.
 =========yorg=========
 ===from:Leah Pollastrini
 ===email:leah@iastate.edu
@@ -180,7 +180,7 @@ OVERALL, GM crops are more a hinderance to human life (and life on earth as we k
 ===from:Jennifer Pelusi
 ===date:Tue Feb 15 18:50:48 2000
 ===subject:GM Crops
-===message:I find it hard to take a stance on this subject because even the experts cannot agree.  For some reasons I believe that GM crops will have a positive impact on our society.  Based on evidence presented in the article, GM crops benefit the environment because farmers do not have to use as many pesticides, and they do not have to till the soil as much leading to less soil erosion.  On the other side of the issue, there is not enough research that says that these crops are good for us.  I think that we need to take into perspective that there are many unknown effects from these crops.  Who knows, maybe twenty years down the road they'll find that these crops pose serious health hazards not only to humans, but to other organisms on earth.  They have already discovered some potential heath hazards to monarch butterflies, as discusse in this article.  Another issue that concerns me is that the industry is concerned about how much money they are making on the crops and they think that if labeling is required, they will lose money.  Does everything have to be about money?  What are they going to do if all of the consumers die because of some unknown health hazard?  I know that is an extreme statement, but they are going to extreme with the money issue.  After all, if they didn't have consumers, they wouldn't make a profit anyway.  I think that labeling should be required because it will allow consumers to make up their own minds instead of money-hungry industrialists deciding for us.  If consumers do not buy the products, it will give the industry a reason to put all of their strenghts into ong-term research so that they can reassure the consumers that their product is safe.   
+===message:I find it hard to take a stance on this subject because even the experts cannot agree.  For some reasons I believe that GM crops will have a positive impact on our society.  Based on evidence presented in the article, GM crops benefit the environment because farmers do not have to use as many pesticides, and they do not have to till the soil as much leading to less soil erosion.  On the other side of the issue, there is not enough research that says that these crops are good for us.  I think that we need to take into perspective that there are many unknown effects from these crops.  Who knows, maybe twenty years down the road they'll find that these crops pose serious health hazards not only to humans, but to other organisms on earth.  They have already discovered some potential heath hazards to monarch butterflies, as discusse in this article.  Another issue that concerns me is that the industry is concerned about how much money they are making on the crops and they think that if labeling is required, they will lose money.  Does everything have to be about money?  What are they going to do if all of the consumers die because of some unknown health hazard?  I know that is an extreme statement, but they are going to extreme with the money issue.  After all, if they didn't have consumers, they wouldn't make a profit anyway.  I think that labeling should be required because it will allow consumers to make up their own minds instead of money-hungry industrialists deciding for us.  If consumers do not buy the products, it will give the industry a reason to put all of their strenghts into ong-term research so that they can reassure the consumers that their product is safe.
 =========yorg=========
 ===from:Brian Hopper
 ===date:Tue Feb 15 19:13:05 2000
@@ -192,18 +192,18 @@ OVERALL, GM crops are more a hinderance to human life (and life on earth as we k
 ===from:Ryan Eisele
 ===date:Tue Feb 15 19:45:21 2000
 ===subject:Opinions On Genetically Modifiend Crops
-===message:I think GM crops will play a major role in the future of agriculture.  They could really help out undeveloped countries as well as developed countries such as the United States and even in Europe where they are hated.  If we are unsure of the safety of a crop we should leave it off the market until it is tested and is known to be safe, but we should definitely continue research on GM crops because I believe they will play an important role in the future in creating safer and more nutritious foods. 
+===message:I think GM crops will play a major role in the future of agriculture.  They could really help out undeveloped countries as well as developed countries such as the United States and even in Europe where they are hated.  If we are unsure of the safety of a crop we should leave it off the market until it is tested and is known to be safe, but we should definitely continue research on GM crops because I believe they will play an important role in the future in creating safer and more nutritious foods.
 =========yorg=========
 ===from:Elizabeth Schmerr
 ===email:eschmerr@iastate.edu
 ===date:Tue Feb 15 20:10:56 2000
 ===subject:GM crops
-===message:I think that until we know more about the different affects of genetically modifying crops, we should proceed with caution.  The monarch butterflies are an example because a gene that coded for a protein harmful to the butterflies was inserted in the corn.  It gave the corn the added benefit, but it could be argued that there were adverse affects on the butterflies.  So until we know more about the effects on the environment, adding a gene that might benefit in one way, might actually be toxic to the environment.  I have to say I find it ironic that humans have made mistakes before on this kind of project.  When everyone thought that DDT was the greatest thing in the world for killing insects, they were wrong.  The same can be said for genetically modified crops because we are tampering with something that still evades us to how it all works.  For me this is a signal to stop and reevaluate how important it is to produce one more kernel of corn.  It may sound preposterous that all the details would have to first be known, but it makes sense at least to me.  Because sometimes it is the details that count.  There are endless examples where someone has forgotten detail and the end result is catastrophe.  There is the benefit of the genetic crops, but at what cost is basically what I am saying.   
+===message:I think that until we know more about the different affects of genetically modifying crops, we should proceed with caution.  The monarch butterflies are an example because a gene that coded for a protein harmful to the butterflies was inserted in the corn.  It gave the corn the added benefit, but it could be argued that there were adverse affects on the butterflies.  So until we know more about the effects on the environment, adding a gene that might benefit in one way, might actually be toxic to the environment.  I have to say I find it ironic that humans have made mistakes before on this kind of project.  When everyone thought that DDT was the greatest thing in the world for killing insects, they were wrong.  The same can be said for genetically modified crops because we are tampering with something that still evades us to how it all works.  For me this is a signal to stop and reevaluate how important it is to produce one more kernel of corn.  It may sound preposterous that all the details would have to first be known, but it makes sense at least to me.  Because sometimes it is the details that count.  There are endless examples where someone has forgotten detail and the end result is catastrophe.  There is the benefit of the genetic crops, but at what cost is basically what I am saying.
 =========yorg=========
 ===from:Andy Fields
 ===date:Tue Feb 15 21:28:19 2000
 ===subject:GM crops should be treated like they are drugs.
-===message:     GM crops, like many engineered substances, have the potential to make life a little better in a number of ways--many of which were discussed in the article.  However, consuming foods which are genetically--and thus, chemically--altered should be approached with the same caution required for the public use of any artificially synthesized substance.  
+===message:     GM crops, like many engineered substances, have the potential to make life a little better in a number of ways--many of which were discussed in the article.  However, consuming foods which are genetically--and thus, chemically--altered should be approached with the same caution required for the public use of any artificially synthesized substance.
      When a pharmaceutical company comes out with a new drug, extensive testing must be done.  The acute toxicity, long-term toxicity, behavioral and physiological effects, and tolerable human dosages must be determined with animal studies using several different species before extremely controlled human studies can even begin.  Then, years of carefully documented studies are conducted on a range of sample types.  Finally, after all of the testing and documentation, all of the paperwork (usually an entire truckload of some 50-100 large volumes) is shipped off to washington to be approved by government pharmaceutical agencies.  If anything is incomplete or unsafe or improperly documented, the drug is rejected and the company must continue studies or start over from scratch.
      I am not suggesting that this stringent of policies are necessary for GM crops, but it is clear that years of extensive research should preceed public consumption of GM crops.  After all, they do contain chemically synthesized compounds that meet the strictest definitions of a drug.
 =========yorg=========
@@ -226,12 +226,12 @@ OVERALL, GM crops are more a hinderance to human life (and life on earth as we k
 ===email:cmerisko@iastate.edu
 ===date:Tue Feb 15 23:02:42 2000
 ===subject:GM Crops
-===message:I think that in essence, genetically engineered crops could be beneficial in food production by lowering costs of food, and improving the nutritional value.  However, I believe that in order for these benefits to be put to use, these crops should be tested for potential hazards and if any doubt is raised, these crops should not be marketable.  For example, if these crops really reduce the effectiveness of antibiotics, they should not be sold because the potential hazard that it poses outweighs the benefits by far.  The idea of GM crops should not be abandoned, the crops should just be tested and modified until doubt is put to rest.  
+===message:I think that in essence, genetically engineered crops could be beneficial in food production by lowering costs of food, and improving the nutritional value.  However, I believe that in order for these benefits to be put to use, these crops should be tested for potential hazards and if any doubt is raised, these crops should not be marketable.  For example, if these crops really reduce the effectiveness of antibiotics, they should not be sold because the potential hazard that it poses outweighs the benefits by far.  The idea of GM crops should not be abandoned, the crops should just be tested and modified until doubt is put to rest.
 =========yorg=========
 ===from:Jonah Ferrin
 ===date:Wed Feb 16  9:44:16 2000
 ===subject:GM CROP
-===message:After reading this nice assignment that was given to us I believe that GM Crops are a Good and Bad.  
+===message:After reading this nice assignment that was given to us I believe that GM Crops are a Good and Bad.
 The Good, we will be able to have more food for more people to eat.  Prices will go down because there is enough food for everyone.  We will better understand how to produce better crops.
 The Bad, people don't understanding what these crops can do to them are to their family.  Are little friendly animals might be affected then soon will go up the chain and affect us.  People will start thinking that Science has gone mad, and not trust them anymore.
 
@@ -256,7 +256,7 @@ The Bad, people don't understanding what these crops can do to them are to their
 ===date:Wed Feb 16 11:49:33 2000
 ===subject:Putting GM Crops on Trial
 ===message:  Whenever a trial is presented before a jury, the opposing sides will each lay out their case and present the evidence that supports their claim.  The jury then weighs the evidence and votes in favor of the side that is most convinving.  It is key that sufficient evidence be gathered in order for the jury to make a wise decision.  I believe that this is also true in order for the world to reach a conclusion on the existence of genetically modified crops - more evidence needs to be gathered on both sides of the debate.
- So far the anti-GM movement has raised several concerns, but research has led to mixed conclusions.  For example, the issue has been raised that the B+ protein that some GM plants produce could be harmful to monarch butterflies.  Experiments that were done in labs proved that this statement was true, however research in natural environments led to mixed conclusions.  The results of one experiment showed that even milkweeds that were within 1 meter of the crops were unlikely to be dusted with toxic levels of the B+ pollen.  Some scientists ruled this as a positive sign, while others claimed that damage could still be done, even if it was to a lesser degree.  
+ So far the anti-GM movement has raised several concerns, but research has led to mixed conclusions.  For example, the issue has been raised that the B+ protein that some GM plants produce could be harmful to monarch butterflies.  Experiments that were done in labs proved that this statement was true, however research in natural environments led to mixed conclusions.  The results of one experiment showed that even milkweeds that were within 1 meter of the crops were unlikely to be dusted with toxic levels of the B+ pollen.  Some scientists ruled this as a positive sign, while others claimed that damage could still be done, even if it was to a lesser degree.
  Other concerns were raised as well and led to data that resulted in a variety of conclusions.  one of these issues was the risk of pesticide and virus resistant genes being passed to weeds that could then outgrow ordinary plants.  Some scientists believed that this was unlikely, while others argued that there was a sufficient risk.  Another dispute involved the industry claims that GM crops would cut down on a farmer's costs for pesticides.  Some studies showed that while the costs for pesticide applications were lower, so were the yields.  A lot of the evidence gathered on these issues has led scientists to more questions and mixed opinions than it has to accurate scientific conclusions.
  While scientists debate, the public opion has been carried away by rumors and fears that genetically modified crops would be harmful to human health.  The public opinion has carried a lot of economic weight, especially in England, where the consumers have demanded to be more informed.
  If I were to be a jury member in a case putting GM crops on trial, I believe I would have trouble making a wise decision based on the amount of evidence that scientists have discovered thus far.  I believe that there are many benefits of GM crops, including improved yields which could lead to efforts to reduce malnutrition in the world, environmental protection due to the use of fewer pesticides, and an improved economy. However, I also believe that there are valid reasons to be concerned, including health risks to both humans and creatures such as the monarch butterfly.  At this moment in time, I believe that the benefits outweight the risks, however, I agree with Cook from Washington State that, "We can't ignore the risks."
@@ -274,7 +274,7 @@ The Bad, people don't understanding what these crops can do to them are to their
 ===from:Garrett Korrect
 ===date:Wed Feb 16 13:34:07 2000
 ===subject:gm crops
-===message:Until reading this article, I was not aware that genetically modified plants were such a contraversial issue.  Obviously there are positives and negatives to every issue but as far as GM plants go, I would say that the positives outweigh the negatives.  My grandfather and uncle are farmers in Northwestern Iowa, and in the recent years they have been struggling to match the revenue of the late 70's and early 80's.  If GM crops, provided no significant damage to other wildlife, can help get their yeild up, so be it.  There is a point where we must stand in front of science, but if it will help the livelihoods of the millions of farmers across the country it will be a positive move foreward. 
+===message:Until reading this article, I was not aware that genetically modified plants were such a contraversial issue.  Obviously there are positives and negatives to every issue but as far as GM plants go, I would say that the positives outweigh the negatives.  My grandfather and uncle are farmers in Northwestern Iowa, and in the recent years they have been struggling to match the revenue of the late 70's and early 80's.  If GM crops, provided no significant damage to other wildlife, can help get their yeild up, so be it.  There is a point where we must stand in front of science, but if it will help the livelihoods of the millions of farmers across the country it will be a positive move foreward.
 =========yorg=========
 ===from:Cory Robinson
 ===date:Wed Feb 16 14:18:55 2000
@@ -296,16 +296,16 @@ The Bad, people don't understanding what these crops can do to them are to their
 ===from:Chimin Ho
 ===date:Wed Feb 16 15:05:17 2000
 ===subject:GM Crops?
-===message:<pre>GM crops should be researched further before they are 
-intoduced in any more areas where they aren't being used 
+===message:<pre>GM crops should be researched further before they are
+intoduced in any more areas where they aren't being used
 already.  Although there isn't any concrete information that
-proves that GM crops are definitely bad or definitely good, 
+proves that GM crops are definitely bad or definitely good,
 the fact that there is possibly a large risk involved should
-prompt scientists and farmers to proceed with caution.  The 
-long range effects of using GM crops need to be research thoroughly before they are put to extensive use.  
+prompt scientists and farmers to proceed with caution.  The
+long range effects of using GM crops need to be research thoroughly before they are put to extensive use.
 Furthurmore, people need to look at the overall advantages
-and disadvantages of the GM crops and see if the good 
-outweighs the bad.  Do they really spare farmers extra 
+and disadvantages of the GM crops and see if the good
+outweighs the bad.  Do they really spare farmers extra
 costs?  As the information available is inconclusive so far,
 I can't say whether I am against GM crops or for them.  I
 would like to see much more extensice research before I make
@@ -331,7 +331,7 @@ a permanent decision.
 ===email:spatrick@iastate.edu
 ===date:Wed Feb 16 16:31:26 2000
 ===subject:GMO's
-===message:I feel that more research needs to be done on genetically modified organisms before they are used in food products.  As of now, they seem as if they would be beneficial to society, however, the concerns brought up by foreign markets cannot be ignored either.  More testing need to be done on all GMOs in order to make sure that they are safe for us, as consumers, and the environment.  But until sufficient tests can be completed on the new genetic changes in crops, labeling should be required so that people have the option of whether or not to purchase the altered products.  
+===message:I feel that more research needs to be done on genetically modified organisms before they are used in food products.  As of now, they seem as if they would be beneficial to society, however, the concerns brought up by foreign markets cannot be ignored either.  More testing need to be done on all GMOs in order to make sure that they are safe for us, as consumers, and the environment.  But until sufficient tests can be completed on the new genetic changes in crops, labeling should be required so that people have the option of whether or not to purchase the altered products.
 =========yorg=========
 ===from:christina M.
 ===date:Wed Feb 16 16:55:00 2000
@@ -357,28 +357,28 @@ a permanent decision.
 ===from:Kristen Krumhardt
 ===date:Wed Feb 16 19:27:42 2000
 ===subject:GM Crops
-===message:I think that sometimes genetically modified crops have some 
-advantages and disadvantages.  The only prime advantage that 
-I can see is if by genetically modifying a crop it greatly 
-reduces the amount of pesticides or herbicides that would 
-have been used on it otherwise.  Although, the ideal 
-situation would be to use no poisons or GM crops and grow 
-everything organically and naturally.  For the most part I 
-think that genetically modified crops are unneccessary, 
-especially when they are harming other living organisms.  
-Monarch butterflies should not have to be harmed.  Their 
-habitat down in Mexico is being destroyed and if their 
-habitat here is also being tampered with then they will have 
-an extremely low survival rate.  If other plants, likes 
-weeds, pick up this gene then that could be harmful also and 
-would defeat the purpose for making these GM crops.  My 
-overall view is that GM crops are unneccessary and shouldn't 
+===message:I think that sometimes genetically modified crops have some
+advantages and disadvantages.  The only prime advantage that
+I can see is if by genetically modifying a crop it greatly
+reduces the amount of pesticides or herbicides that would
+have been used on it otherwise.  Although, the ideal
+situation would be to use no poisons or GM crops and grow
+everything organically and naturally.  For the most part I
+think that genetically modified crops are unneccessary,
+especially when they are harming other living organisms.
+Monarch butterflies should not have to be harmed.  Their
+habitat down in Mexico is being destroyed and if their
+habitat here is also being tampered with then they will have
+an extremely low survival rate.  If other plants, likes
+weeds, pick up this gene then that could be harmful also and
+would defeat the purpose for making these GM crops.  My
+overall view is that GM crops are unneccessary and shouldn't
 be used in most situations.
 =========yorg=========
 ===from:Josh Beck
 ===date:Wed Feb 16 20:12:49 2000
 ===subject:GM science is valuable and should be handled with care
-===message:The debate over GM crops is one of key importance in the this rapidly developing science as its outcome will likely have an overwhelming effect on the GM science's future.  The first and foremost concern with the development of any new organism should be how it will exist in that natural world.  We must be mindful to not forget that the organisms which are being produced are exibiting completely new attributes and have a great potential to exhibit unplanned and unexpected attributes aside from benefit of their target modification.  The problem of Bt toxin effects on monarch butterflies is a perfect example of such unknown side affects which may develop.  It seems to me that right now, the major concern of most companies which are developing GM crops is monatary benefit and not ecological impact and this is a dangerous attitude.  Although the mortality of the Bt toxin from GM crop pollen in monarchs has not yet been proven, there seems to be substantial evidence to support the idea.  And other concerns are building, such as the spread of antibiotic resistance to other species via cross-pollenation.  The great potential for mankind's benefit from GM organisms must not be overlooked, but at the same time, care must be taken to ensure that this relatively new science is fully understood in terms of the environmental and health affects it can manifest.  We have examples of very postive and very negative results from GM crop use and it may be that the good must be taken and the bad thrown away.  GM in cotton has thus far exibited excellent return, showing few problems and a much higher yield while allowing a substantial limit on pesticide and herbicide use.  However, GM corn use in the midwest seems to show opposite results, costing farmer more than it is worth.  In the end, careful testing and attention to detail are areas that cannot be ignored if GM science is to be implimented in the future without fear of unforseen problems or open opposition by consumers.  
+===message:The debate over GM crops is one of key importance in the this rapidly developing science as its outcome will likely have an overwhelming effect on the GM science's future.  The first and foremost concern with the development of any new organism should be how it will exist in that natural world.  We must be mindful to not forget that the organisms which are being produced are exibiting completely new attributes and have a great potential to exhibit unplanned and unexpected attributes aside from benefit of their target modification.  The problem of Bt toxin effects on monarch butterflies is a perfect example of such unknown side affects which may develop.  It seems to me that right now, the major concern of most companies which are developing GM crops is monatary benefit and not ecological impact and this is a dangerous attitude.  Although the mortality of the Bt toxin from GM crop pollen in monarchs has not yet been proven, there seems to be substantial evidence to support the idea.  And other concerns are building, such as the spread of antibiotic resistance to other species via cross-pollenation.  The great potential for mankind's benefit from GM organisms must not be overlooked, but at the same time, care must be taken to ensure that this relatively new science is fully understood in terms of the environmental and health affects it can manifest.  We have examples of very postive and very negative results from GM crop use and it may be that the good must be taken and the bad thrown away.  GM in cotton has thus far exibited excellent return, showing few problems and a much higher yield while allowing a substantial limit on pesticide and herbicide use.  However, GM corn use in the midwest seems to show opposite results, costing farmer more than it is worth.  In the end, careful testing and attention to detail are areas that cannot be ignored if GM science is to be implimented in the future without fear of unforseen problems or open opposition by consumers.
 =========yorg=========
 ===from:Danette Allen
 ===date:Wed Feb 16 20:13:35 2000
@@ -404,7 +404,7 @@ I am for GM crops, but only if it is approached at a safe pace, deeply researche
 ===from:Chris Kubina
 ===date:Wed Feb 16 20:48:31 2000
 ===subject:GM crops
-===message:     I believe that genetically modified foods and crops are helpful in some ways, yet harmful in others.  For instance the idea of mass production to feed many people is a very humanistical view, but the cost of the seeds for these hybrid crops are a preety penny.  Not to mention what it is happening to the life that used to depend on farm crops to survive.  So what if a few worms or butterflies die, no big deal but when a  chain reaction in the food web occurs, which might be a posibility it is going to be really bad.  I still firmly believe the idea is good but it needs some work and since it is mass produced we need the European countries in our exporting market. 
+===message:     I believe that genetically modified foods and crops are helpful in some ways, yet harmful in others.  For instance the idea of mass production to feed many people is a very humanistical view, but the cost of the seeds for these hybrid crops are a preety penny.  Not to mention what it is happening to the life that used to depend on farm crops to survive.  So what if a few worms or butterflies die, no big deal but when a  chain reaction in the food web occurs, which might be a posibility it is going to be really bad.  I still firmly believe the idea is good but it needs some work and since it is mass produced we need the European countries in our exporting market.
 =========yorg=========
 ===from:Sarah Haindfield
 ===date:Wed Feb 16 21:08:24 2000
@@ -414,13 +414,13 @@ I am for GM crops, but only if it is approached at a safe pace, deeply researche
 ===from:Julia Haas-Slattery
 ===date:Wed Feb 16 21:24:40 2000
 ===subject:GM products
-===message:There are so many arguments on GM crops.  There are experts on both sides with arguments for, or against, GM products.  Being a first year biology student I just dont know which experts are correct and which are not.  I think modifying anything in nature is kind of scary.  Can you improve one thing without hurting another?  Yes the pests attacking the plants will get sick or die but what effects will that have on everthing else involved with the 'pests'?  Right now I just dont have enough positive information.  Some experts say GM foods "stunt growth of rats and damnage their immune systems."  Another statement was "...how far the pollen might drift from cornfields," thus affecting more than just the crops.Then there is a positive, other side that we could modify foods to benefit people in third world countries with nutritive additives.  It seems, through this article, that there are a few reasons GM is good and many more why it isnt.  For now, I'm just not convinced that messing with nature could be good for anything in the long run.  
+===message:There are so many arguments on GM crops.  There are experts on both sides with arguments for, or against, GM products.  Being a first year biology student I just dont know which experts are correct and which are not.  I think modifying anything in nature is kind of scary.  Can you improve one thing without hurting another?  Yes the pests attacking the plants will get sick or die but what effects will that have on everthing else involved with the 'pests'?  Right now I just dont have enough positive information.  Some experts say GM foods "stunt growth of rats and damnage their immune systems."  Another statement was "...how far the pollen might drift from cornfields," thus affecting more than just the crops.Then there is a positive, other side that we could modify foods to benefit people in third world countries with nutritive additives.  It seems, through this article, that there are a few reasons GM is good and many more why it isnt.  For now, I'm just not convinced that messing with nature could be good for anything in the long run.
 
 =========yorg=========
 ===from:Cheryl Wroblewski
 ===date:Wed Feb 16 21:41:19 2000
 ===subject:GM Crops
-===message:I feel that the article goes back and forth on genetically modified crops.  Overall I think genetic engineering could be a good thing, especially with using bacteria to clean up pollution.  But the use of genetic engineering needs to be discussed and experiemented further.  What will the overall effects of genetic engineering be?  Can genetic engineering create harmful mutations?  And can genetic engineering hurt other organism such as the monarch butterfly?  Often times scientists use new methods without thinking about the long term effects.  I think genetic engineering could be good for the use of medicine.  However using genetic engineering for unnessary things isn't a good idea, unless scientist can answer the questions of what will be the long term effects.  
+===message:I feel that the article goes back and forth on genetically modified crops.  Overall I think genetic engineering could be a good thing, especially with using bacteria to clean up pollution.  But the use of genetic engineering needs to be discussed and experiemented further.  What will the overall effects of genetic engineering be?  Can genetic engineering create harmful mutations?  And can genetic engineering hurt other organism such as the monarch butterfly?  Often times scientists use new methods without thinking about the long term effects.  I think genetic engineering could be good for the use of medicine.  However using genetic engineering for unnessary things isn't a good idea, unless scientist can answer the questions of what will be the long term effects.
 =========yorg=========
 ===from:Meghann VanAuwelaer
 ===date:Wed Feb 16 22:38:43 2000
@@ -430,25 +430,25 @@ I am for GM crops, but only if it is approached at a safe pace, deeply researche
 ===from:Allison Hall
 ===date:Wed Feb 16 22:38:51 2000
 ===subject:more, more, more!
-===message:The concept of genetically modified crops is very 
-interesting and an amazing breakthrough in production 
-technology. So far, all of our attempts to mess with nature, 
-improve production, make more money, and make life just a 
-little bit easier has gone as planned. Likewise, with the GM 
-crops, it looks as if the effects will benefit farmers and 
-consumers. So, in this respect, GM crops are a desired 
-addition to our productive world.  On the other hand, I just 
-have to wonder, when is nature going to decide that we've 
-messed with it too much? One day, our attempts to modify 
-something may backfire. Likewise, plants have been growing 
-on their own, without help and genetic assistance, for quite 
-some time. I just have to notice that some of the biggest 
-advantages have to deal with more production, making more 
-money, and saving money based on the decrease of pesticides 
-used on plants. I think that this simply supports the fact 
-that our world today is so preoccupied with convenience, 
-money, and the idea that more and bigger is better. Well, 
-that is Ok, but is it ever going to stop? We will never be 
+===message:The concept of genetically modified crops is very
+interesting and an amazing breakthrough in production
+technology. So far, all of our attempts to mess with nature,
+improve production, make more money, and make life just a
+little bit easier has gone as planned. Likewise, with the GM
+crops, it looks as if the effects will benefit farmers and
+consumers. So, in this respect, GM crops are a desired
+addition to our productive world.  On the other hand, I just
+have to wonder, when is nature going to decide that we've
+messed with it too much? One day, our attempts to modify
+something may backfire. Likewise, plants have been growing
+on their own, without help and genetic assistance, for quite
+some time. I just have to notice that some of the biggest
+advantages have to deal with more production, making more
+money, and saving money based on the decrease of pesticides
+used on plants. I think that this simply supports the fact
+that our world today is so preoccupied with convenience,
+money, and the idea that more and bigger is better. Well,
+that is Ok, but is it ever going to stop? We will never be
 satisfied.
 =========yorg=========
 ===from:Stephan Joanides
@@ -459,13 +459,13 @@ satisfied.
 ===from:Megan Sweeney
 ===date:Wed Feb 16 23:40:07 2000
 ===subject:gm crops
-===message:I don't particularly like the thought of messing with mother nature's way.  Frankly, it freaks me out to think that scientists are gaining control over what used to be controlled  by the earth, and only the earth. 
+===message:I don't particularly like the thought of messing with mother nature's way.  Frankly, it freaks me out to think that scientists are gaining control over what used to be controlled  by the earth, and only the earth.
 
 =========yorg=========
 ===from:Andrew Slattery
 ===date:Wed Feb 16 23:51:35 2000
 ===subject:GM Crops
-===message:I am for genetically altering crops.  True there are some downsides of it, but the upsides completely out weigh them.  As long as the products are tested properly before marketing I don’t see any problem.  I also find it sad that the media will jump on any negative information about GM products, even if it is not completely proven just to make a story.  The only thing stopping Gm products is that fact that people resist change so much.  People always want to cling to the “old ways” but what they don’t understand is that a lot of times the old ways are not the most effective ways.  Even if they stop all GM products from being sold tons of chemicals will still continue to be dumped on to crops for resistance, what do the British think of that?   
+===message:I am for genetically altering crops.  True there are some downsides of it, but the upsides completely out weigh them.  As long as the products are tested properly before marketing I don’t see any problem.  I also find it sad that the media will jump on any negative information about GM products, even if it is not completely proven just to make a story.  The only thing stopping Gm products is that fact that people resist change so much.  People always want to cling to the “old ways” but what they don’t understand is that a lot of times the old ways are not the most effective ways.  Even if they stop all GM products from being sold tons of chemicals will still continue to be dumped on to crops for resistance, what do the British think of that?
 =========yorg=========
 ===from:Jennifer Lanning
 ===date:Wed Feb 16 23:59:52 2000
@@ -475,25 +475,25 @@ satisfied.
 ===from:Miki Katayama
 ===date:Thu Feb 17  0:17:20 2000
 ===subject:GM Plants
-===message:Since the scientists and entomologist finds that the corn 
-pollen from Bt corn could harm monarch butterflies, we have 
+===message:Since the scientists and entomologist finds that the corn
+pollen from Bt corn could harm monarch butterflies, we have
 to keep the study until we can conclude that Bt corn has no
-effect for this ecosystem, because the result may show us 
+effect for this ecosystem, because the result may show us
 the sigh which the Bt corn destroys a part of the ecosystem.
-Some of GM plants can have possibility to prevent some 
-chronic disease. For example, the transgenic alfalfa plants 
-make resveratrol which is somehow good for your health, and 
-a study is investigating for the prevention of the colon 
+Some of GM plants can have possibility to prevent some
+chronic disease. For example, the transgenic alfalfa plants
+make resveratrol which is somehow good for your health, and
+a study is investigating for the prevention of the colon
 cancer by using the transgenic alfalfa.
-Therefore we can not conclude GM crops or plants may have 
-harmful for human. The most important thing for GM plants is 
-the copperation between the suppoters and opponents to find 
-the best way for human and the 
+Therefore we can not conclude GM crops or plants may have
+harmful for human. The most important thing for GM plants is
+the copperation between the suppoters and opponents to find
+the best way for human and the
 =========yorg=========
 ===from:John Mixdorf
 ===date:Thu Feb 17  9:45:13 2000
 ===subject:opinion
-===message:I believe that there are many ways at looking at this new research. It all depends on what your values are towards animals or humans. For me, I consider myself as being a conservationist, so I would have to say no on this new research do to the killing of the butterfly. To most people a butterfly is not much but to people like me, we know that the butterfly does play a role in nature. 
+===message:I believe that there are many ways at looking at this new research. It all depends on what your values are towards animals or humans. For me, I consider myself as being a conservationist, so I would have to say no on this new research do to the killing of the butterfly. To most people a butterfly is not much but to people like me, we know that the butterfly does play a role in nature.
 =========yorg=========
 ===from:Lashundra Jiles
 ===date:Thu Feb 17 11:38:27 2000
@@ -504,8 +504,8 @@ the best way for human and the
 ===email:gringo@iastate.edu
 ===date:Thu Feb 17 12:04:23 2000
 ===subject:Gm
-===message:	I believe that more reseach needs to be done before we decide the fate of GMOs.  To much of the data out there is incomplete.  There are potential benefits for the farmer and so GMOs have been pushed through the system.  Another example of this is Phen Phen.   The reseach was incomplete.  Once people statred to die, we realized that there were some things that the research had not covered.  
-	I don't know if GMOs are a good thing or not.  I feel, however, that until some better reseach has been done, we can't accept or reject them.  We need to complete the research started and preform some long term studies on the effects of GMOs on humans and the environment.  
+===message:	I believe that more reseach needs to be done before we decide the fate of GMOs.  To much of the data out there is incomplete.  There are potential benefits for the farmer and so GMOs have been pushed through the system.  Another example of this is Phen Phen.   The reseach was incomplete.  Once people statred to die, we realized that there were some things that the research had not covered.
+	I don't know if GMOs are a good thing or not.  I feel, however, that until some better reseach has been done, we can't accept or reject them.  We need to complete the research started and preform some long term studies on the effects of GMOs on humans and the environment.
 	Famers have made it thus far without GMO, they can wait a few more years until we know for sure the effects of GMO's
 =========yorg=========
 ===from:Kathleen Lyons
@@ -533,18 +533,18 @@ the best way for human and the
 ===from:Jenny VanderSchoor
 ===date:Thu Feb 17 14:11:46 2000
 ===subject:GM crops: proceed with caution
-===message:The more knowledge we gain about GMOs, the better we will 
-be. It is obvious that genetic engineering will provide some 
-benefits to all of us.  However, it is important that we 
-know all of the facts before we move on.  It would be 
-irresponsible of us to push something on the environment 
-that will later prove to be deterimental.  I am also 
-concerned  about how far genetic engineering will be taken.  
-I am opposed to manipulating genes in humans to make a 
-"better" or more attractive being.  I don't think it is 
-morally correct for us to such things.  I am afraid that 
-this may be where the science is taken.  Overall, I think we 
-should evaluate our motives, perform more extensive 
+===message:The more knowledge we gain about GMOs, the better we will
+be. It is obvious that genetic engineering will provide some
+benefits to all of us.  However, it is important that we
+know all of the facts before we move on.  It would be
+irresponsible of us to push something on the environment
+that will later prove to be deterimental.  I am also
+concerned  about how far genetic engineering will be taken.
+I am opposed to manipulating genes in humans to make a
+"better" or more attractive being.  I don't think it is
+morally correct for us to such things.  I am afraid that
+this may be where the science is taken.  Overall, I think we
+should evaluate our motives, perform more extensive
 research and then proceed with caution.
 =========yorg=========
 ===from:Sarah Gossman
@@ -560,12 +560,12 @@ research and then proceed with caution.
 ===from:Jessica Goeken
 ===date:Thu Feb 17 16:29:04 2000
 ===subject:GM  Crops
-===message:I think that GM crops have a lot of potential for being used in a positive and beneficial manner around the world.  I do believe, however, that they are being incorporated into our growing systems much too quickly, without adequate information about whether or not they are harmful to certain organisms.  We need to carry out further studies to figure this out before we start growing these crops in full-scale and potentially harming some organisms.  There is some evidence that GM products can also harm humans through food allergies and by other means.  This is another reason that we should stop, take a step back, and assess the problems (potential and existing) with GM crops.  I hope that scientists continue to do extensive studies on GM crops to determine if they are harmful, and if so, how they can be further modified to lessen their harmful effects.    This would be the best thing to do right now, because GM crops could have many good uses in the long run, after we have determined that they are, with almost no doubt, safe.   
+===message:I think that GM crops have a lot of potential for being used in a positive and beneficial manner around the world.  I do believe, however, that they are being incorporated into our growing systems much too quickly, without adequate information about whether or not they are harmful to certain organisms.  We need to carry out further studies to figure this out before we start growing these crops in full-scale and potentially harming some organisms.  There is some evidence that GM products can also harm humans through food allergies and by other means.  This is another reason that we should stop, take a step back, and assess the problems (potential and existing) with GM crops.  I hope that scientists continue to do extensive studies on GM crops to determine if they are harmful, and if so, how they can be further modified to lessen their harmful effects.    This would be the best thing to do right now, because GM crops could have many good uses in the long run, after we have determined that they are, with almost no doubt, safe.
 =========yorg=========
 ===from:Julie Blacksmith
 ===date:Thu Feb 17 18:49:49 2000
 ===subject:GM Crops
-===message:I believe that GM crops have both beneficial and detrimental effects on the environment,plants, animals, and human life. Although a general consensus is that the benefits outweigh the risks, these risks cannot be overlooked. In the case of labeling GM food products, I think this is a good idea. What if someone was allergic to a product, and the genes from this product were used to geneticall modify another product. Unknowingly, the consumer could eat the product and have the same allergic and possibly deadly reaction to the GM product. I understand that farmers think that labeling GM products will make consumers think that their products are dangerous, but I don't believe this is the case. An informed consumer is a wise consumer, and a wise consumer can reasearch the products and realize that they are all safe. It will just keep the food distributors out of law suits when someone has an allergic reaction to a non-labeled GM product.  
+===message:I believe that GM crops have both beneficial and detrimental effects on the environment,plants, animals, and human life. Although a general consensus is that the benefits outweigh the risks, these risks cannot be overlooked. In the case of labeling GM food products, I think this is a good idea. What if someone was allergic to a product, and the genes from this product were used to geneticall modify another product. Unknowingly, the consumer could eat the product and have the same allergic and possibly deadly reaction to the GM product. I understand that farmers think that labeling GM products will make consumers think that their products are dangerous, but I don't believe this is the case. An informed consumer is a wise consumer, and a wise consumer can reasearch the products and realize that they are all safe. It will just keep the food distributors out of law suits when someone has an allergic reaction to a non-labeled GM product.
 =========yorg=========
 ===from:Katherine Bregar
 ===email:katty@iastate.edu
@@ -588,7 +588,7 @@ research and then proceed with caution.
 ===email:tstearns@iastate.edu
 ===date:Thu Feb 17 19:45:09 2000
 ===subject:GM crops
-===message:I think that overall, genetically modified crops are not very beneficial.  In my opinion, anything that is beneficial to one organism while hurting others is not beneficial.  Even though researchers don't have a lot of evidence that organisms are harmed, I still believe that insects and other organisms could be harmed in the long run.  I agree with the example of the monarch butterflies obtaining pollen from GM plants.  We can't predict very well how far the pollen will travel from the GM fields that it was produced in; therefore, organisms such as the monarchs and other insects are continually at risk of being exposed to this modified pollen.  Another reason I don't think the GM crops are very beneficial is because of what the article mentioned about how the farmers of GM crops didn't make a substantially larger amount of money than with normal crops, due to the higher cost of GM seeds.  If they don't make more money with the GM crops, then what is the point of using them, especially when they pose risks to other living organisms?  Also, the effects of the GM crops could eventually enter our food chain and create dangerous situations for those individuals with food allergies.  I believe that foods made with GM plants should be clearly labeled, so that people know what they are eating.  If they know they have an allergy to certain types of food, then they would be able to see what is contained in the GM foods, preventing injury to themselves and possibly even death.     
+===message:I think that overall, genetically modified crops are not very beneficial.  In my opinion, anything that is beneficial to one organism while hurting others is not beneficial.  Even though researchers don't have a lot of evidence that organisms are harmed, I still believe that insects and other organisms could be harmed in the long run.  I agree with the example of the monarch butterflies obtaining pollen from GM plants.  We can't predict very well how far the pollen will travel from the GM fields that it was produced in; therefore, organisms such as the monarchs and other insects are continually at risk of being exposed to this modified pollen.  Another reason I don't think the GM crops are very beneficial is because of what the article mentioned about how the farmers of GM crops didn't make a substantially larger amount of money than with normal crops, due to the higher cost of GM seeds.  If they don't make more money with the GM crops, then what is the point of using them, especially when they pose risks to other living organisms?  Also, the effects of the GM crops could eventually enter our food chain and create dangerous situations for those individuals with food allergies.  I believe that foods made with GM plants should be clearly labeled, so that people know what they are eating.  If they know they have an allergy to certain types of food, then they would be able to see what is contained in the GM foods, preventing injury to themselves and possibly even death.
 =========yorg=========
 ===from:Ryan Paitz
 ===date:Thu Feb 17 19:49:12 2000
@@ -598,7 +598,7 @@ research and then proceed with caution.
 ===from:Bob Jungwirth
 ===date:Thu Feb 17 19:50:03 2000
 ===subject:Modified Crops
-===message:Although there are some negative effects of genetically modified crops, there are many benefits as well.  We really  have no idea what the results will eventually be.  There are some risks to caterpillars, rats, and other insects we decide are unwanted.  There are benefits as well, such as higher yeilds of cotton, and being able to increase a certain vitamin level in a crop.  Although there was not a good outcome financialy for farmers who planted GM corn or soybeans.  While GM crops have been grown in Austrailia for over three decades with no negative outcomes, there still needs to be more research in GM foods before they can be considered 100% safe.  
+===message:Although there are some negative effects of genetically modified crops, there are many benefits as well.  We really  have no idea what the results will eventually be.  There are some risks to caterpillars, rats, and other insects we decide are unwanted.  There are benefits as well, such as higher yeilds of cotton, and being able to increase a certain vitamin level in a crop.  Although there was not a good outcome financialy for farmers who planted GM corn or soybeans.  While GM crops have been grown in Austrailia for over three decades with no negative outcomes, there still needs to be more research in GM foods before they can be considered 100% safe.
 =========yorg=========
 ===from:Ryan Brenke
 ===date:Thu Feb 17 19:52:50 2000
@@ -608,12 +608,12 @@ research and then proceed with caution.
 ===from:Jennifer Jennings
 ===date:Thu Feb 17 19:54:11 2000
 ===subject:GM Crops
-===message:I believe that genetically altering anything is most likely a bad idea.  As proven in the artical, even if they find a gene to alter, they have no concrete proof that it is the gene they mean to alter.  Genetic engineering has so many variables that can't be seen.  If one gene is tampered with it could affect another.  There is no guarantee that once a GM crop is out, that there won't be unforseen concequenses.  As with other things we have engineered, there have been large downsides to the so called "technological advances."  As with the "technological advances" in the past, the generations to follow have been the ones to pay for the mistakes made.  I think we need to know more technology wise, before we start splicing genes that could have heavy consequences in the future.  
+===message:I believe that genetically altering anything is most likely a bad idea.  As proven in the artical, even if they find a gene to alter, they have no concrete proof that it is the gene they mean to alter.  Genetic engineering has so many variables that can't be seen.  If one gene is tampered with it could affect another.  There is no guarantee that once a GM crop is out, that there won't be unforseen concequenses.  As with other things we have engineered, there have been large downsides to the so called "technological advances."  As with the "technological advances" in the past, the generations to follow have been the ones to pay for the mistakes made.  I think we need to know more technology wise, before we start splicing genes that could have heavy consequences in the future.
 =========yorg=========
 ===from:Kelly Lackore
 ===date:Thu Feb 17 20:01:45 2000
-===subject:GM Crops 
-===message:I believe that GM crops are okay because they decrease the amount of insecticides used on crops and increases crop yield.  Living on a farm all my life I know how much this will benefit the farmers, and beings that the benefits outweigh the risks at this point I believe GM crops should continue to be produced.  One thing I should also point out is that I also believe that testing should continue, but more testing should be done outside the lab so that it will relate better to actual conditions.   
+===subject:GM Crops
+===message:I believe that GM crops are okay because they decrease the amount of insecticides used on crops and increases crop yield.  Living on a farm all my life I know how much this will benefit the farmers, and beings that the benefits outweigh the risks at this point I believe GM crops should continue to be produced.  One thing I should also point out is that I also believe that testing should continue, but more testing should be done outside the lab so that it will relate better to actual conditions.
 =========yorg=========
 ===from:Cari Templeton
 ===email:ctemp@iastate.edu
@@ -625,7 +625,7 @@ research and then proceed with caution.
 ===from:Matt Allen
 ===date:Thu Feb 17 20:06:55 2000
 ===subject:GM Crops
-===message:GM crops definatly have the potential to be a great benefit to the world.  Before they are introduced to the public though there needs to be extensive testing done on the GM crops.  There are potential risks that need to be adressed.  For example, there are opposing views on whether or not the GM crops will effect the ecosystem.  Another potential risk is whether or not the GM crops are harmful to humans.  On the other hand, there is also a potential for GM crops to benifit more than just the producers.  GM crops can be made to have more protiens and vitamins, a benifit to the consumer.  I believe that these issues among others need to be adressed before the GM crops are marketed to the public.  Until then the GM crops should only be used for testing and not for the consumer. People need to look at all of the facts about GM crops instead jumping on the Greenpeace bandwagon and saying that they are all bad.  
+===message:GM crops definatly have the potential to be a great benefit to the world.  Before they are introduced to the public though there needs to be extensive testing done on the GM crops.  There are potential risks that need to be adressed.  For example, there are opposing views on whether or not the GM crops will effect the ecosystem.  Another potential risk is whether or not the GM crops are harmful to humans.  On the other hand, there is also a potential for GM crops to benifit more than just the producers.  GM crops can be made to have more protiens and vitamins, a benifit to the consumer.  I believe that these issues among others need to be adressed before the GM crops are marketed to the public.  Until then the GM crops should only be used for testing and not for the consumer. People need to look at all of the facts about GM crops instead jumping on the Greenpeace bandwagon and saying that they are all bad.
 =========yorg=========
 ===from:Mikaela Grove
 ===date:Thu Feb 17 20:07:39 2000
@@ -640,7 +640,7 @@ research and then proceed with caution.
 ===from:Mary Faust
 ===date:Thu Feb 17 20:10:29 2000
 ===subject:my opinion on GM crops
-===message:Genetically modified crops ,GM crops for short, sound like a risk to be used right now.  They should not be totally gotten rid of though just because they have been shown to have negative effects on the surrounding organisms.  Right now there should be more testing.  This testing should be done to see what can be done to avoid these negative effects.  Also not all the effects of these types of plants are known.  So how are people supposed to know what will happen in the long run from the effects of the plants?  There needs to be more testing.  Plus if it is found that the crops are not that harmful ,then they need to be made more economically efficient.  Right now the GM crops produce more ,but because of costs they are not that great to high yielding farmers. So the main thought right now should be testing.  There just needs to be more of it.   
+===message:Genetically modified crops ,GM crops for short, sound like a risk to be used right now.  They should not be totally gotten rid of though just because they have been shown to have negative effects on the surrounding organisms.  Right now there should be more testing.  This testing should be done to see what can be done to avoid these negative effects.  Also not all the effects of these types of plants are known.  So how are people supposed to know what will happen in the long run from the effects of the plants?  There needs to be more testing.  Plus if it is found that the crops are not that harmful ,then they need to be made more economically efficient.  Right now the GM crops produce more ,but because of costs they are not that great to high yielding farmers. So the main thought right now should be testing.  There just needs to be more of it.
 =========yorg=========
 ===from:LeAnn Bouska
 ===date:Thu Feb 17 20:18:19 2000
@@ -655,7 +655,7 @@ research and then proceed with caution.
 ===from:Samantha Drey
 ===date:Thu Feb 17 20:26:26 2000
 ===subject:GM Crops
-===message:I think that GM crops are bad.  I don't think that innocent little butterflies should be killed so that farmers can benefit from genetically modified crops.  Plus they are also harmful to rats, so maybe they could have some harmful affect to humans.  Crops are okay the way they are.  What's next, messing with humans and making superhumans?  
+===message:I think that GM crops are bad.  I don't think that innocent little butterflies should be killed so that farmers can benefit from genetically modified crops.  Plus they are also harmful to rats, so maybe they could have some harmful affect to humans.  Crops are okay the way they are.  What's next, messing with humans and making superhumans?
 =========yorg=========
 ===from:Laurence Woodruff
 ===date:Thu Feb 17 20:31:57 2000
@@ -681,7 +681,7 @@ research and then proceed with caution.
 ===from:Liz Tatarek
 ===date:Thu Feb 17 21:05:19 2000
 ===subject:GM crops
-===message:I think that anything genetically enhanced is a tough subject to talk about. Genetically enhacing vegatables is pretty new, and we just don't have enough information about the subject. We have not seen the long term effects of genticalliy modifying vegtables yet. There are still problems that could arise from modifying vegtables in the future. More studies will have to be done to see the effects of this. As for now, I think that people should be aware of not only the positive aspect of planting genetically enhanced crops, but also look at the negative aspects that do, or can, happen. Then they can decide what is best for them and the environment. 
+===message:I think that anything genetically enhanced is a tough subject to talk about. Genetically enhacing vegatables is pretty new, and we just don't have enough information about the subject. We have not seen the long term effects of genticalliy modifying vegtables yet. There are still problems that could arise from modifying vegtables in the future. More studies will have to be done to see the effects of this. As for now, I think that people should be aware of not only the positive aspect of planting genetically enhanced crops, but also look at the negative aspects that do, or can, happen. Then they can decide what is best for them and the environment.
 =========yorg=========
 ===from:Mike Seager
 ===date:Thu Feb 17 21:10:50 2000
@@ -707,7 +707,7 @@ However, that does not mean GM crops are bad.  They can be used for good.  (this
 ===from:Mary Arguello
 ===date:Thu Feb 17 21:48:21 2000
 ===subject:GM Crops
-===message:Ithink that GM crops are a good idea, in theory.  However, there are so many ways that GM crops could affect people and the environment.  If there is one thing we should know from the past it is that mutations and adaptions in living things occur in response to other events.  One example given in the article was the Monarch butterfly and Bt corn.  If one were to support GM crops, specifically, the Bt corn, you need to look farther than just the butterfly.  You need to look at the butterfly and what it affects.  I also found it interesting in the article that the companies who were behind the research of GM crops had nothing very bad to say about them.  Of course, these companies have put alot of money and time into this type of research.  I think the bottom line is this, genetically modifying anything has effects that no one can predict.  We shouldn't mess with nature.  It has it's own way of sorting things out. 
+===message:Ithink that GM crops are a good idea, in theory.  However, there are so many ways that GM crops could affect people and the environment.  If there is one thing we should know from the past it is that mutations and adaptions in living things occur in response to other events.  One example given in the article was the Monarch butterfly and Bt corn.  If one were to support GM crops, specifically, the Bt corn, you need to look farther than just the butterfly.  You need to look at the butterfly and what it affects.  I also found it interesting in the article that the companies who were behind the research of GM crops had nothing very bad to say about them.  Of course, these companies have put alot of money and time into this type of research.  I think the bottom line is this, genetically modifying anything has effects that no one can predict.  We shouldn't mess with nature.  It has it's own way of sorting things out.
 =========yorg=========
 ===from:Megan Wiedmann
 ===date:Thu Feb 17 21:53:38 2000
@@ -722,7 +722,7 @@ However, that does not mean GM crops are bad.  They can be used for good.  (this
 ===from:Nick Pryor
 ===date:Thu Feb 17 22:19:01 2000
 ===subject:GM Crops
-===message: I think that the use of genetically modified crops is an excellent idea. There are obvious benefits to the use of GM crops (less herbicide usage, increased crop yeild, and even less soil erosion), but producers and consumers alike need to be aware of the possible hazards to G.M. products. If an educated consumer makes smart choices to their personal use of these products, they will probably be able to prevent any harmful side effects. I'm certain G.M.O.'s are a technology of the future and that halting their use would be a disadvantage to the agriculture community. 
+===message: I think that the use of genetically modified crops is an excellent idea. There are obvious benefits to the use of GM crops (less herbicide usage, increased crop yeild, and even less soil erosion), but producers and consumers alike need to be aware of the possible hazards to G.M. products. If an educated consumer makes smart choices to their personal use of these products, they will probably be able to prevent any harmful side effects. I'm certain G.M.O.'s are a technology of the future and that halting their use would be a disadvantage to the agriculture community.
 =========yorg=========
 ===from:Dan Boberg
 ===date:Thu Feb 17 22:19:57 2000
@@ -743,19 +743,19 @@ However, that does not mean GM crops are bad.  They can be used for good.  (this
 ===from:Brook Hunter
 ===date:Thu Feb 17 22:40:03 2000
 ===subject:GM Crops
-===message:GM crops are the topic of hot debate.  GM crops are definately the solution to feeding the world's growing population, but how far do we go.  I think that all crops should be thourally tested before they hit the fields and tested again before they hit the shelves.  Even then foods that come from GM crops should be labeled so people have a choice.  I personally don't care if the food comes from a GM plant as long as it's safe.  Hey it may even taste better...  
+===message:GM crops are the topic of hot debate.  GM crops are definately the solution to feeding the world's growing population, but how far do we go.  I think that all crops should be thourally tested before they hit the fields and tested again before they hit the shelves.  Even then foods that come from GM crops should be labeled so people have a choice.  I personally don't care if the food comes from a GM plant as long as it's safe.  Hey it may even taste better...
 =========yorg=========
 ===from:Sarah Goodwin
 ===email:iagoat@yahoo.com
 ===date:Thu Feb 17 22:47:52 2000
 ===subject:GM crops
-===message:I think that overall GM crops are a good thing and worth the risk.  Although there are many negative points, including the strong one that it has not been tested for long term problems, it has many positive features. I think it is unfortunate that the European market has banned its usesage in it's foods. And because if this uncertainty from a large player in the market-other countries are deciding not to use the crops.  One of the main positives is that it allows longer growing seasons. This is a large positive to the growers and their economy. The fact that superweeds may be grown and ecosystems may be destroyed gives me worry, but I think that technology will soon be created to combat even those things. Because the GM crops cut down costs on fertilizers and herbacides shows yet another reason how they are positive overall. 
+===message:I think that overall GM crops are a good thing and worth the risk.  Although there are many negative points, including the strong one that it has not been tested for long term problems, it has many positive features. I think it is unfortunate that the European market has banned its usesage in it's foods. And because if this uncertainty from a large player in the market-other countries are deciding not to use the crops.  One of the main positives is that it allows longer growing seasons. This is a large positive to the growers and their economy. The fact that superweeds may be grown and ecosystems may be destroyed gives me worry, but I think that technology will soon be created to combat even those things. Because the GM crops cut down costs on fertilizers and herbacides shows yet another reason how they are positive overall.
 =========yorg=========
 ===from:Rachel Anderson
 ===email:rlanders@iastate.edu
 ===date:Thu Feb 17 22:50:23 2000
 ===subject:GM crops
-===message:I believe that genetically modified crops are a good idea.  There are so many benefits to these organisms that ignoring their potential would be idiotic.   However, I think that more research needs to be done on the effects of these crops before they become widely used.  The impacts of these plants on the ecosystem need to be examined closely, and the concerns about their safety for consumption also need to be addressed.  I believe that these crops could be extremely helpful and beneficial for people and for the environment, but, before we get carried away with the possibilities of these organisms and their seeming success, we need to  recognize what these crops will do to the ecosystem and other organisms.  From there, we need to decide whether the risks involved are worth the pursuing this type crop and try to minimize or, if possible, eliminate the harmful effects.  I am confident that GM crops can be put to good use, but first, much more research is needed before we can ensure that they are not doing more harm than good.        
+===message:I believe that genetically modified crops are a good idea.  There are so many benefits to these organisms that ignoring their potential would be idiotic.   However, I think that more research needs to be done on the effects of these crops before they become widely used.  The impacts of these plants on the ecosystem need to be examined closely, and the concerns about their safety for consumption also need to be addressed.  I believe that these crops could be extremely helpful and beneficial for people and for the environment, but, before we get carried away with the possibilities of these organisms and their seeming success, we need to  recognize what these crops will do to the ecosystem and other organisms.  From there, we need to decide whether the risks involved are worth the pursuing this type crop and try to minimize or, if possible, eliminate the harmful effects.  I am confident that GM crops can be put to good use, but first, much more research is needed before we can ensure that they are not doing more harm than good.
 =========yorg=========
 ===from:Grant Schultz
 ===date:Thu Feb 17 23:09:30 2000
@@ -769,7 +769,7 @@ However, that does not mean GM crops are bad.  They can be used for good.  (this
 ===subject:Modified Organisms
 ===message:I believe there are some significant benefits to using genetically modified food crops, particularly in developing countries where most of the agriculture is currently at subsistance levels.  Many of the crops currently used there are bred for growth in the United States or European nations and are susceptable to local diseases in the third-world countries (Agrios, George N., <u>Plant Pathology</u>, 1988 ed. p. 27).  More crops are lost to disease and pests in Africa, Asia, and South America than in more highly developed countries.  Part of the reason for this is that agriculture is not the large scale business that it is in the developed countries.  Subsistance farmers cannot often afford to treat their crops with the necessary pesticides to ensure a substantial yield, and the climate of these countries is often not ideal for the crops being grown.  Engineering crops more suitable to hot, dry climates and less reliant on pesticides could, over time, decrease the costs to farmers in these countries and could allow them to become more developed, helping stave off the problems of world hunger.  <br>
 Obviously there are problems inherent in the genetic engineering of plants.  By increasing testing of these crops and by funding studies to ensure their safety, we can decrease the environmental concerns associated with the GM crops.  Also, we can regulate use of these crops on a local/regional basis.  For example, BT crops which are potentially harmful to monarch butterflies could be more strictly regulated in areas where the butterflies live, but would be relatively safe in areas not included in the monarch habitat.  Additionally, those crops which were shown to produce little increase in yield or which did not significantly reduce the use of pesticides will not prove to be economically sound for use by farmers.  Most farmers will not continue using these crops and will switch instead to safer or more effective crops, thus ensuring that seed companies must continually improve their crops.  <br>
-Overall, I feel that most GM crops offer excellent advantages for farming or at least prospective advantages.  As with any product, a certain amount of research must be done into its environmental effects, and I think that the biggest problem with the GM crops is not their potential hazards but the lack of research being done on these hazards.  More work must be funded to research the crops so that they can be continually improved and so that money is not wasted on poor-yielding, environmentally unsafe crops which do not have the promised benefits.  
+Overall, I feel that most GM crops offer excellent advantages for farming or at least prospective advantages.  As with any product, a certain amount of research must be done into its environmental effects, and I think that the biggest problem with the GM crops is not their potential hazards but the lack of research being done on these hazards.  More work must be funded to research the crops so that they can be continually improved and so that money is not wasted on poor-yielding, environmentally unsafe crops which do not have the promised benefits.
 =========yorg=========
 ===from:Brian Seda
 ===date:Thu Feb 17 23:23:45 2000
@@ -788,7 +788,7 @@ Thus, since the harmful side effects suppossedly associated with these crops can
 ===email:Jedavila@iastate.edu
 ===date:Thu Feb 17 23:29:24 2000
 ===subject:GM crops
-===message:After reading the Article about the GM crops I have to say that we are very far away from reaching an agreement on this topic. I think that for the most part the problem is not based on the effect that it will have on the environment, but instead it has to do more with ethics. Yeah The question here is where are we going to draw the line between technology and creation. Sure we will benefit from GM crops but we have to ask ourselves, Are we all? Is it really necessary?. The answer is not really, the only ones who are going to benefit from this technology are the persons in charge of the big corporations and in a larger scale the industralized countries. Why do I say this because farmers are not going to see a huge diiference in their income because of GM crops the companies they sell it to are not going to allow them to get more money out of it than what they make so they are going to continue buying it for the same price if they're lucky because they will probably buy it for less. The other point is that if we would say that this technology would be one that will be free of cost and that it could be reached by anyone then this will be wonderful. Unfortunately we live in a world full of greed and ambition for power and this technology will soon be commercialize and have a price, a very high price. Keeping the countries in the same situations in which they are now the rich countries earning more and more while countries like Rwanda, Zimbabwe or Nicaragua keep sinking deeper into their hole. If you ask me GM crops may be a good technology but it's really not necesary and will not bring any type of change to the world. 
+===message:After reading the Article about the GM crops I have to say that we are very far away from reaching an agreement on this topic. I think that for the most part the problem is not based on the effect that it will have on the environment, but instead it has to do more with ethics. Yeah The question here is where are we going to draw the line between technology and creation. Sure we will benefit from GM crops but we have to ask ourselves, Are we all? Is it really necessary?. The answer is not really, the only ones who are going to benefit from this technology are the persons in charge of the big corporations and in a larger scale the industralized countries. Why do I say this because farmers are not going to see a huge diiference in their income because of GM crops the companies they sell it to are not going to allow them to get more money out of it than what they make so they are going to continue buying it for the same price if they're lucky because they will probably buy it for less. The other point is that if we would say that this technology would be one that will be free of cost and that it could be reached by anyone then this will be wonderful. Unfortunately we live in a world full of greed and ambition for power and this technology will soon be commercialize and have a price, a very high price. Keeping the countries in the same situations in which they are now the rich countries earning more and more while countries like Rwanda, Zimbabwe or Nicaragua keep sinking deeper into their hole. If you ask me GM crops may be a good technology but it's really not necesary and will not bring any type of change to the world.
 =========yorg=========
 ===from:Sarah Jeanette Proctor
 ===email:sarahjp@iastate.edu
@@ -805,10 +805,10 @@ Thus, since the harmful side effects suppossedly associated with these crops can
 ===from:Kat Strachan
 ===date:Thu Feb 17 23:32:35 2000
 ===subject:Is it safe?
-===message:There are several questions that arise from the possibility of genetically modified crops. 
-The first of these questions is always whether or not it is safe. Genetically modified crops have been proven to be safe for human consumption, but what about the helpful insects. Do the crops containing the gene modification (with the Bt Bacteria) harm the helpful insects like butterflies? Several studies have shown it to be "yes," the monarch butterfly is one example of how insects are harmed. Even if the monarch butterfly is not killed off by the corn pollen, it is still harmed in some way. (Some say that the effect is that the butterflies can not make their journey south to Mexico.) 
-The second question that arises is whether the gene will transfer to the surrounding plants. 
-One item that has been overlooked with all of these questions is the benefits of genetically modified crops. For example, GM cotton  reduces the amount of chemicals used for eleminating harmful insects. This helps the environment by reducing the amount of  herbicide runoff. 
+===message:There are several questions that arise from the possibility of genetically modified crops.
+The first of these questions is always whether or not it is safe. Genetically modified crops have been proven to be safe for human consumption, but what about the helpful insects. Do the crops containing the gene modification (with the Bt Bacteria) harm the helpful insects like butterflies? Several studies have shown it to be "yes," the monarch butterfly is one example of how insects are harmed. Even if the monarch butterfly is not killed off by the corn pollen, it is still harmed in some way. (Some say that the effect is that the butterflies can not make their journey south to Mexico.)
+The second question that arises is whether the gene will transfer to the surrounding plants.
+One item that has been overlooked with all of these questions is the benefits of genetically modified crops. For example, GM cotton  reduces the amount of chemicals used for eleminating harmful insects. This helps the environment by reducing the amount of  herbicide runoff.
 The only problem with that is the idea that maybe the farmers will still apply the "faithful and trusty" herbicides that have worked before along with the new genetically modified sprays. "Roundup Ready" corn is a good example of farmer doing just that. The farmers would plant the roundup ready corn and then apply the single dose of roundup to the field, but still spray the same chemicals they did before.
 
 All in all, I believe that Genetically Modified crops is a good idea, but one that needs to be developed more. It MAY be ready to be on the market, but not for the ammount of crops it is used on now. Those plants where the genetic modification can truley help without serious side effects should use the new modification, ut those that don't help shouldn't use it. (An example would be that cotton should use it, but corn needs more development.)
@@ -852,10 +852,10 @@ All in all, I believe that Genetically Modified crops is a good idea, but one th
 ===from:jessica Lawlor
 ===date:Thu Feb 17 23:58:27 2000
 ===subject:gm crops
-===message:I feel that after reading the articles in the handout that 
-GM crops should be grown.  I do see that they can cause some 
-harm every now and then but that they can be fixed and with 
-growing technology it shouldn't be a problem.  I also think 
+===message:I feel that after reading the articles in the handout that
+GM crops should be grown.  I do see that they can cause some
+harm every now and then but that they can be fixed and with
+growing technology it shouldn't be a problem.  I also think
 they are becoming a big thing in pla
 =========yorg=========
 ===from:William Christopher
@@ -881,7 +881,7 @@ they are becoming a big thing in pla
 ===from:Jason Peterson
 ===date:Fri Feb 18 22:57:16 2000
 ===subject:GM Crops
-===message:Hello Everyone.  I feel that GM crops are a problem and should be limited if not eliminated.  WE can all believe that the species of monarchs that are resistant will advance by natural selection and it won't be a problem anymore.  However, we have to think of how long we want to keep weeding out those individuals of species that are less fit.  Sooner or later we might end up being the ones selescted against.  However, I guess I am setting a double standard since from an economic point of view they are helpful and we also need to realize that we need to produce more food to handle the increase in world population.  
+===message:Hello Everyone.  I feel that GM crops are a problem and should be limited if not eliminated.  WE can all believe that the species of monarchs that are resistant will advance by natural selection and it won't be a problem anymore.  However, we have to think of how long we want to keep weeding out those individuals of species that are less fit.  Sooner or later we might end up being the ones selescted against.  However, I guess I am setting a double standard since from an economic point of view they are helpful and we also need to realize that we need to produce more food to handle the increase in world population.
 In the end I don't like them but I think we have to accept them as a neccesary evil which has to be allowed as the world "advances."
 =========yorg=========
 ===from:Bryon Bootman

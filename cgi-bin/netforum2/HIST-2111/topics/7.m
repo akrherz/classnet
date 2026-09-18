@@ -5,7 +5,7 @@
 
 "The entire doctrine of Nullification is comprised in a sentence uttered by Vice-President Calhoun, the head of that party in the South, before the Senate of the United States, in the year 1833: 'The Constitution is a compact to which the States were parties in their sovereign capacity; now, whenever a compact is entered into by parties which acknowledge no tribunal above their authority to decide in the last resort, each of them has a right to judge for itself in relation to the nature, extent, and obligations of the instrument.' It is evident that a similar doctrine destroys the very basis of the Federal Constitution, and brings back all the evils of the old confederation, from which the Americans were supposed to have had a safe deliverance."<br><br>
 
-It is safe to say that when Tocqueville says, "brings back all the evils of the old confederation," and uses in particular the word, "destroys," he makes it quite clear that his view of Nullification is not favorable.  Rather, he sees that America, if it is to stand together as a powerful and unified country, must be exactly that: unified.  Preceding the above quote, Tocqueville examines the events that led up to the southern states' theories of Nullification and presents the motives that led to this pracice.  
+It is safe to say that when Tocqueville says, "brings back all the evils of the old confederation," and uses in particular the word, "destroys," he makes it quite clear that his view of Nullification is not favorable.  Rather, he sees that America, if it is to stand together as a powerful and unified country, must be exactly that: unified.  Preceding the above quote, Tocqueville examines the events that led up to the southern states' theories of Nullification and presents the motives that led to this pracice.
 <br><br>
 Tocqueville also states, "I have shown in the proper place that the object of the Federal Constitution was not to form a league, but to create a national government."  Tocqueville has clearly established the basis of an argument that shows Nullification to be both harmful to the American states as a whole and a regretful departure from the course of a heretofore forward-moving nation.  In short, Tocqueville would call Nullification an illogical, backward act of treason.
 <br><br>
@@ -16,9 +16,9 @@ http://www.nationalcenter.org/DemocracyinAmericaVol1B.html
 ===from:Jerome Scales
 ===date:Sat Oct 18 15:35:12 2003
 ===subject:Tocqueville
-===message:According to Tocqueville, what was to blame for the Nullification crisis? According to Tocqueville, he blamed the Nullification crisis on South Carolina perceiving that Congress turned a deaf ear to its remonstrances. 
+===message:According to Tocqueville, what was to blame for the Nullification crisis? According to Tocqueville, he blamed the Nullification crisis on South Carolina perceiving that Congress turned a deaf ear to its remonstrances.
 
-How did changes in the market economy contribute to this crisis? Changes in the market economy contributed to the Nullification crisis because, the Federal tariff law helped merchants through increased profits.  However, the South being mainly agriculturial didn't see this as a benifit.  With the Souths influence dwindling due to population shifts, the South felt threatened.  
+How did changes in the market economy contribute to this crisis? Changes in the market economy contributed to the Nullification crisis because, the Federal tariff law helped merchants through increased profits.  However, the South being mainly agriculturial didn't see this as a benifit.  With the Souths influence dwindling due to population shifts, the South felt threatened.
 
 In what ways do economic developments shape political issues today? Economic developments shape political issues today by bringing political agendas. Agendas that politicians make campaign promises such as tax relief, job stability, and free enterprise for the betterment of their local area a political issue.
 =========yorg=========
@@ -29,7 +29,7 @@ In what ways do economic developments shape political issues today? Economic dev
 =========yorg=========
 ===from:Bonita Lawrence
 ===date:Mon Oct 20 18:39:48 2003
-===subject:Tocqueville 
+===subject:Tocqueville
 ===message:The problem that came with the Nullification was tariffs that Congress refused to back down on.  The tariffs are what eventually led to Nullification not being passed.  The economy in the North had manufacturing; however, in the South the economy was based on agriculture.  The tariff law placed high restrictions affecting agriculture in the South, which is why many southern states did not want the law to be passed.  The economy has a great effect on political issues, since it is the economy that shapes what people will spend their money on.  Spending will then cause the government to place restrictions on things in the economy, and from those restrictions political issues will be formed.  In today’s economy there is no clear line between the economy and the government.  Our government places restrictions on public spending for just about everything, and since the government has such an influence in Americans every day lives governmental control gives way to so many political issues.
 =========yorg=========
 ===from:Candy Nartey
@@ -48,10 +48,10 @@ In what ways do economic developments shape political issues today? Economic dev
 ===subject:TOCQUEVILLE
 ===message: According to Tocqueville, what was to blame for the Nullification crisis?
 
-    The Nullification crisis affected the Northern region more than the South. The Economy in the Southern states was all based by the agriculture while in the Northern states, it was based on manufacturing. Thus, the tariffs was favoring the Northern states more than the SOuthern states. How did changes in the market economy contribute to this crisis? 
+    The Nullification crisis affected the Northern region more than the South. The Economy in the Southern states was all based by the agriculture while in the Northern states, it was based on manufacturing. Thus, the tariffs was favoring the Northern states more than the SOuthern states. How did changes in the market economy contribute to this crisis?
 
-     The laws passed by the federal government were in form of the tariffs which favored the Nothern region more than the south. This affected the market economy especially among the buyers and the sellers. More buyers and sellers who were manufacturers in the north gained alot of profit from the tariffs.For instance, the federal tariff law helped merchants through increased profits; this benefited the Northern region.In what ways do economic developments shape political issues today? 
-   
+     The laws passed by the federal government were in form of the tariffs which favored the Nothern region more than the south. This affected the market economy especially among the buyers and the sellers. More buyers and sellers who were manufacturers in the north gained alot of profit from the tariffs.For instance, the federal tariff law helped merchants through increased profits; this benefited the Northern region.In what ways do economic developments shape political issues today?
+
      The political issues is directly proportional to the economic development. This means that when the economy of the country is booming then the political issues of the country are dealt in a better way.Economic stability is crucial in the planning of the government plans,budget and agendas. If the government is economically stable then the leaders are more secure and stable in making and reinforcing political issues.
 
 
@@ -78,15 +78,15 @@ Today economic development shape political issue in many ways as well.  For exam
 ===from:Erica May
 ===date:Fri Oct 24 22:59:50 2003
 ===subject:Tocqueville
-===message:High tariffs that increased the prices on imported goods which forced Southerners to purchased goods from the north which increased the profits for northern states infuriated  South Carolina because the farmers and planters were suffering economically since the price of cotton had dropped tremendously, and just an all around disdain of for the north since they were able to recover from economic woes quicker than the south is what caused the Nullification Crisis.  Ultimately, South Carolina saw the government unfairly assisting the north in economic growth by posing these tariffs on goods.  
+===message:High tariffs that increased the prices on imported goods which forced Southerners to purchased goods from the north which increased the profits for northern states infuriated  South Carolina because the farmers and planters were suffering economically since the price of cotton had dropped tremendously, and just an all around disdain of for the north since they were able to recover from economic woes quicker than the south is what caused the Nullification Crisis.  Ultimately, South Carolina saw the government unfairly assisting the north in economic growth by posing these tariffs on goods.
 
 Times where hard in the south.  Farmers and planters were no longer profiting from their cash crops.  And they were being ordered to pay these tarrifs when their state's economy was down.  Unemployment was high which added fuel to the fire.
 
-Economic developement certainly play a major part in today's political issues in that politicians based their decisions on raising taxes versus lowering taxes, depending on the employment rate to the country.  When the employment rate is high, taxes are raised.  When the employment rate is dropping significantly from state to state taxes are cut.   
+Economic developement certainly play a major part in today's political issues in that politicians based their decisions on raising taxes versus lowering taxes, depending on the employment rate to the country.  When the employment rate is high, taxes are raised.  When the employment rate is dropping significantly from state to state taxes are cut.
 =========yorg=========
 ===from:Ian Esson
 ===date:Sat Oct 25 20:31:38 2003
-===subject:Tocqueville and nullification 
+===subject:Tocqueville and nullification
 ===message:<b> According to Tocqueville, what was to blame for the Nullification crisis? </b> <P>
 Tocqueville saw the preoccupation with forming associations and organizing groups as a main factor that led to the nullification crisis. Based on his statements it would mean that if  South Carolina did not have an established organization to highlight the plight of southern farmers and the effects of tariffs and the protectionism of  the northern economy the would not have been an effective outcry leading to nullification <P>
 
@@ -95,12 +95,12 @@ Tocqueville saw the preoccupation with forming associations and organizing group
 <b>How did changes in the market economy contribute to this crisis? In what ways do economic developments shape political issues today?</b> <P>
 
 Basically the prosperous cash crop of the south was no longer what it was and the farmers and planters were feeling the pinch not only being unable to sell their products but also having to pay tariffs on essential goods that seemingly only benefited the Northern merchants and elite class. The eveident distrust of the northern government also did not help. <br>
-Economic development is based on the political decisions made; this is very evident by the time and money spent on lobbying groups who push their agendas by supporting political candidates and policies with the sole intension of returned favors and monetary gain. The guise that lobbyists are for the people in the long run is nothing short of the protectionism that occurred in the 19th century. <br.> If a political ideology is not popular although being beneficial to economic development, is discarded as being none prductive.   
+Economic development is based on the political decisions made; this is very evident by the time and money spent on lobbying groups who push their agendas by supporting political candidates and policies with the sole intension of returned favors and monetary gain. The guise that lobbyists are for the people in the long run is nothing short of the protectionism that occurred in the 19th century. <br.> If a political ideology is not popular although being beneficial to economic development, is discarded as being none prductive.
 =========yorg=========
 ===from:Nicole White
 ===date:Sat Oct 25 21:04:06 2003
 ===subject:Tocqueville
-===message:The Nullification Crisis was due to the tariffs not being turned down by the government. This did create changes in the economy. The South was not much affected and did not see much improvement. The North gained some profits and benefits from the tariffs. Economic developments are based a lot on political decisions. When the economy is good political issues are dealt with better. Government plans are based on the stability of the economy. Also positions are more trusted and stable when it is good. Good economic development brings about a sense of peace and security. 
+===message:The Nullification Crisis was due to the tariffs not being turned down by the government. This did create changes in the economy. The South was not much affected and did not see much improvement. The North gained some profits and benefits from the tariffs. Economic developments are based a lot on political decisions. When the economy is good political issues are dealt with better. Government plans are based on the stability of the economy. Also positions are more trusted and stable when it is good. Good economic development brings about a sense of peace and security.
 =========yorg=========
 ===from:Jaime Barnett
 ===date:Sat Oct 25 22:29:37 2003
@@ -143,12 +143,12 @@ The changes in the market economy that contributed to this crisis was the reopen
 ===from:Azure-Dee Mallory
 ===date:Sun Oct 26 19:46:04 2003
 ===subject:Tocqueville
-===message:According to Tocqueville, tariffs would be to blame for the nullification crisis.  The tariffs were example of his theory that Americans would form an association to proclaim a truth or propagate some feeling by encouragement.   An example of this is the Force Bill.  Changes in market economy contributed to this crisis because the southern states were suffering due to the tariffs law.  However, northern states weren’t affected by this law. My mother always told me, “Money makes the world go round.”  Furthermore, economic development shapes political issues today because in government money is power.  An example of how economic development shapes political issues is healthcare reform.  If you’re a politician an issue like healthcare reform can make or break you in a society where the elderly population is growing rapidly everyday.  Winning their support in election can make a big difference.  
+===message:According to Tocqueville, tariffs would be to blame for the nullification crisis.  The tariffs were example of his theory that Americans would form an association to proclaim a truth or propagate some feeling by encouragement.   An example of this is the Force Bill.  Changes in market economy contributed to this crisis because the southern states were suffering due to the tariffs law.  However, northern states weren’t affected by this law. My mother always told me, “Money makes the world go round.”  Furthermore, economic development shapes political issues today because in government money is power.  An example of how economic development shapes political issues is healthcare reform.  If you’re a politician an issue like healthcare reform can make or break you in a society where the elderly population is growing rapidly everyday.  Winning their support in election can make a big difference.
 =========yorg=========
 ===from:Shakira Muhammad
 ===date:Sun Oct 26 20:55:36 2003
 ===subject:Nullification
-===message:The tariff of 1828 placed an inordinate financial burden on the southern states.  The tariff drained the southern states of their money and the south began to loose its independence.When a people's economic stability is threatened they tend to need t find someone to blame.  The elected officials are supposed to be protecting the people's interest. If the people feel that their representation is to blame the new person running for office using that particular crisis will get a lot of support.  It is easy to rally the American public behind a cause using the scare tactics that economic stability is being lost. Tocqueville wrote that Americans enjoy forming associations.  He said that" if they want to proclaim truth or propagate some felling by the encouragement of a great example, they form an association."       
+===message:The tariff of 1828 placed an inordinate financial burden on the southern states.  The tariff drained the southern states of their money and the south began to loose its independence.When a people's economic stability is threatened they tend to need t find someone to blame.  The elected officials are supposed to be protecting the people's interest. If the people feel that their representation is to blame the new person running for office using that particular crisis will get a lot of support.  It is easy to rally the American public behind a cause using the scare tactics that economic stability is being lost. Tocqueville wrote that Americans enjoy forming associations.  He said that" if they want to proclaim truth or propagate some felling by the encouragement of a great example, they form an association."
 =========yorg=========
 ===from:Sherry McRee
 ===date:Sun Oct 26 21:25:21 2003

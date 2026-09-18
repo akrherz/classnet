@@ -48,7 +48,7 @@ sub new {
        $self->{'Key Path'} = "$self->{'Form Root'}/key";
    } else {
        # if it uses an archived dataset then it is in assignment directory
-       my $fname = "$self->{'Dev Root'}/archive.dat"; 
+       my $fname = "$self->{'Dev Root'}/archive.dat";
        if (-e $fname) {
            $self->{'Student File'} = $self->{'Disk Name'};
        } else {
@@ -117,7 +117,7 @@ none
 
 sub get_wx_filename {
     my ($self) = @_;
-    
+
     my $fname = $self->{'Student File'};
     if ($fname =~ /(\d{2})(\w{3})(\d{4})/) {
         $day = $1; $mon=$2; $year=$3;
@@ -303,7 +303,7 @@ sub get_site {
     my $status = $self->get_status();
     $fname = '';
     if ($status) {
-        $fname = ($status eq 'graded')? 
+        $fname = ($status eq 'graded')?
             $self->{'Graded Dir'}: $self->{'Ungraded Dir'};
         $fname .= "/$self->{'Student File'}";
     } else {
@@ -467,7 +467,7 @@ sub get_score {
 
    my $tp = 0;
    my $pr = 0;
-   my $text = "<B>Forecasts</B>\n<UL>\n"; 
+   my $text = "<B>Forecasts</B>\n<UL>\n";
    # Set input record separator and read the file
    $/ = "\n";
 
@@ -583,14 +583,14 @@ sub format_raw_data {
 
 sub get_extra_fields {
     my ($self) = @_;
-    my $fname = "$self->{'Dev Root'}/archive.dat"; 
+    my $fname = "$self->{'Dev Root'}/archive.dat";
     if (-e "$fname") {
         open(WEATHER,"<$fname");
         $data = <WEATHER>;
         close WEATHER;
     } else {
         $data = '';
-    }       
+    }
     return "<H3>Archived Data</H3><TEXTAREA NAME=data ROWS=10 COLS=60>$data</TEXTAREA><HR>";
 }
 
@@ -614,7 +614,7 @@ none
 
 sub put_extra_fields {
     my ($self,$query) = @_;
-    my $fname = "$self->{'Dev Root'}/archive.dat"; 
+    my $fname = "$self->{'Dev Root'}/archive.dat";
     $data = CN_UTILS::remove_spaces($query->param('data'));
     if ($data eq '') {
         unlink($fname);

@@ -14,12 +14,12 @@ sub new {
     if ($filehandle) {
         my($package) = caller;
         # force into caller's package if necessary
-        $IN = $filehandle=~/[':]/ ? $filehandle : "$package\:\:$filehandle"; 
+        $IN = $filehandle=~/[':]/ ? $filehandle : "$package\:\:$filehandle";
     }
     $IN = "main::STDIN" unless $IN;
 
     binmode($IN) if $CGI::needs_binmode;
-    
+
     # If the user types garbage into the file upload field,
     # then Netscape passes NOTHING to the server (not good).
     # We may hang on this read in that case. So we implement
@@ -31,7 +31,7 @@ sub new {
     # about providing boundary strings
 
     if ($boundary) {
-        # Under the MIME spec, the boundary consists of the 
+        # Under the MIME spec, the boundary consists of the
         # characters "--" PLUS the Boundary string
         $boundary = "--$boundary";
         # Read the topmost (boundary) line plus the CRLF
@@ -41,7 +41,7 @@ sub new {
     } else { # otherwise we find it ourselves
         my($old);
         ($old,$/) = ($/,$CRLF); # read a CRLF-delimited line
-        $boundary = <$IN>;              
+        $boundary = <$IN>;
         $length -= length($boundary);
         chomp($boundary);               # remove the CRLF
         $/ = $old;                      # restore old line separator
@@ -69,7 +69,7 @@ sub readHeader {
         $self->fillBuffer($FILLUNIT);
         $ok++ if ($end = index($self->{BUFFER},"${CRLF}${CRLF}")) >= 0;
         $ok++ if $self->{BUFFER} eq '';
-        $FILLUNIT *= 2 if length($self->{BUFFER}) >= $FILLUNIT; 
+        $FILLUNIT *= 2 if length($self->{BUFFER}) >= $FILLUNIT;
     } until $ok;
 
     my($header) = substr($self->{BUFFER},0,$end+2);
@@ -98,7 +98,7 @@ sub readBody {
 sub read {
     my($self,$bytes) = @_;
     # default number of bytes to read
-    $bytes = $bytes || $FILLUNIT;       
+    $bytes = $bytes || $FILLUNIT;
 
     # Fill up our internal buffer in such a way that the boundary
     # is never split between reads.
@@ -124,7 +124,7 @@ sub read {
         return undef;
     }
 
-    my $bytesToReturn;    
+    my $bytesToReturn;
     if ($start > 0) {           # read up to the boundary
         $bytesToReturn = $start > $bytes ? $bytes : $start;
     } else {    # read the requested number of bytes
@@ -136,7 +136,7 @@ sub read {
 
     my $returnval=substr($self->{BUFFER},0,$bytesToReturn);
     substr($self->{BUFFER},0,$bytesToReturn)='';
-    
+
     # If we hit the boundary, remove the CRLF from the end.
     return ($start > 0) ? substr($returnval,0,-2) : $returnval;
 }
@@ -154,7 +154,7 @@ sub fillBuffer {
     # will block for more than TIMEOUT seconds.
     die "CGI.pm: Client timed out during multipart read.\n" if wouldBlock($self->{IN},$TIMEOUT);
     my $bytesRead = read($self->{IN},$self->{BUFFER},$bytesToRead,$bufferLength);
-    
+
     # An apparent bug in the Netscape Commerce server causes the read()
     # to return zero bytes repeatedly without blocking if the
     # remote user aborts during a file transfer.  I don't know how

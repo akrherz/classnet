@@ -26,7 +26,7 @@ SWITCH: {
                        $cls->print_login();
                    } else {
                       CN_UTILS::print_cn_header("$cname?");
-                      print "The class '$cname' doesn't exist.  Check 
+                      print "The class '$cname' doesn't exist.  Check
 your spelling and capitalization and try again. ";
                    CN_UTILS::print_cn_footer();
                    }
@@ -61,7 +61,7 @@ your spelling and capitalization and try again. ";
                $mem = $cls->get_member($query,$uname);
                $mem->check_password($query);
 	       $mem->{'Ticket'} = $ticket;
-               $mem->print_menu($cls);                   
+               $mem->print_menu($cls);
                last SWITCH;
             };
    ERROR::user_error($ERROR::NOOPTION);

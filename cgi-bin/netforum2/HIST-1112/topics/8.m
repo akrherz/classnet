@@ -6,8 +6,8 @@
 ===from:Shemika Williams
 ===date:Mon Jul  7 20:03:42 2003
 ===subject:World War II
-===message:The origins of World War II didn’t have many similarities with the origins of World War I.  In contrast to WWI, which had been a war of stalemate, the opening phase of WWII was marked by air strikes and troops supported by trucks and tanks covering many miles a day.  WWI started with the assassination of the heir to the Austro-Hungarian Empire.  WWII was a direct result of Japan’s interest in revising the peace settlements that followed WWI, and “fixing” the economic distress of the worldwide depression.  Japan invaded Manchuria in 1931, thus ending the post-Great War peace. 
-WWII was more massive than the Great War.  It involved almost every nation.  Every weapon ever produced was put to use.  Entire societies including women and children were engaged into the conflict.  Civilian deaths exceeded military deaths.  Japanese soldiers raped thousands of women, and murdered hundreds of thousands of unarmed soldiers and civilians.  Four hundred thousand Chinese lost their lives when Japanese soldiers used them for bayonet practice.  Six hundred thousand Italian soldiers died.  During the German invasion of the Soviet Union, Soviet resistance produced eight hundred thousand German casualties.  As the war was far from over, the casualties continued to mount.  Japanese kamikaze pilots flew hundreds of planes into American ships killing more than five thousand soldiers. United States launched retaliation against Japan.  The U.S. dropped an atomic bomb on Hiroshima and Nagasaki, killing nearly two hundred thousand Japanese. In Europe, Adolph Hitler’s racist ideology cause the death of nearly 5.7 million Jews in what was known as the Holocaust.  
+===message:The origins of World War II didn’t have many similarities with the origins of World War I.  In contrast to WWI, which had been a war of stalemate, the opening phase of WWII was marked by air strikes and troops supported by trucks and tanks covering many miles a day.  WWI started with the assassination of the heir to the Austro-Hungarian Empire.  WWII was a direct result of Japan’s interest in revising the peace settlements that followed WWI, and “fixing” the economic distress of the worldwide depression.  Japan invaded Manchuria in 1931, thus ending the post-Great War peace.
+WWII was more massive than the Great War.  It involved almost every nation.  Every weapon ever produced was put to use.  Entire societies including women and children were engaged into the conflict.  Civilian deaths exceeded military deaths.  Japanese soldiers raped thousands of women, and murdered hundreds of thousands of unarmed soldiers and civilians.  Four hundred thousand Chinese lost their lives when Japanese soldiers used them for bayonet practice.  Six hundred thousand Italian soldiers died.  During the German invasion of the Soviet Union, Soviet resistance produced eight hundred thousand German casualties.  As the war was far from over, the casualties continued to mount.  Japanese kamikaze pilots flew hundreds of planes into American ships killing more than five thousand soldiers. United States launched retaliation against Japan.  The U.S. dropped an atomic bomb on Hiroshima and Nagasaki, killing nearly two hundred thousand Japanese. In Europe, Adolph Hitler’s racist ideology cause the death of nearly 5.7 million Jews in what was known as the Holocaust.
 During this war entire cities were torn apart.  Many of them were the victims of air raid campaigns. Bombs and missiles destroyed many buildings and homes leaving millions of people homeless and without work.
 Despite it’s devastating toll this “good war” brought about some very important economic changes.  Institutions, programs, and policies were put in place to aid in global reconstruction.  New sets of allies and newly independent nations emerged.  The United States and the Soviet Union both emerges as global superpowers, and nations began to reconstruct under these powers.
 
@@ -35,7 +35,7 @@ Despite it’s devastating toll this “good war” brought about some very important 
 ===from:Yvonne Turner
 ===date:Tue Jul  8 17:34:04 2003
 ===subject:World War II
-===message:The origins of World War I and World War II are similar in that they both began because of one country trying to gain control over another.  Although different countries started the two wars, they had similar origins.  The differences in the origin of the two wars were the secret alliances.  During the first war, many countries became engaged in war because of secret alliances they held with other countries.  World War II expanded globally because countries had to defend their territories.  Later, the United States, Britain, and Russia joined in alliance in order to defeat Germany and Japan on the two war fronts.  
+===message:The origins of World War I and World War II are similar in that they both began because of one country trying to gain control over another.  Although different countries started the two wars, they had similar origins.  The differences in the origin of the two wars were the secret alliances.  During the first war, many countries became engaged in war because of secret alliances they held with other countries.  World War II expanded globally because countries had to defend their territories.  Later, the United States, Britain, and Russia joined in alliance in order to defeat Germany and Japan on the two war fronts.
 <p>
 World War II was more destructive because there were more casualties and because of the mass destruction of civilians, especially Jews.  In addition, new weapons were introduced during World War II.
 <p>
@@ -45,7 +45,7 @@ The consequence of World War II was the tension that developed between two forme
 ===from:Jordan Berkow
 ===date:Tue Jul  8 20:06:22 2003
 ===subject:WWII
-===message:<p>The two World Wars had both some major similarities and also differences.  In both wars millions of people lost their lives.  They both also introduced new types of warfare, in which battles were fought not only on the battle front, but also directed towards targeted civilian populations.  Thousands of harmless people died during these air raids and attacks while on sea.  Both of these wars also introduced new types of weaponry.  While machine guns blared and harmful gases were used against soldiers in WWI, firebombing and the atomic bombs were unleashed during WWII.</p>  
+===message:<p>The two World Wars had both some major similarities and also differences.  In both wars millions of people lost their lives.  They both also introduced new types of warfare, in which battles were fought not only on the battle front, but also directed towards targeted civilian populations.  Thousands of harmless people died during these air raids and attacks while on sea.  Both of these wars also introduced new types of weaponry.  While machine guns blared and harmful gases were used against soldiers in WWI, firebombing and the atomic bombs were unleashed during WWII.</p>
 <p>Another big similarity of the two wars was that both wars had alliance systems.  With this system in place, and nations vowing to support their comrades if battle broke out, any sudden conflict coulc erupt into global conflict.  These wars comprised of the aggressive alliances, such as Germany, Italy and Austria-Hungary during WWI, and the Allies, Britain, France and Russia during WWI.  Also other nations such as the United States and Japan would later enter WWI on the Allies side.  In both wars though, the aggressive nations would go about their territorial conquests, challenging the peace amongst the nations, and eventually triggering war.</p>
 <p>Besides these similarities, there are also some major differences between the wars.  The first difference is the size and scale of the war.  During WWI, war was fought on European soil, with a few battles in Africa and Asia.  WWI also only comprised of a limited amount of nations.  The majority of these nations were in Europe and their comprised empires.  The United States finally entered the war on the Allies side though.  In contrast, virtually the entire globe fought in WWII and over various continents and ocean masses.  Only few nations remained neutral in WWII.  Battles raged from Paris, France to the small islands in the Pacific.  WWII also used air warfare more extensivly than in the first war.  The Japanese air strike on the US Navy in Pearl Harbor was the worst aggressive movement that we have seen in our history.  The destruction of eighteen ships and damage of two-hundred other ships, express the power of an air strike during WWII.</p>
 <p>Another major difference between the two wars is how they ended.  Unlike WWI, when Germany and other Axis nations only had to pay war debts and disarm their armies, they were divided into territorial divisions after WWII.  Germany was divided four ways after the second war.  Other countries that were not nationally stable were also under Allied control.  This way of handling the end of the war, gave the aggressive Axis powers little room for any other attempt at destroying peace in the world.</p>
@@ -62,15 +62,15 @@ The consequence of World War II was the tension that developed between two forme
 ===date:Wed Jul  9 16:04:39 2003
 ===subject:WW2
 ===message:     The origins of WW1 and WW2 have one major thing in common and that is Imperialism. Most nations saw industrialization as an expedient way to bring about imperialism for there nation and keep it from being put under the control of another nation. When several nations tried to expand there imperialism and control other nations this led to conflict and jealousy. With the end of  WW1 and the Treaty of Versailles several nation saw themselves as being treated unfairly and overly harsh by the treaty. Combine these feeling  with the world depression that followed and you can see why WW2 was just a continuation of WW1.
-     
+
 <p>
 Most of the imperial nations learned lessons from WW1 and tried not to make the same mistakes that were made earlier. With the advancement of industrialization and technology between WW1 and WW2 the devastation caused by WW2 was more profound. One of the lessons learned in the first war was that to defeat an industrial nation you had to stop his production of war supplies. That is one of the reason’s for the amount of civilian casualty’s in the second war.
-     
+
 <p>
 I can’t say why WW2 was called the “good war” because I believe that war is inevitable  but I also believe there is no “good war”.
-     
+
 <p>
-One of the things that caused WW2 the “great depression”. After the war nations tried not to make the same mistake and close there borders, they tried to prevent jealousy and economic uncertainty by helping other nations rebuild. This created good will and jobs for all involved and helped to create a world economy. As capitalism and communism competed for power this helped to create bonds between most nations. 
+One of the things that caused WW2 the “great depression”. After the war nations tried not to make the same mistake and close there borders, they tried to prevent jealousy and economic uncertainty by helping other nations rebuild. This created good will and jobs for all involved and helped to create a world economy. As capitalism and communism competed for power this helped to create bonds between most nations.
 <br>
 
 =========yorg=========
@@ -83,22 +83,22 @@ WWII was a massive, horrendous, and exasperating war.  There was an extraordinar
 <p>
 I think one of the major consequences of WWII was that so many lives were lost and countries were more divided.  There are so many that are alive today that still live with the nightmares, disabilities, and mental anguish that transpired because of WWII.  It devastated many lives.
 <p>
-After the war there were many slave labor camps.  People were made to work in offensive conditions and for almost nothing.  NATO was established to maintain peace as a part of postwar global reconstruction.  Rearranging territories gave both superpowers of the war (U.S. and the Soviet Union)a profound area in which to strive.   
+After the war there were many slave labor camps.  People were made to work in offensive conditions and for almost nothing.  NATO was established to maintain peace as a part of postwar global reconstruction.  Rearranging territories gave both superpowers of the war (U.S. and the Soviet Union)a profound area in which to strive.
 <br>
 
 =========yorg=========
 ===from:Jasmine Heard
 ===date:Thu Jul 10 14:35:43 2003
 ===subject:WORLD WAR II
-===message:The similarities of WWI & WWII were that each began on the grounds of some country wanting power over a territory that they could not have; however, at the beginning of WWI, someone died and caused a "domino" effect among nations. Another similarity of the two wars is the fact that many lives were lost, civilian and soldiers. One key difference of the two wars would be the machinery used in each war. During WWI submarines and aircrafts were used, while in WWII atomic bombs were introduced that "shook the world". 
+===message:The similarities of WWI & WWII were that each began on the grounds of some country wanting power over a territory that they could not have; however, at the beginning of WWI, someone died and caused a "domino" effect among nations. Another similarity of the two wars is the fact that many lives were lost, civilian and soldiers. One key difference of the two wars would be the machinery used in each war. During WWI submarines and aircrafts were used, while in WWII atomic bombs were introduced that "shook the world".
 World War II was considered the "good war" because a lot of good came from it. Hitler killed himself, a definite plus, after the lands he took over were taken back and he knew he would be next. The Holocaust ended and many Jews ,although shaken by the Holocaust, were able to start over and no longer fear for their lives. Also, NATO and the Warsaw Pact were established to try to alleviate the conditions of the Soviet Union after the war.
-The consequences of World War I were the casualties and the use of the atomic bomb. The atomic bomb gave American soldiers, as well as the rest of the world, an idea of absolute destruction. In other words, what could happen if such weapons were to enter the wrong hands and that is why America is so adimate about seeking any nuclear devices that maybe hidden in Iraq. 
-Post-war was shaped by the war in that because of alliances made during the war, pacts were made and the cold war began. As it states on page 1061 the world was," a world seriously in need of reconstruction and healing." To this day, our world is not perfect. What we can hope and pray for is for each leader to desire peace and prosperity over greed and territory.   
+The consequences of World War I were the casualties and the use of the atomic bomb. The atomic bomb gave American soldiers, as well as the rest of the world, an idea of absolute destruction. In other words, what could happen if such weapons were to enter the wrong hands and that is why America is so adimate about seeking any nuclear devices that maybe hidden in Iraq.
+Post-war was shaped by the war in that because of alliances made during the war, pacts were made and the cold war began. As it states on page 1061 the world was," a world seriously in need of reconstruction and healing." To this day, our world is not perfect. What we can hope and pray for is for each leader to desire peace and prosperity over greed and territory.
 =========yorg=========
 ===from:Travis Ellis
 ===date:Thu Jul 10 16:19:44 2003
 ===subject:World War 2
-===message:The origins of the first war came from extreme nationalism and occupation of lands and peoples who wanted their own influence. Once one country squared off with the other, alliances brought even more countries into the fight. The terms of the Treaty of Versailles spawned bitterness and actually helped to create tension and conflict. The imperial ambitions of a couple of countries and the alliances on both sides once again lead to war. The post war state saw much tension between the US and the Soviet Union. In another way the ambitions of two countries almost brought World War 3, but instead we got several smaller conflicts around the world. The threat of a nuclear exchange or all out nuclear war became real after World War 2. The old saying "a gun only invites another gun, therefore a gun can never bring peace," comes to mind when I think about the cold war. It was cool when we were the only one with the ultimate weapon, there was peace then, but once the Soviets got the ultimate weapon, war was inevitable. The wounds of WW2 were still very fersh then, and the world is still healing from WW2 and the cold war conflicts. I don't want to consider any war good. The measures taken to prevent war after WW2 were good, or ok, but a global war with atomic bombs, millions and millions dieing and suffering, and total devestation over a lot of area is not a good thing.   
+===message:The origins of the first war came from extreme nationalism and occupation of lands and peoples who wanted their own influence. Once one country squared off with the other, alliances brought even more countries into the fight. The terms of the Treaty of Versailles spawned bitterness and actually helped to create tension and conflict. The imperial ambitions of a couple of countries and the alliances on both sides once again lead to war. The post war state saw much tension between the US and the Soviet Union. In another way the ambitions of two countries almost brought World War 3, but instead we got several smaller conflicts around the world. The threat of a nuclear exchange or all out nuclear war became real after World War 2. The old saying "a gun only invites another gun, therefore a gun can never bring peace," comes to mind when I think about the cold war. It was cool when we were the only one with the ultimate weapon, there was peace then, but once the Soviets got the ultimate weapon, war was inevitable. The wounds of WW2 were still very fersh then, and the world is still healing from WW2 and the cold war conflicts. I don't want to consider any war good. The measures taken to prevent war after WW2 were good, or ok, but a global war with atomic bombs, millions and millions dieing and suffering, and total devestation over a lot of area is not a good thing.
 =========yorg=========
 ===from:Al Desmond
 ===date:Thu Jul 10 18:29:11 2003
@@ -108,13 +108,13 @@ Post-war was shaped by the war in that because of alliances made during the war,
 ===from:Tiffany Charles
 ===date:Thu Jul 10 19:57:21 2003
 ===subject:World War II
-===message:There were similarities between WWI and WWII. The main similarity between the wars was power.  The first war was fought because of "a general struggle over the balance of power in Europe and in the world at large" (973). WWII was fought because the Axis countries were reacting to the constraints imposed on them after WWI.  Territorial expansion was also a factor.  The size of the conflict was larger than any previous wars.  More civilians lost their lives than in WWI.  WWII was considered the "good war" because of the crimes that were committed against humanity. Those crimes halted the future use of atomic and nuclear weaponry.  Consequences of the war was a lasting global peace, the Cold War and formations of new countries.  The war was very destructive to humans, infrastructure and economies.  The post-war world was shaped by the war because of laws and institutions that were created. NATO and the Warsaw Pact were enacted to try and maintain peace on a global scale. 
+===message:There were similarities between WWI and WWII. The main similarity between the wars was power.  The first war was fought because of "a general struggle over the balance of power in Europe and in the world at large" (973). WWII was fought because the Axis countries were reacting to the constraints imposed on them after WWI.  Territorial expansion was also a factor.  The size of the conflict was larger than any previous wars.  More civilians lost their lives than in WWI.  WWII was considered the "good war" because of the crimes that were committed against humanity. Those crimes halted the future use of atomic and nuclear weaponry.  Consequences of the war was a lasting global peace, the Cold War and formations of new countries.  The war was very destructive to humans, infrastructure and economies.  The post-war world was shaped by the war because of laws and institutions that were created. NATO and the Warsaw Pact were enacted to try and maintain peace on a global scale.
 =========yorg=========
 ===from:Leon Aguilar
 ===email:aguilar14@juno.com
 ===date:Thu Jul 10 20:29:54 2003
-===subject:W W II - Many Similarities 
-===message:World War II began in Europe with the start of a single event (assassination of the Archduke of Austria-Hungary). However, because of rising nationalist sentiment of the Serbs, the Archduke became the scapegoat of their concern. World War I began in Europe but later towards the end of the war spread to global recognition as the US, Japan, and the Ottoman Empire entered. 
+===subject:W W II - Many Similarities
+===message:World War II began in Europe with the start of a single event (assassination of the Archduke of Austria-Hungary). However, because of rising nationalist sentiment of the Serbs, the Archduke became the scapegoat of their concern. World War I began in Europe but later towards the end of the war spread to global recognition as the US, Japan, and the Ottoman Empire entered.
 
 Sorry folks, I have to be different on this one. From a large scale, both wars were very much alike. Why? Because WW II was an extension of WW I. The same two opposing forces (imperialism versus nationalism) were still lingering in the air. After WW I, countries like Japan took the liberty to come “front and center” for an opportunity. Similar to WW I, WW II began with a single event (Japan’s invasion of Manchuria) serving as the catalyst but also had the under tones of imperialism. Japan utilized the efforts of WW I to muscle imperialism into to China. In comparison, both wars:
 
@@ -124,16 +124,16 @@ Sorry folks, I have to be different on this one. From a large scale, both wars w
 (4)	women participated in both wars
 (5)	children lost their lives in both wars (WW I, children in factories and WW II the Atomic bomb, etc.)
 (6)	In both wars civilians experienced bombs from air causing many civilian casualties
-(7)	Both wars employed new weapons of destruction and technology (WW I, machine guns and poisonous gases, tanks, barbed wire. WW II the Atomic bomb, faster planes (jets), planes able to carry bombs whereby in WW I planes were basically used for recognizance purposes because they could not carry heavy loads)  
+(7)	Both wars employed new weapons of destruction and technology (WW I, machine guns and poisonous gases, tanks, barbed wire. WW II the Atomic bomb, faster planes (jets), planes able to carry bombs whereby in WW I planes were basically used for recognizance purposes because they could not carry heavy loads)
 (8)	Both wars employed weapons of mass destruction
-(9)	Both wars were bloody          
-(10)	Both wars suffered mass casualties 
+(9)	Both wars were bloody
+(10)	Both wars suffered mass casualties
 
 So in all that, if we look at the big picture, we will see that the two wars were as puzzle pieces waiting for that particular someone (which in WW I the Serbs, and WW II  Japan) to seize the opportunity to connect the pieces (WW I and WW II) together. Thus we had a chaotic mess!
 
-WW II was called the “Good War” because it was believed that the war was for “good” and “moral” causes. Societies were now willing to make a whole hearted concentrated effort and sacrifice regarding their lives and disrupt their lifestyles to stop the aggression of Germany, Italy and Japan and their threat to global society. This was the "good" and "moral" cause. 
+WW II was called the “Good War” because it was believed that the war was for “good” and “moral” causes. Societies were now willing to make a whole hearted concentrated effort and sacrifice regarding their lives and disrupt their lifestyles to stop the aggression of Germany, Italy and Japan and their threat to global society. This was the "good" and "moral" cause.
 
-Post WW II the world had changed drastically. Gender roles were redefined, new super powers (US and Soviet Union) surfaced, and the global political system changed dramatically.        
+Post WW II the world had changed drastically. Gender roles were redefined, new super powers (US and Soviet Union) surfaced, and the global political system changed dramatically.
 
 =========yorg=========
 ===from:Carmen Ramos
@@ -151,16 +151,16 @@ Post WW II the world had changed drastically. Gender roles were redefined, new s
 ===institution:History 1112
 ===date:Fri Jul 11  4:58:51 2003
 ===subject:What are your feelings about the two wars?
-===message:My feelings about the war  is that there is no need to kill people to have power, control or demands. Talk, propose and rationalize your needs and demands. It saddens me to always know  that people feel that violence is goinfg to solve a problem. It make may cover the scar but it want heal the nation. 
+===message:My feelings about the war  is that there is no need to kill people to have power, control or demands. Talk, propose and rationalize your needs and demands. It saddens me to always know  that people feel that violence is goinfg to solve a problem. It make may cover the scar but it want heal the nation.
 =========yorg=========
 ===from:Conswella Walker
 ===email:swellawalker@aol.com
 ===institution:History 1112
 ===date:Fri Jul 11  5:00:23 2003
 ===subject:What are your feelings about the two wars?
-===message:My feelings about the war  is that there is no need to kill people to have power, control or demands. Talk, propose and rationalize your needs and demands. It saddens me to always know  that people feel that violence is going to solve a problem. War and violence may temporarily  cover the problem but it want heal the nation because the scar will always be there. 
+===message:My feelings about the war  is that there is no need to kill people to have power, control or demands. Talk, propose and rationalize your needs and demands. It saddens me to always know  that people feel that violence is going to solve a problem. War and violence may temporarily  cover the problem but it want heal the nation because the scar will always be there.
 =========yorg=========
-===from:Tim Fitzgerald 
+===from:Tim Fitzgerald
 ===date:Sat Jul 12  8:50:13 2003
 ===subject:WWI vs. WWII
 ===message:The factors precipitating WWI were the industrializtion of mostly multiple European nations along with their Imperialist expansion. Coupled with recent historical movements towards self determination and nationalism had cultivated a sense competition, and an almost unrelenting drive for economic and political dominance by the stronger competing nations. As no single nation was in a "superpower" status, as the US has evolved into in modern times, then alliances were formed between various competing powers that effectively split the world into two major camps. Military strategy and tactics had not evolved taking into consideration the powerful weapons available as a result of industrialization. Along the the general strategy that war, if necessary, should be an all out offensive battle won in a matter of weeks with the resultant "honor and glory" that military success would bring resulted in a "relatively" minor political assassination catalyzing into a global conflict never before experienced in history.
@@ -168,13 +168,13 @@ Post WW II the world had changed drastically. Gender roles were redefined, new s
 WWII resulted from the economic and political failures of the resolution of WWI. The victors, ingnoring the Fourteen Points enumerated by Woodrow Wilson, sought to punish the losers of the war and maintain Imperialist and colonial policies in effect prior to WWI. They underestimated the growing sense of nationalism and self determination that was spawned and growing to varying degrees in almost every country on the planet. Include the global depression in the mix, and the stage was now set for communism and facism to gain substantial ground to the seemingly failed policies of democracy, imperialism, and a free market economy. WWII was almost inevitable from the failed peace settlements and policies of WWI.
 <p>
 The wars were similar in the huge devastation in lives, property, and economic resources on a scale almost unimaginable before that time. Total commitment to victory included not only the military but the entire civilian infrastructure of the belligerents. IN WWI civilians were no longer treated as noncombatants and slaughtered with impugnity.
- 
+
 <br>
 WWI paired unlikely nations as military allies. WWII paired nations with similar philosophies as allies. The facist nations philosophies, policies, tactics, and atrocities against perceived enemies were so offensive to their enemies that WWII could easily be characterized as the "Good War". The Axis powers could justifiably be characterized as "evil" and any force that opposed them would by definition have to be characterized as "good". WWI was as close to a classic definition of moral "good vs. evil" as the world has ever experienced.
 <p>
 In terms of deaths, millions by genocide, millions of civilians by direct military attack or the resultant consequences of the military attacks, and the millions of combatants resulted in a decimation of world population never before experienced. Almost all of Europe, Russia, much of Japan, parts of Asia, Africa, and quite a few Pacific islands lay in ruin.
 <p>
-The end result of WWII was the division of the world into two different camps...democracy and communism. Two superpowers emerged, the United States and Russia with some later support from China. Each nation advancing it's idealogy and repeling the opposing idealogy over the planet in what became known as the "cold war".  Russian eventually collapsed economically and the US remains as the most dominant nation the world has ever seen. 
+The end result of WWII was the division of the world into two different camps...democracy and communism. Two superpowers emerged, the United States and Russia with some later support from China. Each nation advancing it's idealogy and repeling the opposing idealogy over the planet in what became known as the "cold war".  Russian eventually collapsed economically and the US remains as the most dominant nation the world has ever seen.
 <p>
 The desire for self determination among all peoples, cultures, and ethnic groups, in my opinion is stronger today than any previous point in history. The hatreds, resentments, grudges of these peoples against former colonial, imperial, and industrialist powers is also stronger than at any time in history.
 <p>
@@ -186,6 +186,6 @@ Though my answer has gotten slightly off course from what is in the text, I thin
 <p>
 The Chinese have a saying. "May you live in interesting times." There is some debate as to whether that statement is curse or blessing when spoken.
 <p>
-We do live in interesting times. 
+We do live in interesting times.
 
 =========yorg=========

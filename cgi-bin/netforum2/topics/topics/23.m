@@ -8,7 +8,7 @@ a)a nucleus b)organelle c)ribosomes d)plasma membrane
 ===from:Courtney Babic
 ===date:Wed Dec  9  9:26:17 1998
 ===subject:Mollusks
-===message:Which of the following mollusks has a closed circulatory system? a)squids b)clams c)snails d)mussels     
+===message:Which of the following mollusks has a closed circulatory system? a)squids b)clams c)snails d)mussels
 =========yorg=========
 ===psite:http://www.public.iastate.edu/~jhibben
 ===from:Josh Hibben
@@ -33,14 +33,14 @@ Josh Hibben
 	c.Tropical rain forest
 	d.Temperate deciduous forest
 
-2.)The water vascular system in the starfish functions in 
+2.)The water vascular system in the starfish functions in
    all but:
 	a.feeding
 	b.reproduction
 	c.locomotion
 	d.gas exchange
 
-3.)Which series of classes is in the proper order of   
+3.)Which series of classes is in the proper order of
    evolution:
 	a.Amphibia, Aves, Mammalia
 	b.Agnatha, Osteichthyes, Chondrichthyes
@@ -93,7 +93,7 @@ Josh Hibben
 ===from:anna hansen
 ===date:Wed Dec  9 16:59:56 1998
 ===subject:interphase
-===message:Which of the following is not a characteristic of interphase? 
+===message:Which of the following is not a characteristic of interphase?
 a. it accounts for 90% of a cell's cycle
 b. it is the time when the cell grows and copies its chromosomes
 c. it consists of the G1, S, and G2 subphases
@@ -104,10 +104,10 @@ d. it is the time when the nucleoli and the nuclear envelope disappear during mi
 ===subject:Final Q: H-W theorem
 ===message:Which of the following is NOT an assumption for the Hardy-Weinberg theorem?
 
-a) large population 
-b) no mutation 
+a) large population
+b) no mutation
 c) random mating
-d) natural selection 
+d) natural selection
 =========yorg=========
 ===from:Anna Hansen
 ===date:Wed Dec  9 17:11:27 1998
@@ -115,22 +115,22 @@ d) natural selection
 ===message:Which of the following germ layers is not matched with its appropriate tissues or organs?
 
 a. Ectoderm - lungs
-b. Endoderm - liver 
+b. Endoderm - liver
 d. Mesoderm - muscles
-e. Mesoderm - connective tissue 
+e. Mesoderm - connective tissue
 =========yorg=========
 ===from:Melinda Witherow
 ===date:Wed Dec  9 23:40:32 1998
 ===subject:Practice final question
 ===message:Which is not a part of the eubacteria group?
-a) proteobacteria b)cyanobacteria c)chlamydias d) 
+a) proteobacteria b)cyanobacteria c)chlamydias d)
 extremehalophiles e) spirochete
 =========yorg=========
 ===from:Lillian Erdahl
 ===date:Wed Dec  9 23:52:45 1998
 ===subject:Sponges
 ===message:All of the following are true of sponges except:
-     a)they take in water through porocites      
+     a)they take in water through porocites
      b)most are hermaphrodites
      c)they are capable of regeneration
      d)they digest food through extracellular digestion
@@ -149,13 +149,13 @@ e)Amoeba
 ===from:Lillian Erdahl
 ===date:Thu Dec 10  0:00:39 1998
 ===subject:Endosymbiont Theory
-===message:Which of the following is not a part of the Endosymbiont 
+===message:Which of the following is not a part of the Endosymbiont
 Theory?
-     a)Mitochondria in eukaryotic cells descended from 
+     a)Mitochondria in eukaryotic cells descended from
        heterotrophic bacteria.
-     b)Internal membrane systems in eukaryotic cells came 
+     b)Internal membrane systems in eukaryotic cells came
        from invaginations of prokaryotic plasma membranes.
-     c)Chloroplasts in eukaryotic cells descended from 
+     c)Chloroplasts in eukaryotic cells descended from
        photosynthetic bacteria.
      d)Symbiotic consortiums of prokaryotic cells were the
        ancestors of eukaryotic cells

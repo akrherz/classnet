@@ -8,7 +8,7 @@ package main;
 BEGIN {
    unshift(@INC,'/local/classnet/cgi-bin/lib');
 }
-    
+
 # Modules to include
 require "optimize.pl";
 
@@ -29,17 +29,17 @@ CN_UTILS::verify_pairs($query,'Class Name','First Name','Last Name',
 
 CLASS->check_limit();
 
-my $cname = $query->param('Class Name'); 
+my $cname = $query->param('Class Name');
 if ($cname =~ /[\*\/%:\(\)\\]/) {
     ERROR::user_error($ERROR::NOTDONE,"create <B>${cname}</B>. The class name may not contain the characters /%():\\");
 }
 
-my $fname = $query->param('First Name'); 
+my $fname = $query->param('First Name');
 if ($fname =~ /[^a-z^A-Z]/) {
-    ERROR::user_error($ERROR::NOTDONE,"create <B>${cname}</B>. Your first 
+    ERROR::user_error($ERROR::NOTDONE,"create <B>${cname}</B>. Your first
 name may only contain alphabetic characters (no spaces)"); }
 
-my $lname = $query->param('Last Name'); 
+my $lname = $query->param('Last Name');
 if ($lname =~ /[^a-z^A-Z]/) {
     ERROR::user_error($ERROR::NOTDONE,"create <B>${cname}</B>. Your last name may only contain alphabetic characters"); }
 
@@ -64,9 +64,9 @@ if (-e $req_file) {
       chop;
       my ($name,$value) = split(/=/);
       if ($name eq 'END') {
-      	 ($cls->{'Name'} eq $value) and 
+      	 ($cls->{'Name'} eq $value) and
       	    ERROR::user_error($ERROR::CLASSAPPROVAL,$cls->{'Name'});
-      } 
+      }
       else {
       	 $list{$name} = $value;
       }
@@ -76,7 +76,7 @@ if (-e $req_file) {
 }
 
 # Put request in list
-open(CLASS_REQ, ">>$req_file") or 
+open(CLASS_REQ, ">>$req_file") or
        ERROR::system_error("CLASS","create","open","class req");
 flock(CLASS_REQ,$LOCK_EX);
 my @names = $query->param;
@@ -114,8 +114,8 @@ print <<"OPT_FORM";
    <DD>$query->{'Expiration Month'}->[0]
 </DL>
 <P>
-The above information has been submitted to the ClassNet adminstrators 
-for approval. You will be notified by email when the class is available 
+The above information has been submitted to the ClassNet adminstrators
+for approval. You will be notified by email when the class is available
 for use.
 <P>
 <CENTER><A HREF="$GLOBALS::SCRIPT_ROOT/main-menu">Return to Main Menu</A></CENTER>
@@ -127,8 +127,8 @@ CN_UTILS::print_cn_footer();
 package CLASS;
 
 sub check_limit {
-   # Has the maximum number of classes been reached? 
-   opendir(CLASS_DIR,$GLOBALS::CLASSNET_ROOT_DIR);  
+   # Has the maximum number of classes been reached?
+   opendir(CLASS_DIR,$GLOBALS::CLASSNET_ROOT_DIR);
    # Don't include . or .. directories
    my $num_classes = grep(!/^\.\.?$/, readdir(CLASS_DIR));
    closedir(CLASS_DIR);

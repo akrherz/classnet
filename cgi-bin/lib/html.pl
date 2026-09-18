@@ -38,7 +38,7 @@
 # that contain "<a" will be damaged by html'abs ...
 # janl says: This is why html'abs should NOT be applied to anything but
 #    html files.  w3mir don't anymore, neither should you.
-# Abs got some bugs. 
+# Abs got some bugs.
 # <base> references are NOT recognized by html'abs -- this needs
 # to be fixed! ...
 
@@ -66,9 +66,9 @@ unshift(@INC,'/usr/local/lib/perl');
 	# -- repaired abs() to handle HREFs with missing quotes
 #v = 'html.pl v1.8'; # 25/5/94
 	# -- modified parse() to handle empty protocol type
-#v = 'html.pl v1.9'; # 1/2/95 
+#v = 'html.pl v1.9'; # 1/2/95
 	# -- fixed abs to search for closing ">"
-#v = 'html.pl v1.10'; # 3/2/95 
+#v = 'html.pl v1.10'; # 3/2/95
 	# -- fixed href() to use ^A as EOL placeholder (instead of #)
 #v = 'html.pl v1.11'; # 20/2/95 Gorm Haug Eriksen <gorm@usit.uio.no>
 	# -- fixed some bugs in abs
@@ -162,7 +162,7 @@ sub printa {
 # BUG: minor problem with binary files containing "<a" ...
 # Not a bug, a binary file should not be submitted to this procedure
 #
-# A real bug.  http://www.interlog.com/foo is not synonymous to 
+# A real bug.  http://www.interlog.com/foo is not synonymous to
 # http://www.interlog.com:80/foo according to this routine.
 sub abs {
 	local($url,$page) = @_;
@@ -176,7 +176,7 @@ sub abs {
 	 #   print "$hrefs[$n]\n";
 
 		# absolute URLs ok:
-#                ($hrefs[$n] =~ s|href\s*=\s*"?\s* 
+#                ($hrefs[$n] =~ s|href\s*=\s*"?\s*
 		($hrefs[$n] =~ m|href\s*=\s*"?http://|i) && next;
 
 		($hrefs[$n] =~ m|href\s*=\s*"?\w+:|i) && next;
@@ -313,14 +313,14 @@ sub canonize {
     # <!DOCTYPE HTML ...>
     # <html>...</html>
     # We'll insert whatever is missing of those.  This allows automatic
-    # type recognition of html files on disk, which is usefull, 
+    # type recognition of html files on disk, which is usefull,
     # janl 95/09/19
-    
+
     local($add)='';
 
-    $add.='<!SGML "ISO 8879:1986">'."\n" 
+    $add.='<!SGML "ISO 8879:1986">'."\n"
 	unless ($_[0] =~ m~<!SGML~i);
-	
+
     $add.='<!DOCTYPE HTML SYSTEM "html.dtd">'."\n"
 	unless $_[0] =~ m~<!DOCTYPE HTML~i;
 

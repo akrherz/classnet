@@ -13,7 +13,7 @@
 ===subject:Survivor Assignment
 ===message:Dr. Dane:  I chose to sacrifice Dr. Dane because although he was healthy, I felt that his educational background wouldn’t have been especially helpful to the group.
 
-Mrs. Dane:  Mrs. Dane was the fifth person that I chose to keep alive.  Although she’s not in such good health, I feel that this group of survivors will definitely need somebody to discuss the trauma that they have experienced and the rough times that may lie ahead and Mrs. Dane is trained as a psychologist.  
+Mrs. Dane:  Mrs. Dane was the fifth person that I chose to keep alive.  Although she’s not in such good health, I feel that this group of survivors will definitely need somebody to discuss the trauma that they have experienced and the rough times that may lie ahead and Mrs. Dane is trained as a psychologist.
 
 Bobby Dane:  I chose to sacrifice Bobby.  Although he’s strong and could be helpful with manual labor, I feel like he would be too young and inexperienced to really contribute to the group and might even hold them back.
 
@@ -25,7 +25,7 @@ Mary Evans:  I chose to sacrifice Mary Evans.  Education wise, I don’t feel that
 
 Mr. Newton:  I chose Mr. Newton to be the third living person.  A doctor will be incredibly helpful to the group and he is young and healthy.
 
-Mrs. Clark:  Mrs. Clark is the fourth person that I chose to live.  She is still young enough to have children and her background as an electronic engineer will definitely be helpful.  
+Mrs. Clark:  Mrs. Clark is the fourth person that I chose to live.  She is still young enough to have children and her background as an electronic engineer will definitely be helpful.
 
 Mr. Blake:  I chose to sacrifice Mr. Blake.  Although his construction experience could be helpful, he’s not young and I’m afraid that his anti-black views would cause conflict with black members of the group.
 
@@ -43,13 +43,13 @@ Dr. Gonzales:  I chose Dr. Gonzales as the person to keep alive.  As he is the e
 
 2. Some of Goodman’s points were stronger than others but all of his points worked together to support his thesis.  Goodman restates certain points to emphasize them throughout the essay.
 
-3. I think that Goodman believes abolishing grading would be most effective at more prestigious schools because they are highly selective and the students there likely value their educations a great deal.  
+3. I think that Goodman believes abolishing grading would be most effective at more prestigious schools because they are highly selective and the students there likely value their educations a great deal.
 
 4. I think the line that most reveals the purpose of his proposal is “The naïve teacher points to the beauty of the subject and the ingenuity of the research; the shrewd student asks if he responsible for that on the final exam.”
 
-5. Goodman says that professors continue to grade even though they hinder learning because the graduate schools and corporations need to know whom to accept and hire.  Goodman replies to this by saying that applicants should be tested according to the tasks they would have to fulfill for an institution. 
+5. Goodman says that professors continue to grade even though they hinder learning because the graduate schools and corporations need to know whom to accept and hire.  Goodman replies to this by saying that applicants should be tested according to the tasks they would have to fulfill for an institution.
 
-6. Goodman thinks that testing should be a mean of structuring and finding out what is wrong-if anything.  He feels that grading tests is wrong because if the idea is to identify weakness, than why downgrade a student for these weaknesses and make him or her feel like she should cover them up.  
+6. Goodman thinks that testing should be a mean of structuring and finding out what is wrong-if anything.  He feels that grading tests is wrong because if the idea is to identify weakness, than why downgrade a student for these weaknesses and make him or her feel like she should cover them up.
 
 =========yorg=========
 ===from:Sheena Kauzlarich
@@ -77,19 +77,19 @@ Dr. Gonzales:  I chose Dr. Gonzales as the person to keep alive.  As he is the e
 ===subject:Jacoby Essay
 ===message:1. The strongest evidence that the author uses to support his point that students are capable of knowing the information on the MCAS is that students pass the tests that they give each other every day.  Teenagers are constantly memorizing sports statistics and the facts about the most popular music groups so they should be able to memorize academic material as well.  SCAMS biggest complaint about the MCAS seems to be that they “devalue technical, linguistic, musical, athletic, and vocational skills…that cannot be assessed on a standardized test.”  I agree with this statement, but I don’t believe that this is the point of the MCAS.  I think the point is to see how well students can recall academic material that they’ve learned over the course of their educations and they serve that purpose well.
 
-2.  When stating some of the complaints that people have about the MCAS, the author uses words like “growls SCAM” and “mourns the narrator.”  These expressions give the reader the impression that the author doesn’t agree with these complaints. 
+2.  When stating some of the complaints that people have about the MCAS, the author uses words like “growls SCAM” and “mourns the narrator.”  These expressions give the reader the impression that the author doesn’t agree with these complaints.
 
 =========yorg=========
 ===from:Sheena Kauzlarich
 ===date:Fri Oct  3 19:12:06 2003
 ===subject:P. 153 Questions
-===message:1. Equal means the same.  For example, I would expect an education of equal quality to students all over this country.  This means that I expect to be getting as good of an education at Iowa State as other students receive at other universities.  
+===message:1. Equal means the same.  For example, I would expect an education of equal quality to students all over this country.  This means that I expect to be getting as good of an education at Iowa State as other students receive at other universities.
 
 2. Codependency is defined as mutually dependent.  In a negative connotation, the word can mean that a person is psychologically dependent on another person in an unhealthy way.  In a positive connotation, it can mean that people in a romantic relationship may just rather be with each other than not.
 
-3. I think that two concepts that are commonly confused are patriotism and ethnocentrism.  Especially in recent years patriotism has really heightened in this country, but also has ethnocentrism.  To be patriotic means to have pride in one’s country and to be ethnocentric is to believe that your own culture is better than all others.  
+3. I think that two concepts that are commonly confused are patriotism and ethnocentrism.  Especially in recent years patriotism has really heightened in this country, but also has ethnocentrism.  To be patriotic means to have pride in one’s country and to be ethnocentric is to believe that your own culture is better than all others.
 
-4. Definition of good parent:  To provide for his or her children.  To set rules and boundaries and teach them to be good people. 
+4. Definition of good parent:  To provide for his or her children.  To set rules and boundaries and teach them to be good people.
 
 Assumptions:  Are children not supposed to earn what they need as well as have it provided by their parents?  Is whether or not children grow up to be good people solely based upon whether or not their parents set good boundaries and rules?
 
@@ -112,17 +112,17 @@ Assumptions:  Are children not supposed to earn what they need as well as have i
 ===from:Sheena Kauzlarich
 ===date:Wed Oct  8 21:48:53 2003
 ===subject:FPT Questions
-===message:1. Does the way women are displayed in the media affect the way women are viewed and treated in every day life? 
+===message:1. Does the way women are displayed in the media affect the way women are viewed and treated in every day life?
 <br>
-2. Does the fact that women are displayed as sexual objects in the media increase violence against women? 
+2. Does the fact that women are displayed as sexual objects in the media increase violence against women?
 <br>
-3. Are women in the media appropriate respresentatives of women in general? 
+3. Are women in the media appropriate respresentatives of women in general?
 <br>
-4. Does the portrayal of women in the media decrease a woman's chance at success in this country? 
+4. Does the portrayal of women in the media decrease a woman's chance at success in this country?
 <br>
-5. Do women that pose as sexual objects demean themselves or women in general? 
+5. Do women that pose as sexual objects demean themselves or women in general?
 <br>
-6. Should women be angry about the way they are displayed in the media? 
+6. Should women be angry about the way they are displayed in the media?
 <br>
-7. Does the way a woman is displayed in the media affect the way men view women in general? 
+7. Does the way a woman is displayed in the media affect the way men view women in general?
 =========yorg=========

@@ -86,12 +86,12 @@ sub add {
        chdir("$self->{'Root Dir'}/admin/members/students");
    }
 
-   open(STUD_FILE, ">$self->{'Disk Username'}") or 
+   open(STUD_FILE, ">$self->{'Disk Username'}") or
        ERROR::system_error("STUDENT","add","Open",$self->{'Disk Username'});
    print STUD_FILE "Password=$self->{'Password'}\n";
    print STUD_FILE "Email Address=$self->{'Email Address'}\n";
    close(STUD_FILE) or
-       ERROR::system_error("STUDENT","add","Close",$self->{'Disk Username'});    
+       ERROR::system_error("STUDENT","add","Close",$self->{'Disk Username'});
    chmod(0600, $self->{'Disk Username'});
 
    # Create student assignment directories if necessary
@@ -106,13 +106,13 @@ sub add {
                    CN_UTILS::mail($info{'Email Address'},
                       'Username approvals requested',
                       "One or more students have requested to enroll in class $cls->{'Name'}.
-To approve, login to ClassNet and click the Approve button on the 
+To approve, login to ClassNet and click the Approve button on the
 Instructor/Members menu.");
                }
            }
        }
    } else {
-      $cls->create_stud_dirs($self->{'Disk Username'}); 
+      $cls->create_stud_dirs($self->{'Disk Username'});
       $cls->add_to_mem_list('student',$self->{'Username'});
    }
 }

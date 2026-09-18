@@ -33,8 +33,8 @@ package edu.iastate.csl.util;
 import java.awt.*;
 
 public class Axis extends Object {
-    private Point org; 
-    private Dimension dim; 
+    private Point org;
+    private Dimension dim;
     private String label = "";
     private Font labelFont = new Font("Helvetica",Font.BOLD,10);
     private boolean vertical = false;
@@ -57,7 +57,7 @@ public class Axis extends Object {
     public Axis(int orient, int x, int y, int w, int h)
     {
         vertical = orient == VERTICAL;
-        org = new Point(x,y); 
+        org = new Point(x,y);
         dim = new Dimension(w,h);
     }
 
@@ -84,15 +84,15 @@ public class Axis extends Object {
         g.setFont(labelFont);
         FontMetrics fm = g.getFontMetrics();
         g.setColor(Color.black);
-        if (vertical) 
+        if (vertical)
         {
             g.drawLine(org.x,org.y,org.x,org.y + dim.height);
-            
-            for (double val=min+major; val <= max; val += major) 
+
+            for (double val=min+major; val <= max; val += major)
             {
                 int v = getLoc(val);
                 g.drawLine(org.x-3,v,org.x+3,v);
-                
+
                 int temp = (int)val * 10;
                 String s = String.valueOf((int)temp/10);
                 g.drawString(s,org.x-3-fm.stringWidth(s),v+fm.getAscent()/2);
@@ -100,23 +100,23 @@ public class Axis extends Object {
 
             g.setColor(labelColor);
             g.drawString(label, 3, fm.getAscent());
-        } 
+        }
         else // horizontal
         {
             g.drawLine(org.x,org.y,org.x + dim.width,org.y);
-            
-            for (double val=min+major; val <= max; val += major) 
+
+            for (double val=min+major; val <= max; val += major)
             {
                 int v = getLoc(val);
                 g.drawLine(v,org.y-3,v,org.y+3);
-                
+
                 int temp = (int)val * 10;
                 String s = String.valueOf((int)temp/10);
                 g.drawString(s,v-fm.stringWidth(s)/2,org.y+4+fm.getAscent());
             }
-            
+
             g.setColor(labelColor);
-            
+
             int x = (dim.width - fm.stringWidth(label))/2;
             g.drawString(label,org.x+x,org.y + 27);
         }

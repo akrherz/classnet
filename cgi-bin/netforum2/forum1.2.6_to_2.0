@@ -1,11 +1,11 @@
 #!/usr/bin/perl
 #
 # This script should be run AFTER NetForum 2.0 is configured
-# some of the new configuration variables may be necessary 
+# some of the new configuration variables may be necessary
 # Before running this script, I recommend that you configure NetForum 2.0
 # correctly and that it is tested.
 # Also, the forums corresponding to NetForum 1.2.6 should be COPIED NOT MOVED
-# to the directory where NetForum 2.0 is located. I recommend that 
+# to the directory where NetForum 2.0 is located. I recommend that
 # the forums (and its corresponding files/sub dirs) are copied and not
 # moved in case something goes wrong.
 # The old responses and messages will be deleted once this program is run
@@ -37,7 +37,7 @@
 # Chmod to 0755 all files created
 
 # Changes for 1.1:
-# Subjects now contain the first 35 characters of the message 
+# Subjects now contain the first 35 characters of the message
 
 require "./lib/variables";
 
@@ -47,8 +47,8 @@ $separator = "=========yorg=========";
 $poster_name_key = "===from:";
 $message_key = "===message:";
 
-# Since a new "subject" field was added to the messages in 2.0, this script adds 
-# a subject field to the message files. The subject field contains the first 35 
+# Since a new "subject" field was added to the messages in 2.0, this script adds
+# a subject field to the message files. The subject field contains the first 35
 # characters of the message field.
 
 $subject_content = "SUBJECT\n";
@@ -81,22 +81,22 @@ $forumlist = "../admin/forumlist";
 		while(<A>){
 			last if ( /^\&/ );
 			if ( /^\$/ ) {
-	    		eval;	
+	    		eval;
 			}
 		}
 		close(A);
-	
+
 	#update forumlist file:
 		print "\nIncluding forum $f in forumlist file...\n";
 		open(FORUM_LIST, ">>$forumlist") ||
 		die("Unable to open file: $forumlist");
 		print FORUM_LIST ("$f:$forum_name:$forum_owner:admin\n");
 		close(FORUM_LIST);
-	
+
 	#update a file:
 		print "Updating \"a\" file in forum $f...\n";
 		open(NEW_A, ">$new_a") || die("Unable to open file: $new_a");
-		print NEW_A "$perl_path 
+		print NEW_A "$perl_path
 
 require \"ctime.pl\";
 require \"../lib/sys_config\";
@@ -114,7 +114,7 @@ require \"../lib/utilities\";
 
 print NEW_A "\$script_name = \'$a_file\';\n";
 
-print NEW_A "\$netforum_url = \"\$base_url/\$which_forum/\$script_name\";\n\n"; 
+print NEW_A "\$netforum_url = \"\$base_url/\$which_forum/\$script_name\";\n\n";
 
     if ($anyone_add eq 'no')
     {
@@ -132,7 +132,7 @@ print NEW_A "\$netforum_url = \"\$base_url/\$which_forum/\$script_name\";\n\n";
 
     if ( $forum_owner_site ) {
 	print NEW_A "\$forum_owner_site = \"$forum_owner_site\";\n";
-    }   
+    }
 
     if ( $forum_monitor_site ) {
 	print NEW_A "\$forum_monitor_site = \"$forum_monitor_site\";\n";
@@ -156,7 +156,7 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
 		chmod 0777, $new_a;
 		unlink($a_file);
 		rename($new_a, $a_file);
-		
+
 		#change topics and messages
 		opendir(DIR, "./topics") || die("Unable to open dir: topics");
 		@topic_list = grep ( /\d+/, readdir( DIR ) );
@@ -193,9 +193,9 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
 				rename("./responses/$new_response_file", "./responses/$reply_file");
 				chmod 0755, "./responses/$reply_file";
 			 }
-			
+
 			 open(TOPIC, "./topics/$topic_file") || die("Unable to open file: $topic_file");
-			 open(NEW_TOPIC, ">./topics/$new_topic_file") 
+			 open(NEW_TOPIC, ">./topics/$new_topic_file")
 			 || die("Unable to open file: $new_topic_file");
 			 open(MESG, ">./topics/$new_mesg_file") || die("Unable to open file: $new_mesg_file");
 			 print "Updating messages for: \" $topic_file \"  in forum $f...\n";
@@ -217,13 +217,13 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
 					$subject_content = substr($mess, 0, 35);
 					$subject_contect =~ tr/[\<].*[\>]//d;
 					$subject_content .= "...\n";
-					print MESG ($subject_key, $subject_content);	
+					print MESG ($subject_key, $subject_content);
 				}
 				print MESG ($line);
 				if($line =~/$separator/){
 					$num_messages++;
 				}
-				
+
 			 }
 			 close(TOPIC);
 			 close(MSG);
@@ -231,8 +231,8 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
 			 rename("./topics/$new_topic_file", "./topics/$topic_file");
 			 chmod 0755, "./topics/$new_topic_file";
 			 chmod 0755, "./topics/$new_mesg_file";
-			
-			
+
+
 			#update topic list:
 			 $new_list_file = "list.new";
 			 open(LIST_FILE, ">>./topics/$new_list_file")||
@@ -242,11 +242,11 @@ if (\$ENV{'REQUEST_METHOD'} eq \'POST\') {
 			 close(LIST_FILE);
 			 $num_messages = 0;
 			 $num_responses = 0;
-			 
-		}		
+
+		}
 		unlink("./topics/list");
 		rename("./topics/$new_list_file", "./topics/list");
 		chmod 0755, "./topics/list";
-		chdir("./..");	
-	}		
+		chdir("./..");
+	}
 

@@ -16,10 +16,10 @@
 ===from:J. Perryman
 ===date:Wed Apr  2 23:31:00 2003
 ===subject:Arab/ Israeli conflict
-===message:Fear and ignorance is the key motivation for the conflicts between the Arabs and Israel.  All they are doing is trying to keep themselves alive and just strike out at whoever they think is a threat.  They don't know any other way to act.   
+===message:Fear and ignorance is the key motivation for the conflicts between the Arabs and Israel.  All they are doing is trying to keep themselves alive and just strike out at whoever they think is a threat.  They don't know any other way to act.
 =========yorg=========
 ===from:Chazie Brown
 ===date:Wed Apr  9 22:04:18 2003
 ===subject:Topic 8
-===message:I believe all of the conflict is over which country has the most power. The media's "spinning" is booming because of the live coverage that is available. 
+===message:I believe all of the conflict is over which country has the most power. The media's "spinning" is booming because of the live coverage that is available.
 =========yorg=========

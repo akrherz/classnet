@@ -8,7 +8,7 @@ package main;
 BEGIN {
    unshift(@INC,'/local/classnet/cgi-bin/lib');
 }
-    
+
 require "optimize.pl";
 require CLASS;
 require MultipartBuffer;
@@ -43,7 +43,7 @@ if ($query->param('memback')) {
 # Perform the option
 $_ = $query->param('cn_option');
 SWITCH: {
-   /^Delete/	   &&  
+   /^Delete/	   &&
        do  {   #
                ERROR::check_sample($query,'Delete Member');
        	       $mem_name = get_mem_name();
@@ -52,20 +52,20 @@ SWITCH: {
                $cls->member_menu($inst);
        	       last SWITCH;
        	   };
-   /^List/	   &&  
+   /^List/	   &&
        do  {   #
                $cls->print_member_list();
        	       last SWITCH;
        	   };
 
-   /^Approve/	   &&  
+   /^Approve/	   &&
        do  {   # Get students requesting enrollment
                $cls->print_approval_list($inst);
        	       last SWITCH;
 
        	   };
 
-   /^Enroll Request Members/  &&  
+   /^Enroll Request Members/  &&
        do  {   # Add the students
                ERROR::check_sample($query,'Enroll Members');
        	       $inst->enroll_req_members($query, $cls);
@@ -73,7 +73,7 @@ SWITCH: {
 
        	   };
 
-   /^Edit/  &&  
+   /^Edit/  &&
        do  {   # Get Member Information
        	       $mem_name = get_mem_name();
        	       $mem = $cls->get_member(0,$mem_name);
@@ -82,7 +82,7 @@ SWITCH: {
 
        	   };
 
-   /^Perform Edit/	   &&  
+   /^Perform Edit/	   &&
        do  {   # change query to look like member to be changed
                ERROR::check_sample($query,'Change Member Data');
                # $query->{'Username'}->[0] = $query->param('Mem_Username');
@@ -90,7 +90,7 @@ SWITCH: {
                $mem = $cls->get_member($query,$query->param('Mem_Username'));
                my $oldpwd = $mem->{'Password'};
        	       $mem->change_info_file($query);
-               if (($oldpwd ne $mem->{'Password'}) and 
+               if (($oldpwd ne $mem->{'Password'}) and
                    ($inst->{'Username'} eq $mem->{'Username'})) {
                    $cls->print_login();
                } else {
@@ -98,7 +98,7 @@ SWITCH: {
                }
                $fname = "$cls->{'Root Dir'}/admin/elist";
                unlink $fname;
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
    /^Upload/                  &&
@@ -107,7 +107,7 @@ SWITCH: {
        	       last SWITCH;
        	   };
 
-   /^Perform Upload/	   &&  
+   /^Perform Upload/	   &&
        do  {   #$inst becomes the $mem whom he or she is changing
                if (defined $query->param('back')) {
                    $cls->member_menu($inst);
@@ -132,7 +132,7 @@ SWITCH: {
 			$hfile = "$hfile$_";
         	  }
     	       }
-               if ($hfile eq '') { 
+               if ($hfile eq '') {
                    ERROR::user_error($ERROR::NOTDONE,"find URL <B>$file</B>");
                    exit(0);
                }
@@ -214,7 +214,7 @@ ADDFILE
        	       last SWITCH;
        	   };
 
-   /^Perform Add/	   &&  
+   /^Perform Add/	   &&
        do  {   #$inst becomes the $mem whom he or she is changing
                if (defined $query->param('back')) {
                    $cls->member_menu($inst);
@@ -222,10 +222,10 @@ ADDFILE
                }
                ERROR::check_sample($query,'Add Member');
        	       CN_UTILS::verify_pairs($query,
-                       'Member First Name', 'Member Last Name', 
-       	       	       'Member Password', 'Verify Member Password', 
+                       'Member First Name', 'Member Last Name',
+       	       	       'Member Password', 'Verify Member Password',
        	       	       'Member Email Address');
- 
+
        	       # Modify query object
        	       $query->{'First Name'}->[0] = $query->param("Member First Name");
        	       $query->{'Last Name'}->[0] = $query->param("Member Last Name");
@@ -250,7 +250,7 @@ ADDFILE
                    $stud->add($cls);
                }
                $cls->member_menu($inst);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
    /^Renew/                  &&
@@ -259,13 +259,13 @@ ADDFILE
        	       last SWITCH;
        	   };
 
-   /^Perform Renew/	   &&  
+   /^Perform Renew/	   &&
        do  {   #
                $cls->renew($inst);
                $cls->member_menu($inst);
        	       last SWITCH;
            };
-   /^Instructor Menu/	   &&  
+   /^Instructor Menu/	   &&
        do  {   #
                $inst->print_menu($cls);
                last SWITCH;
@@ -331,7 +331,7 @@ sub add_to_mem_list {
    open(MEM_LIST, "<$fname");
    my @mem_names = <MEM_LIST>;
    push (@mem_names, @name_list);
-   open(MEM_LIST, ">$fname") or 
+   open(MEM_LIST, ">$fname") or
        ERROR::system_error("CLASS","add_to_mem_list","Open list",$mem_type);
    flock(MEM_LIST,$LOCK_EX);
    chomp (@mem_names = sort @mem_names);
@@ -355,9 +355,9 @@ sub remove_from_mem_list {
    chomp @mem_list;
 
    for ($i = 0; ( ($i < @mem_list) and ($mem_name ne $mem_list[$i]) ); $i++) {}
-   splice(@mem_list,$i,1);   
-       	   
-   open(MEM_LIST, ">$fname") or 
+   splice(@mem_list,$i,1);
+
+   open(MEM_LIST, ">$fname") or
        ERROR::system_error("CLASS","remove_from_mem_list","Open",$mem_type);
    $, = "\n";
    flock(MEM_LIST,$LOCK_EX);
@@ -405,7 +405,7 @@ sub member_menu {
 
     CN_UTILS::print_cn_header("Members");
 
-    print <<"FORM";   
+    print <<"FORM";
 <FORM METHOD=POST ACTION=$GLOBALS::SCRIPT_ROOT/membership>
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$self->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$inst->{'Ticket'}">
@@ -415,7 +415,7 @@ FORM
     foreach $member (sort @members) {
         print qq|<OPTION>$member|;
     }
-       	       
+
     print <<"FORM";
 </SELECT>
 <P>
@@ -532,7 +532,7 @@ sub create_stud_dirs {
       ERROR::system_error("CLASS","create_stud_dirs","mkdir root",$stud_root_dir);
    chdir($stud_root_dir);
 
-   (mkdir('graded',0700) and 
+   (mkdir('graded',0700) and
     mkdir('ungraded',0700) and
     mkdir('dialog',0700) and
     mkdir('java',0700)) or
@@ -541,7 +541,7 @@ sub create_stud_dirs {
 
 sub print_renewal {
     my ($self,$inst) = @_;
-    
+
    # Must be owner
    if ($inst->{'Priv'} ne 'owner') {
       ERROR::user_error($ERROR::NOPERM);
@@ -568,7 +568,7 @@ remain unchanged.
 <CENTER>
 <H4>
 <INPUT TYPE=submit Value=Renew>
-<BR> 
+<BR>
 <INPUT TYPE=submit name=memback VALUE="Members Menu">
 </H4>
 </CENTER>
@@ -594,8 +594,8 @@ sub print_add_member_form {
    my ($self, $cls) = @_;
 
    ($self->{'Priv'} =~ /owner/) or
-   ($self->{'Priv'} =~ /students/) or     
-      ERROR::user_error($ERROR::NOPERM); 
+   ($self->{'Priv'} =~ /students/) or
+      ERROR::user_error($ERROR::NOPERM);
 
    # Get the form;
    CN_UTILS::print_cn_header("Add Member");
@@ -605,17 +605,17 @@ sub print_add_member_form {
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$cls->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$self->{'Ticket'}">
 <CENTER><H3>$cls->{'Name'}</H3>
-Type: 
-<INPUT TYPE=radio NAME=Type VALUE=Student CHECKED> Student 
+Type:
+<INPUT TYPE=radio NAME=Type VALUE=Student CHECKED> Student
 <INPUT TYPE=radio NAME=Type VALUE=Instructor> Instructor
-<HR> 
+<HR>
 <H3>Personal Data</H3>
 </CENTER>
 <PRE>
 First Name <INPUT NAME="Member First Name" TYPE="text" SIZE="20">        Last Name  <INPUT
 NAME="Member Last Name" TYPE="text" SIZE="20">
 Password   <INPUT TYPE="password" NAME="Member Password" SIZE="20">  Verify Password  <INPUT TYPE="password" NAME="Verify Member Password" SIZE="20">
-Email      <INPUT NAME="Member Email Address" TYPE="text" SIZE="37">  
+Email      <INPUT NAME="Member Email Address" TYPE="text" SIZE="37">
 </PRE>
 <HR>
 <CENTER>
@@ -624,7 +624,7 @@ Email      <INPUT NAME="Member Email Address" TYPE="text" SIZE="37">
 <INPUT TYPE=checkbox NAME=Privileges VALUE=assignments> Manage assignments
 <HR>
 <H4>
-<INPUT TYPE=submit Value=Add> <INPUT TYPE=reset> 
+<INPUT TYPE=submit Value=Add> <INPUT TYPE=reset>
 <INPUT TYPE=submit name=back VALUE="Members Menu">
 </H4>
 </CENTER>
@@ -645,13 +645,13 @@ sub add {
    }
 
    chdir("$self->{'Root Dir'}/admin/members/instructors");
-   open(INST_FILE, ">$self->{'Disk Username'}") or 
+   open(INST_FILE, ">$self->{'Disk Username'}") or
        ERROR::system_error("INSTRUCTOR","add","Open",self->{'Disk Username'});
    print INST_FILE "Password=$self->{'Password'}\n";
    print INST_FILE "Email Address=$self->{'Email Address'}\n";
    print INST_FILE "Priv=$priv\n";
    close(INST_FILE) or
-       ERROR::system_error("INSTRUCTOR","add","Close",self->{'Disk Username'}); 
+       ERROR::system_error("INSTRUCTOR","add","Close",self->{'Disk Username'});
    chmod(0600, $self->{'Disk Username'});
    $cls->add_to_mem_list('instructor',$self->{'Username'});
 
@@ -669,13 +669,13 @@ sub delete_member {
        my $assign_dir = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}";
        system("rm -f -r $assign_dir");
    }
-   else { 
+   else {
        unlink "$cls->{'Root Dir'}/admin/members/instructors/$member->{'Disk Username'}";
-   } 
+   }
 
    $cls->remove_from_mem_list($member->{'Member Type'}, $mem_name);
    return $mem_name;
-      
+
 }
 
 sub enroll_req_members {

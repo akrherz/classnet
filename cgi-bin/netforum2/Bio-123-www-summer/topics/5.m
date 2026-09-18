@@ -22,7 +22,7 @@ While some people believe that zoos are man's attempt to capture and control nat
 ===date:Thu Jun 29 14:13:50 2000
 ===subject:Zoo Discussion
 ===message:Zoos are valuable as way of preserving some species from extiction as well as their educational value and promote sympathy for ecology by showing people some of the animals we need to try to protect, making them more likely to help with conservation efforts.  I think zoos are an aid to nature (helping to preserve endangered species) not merely a domination of nature.  Many animals live a better life in a zoo than they would in the wild.  They do not have to compete for food or worry about predators.  I am not sad when I see animals in a zoo I enjoy seeing the wonders of creation.  It is much like the laws of our country, while one can make a case that we are not free to drive as fast as we wish, or own some types of weapons, we would not really want total freedom in some areas because of the dangers involved.  <BR>
-I don't have a problem with animals performing tricks.  They are simply being taught to use the minds and bodies in new ways much as we are in the educational system.  Catching animals for display is a worthy cause because these animals help to bring attention to the plight of their kind, and removes them from natural dangers.  Circuses also can be positive for animals as long as the animals are treated well and cared for properly.        
+I don't have a problem with animals performing tricks.  They are simply being taught to use the minds and bodies in new ways much as we are in the educational system.  Catching animals for display is a worthy cause because these animals help to bring attention to the plight of their kind, and removes them from natural dangers.  Circuses also can be positive for animals as long as the animals are treated well and cared for properly.
 =========yorg=========
 ===from:Bradlee Engh
 ===date:Sat Jul  1 10:27:20 2000
@@ -33,14 +33,14 @@ I don't have a problem with animals performing tricks.  They are simply being ta
 ===email:jerold@netins.net
 ===date:Tue Jul  4 21:20:15 2000
 ===subject:Zoo Discussion
-===message:  I believe that land animals are definitely adversely affected by being kept in small cages in Zoo's.  Their life style is totally interrupted and I believe this shows in their social behavior, or lack of it, and their poor ability to reproduce in captivity.  I do belive that people understand more about these animals if they see them live.  These animals are definitely used for entertainment though. More Safari type of Zoo's would benefit the animals tremendously.  
-  Ocean type Sea Mammals are able to adapt to humans better and seem to accept human contact more than land animals.  Circus animals are treated the worst of all animals in captivity in my eyes.  This mainly comes from the fact that they are constantly being shipped all over the world without having time to become adjusted to their new surroundings.  This is totally for entertainment and does not benefit the animals at all. 
+===message:  I believe that land animals are definitely adversely affected by being kept in small cages in Zoo's.  Their life style is totally interrupted and I believe this shows in their social behavior, or lack of it, and their poor ability to reproduce in captivity.  I do belive that people understand more about these animals if they see them live.  These animals are definitely used for entertainment though. More Safari type of Zoo's would benefit the animals tremendously.
+  Ocean type Sea Mammals are able to adapt to humans better and seem to accept human contact more than land animals.  Circus animals are treated the worst of all animals in captivity in my eyes.  This mainly comes from the fact that they are constantly being shipped all over the world without having time to become adjusted to their new surroundings.  This is totally for entertainment and does not benefit the animals at all.
   I do like to see the animals as much as anyone, but believe with the amount of money that some countries have, the animals in captivity could have a better home life.
 =========yorg=========
 ===from:Jerrod Tanke
 ===date:Thu Jul  6 11:55:20 2000
 ===subject:Zoo discussion
-===message:I remember goin to a zoo for the first time as a child and I was elated at all of the interesting animals. This awe qiuckly died. I feel that if an animal is going to be kept for other to watch and learn from then it shoul be in a comfortable environment. Not in a small cage, with limited roaming abilities. The animals are stressed. They can not follow their natural instincts of "flight". They must stay and "face their fears". I feel that it is somewhat degrading even though animals have no emotions as we define the word. I fear captivity for any animal. I feel that zoos do encourage funding in one way shape or form, but I feel that the "ZOO" could be better structured and more animal friendly. I also realize that we are doing our best with what we have. 
+===message:I remember goin to a zoo for the first time as a child and I was elated at all of the interesting animals. This awe qiuckly died. I feel that if an animal is going to be kept for other to watch and learn from then it shoul be in a comfortable environment. Not in a small cage, with limited roaming abilities. The animals are stressed. They can not follow their natural instincts of "flight". They must stay and "face their fears". I feel that it is somewhat degrading even though animals have no emotions as we define the word. I fear captivity for any animal. I feel that zoos do encourage funding in one way shape or form, but I feel that the "ZOO" could be better structured and more animal friendly. I also realize that we are doing our best with what we have.
 =========yorg=========
 ===from:Robert Nichols
 ===date:Sun Jul 16 16:33:31 2000
@@ -54,27 +54,27 @@ I don't have a problem with animals performing tricks.  They are simply being ta
 ===email:falksw@aol.com
 ===date:Tue Jul 18 12:08:10 2000
 ===subject:Homework 6  Zoo
-===message:The value of zoos is for the people to see all different 
-kinds of animals.  Zoos let us see animals that we cannot 
-see almost anywhere.  They also inform us about all the 
-different types of animals there are.  Zoos do help to 
-educate people about species and make us more likely to 
-contribute to conservation causes because the zoos show us 
-what it takes to raise and take care of many different 
-animals.  Animals in the zoos are treated with care.  They 
-are fed and groomed properly.  The animals are not being 
-hurt by being in the zoo.  When I visit a zoo, I feel 
-excited about seeing all the different types of animals and 
-about learning new things.  I do not feel sad for the 
-animals because I know that they are in good hands in the 
-zoo.  Captive mammals at places like Sea World are also 
-taken care of and I love going to those places to see all 
-the mammals.  I do not think that it is degrading for the 
-animals to do tricks for us.  The animals seem to enjoy it 
-and they are taken care of.  I think that killer whales that 
-are caught in the ocean for Sea World are fine because they 
-are not going to be hurt, they will be well taken care of.  
-Animal acts at circuses are not cruel.  Again, the animals 
+===message:The value of zoos is for the people to see all different
+kinds of animals.  Zoos let us see animals that we cannot
+see almost anywhere.  They also inform us about all the
+different types of animals there are.  Zoos do help to
+educate people about species and make us more likely to
+contribute to conservation causes because the zoos show us
+what it takes to raise and take care of many different
+animals.  Animals in the zoos are treated with care.  They
+are fed and groomed properly.  The animals are not being
+hurt by being in the zoo.  When I visit a zoo, I feel
+excited about seeing all the different types of animals and
+about learning new things.  I do not feel sad for the
+animals because I know that they are in good hands in the
+zoo.  Captive mammals at places like Sea World are also
+taken care of and I love going to those places to see all
+the mammals.  I do not think that it is degrading for the
+animals to do tricks for us.  The animals seem to enjoy it
+and they are taken care of.  I think that killer whales that
+are caught in the ocean for Sea World are fine because they
+are not going to be hurt, they will be well taken care of.
+Animal acts at circuses are not cruel.  Again, the animals
 are being well taken care of.
 =========yorg=========
 ===from:Stacy Reichert
@@ -86,7 +86,7 @@ are being well taken care of.
 ===email:whoang@iastate.edu
 ===date:Tue Jul 18 17:20:48 2000
 ===subject:Assignment #6 Zoo Discussion
-===message:What do I think about zoos?  I'm totally against them because animals should be able to roam in their own niches.  If you don't have a habitat you don't have a address and people can locate where you live.  
+===message:What do I think about zoos?  I'm totally against them because animals should be able to roam in their own niches.  If you don't have a habitat you don't have a address and people can locate where you live.
 
 Zoos don't allow natural random gene flow in the evolution of species.  If you control their behavior and habits and later release these animals into the wild, they will not be capable of competing with other similar species in the gene pool.  They are week because their genes are not conditioned like the wild ones.  For example, if you keep a pet as a tiger and let it go back to Siberia.  It will die in the cold and will be weak.
 
@@ -95,7 +95,7 @@ Zoos should only be good for temporary purposes like education.  This education 
 ===from:Aarron Osterhaus
 ===date:Wed Jul 19 21:20:54 2000
 ===subject:Zoo Discussion
-===message:I think a lot Zoos,like the one in Omaha Nebraska, main consern is species preservation and then it is pleasing the public.  Zoos do a good job of sparking public interest in some of these exotic animals.  If zoos were not around the public would not be able to see animals that are going extinct and why we need to try to save their habitat. 
+===message:I think a lot Zoos,like the one in Omaha Nebraska, main consern is species preservation and then it is pleasing the public.  Zoos do a good job of sparking public interest in some of these exotic animals.  If zoos were not around the public would not be able to see animals that are going extinct and why we need to try to save their habitat.
 =========yorg=========
 ===from:Sara Widener
 ===date:Thu Jul 20 15:04:56 2000
@@ -108,13 +108,13 @@ As fir places like Sea World, I think that it is absolutley NOT okay for whales 
 ===date:Thu Jul 20 18:07:10 2000
 ===subject:Zoo discussion
 ===message:I believe the purpose of zoos has been greatly changing over the past fifty years or so.  It is my opinion that the first zoos were simply for the entertainment of people, without taking into consideration the effects that captivity may have on the animals.  In the more recent past, however, zoos seem to have taken on the role of educational teachers and conservators of wildlife.  While zoos still seek to entertain and attract visitors, I believe their purpose has become much deeper.  Some ways that this is being reflected are in better (and larger) zoo facilities and attempts to immitate natural habitats, as well as captive breeding programs, and the intesive studying of animal behavior that will allow scientists to better understand the animals and how they can be preserved.  I do believe that zoos help make the public aware of issues surrounding animals that can be found in the zoos and their wildlife conditions (although much more could potentially be done).  If people are able to tangibly see some of the endangered animals they may be more willing to help conserve those animals in the wild.  While zoo animals do a lot for the education of people and thus possibly for protection of their species in the wild, I must admit that from the perspective of the animals in the zoo, zoo life can be less than desirable.  While the animals are taken care of, there is necessarily a loss of freedom and this can of course be personally detremental to animals.  There is also the factor of human intervention in animal care and everyday life which could adversely affect the animals (for example, the proper "socialization" of some animals by their group may not occur).  <BR>
-I do not agree with having captive sea mammals at places like Sea World.  The fact that these animals are made to perform tricks for the entertainment of people is degrading and wrong.  I believe it would be different if we simply had the animals on display for the education of people (as in zoos) and not specifically for performing tricks.  In my opinion, it is not okay if killer whales and other animals are caught in the ocean for the sole purpose of being at Sea World and similar entertainment establishments.  
+I do not agree with having captive sea mammals at places like Sea World.  The fact that these animals are made to perform tricks for the entertainment of people is degrading and wrong.  I believe it would be different if we simply had the animals on display for the education of people (as in zoos) and not specifically for performing tricks.  In my opinion, it is not okay if killer whales and other animals are caught in the ocean for the sole purpose of being at Sea World and similar entertainment establishments.
 =========yorg=========
 ===from:Jennifer Ducey
 ===date:Mon Jul 24 19:57:06 2000
 ===subject:zoo discussion
 ===message:I think that zoos today are important.  I believe they are a tool to educate people especially, children who will be the decsision makers of tomorrow, about the importance and beauty of the animal world.  I think people can see how important the natural world is and the need to care for and protect it and its creatures.  I think zoos are more capable of portraying this than a book, or a spokes person.  As a parent I have seen the wonder, amazement, and respect for the animals that children experience at  a zoo.  When my parents were children zoos were just about entertainment.  Today zoos are place to educate the public.  Children today are growing up with new messages about animals and preservation.  For many, going to a zoo is the first time they think about animals and their fate.
-   On the other hand, I don't think that animals in the circus are there for educational reasons.  these animals are only there for show and entertainment.  the animals are not in large places modeled after their habitat.  The animals are in cages, travel continuosly, and are forced to perform unnatural behaviors.  
+   On the other hand, I don't think that animals in the circus are there for educational reasons.  these animals are only there for show and entertainment.  the animals are not in large places modeled after their habitat.  The animals are in cages, travel continuosly, and are forced to perform unnatural behaviors.
 
 =========yorg=========
 ===from:Mike Bourne
@@ -127,9 +127,9 @@ I do not agree with having captive sea mammals at places like Sea World.  The fa
 ===subject:Zoo Discussion
 ===message:Personally, I'm conflicted on the value of zoos.  I think they can be a valuable learning resource and bring greater awareness to conservation.  Unfortunately, I feel this degrades these noble creatures.  No matter how well they are cared for and how closely their naatural habitat is simulated, it is just plain unnatural for the animals.  I find zoos to be, in general, a depressing place.  It would give me a great thrill to run up and down the sidewalk unlatching each pen.  Observing them in their natural habitat, doing what they naturally do, is far more thrilling to me because 1) it is a true glimpse of their existence, 2) it is a rare privilege, 3) it is an elusive opportunity that can't be replicated.  (I hope to go to a wild game preserve in Africa one day!)
 
-I don't like to see animals performing at Sea World or the circus.  Again, it is unnatural and done solely for human gratification. 
+I don't like to see animals performing at Sea World or the circus.  Again, it is unnatural and done solely for human gratification.
 
-I'm a hypocrit though.  One of the most amazing experiences I had as a child was going to the Shedd aquarium in Chicago.  Although the creatures weren't performing tricks, they were still on display in an artifical habitat.  
+I'm a hypocrit though.  One of the most amazing experiences I had as a child was going to the Shedd aquarium in Chicago.  Although the creatures weren't performing tricks, they were still on display in an artifical habitat.
 =========yorg=========
 ===from:Rachel Pleasants
 ===email:archiersp@hotmail.com
@@ -147,21 +147,21 @@ Circuses are another story.  It is not natural for tigers and lions to do tricks
 ===from:Derek Schulte
 ===date:Tue Aug  1 20:42:03 2000
 ===subject:Zoo
-===message:i think zoos can be good and bad. i think that the zoo does 
-educate people about the animals and i think it is a great 
-awarness place. i think it is great for endangered species 
-to be taken care of. i don't like capturing animals to be 
-put in the zoo. i think their home is in the wild and that 
-is where they belong. sometimes i feel sad to see animals 
-caged up because they are not in their natural environment. 
-i don't think killer whales should be caught for doing 
-tricks but i don't think it is degrading for them to do 
+===message:i think zoos can be good and bad. i think that the zoo does
+educate people about the animals and i think it is a great
+awarness place. i think it is great for endangered species
+to be taken care of. i don't like capturing animals to be
+put in the zoo. i think their home is in the wild and that
+is where they belong. sometimes i feel sad to see animals
+caged up because they are not in their natural environment.
+i don't think killer whales should be caught for doing
+tricks but i don't think it is degrading for them to do
 tricks.
 =========yorg=========
 ===from:Matt Willimack
 ===date:Thu Aug  3 21:23:59 2000
 ===subject:zoos
-===message:Zoos are important sources of education for kids today and yes i think they are OK.  Zoos are also a form of entertainment that is not at all harmfull to the animals and can even be a safe haven for some endangered animals.  
+===message:Zoos are important sources of education for kids today and yes i think they are OK.  Zoos are also a form of entertainment that is not at all harmfull to the animals and can even be a safe haven for some endangered animals.
 =========yorg=========
 ===from:Sally Stevenson
 ===email:stevensonsally@hotmail.com
@@ -178,7 +178,7 @@ I do not agree with circuses.  I remember going to them when I was young and fee
 1.What is the value of zoos? Do they help to educate people about species and make people more likely to contribute to conservation causes? Or, do they only exist for entertainment and are simply another example of man's attempt to dominate nature?
 The only value I can see from zoos, is that they can educate students about aniamls from all over the world, plus vegetations, locations, etc.
 
-2 Are zoos a good thing from the perspective of the animals in the zoo? 
+2 Are zoos a good thing from the perspective of the animals in the zoo?
 From the animal's persepctyive, I would say no. How would you feel if someone came to your home and took you away from your friends and family and made you live in an enclosed space without any freedome. I really don't like circus who cage up animals either.
 
 3. What are your personal thoughts and feelings when you visit a zoo; do you feel sadfor the animals, are you excited by seeing new things, are you amazed at the natural world?

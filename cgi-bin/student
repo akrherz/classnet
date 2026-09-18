@@ -8,7 +8,7 @@ package main;
 BEGIN {
    unshift(@INC,'/local/classnet/cgi-bin/lib');
 }
-    
+
 require CLASS;
 
 require "optimize.pl";
@@ -39,7 +39,7 @@ if ($query->param('memback')) {
 # Perform the option
 $_ = $query->param('cn_option');
 SWITCH: {
-   /^Complete/	   &&  
+   /^Complete/	   &&
        do  {   # Get the assignment form
        	       CN_UTILS::verify_pairs($query,'Assignment Name');
        	       $asn = $cls->get_assignment($query, $stud);
@@ -52,16 +52,16 @@ SWITCH: {
                } else {
       	           $asn->send_ungraded_form();
                }
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
-   /^Mail Table/        &&                                                      
-       do {                                                                     
-               my $table = $query->param('table');                              
+   /^Mail Table/        &&
+       do {
+               my $table = $query->param('table');
                CN_UTILS::mail($stud->{'Email Address'},"Summary scores for $cls->{'Name'}",$table);
-	       $stud->print_menu($cls);                                         
-               last SWITCH;                                                     
-          };                                                                       
-/^Verify/	   &&  
+	       $stud->print_menu($cls);
+               last SWITCH;
+          };
+/^Verify/	   &&
        do  {   # Get the assignment form
        	       CN_UTILS::verify_pairs($query,'Assignment Name');
        	       $asn = $cls->get_assignment($query, $stud);
@@ -75,9 +75,9 @@ once to reenter the password or twice to return to the <B>Student Menu</B>.";
                    CN_UTILS::print_cn_footer();
                    exit(0);
                }
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
-   /^Answers/	   &&  
+   /^Answers/	   &&
        do  {   #
        	       CN_UTILS::verify_pairs($query,'Assignment Name');
        	       $asn = $cls->get_assignment($query, $stud);
@@ -87,13 +87,13 @@ once to reenter the password or twice to return to the <B>Student Menu</B>.";
                CN_UTILS::print_cn_footer();
        	       last SWITCH;
        	   };
-   /^Scores/	   &&  
+   /^Scores/	   &&
        do  {   #
        	       # View all scores
                my @asn_files = getAllAssignments($cls);
                @stu = ("$stud->{'Username'}");
        	       $cls->view_scores(\@stu, \@asn_files,$stud);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
    /^Histogram/      &&
@@ -141,14 +141,14 @@ HTML
                last SWITCH;
            };
 
-   /^Personal Data/  &&  
+   /^Personal Data/  &&
        do  {   # Get Member Information
        	       $stud->print_edit_info_form($cls,$stud);
        	       last SWITCH;
 
        	   };
 
-   /^Perform Edit/	   &&  
+   /^Perform Edit/	   &&
        do  {
                ERROR::check_sample($query,'Edit Personal Data');
                my $oldpwd = $stud->{'Password'};
@@ -158,28 +158,28 @@ HTML
                } else {
                    $cls->print_login();
                }
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^Email/	   &&  
+   /^Email/	   &&
        do  {   #
        	       $stud->print_email_form($cls);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^Chat/	   &&  
+   /^Chat/	   &&
        do  {   #
        	       $stud->chat($cls);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^Discuss/	   &&  
+   /^Discuss/	   &&
        do  {   #
                $stud->discuss($cls);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^DiscHead/	   &&  
+   /^DiscHead/	   &&
        do  {   #
 	     my $cname = CGI::escape($cls->{'Name'});
              my $ticket = CGI::escape($stud->{'Ticket'});
@@ -205,7 +205,7 @@ Content-type: text/html
 HTML
                last SWITCH;
            };
-   /^DiscBody/	   &&  
+   /^DiscBody/	   &&
        do  {   #
                my $forum = $cls->{'Disk Name'};
                $ENV{'REQUEST_METHOD'} = 'GET';
@@ -214,15 +214,15 @@ HTML
                $forum =~ s/\-/\%2D/g;
                $forum =~ s/\%20/-/g;
                do "$GLOBALS::FORUM_DIR/$forum/a";
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
-   /^Send Email/	   &&  
+   /^Send Email/	   &&
        do  {   #
                ERROR::check_sample($query,'Send Email');
        	       $stud->send_email($query, $cls);
                $stud->print_menu($cls);
-       	       last SWITCH;       	   
+       	       last SWITCH;
        	   };
 
    ERROR::user_error($ERROR::NOOPTION);
@@ -266,7 +266,7 @@ Content-type: text/html
   <TITLE>$class Discussion</TITLE>
 </HEAD>
 <frameset rows="50,*" border="0">
-  <frame name=Header marginwidth="0" 
+  <frame name=Header marginwidth="0"
 marginheight="0" src="student?cn_option=DiscHead$url">
   <frame name=NetForum src="student?cn_option=DiscBody$url">
 <noframes>
@@ -302,9 +302,9 @@ sub print_email_form {
        'Instructor Menu':'Student Menu';
 
    # Print the form
-   
+
    CN_UTILS::print_cn_header("Send Mail");
-   print <<"FORM";   
+   print <<"FORM";
 <FORM METHOD=POST ACTION="$GLOBALS::SERVER_ROOT$ENV{'SCRIPT_NAME'}">
 <INPUT TYPE=hidden NAME="Class Name" VALUE="$cls->{'Name'}">
 <INPUT TYPE=hidden NAME="Ticket" VALUE="$self->{'Ticket'}">
@@ -325,7 +325,7 @@ FORM
        }
        print "</SELECT>\n";
        print "<TD ALIGN=CENTER>\n";
-       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";       	       
+       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";
        foreach $member (sort @instructors) {
            print qq|<OPTION> $member\n|;
        }
@@ -342,7 +342,7 @@ FORM
        print "</SELECT><BR>";
        print "<INPUT TYPE=checkbox VALUE=All NAME=\"All Students\"> All<P>";
        print "Instructors<BR>";
-       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";       	       
+       print "<SELECT MULTIPLE NAME=\"Instructors\" SIZE=5>";
        foreach $member (sort @instructors) {
            print qq|<OPTION> $member\n|;
        }
@@ -365,7 +365,7 @@ FORM
 sub send_email {
    my ($self, $query, $cls) = @_;
    my @mem_names;
-   my $email_recips = "";    	       
+   my $email_recips = "";
    my $SENDMAIL = '/usr/sbin/sendmail';
    my @mem_names = $query->param('All Students') ?
        $cls->get_mem_names('student'):$query->param('Students');
@@ -378,14 +378,14 @@ sub send_email {
    }
    # Get in the email addresses of all members into one string
   my $i = 0;
-  my $email_recips = '';    	       
+  my $email_recips = '';
   foreach $mem_name (@mem_names) {
        %mem_info = $cls->get_mem_info($mem_name);
        my $recip_info = "$mem_info{'Email Address'} ($mem_info{'First Name'} $mem_info{'Last Name'})";
        $i++;
        if (($i % 50) == 0 || $i == $n) {
            open (MAIL, "| $SENDMAIL -t -n -oi -f akrherz\@iastate.edu") ||
-       	       ERROR::system_error("MEMBER.pm", "send_email", "Open Mail", 
+       	       ERROR::system_error("MEMBER.pm", "send_email", "Open Mail",
        	           	       	       "From: $self->{'Username'}", "To: $mem_info{'Email Address'}");
            print MAIL "To: $recip_info\n";
            print MAIL "Reply-To: $self->{'Email Address'} ($self->{'First Name'} $self->{'Last Name'})\n";
@@ -464,7 +464,7 @@ sub new {
    } else {
        $self->{'Dev Root'} = "$cls->{'Root Dir'}/assignments/.develop/$self->{'Disk Name'}";
    }
-   
+
    # If student, set up assignment dirs
    if ($member and ($member->{'Member Type'} eq 'student')) {
        $self->{'Ungraded Dir'} = "$cls->{'Root Dir'}/students/$member->{'Disk Username'}/ungraded";

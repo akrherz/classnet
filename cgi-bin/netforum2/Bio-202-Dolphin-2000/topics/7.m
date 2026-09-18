@@ -9,9 +9,9 @@ I know we've not discussed circulatory systems yet, but this question occured to
 ===email:annettemathieu@hotmail.com
 ===date:Fri Jan 14 13:05:42 2000
 ===subject:Amino Acid Reactions
-===message:Can condensation reactions in amino acids be reversed? If so 
-, by what means? Referring to the reversal of reactions you 
-told us about in sugars, condensation and hydrolysis, the 
+===message:Can condensation reactions in amino acids be reversed? If so
+, by what means? Referring to the reversal of reactions you
+told us about in sugars, condensation and hydrolysis, the
 hydrolysis being performed by enzymes.
 
 Annette Math
@@ -32,7 +32,7 @@ Annette Math
 ===from:Joe Baustian
 ===date:Sun Jan 16 16:35:18 2000
 ===subject:amino acids
-===message:Is it possible for a molocule to have an amino group and a carboxyl group, but not be an amino acid? 
+===message:Is it possible for a molocule to have an amino group and a carboxyl group, but not be an amino acid?
 =========yorg=========
 ===from:Brandon Hart
 ===date:Mon Jan 17 22:51:32 2000
@@ -54,7 +54,7 @@ When cells engage in endocytosis, do they possess some sort of selection capabil
 =========yorg=========
 ===from:Kelcey Larsen-Ferree
 ===date:Wed Jan 19 17:19:49 2000
-===subject:Membrane 
+===subject:Membrane
 ===message:If, when two membranes press closely together, they "meld" and thereby release something through the cell membrane in exocytosis, why don't individual cells "meld" when they are close together, creating one large cell?  I get the feeling that the statement "when two membranes press close together they coalesce" doesn't quite give the whole story.
 =========yorg=========
 ===from:Katie Johnson
@@ -85,7 +85,7 @@ Is it countered by endocytosis, or does the cell just get larger? or is the addi
 ===from:James Eucher
 ===date:Wed Jan 26 11:57:02 2000
 ===subject:Transduction
-===message:Dr. Dolphin,  
+===message:Dr. Dolphin,
 
 Do only certain viruses take part in the process of transduction, or is it merely a chance occurrence that can occur via any virus which has a bacterium as the host organism?  Additionally, how do you feel viruses should be classified?  If not a form of life as we define it, where should they be grouped?
 =========yorg=========
@@ -106,14 +106,14 @@ Do only certain viruses take part in the process of transduction, or is it merel
 ===date:Tue Feb  1 14:40:39 2000
 ===subject:DNA Transduction
 ===message:When a virus-infected bacterial cell bursts and gives off "baby" viruses, they can contain bits of the bacterial DNA, which are then transferred to other bacteria as they are infected by the viruses.  But what good does this new DNA do for the bacterial cells?  Doesn't the virus take over and destroy the second bacterial cell, preventing it from reproducing and using the new DNA?
-  
+
 =========yorg=========
 ===from:Allison Hall
 ===date:Wed Feb  2  1:29:08 2000
 ===subject:inhibitors
-===message:Is there a significant purpose to an inhibitor? Is it 
-beneficial to an inhibitor when it alters the shape of the 
-active site, or does it just prevent a reaction from 
+===message:Is there a significant purpose to an inhibitor? Is it
+beneficial to an inhibitor when it alters the shape of the
+active site, or does it just prevent a reaction from
 occuring?
 =========yorg=========
 ===from:LeAnn Bouska
@@ -132,9 +132,9 @@ Our Campbell text makes reference to a small number of prokaryotes which lack ce
 ===email:amylekwa@iastate.edu
 ===date:Thu Feb  3 19:24:16 2000
 ===subject:Gene transfer in eukaryotes/evolution of DNA
-===message:Dr. Dolphin,  
+===message:Dr. Dolphin,
 In your response to Jennifer Larson's question about transduction in prokaryotes, you stated that this type of process can sometimes happen in eukaryotes.  Can conjugation and transformation happen in eukaryotes as well?  Another question I've wondered about, is when, or how did DNA evolve from prokaryotes to eukaryotes, more specifically, from a circular shape to multiple strands of DNA?
- 
+
 =========yorg=========
 ===from:Saralyn Ohanian
 ===date:Fri Feb  4  0:46:01 2000
@@ -169,8 +169,8 @@ In your response to Jennifer Larson's question about transduction in prokaryotes
 ===from:wdd
 ===date:Fri Feb  4 17:40:21 2000
 ===subject:Exam I Keys
-===message:<pre>Key A 1B, 2E, 3E, 4A, 5A, 6C, 7B, 8E, 9E, 10 DROPPED BECAUSE B AND C CORRECT, 11C, 12A, 13B, 14E, 15B, 16E, 17A, 
-18C, 19E, 20D, 21E, 22E, 23E, 24C, 25C, 26E, 27B, 28D, 29E, 30E, 31E, 32E, 33D, 34 DROPPED BUT A IS FALSE, 
+===message:<pre>Key A 1B, 2E, 3E, 4A, 5A, 6C, 7B, 8E, 9E, 10 DROPPED BECAUSE B AND C CORRECT, 11C, 12A, 13B, 14E, 15B, 16E, 17A,
+18C, 19E, 20D, 21E, 22E, 23E, 24C, 25C, 26E, 27B, 28D, 29E, 30E, 31E, 32E, 33D, 34 DROPPED BUT A IS FALSE,
 35B, 36D, 37E, 38E, 39E, 40E
 
 KEY B 1A, 2A, 3C, 4B, 5E, 6E, 7 DROPPED BECAUSE B AND C ARE CORRECT, 8B, 9C, 10A, 11E, 12B, 13D, 14A, 15C, 16E, 17D,
@@ -198,11 +198,11 @@ KEY B 1A, 2A, 3C, 4B, 5E, 6E, 7 DROPPED BECAUSE B AND C ARE CORRECT, 8B, 9C, 10A
 ===from:Jessica Goeken
 ===date:Sun Feb  6 19:05:07 2000
 ===subject:Proteins
-===message:Dr. Dolphin, in lecture you mentioned that the proteins present in the lipid bi-layer of a cell membrane were actually anchored in the membrane.  A few lectures later I remember hearing you say that the proteins could move laterally within the membrane.  Does this mean that the proteins must stay within the two layers but can move side to side?  And why would the proteins need to move within the membrane? 
+===message:Dr. Dolphin, in lecture you mentioned that the proteins present in the lipid bi-layer of a cell membrane were actually anchored in the membrane.  A few lectures later I remember hearing you say that the proteins could move laterally within the membrane.  Does this mean that the proteins must stay within the two layers but can move side to side?  And why would the proteins need to move within the membrane?
 =========yorg=========
 ===from:Jessica Goeken
 ===date:Sun Feb  6 19:08:43 2000
-===subject:Transformation 
+===subject:Transformation
 ===message:I have a question about transformation in bacterial cells.  Where are the "naked" DNA helixes present?  Are these the helixes that have been housed within an endospore, or how are they able to survive on their own so that they can be taken up by the bacterial cells and incorporated into their DNA?
 =========yorg=========
 ===from:James Eucher
@@ -210,7 +210,7 @@ KEY B 1A, 2A, 3C, 4B, 5E, 6E, 7 DROPPED BECAUSE B AND C ARE CORRECT, 8B, 9C, 10A
 ===subject:nucleotide triphosphates
 ===message:Dr. Dolphin,
 
-In lecture you mentioned that other DNA nucleotides (besides adenine) form high energy triphosphates.  Are the other nucleotides' variants as common as ATP?  If not, why is ATP present in higher concentrations than, say, GTP?  
+In lecture you mentioned that other DNA nucleotides (besides adenine) form high energy triphosphates.  Are the other nucleotides' variants as common as ATP?  If not, why is ATP present in higher concentrations than, say, GTP?
 =========yorg=========
 ===from:Rachel Hollander
 ===date:Wed Feb  9 23:05:48 2000
@@ -220,7 +220,7 @@ In lecture you mentioned that other DNA nucleotides (besides adenine) form high 
 ===from:Jennifer Lanning
 ===date:Wed Feb  9 23:50:16 2000
 ===subject:Chemiosmosis in Prokaryotes and the Endosymbiont Theory
-===message:Last semester we learned about the Endosymbiont Theory which suggests that chloroplasts and mitochondria were formerly small prokaryotes living within larger cells.  Because prokaryotes do not have membrane-bound organelles they use their plasma membrane for chemiosmosis and the ETS system.  A mitochondria has two membranes... the inner derived from the original prokaryote plasma membrane and the outer perhaps formed from the host cell's plasma membrane.  Chemiosmosis in eukaryotes is carried out in the mitochondria and the membrane used for this process is the INNER membrane.  This implies that the inner mitochondrial membrane in eukaryotes has the same function as a prokaryote plasma membrane and this seems to me to be very interesting and convincing evidence in favor of the Endosymbiont Theory.  Is this a common argument used? Additionally, is a similar correlation found in the photosynthesis process and chloroplasts? 
+===message:Last semester we learned about the Endosymbiont Theory which suggests that chloroplasts and mitochondria were formerly small prokaryotes living within larger cells.  Because prokaryotes do not have membrane-bound organelles they use their plasma membrane for chemiosmosis and the ETS system.  A mitochondria has two membranes... the inner derived from the original prokaryote plasma membrane and the outer perhaps formed from the host cell's plasma membrane.  Chemiosmosis in eukaryotes is carried out in the mitochondria and the membrane used for this process is the INNER membrane.  This implies that the inner mitochondrial membrane in eukaryotes has the same function as a prokaryote plasma membrane and this seems to me to be very interesting and convincing evidence in favor of the Endosymbiont Theory.  Is this a common argument used? Additionally, is a similar correlation found in the photosynthesis process and chloroplasts?
 =========yorg=========
 ===from:Jennifer Lanning
 ===date:Wed Feb  9 23:57:54 2000
@@ -231,23 +231,23 @@ In lecture you mentioned that other DNA nucleotides (besides adenine) form high 
 ===email:annettemathieu@hotmail.com
 ===date:Thu Feb 10 20:51:05 2000
 ===subject:DNA Bases
-===message:What is the importance of the various bonding ability of the 
-bases in DNA? Some of them have two bonds, and some have 
+===message:What is the importance of the various bonding ability of the
+bases in DNA? Some of them have two bonds, and some have
 three.  Is it significant in structure, or any other wa
 =========yorg=========
 ===from:Annette Mathieu
 ===email:annettemathieu@hotmail.com
 ===date:Thu Feb 10 20:54:05 2000
 ===subject:Proteins blocking DNA Helix closure
-===message:You said in class that after enzyme heliocase performs, 
-large proteins come in and block the strand from re-bonding, 
+===message:You said in class that after enzyme heliocase performs,
+large proteins come in and block the strand from re-bonding,
 where do they go the
 =========yorg=========
 ===from:Elizabeth Schmerr
 ===email:eschmerr@iastate.edu
 ===date:Fri Feb 11 14:27:20 2000
 ===subject:Transcription
-===message:I was wondering about when DNA is being transcribed on the lagging strand. Since the lagging strand is in "fragments" that need to be linked together, is that where most of the errors occur when DNA is being transcribed?   
+===message:I was wondering about when DNA is being transcribed on the lagging strand. Since the lagging strand is in "fragments" that need to be linked together, is that where most of the errors occur when DNA is being transcribed?
 =========yorg=========
 ===from:Sara
 ===email:sballuff@iastate.edu
@@ -263,7 +263,7 @@ where do they go the
 ===from:Saralyn Ohanian
 ===date:Sat Feb 12 21:25:14 2000
 ===subject:Pyruvate
-===message:Because we don't just eat glucose molecules, our bodies have developed reaction pathways that will allow other molecules to be made into pyruvate (such as amino acids). When pyruvate is made from glucose, you get 34 ATP. (Every mole of pyruvate makes 34 moles of ATP.) Is this true also when the pyruvate comes from amino acids? (You will still get 34 moles of ATP per mole of pyruvate?) 
+===message:Because we don't just eat glucose molecules, our bodies have developed reaction pathways that will allow other molecules to be made into pyruvate (such as amino acids). When pyruvate is made from glucose, you get 34 ATP. (Every mole of pyruvate makes 34 moles of ATP.) Is this true also when the pyruvate comes from amino acids? (You will still get 34 moles of ATP per mole of pyruvate?)
 =========yorg=========
 ===from:Saralyn Ohanian
 ===date:Sat Feb 12 21:27:28 2000
@@ -297,7 +297,7 @@ Jenny Pelusi
 ===date:Tue Feb 15 14:40:18 2000
 ===subject:Reverse Transcriptase
 ===message:Dr. Dolphin,
-Is it reverse transcriptase that works on HIV? Could you please explain how it works? 
+Is it reverse transcriptase that works on HIV? Could you please explain how it works?
 Thank you,
 Lisa Hiebert
 =========yorg=========
@@ -315,7 +315,7 @@ Lisa Hiebert
 ===date:Wed Feb 16 17:25:19 2000
 ===subject:Making genes
 ===message:Hi dr. Dolphin,
-  I was reviewing notes from today's lecture (as you suggested :-) and was confussed about your question "Would there be a way to make genes from scratch for specific proteins?"  You said the answer is yes but I dont completely understand why thats so.  Do you mean its possible to break genes down at certain points on the protein, "copy" them, and then insert them into whatever it is that is desired?  Could you please help me clarify this confussion. Thanks 
+  I was reviewing notes from today's lecture (as you suggested :-) and was confussed about your question "Would there be a way to make genes from scratch for specific proteins?"  You said the answer is yes but I dont completely understand why thats so.  Do you mean its possible to break genes down at certain points on the protein, "copy" them, and then insert them into whatever it is that is desired?  Could you please help me clarify this confussion. Thanks
 =========yorg=========
 ===from:Breanne Hucka
 ===date:Thu Feb 17 19:23:05 2000
@@ -330,7 +330,7 @@ Lisa Hiebert
 ===from:Erin Feld
 ===date:Fri Feb 18 13:15:12 2000
 ===subject:gm crops
-===message:I just wanted to ask you a question on your position on geneticaly modified crops.  Do you think that they are safe for our environment? 
+===message:I just wanted to ask you a question on your position on geneticaly modified crops.  Do you think that they are safe for our environment?
 =========yorg=========
 ===from:Matt Allen
 ===date:Fri Feb 18 13:59:03 2000
@@ -416,7 +416,7 @@ Melissa Millman
 ===from:Kristin Wenzel
 ===date:Sun Feb 27 14:55:17 2000
 ===subject:Bacteriaphage vs. Provirus
-===message:Just to get this straight, a bacteriaphage infects bacteria, but a provirus infects eukaryote cells?  In the lecture, a "mooner lander" was considered to be a bacteriaphage.  Does this mean that it cannot affect humans?  It was just strictly for bacteria?  Or can they infect both?  I'm just a little confused on the exact differences, what makes one different from the next? Thanks. 
+===message:Just to get this straight, a bacteriaphage infects bacteria, but a provirus infects eukaryote cells?  In the lecture, a "mooner lander" was considered to be a bacteriaphage.  Does this mean that it cannot affect humans?  It was just strictly for bacteria?  Or can they infect both?  I'm just a little confused on the exact differences, what makes one different from the next? Thanks.
 Kristin
 =========yorg=========
 ===from:Brandon Hart
@@ -428,7 +428,7 @@ Kristin
 ===date:Mon Feb 28  9:31:28 2000
 ===subject:ATP
 ===message:Dr. Dolphin,
- What exactly is ATP?  I understand that it is a unit that allows the cell and whatnot to carry out work and perform the tasks required of that cell but I dont really quite understand what it is, What it is made of. I read the chapters dealing with this but i have yet to find an answer that is adaquite to understanding this.  Thanks  
+ What exactly is ATP?  I understand that it is a unit that allows the cell and whatnot to carry out work and perform the tasks required of that cell but I dont really quite understand what it is, What it is made of. I read the chapters dealing with this but i have yet to find an answer that is adaquite to understanding this.  Thanks
 =========yorg=========
 ===from:Katie Johnson
 ===date:Mon Feb 28 11:54:22 2000
@@ -448,7 +448,7 @@ Kristin
 ===from:Brandon Hart
 ===date:Mon Feb 28 19:10:30 2000
 ===subject:Two-way traffic?
-===message:Dr. Dolphin- Perhaps I am a little fuzzy on something.  The way a plant's vascular system works is not adding up to me.  It seems that everything is going up, nothing down.  However, when the leaves undergo photosynthesis, doesn't that energy need to get to the roots?  Also, if the same vessels that take stuff up does take it down, then wouldn't that kind of cause a stalemate? (assuming that the holes in the xylem connected between upward and downward moving material.)  Could you please clear this up for me? 
+===message:Dr. Dolphin- Perhaps I am a little fuzzy on something.  The way a plant's vascular system works is not adding up to me.  It seems that everything is going up, nothing down.  However, when the leaves undergo photosynthesis, doesn't that energy need to get to the roots?  Also, if the same vessels that take stuff up does take it down, then wouldn't that kind of cause a stalemate? (assuming that the holes in the xylem connected between upward and downward moving material.)  Could you please clear this up for me?
 =========yorg=========
 ===from:Saralyn Ohanian
 ===date:Mon Feb 28 19:28:10 2000
@@ -458,7 +458,7 @@ Kristin
 ===from:Saralyn Ohanian
 ===date:Mon Feb 28 19:32:52 2000
 ===subject:Insulin
-===message:When bacteria are engineered to make insulin by adding that particular gene into it's plasmid, how does the bacteria secrete it? Does the chemical just diffuse out of it's membrane? I'm asking because to me that's like inserting a "milk" gene into (human) males--they could then MAKE it, but where would they secrete it? 
+===message:When bacteria are engineered to make insulin by adding that particular gene into it's plasmid, how does the bacteria secrete it? Does the chemical just diffuse out of it's membrane? I'm asking because to me that's like inserting a "milk" gene into (human) males--they could then MAKE it, but where would they secrete it?
 =========yorg=========
 ===from:Saralyn Ohanian
 ===date:Mon Feb 28 19:38:31 2000
@@ -489,13 +489,13 @@ Kristin
 =========yorg=========
 ===from:Megan Cox
 ===date:Mon Feb 28 22:07:32 2000
-===subject:Orchids and 
-===message:My mother likes to grow orchids, and she always cautions about if they're "air root" is broken or knocked off that they will die. Why do they only have large air root (for the most part i have noticed) and why would the plant die if the root is broken off? 
+===subject:Orchids and
+===message:My mother likes to grow orchids, and she always cautions about if they're "air root" is broken or knocked off that they will die. Why do they only have large air root (for the most part i have noticed) and why would the plant die if the root is broken off?
 =========yorg=========
 ===from:Megan Cox
 ===date:Mon Feb 28 22:14:39 2000
 ===subject:Air Plants
-===message:While traveling in the south, in places like Louisana, i have noticed so called "air plants" that grow from limbs of live oaks and large trees. These plants seem to have no root system embedded into the tree limb. They do not even seem to have an air root much as an orchid has. How do these plants survive without means of absorbing nutrients throught the soil? I realize that the humid atmoshere in the south would support the water needs, but not nutrients. 
+===message:While traveling in the south, in places like Louisana, i have noticed so called "air plants" that grow from limbs of live oaks and large trees. These plants seem to have no root system embedded into the tree limb. They do not even seem to have an air root much as an orchid has. How do these plants survive without means of absorbing nutrients throught the soil? I realize that the humid atmoshere in the south would support the water needs, but not nutrients.
 =========yorg=========
 ===from:Chimin Ho
 ===date:Tue Feb 29 13:18:37 2000
@@ -516,7 +516,7 @@ is it recycled?</pre>
 ===from:Chimin Ho
 ===date:Tue Feb 29 13:23:24 2000
 ===subject:how many kinds?
-===message:<pre>in class, you said there were about 20 
+===message:<pre>in class, you said there were about 20
 types of tRNA.
 however, the Campbell book says there are
 about 40 different kinds of tRNA
@@ -568,7 +568,7 @@ which number is correct?</pre>
 ===from:Thomas Jack
 ===date:Mon Mar  6 13:52:06 2000
 ===subject:Xylem transport
-===message:I was just wondering why, as far as the root pressure theory 
+===message:I was just wondering why, as far as the root pressure theory
 is concerned, when water is osmotically pushed up in the roots the number for amount of pressure is negative?
 =========yorg=========
 ===from:Sally Stevenson
@@ -627,7 +627,7 @@ Does enropy only excape as heat or is it released in another form?
 ===from:Megan Cox
 ===date:Wed Mar 22 19:09:43 2000
 ===subject:Plants and Light
-===message:After todays lecture, I wondered if the plants we talked about were really as sensitive to light while growing as to not produce flowers, even if car lights passed by. Would this really stop a crop of Poinsettias from flowering? It just seems unrealistic. And if plants are that light sensitive, how would similar plants fare in the wild? Thunderstorms, for instance produce light flashes. Would that produce enough light to kill a population? 
+===message:After todays lecture, I wondered if the plants we talked about were really as sensitive to light while growing as to not produce flowers, even if car lights passed by. Would this really stop a crop of Poinsettias from flowering? It just seems unrealistic. And if plants are that light sensitive, how would similar plants fare in the wild? Thunderstorms, for instance produce light flashes. Would that produce enough light to kill a population?
 =========yorg=========
 ===from:Brandon Hart
 ===date:Wed Mar 22 23:57:45 2000
@@ -742,13 +742,13 @@ sara kudron
 ===date:Tue Mar 28 17:20:16 2000
 ===subject:C4 and C3
 ===message:Dr. Dolphin,
- In SI today we were discussing C3 and C4 stuff and the question came up of where C4 be most effiecent.  The group came up with hot areas which is true because of water loss and whatnot.  The question I have is would C4 also work well in aquatic plants?  
+ In SI today we were discussing C3 and C4 stuff and the question came up of where C4 be most effiecent.  The group came up with hot areas which is true because of water loss and whatnot.  The question I have is would C4 also work well in aquatic plants?
 =========yorg=========
 ===from:Demian Willette
 ===date:Tue Mar 28 17:24:35 2000
 ===subject:PEP
 ===message:Dr. Dolphin,
- My question is if Rubisco (RuBP+Carboxylase) fixates CO2 and RuBP, what fixates PEP?  
+ My question is if Rubisco (RuBP+Carboxylase) fixates CO2 and RuBP, what fixates PEP?
 =========yorg=========
 ===from:Sarah Haindfield
 ===date:Tue Mar 28 23:55:41 2000
@@ -783,7 +783,7 @@ sara kudron
 ===from:Terese Nickol
 ===date:Thu Mar 30 17:40:51 2000
 ===subject:Enzymes vs Hormones
-===message:Dr. Dolphin, 
+===message:Dr. Dolphin,
   I understand that enzymes are proteins serving as catalysts and that hormones are chemical signals that trigger actions in target cells. However, I do not understand what is different between enzymes and hormones. From their functions they seem to do the same thing, trigger cells. The only difference I notice is that hormones are chemical signals and enzymes are proteins. What IS the difference between them?
 =========yorg=========
 ===from:Saralyn Ohanian
@@ -814,7 +814,7 @@ sara kudron
 ===from:andy fields
 ===date:Fri Mar 31 15:02:29 2000
 ===subject:digestive system
-===message:Sometimes, if I don't chew my food well enough, I get the hiccups.  What causes hiccups, what are their function, and is there a true cure?	
+===message:Sometimes, if I don't chew my food well enough, I get the hiccups.  What causes hiccups, what are their function, and is there a true cure?
 =========yorg=========
 ===from:Chris Kubina-Koziol
 ===date:Sun Apr  2 22:15:25 2000
@@ -835,25 +835,25 @@ Lisa Hiebert
 ===date:Mon Apr  3 11:25:01 2000
 ===subject:breathing
 ===message:Dr. Dolphin,
-When you inhale a breath (O2), is it that same breath (CO2) that comes out when you exhale a few seconds later? Or does it run on a "cycle"? 
+When you inhale a breath (O2), is it that same breath (CO2) that comes out when you exhale a few seconds later? Or does it run on a "cycle"?
 Thanks,
 Lisa Hiebert
 =========yorg=========
 ===from:Kristen Shrader
 ===date:Mon Apr  3 13:26:58 2000
 ===subject:angiosperm fertilization
-===message:If the sperm nuclei of angiosperm pollen are not 
+===message:If the sperm nuclei of angiosperm pollen are not
 flagellated, how do they move through the pollen tube?
 =========yorg=========
 ===from:Jennifer Pelusi
 ===date:Mon Apr  3 17:47:39 2000
 ===subject:hemolymph
 ===message:Dr. Dolphin,
-In class today, you said that hemolymph mixes with the interstitial fluid and then they both re-enter the circulatory system.  How is it possible to distinguish one from the other, and once they mix, how do they separate again? 
+In class today, you said that hemolymph mixes with the interstitial fluid and then they both re-enter the circulatory system.  How is it possible to distinguish one from the other, and once they mix, how do they separate again?
 =========yorg=========
 ===from:Kelcey Larsen-Ferree
 ===date:Mon Apr  3 18:06:20 2000
-===subject:Hemoglobin and 
+===subject:Hemoglobin and
 ===message:If increased carbon dioxide concentration causes hemoglobin to release more oxygen into the body tissues, why are patients given pure oxygen in hospitals?  Wouldn't some combination of oxygen and carbon dioxide make for more efficient transfer of oxygen to the body tissues?
 =========yorg=========
 ===from:Susan Wolfe
@@ -903,7 +903,7 @@ In carnivorous plants which exhibit thigmotropism (such as the Venus Flytrap) th
 ===from:Nick Pryor
 ===date:Thu Apr  6 22:48:25 2000
 ===subject:Hemocyanin vs. Hemoglobin
-===message:Why is it that many invertebrates use hemocyanin to carry oxygen in the blood while most vertebrates use hemoglobin? Were these differances brought about by evolution or simply due to the availibilty of substances (copper or iron) in an environment. Is one protien more effective than the other in its ability to transport the oxygen? 
+===message:Why is it that many invertebrates use hemocyanin to carry oxygen in the blood while most vertebrates use hemoglobin? Were these differances brought about by evolution or simply due to the availibilty of substances (copper or iron) in an environment. Is one protien more effective than the other in its ability to transport the oxygen?
 =========yorg=========
 ===from:Jason Peterson
 ===date:Fri Apr  7 10:55:48 2000
@@ -1058,7 +1058,7 @@ When your feet fall asleep is it because the blood is returning to your legs, or
 ===from:Tyree Lawrence
 ===date:Sun Apr 16 22:41:52 2000
 ===subject:Kidneys
-===message:     After taking in all the information that we learned on Friday about kidneys, I still wonder how people are able to survive on just one kidney?  Are they able to function at a normal level?  
+===message:     After taking in all the information that we learned on Friday about kidneys, I still wonder how people are able to survive on just one kidney?  Are they able to function at a normal level?
 =========yorg=========
 ===from:Jan Boge
 ===date:Mon Apr 17  2:02:22 2000
@@ -1089,7 +1089,7 @@ When your feet fall asleep is it because the blood is returning to your legs, or
 ===email:eschmerr@iastate.edu
 ===date:Mon Apr 17 11:30:21 2000
 ===subject:Kidney failure
-===message:I heard somewhere that people who often run long distances like marathons have the possibility for kidney failure.  I was just wondering why this happens.  It seems to me that the only reason someone might experience kidney failure is if they don't drink enough water during the run, but if there is some other reason I would like to know.  
+===message:I heard somewhere that people who often run long distances like marathons have the possibility for kidney failure.  I was just wondering why this happens.  It seems to me that the only reason someone might experience kidney failure is if they don't drink enough water during the run, but if there is some other reason I would like to know.
 =========yorg=========
 ===from:Matt Allen
 ===date:Mon Apr 17 11:34:12 2000
@@ -1106,7 +1106,7 @@ When your feet fall asleep is it because the blood is returning to your legs, or
 ===email:eschmerr@iastate.edu
 ===date:Mon Apr 17 11:43:06 2000
 ===subject:Plants
-===message:This is going way back to the unit on plants, but I was wondering about carbon dioxide incorporation in photosynthesis.  I wanted to know whether or not photosynthesis will increase if there is an increased amount of carbon dioxide available to a plant and the nutrients like phosphorous, ammonia, etc. were in abundance?  If that is true wouldn't the rise in levels of carbon dioxide in the atmosphere today increase the rate of photosynthesis as long as plants had enough minute nutrients?  
+===message:This is going way back to the unit on plants, but I was wondering about carbon dioxide incorporation in photosynthesis.  I wanted to know whether or not photosynthesis will increase if there is an increased amount of carbon dioxide available to a plant and the nutrients like phosphorous, ammonia, etc. were in abundance?  If that is true wouldn't the rise in levels of carbon dioxide in the atmosphere today increase the rate of photosynthesis as long as plants had enough minute nutrients?
 =========yorg=========
 ===from:Tiana Brown
 ===date:Mon Apr 17 14:01:31 2000
@@ -1122,9 +1122,9 @@ In your Wednesday, April 12th lecture, you were discussing how technology has al
 ===from:Megan Cox
 ===date:Tue Apr 18 13:56:29 2000
 ===subject:Circulation
-===message:I was curious as to what happens to your arm or leg when it "falls asleep"? Is it just from cutting off the circulation, or what? 
+===message:I was curious as to what happens to your arm or leg when it "falls asleep"? Is it just from cutting off the circulation, or what?
 
-Another question...Why do people get "charlie-horses" and how are they caused? Why does the muscle cramp up like that, you would think that it was not be advantagous for the muscle to have that happen. Thanks alot. 
+Another question...Why do people get "charlie-horses" and how are they caused? Why does the muscle cramp up like that, you would think that it was not be advantagous for the muscle to have that happen. Thanks alot.
 =========yorg=========
 ===from:Darren Herzog
 ===date:Tue Apr 18 19:22:07 2000
@@ -1214,7 +1214,7 @@ Another question...Why do people get "charlie-horses" and how are they caused? W
 ===from:Leah Pollastrini
 ===date:Wed Apr 19 19:29:48 2000
 ===subject:heart surgery
-===message:My grandfather recently had heart surgery where they "rerouted" blood around his clogged arteries. I was under the impression that they removed a vein from another part of his body and moved it to the area by his heart to carry the blood past the clogged arteries around his heart. Why are the doctors able to remove this vein without causing problems  in the blood flow in the area of the body where the vein was  functioning? Also, can a vein be used to replace a damaged artery? If  so, how does this work  with the valves in the vein? 
+===message:My grandfather recently had heart surgery where they "rerouted" blood around his clogged arteries. I was under the impression that they removed a vein from another part of his body and moved it to the area by his heart to carry the blood past the clogged arteries around his heart. Why are the doctors able to remove this vein without causing problems  in the blood flow in the area of the body where the vein was  functioning? Also, can a vein be used to replace a damaged artery? If  so, how does this work  with the valves in the vein?
 =========yorg=========
 ===from:Jennifer Willems
 ===date:Wed Apr 19 22:17:36 2000
@@ -1225,14 +1225,14 @@ Another question...Why do people get "charlie-horses" and how are they caused? W
 ===date:Thu Apr 20  0:39:56 2000
 ===subject:interneurons
 ===message:Dr. Dolphin,
-     
+
      What is the special purpose of the interneuron.  Why would it not suffice to connect a sensory neuron to a motor neuron?  Why is an intermediary necessary?
 
 =========yorg=========
 ===from:Nick Pryor
 ===date:Thu Apr 20 11:17:30 2000
 ===subject:Salt Excretion
-===message:I know that ocean-bound organisms all have various functions that aid in salt excretion, but I'm not sure you mentioned how mammals that live in or by the ocean function to remove this excess salt. Do they have glands that are similar to the gull and sea turtle? 
+===message:I know that ocean-bound organisms all have various functions that aid in salt excretion, but I'm not sure you mentioned how mammals that live in or by the ocean function to remove this excess salt. Do they have glands that are similar to the gull and sea turtle?
 =========yorg=========
 ===from:Ryan Brenke
 ===date:Fri Apr 21  0:48:55 2000
@@ -1263,7 +1263,7 @@ Another question...Why do people get "charlie-horses" and how are they caused? W
 ===from:Nick Pryor
 ===date:Fri Apr 21 16:54:44 2000
 ===subject:precapillary sphincters
-===message:I understand that the precapillary sphincters function to control blood movement into capillary beds, but during what times would the body want to cut off circulation to capillary beds? 
+===message:I understand that the precapillary sphincters function to control blood movement into capillary beds, but during what times would the body want to cut off circulation to capillary beds?
 =========yorg=========
 ===from:Christina Mahama
 ===date:Sat Apr 22 18:34:40 2000
@@ -1278,7 +1278,7 @@ Another question...Why do people get "charlie-horses" and how are they caused? W
 ===from:Nick Pryor
 ===date:Sun Apr 23 22:53:42 2000
 ===subject:schwann cells vs. oligodendrocytes
-===message:Why does the PNS use Schwann cells and the CNS use oligodendrocytes as supporting cells? Does one of these cells move impulses along the nerve axon faster than the other? 
+===message:Why does the PNS use Schwann cells and the CNS use oligodendrocytes as supporting cells? Does one of these cells move impulses along the nerve axon faster than the other?
 =========yorg=========
 ===from:Grant Schultz
 ===date:Sun Apr 23 23:22:22 2000
@@ -1367,20 +1367,20 @@ In lecture you stated that nerve cells never regenerate, but can still heal if s
 ===from:Kristen Shrader
 ===date:Mon Apr 24 19:58:36 2000
 ===subject:Nervous system
-===message:I recently heard about electrode tests that were conducted 
-on people who had limbs amputated. When they were given 
-certain stimuli, they claimed that they could feel their 
+===message:I recently heard about electrode tests that were conducted
+on people who had limbs amputated. When they were given
+certain stimuli, they claimed that they could feel their
 amputated limb. Is this possible?
 =========yorg=========
 ===from:Ryan Brenke
 ===date:Mon Apr 24 19:59:49 2000
 ===subject:Urea
-===message:You mentioned in class that the generally yellow color of urine is not due to urea. What, then, causes this color of urine? 
+===message:You mentioned in class that the generally yellow color of urine is not due to urea. What, then, causes this color of urine?
 =========yorg=========
 ===from:Kristen Shrader
 ===date:Mon Apr 24 20:01:20 2000
 ===subject:Ear
-===message:Why is it that certain sounds that aren't loud can cause 
+===message:Why is it that certain sounds that aren't loud can cause
 physical discomfort (ex. fingernails on a chalkboard)?
 =========yorg=========
 ===from:Ryan Brenke
@@ -1391,8 +1391,8 @@ physical discomfort (ex. fingernails on a chalkboard)?
 ===from:Kristen Shrader
 ===date:Mon Apr 24 20:06:25 2000
 ===subject:Vision
-===message:In lab, my TA mentioned a certain species of shrimp whose 
-vision is based on 13 primary colors. What would be the use 
+===message:In lab, my TA mentioned a certain species of shrimp whose
+vision is based on 13 primary colors. What would be the use
 of this adaptation?
 =========yorg=========
 ===from:Ryan Brenke
@@ -1526,7 +1526,7 @@ Could you please furthur explain how non-image forming vision(light and dark, an
 ===from:Roni Mukerjea
 ===date:Mon Apr 24 22:43:50 2000
 ===subject:vision
-===message:It is known that humans have a single-lens vision system, and we obviously see one image. Now, insects have a compound eye where they have thousands of light receptors. Does each of these receptors have a seperate "duty" as to create one image? Or do insects and crustaceans actually see a thousand images of an object when they view it? 
+===message:It is known that humans have a single-lens vision system, and we obviously see one image. Now, insects have a compound eye where they have thousands of light receptors. Does each of these receptors have a seperate "duty" as to create one image? Or do insects and crustaceans actually see a thousand images of an object when they view it?
 =========yorg=========
 ===from:Jose Davila
 ===date:Mon Apr 24 22:46:47 2000
@@ -1629,7 +1629,7 @@ Could you please furthur explain how non-image forming vision(light and dark, an
 ===from:Kelly Lackore
 ===date:Wed Apr 26 22:17:55 2000
 ===subject:Columnar Epithelial Cells
-===message:What is the purpose of the shape of columnar epithelial cells?  
+===message:What is the purpose of the shape of columnar epithelial cells?
 =========yorg=========
 ===from:Matt Allen
 ===date:Thu Apr 27 13:46:58 2000
@@ -1670,15 +1670,15 @@ I really don't understand the concept of temporal or spatial summation in nerve 
 ===subject:Cell-mediated
 ===message:I had a cacer in my right ovary for five years ago.
 My doctor in student health center said I might have a pre-
-cancer in left ovary too when my body couldn't stop 
+cancer in left ovary too when my body couldn't stop
 bleeding.
-According to her explanation, the cancer cells in right 
-ovary before I took the operation to take out it, already 
-metastasized to the part of the left ovary, then I still had 
+According to her explanation, the cancer cells in right
+ovary before I took the operation to take out it, already
+metastasized to the part of the left ovary, then I still had
 the problem until I start taking the birth control shot
-to stop my period. I wonder how the cancer cells 
-metastasized to the left ovary and why the pre-cancer was 
-gone by stopping the period. I'm thinking B and T cells can 
+to stop my period. I wonder how the cancer cells
+metastasized to the left ovary and why the pre-cancer was
+gone by stopping the period. I'm thinking B and T cells can
 work well while the ovary has been inactivated, especially,
 T-cells as cell-mediated immunity
 =========yorg=========

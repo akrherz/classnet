@@ -1,10 +1,10 @@
-===from:Melissa Millman 
+===from:Melissa Millman
 ===date:Sun May 19 13:46:47 2002
 ===subject:Who should pay for insurance? (a hard decision)
-===message:The topic of coastal insurance is very frustrating to me.  I have a hard time picking a side about who should pay for insurance when people choose to live or work on the coast.  
-But with careful consideration I have decided that the ones who choose to live there should pay coastal insurance.  I think this can go for individuals who live on a flood plain, also. The reason why I feel this way for coastal areas especially because if people have enough money to build on the coast they should have enough money to afford there own insurance.  And if they can't afford this expensive insurance then they shouldn't build on the coast.  <p> Dr. Schmidt made an excellent comment about remembering that the same question can be asked about people building in flood plains, people who engage in occupations such as farming, and other areas of life where insurance and risk protection are important. I think that it's a good point especially since many of us are from the Midwest and that are opinions may be bias since we don't live on the coast.  As I said before I feel that same rule about who should pay for insurance should be applied for individuals living in the flood plains. But I think a farmer and a hotel owner are completely different.  Farmers should get help with insurance and hotel managers should not. Farmers provide food directly or indirectly by growing crops for us or animals we eat.  We depend on farmers; we would die if we didn't have food.  We would not die if hotel managers were no longer in business and we are certainly not dependent on wealthy hotel owners to live.  <p>  The electronic reader suggested that insurance is very expensive in risky areas.  I think that insurance companies should be some what controlled by governments.  I think that insurance companies can get way out of control with their prices and that they can take advantage of drastic events.  I also think another good point that Ms. Fussel, from the FWUA, made is that, "people living farther inland and people who make their homes more hurricane-safe (should) pay less."  I think that homeowners should be awarded for building hurricane-safe homes.  <p> As I mentioned before this topic is very perplexing and difficult to make a final judgment.  The important thing to remember is that these buildings, many too close to the coastal edge, don't have to be there and who ever choose to live or work there should have to suffer the consequences.   
+===message:The topic of coastal insurance is very frustrating to me.  I have a hard time picking a side about who should pay for insurance when people choose to live or work on the coast.
+But with careful consideration I have decided that the ones who choose to live there should pay coastal insurance.  I think this can go for individuals who live on a flood plain, also. The reason why I feel this way for coastal areas especially because if people have enough money to build on the coast they should have enough money to afford there own insurance.  And if they can't afford this expensive insurance then they shouldn't build on the coast.  <p> Dr. Schmidt made an excellent comment about remembering that the same question can be asked about people building in flood plains, people who engage in occupations such as farming, and other areas of life where insurance and risk protection are important. I think that it's a good point especially since many of us are from the Midwest and that are opinions may be bias since we don't live on the coast.  As I said before I feel that same rule about who should pay for insurance should be applied for individuals living in the flood plains. But I think a farmer and a hotel owner are completely different.  Farmers should get help with insurance and hotel managers should not. Farmers provide food directly or indirectly by growing crops for us or animals we eat.  We depend on farmers; we would die if we didn't have food.  We would not die if hotel managers were no longer in business and we are certainly not dependent on wealthy hotel owners to live.  <p>  The electronic reader suggested that insurance is very expensive in risky areas.  I think that insurance companies should be some what controlled by governments.  I think that insurance companies can get way out of control with their prices and that they can take advantage of drastic events.  I also think another good point that Ms. Fussel, from the FWUA, made is that, "people living farther inland and people who make their homes more hurricane-safe (should) pay less."  I think that homeowners should be awarded for building hurricane-safe homes.  <p> As I mentioned before this topic is very perplexing and difficult to make a final judgment.  The important thing to remember is that these buildings, many too close to the coastal edge, don't have to be there and who ever choose to live or work there should have to suffer the consequences.
 
- 
+
 
 
 
@@ -32,8 +32,8 @@ But with careful consideration I have decided that the ones who choose to live t
 =========yorg=========
 ===from:Joe Darr
 ===date:Mon Jun  3 13:06:23 2002
-===subject:Ummm... duh? 
-===message:Maybe it seems all too obvious to me, but I think that in general that anyone who is receiving benefits from an associated risk (such as putting houses near hurricane prone areas) should pay for the costs that come with said risk. Although there are areas in our society that need society to collectively pool together money for certain causes such as welfare, I don't believe that coastal insurance should be one of them as the benefits here are clearly concentrated on those that are living on the beaches. Yes, there may be some economic reasons for the state of Florida that could be seen as collectively good for the entire state, but I still think that those who are using those areas should make up the costs associated with them. 
+===subject:Ummm... duh?
+===message:Maybe it seems all too obvious to me, but I think that in general that anyone who is receiving benefits from an associated risk (such as putting houses near hurricane prone areas) should pay for the costs that come with said risk. Although there are areas in our society that need society to collectively pool together money for certain causes such as welfare, I don't believe that coastal insurance should be one of them as the benefits here are clearly concentrated on those that are living on the beaches. Yes, there may be some economic reasons for the state of Florida that could be seen as collectively good for the entire state, but I still think that those who are using those areas should make up the costs associated with them.
 =========yorg=========
 ===from:Tim Shepard
 ===date:Mon Jun  3 21:06:14 2002
@@ -58,27 +58,27 @@ But with careful consideration I have decided that the ones who choose to live t
 ===from:Doug Grawe
 ===date:Wed Jun  5 17:30:16 2002
 ===subject:You Build It, You Pay For It
-===message:If you want the view, the luxury, and the lifestyle of the coastal areas then you should pay for it.  Its a choice these people are making to live in these areas, a free choice, no one has come in and forced them to live on the coasts.  So someone who has not chosen to live on the coasts should not have to help bear the costs of living on the coasts for those that do.  If you build it on the coasts or on the flood plains, I'm not going to pay your insurance on it; its your risk, you pay for it.  
+===message:If you want the view, the luxury, and the lifestyle of the coastal areas then you should pay for it.  Its a choice these people are making to live in these areas, a free choice, no one has come in and forced them to live on the coasts.  So someone who has not chosen to live on the coasts should not have to help bear the costs of living on the coasts for those that do.  If you build it on the coasts or on the flood plains, I'm not going to pay your insurance on it; its your risk, you pay for it.
 =========yorg=========
 ===from:christopher barone
 ===date:Wed Jun  5 20:31:09 2002
 ===subject:living in the high life?...you get what you pay for
-===message:The answer to the question of who pays to insure 
-people and business on the coast of florida should be 
-an easy one.  The people who make the choice to live 
-there should pay inflated rates to cover their assests in 
-case of a catastrophe.  There is no reason that people 
-living farther inland should pay the same rates as 
-people living on the coast.  Insurace rates should 
-decrease the farther inland you go.  The state should 
-not have to pick up the slack and insure when private 
-insurance doesnt.  People who choose to live in these 
-high risk areas should understand that paying high 
-premiums in insurance is part of the lifestyle.  People 
-should know that a hurricane is going to strike sooner 
-or later.  The 10 percent of floridas high risk population 
-should be incharge of making sure they are covered.  it 
-is a privilage to live on the coast and people need to 
+===message:The answer to the question of who pays to insure
+people and business on the coast of florida should be
+an easy one.  The people who make the choice to live
+there should pay inflated rates to cover their assests in
+case of a catastrophe.  There is no reason that people
+living farther inland should pay the same rates as
+people living on the coast.  Insurace rates should
+decrease the farther inland you go.  The state should
+not have to pick up the slack and insure when private
+insurance doesnt.  People who choose to live in these
+high risk areas should understand that paying high
+premiums in insurance is part of the lifestyle.  People
+should know that a hurricane is going to strike sooner
+or later.  The 10 percent of floridas high risk population
+should be incharge of making sure they are covered.  it
+is a privilage to live on the coast and people need to
 realize this and stop taking it for granted.
 =========yorg=========
 ===psite:http://www2.iastate.edu
@@ -98,18 +98,18 @@ realize this and stop taking it for granted.
 =========yorg=========
 ===from:Quincie Cooper
 ===date:Wed Jun  5 21:24:55 2002
-===subject:Pay what?? 
-===message:I think that it is important to recognize that the coastline is a potentially treacherous area for anyone to be developing.  However, those who choose to build on coastline know what they are getting into.  
+===subject:Pay what??
+===message:I think that it is important to recognize that the coastline is a potentially treacherous area for anyone to be developing.  However, those who choose to build on coastline know what they are getting into.
 <p>
-Industry and tourism really have no cause to whine about higher insurance costs because chances are they will pass the costs off to the consumer anyway in some form.  In addition, corporations may be subsidized in the form of tax breaks for developing in such an area in first place.  So, basically all of us are potentially paying for any higher insurance costs of industry along the coastline.  
+Industry and tourism really have no cause to whine about higher insurance costs because chances are they will pass the costs off to the consumer anyway in some form.  In addition, corporations may be subsidized in the form of tax breaks for developing in such an area in first place.  So, basically all of us are potentially paying for any higher insurance costs of industry along the coastline.
 <p>
-As for residential builders along the coastline, what is the dynamic of these people?  I mean isn't coastal property, especially in Florida, expensive?  So though all Floridians are subsidizing the cost of insurance for those who maintian property in high risk areas, they shouldn't have too.  There are risks that can and should be assumed when residing along coastlines and if those people spent half an ounce of energy to research their property choice they would understand that for them to follow through would mean that they and they alone assume any future problems/damage. 
+As for residential builders along the coastline, what is the dynamic of these people?  I mean isn't coastal property, especially in Florida, expensive?  So though all Floridians are subsidizing the cost of insurance for those who maintian property in high risk areas, they shouldn't have too.  There are risks that can and should be assumed when residing along coastlines and if those people spent half an ounce of energy to research their property choice they would understand that for them to follow through would mean that they and they alone assume any future problems/damage.
 =========yorg=========
 ===from:Kaiphat Phaydavong
 ===email:gqjon@iastate.edu
 ===date:Wed Jun  5 21:33:49 2002
 ===subject:who pays
-===message:When it comes down to who should pay for the insurance it should come down to the builders and the investors that are putting money into making the developments.  The people of Florida should not have to pay insurance for those projects because it is not their decision to build those buildings and projects.  The developers know that they are building on a high risk area.  So becuase of that they should provide their own insurance and pay for it regardless.  Although, it takes more money out of their account their profits from the development will equal it all out.  
+===message:When it comes down to who should pay for the insurance it should come down to the builders and the investors that are putting money into making the developments.  The people of Florida should not have to pay insurance for those projects because it is not their decision to build those buildings and projects.  The developers know that they are building on a high risk area.  So becuase of that they should provide their own insurance and pay for it regardless.  Although, it takes more money out of their account their profits from the development will equal it all out.
 =========yorg=========
 ===from:AJ Panska
 ===date:Wed Jun  5 22:22:35 2002
@@ -154,25 +154,25 @@ Since it is almost inevitable that developments too close to the coast will even
 
 There is a major difference in considering who should pay for residential coastal insurance and considering whether farming and fishing operations should receive federal bailout dollars.  It has been the government's policy since WWII to ensure that Americans have cheap food on the country's grociery store shelves.  If farming/fishing wasn't subsidized, consumer food costs would skyrocket.  In addition, so would unemployment; not only would small farmers be out of work, but the resulting chain reaction would spread to local elevators, co-ops, implement dealerships, etc.  Not to mention that small town rural life as we know would cease to exist.  Food production is a necessary part of life, and if a portion of our tax dollars have to be paid to keep food costs down and to provide jobs for millions of Americans, then so be it.  People who choose to live on the coast are not forced to do so.  They know the risks of living in such areas and the costs associated with doing so.  They should be the ones bearing the brunt of these costs. <p>
 
-I also was thinking about zoning policy, and I see that someone else posted a message along the same lines.  Whenever a hurricane hits hard, I always see pictures of destroyed mobile homes on TV.  Why not prohibit mobile homes in certain high risk areas within a certain distance from the coast?  That would seem to be an easy policy to implement to prevent certain destruction in strong hurricanes and tropical storms.  
+I also was thinking about zoning policy, and I see that someone else posted a message along the same lines.  Whenever a hurricane hits hard, I always see pictures of destroyed mobile homes on TV.  Why not prohibit mobile homes in certain high risk areas within a certain distance from the coast?  That would seem to be an easy policy to implement to prevent certain destruction in strong hurricanes and tropical storms.
 =========yorg=========
 ===from:Jamie Rador
 ===date:Wed Jun 12 16:24:05 2002
 ===subject:Who Pays?
-===message:When a natural disaster strikes everyone pays.  Insurance and residents notice a loss in revenues very quickly.  The rest of the nation also feels it's rippling effects.  From flooding in Iowa to mudslides in California we always look back and wonder why did they ever do things that way.  So even after the loss more money is spent to prevent the same thing from reoccuring.  There is no simple answer.  I do feel that people who build in areas prone to disaster should pay huge insurance fees, but in the end we all pay. 
+===message:When a natural disaster strikes everyone pays.  Insurance and residents notice a loss in revenues very quickly.  The rest of the nation also feels it's rippling effects.  From flooding in Iowa to mudslides in California we always look back and wonder why did they ever do things that way.  So even after the loss more money is spent to prevent the same thing from reoccuring.  There is no simple answer.  I do feel that people who build in areas prone to disaster should pay huge insurance fees, but in the end we all pay.
 =========yorg=========
 ===from:Victor
 ===email:heatflo@hotmail.com
 ===date:Thu Jun 20 13:41:36 2002
 ===subject:Raw deal
 ===message:
-  I have read some of the comments, and it seem incredible to me that some people think that since "we all take something from the seas" we should all pay for coastal prperties's insurance. The point that this is the same as subsidising farmers is just innocence. The majority of the bussinesses being "affected" by this insurance rates are leisure-type bussinesses, that's not a staple in the American food chain. 
- <p> Being from Miami I can tell that there are no "working class" neighborhoods affected by this situation. To live in North,and/or South Miami Beach, Bal Harbour, Coconut Grove, Fisher Island, etc, etc is a symbol of incredible wealth. Like other student said, if you are thinking about joining the pack (and I would love to) think about insurance as well. In my opinion if we are going to pay taxes for other's capricious desires, well we should start thinking about some kind of dinasty to show case in Hola's next edition.  
+  I have read some of the comments, and it seem incredible to me that some people think that since "we all take something from the seas" we should all pay for coastal prperties's insurance. The point that this is the same as subsidising farmers is just innocence. The majority of the bussinesses being "affected" by this insurance rates are leisure-type bussinesses, that's not a staple in the American food chain.
+ <p> Being from Miami I can tell that there are no "working class" neighborhoods affected by this situation. To live in North,and/or South Miami Beach, Bal Harbour, Coconut Grove, Fisher Island, etc, etc is a symbol of incredible wealth. Like other student said, if you are thinking about joining the pack (and I would love to) think about insurance as well. In my opinion if we are going to pay taxes for other's capricious desires, well we should start thinking about some kind of dinasty to show case in Hola's next edition.
 =========yorg=========
 ===from:William Ray Brown
 ===date:Fri Jun 21 17:45:07 2002
 ===subject:Who Pays?
-===message:Who pays after destruction of property,loss of lives,dreams and hopes after a natural disaster on the coast. I believe the answer to that is the taxpayer. Building modest to luxury homes and business in a high risk natural area is a major concern, because there is a greater chance of your property to be destroyed.This oponion was address in Florida where insurance companies have higher premium to those who live on the coast and less to those who live further inland. This is justification because home and business owners have a choice to build on the coast or further in the city. One should expect higher property  taxes and higher premium to live in an exclusive area on the coast. Although we are not able to predict when a natural disaster will arise, we do know by history that it will happen and some property and lives may be lost. Insurance companies are  gaining a monumental profit because "we the people" chose to build near the coast. The government should not have to pay for property damages to someone's property when they chose to live near a natural disaster area. The people are responsible for the   property loss and paying back of monies to disaster relief funds to rebuild and refurbish homes and business when hurricanes arrive and destroy. Ironically if the government who are elected "by the people for the people" decides to abolish all homes or business within a "100 mile radius" of the beach, because of natural disaster concerns, then those officials would be promply  voted out of office becuase you are depriving Americans of there most valuable assest, and that is entertainment,fun, and relaxation on the coast. Therefore if the people of Florida or in the United States do not urged there legislator to ban all business and homes with in 100 mile radius or further from coastal areas to prevent hurrincanes and storms from killing people and damage of property, then it should be the people who should pay higher taxes and premiums to the insurance companines and to the government to rebuild and refurbish loss properties and compensation for loss of lives. 
+===message:Who pays after destruction of property,loss of lives,dreams and hopes after a natural disaster on the coast. I believe the answer to that is the taxpayer. Building modest to luxury homes and business in a high risk natural area is a major concern, because there is a greater chance of your property to be destroyed.This oponion was address in Florida where insurance companies have higher premium to those who live on the coast and less to those who live further inland. This is justification because home and business owners have a choice to build on the coast or further in the city. One should expect higher property  taxes and higher premium to live in an exclusive area on the coast. Although we are not able to predict when a natural disaster will arise, we do know by history that it will happen and some property and lives may be lost. Insurance companies are  gaining a monumental profit because "we the people" chose to build near the coast. The government should not have to pay for property damages to someone's property when they chose to live near a natural disaster area. The people are responsible for the   property loss and paying back of monies to disaster relief funds to rebuild and refurbish homes and business when hurricanes arrive and destroy. Ironically if the government who are elected "by the people for the people" decides to abolish all homes or business within a "100 mile radius" of the beach, because of natural disaster concerns, then those officials would be promply  voted out of office becuase you are depriving Americans of there most valuable assest, and that is entertainment,fun, and relaxation on the coast. Therefore if the people of Florida or in the United States do not urged there legislator to ban all business and homes with in 100 mile radius or further from coastal areas to prevent hurrincanes and storms from killing people and damage of property, then it should be the people who should pay higher taxes and premiums to the insurance companines and to the government to rebuild and refurbish loss properties and compensation for loss of lives.
 =========yorg=========
 ===from:simion samoei
 ===date:Tue Jun 25 15:00:48 2002
@@ -204,7 +204,7 @@ Summing up, I feel that the owners of property and business on the coast should 
 
 <p>The Porsche is my dream car.  Isn’t it the American dream to be driving down the road with the wind soaring through your hair?  Insurance is a pain.  If I buy the red Porsche, I just can’t get insurance.  The combination of my bad driving and the bad drivers around me make it impossible for me to afford.  Of course Geico (not Gecko) is willing to insure me if I’ll pay the cash.  But you know, I’m a poor college student who can barely afford the Porsche.
 
-<p>On the other hand, I can the Ford Focus.  It is a modest mobile.  I will not be cruising around impressing the ladies, but I will be able to afford insurance.  The Ford Focus isn’t the American dream (no ill directed towards those who drive one).   
+<p>On the other hand, I can the Ford Focus.  It is a modest mobile.  I will not be cruising around impressing the ladies, but I will be able to afford insurance.  The Ford Focus isn’t the American dream (no ill directed towards those who drive one).
 
 <p>So, using the same logic as beach homeowners, I buy the Porsche and expect some sort of deal on insurance.  It’s a beautiful car, why should I have to drive it without insurance?
 

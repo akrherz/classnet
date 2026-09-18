@@ -85,9 +85,9 @@ J)Father Frans---He has a farming background so could hopefully help produce foo
 =========yorg=========
 ===from:Jessica Stone
 ===date:Thu Sep 25  0:10:06 2003
-===subject:CA: Warrents in Essays 
+===subject:CA: Warrents in Essays
 ===message:HACK---I think that in the 3rd paragraph he assumes we know the teachings of the Torah and therefore should understand his religion.  Going to Yale implies that he is well educated and can accuratly express his opinion.
-JACOBY---Because the MCAS is one of the nations toughest test, it implies that Massachusetts has a more rigorous public school system.  
+JACOBY---Because the MCAS is one of the nations toughest test, it implies that Massachusetts has a more rigorous public school system.
 MOORE---In the 1st paragraph he implies that industry and labor don't care about the enviroment and global warming.
 =========yorg=========
 ===from:Jessica Stone

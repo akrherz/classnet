@@ -3,7 +3,7 @@
 ===date:Sat Nov 23 18:20:31 2002
 ===subject:episode 13- initial posting
 ===message:
-The America segments of the episode really emphasized how much better Americans had it than the rest of the world. The people in the segment were very happy; they were experiencing a life without worries; a life that was only getting better. Everyday tasks were becoming easier and taking less time to complete. I think the segment generalized what American culture was experiencing. Just as today, on the surface everybody seems to have it good, but we all are aware of the ghettos, slums, and all the poverty that exists in our own cities. It was the same in the fifties. People from the Deep South were not represented, scores of blacks and senior citizens were also left out of the picture. In just about every area there was at least some population suffering from poverty.  
+The America segments of the episode really emphasized how much better Americans had it than the rest of the world. The people in the segment were very happy; they were experiencing a life without worries; a life that was only getting better. Everyday tasks were becoming easier and taking less time to complete. I think the segment generalized what American culture was experiencing. Just as today, on the surface everybody seems to have it good, but we all are aware of the ghettos, slums, and all the poverty that exists in our own cities. It was the same in the fifties. People from the Deep South were not represented, scores of blacks and senior citizens were also left out of the picture. In just about every area there was at least some population suffering from poverty.
 =========yorg=========
 ===from:Wendy Abdo
 ===date:Mon Nov 25 16:27:37 2002
@@ -35,7 +35,7 @@ Social critics lampooned the "split-level trap," but most suburbanities enjoyed 
 ===email:csu10138@mail.claytonstate.net
 ===date:Sun Dec  1  6:43:01 2002
 ===subject:Boom Time Response
-===message:Apart from the land-power of the Red army, the overwhelming industrial power of the United States had been the decisive material factor behind the Allied victory. America had equipped not only her own huge forces but also those of her allies. Moreover, by comparison with them, victory had cost her little. For American aid (The Marshal Plan) to recover Europe as a major world center of industrial production, the American dynamo had to be there to power it. The enormous wartime expansion of the American economy that brought it out of the prewar depression, together with the immunity of the American home base from physical damage, had ensured that it would be. This is the impression I got from the film segment. It also depicted thousands of young servicemen coming back to America to pick up their lives and start new families in new homes with new jobs. With energy never before experienced, American industry expanded to meet peacetime needs. Americans began buying goods not available during the war, which created corporate expansion and jobs.  Growth everywhere.  The baby boom was underway and so was the golden age of the family. Happily married men and women lived in suburban homes raising families. Women gleefully fulfilled their roles as mothers and wives while men contently worked to provide for their families. The “nuclear family” of the 1950's arose due to particular circumstances involving both America’s past and its future. Instead of just prosperity, the definition of the American dream expanded to include the family; the dream became profoundly domestic. 
+===message:Apart from the land-power of the Red army, the overwhelming industrial power of the United States had been the decisive material factor behind the Allied victory. America had equipped not only her own huge forces but also those of her allies. Moreover, by comparison with them, victory had cost her little. For American aid (The Marshal Plan) to recover Europe as a major world center of industrial production, the American dynamo had to be there to power it. The enormous wartime expansion of the American economy that brought it out of the prewar depression, together with the immunity of the American home base from physical damage, had ensured that it would be. This is the impression I got from the film segment. It also depicted thousands of young servicemen coming back to America to pick up their lives and start new families in new homes with new jobs. With energy never before experienced, American industry expanded to meet peacetime needs. Americans began buying goods not available during the war, which created corporate expansion and jobs.  Growth everywhere.  The baby boom was underway and so was the golden age of the family. Happily married men and women lived in suburban homes raising families. Women gleefully fulfilled their roles as mothers and wives while men contently worked to provide for their families. The “nuclear family” of the 1950's arose due to particular circumstances involving both America’s past and its future. Instead of just prosperity, the definition of the American dream expanded to include the family; the dream became profoundly domestic.
 =========yorg=========
 ===from:Edith Nwosu
 ===date:Mon Dec  2 18:04:41 2002
@@ -46,7 +46,7 @@ Social critics lampooned the "split-level trap," but most suburbanities enjoyed 
 ===institution:HIst 1110
 ===date:Tue Dec  3 22:29:00 2002
 ===subject:materialism
-===message:So, the Fifties were clearly a decade of the birth of "plastic" spending. Do you think of this as an advance or a setback for America. I understand that it was known as a time of new prosperity, but I often wonder whats so great about credit....it seems to be the source that feeds our impatient desires to have what we can't realistically have  right now. It seems totally necessary to be able to finance a house or a car, but it makes you wonder just how closely correlated materialism is with credit spending. 
+===message:So, the Fifties were clearly a decade of the birth of "plastic" spending. Do you think of this as an advance or a setback for America. I understand that it was known as a time of new prosperity, but I often wonder whats so great about credit....it seems to be the source that feeds our impatient desires to have what we can't realistically have  right now. It seems totally necessary to be able to finance a house or a car, but it makes you wonder just how closely correlated materialism is with credit spending.
 =========yorg=========
 ===from:Keri Zink
 ===date:Wed Dec  4 15:29:56 2002
@@ -57,7 +57,7 @@ Social critics lampooned the "split-level trap," but most suburbanities enjoyed 
 ===email:csu10138@mail.claytonstate.net
 ===date:Thu Dec  5  4:44:59 2002
 ===subject:Boom Time Response (2)
-===message:One issue that was not emphasized in the film was the plight of the African-American. A century after emancipation, the black American was likely to be poorer, more often on relief, more often unemployed, less well housed and less healthy than the white American. Thirty years later, this was still, sadly, even more the case. In the 1950’s, though, there was widespread optimism about changing things. The African-American position in society suddenly began to appear intolerable and became a great political question because of three facts. One was migration. Between 1940 and 1960 the African-American population of the Northern states almost tripled. This turned a local Southern question into a national problem. Moreover, it brought the plight of African-Americans into view not only in new places, but also in new ways. It revealed that the problem facing them was not only one of legal rights, but more complex. It involved economic and cultural deprivation as well. The second fact pushed the question onto the international stage. Many of the new nations, which were becoming a majority at the United Nations during this period, were nations of colored peoples. It was an embarrassment, of which communist propaganda made good use, for the United States to display at home so flagrant a violation of the ideals she advocated abroad. Finally, the actions of African-Americans themselves under their own leaders, some inspired by Gandhian principles of passive resistance to oppression, won over many whites. In the end the legal and political position of African-Americans was radically altered for the better as a result. Bitterness and resentment were not eliminated in the process, though, and in some places actually increased and more African-Americans than before remained poor and deprived. 
+===message:One issue that was not emphasized in the film was the plight of the African-American. A century after emancipation, the black American was likely to be poorer, more often on relief, more often unemployed, less well housed and less healthy than the white American. Thirty years later, this was still, sadly, even more the case. In the 1950’s, though, there was widespread optimism about changing things. The African-American position in society suddenly began to appear intolerable and became a great political question because of three facts. One was migration. Between 1940 and 1960 the African-American population of the Northern states almost tripled. This turned a local Southern question into a national problem. Moreover, it brought the plight of African-Americans into view not only in new places, but also in new ways. It revealed that the problem facing them was not only one of legal rights, but more complex. It involved economic and cultural deprivation as well. The second fact pushed the question onto the international stage. Many of the new nations, which were becoming a majority at the United Nations during this period, were nations of colored peoples. It was an embarrassment, of which communist propaganda made good use, for the United States to display at home so flagrant a violation of the ideals she advocated abroad. Finally, the actions of African-Americans themselves under their own leaders, some inspired by Gandhian principles of passive resistance to oppression, won over many whites. In the end the legal and political position of African-Americans was radically altered for the better as a result. Bitterness and resentment were not eliminated in the process, though, and in some places actually increased and more African-Americans than before remained poor and deprived.
 =========yorg=========
 ===from:Eric Klausner
 ===date:Fri Dec  6  8:57:01 2002
@@ -67,7 +67,7 @@ Social critics lampooned the "split-level trap," but most suburbanities enjoyed 
 ===from:Debbie Whiteman
 ===date:Fri Dec  6 13:09:41 2002
 ===subject:Boom Time
-===message:Life in 1950's America according to the program segment was a good life because young men were coming back from the war to put their lives together; marrying, starting the baby boom and worked to be able to buy more than just the "neccessities.  As you know, many goods that were not available during the war were now available to families.  Not only were they able to get these things but it created jobs. The people in the segment appear to be  happy family people.  The 50's was a time of genuine family togetherness.  Dad worked and mom stayed home to take care of the house and the children.  Dad was glad to do it because that is just the way things were back then. I noticed that there was no segment part mentioned of the black race nor the poor. 
+===message:Life in 1950's America according to the program segment was a good life because young men were coming back from the war to put their lives together; marrying, starting the baby boom and worked to be able to buy more than just the "neccessities.  As you know, many goods that were not available during the war were now available to families.  Not only were they able to get these things but it created jobs. The people in the segment appear to be  happy family people.  The 50's was a time of genuine family togetherness.  Dad worked and mom stayed home to take care of the house and the children.  Dad was glad to do it because that is just the way things were back then. I noticed that there was no segment part mentioned of the black race nor the poor.
 =========yorg=========
 ===from:Janna Smith
 ===date:Sat Dec  7 16:39:34 2002
@@ -77,19 +77,19 @@ Social critics lampooned the "split-level trap," but most suburbanities enjoyed 
 ===from:Gena
 ===date:Sun Dec  8 14:07:16 2002
 ===subject:Boom TIme
-===message:I think after fighting WWI and WWII by the time the 50's came America was starting to feel comfortable again. They felt that everything was wonderful for the most part here and abroad. They started to let there guard down a bit and enjoy life. We had alot of open free trade now with countries all over the world. We where importing as well as exporting goods which provided jobs as well as enabled us to buy things we where not able to before. Technology was moving ahead with leaps and bounds. But Boom Time was for white america. The white people moved out to the suburbs and had the house with the white picket fence, the 2.5 children and the dog. They depicted a life of prosperity and happiness. The wife stayed home and raised the kids and the dad was the primary bread winner. There was still much poverty in america though. Rural areas such as the south where still very poor. There where lots of tenant farms. So Boom Time just shows a portion of what America was like then. 
+===message:I think after fighting WWI and WWII by the time the 50's came America was starting to feel comfortable again. They felt that everything was wonderful for the most part here and abroad. They started to let there guard down a bit and enjoy life. We had alot of open free trade now with countries all over the world. We where importing as well as exporting goods which provided jobs as well as enabled us to buy things we where not able to before. Technology was moving ahead with leaps and bounds. But Boom Time was for white america. The white people moved out to the suburbs and had the house with the white picket fence, the 2.5 children and the dog. They depicted a life of prosperity and happiness. The wife stayed home and raised the kids and the dad was the primary bread winner. There was still much poverty in america though. Rural areas such as the south where still very poor. There where lots of tenant farms. So Boom Time just shows a portion of what America was like then.
 =========yorg=========
 ===from:Robert Jones
 ===date:Sun Dec  8 15:58:22 2002
 ===subject:Boomtime
-===message:The 1950’s was a time of unprecedented growth in the American economy. This magnitude of the "boom" was largely due to the economic shambles that the U.S. was in for so long before the war. There was nowhere for it to go but up - and it certainly did. Men who were, a few years earlier, fighting for their lives on beaches and in foxholes were anxious to partake in the prosperity after so many years of living in a state of peril they wondered if they would escape from alive. My own grandfather was married just six months after returning from the Pacific. He, not unlike other soldiers, built his house with money from the G.I. Bill. Within five years, my grandparents also had three children. It was, I’m sure, an exciting time for a man who grew up the son of a sharecropper. The possibilities probably seemed endless. I think the representation of life in the post-war context of this film was accurate. However, certain aspects of 1950’s American society were omitted such as the African-American struggle for equal treatment.  
+===message:The 1950’s was a time of unprecedented growth in the American economy. This magnitude of the "boom" was largely due to the economic shambles that the U.S. was in for so long before the war. There was nowhere for it to go but up - and it certainly did. Men who were, a few years earlier, fighting for their lives on beaches and in foxholes were anxious to partake in the prosperity after so many years of living in a state of peril they wondered if they would escape from alive. My own grandfather was married just six months after returning from the Pacific. He, not unlike other soldiers, built his house with money from the G.I. Bill. Within five years, my grandparents also had three children. It was, I’m sure, an exciting time for a man who grew up the son of a sharecropper. The possibilities probably seemed endless. I think the representation of life in the post-war context of this film was accurate. However, certain aspects of 1950’s American society were omitted such as the African-American struggle for equal treatment.
 =========yorg=========
 ===from:Yvelle Maurice
 ===date:Sun Dec  8 23:06:40 2002
 ===subject:Boom Time
-===message:The program segment showed that Americans in the 1950s were living glamorous lives.  Majority of the citizens had a house, car, garden, and many household appliances.  It also displayed that the job market allowed workers to go to work and still have leisure time to spend their extra money on.  It was also easier for people to get a job because of the mass production.  As time went on, so did the boom, products were commercialized.  The people were very happy.  They had very little struggle.  They had options on what they wanted to buy for their house.  They were also able to give their children things that they weren’t able to have growing up in the depression.   The program segment was not accurate because it did not show the lives of poor and black people. Everyone did not benefit from the industry boom.  They only showed people who were able to afford the luxuries.  
+===message:The program segment showed that Americans in the 1950s were living glamorous lives.  Majority of the citizens had a house, car, garden, and many household appliances.  It also displayed that the job market allowed workers to go to work and still have leisure time to spend their extra money on.  It was also easier for people to get a job because of the mass production.  As time went on, so did the boom, products were commercialized.  The people were very happy.  They had very little struggle.  They had options on what they wanted to buy for their house.  They were also able to give their children things that they weren’t able to have growing up in the depression.   The program segment was not accurate because it did not show the lives of poor and black people. Everyone did not benefit from the industry boom.  They only showed people who were able to afford the luxuries.
 =========yorg=========
-===from:Mark Prosper 
+===from:Mark Prosper
 ===date:Mon Dec  9  1:43:48 2002
 ===subject:Boom Time
 ===message:Life in America during the 1950's was characterized by post-war prosperity.  The recurring theme of the era was a nation undamaged by the war and more productive and prosperous than ever before.  There were more jobs available and cofidence in the American way of doing things soared to new heights.  The people of the era enjoyed luxuries such as houses, cars, and new appliances.  They also earned more than anyone had ever earned prior to the era.  The working class was represented in the segment moreso than the black americans who faced discrimination and were thus denied to partake in the American dream.
@@ -97,31 +97,31 @@ Social critics lampooned the "split-level trap," but most suburbanities enjoyed 
 ===from:Debbie Whiteman
 ===date:Tue Dec 10  7:46:33 2002
 ===subject:Thought some of you might enjoy this
-===message:KIDS IN THE FIFTIES 
+===message:KIDS IN THE FIFTIES
 
 
 
-Were you a kid in the Fifties or so ? 
+Were you a kid in the Fifties or so ?
 
-Everybody makes fun of our childhood! Comedians joke. 
+Everybody makes fun of our childhood! Comedians joke.
 
-Grandkids snicker. Twenty-something's shudder and say "Eeeew!" 
+Grandkids snicker. Twenty-something's shudder and say "Eeeew!"
 
-But was our childhood really all that bad? 
+But was our childhood really all that bad?
 
-Judge for yourself: 
-
-
+Judge for yourself:
 
 
 
 
 
-In 1953 The US population was less than 150 million... 
 
-Yet you knew more people then, and knew them better... 
 
-And that was good. 
+In 1953 The US population was less than 150 million...
+
+Yet you knew more people then, and knew them better...
+
+And that was good.
 
 
 
@@ -129,30 +129,21 @@ And that was good.
 
 The average annual salary was under $3,000...
 
-Yet our parents could put some of it away for a rainy day and still live a decent life... 
+Yet our parents could put some of it away for a rainy day and still live a decent life...
 
-And that was good. 
+And that was good.
 
- 
 
-      
+
+
 
 
 
 A loaf of bread cost about 15 cents...
 
- But it was safe for a five-year-old to skate to the store and buy one... 
+ But it was safe for a five-year-old to skate to the store and buy one...
 
-And that was good. 
-
- 
-
-
-
-
-
-
- 
+And that was good.
 
 
 
@@ -162,38 +153,47 @@ And that was good.
 
 
 
-Prime-Time meant I Love Lucy, Ozzie and Harriet, Gunsmoke and Lassie... 
-
-So nobody ever heard of ratings or filters... 
-
-And that was good. 
-
- 
 
 
 
 
 
-We didn't have air-conditioning... 
-
-So the windows stayed up and half a dozen mothers ran outside 
-when you fell off your bike... 
-
-And that was good. 
-
- 
 
 
 
 
+Prime-Time meant I Love Lucy, Ozzie and Harriet, Gunsmoke and Lassie...
 
-Your teacher was either Miss Matthews or Mrs. Logan or Mr. Adkins... 
+So nobody ever heard of ratings or filters...
 
-But not Ms Becky or Mr.Dan... 
+And that was good.
 
-And that was good. 
 
- 
+
+
+
+
+
+We didn't have air-conditioning...
+
+So the windows stayed up and half a dozen mothers ran outside
+when you fell off your bike...
+
+And that was good.
+
+
+
+
+
+
+
+Your teacher was either Miss Matthews or Mrs. Logan or Mr. Adkins...
+
+But not Ms Becky or Mr.Dan...
+
+And that was good.
+
+
 
 
 
@@ -201,73 +201,71 @@ And that was good.
 
 The only hazardous material you knew about...
 
-Was a patch of grassburrs around the light pole at the corner... 
+Was a patch of grassburrs around the light pole at the corner...
 
-And that was good. 
-
- 
+And that was good.
 
 
 
 
 
-You loved to climb into a fresh bed... 
-
-Because sheets were dried on the clothesline... 
-
-And that was good. 
-
- 
 
 
+You loved to climb into a fresh bed...
 
-People generally lived in the same hometown with their relatives... 
+Because sheets were dried on the clothesline...
 
-So "child care" meant grandparents or aunts and uncles... 
-
-And that was good. 
-  
+And that was good.
 
 
 
-Parents were respected and their rules were law.... 
-
-Children did not talk back..... 
-
-and that was good. 
-
- 
 
 
+People generally lived in the same hometown with their relatives...
 
-TV was in black-and-white... 
+So "child care" meant grandparents or aunts and uncles...
+
+And that was good.
+
+
+
+
+Parents were respected and their rules were law....
+
+Children did not talk back.....
+
+and that was good.
+
+
+
+
+
+TV was in black-and-white...
 
 But all outdoors was in glorious color....
 
-And that was certainly good. 
-
- 
+And that was certainly good.
 
 
 
-Your Dad knew how to adjust everybody's carburetor... 
 
-And the Dad next door knew how to adjust all the TV knobs... 
 
-And that was very good. 
+Your Dad knew how to adjust everybody's carburetor...
 
- 
+And the Dad next door knew how to adjust all the TV knobs...
+
+And that was very good.
+
+
 
 
 
 
 Your grandma grew snap beans in the back yard...
 
-And chickens behind the garage... 
+And chickens behind the garage...
 
-And that was definitely good. 
-
- 
+And that was definitely good.
 
 
 
@@ -283,35 +281,23 @@ And that was definitely good.
 
 
 
-And just when you were about to do something really bad... 
 
-Chances were you'd run into your Dad's high school coach... 
 
-Or the nosy old lady from up the street... 
+And just when you were about to do something really bad...
 
-Or your little sister's piano teacher... 
+Chances were you'd run into your Dad's high school coach...
 
-Or somebody from Church... 
+Or the nosy old lady from up the street...
+
+Or your little sister's piano teacher...
+
+Or somebody from Church...
 
 ALL of whom knew your parents' phone number...
 
-And YOUR first name... 
+And YOUR first name...
 
-And even THAT was good! ~ ~ ~ ~ ~ ~ ~ ~ ~ REMEMBER.... 
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-Send this on to someone who can still remember Nancy Drew, The Hardy Boys, Laurel & Hardy, Abbott & Costello, Sky King, Little Lulu comics, Brenda Starr, Howdy Doody and The Peanut Gallery, The Lone Ranger, The Shadow Knows, Nellie Belle, Roy and Dale, Trigger and Buttermilk as well as the sound of a reel mower on Saturday morning,  and summers filled with bike rides, playing in cowboy land, playing hide and seek and kick-the-can and Simon Says, baseball games, amateur shows at the local theater before the Saturday matinee, bowling and visits to the pool...and eating Kool-Aid powder with sugar, and wax lips and bubblegum cigars 
+And even THAT was good! ~ ~ ~ ~ ~ ~ ~ ~ ~ REMEMBER....
 
 
 
@@ -322,9 +308,23 @@ Send this on to someone who can still remember Nancy Drew, The Hardy Boys, Laure
 
 
 
-Didn't that feel good, just to go back and say, Yeah, I remember that! And was it really that long ago? 
 
- 
+
+
+Send this on to someone who can still remember Nancy Drew, The Hardy Boys, Laurel & Hardy, Abbott & Costello, Sky King, Little Lulu comics, Brenda Starr, Howdy Doody and The Peanut Gallery, The Lone Ranger, The Shadow Knows, Nellie Belle, Roy and Dale, Trigger and Buttermilk as well as the sound of a reel mower on Saturday morning,  and summers filled with bike rides, playing in cowboy land, playing hide and seek and kick-the-can and Simon Says, baseball games, amateur shows at the local theater before the Saturday matinee, bowling and visits to the pool...and eating Kool-Aid powder with sugar, and wax lips and bubblegum cigars
+
+
+
+
+
+
+
+
+
+
+Didn't that feel good, just to go back and say, Yeah, I remember that! And was it really that long ago?
+
+
 
 
 
@@ -339,12 +339,12 @@ Didn't that feel good, just to go back and say, Yeah, I remember that! And was i
 ===from:Ebony Mulero
 ===date:Tue Dec 10  9:43:37 2002
 ===subject:Boom Time
-===message:The Boom Time segment showed that people in the 1950's were doing better. Jobs were booming and for the time people did not have to worry about losing there jobs. More people were now able to afford houses, cars, and appliances. Everyday tasks, like washing clothes, were were getting easier and taking up less time. Life was just getting a little easier. People in the 1950's were more family-oriented. They ate together, watched TV together, went on family picnics, etc. Everyone knew eachother, kids would be safe playing outside by themselves, everyone looked after eachother. Most people had confidance that they would have a good future ahead of them. This video did not show the life of minorities, blacks, hispanics, asians, etc. It only showed the life of the prosperous white people. The video also did not show the people who were homeless, and the poor white people.  
+===message:The Boom Time segment showed that people in the 1950's were doing better. Jobs were booming and for the time people did not have to worry about losing there jobs. More people were now able to afford houses, cars, and appliances. Everyday tasks, like washing clothes, were were getting easier and taking up less time. Life was just getting a little easier. People in the 1950's were more family-oriented. They ate together, watched TV together, went on family picnics, etc. Everyone knew eachother, kids would be safe playing outside by themselves, everyone looked after eachother. Most people had confidance that they would have a good future ahead of them. This video did not show the life of minorities, blacks, hispanics, asians, etc. It only showed the life of the prosperous white people. The video also did not show the people who were homeless, and the poor white people.
 =========yorg=========
 ===from:Ebony Mulero
 ===date:Tue Dec 10  9:44:11 2002
 ===subject:Boom Time
-===message:The Boom Time segment showed that people in the 1950's were doing better. Jobs were booming and for the time people did not have to worry about losing there jobs. More people were now able to afford houses, cars, and appliances. Everyday tasks, like washing clothes, were were getting easier and taking up less time. Life was just getting a little easier. People in the 1950's were more family-oriented. They ate together, watched TV together, went on family picnics, etc. Everyone knew eachother, kids would be safe playing outside by themselves, everyone looked after eachother. Most people had confidance that they would have a good future ahead of them. This video did not show the life of minorities, blacks, hispanics, asians, etc. It only showed the life of the prosperous white people. The video also did not show the people who were homeless, and the poor white people.  
+===message:The Boom Time segment showed that people in the 1950's were doing better. Jobs were booming and for the time people did not have to worry about losing there jobs. More people were now able to afford houses, cars, and appliances. Everyday tasks, like washing clothes, were were getting easier and taking up less time. Life was just getting a little easier. People in the 1950's were more family-oriented. They ate together, watched TV together, went on family picnics, etc. Everyone knew eachother, kids would be safe playing outside by themselves, everyone looked after eachother. Most people had confidance that they would have a good future ahead of them. This video did not show the life of minorities, blacks, hispanics, asians, etc. It only showed the life of the prosperous white people. The video also did not show the people who were homeless, and the poor white people.
 =========yorg=========
 ===from:Mark Ehrlich
 ===date:Tue Dec 10 10:34:08 2002
@@ -379,8 +379,8 @@ Didn't that feel good, just to go back and say, Yeah, I remember that! And was i
 ===from:Kristin Crook
 ===date:Tue Dec 10 22:22:39 2002
 ===subject:Good Luck
-===message:Hello class, I have enjoyed discussing the history of our world with all of you. Thanks for a great semester and good luck with your exams as well as all other endeavors that life will take you through. 
-- Kristin 
+===message:Hello class, I have enjoyed discussing the history of our world with all of you. Thanks for a great semester and good luck with your exams as well as all other endeavors that life will take you through.
+- Kristin
 =========yorg=========
 ===from:shameeka beckett
 ===date:Tue Dec 10 22:41:18 2002
@@ -395,12 +395,12 @@ Didn't that feel good, just to go back and say, Yeah, I remember that! And was i
 ===from:Melonie Broner
 ===date:Tue Dec 10 22:47:24 2002
 ===subject:Boom Time
-===message:My impression of the people on the segment were that they were extremely happy and successful. They had homes, cars, jobs, and money. In the segment, there were no worries. I do not believe that the segment was very accurate. The segment only showed the happy. Everyone was not as blessed as everyone appeared to be on that video. For every success story, I am sure there were more depressed stories. The black and poor (which were probably synonymous in those times for most, although I am sure there were a handful of poor whites) were not represented in this video segment. The video showed just how disillusioned most Americans were during this period of time. 
+===message:My impression of the people on the segment were that they were extremely happy and successful. They had homes, cars, jobs, and money. In the segment, there were no worries. I do not believe that the segment was very accurate. The segment only showed the happy. Everyone was not as blessed as everyone appeared to be on that video. For every success story, I am sure there were more depressed stories. The black and poor (which were probably synonymous in those times for most, although I am sure there were a handful of poor whites) were not represented in this video segment. The video showed just how disillusioned most Americans were during this period of time.
 =========yorg=========
 ===from:Kathleen Gibbs
 ===date:Tue Dec 10 23:05:53 2002
 ===subject:Boom Town
-===message:The impressions given by the program of life in the 1950’s was that life was great for the people who were 
+===message:The impressions given by the program of life in the 1950’s was that life was great for the people who were
 given the opportunities to make a good living for their families. Those fortunate families seemed to have just about anything they wanted if they could afford it. The spot light did not shine on the segments of the population who were not being given the same opportunity to succeed.  The program dealt with the production of consumer goods and how the United States was very efficient at turning out these good to sell at home and abroad.
 
 =========yorg=========

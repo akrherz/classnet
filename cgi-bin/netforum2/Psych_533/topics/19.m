@@ -4,7 +4,7 @@
 ===message:5.	Important Ideas
 <p>
 <br>
-a.	Behavioral conditioning, from Pressley text, and from Graubard, Rosenberg, & Miller.  Explanation:  Behavior can be conditioned, that is people can be trained to react to stimuli in a predetermined way by offering rewards (intermittently) for a desired action or behavior. 	
+a.	Behavioral conditioning, from Pressley text, and from Graubard, Rosenberg, & Miller.  Explanation:  Behavior can be conditioned, that is people can be trained to react to stimuli in a predetermined way by offering rewards (intermittently) for a desired action or behavior.
 <p>
 <br>
 b.	Perceptual Learning, from Pressley text.  Explanation:  Learning takes place as a series of more exacting perceptions.  Things are differentiated and better defined over time as exposure to them increases over that time.
